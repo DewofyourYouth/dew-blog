@@ -17,7 +17,7 @@ post = "/:section/:filename/" # Custom post links, e.g. "/:year/:month/:title/"
 
 [params]
 author = "Jacob Shore"                # You can also set author in post front matter individually
-subTitle = "Musings."
+subTitle = "The musings of Jacob Shore."
 defaultTheme = "auto"              # default theme when first visit (auto|dark|light)
 
 showWordCounter = true

@@ -1,7 +1,6 @@
 baseURL = 'http://example.org/'
-languageCode = 'en-us'
 title = 'Dew Blog'
-theme = 'fuji'
+theme = 'hyde'
 asCJKLanguage = true
 enableEmoji = true
 enableRobotsTXT = true
@@ -17,47 +16,10 @@ post = "/:section/:filename/" # Custom post links, e.g. "/:year/:month/:title/"
 
 [params]
 author = "Jacob Shore"                # You can also set author in post front matter individually
-subTitle = "The musings of Jacob Shore."
+description = "The musings of Jacob Shore."
 defaultTheme = "auto"              # default theme when first visit (auto|dark|light)
 
-showWordCounter = true
-showReadTime = false
-hideNoTagList = false
+
 
 mainSections = ["post"]
 
-[markup]
-[markup.goldmark]
-[markup.goldmark.renderer]
-unsafe = true # Enable user to embed HTML snippets in Markdown content
-[markup.highlight]
-codeFences = false # Disable Hugo's code highlighter
-
-[markup.tableOfContents]
-startLevel = 2
-endLevel = 3
-
-
-[menu]
-[[menu.nav]]
-name = "Home"
-url = "/"
-weight = 1
-[[menu.nav]]
-name = "Archives"
-url = "/archives/"
-weight = 2
-[[menu.nav]]
-name = "About"
-url = "/about/"
-weight = 3
-[[menu.nav]]
-name = "RSS"
-url = "/index.xml"
-weight = 4
-
-[build]
-noJSConfigInAssets = true
-
-[security]
-enableInlineShortcodes = true

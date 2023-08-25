@@ -77,6 +77,6 @@ While I quickly found out that I would have to up the ante regarding my prep wor
 
 Looking back on this, I realize that was one of the ways the Rosh Yeshiva pushed us to grow. The Rosh Yeshiva knew full well what I was doing, but he knew that this was the driving force to me learning Chumash, Rashi, and Ramban every week. And learning them _well!_ I mean, who learns Chumash _well!?_
 
-One time, the Rosh Yeshiva smiled at me in the middle of a meal, put his hand on my hand, and said, "Yankel, I see you prepared שניים מקרא well this week." In fact, now that I think about it, today is Friday.
+One time, the Rosh Yeshiva smiled at me in the middle of a meal, put his hand on my hand, and said, "Yankel, I see you prepared שניים מקרא well this week."
 
-Perhaps, I'll go prepare this week's סדרה for the Rosh Yeshiva this Shabbos.
+Now that I think about it, today is Friday. Perhaps, I'll go prepare this week's סדרה for the Rosh Yeshiva this Shabbos.

@@ -41,6 +41,6 @@ In Parashas Berieshis, the Rosh Yeshiva noted on the verse (Genesis 2:15):
 
 Where Rashi quotes the Medrash which explains that it doesn't mean he picked him up and placed him in the Garden, but rather that he convinced him with words.
 
-"How did חז״ל know this?", the Rosh Yeshiva asked, "How does he know the meaning isn't simply that He picked him up and placed Adam in the garden!?"
+"How did חז״ל know this?", the Rosh Yeshiva asked, "How does he know the meaning isn't simply that He picked him up and placed Adam in the garden!? Isn't that the simple reading of the _passuk?_"
 
-The Rosh Yeshiva answered, "because the verb 'to take' means different things in different contexts. A man is not a sack of potatoes that you pick of here and place here. When referring to men, 'to take' means with words. This is the simple reading of the _passuk_."
+The Rosh Yeshiva answered, "No, the simple reading of the _passuk_ is like Rashi. The verb 'to take' means different things in different contexts. A man is not a sack of potatoes that you pick of here and place there. When referring to men, 'to take' means with words."

@@ -1,13 +1,17 @@
 ---
-title: "I Weep Over This Beauty That Will Be Buried in Earth"
+title: I Weep Over This Beauty That Will Be Buried in Earth
 description: Memories of the Rosh Yeshiva זצ״ל, Part I
 date: 2023-08-25T08:57:12+03:00
+image: cover.jpg
 tags:
   - Rabbi Aaron Shechter
   - Yeshivas Rabbeinu Chaim Berlin
   - ראש ישיבה
   - memories
 draft: false
+categories:
+  - Torah
+  - Memories
 author: Jacob Shore
 ---
 
@@ -80,3 +84,5 @@ Looking back on this, I realize that was one of the ways the Rosh Yeshiva pushed
 One time, the Rosh Yeshiva smiled at me in the middle of a meal, put his hand on my hand, and said, "Yankel, I see you prepared שניים מקרא well this week."
 
 Now that I think about it, today is Friday. Perhaps, I'll go prepare this week's סדרה for the Rosh Yeshiva this Shabbos.
+
+![Rosh Yeshiva and me at my wedding](rosh-yeshiva.jpg)

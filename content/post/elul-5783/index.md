@@ -1,10 +1,12 @@
-+++
-title = "Elul 5783"
-description = "Hope For The New Year"
-tags = ["אלול", "קבלות"]
-date = 2023-08-22T12:16:48+03:00
-draft = false
-+++
+---
+title: "Elul 5783"
+description: "Hope For The New Year"
+tags: ["אלול", "קבלות"]
+date: 2023-08-22T12:16:48+03:00
+categories:
+  - Torah
+draft: false
+---
 
 As the new year of תשפ״ד comes closer and we find ourselves in the month on אלול. My resolutions for Elul through עשרת ימי תשובה:
 

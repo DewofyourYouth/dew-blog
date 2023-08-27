@@ -1,25 +1,36 @@
 baseURL = 'http://example.org/'
 title = 'Dew Blog'
-theme = 'hyde'
-asCJKLanguage = true
-enableEmoji = true
-enableRobotsTXT = true
-disableKinds = ["taxonomy"]
-ignoreErrors = ["error-disable-taxonomy"]
+theme = 'hugo-theme-stack'
 
-[taxonomies]
-tag = "tags"
-
-[permalinks]
-post = "/:section/:filename/" # Custom post links, e.g. "/:year/:month/:title/"
-
+[colorScheme]
+toggle = false
 
 [params]
 author = "Jacob Shore"                # You can also set author in post front matter individually
 description = "The musings of Jacob Shore."
 defaultTheme = "auto"              # default theme when first visit (auto|dark|light)
-
-
+featuredImageField = "image"
 
 mainSections = ["post"]
+
+[[cover]]
+enabled = true
+
+
+[goldmark.renderer]
+unsafe = false
+
+[tableOfContents]
+endLevel = 4
+ordered = true
+startLevel = 2
+
+[highlight]
+noClasses = false
+codeFences = true
+guessSyntax = true
+lineNoStart = 1
+lineNos = true
+lineNumbersInTable = true
+tabWidth = 4
 

@@ -11,13 +11,13 @@ tags:
 draft: false
 categories:
   - Torah
-  - Memories
+  - memories
 author: Jacob Shore
 ---
 
 > The Gemara relates that Rabbi Elazar, another of Rabbi Yoḥanan’s students, fell ill. Rabbi Yoḥanan entered to visit him, and saw that he was lying in a dark room. Rabbi Yoḥanan exposed his arm, and light radiated from his flesh, filling the house. He saw that Rabbi Elazar was crying, and said to him: Why are you crying? Thinking that his crying was over the suffering that he endured throughout his life, Rabbi Yoḥanan attempted to comfort him: If you are weeping because you did not study as much Torah as you would have liked, we learned: One who brings a substantial sacrifice and one who brings a meager sacrifice have equal merit, as long as he directs his heart toward Heaven. If you are weeping because you lack sustenance and are unable to earn a livelihood, as Rabbi Elazar was, indeed, quite poor, not every person merits to eat off of two tables, one of wealth and one of Torah, so you need not bemoan the fact that you are not wealthy. If you are crying over children who have died, this is the bone of my tenth son, and suffering of that kind afflicts great people, and they are afflictions of love. Rabbi Elazar said to Rabbi Yoḥanan: I am not crying over my misfortune, but rather, over this beauty of yours that will decompose in the earth, as Rabbi Yoḥanan’s beauty caused him to consider human mortality. Rabbi Yoḥanan said to him: Over this, it is certainly appropriate to weep. Both cried over the fleeting nature of beauty in the world and death that eventually overcomes all.
 
-[Talmud Bavli, Berahos 5b - Translation from Sefaria](https://www.sefaria.org.il/Berakhot.5b.14?lang=bi&with=all&lang2=en)
+[From Talmud Bavli, Berahos 5b - Translation from Sefaria](https://www.sefaria.org.il/Berakhot.5b.14?lang=bi&with=all&lang2=en)
 
 The [death of my Rosh Yeshiva](https://hamodia.com/2023/08/24/bde-harav-aharon-schechter-ztl-rosh-yeshivah-yeshivas-chaim-berlin/), Rabbi Aaron Schechter זצ״ל came as a shock yesterday. He hadn't been well for many years, and it was very hard to get in to see him. His memory was not what it used to be towards the end - I guess I had a lot of excuses for not staying in touch. The news of his passing hit me like a ton of bricks. It had been 8 years since I had last spoken with him.
 

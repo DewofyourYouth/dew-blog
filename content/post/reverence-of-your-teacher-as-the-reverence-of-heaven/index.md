@@ -3,6 +3,11 @@ title: The Reverence of your Teacher as the Reverence of Heaven
 description: Memories of the Rosh Yeshiva זצ״ל, Part II
 date: 2023-08-27
 image: cover.jpg
+tags:
+  - Rabbi Aaron Shechter
+  - Yeshivas Rabbeinu Chaim Berlin
+  - ראש ישיבה
+  - memories
 categories:
   - Torah
   - memories

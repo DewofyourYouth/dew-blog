@@ -44,7 +44,7 @@ In Parashas Bereishis, the Rosh Yeshiva would note regarding the verse (Genesis 
 
 > And G-d took the Adam and placed him in the garden of Eden...
 
-Rashi, on this _passuk_, quotes a Medrash explaining that it doesn't mean he picked him up and placed him in the Garden, but rather that he convinced him with words.
+Rashi, on this _passuk_, quotes a Medrash explaining that it doesn't mean he picked him up and placed him in the Garden, but rather that he convinced him with words to go to the garden.
 
 "How did חז״ל know this?", the Rosh Yeshiva asked, "How does he know the meaning isn't simply that He picked him up and placed Adam in the garden!? Isn't that the simple reading of the _passuk?_"
 

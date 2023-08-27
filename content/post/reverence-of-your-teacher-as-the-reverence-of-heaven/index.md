@@ -61,3 +61,5 @@ There was a certain young man in the Yeshiva who had a depressive temperament. O
 "If you find him there, tell him I would like it very much if he would come over to talk to me," the Rosh Yeshiva would say, "because he's a good man and I enjoy speaking with him."
 
 I will always be grateful to the Rosh Yeshiva for this. Not only for his care, but for the way he encouraged me to care, and gave me an awareness of being נושא בעול חבירו, shouldering your brother's burden. We revered him, but all the while, we felt his love.
+
+![The Rosh Yeshiva זצ״ל with my father. (The current Rosh Yeshiva, Rabbi Shlomo Halouwa שליט״א in the background )](ry-and-father.jpg)

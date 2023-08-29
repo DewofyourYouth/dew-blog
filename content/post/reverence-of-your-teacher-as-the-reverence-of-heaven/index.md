@@ -1,7 +1,7 @@
 ---
 title: The Reverence for your Teacher as the Reverence of Heaven
 description: Memories of the Rosh Yeshiva זצ״ל, Part II
-date: 2023-08-27
+date: 2023-08-27 22:56
 image: cover.jpg
 tags:
   - Rabbi Aaron Shechter

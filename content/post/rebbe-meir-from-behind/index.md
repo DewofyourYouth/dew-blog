@@ -32,7 +32,7 @@ To give a simple example, in Parshas Balak, at the Shabbos table in Camp Morris,
 > There is a people that dwells apart, \
 > Not reckoned among the nations.
 
-The context here is that Bilaam is hired by Balak to curse the children of Israel, but when he tries, Hashem turns his curses to blessings. The above phrase is part of his first attempt to curse the Jews.
+The general context here is that Bilaam is hired by Balak to curse the children of Israel, but when he tries, Hashem turns his curses to blessings. The above phrase is part of his first attempt to curse the Jews.
 
 The phrase “I see them from the mountain tops” is ambiguous both in English and in _Loshon_ _Kodesh_. It could mean either, I see those who are on the mountain top, or I, who am on the mountain top, see them.
 

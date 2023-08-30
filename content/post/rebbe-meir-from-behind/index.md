@@ -27,10 +27,12 @@ The Rosh Yeshiva זצ״ל would often emphasize the importance of understanding 
 
 To give a simple example, in Parshas Balak, at the Shabbos table in Camp Morris, we learnt the following _passuk_ (Numbers 23:9).
 
-> As I see them from the mountain tops,
-> Gaze on them from the heights,
-> There is a people that dwells apart,
+> As I see them from the mountain tops, \
+> Gaze on them from the heights, \
+> There is a people that dwells apart, \
 > Not reckoned among the nations.
+
+The context here is that Bilaam is hired by Balak to curse the children of Israel, but when he tries, Hashem turns his curses to blessings. The above phrase is part of his first attempt to curse the Jews.
 
 The phrase “I see them from the mountain tops” is ambiguous both in English and in _Loshon_ _Kodesh_. It could mean either, I see those who are on the mountain top, or I, who am on the mountain top, see them.
 

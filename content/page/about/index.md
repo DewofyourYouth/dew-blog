@@ -8,7 +8,7 @@ menu:
   main:
     weight: 2
     params:
-      icon: hash
+      icon: user
 ---
 
 Hi, I'm Jacob! I am a kollel-guy-turned-software-engineer living in Beit Shemesh, Israel with my wife Chani, and our five boys בלי עין הרע. I plan to use this blog to write my random musings and notes here.

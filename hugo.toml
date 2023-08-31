@@ -20,7 +20,6 @@ provider = "disqus"
 shortname = "dew-blog"
 mainSections = ["post"]
 
-mainSections = ["post"]
 [[cover]]
 enabled = true
 

@@ -3,12 +3,12 @@ title = 'Dew Blog'
 theme = 'hugo-theme-stack'
 disqusShortname = "dew-blog"
 
-[comments]
-enabled = true
-provider = "disqus"
+# [comments]
+# enabled = true
+# provider = "disqus"
 
-[comments.disqusjs]
-shortname = "dew-blog"
+# [comments.disqusjs]
+# shortname = "dew-blog"
 
 [colorScheme]
 toggle = false
@@ -18,6 +18,19 @@ author = "Jacob Shore"                # You can also set author in post front ma
 description = "The musings of Jacob Shore."
 defaultTheme = "auto"              # default theme when first visit (auto|dark|light)
 featuredImageField = "image"
+
+[params]
+author = "Jacob Shore"                # You can also set author in post front matter individually
+description = "The musings of Jacob Shore."
+defaultTheme = "auto"              # default theme when first visit (auto|dark|light)
+featuredImageField = "image"
+[params.comments]
+enabled = true
+provider = "disqus"
+
+[params.comments.disqusjs]
+shortname = "dew-blog"
+mainSections = ["post"]
 
 mainSections = ["post"]
 [[cover]]

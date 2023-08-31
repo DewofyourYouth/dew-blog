@@ -5,7 +5,7 @@ tags: ["אלול", "קבלות"]
 date: 2023-08-31T09:10:48+03:00
 categories:
   - Torah
-draft: true
+draft: false
 ---
 
 When I decided to publically post my _kabbolos_ for Elul 5783, I had mixed feelings about it. On the one hand, there's a certain lack of צניעות in posting something personal like this. I also was worried about normalizing my personal failures by publicizing them. On the other hand, I wanted to hold myself accountable publically. It's not that I expect or even want anyone to read this. Although, if you're someone other than me reading this, you're more than welcome to it.

@@ -12,6 +12,7 @@ categories:
   - Torah
   - memories
 draft: false
+comments: true
 ---
 
 > Rabbi Elazar ben Shammua said: let the honor of your student be as dear to you as your own, and the honor of your colleague as the reverence for your teacher, and the reverence for your teacher as the reverence of heaven.

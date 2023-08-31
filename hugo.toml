@@ -3,6 +3,13 @@ title = 'Dew Blog'
 theme = 'hugo-theme-stack'
 disqusShortname = "dew-blog"
 
+[comments]
+enabled = true
+provider = "disqus"
+
+[comments.disqusjs]
+shortname = "dew-blog"
+
 [colorScheme]
 toggle = false
 

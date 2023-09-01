@@ -4,7 +4,7 @@ description: My son's bar mitzva speech, originally delivered by my son Eliyahu 
 date: 2023-09-01T10:10:48+03:00
 categories: ["Torah", "speaking"]
 tags: ["bar mitzva", "parshas Eikev", "speech", "ברכות"]
-draft: true
+draft: false
 ---
 
 In Parshas Eikev it says:

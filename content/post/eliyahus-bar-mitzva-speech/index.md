@@ -18,7 +18,7 @@ Then, they took the general obligation to say a ברכה and specified various �
 
 The משנה in ברכות דף נ״ד עמוד א says as follows:
 
-> בנה בית חדש, קנה כלים חדשים, מברך שהחיינו וקיימנו והגיענו לזמן הזה
+> בנה בית חדש, קנה כלים חדשים, מברך שהחיינו וקיימנו והגיענו לזמן הזה \
 > If one build a new house, or buys new objects, he says the ברכה that he has given us life, sustained us, and brought us to this time.
 
 The ברכה of שהחיינו is a ברכה that is said at a time of particular joy.
@@ -49,7 +49,7 @@ The גמרא is then מדייק that if so, they all must agree, that in a case 
 
 The גמרא tries to bring ראייה to the לישנא קמא, (the first version) by bring a ברייתא
 
-מֵיתִיבִי: בָּנָה בַּיִת חָדָשׁ וְאֵין לוֹ כַּיּוֹצֵא בּוֹ, קָנָה כֵּלִים חֲדָשִׁים וְאֵין לוֹ כַּיּוֹצֵא בָּהֶם — צָרִיךְ לְבָרֵךְ. יֵשׁ לוֹ כַּיּוֹצֵא בָּהֶם — אֵין צָרִיךְ לְבָרֵךְ, דִּבְרֵי רַבִּי מֵאִיר. רַבִּי יְהוּדָה אוֹמֵר: בֵּין כָּךְ וּבֵין כָּךְ צָרִיךְ לְבָרֵךְ
+> מֵיתִיבִי: בָּנָה בַּיִת חָדָשׁ וְאֵין לוֹ כַּיּוֹצֵא בּוֹ, קָנָה כֵּלִים חֲדָשִׁים וְאֵין לוֹ כַּיּוֹצֵא בָּהֶם — צָרִיךְ לְבָרֵךְ. יֵשׁ לוֹ כַּיּוֹצֵא בָּהֶם — אֵין צָרִיךְ לְבָרֵךְ, דִּבְרֵי רַבִּי מֵאִיר. רַבִּי יְהוּדָה אוֹמֵר: בֵּין כָּךְ וּבֵין כָּךְ צָרִיךְ לְבָרֵךְ
 
 > One who built a new house and does not already own a similar house, or purchased new items and does not already own similar items, must recite a ברכה. However, if **he** already **owns a similar** one, he doesn't need to say a ברכה, this is the statement of Rebbe Meir. Rebbe Yehuda, on the other hand, says: In either case, he must recite a blessing.
 
@@ -87,7 +87,7 @@ tell us the extent to which רבי יהודה is מתיר **MAKING** a שהחי�
 
 There, the רשב״ם uses the concept of כח דהתירא עדיף in a similar context of ברכות הנהנין and the רש״ל asks our question:
 
-> ואני אומר אדרבא הכא הוא כח דהתירא - שמיקל לברך עוד- ולא חיישינן לברכה לבטלה...
+> ואני אומר אדרבא הכא הוא כח דהתירא - שמיקל לברך עוד- ולא חיישינן לברכה לבטלה... \
 > And I say, the opposite is true, the כח דהתירא is the one who is מיקל to allow a ברכה and is not worried about a ברכה לבטלה
 
 The מהרש״א and the אליה רבא say a TREMENDOUS חידוש here!

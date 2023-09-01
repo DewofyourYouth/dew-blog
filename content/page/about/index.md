@@ -3,6 +3,7 @@ title: About
 description: "The random musing of Jacob Shore"
 tags: ["about", "random musings"]
 date: 2023-08-22
+image: "DSC_1341.JPG"
 slug: "about"
 menu:
   main:

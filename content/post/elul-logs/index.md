@@ -1,10 +1,9 @@
 ---
 title: Elul Logs
 description: Notes from Obsidian on Progress
-tags: ["אלול", "קבלות"]
+tags: ["אלול", "קבלות", "self improvement"]
 date: 2023-08-31T09:10:48+03:00
-categories:
-  - Torah
+categories: ["Torah", "mussar"]
 draft: false
 ---
 

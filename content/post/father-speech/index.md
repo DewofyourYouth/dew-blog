@@ -1,5 +1,5 @@
 ---
-title: "My Speech"
+title: Don't Waste Time Talking With The Cow
 description: A speech I gave at my son's bar mitzva. Originally delivered August 6th, 2023
 date: 2023-09-04T20:13:23+03:00
 draft: false

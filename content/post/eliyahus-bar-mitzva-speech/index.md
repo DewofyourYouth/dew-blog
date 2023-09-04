@@ -5,6 +5,7 @@ date: 2023-09-01T10:10:48+03:00
 categories: ["Torah", "speaking"]
 tags: ["bar mitzva", "parshas Eikev", "speech", "ברכות"]
 draft: false
+image: DSC_1772.JPG
 ---
 
 In Parshas Eikev it says:

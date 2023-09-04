@@ -41,6 +41,8 @@ My son is leining at school tomorrow morning. I had to help him. I ended up goin
 
 Today I woke up and woke up Eliyahu to practice his leining before shul. I went to the 6:40 minyan at KSY. It's a much farther walk than Zichron Moshe, but the pace is somewhat better.
 
-I'm going to WFH today, and I think also on Thursday. Better to be in a _shul_ for _krias hatorah_.
+I'm going to WFH today, and I think also on Thursday. Better to be in a _shul_ for _krias hatorah_. 
+
+I caught up with Daf HaYomi today! 😌
 
 Here is a [link to the spreadsheet](https://docs.google.com/spreadsheets/d/1-_lmKdJ7ZpfgfUV1Gm1zYOW8gRP5b75D2Qj52uR6KuA/edit?usp=sharing).

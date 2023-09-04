@@ -1,7 +1,7 @@
 ---
 title: Elul Logs
 description: Notes from Obsidian on Progress
-tags: ["אלול", "קבלות", "self improvement"]
+tags: ["אלול", "קבלות", "self improvement", "elul logs"]
 date: 2023-08-31T09:10:48+03:00
 categories: ["Torah", "mussar"]
 draft: false
@@ -98,4 +98,4 @@ Some notes about the data:
 | 11-Elul-5783 | 8/28/2023    | 1               | 1                           | 1              | 1      | 1          | 1       | 1              | Parashat Ki Tavo    |
 | 12-Elul-5783 | 8/29/2023    | 1               | 1                           | 1              | 1      | 1          | 1       | 0              | Parashat Ki Tavo    |
 | 13-Elul-5783 | 8/30/2023    | 1               | 1                           | 1              | 0      | 1          | 1       | 1              | Parashat Ki Tavo    |
-| 14-Elul-5783 | 8/31/2023    | 1               | 1                           | -1             |        |            |         |                | Parashat Ki Tavo    |
+| 14-Elul-5783 | 8/31/2023    | 1               | 1                           | -1             | 1      | 0          | 1       | 0              | Parashat Ki Tavo    |

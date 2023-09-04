@@ -2,6 +2,10 @@
 title: "Father Speech"
 date: 2023-09-04T20:13:23+03:00
 draft: false
+categories:
+  - speaking
+  - Torah
+tags: ["bar mitzvah", "speech", "cow"]
 image: DSC_1793.JPG
 ---
 

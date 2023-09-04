@@ -4,7 +4,7 @@ description: More Notes from Obsidian on Progress
 tags: ["אלול", "קבלות", "self improvement", "elul logs"]
 date: 2023-09-04T08:10:48+03:00
 categories: ["Torah", "mussar"]
-draft: true
+draft: false
 ---
 
 ## Friday, September 1st
@@ -42,3 +42,5 @@ My son is leining at school tomorrow morning. I had to help him. I ended up goin
 Today I woke up and woke up Eliyahu to practice his leining before shul. I went to the 6:40 minyan at KSY. It's a much farther walk than Zichron Moshe, but the pace is somewhat better.
 
 I'm going to WFH today, and I think also on Thursday. Better to be in a _shul_ for _krias hatorah_.
+
+Here is a [link to the spreadsheet](https://docs.google.com/spreadsheets/d/1-_lmKdJ7ZpfgfUV1Gm1zYOW8gRP5b75D2Qj52uR6KuA/edit?usp=sharing).

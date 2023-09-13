@@ -20,7 +20,7 @@ Aunt Ruth claimed her father told her they were given the surname Saranduk as a 
 
 ### Russian 1858 Census Document
 
-We were able to find a 1858 Census document from Talne, Uman, Ukraine - which seems to contain the members of our family as Saranduk. The data in this census matches the data we found from ship logs, tombstones, and other records, to be identify the child named as Chaim Hershel - as Hyman Shore - see explanation below.
+We were able to find a 1858 Census document from Talne, Uman, Ukraine - which seems to contain the members of our family as Saranduk. The data in this census matches the data we found from ship logs, tombstones, and other records. As such, we identify the child named as Chaim Hershel - as Hyman Shore - see explanation below.
 
 The census data says:
 

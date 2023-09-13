@@ -1,13 +1,11 @@
 ---
-title: "Shore Family"
+title: "Shore / Saranduk Family: Part I"
 categories:
   - Genealogy
 date: 2023-09-13T12:33:32+03:00
 image: papercut.jpg
 draft: false
 ---
-
-## Shore / Saranduk Family
 
 It would seem that in Ukraine our family name was Saranduk, but that this name was given by the Ukrainian ( or Russian ) authorities and used mostly for government documents etc. Not accepted by the family, who seemed to go by Shore.
 

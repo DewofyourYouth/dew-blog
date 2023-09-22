@@ -14,7 +14,7 @@ draft: false
 
 After the devastating news of the passing of the Rosh Yeshiva זצ״ל, the news that the משגיח, Rabbi Mordechai Zelig Schechter זצ״ל has passed just a few short weeks later, is a lost that brings to mind the the verse:
 
-< עַ֣ל מֶ֥ה תֻכּ֛וּ ע֖וֹד תּוֹסִ֣יפוּ סָרָ֑ה כׇּל־רֹ֣אשׁ לׇֽחֳלִ֔י וְכׇל־לֵבָ֖ב דַּוָּֽי׃ < 
+> עַ֣ל מֶ֥ה תֻכּ֛וּ ע֖וֹד תּוֹסִ֣יפוּ סָרָ֑ה כׇּל־רֹ֣אשׁ לׇֽחֳלִ֔י וְכׇל־לֵבָ֖ב דַּוָּֽי׃
 > Why do you seek further beatings,
 > That you continue to offend? \
 > Every head is ailing, \

@@ -12,10 +12,12 @@ categories:
 draft: false
 ---
 
-After the devastating news of the passing of the Rosh Yeshiva זצ״ל, the news that the משגיח, Rabbi Mordechai Zelig Schechter זצ״ל has passed just a few short weeks later, is a lost that brings to mind the the verse in Yishaiah
-
-> על מה תכו עוד תוסיפו סרה כל ראש לחלי וכל לבב \
-> On what part can you yet be stricken? Seeing you stray away more and more! The whole head is sick, and the whole heart faint;
+After the devastating news of the passing of the Rosh Yeshiva זצ״ל, the news that the משגיח, Rabbi Mordechai Zelig Schechter זצ״ל has passed just a few short weeks later, is a lost that brings to mind the the verse in Yishaia מה תכו עוד תוסיפו סרה כל ראש לחלי וכל לבב \
+> עַ֣ל מֶ֥ה תֻכּ֛וּ ע֖וֹד תּוֹסִ֣יפוּ סָרָ֑ה כׇּל־רֹ֣אשׁ לׇֽחֳלִ֔י וְכׇל־לֵבָ֖ב דַּוָּֽי׃
+> Why do you seek further beatings, \
+> That you continue to offend? \
+> Every head is ailing, \
+> And every heart is sick.
 
 The Rosh Yeshiva, the one who sits at the head of the yeshiva, and the Mashgiach, the heart of the yeshiva, have been struck in such a short time. Oy! How far have we strayed to stricken like this!?
 

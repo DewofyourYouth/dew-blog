@@ -12,7 +12,7 @@ categories:
 draft: false
 ---
 
-After the devastating news of the passing of the Rosh Yeshiva זצ״ל, the news that the משגיח, Rabbi Mordechai Zelig Schechter זצ״ל has passed just a few short weeks later, is a lost that brings to mind the the verse in Yishaiah
+After the devastating news of the passing of the Rosh Yeshiva זצ״ל, the news that the משגיח, Rabbi Mordechai Zelig Schechter זצ״ל has passed just a few short weeks later, is a loss that brings to mind the the verse in Yishaiah
 
 > על מה תכו עוד תוסיפו סרה כל ראש לחלי וכל לבב דוי \
 > Why do you seek further beatings, \

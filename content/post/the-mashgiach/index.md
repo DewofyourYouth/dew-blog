@@ -2,6 +2,7 @@
 title: "The Mashgiach זצ״ל"
 description: Remembering the Mashgiach Rabbi Mordechai Zelig Schechter זצ״ל
 date: 2023-09-22T11:00:18+03:00
+image: flame.jpg
 tags:
   - Yeshivas Rabbeinu Chaim Berlin
   - Rabbi Mordechai Zelig Schechter

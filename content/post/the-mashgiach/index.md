@@ -20,7 +20,7 @@ After the devastating news of the passing of the Rosh Yeshiva זצ״ל, the news
 > Every head is ailing, \
 > And every heart is sick.
 
-The Rosh Yeshiva, the one who sits at the head of the yeshiva, and the Mashgiach, the heart of the yeshiva, have been struck in such a short time. Oy! How far have we strayed to stricken like this!?
+The Rosh Yeshiva, the one who sits at the head of the yeshiva, and the Mashgiach, the heart of the yeshiva, have been struck in such a short time. Oy! How far have we strayed to be stricken like this!?
 
 Unfortunately, the passing of the משגיח זצ״ל didn’t come as a total surprise. He had a prolonged two year battle with cancer ר״ל.
 

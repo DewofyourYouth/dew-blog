@@ -35,7 +35,7 @@ But the Mashgiach was not only a source of support, he was also a source of insp
 
 Some examples of his poetic nature and his encouragement:
 
-He once told me that it was important that I realize what I was. That I "was a fresh breeze that came in blowing the dust off of these old seforim" (pointing to the Chaim Berlin library).
+He once told me that it was important that I realize what I was. That "you are a fresh breeze that came in blowing the dust off of these old seforim" (pointing to the Chaim Berlin library).
 
 At one point he was sick in bed with the flu for a week. When he came back he came and sat next to me during first seder to share with me that, during the time he was in bed he was meditating on the מהר״ל (גור אריה) on the verse מקדש ה׳ כוננו ידיך - that something done with two hands is something you put your whole self into. “Hashem doesn’t ask us to subjugate ourselves to him to become lifeless, passionless, passive automatons. Hashem wants us to serve him with **both hands**! With vigor and passion, full of life and power! Like knights on galloping horses, charging full speed towards the enemy full of strength and force of will!!” He then apologized for disturbing me during Seder on account of wanting to share that with me. (NOTE: I don’t remember what the גור אריה actually said, this is just my account of what the משגיח זצ״ל said)
 

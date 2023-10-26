@@ -2,7 +2,6 @@ baseURL = 'http://example.org/'
 title = 'Dew Blog'
 theme = 'hugo-theme-stack'
 disqusShortname = "dew-blog"
-favicon = "static/favicon.ico"
 
 
 
@@ -11,6 +10,8 @@ author = "Jacob Shore"                # You can also set author in post front ma
 description = "The musings of Jacob Shore."
 defaultTheme = "auto"              # default theme when first visit (auto|dark|light)
 featuredImageField = "image"
+favicon = "/favicon.ico"
+
 [params.comments]
 enabled = true
 provider = "disqus"

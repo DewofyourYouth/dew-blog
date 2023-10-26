@@ -36,9 +36,10 @@ I often go to sleep late at night for good reasons.
 There are three ways I can wake up early. 
 I could wake up early and go to sleep late, 
 but only a certain level of sleep deprivation is sustainable for any extended period of time.
+
 I can override all the good reasons to be active at night - and go to sleep early anyways.
 That is certainly how I did it over the Elul period. 
-This way of doing it, in my experiment, is very stressful.
+This way of doing it, in my experience, is very stressful.
 
 Another way to do it is to change my surroundings and scheduling to make it that I can do the things I used to do at night during the day.
 This would be great, but it takes more wisdom and insight, and requires an ability to negotiate what you can change and what is pretty immovable.

@@ -2,11 +2,9 @@ baseURL = 'http://example.org/'
 title = 'Dew Blog'
 theme = 'hugo-theme-stack'
 disqusShortname = "dew-blog"
+favicon = "static/favicon.ico"
 
 
-
-[colorScheme]
-toggle = false
 
 [params]
 author = "Jacob Shore"                # You can also set author in post front matter individually
@@ -16,10 +14,29 @@ featuredImageField = "image"
 [params.comments]
 enabled = true
 provider = "disqus"
+[params.widgets]
+enabled = [ "search", "archives",  "tag-cloud", "categories" ]
+    [params.widgets.archives]
+    limit = 5
+
+    [params.widgets.tagCloud]
+    limit = 10
+
+    [params.widgets.categoriesCloud]
+    limit = 20
 
 [params.comments.disqusjs]
 shortname = "dew-blog"
 mainSections = ["post"]
+
+
+[params.sidebar]
+compact = true
+
+  [params.sidebar.avatar]
+  enabled = true
+  local = true
+  src = "img/avatar.png"
 
 
 [[cover]]
@@ -42,4 +59,61 @@ lineNoStart = 1
 lineNos = true
 lineNumbersInTable = true
 tabWidth = 4
+
+[menu]
+main = [ ]
+
+  [[menu.social]]
+  identifier = "github"
+  name = "GitHub"
+  url = "https://github.com/DewofyourYouth"
+
+    [menu.social.params]
+    icon = "brand-github"
+
+  [[menu.social]]
+  identifier = "twitter"
+  name = "Twitter"
+  url = "https://twitter.com/JacobShore19"
+
+    [menu.social.params]
+    icon = "brand-twitter"
+
+  [[menu.social]]
+  identifier = "linkedin"
+  name = "LinkedIn"
+  url = "https://www.linkedin.com/in/jacob-shore-86094725a/"
+    
+    [menu.social.params]
+    icon = "linkedin"
+
+[params.sidebar.article]
+math = false
+toc = true
+readingTime = true
+enabled = true
+
+[[params.sidebar.widgets.homepage]]
+type = "search"
+
+[[params.sidebar.widgets.homepage]]
+type = "archives"
+
+  [params.sidebar.widgets.homepage.params]
+  limit = 5
+
+[[params.sidebar.widgets.homepage]]
+type = "categories"
+
+  [params.sidebar.widgets.homepage.params]
+  limit = 10
+
+[[params.sidebar.widgets.homepage]]
+type = "tag-cloud"
+
+  [params.sidebar.widgets.homepage.params]
+  limit = 10
+
+[[params.sidebar.widgets.page]]
+type = "toc"
 

@@ -45,7 +45,7 @@ But everything in between is wherein lies the rub!
 
 Is it _ever_ OK to binge watch Netflix after a particularly stressful day? \
 How much bingeing is warranted? \
-What about if a friend from America (7 hours behing) really wants to talk to you about something important (but not urgently time sensitive)? \
+What about if a friend from America (7 hours behind) really wants to talk to you about something important (but not urgently time sensitive)? \
 There's a lot of gray area here, especially if you don't have a really good sense of _how_, and _how much_ you prioritize the virtue of being an early riser.
 
 I think this may be why the honesty one (#4) stuck better than the others. It was a repeat.

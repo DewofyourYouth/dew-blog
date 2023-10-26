@@ -4,6 +4,11 @@
       "language": "markdown",
       "scheme": "file",
       "pattern": "content/post/i-weep-over-this-beauty-that-will-be-buried-in-earth.md"
+    },
+    {
+      "language": "markdown",
+      "scheme": "file",
+      "pattern": "content/post/elul-5783-postmordem/index.md"
     }
   ]
 }

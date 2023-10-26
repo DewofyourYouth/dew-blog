@@ -1,7 +1,7 @@
 ---
-title: "Elul 5783 Postmordem"
+title: "Elul 5783 Postmortem"
 date: 2023-10-26T09:28:52+03:00
-description: A postmordem on my attempt to change my habits over last Elul.
+description: A postmortem on my attempt to change my habits over last Elul.
 image: review.jpeg
 draft: false
 tags: ["reflections", "self improvement", "אלול", "קבלות"]
@@ -67,4 +67,4 @@ Making an honest and objective assessment of your own limitations is important, 
 
 Instead, I think it more makes sense to **just pick one thing**, and track your incremental progress in that one thing over a longer period of time. That way you can adjust your expectations based on previous performance, instead of deep introspection. I think this is what I will do in my next experiment.
 
-Most of these insights are not super counterintuitive and some might even say they're 'common sense', and yet, here we are!
+Most of these insights are not super counterintuitive and some might even say they're 'common sense', and yet, here we are! 😅

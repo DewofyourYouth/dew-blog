@@ -48,7 +48,7 @@ What about if a friend from America (7 hours behing) really wants to talk to you
 There's a lot of gray area here, especially if you don't have a really good sense of _how_, and _how much_ you prioritize the virtue of being an early riser.
 
 I think this may be why the honesty one (#4) stuck better than the others. It was a repeat.
-I had had a year to grapple with important honesty is for me.
+I had had a year to grapple with how important honesty is for me.
 
 #### I'm Not Reading The Right Mussar (Ethical) Books
 

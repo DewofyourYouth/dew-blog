@@ -42,7 +42,7 @@ That is certainly how I did it over the Elul period.
 This way of doing it, in my experience, is very stressful.
 
 Another way to do it is to change my surroundings and scheduling to make it that I can do the things I used to do at night during the day.
-This would be great, but it takes more wisdom and insight, and requires an ability to negotiate what you can change and what is pretty immovable.
+This would be great, but it takes more wisdom and insight, and requires an ability to negotiate what you can change and what is immovable.
 There are many things that I have no power over when they happen. Each situation needs it's own negotiation.
 
 In order to negotiate effectively, you need to quantify things like - how important is it really that I wake up on time?

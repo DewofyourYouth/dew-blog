@@ -28,10 +28,17 @@ While I was able to change to my behavior for a significant period of time, not 
 
 #### We Have Bad Behaviors For Good Reasons
 
-Let's take waking up early (#1). I would like to wake up early every morning. It is a good practice.
-If I go to sleep too late, it is hard to wake up early. I often go to sleep late at night for good reasons.
-There are two ways I can wake up early. I can override all the good reasons to be active at night - and go to sleep early anyways.
-That is certainly how I did it over the Elul period. This way of doing it, in my experiment, is very stressful.
+Let's take waking up early (#1). 
+I would like to wake up early every morning. 
+It is a good practice.
+If I go to sleep too late, it is hard to wake up early. 
+I often go to sleep late at night for good reasons.
+There are three ways I can wake up early. 
+I could wake up early and go to sleep late, 
+but only a certain level of sleep deprivation is sustainable for any extended period of time.
+I can override all the good reasons to be active at night - and go to sleep early anyways.
+That is certainly how I did it over the Elul period. 
+This way of doing it, in my experiment, is very stressful.
 
 Another way to do it is to change my surroundings and scheduling to make it that I can do the things I used to do at night during the day.
 This would be great, but it takes more wisdom and insight, and requires an ability to negotiate what you can change and what is pretty immovable.

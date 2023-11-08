@@ -70,7 +70,7 @@ In the last post on the Saranduks, I referenced a 1858 census from Talne - I've 
 | Moshe Yankel | Son               | M      | 6   | Avrum         |
 | Khaya        | Wife of Avrum     | F      | 32  |               |
 
-Notice that the Avrum Nikhem from Torgovitsa is born in the same year as the the Avrum in Talne. The father name for Avrum in both instances is Khaim. We can demonstrate a trend of Saranduks migrating from Torgovitsa to the Talne area at this time. To me it seems reasonable to speculate that this is the same person. Also, Khaim Hersh is the name of Avrum Nikhem's father, who was apparently gone by the time Avrum Nikhem was 11. This would imply to me that he was named after Avrum's late father.
+Notice that the Avrum Nikhem from Torgovitsa is born in the same year as the the Avrum in Talne. The father name for Avrum in both instances is Khaim. We can demonstrate a trend of Saranduks migrating from Torgovitsa to the Talne area at this time. To me it seems reasonable to speculate that this is the same person. Also, Khaim Hersh is the name of Avrum Nikhem's father, who was apparently gone by the time Avrum Nikhem was 11. This would imply to me that Avrum Nikhem named his firstborn son after his late father.
 
 This would give us the following lineage for Khaim Hersh and Moyshe Yankel:
 

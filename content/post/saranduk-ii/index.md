@@ -56,3 +56,28 @@ This is plausible, because we already know that the census taking in Torgovitsa 
 Gershko, Mordko's son, was supposedly 6 in 1818. This is also consistent with the 1818 census happening later in the year than the 1836 census.
 
 But assuming that the data in these Russian census data are infallible seems dubious to me. Also, it doesn't work for everyone. I can't justify the 2 year difference in Basya / Rasya (I'm assuming really Basya?).
+
+In the last post on the Saranduks, I referenced a 1858 census from Talne - I've copied the table here:
+
+**Location**: Talnoye, Uman, Kyiv \
+**Surname**: Saranduk \
+**Year**: 1858
+
+| Name         | Role              | Gender | Age | Father's Name |
+| ------------ | ----------------- | ------ | --- | ------------- |
+| Avrum        | Head of household | M      | 34  | Khaim         |
+| Khaim Hersh  | Son               | M      | 9   | Avrum         |
+| Moshe Yankel | Son               | M      | 6   | Avrum         |
+| Khaya        | Wife of Avrum     | F      | 32  |               |
+
+Notice that the Avrum Nikhem from Torgovitsa is born in the same year as the the Avrum in Talne. The father name for Avrum in both instances is Khaim. We can demonstrate a trend of Saranduks migrating from Torgovitsa to the Talne area at this time. To me it seems reasonable to speculate that this is the same person. Also, Khaim Hersh is the name of Avrum Nikhem's father, who was apparently gone by the time Avrum Nikhem was 11. This would imply to me that he was named after Avrum's late father.
+
+This would give us the following lineage for Khaim Hersh and Moyshe Yankel:
+
+Leyb Saranduk / Srondik has two son's, Avrum and Mordko. \
+Avrum has a son named Khaim Hersh, who marries Khaya Leya and has a son, Avrum Nikhem, and a daughter, Beyla. \
+Avrum Nikhem marries Khaya and had at least two sons, Khaim Hersh and Moysha Yankel.
+
+I've tracked down some interesting records from the Mordko side of the Saranduk family, but I think that will have to be for a future post.
+
+On a sadder note, the [Jewish cemetery in Torgovitsa](https://www.esjf-cemeteries.org/survey/torhovytsya-jewish-cemetery/) was demonished and is now a field. No tombstones where preserved.

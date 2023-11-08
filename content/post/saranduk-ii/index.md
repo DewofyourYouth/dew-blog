@@ -53,7 +53,7 @@ In the 1836 entry, we have a person named Avrum Nikhem the son of a Khaim Sarand
 
 This is plausible, because we already know that the census taking in Torgovitsa happened later in the year of 1818 than it did in 1836 from Mordko’s case. So the 1818 could have happened _after_ both Mordko and Chaya Leya's birthdays - and the census taking in 1836 could have happened _before_ both of their birthdays.
 
-Gershko, Mordko's son, was supposedly 6 in 1818. This is also consistent with the 1818 census happening later in the year than the 1836 census.
+Gershko, Mordko's son, was supposedly 6 in 1818 and 23 in 1836. This is also consistent with the 1818 census happening later in the year than the 1836 census.
 
 But assuming that the data in these Russian census data are infallible seems dubious to me. Also, it doesn't work for everyone. I can't justify the 2 year difference in Basya / Rasya (I'm assuming really Basya?).
 

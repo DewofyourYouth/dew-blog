@@ -8,7 +8,7 @@ categories:
   - genealogy
 ---
 
-Seems some more entries from the revision lists have been put in JewishGen, with these new entries we were able to piece together some more of the family tree - going back to the 18th century.
+It would seem that some more entries from the [Ukraine Revision Lists](https://jewishgen.org/databases/ukraine/Revision.html) have been put into the [JewishGen](https://www.jewishgen.org/) databases, with these new entries we were able to piece together some more of the family tree - going back to the 18th century.
 
 The earliest is an 1818 entry from Torgovitsa, Uman, Kyiv.
 

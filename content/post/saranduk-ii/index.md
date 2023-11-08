@@ -1,7 +1,7 @@
 ---
 title: Shore / Saranduk II
 date: 2023-11-08T10:00:38+02:00
-draft: true
+draft: false
 tags:
   - genealogy
 categories:

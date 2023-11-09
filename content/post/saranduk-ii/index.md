@@ -1,5 +1,5 @@
 ---
-title: Shore / Saranduk II
+title: "Shore / Saranduk Family: Part II"
 date: 2023-11-08T10:00:38+02:00
 draft: false
 tags:

@@ -79,16 +79,16 @@ Now, for example, if, as we've said in the last post, Gerskho was born in 1793, 
 
 I took some notes of various other Saranduk births I found going through the Cherkasy Church Books. Here are the names:
 
-| Name               | Gender | Father   | Father's Father | Mother  | Mother's Father   | Date           | Link                                                                             |
-| ------------------ | ------ | -------- | --------------- | ------- | ----------------- | -------------- | -------------------------------------------------------------------------------- |
-| Yitkzhok Mordekhai | M      | Duvid    |                 | Sarah   |                   | Feb 22, 1869   | [Yitzkhok Mordekhai](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSS4-YKVC) |
-| Pessi              | F      | Shmaria  | Hyam Tzvi       | Toyba   |                   | July 1, 1889   | [Pessi](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSS4-YVGD)              |
-| Avram Elya         | M      | Yitzkhok | Duvid           | Dubrish | Yisroel Mordekhai | Jan 4, 1892    | [Avram Elya](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS9N-CQZ8-G)       |
-| Rokhel             | F      | Duvid    | Nakhman         | Devora  | Eliezer           | April 12, 1895 | [Rokhel](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSS4-YJ1X)             |
-| Yisroel Nakhman    | M      | Yitzkhok | Duvid           | Duba    | Yisroel           | Feb 1, 1895    | [Yisroel Nakhman](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS9N-CQHH-N)  |
-| Yisroel Moshe      | M      | Duvid    | Nakhman         | Devora  | Eliezer           | July 4, 1897   | [Yisroel Moshe](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS9N-CQHH-D)    |
-| Mendel             | M      | Duvid    | Nakhman         | Devora  | Eliezer           | May 8, 1899    | [Mendel](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS9N-CQH7-H)           |
-| Klara              | F      | Pinkhas  | Moshe Yaakov    | Nekhama | Yaakov Peysach    | Oct 20, 1909   | [Klara](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSSH-LS9G-J)            |
+| Name                                                                             | Gender | Father   | Father's Father | Mother  | Mother's Father   | Date           |
+| -------------------------------------------------------------------------------- | ------ | -------- | --------------- | ------- | ----------------- | -------------- |
+| [Yitzkhok Mordekhai](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSS4-YKVC) | M      | Duvid    |                 | Sarah   |                   | Feb 22, 1869   |
+| [Pessi](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSS4-YVGD)              | F      | Shmaria  | Hyam Tzvi       | Toyba   |                   | July 1, 1889   |
+| [Avram Elya](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS9N-CQZ8-G)       | M      | Yitzkhok | Duvid           | Dubrish | Yisroel Mordekhai | Jan 4, 1892    |
+| [Rokhel](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSS4-YJ1X)             | F      | Duvid    | Nakhman         | Devora  | Eliezer           | April 12, 1895 |
+| [Yisroel Nakhman](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS9N-CQHH-N)  | M      | Yitzkhok | Duvid           | Duba    | Yisroel           | Feb 1, 1895    |
+| [Yisroel Moshe](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS9N-CQHH-D)    | M      | Duvid    | Nakhman         | Devora  | Eliezer           | July 4, 1897   |
+| [Mendel](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS9N-CQH7-H)           | M      | Duvid    | Nakhman         | Devora  | Eliezer           | May 8, 1899    |
+| [Klara](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSSH-LS9G-J)            | F      | Pinkhas  | Moshe Yaakov    | Nekhama | Yaakov Peysach    | Oct 20, 1909   |
 
 Some note about these records:
 

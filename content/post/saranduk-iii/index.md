@@ -49,7 +49,8 @@ Now, it just so happens that I was able to find a birth record for an Yitzchok M
 
 ![Yitzchok Birth Record](yitzchokmordechai.png)
 
-We know already that Mordko has a son named Nakhman, but is Duvid's father the same Nakhman? Well, no. Mordko's son Nakhman would have been about 56 by 1875, not 26!
+We know already that Mordko has a son named Nakhman, but is Duvid's father the same Nakhman? It's possible. Nakhman would be about 56 at the time. 
+It's plausible he had a 26 year old son named Duvid. But that's all I have.
 
 We have another census entry, for a **Sarandukh** family in 1889 from Yelisavetgrad, Yelisavetgrad, Kherson. Many of the same names occur, but the dates don't seem to to match up. Note that this is a third variant of the spelling, **САРАНДУХ** not **САРАНДУК**.
 

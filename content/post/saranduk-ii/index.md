@@ -4,8 +4,10 @@ date: 2023-11-08T10:00:38+02:00
 draft: false
 tags:
   - genealogy
+  - revision lists
 categories:
   - genealogy
+image: manifest.jpeg
 ---
 
 It would seem that some more entries from the [Ukraine Revision Lists](https://jewishgen.org/databases/ukraine/Revision.html) have been put into the [JewishGen](https://www.jewishgen.org/) databases, with these new entries we were able to piece together some more of the family tree - going back to the 18th century.

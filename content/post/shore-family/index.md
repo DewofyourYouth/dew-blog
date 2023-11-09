@@ -2,6 +2,8 @@
 title: "Shore / Saranduk Family: Part I"
 categories:
   - Genealogy
+tags:
+  - Genealogy
 date: 2023-09-13T12:33:32+03:00
 image: papercut.jpg
 draft: false

@@ -18,6 +18,8 @@ The reason I think this is because this is what I’ve been told by Aunt Ruth, w
 
 Aunt Ruth claimed her father told her they were given the surname Saranduk as a form of shaming by the Russians and as such didn’t keep it in America. I have asked native Russian and Ukrainian speakers who all claim there is no meaning to the name Saranduk.
 
+_**UPDATE - Nov 9th 2023:** I've since found records going back to 1818 and Hebrew records with the name Saranduk on it. I've also found other Saranduk's maintain the name Serrin. I've also seen U.S. documents where the name Saranduk is used before changing it to Serrin or Shore. If the name Saranduk was just given for shaming it was applied quite consistently until we arrived to the States. This gives me pause. I think perhaps they just wanted a more American sounding last name 😉_
+
 ### Russian 1858 Census Document
 
 We were able to find a 1858 Census document from Talne, Uman, Ukraine - which seems to contain the members of our family as Saranduk. The data in this census matches the data we found from ship logs, tombstones, and other records. As such, we identify the child named as Chaim Hershel - as Hyman Shore - see explanation below.

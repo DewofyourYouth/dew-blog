@@ -17,7 +17,7 @@ Hi, I'm Jacob! I am a kollel-guy-turned-software-engineer living in Beit Shemesh
 My interests include:
 
 - Torah
-- technologies
+- [technologies](https://pangolinsoftwaresolutions.com)
 - family
 - music and banjo playing
 - math

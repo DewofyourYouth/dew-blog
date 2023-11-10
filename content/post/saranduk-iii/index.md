@@ -101,7 +101,7 @@ Some note about these records:
 
 Finally, another finding from the Cherkassy Church Records - the wedding of [Shmaria and Tube Saranduk](https://www.familysearch.org/ark:/61903/1:1:6VTJ-ZSCH):
 
-The event was to occur August 17th, 18888.
+The event was to occur August 17th, 1888.
 
 ![Wedding of Shmaria and Tube](wedding.png)
 ![Hebrew close up](hebrewcloseup.png)

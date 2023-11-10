@@ -4,12 +4,14 @@ description: Questions For Testing Yourself on the Parsha w/ Rashi and the Ramba
 date: 2023-11-10T08:38:40+02:00
 draft: false
 languageDirection: rtl
+direction: rtl
 categories:
   - Torah
   - Parsha
 tags:
   - Torah
   - Parsha
+image: hebron.jpeg
 ---
 
 שאלות לשינון הפרשה עם רש״י והרמב״ן
@@ -49,3 +51,5 @@ tags:
 33. מכיון נתן אברהם את כל אשר לו ליצחק, מניין היו לו מתנות ליתן לבני קטורה?
 34. במה היה לאברהם ״שיבה טובה״?
 35. במה בירך ה׳ את יצחק אחרי מות אברהם?
+
+[Photo courtesy of Dan Rosenstein on Upsplash](https://unsplash.com/photos/brown-concrete-building-near-green-trees-during-daytime-eyuTaorbYVU?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash)

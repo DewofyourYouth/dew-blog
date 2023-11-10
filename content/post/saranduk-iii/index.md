@@ -99,7 +99,7 @@ Some note about these records:
 4. The entry for Klara is almost certainly Irene Shore Roth. Her parents were Philip and Netty (Farber) Shore.
 5. These records are in Hebrew and Cyrillic. My entries here are a transliteration, mostly of the Hebrew. There is various other information on these records, but the handwriting is often very bad and it is hard to decipher many things. An example of information that is on the original that I didn't include is the town they came from. I didn't include this because it is often hard to decipher and most of the town names have changed. But there is a lot of overlap with the towns on the birth records and the towns on the revision lists.
 
-Finally, another finding from the Cherkassy Church Records - the wedding of [Shmaria and Tube Saranduk](https://www.familysearch.org/ark:/61903/1:1:6VTJ-ZSCH):
+Finally, another finding from the Cherkassy Church Records - the wedding of [Shmaria/Sam and Toyba/Tillie Saranduk/Shore](https://www.familysearch.org/ark:/61903/1:1:6VTJ-ZSCH):
 
 The event was to occur August 17th, 1888.
 

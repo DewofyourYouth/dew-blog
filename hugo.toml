@@ -118,3 +118,6 @@ type = "tag-cloud"
 [[params.sidebar.widgets.page]]
 type = "toc"
 
+[services]
+   [services.googleAnalytics]
+    googleAnalytics = 'GTM-MPWT6V4K'

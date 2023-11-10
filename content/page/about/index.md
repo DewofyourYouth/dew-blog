@@ -19,6 +19,7 @@ My interests include:
 - Torah
 - [technologies](https://pangolinsoftwaresolutions.com)
 - family
+- genealogy 
 - music and banjo playing
 - math
 

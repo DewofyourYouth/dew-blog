@@ -13,6 +13,26 @@ tags:
 image: hyman_sarah.jpeg
 ---
 
+| Quick Facts | Hyman Shore                         |
+| ----------- | ----------------------------------- |
+| Parents     | Avraham and Khaya Saranduk          |
+| Birth       | 1849                                |
+| Spouse      | Sarah Shore                         |
+| AKA         | Khaim Hersch Saranduk, Khaim Tzvi   |
+| Death       | February 12, 1917                   |
+| Yarhzeit    | Shevat 20                           |
+| Burial      | Lincoln Park Cemetery, Warwick, RI. |
+
+| Quick Facts | Sarah Mamorofsky                    |
+| ----------- | ----------------------------------- |
+| Parents     | Allie and Bessia Mamorofsky         |
+| Birth       | 1849                                |
+| Spouse      | Hyman Shore                         |
+| AKA         | Sura Saranduk / Shore               |
+| Death       | June 4, 1921                        |
+| Yarhzeit    | Iyar 27                             |
+| Burial      | Lincoln Park Cemetery, Warwick, RI. |
+
 The oldest Saranduk we know to have emigrated from Russia (present day Ukraine) to America is Khaim Hersch Saranduk, known in America as Hyman Shore. This is a summary of what is known about him and his offspring.
 
 The earliest document we have from Khaim Hersch is a 1858 Russian census document (shown in gallery below). I referenced this document before in [this post](https://www.dewofyouryouth.com/post/shore-family/). It says he was the son of Arvum (35) son of Khaim Saranduk. His mother’s name is Khaya (32). He is 9 years old and has a 6 year old brother named Moshe Yankel. He lives in Talne Ukraine. This puts the birth year of Khaim Hersch at approximately 1849.

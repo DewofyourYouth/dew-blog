@@ -5,6 +5,8 @@ draft: false
 tags:
   - genealogy
   - revision lists
+  - Saranduk
+  - Shore
 categories:
   - genealogy
 image: manifest.jpeg

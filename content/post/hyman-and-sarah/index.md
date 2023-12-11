@@ -29,7 +29,10 @@ Regarding Hyman’s wife Sarah (Sura), her death certificate lists her parent’
 
 There is also a death certificate for Hyman Shore having him living in Rhode Island at the time. The date on the death certificate in February 12, 1917. It lists his age at time of death as 57. If this is the death certificate for the same Hyman Shore (and all other facts check out) then the age is remarkably off by decade! He would have been around 68 years old given we know he was born in 1849. Perhaps there was some clerical practice of rounding to 1860 when the exact birth year was unknown?
 
-Another thing to note. For all secular things his name was either Hyman or Khaim Hersch. For religious things he went by Chaim Tzvi ( Tzvi is the Hebrew version of Hersch ).
+Some other notes:
+
+1. For all secular things his name was either Hyman or Khaim Hersch. For religious things he went by Chaim Tzvi (Tzvi is the Hebrew version of Hersch).
+2. On Hyman's tombstone it says he died in 1912, the death certificate says 1917. The Hebrew date on the tombstone is consistent with the 1917 date.
 
 ## Children
 

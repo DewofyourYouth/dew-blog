@@ -15,7 +15,7 @@ image: hyman_sarah.jpeg
 
 The oldest Saranduk we know to have emigrated from Russia (present day Ukraine) to America is Khaim Hersch Saranduk, known in America as Hyman Shore. This is a summary of what is known about him and his offspring.
 
-The earliest document we have from Khaim Hersch is a 1858 Russian census document which says he was the son of Arvum (35) son of Khaim Saranduk. His mother’s name is Khaya (32). He is 9 years old and has a 6 year old brother named Moshe Yankel. He lives in Talne Ukraine. This puts the birth year of Khaim Hersch at approximately 1849.
+The earliest document we have from Khaim Hersch is a [1858 Russian census document](https://www.dewofyouryouth.com/post/shore-family/) which says he was the son of Arvum (35) son of Khaim Saranduk. His mother’s name is Khaya (32). He is 9 years old and has a 6 year old brother named Moshe Yankel. He lives in Talne Ukraine. This puts the birth year of Khaim Hersch at approximately 1849.
 
 The next document I’ve found that he appears on is a record of his oldest known Shmarya (23) son of Khaim Hersch Saranduk to a Taube (18) daughter of Avraham Yudel Beresowsky. The event was to occur on August 18th, 1888.
 
@@ -40,3 +40,9 @@ Hyman and Sarah had five children that we know of. 3 sons and 2 daughters. (Link
 3. Tillie Lisagor - born 1882
 4. Rose Grossman - born 1883
 5. Morris Shore - born 1886
+
+![Ukrainian Revision List](census.jpg)
+![Gerty Manifest](manifest.jpeg)
+![Sarah Shore death certificate](sarah-shore.jpeg)
+![Hyman Shore death certificate](hyman-shore.jpeg)
+![Tombstone](hyman_sarah.jpeg)

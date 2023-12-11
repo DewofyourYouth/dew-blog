@@ -13,25 +13,27 @@ tags:
 image: hyman_sarah.jpeg
 ---
 
-| Quick Facts | Hyman Shore                         |
-| ----------- | ----------------------------------- |
-| Parents     | Avraham and Khaya Saranduk          |
-| Birth       | 1849                                |
-| Spouse      | Sarah Shore                         |
-| AKA         | Khaim Hersch Saranduk, Khaim Tzvi   |
-| Death       | February 12, 1917                   |
-| Yarhzeit    | Shevat 20                           |
-| Burial      | Lincoln Park Cemetery, Warwick, RI. |
+| Quick Facts    | Hyman Shore                         |
+| -------------- | ----------------------------------- |
+| Parents        | Avraham and Khaya Saranduk          |
+| Birth          | 1849                                |
+| Place of Birth | Talne, Russian Empire               |
+| Spouse         | Sarah Shore                         |
+| AKA            | Khaim Hersch Saranduk, Khaim Tzvi   |
+| Death          | February 12, 1917                   |
+| Yarhzeit       | Shevat 20                           |
+| Burial         | Lincoln Park Cemetery, Warwick, RI. |
 
-| Quick Facts | Sarah Mamorofsky                    |
-| ----------- | ----------------------------------- |
-| Parents     | Allie and Bessia Mamorofsky         |
-| Birth       | 1849                                |
-| Spouse      | Hyman Shore                         |
-| AKA         | Sura Saranduk / Shore               |
-| Death       | June 4, 1921                        |
-| Yarhzeit    | Iyar 27                             |
-| Burial      | Lincoln Park Cemetery, Warwick, RI. |
+| Quick Facts    | Sarah Mamorofsky                    |
+| -------------- | ----------------------------------- |
+| Parents        | Allie and Bessia Mamorofsky         |
+| Birth          | 1849                                |
+| Place of Birth | Russian Empire                      |
+| Spouse         | Hyman Shore                         |
+| AKA            | Sura Saranduk / Shore               |
+| Death          | June 4, 1921                        |
+| Yarhzeit       | Iyar 27                             |
+| Burial         | Lincoln Park Cemetery, Warwick, RI. |
 
 The oldest Saranduk we know to have emigrated from Russia (present day Ukraine) to America is Khaim Hersch Saranduk, known in America as Hyman Shore. This is a summary of what is known about him and his offspring.
 

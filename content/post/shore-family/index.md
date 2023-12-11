@@ -4,6 +4,8 @@ categories:
   - Genealogy
 tags:
   - Genealogy
+  - Saranduk
+  - Shore
 date: 2023-09-13T12:33:32+03:00
 image: papercut.jpg
 draft: false

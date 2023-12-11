@@ -5,6 +5,8 @@ tags:
   - genealogy
   - revision lists
   - Cherkasy Church Books
+  - Saranduk
+  - Shore
 categories:
   - genealogy
 draft: false

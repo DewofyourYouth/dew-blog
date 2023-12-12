@@ -56,6 +56,10 @@ Some other notes:
 1. For all secular things his name was either Hyman or Khaim Hersch. For religious things he went by Chaim Tzvi (Tzvi is the Hebrew version of Hersch).
 2. On Hyman's tombstone it says he died in 1912, the death certificate says 1917. The Hebrew date on the tombstone is consistent with the 1917 date.
 
+## _Update_ from December 13th, 2023
+
+A newly entered record on JewishGen shows a 1850 Revision List from Talne. It that Hyman had an older sister named Malka who was 6 in 1850. There are also several records from 1897 that I will explore in a later post.
+
 ## Children
 
 Hyman and Sarah had five children that we know of. 3 sons and 2 daughters. (Links will be added as pages are made.)

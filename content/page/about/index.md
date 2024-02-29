@@ -19,10 +19,10 @@ My interests include:
 - Torah
 - [technologies](https://pangolinsoftwaresolutions.com)
 - family
-- genealogy 
+- genealogy
 - music and banjo playing
 - math
 
-### About The Name - Dew of your Youth 
+### About The Name - Dew of your Youth
 
-The name is based on Tehillim/Psalms chapter 110:3. 
+The name is based on Tehillim/Psalms chapter 110:3.

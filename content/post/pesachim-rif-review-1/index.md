@@ -1,7 +1,7 @@
 ---
 title: Pesachim Rif Review 1
 description: Review of the basic obligation for checking for hametz according to the Rif and Ran
-date: 2024-02-29T09:38:40+02:00
+date: 2024-02-29T09:35:40+02:00
 draft: false
 categories:
     - torah

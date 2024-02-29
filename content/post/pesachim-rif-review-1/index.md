@@ -1,14 +1,19 @@
 ---
 title: Pesachim Rif Review 1
-description: Review of the basic obligation for checking for hametz according to the Rif and Ran
+description: Review of the basic obligation for checking for hametz according to the Rif and Ran.
 date: 2024-02-29T09:35:40+02:00
 draft: false
 categories:
-  - torah
-  - halachah
+  - Torah
+  - Halachah
+  - Pesachim
+  - Rif
 tags:
   - rif
   - ran
+  - passover
+  - pesach
+  - hametz
 image: feather.jpeg
 ---
 
@@ -44,7 +49,7 @@ The ר״ן then says that he see there is a lot of confusion around this topic a
 5. The תנא of the משנה is of the opinion you can be יוצא ידי חובה even מדרבנן with בדיקה וביעור.
 6. Even though ביטול is enough מדאורייתא, our Sages saw fit to require בדיקה וביעור.
    1. Possibly because ביטול is done in one’s thoughts, and they were worried people would be lenient and not completely from their hearts, so they also required them to check and remove, which is also sufficient מדאורייתא.
-   2. Possible they were worried that if someone had ḥamets lying around their house, they would come to accidentally eat in in Pesaḥ.
+   2. Possible they were worried that if someone had ḥamets lying around their house, they would come to accidentally eat it on Pesaḥ.
 
 #### Limits of the Obligation to Check
 

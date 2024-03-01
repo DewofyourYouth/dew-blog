@@ -10,6 +10,7 @@ tags:
   - Saranduk
   - Shore
   - Talne
+image: filing-cabinet.jpeg
 ---
 
 Some new records from the Ukrainian Revision Lists related to Talne, have recently been added to the JewishGen database, they've written about it in a [recent blog post](https://www.jewishgen.org/blog/?p=ukraine-research-division). I checked and found some new Saranduk records. Some of these records add some new details and definition to the Saranduk family tree. In the current post I will not be trying to cover all of the new records, only records concerning the Talne Saranduks.

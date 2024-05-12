@@ -15,7 +15,7 @@ tags:
 Born Velvel/Wolf Saranduk in 1874 in the Town of Talne, to [Hyman Shore and Sarah Shore](/post/hyman-and-sarah).
 His Hebrew name was Mordechai Zev. Married **Bella Sarles** in Talne. He died in California on March 12th, 1943 at age 69.
 
-Found on the Ukraine Revision Lists, Group 2, yr 1897 under surname "Saranduk" in the own of Talne:
+Found on the Ukraine Revision Lists, Group 2, yr 1897 under surname "Saranduk" in the town of Talne:
 
 | Given Name    | Father       | Relationship to Head of Househoud | Sex | Age |
 | ------------- | ------------ | --------------------------------- | --- | --- |

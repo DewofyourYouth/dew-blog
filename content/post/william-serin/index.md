@@ -1,8 +1,15 @@
 ---
-title: "The Tale of William Serin"
+title: "A Tale of a Wolf Named Saranduk"
 date: 2024-05-12T22:31:34+03:00
 draft: false
 image: WolkoSarandukRevisionList.png
+categories:
+  - genealogy
+tags:
+  - genealogy
+  - Saranduk
+  - Shore
+  - Talne
 ---
 
 Born Velvel/Wolf Saranduk in 1874 in the Town of Talne, to [Hyman Shore and Sarah Shore](/post/hyman-and-sarah).

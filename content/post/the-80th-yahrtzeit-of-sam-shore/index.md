@@ -41,7 +41,7 @@ He also had an entrepreneurial spirit. He was a colorful personality and was oft
 
 He also established the 
 Hebrew Free Loan Society in Providence (source: my father) 
-and the Hebrew Free Sheltering Center (source: Rabbi Shmaria Shore's notes.
+and the Hebrew Free Sheltering Center (source: Rabbi Shmaria Shore's notes).
 
 He also had some artistic ability. He helped design the fresco at Sons on Jacob Synagogue in Providence, RI and some of his paper cuttings are at the Museum of Fine Arts in Boston and have been sold at various Judica auctions.
 

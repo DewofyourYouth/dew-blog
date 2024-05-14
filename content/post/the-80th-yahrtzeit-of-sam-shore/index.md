@@ -43,7 +43,10 @@ He also established the
 Hebrew Free Loan Society in Providence (source: my father) 
 and the Hebrew Free Sheltering Center (source: Rabbi Shmaria Shore's notes).
 
-He also had some artistic ability. He helped design the fresco at Sons on Jacob Synagogue in Providence, RI and some of his paper cuttings are at the Museum of Fine Arts in Boston and have been sold at various Judica auctions.
+He had artistic ability. 
+He helped design the fresco at Sons on Jacob Synagogue in Providence, RI and some of 
+his paper cuttings are at the Museum of Fine Arts in Boston and have 
+been sold at various Judica auctions.
 
 I have included notes on Sam Shore below from Ruth Mondlick and Rabbi Shmaria Shore. 
 Personally, I am doubtful of many of the stories in these notes, but I think it gives you a sense of the person.

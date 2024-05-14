@@ -1,7 +1,7 @@
 ---
 title: "The 80th Yahrtzeit of Shmariahu Shore"
 date: 2024-05-14T12:27:47+03:00
-draft: true
+draft: false
 image: samShore.png
 categories:
   - genealogy

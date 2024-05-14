@@ -64,7 +64,7 @@ JewishGen recently entered some new Revision List records from Talna. A 1850 lis
 
 Hyman and Sarah had five children that we know of. 3 sons and 2 daughters. (Links will be added as pages are made.)
 
-1. Sam Shore - born 1868
+1. [Sam Shore](/post/the-80th-yartzeit-of-sam-shore) - born 1868
 2. [William Serin - born 1874](/post/william-serin)
 3. Tillie Lisagor - born 1882
 4. Rose Grossman - born 1883

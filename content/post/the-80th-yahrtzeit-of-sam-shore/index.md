@@ -39,7 +39,9 @@ My father tells me that he was the first president of Sons of Jacob Synagogue in
 He also said that his son's also financed the building. Personally, I remember going to Sons of Jacob as a child and seeing his name displayed prominently in various places, although I don't remember all the details.
 He also had an entrepreneurial spirit. He was a colorful personality and was often cast as protagonist in tall tales about great strength and somewhat unchecked aggression. This tendency is demonstrated in some of the notes below.
 
-He also established the Hebrew Free Loan Society in Providence (source: my father).
+He also established the 
+Hebrew Free Loan Society in Providence (source: my father) 
+and the Hebrew Free Sheltering Center (source: Rabbi Shmaria Shore's notes.
 
 He also had some artistic ability. He helped design the fresco at Sons on Jacob Synagogue in Providence, RI and some of his paper cuttings are at the Museum of Fine Arts in Boston and have been sold at various Judica auctions.
 

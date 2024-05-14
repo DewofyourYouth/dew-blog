@@ -36,7 +36,7 @@ Tonight, the 7th of Iyar, marks the 80th anniversary of the passing of my great-
 Sam Shore / Shmarya Saranduk was the oldest son of [Hyman and Sarah Shore](/post/hyman-and-sarah) and was apparently a rather intimidating personality. 
 He was Sabbath observant and religious, even in America. 
 My father tells me that he was the first president of Sons of Jacob Synagogue in Providence, RI. An Orthodox Synagogue, now a protected historical site.
-He also said that his son's also financed the building. Personally, I remember going to Sons of Jacob as a child and seeing his name displayed prominently in various places, although I don't remember all the details.
+He also said that his son's financed the building. Personally, I remember going to Sons of Jacob as a child and seeing his name displayed prominently in various places, although I don't remember all the details.
 He also had an entrepreneurial spirit. He was a colorful personality and was often cast as protagonist in tall tales about great strength and somewhat unchecked aggression. This tendency is demonstrated in some of the notes below.
 
 He also established the 

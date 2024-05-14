@@ -33,13 +33,19 @@ tags:
 
 Tonight, the 7th of Iyar, marks the 80th anniversary of the passing of my great-great grandfather, Shmariahu (Saranduk) Shore. In America, he went often by Sam Shore. May his _neshama_ have an _aliyah_.
 
-Samuel Shore / Shmarya Saranduk was the oldest son of [Hyman and Sarah Shore](/post/hyman-and-sarah) and was apparently a rather intimidating personality. He was Sabbath observant and religious, even in America. He also had an entrepreneurial spirit. He was a colorful personality and was often cast as protagonist in tall tales about great strength and somewhat unchecked aggression. This tendency is demonstrated in some of the notes below.
+Sam Shore / Shmarya Saranduk was the oldest son of [Hyman and Sarah Shore](/post/hyman-and-sarah) and was apparently a rather intimidating personality. He was Sabbath observant and religious, even in America. He also had an entrepreneurial spirit. He was a colorful personality and was often cast as protagonist in tall tales about great strength and somewhat unchecked aggression. This tendency is demonstrated in some of the notes below.
 
 He also had some knowledge artistic ability. He helped design the fresco at Sons on Jacob Synagogue in Providence, RI and some of his woodcuts are at the Museum of Fine Arts in Boston and have been sold at various Judica auctions.
+
+I have included notes on Sam Shore below from Ruth Mondlick and Rabbi Shmaria Shore.
 
 Here is an example of a papercut he made commemorating his parents:
 
 ![Papercut commemorating his parents Hyman and Sarah](papercut.png)
+
+Sam Shore was buried in Lincoln Park Memorial Cemetery.
+
+![Sam Shore Tombstone](sam.jpeg)
 
 | Source: Ruth Mondlick's Notes                                                                                                                                                                                 |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -134,3 +140,9 @@ Record of _Shmarya_ and _Taube_’s wedding in Talne from the community ledger i
 - [Samuel Oscar Shore]() _(placeholder)_
 - [Jacob Shore]() _(placeholder)_
 - [Albert Louis Shore]() _(placeholder)_
+
+This is the death certificate for Sam Shore:
+
+![Death certificate](shmaryahu-death-cert.jpg)
+
+The death certificate contains various inaccuracies. For example, there is a fair amount of proof that his mother's maiden name was not Grossman.

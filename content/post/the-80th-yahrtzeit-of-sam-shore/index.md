@@ -44,7 +44,7 @@ Hebrew Free Loan Society in Providence (source: my father)
 and the Hebrew Free Sheltering Center (source: Rabbi Shmaria Shore's notes).
 
 He had artistic ability. 
-He helped design the fresco at Sons on Jacob Synagogue in Providence, RI and some of 
+He helped design the [fresco at Sons on Jacob Synagogue](http://samgrubersjewishartmonuments.blogspot.com/2019/01/usa-wall-paintings-at-sons-of-jacob-in.html?m=1) in Providence, RI and some of 
 his paper cuttings are at the Museum of Fine Arts in Boston and have 
 been sold at various Judica auctions.
 

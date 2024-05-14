@@ -37,7 +37,10 @@ Sam Shore / Shmarya Saranduk was the oldest son of [Hyman and Sarah Shore](/post
 
 He also had some artistic ability. He helped design the fresco at Sons on Jacob Synagogue in Providence, RI and some of his paper cuttings are at the Museum of Fine Arts in Boston and have been sold at various Judica auctions.
 
-I have included notes on Sam Shore below from Ruth Mondlick and Rabbi Shmaria Shore.
+I have included notes on Sam Shore below from Ruth Mondlick and Rabbi Shmaria Shore. 
+Personally, I am doubtful of many of the stories in these notes, but I think it gives you a sense of the person.
+Even though I'm relatively certain he never punched out a horse, they don't say such stories about me!
+Overall, the picture I get is one of a religious person who had a love for life, an artistic soul, knew how to get what he wanted, and could be very sweet when he needed to be, but also very intimidating when he needed to be.
 
 Here is an example of a papercut he made commemorating his parents:
 
@@ -126,7 +129,7 @@ Seems a lot of Shmarya's notes are based on the testimonies of Barrie Shore My f
 My father grew up around his grandfather, Samuel Oscar Shore, regarding his great grandfather, Sam Shore, he told me: “I heard a lot of nonsense stories (about Sam Shore) that my grandfather (Samuel Oscar Shore) dismissed.”
 
 Record of _Shmarya_ and _Taube_’s wedding in Talne from the community ledger in (Cherkassy):
-![Record](ShmaryaToiyba.png)
+![Record of wedding](ShmaryaToiyba.png)
 ![Hebrew close up](ShmaryaToibaHeb.png)
 
 ## Children

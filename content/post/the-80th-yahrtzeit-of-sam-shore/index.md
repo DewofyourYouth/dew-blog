@@ -81,7 +81,7 @@ _In another part of Shmarya’s notes it says that they received a note that the
 
 Shmari's house was religious and he put on tefillin. He gave a religious education to his children. The bar mitzvah of Shmari took place when they were selling shmattes—they just went in to the synagogue, finished and went back.
 
-> **_Jacob note_** - I have no idea what this means. Shmari’s bar mitzva was in Talne presumably.
+> **_Jacob note_** - Shmari’s bar mitzva was in Talne presumably. My father confirms that he's heard this story about his grandfather, Asher Shore (Shmarya's son).
 
 Shmari began a "Hebrew Free Sheltering" center in Providence. People could sleep there for free and it still exists today. (25 S. Court Street)
 

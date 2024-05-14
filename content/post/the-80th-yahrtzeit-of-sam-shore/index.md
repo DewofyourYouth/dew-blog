@@ -33,7 +33,10 @@ tags:
 
 Tonight, the 7th of Iyar, marks the 80th anniversary of the passing of my great-great grandfather, Shmariahu (Saranduk) Shore. In America, he went often by Sam Shore. May his _neshama_ have an _aliyah_.
 
-Sam Shore / Shmarya Saranduk was the oldest son of [Hyman and Sarah Shore](/post/hyman-and-sarah) and was apparently a rather intimidating personality. He was Sabbath observant and religious, even in America. He also had an entrepreneurial spirit. He was a colorful personality and was often cast as protagonist in tall tales about great strength and somewhat unchecked aggression. This tendency is demonstrated in some of the notes below.
+Sam Shore / Shmarya Saranduk was the oldest son of [Hyman and Sarah Shore](/post/hyman-and-sarah) and was apparently a rather intimidating personality. 
+He was Sabbath observant and religious, even in America. 
+He was one of the founders of Sons of Jacob Synagogue in Providence, RI. An Orthodox Synagogue, now a protected historical site.
+He also had an entrepreneurial spirit. He was a colorful personality and was often cast as protagonist in tall tales about great strength and somewhat unchecked aggression. This tendency is demonstrated in some of the notes below.
 
 He also had some artistic ability. He helped design the fresco at Sons on Jacob Synagogue in Providence, RI and some of his paper cuttings are at the Museum of Fine Arts in Boston and have been sold at various Judica auctions.
 

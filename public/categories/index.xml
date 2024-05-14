@@ -6,7 +6,15 @@
         <description>Recent content in Categories on Dew Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Thu, 29 Feb 2024 09:35:40 +0200</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 14 May 2024 12:27:47 +0300</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Genealogy</title>
+        <link>http://localhost:1313/categories/genealogy/</link>
+        <pubDate>Tue, 14 May 2024 12:27:47 +0300</pubDate>
+        
+        <guid>http://localhost:1313/categories/genealogy/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Halachah</title>
         <link>http://localhost:1313/categories/halachah/</link>
         <pubDate>Thu, 29 Feb 2024 09:35:40 +0200</pubDate>
@@ -36,14 +44,6 @@
         <pubDate>Thu, 29 Feb 2024 09:35:40 +0200</pubDate>
         
         <guid>http://localhost:1313/categories/torah/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Genealogy</title>
-        <link>http://localhost:1313/categories/genealogy/</link>
-        <pubDate>Wed, 13 Dec 2023 18:00:40 +0200</pubDate>
-        
-        <guid>http://localhost:1313/categories/genealogy/</guid>
         <description></description>
         </item>
         <item>

@@ -46,7 +46,7 @@ and the Hebrew Free Sheltering Center (source: Rabbi Shmaria Shore's notes).
 
 He had artistic ability. 
 He helped [design and paint](https://www.providencejournal.com/story/lifestyle/faith/2015/07/26/historic-synagogue-is-treasure-on/33794798007/) the [fresco at Sons on Jacob Synagogue](http://samgrubersjewishartmonuments.blogspot.com/2019/01/usa-wall-paintings-at-sons-of-jacob-in.html?m=1) in Providence, RI and some of 
-his [paper cuttings](https://www.providencejournal.com/story/lifestyle/faith/2016/09/03/hidden-treasure-discovered-in-struggling-providence-synagogue/25523477007/) are at the Museum of Fine Arts in Boston and have 
+his [paper cuttings](https://www.providencejournal.com/story/lifestyle/faith/2016/09/03/hidden-treasure-discovered-in-struggling-providence-synagogue/25523477007/) are at the [Museum of Fine Arts in Boston](https://mfaprints.org/products/2021-799) and have 
 been sold at various Judica auctions.
 
 

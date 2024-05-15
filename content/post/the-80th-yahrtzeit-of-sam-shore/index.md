@@ -35,7 +35,8 @@ Tonight, the 7th of Iyar, marks the 80th anniversary of the passing of my great-
 
 Sam Shore / Shmarya Saranduk was the oldest son of [Hyman and Sarah Shore](/post/hyman-and-sarah) and was apparently a rather intimidating personality. 
 He was Sabbath observant and religious, even in America. 
-My father tells me that he was the first president of Sons of Jacob Synagogue in Providence, RI. An Orthodox Synagogue, now a protected historical site.
+My father tells me that he was the first president of [Sons of Jacob Synagogue](https://www.sonsofjacobsynagogue.net/) in Providence, RI. 
+An Orthodox Synagogue, Sons of Jacob is now a [protected historical site](https://preservation.ri.gov/sites/g/files/xkgbur406/files/pdfs_zips_downloads/national_pdfs/providence/prov_douglas-avenue-29_sons-of-jacob-synagogue.pdf).
 He also said that his son's financed the building. Personally, I remember going to Sons of Jacob as a child and seeing his name displayed prominently in various places, although I don't remember all the details.
 He also had an entrepreneurial spirit. He was a colorful personality and was often cast as protagonist in tall tales about great strength and somewhat unchecked aggression. This tendency is demonstrated in some of the notes below.
 
@@ -44,9 +45,10 @@ Hebrew Free Loan Society in Providence (source: my father)
 and the Hebrew Free Sheltering Center (source: Rabbi Shmaria Shore's notes).
 
 He had artistic ability. 
-He helped design the [fresco at Sons on Jacob Synagogue](http://samgrubersjewishartmonuments.blogspot.com/2019/01/usa-wall-paintings-at-sons-of-jacob-in.html?m=1) in Providence, RI and some of 
-his paper cuttings are at the Museum of Fine Arts in Boston and have 
+He helped [design and paint](https://www.providencejournal.com/story/lifestyle/faith/2015/07/26/historic-synagogue-is-treasure-on/33794798007/) the [fresco at Sons on Jacob Synagogue](http://samgrubersjewishartmonuments.blogspot.com/2019/01/usa-wall-paintings-at-sons-of-jacob-in.html?m=1) in Providence, RI and some of 
+his [paper cuttings](https://www.providencejournal.com/story/lifestyle/faith/2016/09/03/hidden-treasure-discovered-in-struggling-providence-synagogue/25523477007/) are at the Museum of Fine Arts in Boston and have 
 been sold at various Judica auctions.
+
 
 I have included notes on Sam Shore below from Ruth Mondlick and Rabbi Shmaria Shore. 
 Personally, I am doubtful of many of the stories in these notes, but I think it gives you a sense of the person.

@@ -142,8 +142,7 @@ Seems a lot of Shmarya's notes are based on the testimonies of Barrie Shore My f
 My father grew up around his grandfather, Samuel Oscar Shore, regarding his great grandfather, Sam Shore, he told me: “I heard a lot of nonsense stories (about Sam Shore) that my grandfather (Samuel Oscar Shore) dismissed.”
 
 Record of _Shmarya_ and _Taube_’s wedding in Talne from the community ledger in (Cherkassy):
-![Record of wedding](ShmaryaToiyba.png)
-![Hebrew close up](ShmaryaToibaHeb.png)
+![Record of wedding](ShmaryaToiyba.png) ![Hebrew close up](ShmaryaToibaHeb.png)
 
 ## Children
 

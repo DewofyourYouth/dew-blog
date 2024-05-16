@@ -38,7 +38,10 @@ He was Sabbath observant and religious, even in America.
 My father tells me that he was the first president of [Sons of Jacob Synagogue](https://www.sonsofjacobsynagogue.net/) in [Providence, RI](https://rhodetour.org/items/show/416). 
 An Orthodox Synagogue, Sons of Jacob is now a [protected historical site](https://preservation.ri.gov/sites/g/files/xkgbur406/files/pdfs_zips_downloads/national_pdfs/providence/prov_douglas-avenue-29_sons-of-jacob-synagogue.pdf).
 He also said that his son's financed the building. Personally, I remember going to Sons of Jacob as a child and seeing his name displayed prominently in various places, although I don't remember all the details.
-He also had an entrepreneurial spirit. He was a colorful personality and was often cast as protagonist in tall tales about great strength and somewhat unchecked aggression. This tendency is demonstrated in some of the notes below.
+
+He also had an entrepreneurial spirit. 
+He was a colorful personality and was often cast as protagonist in tall tales about great strength and somewhat unchecked aggression. 
+This tendency is demonstrated in some of the notes below.
 
 He also established the 
 Hebrew Free Loan Society in Providence (source: my father) 

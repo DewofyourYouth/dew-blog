@@ -163,4 +163,6 @@ This is the death certificate for Sam Shore:
 
 ![Death certificate](shmaryahu-death-cert.jpg)
 
-The death certificate contains various inaccuracies. For example, there is a fair amount of proof that his mother's maiden name was not Grossman.
+The death certificate contains various inaccuracies. 
+For example, there is a fair amount of proof that his mother's maiden name was not Grossman.
+Sam had a sister (Tillie) whose married name was Grossman. His mother's maiden name was Mamorofsky (based on her death certificate).

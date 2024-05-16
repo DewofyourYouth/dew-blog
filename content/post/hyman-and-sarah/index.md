@@ -39,8 +39,6 @@ The oldest Saranduk we know to have emigrated from Russia (present day Ukraine) 
 
 The earliest document we have from Khaim Hersch is a 1858 Russian census document (shown in gallery below). I referenced this document before in [this post](https://www.dewofyouryouth.com/post/shore-family/). It says he was the son of Arvum (35) son of Khaim Saranduk. His mother’s name is Khaya (32). He is 9 years old and has a 6 year old brother named Moshe Yankel. He lives in Talne Ukraine. This puts the birth year of Khaim Hersch at approximately 1849.
 
-_UPDATE:_ We have since found an earlier 1850 census [documented here](/post/new-records/).
-
 The next document I’ve found that he appears on is a record of his oldest known Shmarya (23) son of Khaim Hersch Saranduk to a Taube (18) daughter of Avraham Yudel Beresowsky. The event was to occur on August 18th, 1888. The document is referenced in [this post](https://www.dewofyouryouth.com/post/saranduk-iii/).
 
 Based on this, we can see that Khaim Hersch got married relatively young. He was apparently only 16 when he has his first child.

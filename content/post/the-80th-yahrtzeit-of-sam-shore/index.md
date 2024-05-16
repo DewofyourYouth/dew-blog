@@ -94,7 +94,7 @@ Shmari Shore—ruled the house like a king in his castle. They were afraid of hi
 
 Shmari and Asher were very similar. His mother-in-law died on the boat trip to the United States because the food was not kosher and she refused to eat. Her body was thrown aboard and by miracle arrived at Haifa and was identified there, and she was buried in Israel.
 
-_In another part of Shmarya’s notes it says that they received a note that they got the body and it was sent to Israel._
+> _**Jacob note** - In another part of Shmarya’s notes it says that they received a note that they got the body and it was sent to Israel._
 
 Shmari's house was religious and he put on tefillin. He gave a religious education to his children. The bar mitzvah of Shmari took place when they were selling shmattes—they just went in to the synagogue, finished and went back.
 

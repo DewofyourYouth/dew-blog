@@ -18,7 +18,7 @@ Philip Shore was the cousin of Sam (Shmariahu) Shore. He was the son of Moshe Ya
 
 The tombstone says ר׳ פינא ב״ר משה יעקב שאהר and מרת נחמה שאהר בת ר׳ פסח - his Hebrew name was written Pina, either a moniker or a typo, as but it is clear that his name was Pinhas פנחס - based on the birth record of Clara Saranduk (later Irene Shore) as well as his naturalization papers. On the death record for Philip Shore, Netty’s maiden name is listed as Farber. One of the interesting things about Philip and Netty's naturalization index cards (below) is that it is one of the few places where the name change from Saranduk to Shore is explicit.
 
-I reached out to Norine Ginsburg, one of one of Philip and Netty’s descendants, she told me she knows the story of how they left Russia / Ukraine. Below is her unedited accounting, sent to me in a series of text messages:
+I reached out to Norine Ginsburg, one of Philip and Netty’s descendants, she told me she knows the story of how they left Russia / Ukraine. Below is her unedited accounting, sent to me in a series of text messages:
 
 > Phillip & Netty Saranduk were my Mother's , mother's parents. (Irene, oldest of four sisters). I was told that they lived in a small town, ( Evaterinopol, Russia was on the passenger list of ship regarding former home.) They had two leather shops. Their daughters had a tutor come to the house to educate them. They knew how to read and write Russian, Hebrew and Yiddish, and other subjects. This was unusual for girls to be taught this way.. I think?
 >

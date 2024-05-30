@@ -15,9 +15,9 @@ draft: false
 ---
 
 ```goat
-Avraham Saranduk ---------------------+---------------------------------- Chaya
+Avraham Saranduk --+------------+---------------------------------------+- Chaya
                   /             |                                        \
-              Malka       Chaim Hersh ------------+----------- Sura  Moshe Yankel --------------------+---------------------------- Asa
+              Malka       Chaim Hersh -+---+------+---+-----+-- Sura  Moshe Yankel --------+------------+------------------------+---- Asa
                                       /   /       |    \      \                           /             |                         \
                                     Sam  William Tillie Rose Morris                     Abe         Philip ------+------ Netty     Max
                                                                                                      /     /          |     \

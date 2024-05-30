@@ -40,3 +40,4 @@ I reached out to Norine Ginsburg, one of one of Philip and Netty’s descendants
 
 ![Clara Birth](clara-birth.png)![Tombstone Hebrew](tombstone.jpeg)![Tombstone English](tombstone-english.jpeg)![Philip Shore Tree](tree.jpg)![Philip and Netty Family](philip-netty.jpeg)![Philip Death Certificate](philip-full-death.jpg)![Philip's Death Certificate Detail](netty-death.png)![S.S. Majestic](majestic-passengers.jpg)
 ![Philip Naturalization Index](philip-nat-index-1.jpg)![Philip name change](philip-nat-index-2.jpg)![Netty Naturalization Index](netty-nat-index-1.jpg)![Netty name change](netty-nat-index-2.jpg)
+

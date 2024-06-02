@@ -1,9 +1,9 @@
 ---
 title: "Elixir Cheatsheet"
-description: Some Elixir basics.
+description: Some Elixir basics (work in progress).
 date: 2024-06-02T16:31:26+03:00
 image: potion.jpg
-draft: true
+draft: false
 ---
 
 I've been trying to play around with Elixir, I've decided to make a little cheatsheet to remember the basics.

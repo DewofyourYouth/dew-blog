@@ -64,8 +64,8 @@ Atom are constants. Their name is their value - and they are used similarly to e
 Example use of atoms:
 
 ```elixir
-tup1 = {:error, "Shay's mom"}                     # this is a tuple with an atom and a string in it.
-tup2 = {:success, "Not Shay's mom!"}
+tup1 = {:error, "The sky is falling!"}                     # this is a tuple with an atom and a string in it.
+tup2 = {:success, "Everything is under control."}
 tup3 = {:something_else, "Davie Crocket"}
 
 defmodule HandleMessage do
@@ -86,8 +86,8 @@ IO.puts(HandleMessage.check_message tup3)
 Output:
 
 ```
-An error occured: 'Shay's mom' 😭
-Hurray! 'Not Shay's mom!' 🎉
+An error occured: 'The sky is falling!' 😭
+Hurray! 'Everything is under control.' 🎉
 I don't know what to do with this: 'Davie Crocket' 🤷
 ```
 
@@ -144,8 +144,8 @@ Key value data structure.
 This is an example of a `case` statement:
 
 ```elixir
-tup1 = {:error, "Shay's mom"}                     # this is a tuple with an atom and a string in it.
-tup2 = {:success, "Not Shay's mom!"}
+tup1 = {:error, "The sky is falling!"}              # this is a tuple with an atom and a string in it.
+tup2 = {:success, "Everything is under control."}
 tup3 = {:something_else, "Davie Crocket"}
 
 defmodule HandleMessage do
@@ -166,8 +166,8 @@ IO.puts(HandleMessage.check_message tup3)
 This can also be accomplished with pattern matching and overloading:
 
 ```elixir
-tup1 = {:error, "Shay's mom"}
-tup2 = {:success, "Not Shay's mom!"}
+tup1 = {:error, "The sky is falling!"}
+tup2 = {:success, "Everything is under control."}
 tup3 = {:something_else, "Davie Crocket"}
 
 defmodule HandleMessage2 do

@@ -1,5 +1,5 @@
 ---
-title: "Shlichus MeMitzvos"
+title: "Shlichus BeMitzvos"
 date: 2024-07-04T14:47:49+02:00
 tags:
   - shlichus

@@ -1,9 +1,9 @@
 ---
 title: Elul Logs II
 description: More Notes from Obsidian on Progress
-tags: ["אלול", "קבלות", "self improvement", "elul logs"]
+tags: ["אלול", "קבלות", "self improvement", "elul logs", "introspection"]
 date: 2023-09-04T08:10:48+03:00
-categories: ["Torah", "mussar"]
+categories: ["Torah", "mussar", "introspection"]
 draft: false
 ---
 
@@ -41,7 +41,7 @@ My son is leining at school tomorrow morning. I had to help him. I ended up goin
 
 Today I woke up and woke up Eliyahu to practice his leining before shul. I went to the 6:40 minyan at KSY. It's a much farther walk than Zichron Moshe, but the pace is somewhat better.
 
-I'm going to WFH today, and I think also on Thursday. Better to be in a _shul_ for _krias hatorah_. 
+I'm going to WFH today, and I think also on Thursday. Better to be in a _shul_ for _krias hatorah_.
 
 I caught up with Daf HaYomi today! 😌
 

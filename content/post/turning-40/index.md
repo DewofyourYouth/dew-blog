@@ -9,7 +9,7 @@ tags:
   - midlife
 categories:
   - introspection
-draft: false
+draft: true
 ---
 
 I recently celebrated my 40th birthday. At work, someone asked me how I celebrated my birthday. I briefly misunderstood the question to be how _can_ I celebrate my birthday? I decided to just go with it?

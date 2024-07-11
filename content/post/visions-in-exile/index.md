@@ -1,6 +1,8 @@
 ---
 title: "Visions of God in Exile"
+description: "Ezekiel's Vision and the fifth of Tammuz"
 date: 2024-07-11T00:16:43+03:00
+image: eye.jpg
 draft: true
 ---
 
@@ -21,6 +23,8 @@ Yesterday in Daf HaYomi, we learnt that the book of Ezekiel wasn't written by Ez
 > --- Bava Metzia, 85a
 
 It's odd that sometimes, the visions of exile must come to Israel to be written down. And yet, they are _indeed_ visions of God!! Despite Rabbi Zeira's 100 fasts, it is the Daf HaYomi of the **Babylonian's** that we're learning here in Israel and the vision of Ezekiel's in exile in which the Chariot of God is revealed to us. Even the Torah itself, was given to us outside of Israel - to give us directions for when we arrive to the Holy Land.
+
+Rashi explains that the reason Rabbi Zeira wanted to forget the Torah of Babylonia is because
 
 > Trust in Hashem and do good, dwell in the land and sheppard faith. \
 >  --- Psalms 37, 3

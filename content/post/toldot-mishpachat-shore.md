@@ -3,6 +3,8 @@ title: תולדות משפחת שור סרנדוק
 date: 2024-08-30T14:34:39+03:00
 draft: false
 direction: rtl
+image: https://www.dewofyouryouth.com/post/shore-family/papercut_hue9e27703d80f403b549de51f23268b2d_1005295_1024x0_resize_q75_box.jpg
+
 ---
 ## הרקע
 
@@ -78,6 +80,8 @@ direction: rtl
 ## צאצאיו של חיים הערש שור
 ### שׁמריה וטויבע שור (סרנדוק)
 #### שמריה שור
+![Sam Shore](https://www.dewofyouryouth.com/post/the-80th-yahrtzeit-of-sam-shore/sam-shore_hucc285fe646c1cf2f50517a32f5f556a3_407603_1024x0_resize_q75_box.jpg)
+
 שמריה שור, בנו הבכור של חיים הערש, הנודע בשם [[Sam Shore]] בארה״ב, נולד בשנת 1868 בעיר טולנה. היה שומר שבת ודתי, אפילו בארה״ב. גם היה לו כנראה, אישיות מאיימת. האזכרה ה80 שלו היתה בז׳ אייר בשנה הזאת (תשפ״ד).
 
 על פי **אבי מורי** שליט״א, שמריה היה הנשיא הראשון של בית הכנסת בני יעקב בפרובידנס, רוד איילנד, ואף בניו שילמו עבור בניית הבניין. היא קיימת היום בפרובידנס, ונחשבת [כאתר היסטורי](https://preservation.ri.gov/sites/g/files/xkgbur406/files/pdfs_zips_downloads/national_pdfs/providence/prov_douglas-avenue-29_sons-of-jacob-synagogue.pdf). אני זוכר בילדותי ששמו מופיע בצורה בולטת בהרבה במקומות בבית הכנסת שם. 

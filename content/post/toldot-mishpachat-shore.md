@@ -172,6 +172,8 @@ direction: rtl
 
 מרשימותיו של שמריה גם כתוב שטיובע גדלה בעיר קטנה ליד טולנה ששמה Kalibalot.  לאחר מכן מצאתי שKaternypol היה קרוי Kalniboloto ע״י היהודים שם (על שם השם הקודמי של העיר). גם בערך של החתונה של שמריה וטיובע מה[[Cherkasy Church Books]] כתוב שהכלה מ-Mokra Kaligorka שהוא באזור Katernypol - והחתן מטולנה. כמה וכמה מבני המשפחה היו מאותה עיר.
 
+![Shmaria and Taube Wedding](https://www.dewofyouryouth.com/post/saranduk-iii/hebrewcloseup.png)
+
 יש גם ערך ב [[Ukrainian Revision Lists]] של אברהם יודעל בורוסבסקי עם בן שקוראים לו דוד בשנת 1875 מעיר Mokra Kaligorka.
 שם המשפחה **בוריסובסקי.** 
 

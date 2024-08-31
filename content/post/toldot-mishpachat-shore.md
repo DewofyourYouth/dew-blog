@@ -175,7 +175,9 @@ image: https://www.dewofyouryouth.com/post/shore-family/papercut_hue9e27703d80f4
 יש כמה גירסאות של הסיפור - אבל כנראה שאמה היתה מאוד ירא שמיים ונפטרה במסע לארה״ב מפני שסירבה לאכול אוכל שלא כשרה, זרקו את גופה לים עם פתק שזה אשה יהודייה ולקבור אותה בארץ ישראל. ברשימותיו של הרב שמריה שור כתוב שקבלו בשורה שאכן נמצאה ונקברה בארץ ישראל. 
 
 מרשימותיו של שמריה גם כתוב שטיובע גדלה בעיר קטנה ליד טולנה ששמה Kalibalot.  לאחר מכן מצאתי שKaternypol היה קרוי Kalniboloto ע״י היהודים שם (על שם השם הקודמי של העיר). גם בערך של החתונה של שמריה וטיובע מה[[Cherkasy Church Books]] כתוב שהכלה מ-Mokra Kaligorka שהוא באזור Katernypol - והחתן מטולנה. כמה וכמה מבני המשפחה היו מאותה עיר.
-שמריה וטיובע התחתנו ל17 לאוגוסט (כ״ב אלול), שנת 1888 וקיימת ערך בCherkassy Church Books 
+
+שמריה וטיובע התחתנו ב17 לאוגוסט (כ״ב אלול), שנת 1888 וקיימת ערך בCherkassy Church Books 
+
 ![Shmaria and Taube Wedding](https://www.dewofyouryouth.com/post/saranduk-iii/hebrewcloseup.png) ![Russian Side](https://www.dewofyouryouth.com/post/saranduk-iii/russiancloseup.png)
 
 יש גם ערך ב [[Ukrainian Revision Lists]] של אברהם יודעל בורוסבסקי עם בן שקוראים לו דוד בשנת 1875 מעיר Mokra Kaligorka.

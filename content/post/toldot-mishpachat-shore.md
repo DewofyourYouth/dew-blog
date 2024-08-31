@@ -28,7 +28,7 @@ image: https://www.dewofyouryouth.com/post/shore-family/papercut_hue9e27703d80f4
 
 נתחיל מהדורות שעברו מאוקראינה (שהייתה אז תחת שלטון רוסית) לאמריקה. הראשון שבהם הוא חיים צבי (הירש) שור / סרנדוק, ואשתו שרה מאמורובסקי. חיים הירש נולד בשנת 1849 בעיר טולנה להוריו ,[[Avraham and Khaya Saranduk]] אברהם וחיה סרנדוק. ידוע עליו שהיה לו אחות גדולה נקראת בשם [[מלכה סרנדוק]] ואח קטן בשם [[Moshe Yankel]] (משה יעקב *יאנקעל*). אנחנו יודעים זאת ממסמכים הנקראים בשם ה[[Ukrainian Revision Lists]].
 
-![תמונה של המפקד שם סרנדוק, שנת 1858](https://www.dewofyouryouth.com/post/shore-family/census.jpg)
+![תמונה של המפקד שם סרנדוק, שנת 1858](https://www.dewofyouryouth.com/post/shore-family/census.jpg.jpg)
 > תמונה של הרשימה של סרנדוק משנת 1858
 
 

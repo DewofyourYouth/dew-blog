@@ -72,7 +72,7 @@ image: https://www.dewofyouryouth.com/post/shore-family/papercut_hue9e27703d80f4
 
 הם נסעו לארה״ב מנמל טרייסט - על האוניה S.S Gerty. הגיעו בספטבר 1904. במניפסט של הספינה, חיים הערש, ושמריה וכו׳ - כולם נרשמו כחייטים. 
 
-![[manifest.jpeg]]
+![manifest.jpeg](https://www.dewofyouryouth.com/post/saranduk-ii/manifest_hu1ea1d65355e49b11b927b5b4374904c5_1073207_1600x0_resize_q75_box.jpeg)]
 
 חיים הירש היה ידוע בארה״ב בשם Hyman Shore (היימן שור). היה מוכר כאדם שקט, תלמיד חכם, וירא שמיים - התגורר בפרובידנס, רוד איילנד ופתח שם חנות קטנה. בתעודת המוות שלו כתוב שהיה grocer (בעל מכולת). 
 

@@ -186,6 +186,12 @@ image: https://www.dewofyouryouth.com/post/shore-family/papercut_hue9e27703d80f4
 
 ![Shmaria and Taube Wedding](https://www.dewofyouryouth.com/post/saranduk-iii/hebrewcloseup.png) ![Russian Side](https://www.dewofyouryouth.com/post/saranduk-iii/russiancloseup.png)
 
+הצד העברי:
+
+> הבחור שמריה בן חיים הערש סאראנדאק מקהל טולנע
+> נשא אשה הבתולה טויבע בת אברהם יודעל בורוסאוסקי מקהל קורליגוררע
+> ס״ה נשואין בעד חודש אוגוסט שנים.
+
 יש גם ערך ב [[Ukrainian Revision Lists]] של אברהם יודעל בורוסבסקי עם בן שקוראים לו דוד בשנת 1875 מעיר Mokra Kaligorka.
 שם המשפחה **בוריסובסקי.** 
 

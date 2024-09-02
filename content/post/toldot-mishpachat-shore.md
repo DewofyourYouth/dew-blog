@@ -90,7 +90,7 @@ image: https://www.dewofyouryouth.com/post/shore-family/papercut_hue9e27703d80f4
 
 שמריה שור, בנו הבכור של חיים הערש, הנודע בשם [[Sam Shore]] בארה״ב, נולד בשנת 1868 בעיר טולנה. היה שומר שבת ודתי, אפילו בארה״ב. גם היה לו כנראה, אישיות מאיימת. האזכרה ה80 שלו היתה בז׳ אייר בשנה הזאת (תשפ״ד).
 
-על פי **אבי מורי** שליט״א, שמריה היה הנשיא הראשון של בית הכנסת בני יעקב בפרובידנס, רוד איילנד, ואף בניו שילמו עבור בניית הבניין. היא קיימת היום בפרובידנס, ונחשבת [כאתר היסטורי](https://preservation.ri.gov/sites/g/files/xkgbur406/files/pdfs_zips_downloads/national_pdfs/providence/prov_douglas-avenue-29_sons-of-jacob-synagogue.pdf). אני זוכר בילדותי ששמו מופיע בצורה בולטת בהרבה במקומות בבית הכנסת שם. 
+על פי **אבי מורי** שליט״א, שמריה היה הנשיא הראשון של בית הכנסת [בני יעקב](https://www.sonsofjacobsynagogue.net/) בפרובידנס, רוד איילנד, ואף בניו שילמו עבור בניית הבניין. היא קיימת היום בפרובידנס, ונחשבת [כאתר היסטורי](https://preservation.ri.gov/sites/g/files/xkgbur406/files/pdfs_zips_downloads/national_pdfs/providence/prov_douglas-avenue-29_sons-of-jacob-synagogue.pdf). אני זוכר בילדותי ששמו מופיע בצורה בולטת בהרבה במקומות בבית הכנסת שם. 
 
 הוא הקים גמ״ח להלוואות חינמיות ומקלט חינם ליהודים חסרי בית.
 

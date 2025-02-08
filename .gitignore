@@ -3,3 +3,5 @@ dew-blog.code-workspace
 *.icloudpublic
 public
 resources/_gen
+package-lock.json
+node_modules

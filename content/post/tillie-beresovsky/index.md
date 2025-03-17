@@ -31,7 +31,7 @@ tags:
 ```goat
         Avraham Edel Beresowsky ---+--- Rachel Bockman                           Chaim Svi Saranduk -------+---- Sara Mamorofsky
                                    |                                                                       |
-                            Taube (Tillie) --+-----------+-----+-------+------+-----+------+--- Shmaria (Sam)) Shore
+                            Taube (Tillie) --+-----------+-----+-------+------+-----+------+--- Shmaria (Sam) Shore
                                              |           |     |       |      |     |      |
           Teresa Slutsky --+----+----+-  Samuel O.  Bessie  David L. Bill  Joseph Jacob   Albert
                           /     |     \             (Fishbein)

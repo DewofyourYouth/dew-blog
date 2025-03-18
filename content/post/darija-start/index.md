@@ -16,7 +16,7 @@ Recently, I've started trying to learn Darija, the Moroccan dialect of Arabic. I
 
 I do need to figure out some things to reduce the friction of note taking - like how to type Arabic on the computer. I don't have an Arabic keyboard. Currently, my process involves writing in Obsidian on my phone and then copying from the synced version. I also want to find an easy solution for audio - for pronunciation.
 
-_Edit: I made a shortcut for audio embeds, it does the trick for now 😊. I'm not going to put in all the sound files now - but I'll put in the first 2 for testing._
+_Edit: I made a shortcode for audio embeds, it does the trick for now 😊. I'm not going to put in all the sound files now - but I'll put in the first 2 for testing._
 
 ## Basic Greetings & Phrases
 

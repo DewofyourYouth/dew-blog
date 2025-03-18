@@ -8,7 +8,7 @@ tags:
 categories:
   - Language
   - Arabic
-draft: true
+draft: false
 image: morocco-boats.jpg
 ---
 

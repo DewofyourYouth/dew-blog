@@ -1,10 +1,13 @@
 
 {{$direction := $.Params.Direction}}
+<script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5920a973b27f700011ad0d4a&product=inline-share-buttons' async='async'></script>
 {{if (eq $direction "rtl")}}
 <section class="article-content" style="direction:rtl">
 {{else}}
+
 <section class="article-content">
 {{end}}
+
 <a href='https://ko-fi.com/Y8Y1QJ34J' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
     <!-- Refer to https://discourse.gohugo.io/t/responsive-tables-in-markdown/10639/5 -->
     {{ $wrappedTable := printf "<div class=\"table-wrapper\">${1}</div>" }}

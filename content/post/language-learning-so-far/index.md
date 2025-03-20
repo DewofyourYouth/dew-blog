@@ -23,7 +23,7 @@ It became clear that I would need someone to teach me. At that point, I was torn
 
 I chose the [Preply](https://preply.com/en/home) platform. However, it soon became apparent that most Levantine tutors are not comfortable teaching a Jewish person. As I am not comfortable hiding this fact simply to get Arabic lessons, much of the choice was made for me.
 
-_NOTE: One teacher from Jordan was willing to teach me, he didn't speak a word of English, but I was going with it - because I thought it would force me to talk more Arabic, but then he missed the second lesson. I would've even put up with - but then handled it very unprofessionally, so I dropped him. He got upset that I informed the platform that he didn't show up and we had this wierd back and forth in Arabic._
+_NOTE: One teacher from Jordan was willing to teach me, he didn't speak a word of English, but I was going with it - because I thought it would force me to talk more Arabic, but then he missed the second lesson. I would've even put up with that - but then handled it very unprofessionally, so I dropped him. He got upset that I informed the platform that he didn't show up and got a refund and we had this wierd back and forth in Arabic._
 
 So, Moroccan Arabic it was.
 

@@ -19,7 +19,7 @@ image: arabic.jpg
 
 It’s been about a month and a half since I decided I wanted to learn Arabic. I had been using Duolingo for a while (not included in the month). I made some progress learning how to read the letters, but not much else. There was also no one I’d be able to talk to because it’s in MSA. All Arabs speak dialects.
 
-It became clear that I would need someone to teach me. At that point, I was torn between Levantine, since I live in Israel, and Moroccan, since I have a lot of positive personal interactions with Moroccans.
+It became clear that I would need someone to teach me. At that point, I was torn between Levantine and Moroccan. Levantine was clearly the more reasonable choice, considering I live in the Levant, but I have a certain love for Morocco that comes from my exposure to family and friends who are Moroccan Jews.
 
 I chose the [Preply](https://preply.com/en/home) platform. However, it soon became apparent that most Levantine tutors are not comfortable teaching a Jewish person. As I am not comfortable hiding this fact simply to get Arabic lessons, much of the choice was made for me.
 
@@ -43,7 +43,7 @@ Unfortunately, listening to _any_ Arabic radio during Ramadan means signing up f
 
 I also tried [_Tandem_](https://app.tandem.net/), a language exchange app where you can chat with native speakers. In theory, it’s a great tool. In practice, it’s mostly just texting, which isn’t all that useful. Anyone can sound fluent in a language when they have time to type and edit. That doesn’t mean they can actually _speak_ it. Calls are rare—most people either don’t answer or cancel last minute.
 
-That said, I did meet some cool people. I also ran into a lot of nonsense—“Are you a Zionist?” messages, tired antisemitic tropes, the usual. Not everyone, but enough that it got old fast. And even the Levantine speakers who were more graceful weren’t particularly engaging. A lot of one-word answers, no real back-and-forth. The North African Arabic speakers, on the other hand, were noticeably more fun to talk to. I don’t know if that’s cultural or if Levantines just hate Israelis more. Either way, the result was the same—actual conversations in Darija, dead-end chats in Levantine.
+That said, I did meet some cool people. I also ran into a lot of nonsense—“Are you a Zionist?” messages, tired antisemitic tropes, par for the course in the Arab world, I'm told. Not everyone, but enough that it got old fast. I quickly was able to notice cultural differences among different Arabic societies. Even the Levantine speakers who were more graceful weren’t particularly engaging. A lot of one-word answers, no real back-and-forth. The North African Arabic speakers, on the other hand, were noticeably more fun to talk to. I don’t know if that’s cultural or if Levantines just hate Israelis more. Either way, the result was the same — some actual conversations in Darija, dead-end chats in Levantine. There were some notable acceptions both ways - I'm talking in generalities.
 
 Also, Ramadan kvetching is much more tolerable when you're talking to someone who is actually fasting and it is not their job to entertain you. I find myself even sympathizing with them.
 

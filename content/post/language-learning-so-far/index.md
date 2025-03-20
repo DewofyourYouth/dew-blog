@@ -23,7 +23,7 @@ It’s been about a month and a half since I decided I wanted to learn Arabic. I
 
 It became clear that I would need someone to teach me. At that point, I was torn between Levantine and Moroccan. Levantine was clearly the more reasonable choice, considering I live in the Levant, but I have a certain love for Morocco that comes from my exposure to family and friends who are Moroccan Jews.
 
-I chose the [Preply](https://preply.com/en/home) platform. However, it soon became apparent that most Levantine tutors are not comfortable teaching a Jewish person. As I am not comfortable hiding this fact simply to get Arabic lessons, much of the choice was made for me.
+I chose the [Preply](https://preply.com/en/?pref=MTg3MDQ0NzU=&id=1742500213.149993&ep=w2) platform. However, it soon became apparent that most Levantine tutors are not comfortable teaching a Jewish person. As I am not comfortable hiding this fact simply to get Arabic lessons, much of the choice was made for me.
 
 _NOTE: One teacher from Jordan was willing to teach me, he didn't speak a word of English, but I was going with it - because I thought it would force me to talk more Arabic, but then he missed the second lesson. I would've even put up with that - but then handled it very unprofessionally, so I dropped him. He got upset that I informed the platform that he didn't show up and got a refund and we had this wierd back and forth in Arabic._
 
@@ -31,7 +31,7 @@ So, Moroccan Arabic it was.
 
 ## Tools and Methods
 
-I booked a tutor, started with one lesson a week, and quickly bumped it up to two. I started using _Anki_, a spaced repetition flashcard app, to keep track of new words and phrases. I also found that [_Lingualism_](https://lingualism.com/) sells pre-made Anki decks for different Arabic dialects, including Moroccan, which saved me time building my own from scratch. That said, I still make my own Anki cards in addition to the pre-made ones. I’ve found that the process of making them helps me remember the words better than just reviewing pre-made decks. I've also found keeping a notebook and handwriting in Arabic & transliterating really helps for retention.
+I booked a tutor, started with one lesson a week, and quickly bumped it up to two. I started using [_Anki_](https://ankiweb.net), a spaced repetition flashcard app, to keep track of new words and phrases. I also found that [_Lingualism_](https://lingualism.com/) sells pre-made Anki decks for different Arabic dialects, including Moroccan, which saved me time building my own from scratch. That said, I still make my own Anki cards in addition to the pre-made ones. I’ve found that the process of making them helps me remember the words better than just reviewing pre-made decks. I've also found keeping a notebook and handwriting in Arabic & transliterating really helps for retention.
 
 I also switched my _passive listening_ to Moroccan Arabic. Before, I had been listening to a mix of MSA and Levantine Arabic podcasts, but they weren’t doing much for me. MSA wasn’t useful for conversation, and the Levantine content felt too stiff and formal. Passive listening—just having the language on in the background while I do other things—isn’t about actively studying; it’s about getting used to the sounds, rhythm, and flow of the language. I started putting on Moroccan radio instead, which felt more natural.
 
@@ -59,7 +59,7 @@ One of the unexpected fun parts of this process has been noticing how many words
 
 ## Score Board
 
-- [Preply](https://preply.com/en/home) gets an **A-**. The platform is good - a lot of pushing and upselling for subscriptions. The tutors are totally unvetted as far as I can tell. You need to find a good one. I had to try out a few tutors until I found a great Moroccan one. I didn't find a great Levantine one that was willing to teach me.
+- [Preply](https://preply.com/en/?pref=MTg3MDQ0NzU=&id=1742500213.149993&ep=w2) gets an **A-**. The platform is good - a lot of pushing and upselling for subscriptions. The tutors are totally unvetted as far as I can tell. You need to find a good one. I had to try out a few tutors until I found a great Moroccan one. I didn't find a great Levantine one that was willing to teach me.
 - [Tandem](https://app.tandem.net/) gets a **B/B-**. It's nice to meet people without exchanging personal information, and meeting people from different cultures, but I have found it not to be such a game changer as far as language aquistion. That said, perhaps I just haven't been agressive enough(?)
 - [Anki](https://ankiweb.net) gets an **A+**. It seems to really be helpful in remembering words. This is especially true when the cards have audio (I left another app - AnkiPro - because it didn't have good support for audio).
 - A good ol' fashioned notebook really helps!

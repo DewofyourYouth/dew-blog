@@ -1,7 +1,7 @@
 ---
 title: About
 description: "The random musings of Jacob Shore"
-tags: ["about", "random musings"]
+tags: ["about", "random musings", "bio"]
 date: 2023-08-22
 image: "family.jpeg"
 slug: "about"
@@ -23,6 +23,7 @@ My interests include:
 - music and banjo playing
 - math
 - languages (programming and spoken)
+- Toastmasters
 
 ### About The Name - Dew of your Youth
 

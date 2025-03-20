@@ -7,9 +7,10 @@ disqusShortname = "dew-blog"
 
 [params]
 description = "The musings of Jacob Shore."
-defaultTheme = "auto"              # default theme when first visit (auto|dark|light)
+defaultTheme = "auto"
 featuredImageField = "image"
 favicon = "/favicon.ico"
+googleAnalytics = "G-V8B2ZNNM78"
 [params.author]
 name = "Jacob"
 email = "saranduk@DewofyourYouth.com"

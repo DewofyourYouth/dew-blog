@@ -17,11 +17,12 @@ Hi, I'm Jacob! I am a kollel-guy-turned-software-engineer living in Beit Shemesh
 My interests include:
 
 - Torah
-- [technologies](https://pangolinsoftwaresolutions.com)
+- technologies
 - family
 - genealogy
 - music and banjo playing
 - math
+- languages (programming and spoken)
 
 ### About The Name - Dew of your Youth
 

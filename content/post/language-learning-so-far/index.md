@@ -1,5 +1,6 @@
 ---
 title: "Language Learning So Far"
+subtitle: "My methods for learning Arabic"
 date: 2025-03-20T11:07:22+02:00
 draft: false
 categories:
@@ -10,6 +11,7 @@ tags:
   - learning
   - methods
   - habits
+  - Darija
 image: arabic.jpg
 ---
 

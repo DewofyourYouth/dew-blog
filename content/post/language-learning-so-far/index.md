@@ -59,7 +59,7 @@ One of the unexpected fun parts of this process has been noticing how many words
 
 ## Score Board
 
-- [Preply](https://preply.com/en/?pref=MTg3MDQ0NzU=&id=1742500213.149993&ep=w2) gets an **A-**. The platform is good - a lot of pushing and upselling for subscriptions. The tutors are totally unvetted as far as I can tell. You need to find a good one. I had to try out a few tutors until I found a great Moroccan one. I didn't find a great Levantine one that was willing to teach me.
+- [Preply](https://preply.com/en/?pref=MTg3MDQ0NzU=&id=1742500213.149993&ep=w2) gets an **A-**. The platform is good but some level of pushing and upselling for subscriptions. The tutors are totally unvetted as far as I can tell. You need to find a good one. I had to try out a few tutors until I found a great Moroccan one. I didn't find a great Levantine one that was willing to teach me. By the way, if you choose to take a lesson with Preply, use the referral link from this site to get a significant discount.
 - [Tandem](https://app.tandem.net/) gets a **B/B-**. It's nice to meet people without exchanging personal information, and meeting people from different cultures, but I have found it not to be such a game changer as far as language aquistion. That said, perhaps I just haven't been agressive enough(?)
 - [Anki](https://ankiweb.net) gets an **A+**. It seems to really be helpful in remembering words. This is especially true when the cards have audio (I left another app - AnkiPro - because it didn't have good support for audio).
 - A good ol' fashioned notebook really helps!

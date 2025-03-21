@@ -63,7 +63,7 @@ One of the unexpected fun parts of this process has been noticing how many words
 - [Tandem](https://app.tandem.net/) gets a **B/B-**. It's nice to meet people without exchanging personal information, and meeting people from different cultures, but I have found it not to be such a game changer as far as language aquistion. That said, perhaps I just haven't been agressive enough(?)
 - [Anki](https://ankiweb.net) gets an **A+**. It seems to really be helpful in remembering words. This is especially true when the cards have audio (I left another app - AnkiPro - because it didn't have good support for audio).
 - A good ol' fashioned notebook really helps!
-- [Lingualism](https://lingualism.com/) - I'm not ready to give a grade yet - I just found out about them Thursday. I've been using the cards, many of which are entirely new words - and I will report back as to whether I've gotten a boom in vocabulary.
+- [Lingualism](https://lingualism.com/) - I'm not ready to give a grade yet - I just found out about them this Tuesday. I've been using the cards, many of which are entirely new words - and I will report back as to whether I've gotten a boom in vocabulary.
 
 ## What’s Next?
 

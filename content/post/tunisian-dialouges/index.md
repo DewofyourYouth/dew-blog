@@ -8,6 +8,7 @@ tags:
 draft: false
 categories:
   - Arabic
+  - Tunisian
 image: dialogue1.png
 description: Jacob meets a friend for coffee and visits the doctor
 ---
@@ -30,10 +31,10 @@ _Jacob w sa7bou Omar yerte7ou fi 9ahwa ytkalmou m3 ba3dhom._
 **Jacob:** Nemshiw lel b7ar w n3oumou ghadi! \
 **Omar:** Behi barsha! Ena n7eb l-b7ar!
 
-🤒 Enti mridha ou mchit lel tbib .
-
 ![Jacob and Omar at the Café](dialogue1.png)
 ![Jacob at the Doctor](allergies.png)
+
+🤒 Enti mridha ou mchit lel tbib .
 
 - 👨‍⚕️ **Tbib**: Chnouwa 3andek?
 - 🤕 **Jacob**: 3andi 7asasiya mn l-9tates w ena deyi5 barsha *7asasiya  9tates*

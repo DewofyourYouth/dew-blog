@@ -7,7 +7,7 @@ tags:
   - language
   - travel
   - vocabulary
-draft: true
+draft: false
 categories:
   - Arabic
   - Language

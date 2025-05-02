@@ -1,51 +1,67 @@
-
 {{$direction := $.Params.Direction}}
 <style>
   .cloze {
-    font-family: sans-serif;
+    font-family: 'Georgia', serif; /* More in line with your site */
+    font-size: 1.1em;
+    line-height: 1.6;
+    position: relative;
   }
 
   .cloze > strong {
-    background-color: black;
-    padding: 0.2em;
-    border-radius: .5em;
+    background-color: #e0e0e0;       /* soft gray background */
+    color: #e0e0e0;                  /* match to hide text */
+    border-radius: 0.3em;
+    padding: 0.1em 0.3em;
+    transition: background-color 0.3s ease, color 0.3s ease;
   }
 
   .reveal > strong {
-      color: cornflowerblue;
-      background-color: inherit;
+    color: #222222;                  /* dark readable text */
+    background-color: #B38B6D;       /* muted earthy brown for reveal */
   }
 
   .toggle-btn {
-    margin: 0 5px;
-    padding: 4px;
+    background-color: #B38B6D;
+    color: white;
+    font-size: 0.8em;
+    padding: 2px 6px;
+    margin-left: 8px;
     border: none;
-    border-radius: 3px;
+    border-radius: 4px;
     cursor: pointer;
+    font-family: inherit;
+    vertical-align: middle;
+  }
+
+  .toggle-btn:hover {
+    background-color: #a07555;
   }
 </style>
 
 <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5920a973b27f700011ad0d4a&product=inline-share-buttons' async='async'></script>
+
 {{if (eq $direction "rtl")}}
 <section class="article-content" style="direction:rtl">
 {{else}}
-
 <section class="article-content">
 {{end}}
 
-<a href='https://ko-fi.com/Y8Y1QJ34J' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
-    <!-- Refer to https://discourse.gohugo.io/t/responsive-tables-in-markdown/10639/5 -->
-    {{ $wrappedTable := printf "<div class=\"table-wrapper\">${1}</div>" }}
-    {{ .Content | replaceRE "(<table>(?:.|\n)+?</table>)" $wrappedTable | safeHTML }}
-    {{ template "_internal/google_analytics.html" . }}
+<a href='https://ko-fi.com/Y8Y1QJ34J' target='_blank'>
+  <img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' />
+</a>
+
+{{ $wrappedTable := printf "<div class=\"table-wrapper\">${1}</div>" }}
+{{ .Content | replaceRE "(<table>(?:.|\n)+?</table>)" $wrappedTable | safeHTML }}
+{{ template "_internal/google_analytics.html" . }}
 
 </section>
+
 <script>
 document.addEventListener("DOMContentLoaded", () => {
   let clozes = document.querySelectorAll("li.cloze");
   for (let cloze of clozes) {
     let button = document.createElement("button")
-    button.innerText = "👁️"
+    button.innerText = "👀"
     button.classList.add("toggle-btn")
     cloze.appendChild(button)
     button.addEventListener("click", (ev) => {

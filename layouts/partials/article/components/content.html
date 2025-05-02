@@ -15,6 +15,14 @@
       color: cornflowerblue;
       background-color: inherit;
   }
+
+  .toggle-btn {
+    margin: 0 5px;
+    padding: 4px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
 </style>
 
 <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5920a973b27f700011ad0d4a&product=inline-share-buttons' async='async'></script>
@@ -33,12 +41,20 @@
 
 </section>
 <script>
-  document.addEventListener("DOMContentLoaded", () => {
-    let clozes = document.querySelectorAll("li.cloze");
-    for (let cloze of clozes) {
-      cloze.addEventListener("click", (ev) => {
-        ev.target.classList.toggle("reveal");
-      });
-    }
-  });
+document.addEventListener("DOMContentLoaded", () => {
+  let clozes = document.querySelectorAll("li.cloze");
+  for (let cloze of clozes) {
+    let button = document.createElement("button")
+    button.innerText = "TOGGLE"
+    button.classList.add("toggle-btn")
+    cloze.appendChild(button)
+    button.addEventListener("click", (ev) => {
+      ev.target.parentElement.classList.toggle("reveal");
+    })
+    cloze.addEventListener("click", (ev) => {
+      ev.stopPropagation(); // don't bubble to li
+      ev.target.classList.toggle("reveal");
+    });
+  }
+});
 </script>

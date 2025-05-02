@@ -37,6 +37,7 @@
     let clozes = document.querySelectorAll("li.cloze");
     for (let cloze of clozes) {
       cloze.addEventListener("click", (ev) => {
+        ev.stopPropagation(); // don't bubble to li
         ev.target.classList.toggle("reveal");
       });
     }

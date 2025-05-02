@@ -3,6 +3,7 @@ title = 'Dew Blog'
 theme = 'hugo-theme-stack'
 disqusShortname = "dew-blog"
 
+ignoreLogs = ['warning-goldmark-raw-html']
 
 
 [params]
@@ -86,7 +87,7 @@ main = [ ]
   identifier = "linkedin"
   name = "LinkedIn"
   url = "https://www.linkedin.com/in/jacob-shore-86094725a/"
-    
+
     [menu.social.params]
     icon = "linkedin"
 

@@ -3,15 +3,17 @@
 <style>
   .cloze {
     font-family: sans-serif;
-    font-size: 1.5em;
   }
 
   .cloze > strong {
     background-color: black;
+    padding: 0.2em;
+    border-radius: .5em;
   }
 
   .reveal > strong {
-    background-color: yellow;
+      color: cornflowerblue;
+      background-color: inherit;
   }
 </style>
 
@@ -35,11 +37,7 @@
     let clozes = document.querySelectorAll("li.cloze");
     for (let cloze of clozes) {
       cloze.addEventListener("click", (ev) => {
-        if (ev.target.classList.contains("reveal")) {
-          ev.target.classList.remove("reveal");
-        } else {
-          ev.target.classList.add("reveal");
-        }
+        ev.target.classList.toggle("reveal");
       });
     }
   });

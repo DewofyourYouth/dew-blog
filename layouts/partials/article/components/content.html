@@ -1,5 +1,20 @@
 
 {{$direction := $.Params.Direction}}
+<style>
+  .cloze {
+    font-family: sans-serif;
+    font-size: 2em;
+  }
+
+  .cloze > strong {
+    background-color: black;
+  }
+
+  .reveal > strong {
+    background-color: yellow;
+  }
+</style>
+
 <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5920a973b27f700011ad0d4a&product=inline-share-buttons' async='async'></script>
 {{if (eq $direction "rtl")}}
 <section class="article-content" style="direction:rtl">
@@ -13,7 +28,19 @@
     {{ $wrappedTable := printf "<div class=\"table-wrapper\">${1}</div>" }}
     {{ .Content | replaceRE "(<table>(?:.|\n)+?</table>)" $wrappedTable | safeHTML }}
     {{ template "_internal/google_analytics.html" . }}
-    
+
 </section>
-
-
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    let clozes = document.querySelectorAll("li.cloze");
+    for (let cloze of clozes) {
+      cloze.addEventListener("click", (ev) => {
+        if (ev.target.classList.contains("reveal")) {
+          ev.target.classList.remove("reveal");
+        } else {
+          ev.target.classList.add("reveal");
+        }
+      });
+    }
+  });
+</script>

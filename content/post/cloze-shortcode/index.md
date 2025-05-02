@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let clozes = document.querySelectorAll("li.cloze");
   for (let cloze of clozes) {
     let button = document.createElement("button")
-    button.innerText = "TOGGLE"
+    button.innerText = "👁️"
     button.classList.add("toggle-btn")
     cloze.appendChild(button)
     button.addEventListener("click", (ev) => {
@@ -84,9 +84,9 @@ Which activates this CSS
 
   .toggle-btn {
     margin: 0 5px;
-    padding: 4px;
+    padding: 5px;
     border: none;
-    border-radius: 3px;
+    border-radius: 50%;
     cursor: pointer;
   }
 </style>

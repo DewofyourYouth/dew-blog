@@ -1,4 +1,4 @@
-baseURL: http://example.org/
+baseURL: http://dewofyouryouth.com/
 title: Dew Blog
 theme: hugo-theme-stack
 disqusShortname: dew-blog
@@ -21,6 +21,18 @@ params:
       mainSections:
         - post
   widgets:
+    homepage:
+      - type: search
+      - type: archives
+        params:
+          limit: 5
+      - type: categories
+        params:
+          limit: 10
+      - type: tag-cloud
+        params:
+          limit: 10
+
     article:
       math: false
       toc: true

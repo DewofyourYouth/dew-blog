@@ -3,7 +3,7 @@ title: Dialogues One
 date: 2025-04-29T21:23:47+02:00
 tags:
   - arabic
-  - dialouge
+  - dialogue
   - tunisian
 draft: false
 categories:

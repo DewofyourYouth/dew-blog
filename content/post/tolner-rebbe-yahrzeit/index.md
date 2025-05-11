@@ -5,7 +5,7 @@ tags:
   - Torah
   - hassidus
   - Tolna
-draft: true
+draft: false
 categories:
   - Torah
   - Genealogy

@@ -27,6 +27,6 @@ My interests include:
 - languages (programming and spoken)
 - Toastmasters
 
-### About The Name - Dew of your Youth
+## About The Name - Dew of your Youth
 
 The name is based on Tehillim/Psalms chapter 110:3.

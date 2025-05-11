@@ -42,7 +42,7 @@ The Rebbe made a siyum on Tractate Makkos for the yahrzeit and shared a passage:
 > Habakkuk came and established all 613 mitzvos on one as it says: "But the righteous person shall live with his faith."
 > — Makkos 24
 
-He explained, quoting the Zohar, that Habakkuk is the son revived by Elisha in the book of Kings. The key point: Elisha's initial hope that the woman's merit—her support—would revive her son wasn't enough. It was her faith, not just her actions, that ultimately brought new life. That's why Habakkuk, according to the Zohar, could later say, "the righteous person shall live (or enliven) by his faith."
+He explained, quoting the Zohar, that Habakkuk is the son revived by Elisha in the book of Kings. The key point: Elisha's initial hope that the woman's merit—her support—would revive her son wasn't enough. It was her faith, not just her actions, that ultimately brought new life. Especially the merit of her having faith even when she had very good reasons to question that faith. That's why Habakkuk, who according to the Zohar is the son Elisha revived, could later say, "the righteous person shall live (or enliven) by his faith."
 
 Faith—its central challenge and its necessity—runs through all of Reb Duvid of Talne's works. After the Rebbe's words, the message hit home: faith is complex, sometimes even defiant, but it keeps tradition alive.
 

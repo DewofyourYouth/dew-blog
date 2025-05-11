@@ -5,6 +5,7 @@ tags:
   - Torah
   - hassidus
   - Tolna
+  - Talne
 draft: false
 categories:
   - Torah

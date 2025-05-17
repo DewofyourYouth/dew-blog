@@ -1,6 +1,6 @@
 ---
-title: Eat Feed Teach Learn
-date: 2025-05-17T22:37:20+02:00
+title: Eat / Feed / Teach / Learn
+date: 2025-05-17T21:37:20+02:00
 tags:
   - arabic
   - tunisian

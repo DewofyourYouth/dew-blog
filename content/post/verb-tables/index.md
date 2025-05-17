@@ -370,20 +370,3 @@ I will later make a post with cloze lists to test yourself.
 | your mother  | **fahhem ommek!**  | **فهّم أمك!**   | Explain to your mother! |
 
 ---
-
-|Base Verb (intransitive)|Meaning|Causative Form|Meaning|
-|---|---|---|---|
-|**kel** (كل)|to eat|**wakkel** (وكّل)|to feed|
-|**taʿallem** (تعلّم)|to learn|**ʿallem** (علّم)|to teach|
-|**naḍḍef** (نظّف)|to clean|**naḍḍef** (identical)|to make clean|
-|**ḥfed** (حفظ)|to memorize|**ḥaffed** (حفّظ)|to teach by rote|
-|**fhem** (فهم)|to understand|**fahhem** (فهّم)|to explain|
-|**ḥess** (حسّ)|to feel|**ḥawwes** (حوّس)|to make someone feel|
-|**kherrej** (خرج)|to go out|**kherrej** (خرّج)|to make someone go out|
-|**dkhal** (دخل)|to enter|**dkhell** (دخّل)|to let in / insert|
-|**nam** (نام)|to sleep|**nawwem** (نوّم)|to put to sleep|
-|**qra** (قرا)|to read/study|**qerra** (قرّى)|to teach formally|
-|**māt** (مات)|to die|**mewwet** (موّت)|to kill|
-|**ḍḥek** (ضحك)|to laugh|**ḍaḥḥek** (ضحّك)|to make someone laugh|
-|**bka** (بكى)|to cry|**bekka** (بكّى)|to make someone cry|
-|**saket** (سكت)|to be quiet|**sakkat** (سكّت)|to silence|

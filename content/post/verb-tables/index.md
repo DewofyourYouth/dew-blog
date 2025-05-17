@@ -7,7 +7,7 @@ tags:
   - language
   - verbs
   - vocabulary
-draft: true
+draft: false
 categories:
   - Arabic
   - Language

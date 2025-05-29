@@ -16,26 +16,24 @@ image: squirrel.jpg
 description: Tunisian Arabic Verbs With Causative Forms
 ---
 
-Before you study this - be forewarned - I don't know for a fact that they are all correct in the Tunisian dialouge. I will be periodically checking these and adding audio files for each.
+Before you study this - be forewarned - I don't know for a fact that they are all correct in the Tunisian dialogue. I will be periodically checking these and adding audio files for each.
 
 I will later make a post with cloze lists to test yourself.
 
 | Base Verb (intransitive) | Meaning       | Causative Form         | Meaning                | Audio Recording |
 | ------------------------ | ------------- | ---------------------- | ---------------------- | --------------- |
-| **kel** (كل)             | to eat        | **wakkel** (وكّل)      | to feed                |                 |
+| **kle** (كل)             | to eat        | **wakkel** (وكّل)      | to feed                |                 |
 | **taʿallem** (تعلّم)     | to learn      | **ʿallem** (علّم)      | to teach               |                 |
 | **naḍḍef** (نظّف)        | to clean      | **naḍḍef** (identical) | to make clean          |                 |
-| **ḥfed** (حفظ)           | to memorize   | **ḥaffed** (حفّظ)      | to teach by rote       |                 |
+| **ḥfadh** (حفظ)          | to memorize   | **ḥaffed** (حفّظ)      | to teach by rote       |                 |
 | **fhem** (فهم)           | to understand | **fahhem** (فهّم)      | to explain             |                 |
-| **ḥess** (حسّ)           | to feel       | **ḥawwes** (حوّس)      | to make someone feel   |                 |
-| **kherrej** (خرج)        | to go out     | **kherrej** (خرّج)     | to make someone go out |                 |
-| **dkhal** (دخل)          | to enter      | **dkhell** (دخّل)      | to let in / insert     |                 |
-| **nam** (نام)            | to sleep      | **nawwem** (نوّم)      | to put to sleep        |                 |
+| **ḥass** (حسّ)           | to feel       | **yehasses** (حوّس)    | to make someone feel   |                 |
+| **nkhrrej** (خرج)        | to go out     | **kherrej** (خرّج)     | to make someone go out |                 |
+| **dkhal** (دخل)          | to enter      | **dakhal** (دخّل)      | to let in / insert     |                 |
 | **qra** (قرا)            | to read/study | **qerra** (قرّى)       | to teach formally      |                 |
-| **māt** (مات)            | to die        | **mewwet** (موّت)      | to kill                |                 |
 | **ḍḥek** (ضحك)           | to laugh      | **ḍaḥḥek** (ضحّك)      | to make someone laugh  |                 |
 | **bka** (بكى)            | to cry        | **bekka** (بكّى)       | to make someone cry    |                 |
-| **saket** (سكت)          | to be quiet   | **sakkat** (سكّت)      | to silence             |                 |
+| **sket** (سكت)           | to be quiet   | **sakkat** (سكّت)      | to silence             |                 |
 
 ---
 ## Eat – كل
@@ -56,13 +54,13 @@ I will later make a post with cloze lists to test yourself.
 
 | Pronoun      | Tunisian Arabic | Pronunciation | English       | Audio Recording |
 | ------------ | --------------- | ------------- | ------------- | --------------- |
-| I            | Ena klet        | كلت أنا       | I ate         |                 |
-| You (masc.)  | Enti klet       | كلت انت       | You ate       |                 |
+| I            | Ena klit        | كلت أنا       | I ate         |                 |
+| You (masc.)  | Enti klit       | كلت انت       | You ate       |                 |
 | He           | Houwa kal       | كل هو         | He ate        |                 |
 | She          | Heya kalet      | كلت היא       | She ate       |                 |
 | We           | A7na klina      | كلنا احنا     | We ate        |                 |
 | You (plural) | Entouma klitou  | كلتو انتم     | You (all) ate |                 |
-| They         | Houma klou      | كلو هم        | They ate      |                 |
+| They         | Houma klayou    | كلو هم        | They ate      |                 |
 
 ### Future
 
@@ -80,9 +78,8 @@ I will later make a post with cloze lists to test yourself.
 
 | To whom?     | Tunisian Arabic | Arabic Script | English           | Audio Recording |
 | ------------ | --------------- | ------------- | ----------------- | --------------- |
-| You (masc.)  | **okol!**       | **كُل!**      | Eat!              |                 |
-| You (fem.)   | **kli!**        | **كلي!**      | Eat! (to a woman) |                 |
-| You (plural) | **klou!**       | **كلو!**      | Eat! (all of you) |                 |
+| You (sing.)  | **kul!**        | **كُل!**      | Eat!              |                 |
+| You (plural) | **kulou!**      | **كلو!**      | Eat! (all of you) |                 |
 
 ---
 
@@ -90,15 +87,15 @@ I will later make a post with cloze lists to test yourself.
 
 ### Present
 
-| Subject | Object   | Tunisian Arabic | Arabic Script | English           | Audio Recording |
-| ------- | -------- | --------------- | ------------- | ----------------- | --------------- |
-| Ena     | Enti (m) | newakklek       | نوكّلك        | I feed you        |                 |
-| Ena     | Houwa    | newakklou       | نوكّله        | I feed him        |                 |
-| Ena     | Heya     | newakkelha      | نوكّلها       | I feed her        |                 |
-| Houwa   | Heya     | yewakkelha      | يوكّلها       | He feeds her      |                 |
-| Heya    | Houwa    | tewakklou       | توكّله        | She feeds him     |                 |
-| A7na    | Entouma  | newakkloukom    | نوكّلكم       | We feed you (pl.) |                 |
-| Houma   | A7na     | yewakklouna     | يوكّلونا      | They feed us      |                 |
+| Subject | Object  | Tunisian Arabic | Arabic Script | English           | Audio Recording |
+| ------- | ------- | --------------- | ------------- | ----------------- | --------------- |
+| Ena     | Enti    | newakklek       | نوكّلك        | I feed you        |                 |
+| Ena     | Houwa   | newakklou       | نوكّله        | I feed him        |                 |
+| Ena     | Heya    | nwakkelha       | نوكّلها       | I feed her        |                 |
+| Houwa   | Heya    | yewakkelha      | يوكّلها       | He feeds her      |                 |
+| Heya    | Houwa   | tewakklou       | توكّله        | She feeds him     |                 |
+| A7na    | Entouma | newakkloukom    | نوكّلكم       | We feed you (pl.) |                 |
+| Houma   | A7na    | yewakklouna     | يوكّلونا      | They feed us      |                 |
 
 ### Past
 
@@ -108,7 +105,7 @@ I will later make a post with cloze lists to test yourself.
 | Ena     | Houwa    | wakkeltou       | وكّلته        | I fed him        |                 |
 | Ena     | Heya     | wakkeltha       | وكّلتها       | I fed her        |                 |
 | Houwa   | Heya     | wakkelha        | وكّلها        | He fed her       |                 |
-| Heya    | Houwa    | wakkeltou       | وكّلته        | She fed him      |                 |
+| Heya    | Houwa    | wakklitou       | وكّلته        | She fed him      |                 |
 | A7na    | Entouma  | wakkelnékom     | وكّلناكم      | We fed you (pl.) |                 |
 | Houma   | A7na     | wakkelouna      | وكّلونا       | They fed us      |                 |
 
@@ -181,7 +178,6 @@ I will later make a post with cloze lists to test yourself.
 | To whom?     | Tunisian Arabic   | Arabic Script | English          |
 | ------------ | ------------------| --------------| ---------------- |
 | You (masc.)  | **taʿallem!**     | **تعلّم!**     | Learn!           |
-| You (fem.)   | **taʿallemi!**    | **تعلّمي!**    | Learn! (to a woman) |
 | You (plural) | **taʿallemou!**   | **تعلّمو!**    | Learn! (all of you) |
 
 ---
@@ -208,7 +204,7 @@ I will later make a post with cloze lists to test yourself.
 | Ena     | Houwa    | ʿallemtou           | علّمته            | I taught him        |
 | Ena     | Heya     | ʿallemtha           | علّمتها           | I taught her        |
 | Houwa   | Heya     | ʿallemha            | علّمها            | He taught her       |
-| Heya    | Houwa    | ʿallemtou           | علّمته            | She taught him      |
+| Heya    | Houwa    | ʿallmetou           | علّمته            | She taught him      |
 | A7na    | Entouma  | ʿallemnékom         | علّمناكم          | We taught you (pl.) |
 | Houma   | A7na     | ʿallemouna          | علّمونا           | They taught us      |
 
@@ -256,7 +252,7 @@ I will later make a post with cloze lists to test yourself.
 | ------------ | ----------------| --------------| -----------------|
 | I            | fhemt           | فهمت           | I understood     |
 | You (masc.)  | fhemt           | فهمت           | You understood   |
-| He           | fehem           | فهم            | He understood    |
+| He           | fhem           | فهم            | He understood    |
 | She          | fehemet         | فهمت           | She understood   |
 | We           | fehemna         | فهمنا          | We understood    |
 | You (plural) | fehemtou        | فهمتو          | You understood   |
@@ -278,9 +274,8 @@ I will later make a post with cloze lists to test yourself.
 
 | To whom?     | Tunisian Arabic | Arabic Script | English           |
 | ------------ | ----------------| --------------| ------------------|
-| You (masc.)  | **fhem!**       | **افهم!**      | Understand!       |
-| You (fem.)   | **fhemi!**      | **افهمي!**     | Understand!       |
-| You (plural) | **fhemou!**     | **افهمو!**     | Understand! (pl.) |
+| You (masc.)  | **ifhem!**       | **افهم!**      | Understand!       |
+| You (plural) | **ifhemou!**     | **افهمو!**     | Understand! (pl.) |
 
 ### Present (with Object)
 
@@ -302,7 +297,7 @@ I will later make a post with cloze lists to test yourself.
 | Ena     | Houwa      | fhemtou            | فهمته            | I understood him           |
 | Ena     | Heya       | fhemtha            | فهمتها           | I understood her           |
 | Houwa   | Heya       | fehemha            | فهمها            | He understood her          |
-| Heya    | Houwa      | fehemtou           | فهمته            | She understood him         |
+| Heya    | Houwa      | fehemetou           | فهمته            | She understood him         |
 | A7na    | Entouma    | fehemnakom         | فهمناكم          | We understood you (pl.)    |
 | Houma   | A7na       | fehemouna          | فهمونا           | They understood us         |
 
@@ -329,22 +324,22 @@ I will later make a post with cloze lists to test yourself.
 | Ena     | Enti     | nefahhmek         | نفهّمك         | I explain to you  |
 | Ena     | Houwa    | nefahhmou         | نفهّمه         | I explain to him  |
 | Ena     | Heya     | nefahhemha        | نفهّمها        | I explain to her  |
-| Houwa   | Heya     | yefahhemha        | يفهّمها        | He explains to her|
+| Houwa   | Heya     | yfahhemha        | يفهّمها        | He explains to her|
 | Heya    | Houwa    | tefahhmou         | تفهّمه         | She explains to him|
-| A7na    | Entouma  | nefahhmoukom      | نفهّموكم       | We explain to you (pl.)|
-| Houma   | A7na     | yefahhmouna       | يفهّمونا        | They explain to us|
+| A7na    | Entouma  | nefahahmoukom      | نفهّموكم       | We explain to you (pl.)|
+| Houma   | A7na     | yfahahmouna       | يفهّمونا        | They explain to us|
 
 ### Past
 
 | Subject | Object   | Tunisian Arabic   | Arabic Script | English            |
 | ------- | -------- | ----------------- | --------------| ------------------ |
-| Ena     | Enti     | fahhamtek         | فهّمتك         | I explained to you |
-| Ena     | Houwa    | fahhamtou         | فهّمته         | I explained to him |
-| Ena     | Heya     | fahhamtha         | فهّمتها        | I explained to her |
-| Houwa   | Heya     | fahhamha          | فهّمها         | He explained to her|
-| Heya    | Houwa    | fahhamtou         | فهّمته         | She explained to him|
+| Ena     | Enti     | fhhamtek         | فهّمتك         | I explained to you |
+| Ena     | Houwa    | fhhamtou         | فهّمته         | I explained to him |
+| Ena     | Heya     | fhhamtha         | فهّمتها        | I explained to her |
+| Houwa   | Heya     | fhhamha          | فهّمها         | He explained to her|
+| Heya    | Houwa    | fhhamehtou         | فهّمته         | She explained to him|
 | A7na    | Entouma  | fahhamnékom       | فهّمناكم        | We explained to you|
-| Houma   | A7na     | fahhamouna        | فهّمونا         | They explained to us|
+| Houma   | A7na     | fahahamouna        | فهّمونا         | They explained to us|
 
 ### Future
 

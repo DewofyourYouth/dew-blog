@@ -16,70 +16,71 @@ image: squirrel.jpg
 description: Tunisian Arabic Verbs With Causative Forms
 ---
 
-Before you study this - be forewarned - I don't know for a fact that they are all correct in the Tunisian dialogue. I will be periodically checking these and adding audio files for each.
+Update 1:  I went over all the verbs with a native speaker and made corrections. Added audio recordings for **some** verbs.
+
+_**NOTE**: I make recordings with Obsidian notes - some of the recordings cut out in the middle._
 
 I will later make a post with cloze lists to test yourself.
 
-| Base Verb (intransitive) | Meaning       | Causative Form         | Meaning                | Audio Recording |
-| ------------------------ | ------------- | ---------------------- | ---------------------- | --------------- |
-| **kle** (كل)             | to eat        | **wakkel** (وكّل)      | to feed                |                 |
-| **taʿallem** (تعلّم)     | to learn      | **ʿallem** (علّم)      | to teach               |                 |
-| **naḍḍef** (نظّف)        | to clean      | **naḍḍef** (identical) | to make clean          |                 |
-| **ḥfadh** (حفظ)          | to memorize   | **ḥaffed** (حفّظ)      | to teach by rote       |                 |
-| **fhem** (فهم)           | to understand | **fahhem** (فهّم)      | to explain             |                 |
-| **ḥass** (حسّ)           | to feel       | **yehasses** (حوّس)    | to make someone feel   |                 |
-| **nkhrrej** (خرج)        | to go out     | **kherrej** (خرّج)     | to make someone go out |                 |
-| **dkhal** (دخل)          | to enter      | **dakhal** (دخّل)      | to let in / insert     |                 |
-| **qra** (قرا)            | to read/study | **qerra** (قرّى)       | to teach formally      |                 |
-| **ḍḥek** (ضحك)           | to laugh      | **ḍaḥḥek** (ضحّك)      | to make someone laugh  |                 |
-| **bka** (بكى)            | to cry        | **bekka** (بكّى)       | to make someone cry    |                 |
-| **sket** (سكت)           | to be quiet   | **sakkat** (سكّت)      | to silence             |                 |
+| Base Verb (intransitive) | Meaning       | Causative Form      | Meaning                | Audio Recording                                                            |
+| ------------------------ | ------------- | ------------------- | ---------------------- | -------------------------------------------------------------------------- |
+| **kle** (كل)             | to eat        | **wakkel** (وكّل)   | to feed                | {{< audio src="eat.m4a">}} {{< audio src="feed.m4a">}} |
+| **taʿallem** (تعلّم)     | to learn      | **ʿallem** (علّم)   | to teach               | {{< audio src="learn.m4a">}}{{< audio src="teach.m4a">}}     |
+| **ḥfadh** (حفظ)          | to memorize   | **ḥaffed** (حفّظ)   | to teach by rote       | {{< audio src="memorize.m4a">}}{{< audio src="teach-by-rote.m4a">}}     |
+| **fhem** (فهم)           | to understand | **fahhem** (فهّم)   | to explain             | {{< audio src="understand.m4a">}}{{< audio src="explain.m4a">}}     |
+| **ḥass** (حسّ)           | to feel       | **yehasses** (حوّس) | to make someone feel   | {{< audio src="feel.m4a">}}{{< audio src="make-some-feel.m4a">}}     |
+| **nkhrrej** (خرج)        | to go out     | **kherrej** (خرّج)  | to make someone go out | {{< audio src="to-go-out.m4a">}}{{< audio src="to-make-someone-go-out.m4a">}}     |
+| **dkhal** (دخل)          | to enter      | **dakhal** (دخّل)   | to let in / insert     | {{< audio src="enter.m4a">}}{{< audio src="admit.m4a">}}     |
+| **qra** (قرا)            | to read/study | **qerra** (قرّى)    | to teach               | {{< audio src="read-or-study.m4a">}}{{< audio src="teach-qerra.m4a">}} |
+| **ḍḥek** (ضحك)           | to laugh      | **ḍaḥḥek** (ضحّك)   | to make someone laugh  | {{< audio src="laugh.m4a">}}{{< audio src="make-someone-laugh.m4a">}}     |
+| **bka** (بكى)            | to cry        | **bekka** (بكّى)    | to make someone cry    | {{< audio src="cry.m4a">}}{{< audio src="make-someone-cry.m4a">}}     |
+| **sket** (سكت)           | to be quiet   | **sakkat** (سكّت)   | to silence             | {{< audio src="to-be-quiet.m4a">}}{{< audio src="to-silence.m4a">}}     |
 
 ---
 ## Eat – كل
 
 ### Present
 
-| Pronoun      | Tunisian Arabic | Pronunciation | English       | Audio Recording |
-| ------------ | --------------- | ------------- | ------------- | --------------- |
-| I            | Ena nekel       | ناكل أنا      | I eat         |                 |
-| You (masc.)  | Enti tekel      | تاكل انت      | You eat       |                 |
-| He           | Houwa yekel     | ياكل هو       | He eats       |                 |
-| She          | Heya takel      | تاكل هي       | She eats      |                 |
-| We           | A7na neklou     | ناكلو احنا    | We eat        |                 |
-| You (plural) | Entouma teklou  | تاكلو انتم    | You (all) eat |                 |
-| They         | Houma yeklou    | ياكلو هم      | They eat      |                 |
+| Pronoun      | Tunisian Arabic | Pronunciation | English       | Audio Recording                           |
+| ------------ | --------------- | ------------- | ------------- | ----------------------------------------- |
+| I            | Ena nekel       | ناكل أنا      | I eat         | {{< audio src="i-eat.m4a">}} |
+| You (masc.)  | Enti tekel      | تاكل انت      | You eat       | {{< audio src="you-eat.m4a">}} |
+| He           | Houwa yekel     | ياكل هو       | He eats       | {{< audio src="he-eats.m4a">}} |
+| She          | Heya takel      | تاكل هي       | She eats      | {{< audio src="she-eats.m4a">}} |
+| We           | A7na neklou     | ناكلو احنا    | We eat        | {{< audio src="we-eat.m4a">}} |
+| You (plural) | Entouma teklou  | تاكلو انتم    | You (all) eat | {{< audio src="you-eat-plural.m4a">}} |
+| They         | Houma yeklou    | ياكلو هم      | They eat      | {{< audio src="they-eat.m4a">}} |
 
 ### Past
 
-| Pronoun      | Tunisian Arabic | Pronunciation | English       | Audio Recording |
-| ------------ | --------------- | ------------- | ------------- | --------------- |
-| I            | Ena klit        | كلت أنا       | I ate         |                 |
-| You (masc.)  | Enti klit       | كلت انت       | You ate       |                 |
-| He           | Houwa kal       | كل هو         | He ate        |                 |
-| She          | Heya kalet      | كلت היא       | She ate       |                 |
-| We           | A7na klina      | كلنا احنا     | We ate        |                 |
-| You (plural) | Entouma klitou  | كلتو انتم     | You (all) ate |                 |
-| They         | Houma klayou    | كلو هم        | They ate      |                 |
+| Pronoun      | Tunisian Arabic | Pronunciation | English       | Audio Recording                           |
+| ------------ | --------------- | ------------- | ------------- | ----------------------------------------- |
+| I            | Ena klit        | كلت أنا       | I ate         | {{< audio src="i-ate.m4a">}} |
+| You          | Enti klit       | كلت انت       | You ate       | {{< audio src="you-ate.m4a">}} |
+| He           | Houwa kal       | كل هو         | He ate        | {{< audio src="he-ate.m4a">}} |
+| She          | Heya kalet      | كلت היא       | She ate       | {{< audio src="she-ate.m4a">}} |
+| We           | A7na klina      | كلنا احنا     | We ate        | {{< audio src="we-ate.m4a">}} |
+| You (plural) | Entouma klitou  | كلتو انتم     | You (all) ate | {{< audio src="you-all-ate.m4a">}} |
+| They         | Houma klayou    | كلو هم        | They ate      | {{< audio src="they-ate.m4a">}} |
 
 ### Future
 
-| Pronoun      | Tunisian Arabic   | Pronunciation | English            | Audio Recording |
-| ------------ | ----------------- | ------------- | ------------------ | --------------- |
-| I            | Ena باش ناكل      | bāsh nākel    | I will eat         |                 |
-| You (masc.)  | Enti باش تاكل     | bāsh tākel    | You will eat       |                 |
-| He           | Houwa باش ياكل    | bāsh yākel    | He will eat        |                 |
-| She          | Heya باش تاكل     | bāsh tākel    | She will eat       |                 |
-| We           | A7na باش ناكلو    | bāsh nāklou   | We will eat        |                 |
-| You (plural) | Entouma باش تاكلو | bāsh tāklou   | You (all) will eat |                 |
-| They         | Houma باش ياكلو   | bāsh yākelou  | They will eat      |                 |
+| Pronoun      | Tunisian Arabic   | Pronunciation | English            | Audio Recording                           |
+| ------------ | ----------------- | ------------- | ------------------ | ----------------------------------------- |
+| I            | Ena باش ناكل      | bāsh nākel    | I will eat         | {{< audio src="i-will-eat.m4a">}} |
+| You (masc.)  | Enti باش تاكل     | bāsh tākel    | You will eat       | {{< audio src="you-will-eat.m4a">}} |
+| He           | Houwa باش ياكل    | bāsh yākel    | He will eat        | {{< audio src="he-will-eat.m4a">}} |
+| She          | Heya باش تاكل     | bāsh tākel    | She will eat       | {{< audio src="Recording 20250530111804.m4a">}} |
+| We           | A7na باش ناكلو    | bāsh nāklou   | We will eat        | {{< audio src="Recording 20250530111817.m4a">}} |
+| You (plural) | Entouma باش تاكلو | bāsh tāklou   | You (all) will eat | {{< audio src="Recording 20250530111823.m4a">}} |
+| They         | Houma باش ياكلو   | bāsh yākelou  | They will eat      | {{< audio src="Recording 20250530111829.m4a">}} |
 
 ### Imperative
 
-| To whom?     | Tunisian Arabic | Arabic Script | English           | Audio Recording |
-| ------------ | --------------- | ------------- | ----------------- | --------------- |
-| You (sing.)  | **kul!**        | **كُل!**      | Eat!              |                 |
-| You (plural) | **kulou!**      | **كلو!**      | Eat! (all of you) |                 |
+| To whom?     | Tunisian Arabic | Arabic Script | English           | Audio Recording                           |
+| ------------ | --------------- | ------------- | ----------------- | ----------------------------------------- |
+| You (sing.)  | **kul!**        | **كُل!**      | Eat!              | {{< audio src="Recording 20250530111840.m4a">}} |
+| You (plural) | **kulou!**      | **كلو!**      | Eat! (all of you) | {{< audio src="Recording 20250530111843.m4a">}} |
 
 ---
 
@@ -87,51 +88,51 @@ I will later make a post with cloze lists to test yourself.
 
 ### Present
 
-| Subject | Object  | Tunisian Arabic | Arabic Script | English           | Audio Recording |
-| ------- | ------- | --------------- | ------------- | ----------------- | --------------- |
-| Ena     | Enti    | newakklek       | نوكّلك        | I feed you        |                 |
-| Ena     | Houwa   | newakklou       | نوكّله        | I feed him        |                 |
-| Ena     | Heya    | nwakkelha       | نوكّلها       | I feed her        |                 |
-| Houwa   | Heya    | yewakkelha      | يوكّلها       | He feeds her      |                 |
-| Heya    | Houwa   | tewakklou       | توكّله        | She feeds him     |                 |
-| A7na    | Entouma | newakkloukom    | نوكّلكم       | We feed you (pl.) |                 |
-| Houma   | A7na    | yewakklouna     | يوكّلونا      | They feed us      |                 |
+| Subject | Object  | Tunisian Arabic | Arabic Script | English           | Audio Recording                           |
+| ------- | ------- | --------------- | ------------- | ----------------- | ----------------------------------------- |
+| Ena     | Enti    | newakklek       | نوكّلك        | I feed you        | {{< audio src="Recording 20250530111903.m4a">}} |
+| Ena     | Houwa   | newakklou       | نوكّله        | I feed him        | {{< audio src="Recording 20250530111908.m4a">}} |
+| Ena     | Heya    | nwakkelha       | نوكّلها       | I feed her        | {{< audio src="Recording 20250530111914.m4a">}} |
+| Houwa   | Heya    | yewakkelha      | يوكّلها       | He feeds her      | {{< audio src="Recording 20250530111923.m4a">}} |
+| Heya    | Houwa   | tewakklou       | توكّله        | She feeds him     | {{< audio src="Recording 20250530111933.m4a">}} |
+| A7na    | Entouma | newakkloukom    | نوكّلكم       | We feed you (pl.) | {{< audio src="Recording 20250530111943.m4a">}} |
+| Houma   | A7na    | yewakklouna     | يوكّلونا      | They feed us      | {{< audio src="Recording 20250530111952.m4a">}} |
 
 ### Past
 
-| Subject | Object   | Tunisian Arabic | Arabic Script | English          | Audio Recording |
-| ------- | -------- | --------------- | ------------- | ---------------- | --------------- |
-| Ena     | Enti (m) | wakkeltek       | وكّلتك        | I fed you        |                 |
-| Ena     | Houwa    | wakkeltou       | وكّلته        | I fed him        |                 |
-| Ena     | Heya     | wakkeltha       | وكّلتها       | I fed her        |                 |
-| Houwa   | Heya     | wakkelha        | وكّلها        | He fed her       |                 |
-| Heya    | Houwa    | wakklitou       | وكّلته        | She fed him      |                 |
-| A7na    | Entouma  | wakkelnékom     | وكّلناكم      | We fed you (pl.) |                 |
-| Houma   | A7na     | wakkelouna      | وكّلونا       | They fed us      |                 |
+| Subject | Object   | Tunisian Arabic | Arabic Script | English          | Audio Recording                           |
+| ------- | -------- | --------------- | ------------- | ---------------- | ----------------------------------------- |
+| Ena     | Enti (m) | wakkeltek       | وكّلتك        | I fed you        | {{< audio src="Recording 20250530112025.m4a">}} |
+| Ena     | Houwa    | wakkeltou       | وكّلته        | I fed him        | {{< audio src="Recording 20250530112029.m4a">}} |
+| Ena     | Heya     | wakkeltha       | وكّلتها       | I fed her        | {{< audio src="Recording 20250530112037.m4a">}} |
+| Houwa   | Heya     | wakkelha        | وكّلها        | He fed her       | {{< audio src="Recording 20250530112045.m4a">}} |
+| Heya    | Houwa    | wakklitou       | وكّلته        | She fed him      | {{< audio src="Recording 20250530112052.m4a">}} |
+| A7na    | Entouma  | wakkelnékom     | وكّلناكم      | We fed you (pl.) | {{< audio src="Recording 20250530112058.m4a">}} |
+| Houma   | A7na     | wakkelouna      | وكّلونا       | They fed us      | {{< audio src="Recording 20250530112105.m4a">}} |
 
 ### Future
 
-| Subject | Object   | Tunisian Arabic   | Arabic Script | English                | Audio Recording |
-| ------- | -------- | ----------------- | ------------- | ---------------------- | --------------- |
-| Ena     | Enti (m) | besh newakklek    | باش نوكّلك    | I will feed you        |                 |
-| Ena     | Houwa    | besh newakklou    | باش نوكّله    | I will feed him        |                 |
-| Ena     | Heya     | besh newakkelha   | باش نوكّلها   | I will feed her        |                 |
-| Houwa   | Heya     | besh yewakkelha   | باش يوكّلها   | He will feed her       |                 |
-| Heya    | Houwa    | besh tewakklou    | باش توكّله    | She will feed him      |                 |
-| A7na    | Entouma  | besh newakkloukom | باش نوكّلكم   | We will feed you (pl.) |                 |
-| Houma   | A7na     | besh yewakklouna  | باش يوكّلونا  | They will feed us      |                 |
+| Subject | Object   | Tunisian Arabic   | Arabic Script | English                | Audio Recording                           |
+| ------- | -------- | ----------------- | ------------- | ---------------------- | ----------------------------------------- |
+| Ena     | Enti (m) | besh newakklek    | باش نوكّلك    | I will feed you        | {{< audio src="Recording 20250530112128.m4a">}} |
+| Ena     | Houwa    | besh newakklou    | باش نوكّله    | I will feed him        | {{< audio src="Recording 20250530112132.m4a">}} |
+| Ena     | Heya     | besh newakkelha   | باش نوكّلها   | I will feed her        | {{< audio src="Recording 20250530112141.m4a">}} |
+| Houwa   | Heya     | besh yewakkelha   | باش يوكّلها   | He will feed her       | {{< audio src="Recording 20250530112149.m4a">}} |
+| Heya    | Houwa    | besh tewakklou    | باش توكّله    | She will feed him      | {{< audio src="Recording 20250530112154.m4a">}} |
+| A7na    | Entouma  | besh newakkloukom | باش نوكّلكم   | We will feed you (pl.) | {{< audio src="Recording 20250530112203.m4a">}} |
+| Houma   | A7na     | besh yewakklouna  | باش يوكّلونا  | They will feed us      | {{< audio src="Recording 20250530112211.m4a">}} |
 
 ### Imperative
 
-| Object       | Tunisian Arabic   | Arabic Script | English            | Audio Recording |
-| ------------ | ----------------- | ------------- | ------------------ | --------------- |
-| him          | **wakkelou!**     | **وكّله!**    | Feed him!          |                 |
-| her          | **wakkelha!**     | **وكّلها!**   | Feed her!          |                 |
-| me           | **wakkelni!**     | **وكّلني!**   | Feed me!           |                 |
-| them         | **wakkelhom!**    | **وكّلهم!**   | Feed them!         |                 |
-| us           | **wakkelna!**     | **وكّلنا!**   | Feed us!           |                 |
-| your brother | **wakkel khouk!** | **وكّل خوك!** | Feed your brother! |                 |
-| us           | **wakkelouna!**   | **وكّلونا!**  | Feed us! (you all) |                 |
+| Object       | Tunisian Arabic   | Arabic Script | English            | Audio Recording                           |
+| ------------ | ----------------- | ------------- | ------------------ | ----------------------------------------- |
+| him          | **wakkelou!**     | **وكّله!**    | Feed him!          | {{< audio src="Recording 20250530112222.m4a">}} |
+| her          | **wakkelha!**     | **وكّلها!**   | Feed her!          | {{< audio src="Recording 20250530112226.m4a">}} |
+| me           | **wakkelni!**     | **وكّلني!**   | Feed me!           | {{< audio src="Recording 20250530112229.m4a">}} |
+| them         | **wakkelhom!**    | **وكّلهم!**   | Feed them!         | {{< audio src="Recording 20250530112234.m4a">}} |
+| us           | **wakkelna!**     | **وكّلنا!**   | Feed us!           | {{< audio src="Recording 20250530112239.m4a">}} |
+| your brother | **wakkel khouk!** | **وكّل خوك!** | Feed your brother! | {{< audio src="Recording 20250530112244.m4a">}} |
+| us           | **wakkelouna!**   | **وكّلونا!**  | Feed us! (you all) | {{< audio src="Recording 20250530112255.m4a">}} |
 
 ---
 
@@ -139,39 +140,39 @@ I will later make a post with cloze lists to test yourself.
 
 ### Present
 
-| Pronoun      | Tunisian Arabic | Arabic Script | English      |
-| ------------ | ----------------| --------------| -------------|
-| I            | netʿallem       | نتعلّم         | I learn       |
-| You (masc.)  | tetʿallem       | تتعلّم         | You learn     |
-| He           | yetʿallem       | يتعلّم         | He learns     |
-| She          | tetʿallem       | تتعلّم         | She learns    |
-| We           | netʿallemou     | نتعلّمو        | We learn      |
-| You (plural) | tetʿallemou     | تتعلّمو        | You (pl.) learn |
-| They         | yetʿallemou     | يتعلّمو        | They learn    |
+| Pronoun      | Tunisian Arabic | Arabic Script | English         | Audio Recording                           |
+| ------------ | --------------- | ------------- | --------------- | ----------------------------------------- |
+| I            | netʿallem       | نتعلّم        | I learn         | {{< audio src="Recording 20250530112344.m4a">}} |
+| You (masc.)  | tetʿallem       | تتعلّم        | You learn       | {{< audio src="Recording 20250530112350.m4a">}} |
+| He           | yetʿallem       | يتعلّم        | He learns       | {{< audio src="Recording 20250530112438.m4a">}} |
+| She          | tetʿallem       | تتعلّم        | She learns      | {{< audio src="Recording 20250530112443.m4a">}} |
+| We           | netʿallemou     | نتعلّمو       | We learn        | {{< audio src="Recording 20250530112453.m4a">}} |
+| You (plural) | tetʿallemou     | تتعلّمو       | You (pl.) learn | {{< audio src="Recording 20250530112457.m4a">}} |
+| They         | yetʿallemou     | يتعلّمو       | They learn      | {{< audio src="Recording 20250530112501.m4a">}} |
 
 ### Past
 
-| Pronoun      | Tunisian Arabic | Arabic Script | English      |
-| ------------ | ----------------| --------------| -------------|
-| I            | taʿallemt       | تعلّمت         | I learned     |
-| You (masc.)  | taʿallemt       | تعلّمت         | You learned   |
-| He           | taʿallem        | تعلّم          | He learned    |
-| She          | taʿallemet      | تعلّمت         | She learned   |
-| We           | taʿallemna      | تعلّمنا        | We learned    |
-| You (plural) | taʿallemtou     | تعلّمتو        | You (pl.) learned |
-| They         | taʿallemou      | تعلّمو         | They learned  |
+| Pronoun      | Tunisian Arabic | Arabic Script | English           | Audio Recording                               |
+| ------------ | --------------- | ------------- | ----------------- | --------------------------------------------- |
+| I            | taʿallemt       | تعلّمت        | I learned         | {{< audio src="Recording 20250530112525.m4a">}}     |
+| You (masc.)  | taʿallemt       | تعلّمت        | You learned       | {{< audio src="Recording 20250530112550.m4a">}}     |
+| He           | taʿallem        | تعلّم         | He learned        | {{< audio src="Recording 20250530112602.m4a">}}     |
+| She          | taʿallemet      | تعلّمت        | She learned       | {{< audio src="Recording 20250530112642.m4a">}} |
+| We           | taʿallemna      | تعلّمنا       | We learned        | {{< audio src="Recording 20250530112655.m4a">}}     |
+| You (plural) | taʿallemtou     | تعلّمتو       | You (pl.) learned | {{< audio src="Recording 20250530112716.m4a">}} |
+| They         | taʿallemou      | تعلّمو        | They learned      | {{< audio src="Recording 20250530112724.m4a">}}     |
 
 ### Future
 
-| Pronoun      | Tunisian Arabic        | Arabic Script | English          |
-| ------------ | ---------------------- | --------------| -----------------|
-| I            | besh netʿallem         | باش نتعلّم     | I will learn      |
-| You (masc.)  | besh tetʿallem         | باش تتعلّم     | You will learn    |
-| He           | besh yetʿallem         | باش يتعلّم     | He will learn     |
-| She          | besh tetʿallem         | باش تتعلّم     | She will learn    |
-| We           | besh netʿallemou       | باش نتعلّمو    | We will learn     |
-| You (plural) | besh tetʿallemou       | باش تتعلّمو    | You (pl.) will learn |
-| They         | besh yetʿallemou       | باش يتعلّمو    | They will learn   |
+| Pronoun      | Tunisian Arabic  | Arabic Script | English              | Audio Recording                           |
+| ------------ | ---------------- | ------------- | -------------------- | ----------------------------------------- |
+| I            | besh netʿallem   | باش نتعلّم    | I will learn         | {{< audio src="Recording 20250530141240.m4a">}} |
+| You (masc.)  | besh tetʿallem   | باش تتعلّم    | You will learn       | {{< audio src="Recording 20250530141247.m4a">}} |
+| He           | besh yetʿallem   | باش يتعلّم    | He will learn        | {{< audio src="Recording 20250530141252.m4a">}} |
+| She          | besh tetʿallem   | باش تتعلّم    | She will learn       | {{< audio src="Recording 20250530141300.m4a">}} |
+| We           | besh netʿallemou | باش نتعلّمو   | We will learn        | {{< audio src="Recording 20250530141306.m4a">}} |
+| You (plural) | besh tetʿallemou | باش تتعلّمو   | You (pl.) will learn | {{< audio src="Recording 20250530141311.m4a">}} |
+| They         | besh yetʿallemou | باش يتعلّمو   | They will learn      | {{< audio src="Recording 20250530141316.m4a">}} |
 
 ### Imperative
 
@@ -186,15 +187,15 @@ I will later make a post with cloze lists to test yourself.
 
 ### Present
 
-| Subject | Object   | Tunisian Arabic     | Arabic Script    | English             |
-| ------- | -------- | ------------------- | ---------------- | ------------------- |
-| Ena     | Enti     | neʿallemek          | نعلّمك            | I teach you         |
-| Ena     | Houwa    | neʿallemou          | نعلّمه            | I teach him         |
-| Ena     | Heya     | neʿallemha          | نعلّمها           | I teach her         |
-| Houwa   | Heya     | yeʿallemha          | يعلّمها           | He teaches her      |
-| Heya    | Houwa    | teʿallemou          | تعلّمه            | She teaches him     |
-| A7na    | Entouma  | neʿallemoukom       | نعلّموكم          | We teach you (pl.)  |
-| Houma   | A7na     | yeʿallemouna        | يعلّمونا          | They teach us       |
+| Subject | Object  | Tunisian Arabic | Arabic Script | English            | Audio Recording                           |
+| ------- | ------- | --------------- | ------------- | ------------------ | ----------------------------------------- |
+| Ena     | Enti    | neʿallemek      | نعلّمك        | I teach you        | {{< audio src="Recording 20250530141404.m4a">}} |
+| Ena     | Houwa   | neʿallemou      | نعلّمه        | I teach him        | {{< audio src="Recording 20250530141408.m4a">}} |
+| Ena     | Heya    | neʿallemha      | نعلّمها       | I teach her        | {{< audio src="Recording 20250530141416.m4a">}} |
+| Houwa   | Heya    | yeʿallemha      | يعلّمها       | He teaches her     | {{< audio src="Recording 20250530141423.m4a">}} |
+| Heya    | Houwa   | teʿallemou      | تعلّمه        | She teaches him    | {{< audio src="Recording 20250530141431.m4a">}} |
+| A7na    | Entouma | neʿallemoukom   | نعلّموكم      | We teach you (pl.) | {{< audio src="Recording 20250530141437.m4a">}} |
+| Houma   | A7na    | yeʿallemouna    | يعلّمونا      | They teach us      | {{< audio src="Recording 20250530141644.m4a">}}  |
 
 ### Past
 

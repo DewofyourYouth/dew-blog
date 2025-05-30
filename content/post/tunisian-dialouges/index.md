@@ -1,5 +1,5 @@
 ---
-title: Two Dialogues
+title: Two Simple Dialogues
 date: 2025-04-29T21:23:47+02:00
 last_modified: 2025-05-30T10:23:47+02:00
 tags:

@@ -14,6 +14,8 @@ image: dialogue1.png
 description: Jacob meets a friend for coffee and visits the doctor
 ---
 
+_**UPDATE May 30th, 2025**: I've added audio for the first dialogue. Feel free to correct my pronunciation in the comments._
+
 ## Dialogue One: Jacob and Omar
 
 A simple dialogue between Jacob and his friend Omar

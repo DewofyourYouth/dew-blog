@@ -1,5 +1,5 @@
 ---
-title: Two Dialogues
+title: Two Simple Dialogues
 date: 2025-04-29T21:23:47+02:00
 last_modified: 2025-05-30T10:23:47+02:00
 tags:
@@ -13,6 +13,8 @@ categories:
 image: dialogue1.png
 description: Jacob meets a friend for coffee and visits the doctor
 ---
+
+_**UPDATE May 30th, 2025**: I've added audio for the first dialogue. Feel free to correct my pronunciation in the comments._
 
 ## Dialogue One: Jacob and Omar
 

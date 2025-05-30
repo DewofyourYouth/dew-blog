@@ -1,6 +1,7 @@
 ---
-title: Dialogues One
+title: Two Dialogues
 date: 2025-04-29T21:23:47+02:00
+last_modified: 2025-05-30T10:23:47+02:00
 tags:
   - arabic
   - dialogue
@@ -13,24 +14,31 @@ image: dialogue1.png
 description: Jacob meets a friend for coffee and visits the doctor
 ---
 
-## Dialogue One: Jacob and Omar at the Café
+## Dialogue One: Jacob and Omar
 
-A simple dialogue between Jacob and his friend Omar. Audio will be added later.
+A simple dialogue between Jacob and his friend Omar
 
 _Jacob w sa7bou Omar yerte7ou fi 9ahwa ytkalmou m3 ba3dhom._
 
-**Jacob:** Shnawellek Omar? 9adesh 3andi ma chofteksh! \
-**Omar:** Ena labas! ama n7es fi rou7hi fedd barsha! Shnowa t7eb t3mal? \
-**Jacob:** Taw, ena n7eb nshrab 9ahwati, w ba3d ma tw nkhamou fi haja na3mlouha. Bish tshri 9ahwa, Omar? \
-**Omar:** La, man7ebsh 9ahwa, bish nhabat tey. \
-**Jacob:** Bahi! Sa7a! \
-**Omar:** ya3tik sa7a.
+| Dialogue | Audio |
+| --- | --- |
+| **Jacob:** Shnawellek Omar? 9adesh 3andi ma chofteksh! } | {{< audio src="Recording 20250530145158.m4a">}} |
+| **Omar:** Ena labas! ama n7es fi rou7hi fedd barsha! Shnowa t7eb t3mal? | {{< audio src="Recording 20250530145239.m4a">}} |
+| **Jacob:** Taw, ena n7eb nshrab 9ahwati, w ba3d ma tw nkhamou fi haja na3mlouha. Bish tshri 9ahwa, Omar? | {{< audio src="Recording 20250530145422.m4a">}} |
+| **Omar:** La, man7ebsh 9ahwa, bish nhabat tey. | {{< audio src="Recording 20250530145437.m4a">}} |
+| **Jacob:** Bahi! Sa7a!  | {{< audio src="Recording 20250530145452.m4a">}} |
+|   **Omar:** ya3tik sa7a. | {{< audio src="Recording 20250530145502.m4a">}} |
+
+
 
 *Jacob w Omar yekalamou w yekemmlou mashrabouthom.*
 
-**Omar:** Walla, shouwa n3malouha taw? \
-**Jacob:** Nemshiw lel b7ar w n3oumou ghadi! \
-**Omar:** Behi barsha! Ena n7eb l-b7ar!
+| Dialogue | Audio |
+| --- | --- |
+| **Omar:** Walla, shouwa n3malouha taw? | {{< audio src="Recording 20250530145717.m4a">}} |
+| **Jacob:** Nemshiw lel b7ar w n3oumou ghadi! | {{< audio src="Recording 20250530145734.m4a">}} |
+| **Omar:** Behi barsha! Ena n7eb l-b7ar! | {{< audio src="Recording 20250530145746.m4a">}} |
+
 
 ![Jacob and Omar at the Café](dialogue1.png)
 ![Jacob at the Doctor](allergies.png)

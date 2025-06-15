@@ -14,6 +14,7 @@ categories:
   - Journal
 draft: false
 direction: rtl
+description: Daily reflection in Tunisian Arabic for practice
 ---
 
 اليوم انا متوتر شوية خاتر إيران تضرب فينا صواريخ. وكول ولدي ما عبدهومش مدرسة واحنا باقين في المخبأ. انا بش نخدم من داري ختار ما لزمنش خرجت بعد من المكان الحمي عاى حساب مكانك الحالي. خدما من داري مش صحل - و انا طيب من الحرب.

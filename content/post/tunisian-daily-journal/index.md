@@ -6,6 +6,7 @@ tags:
   - arabic
   - tunisian
   - journal
+  - daily practice
 categories:
   - Arabic
   - Tunisian

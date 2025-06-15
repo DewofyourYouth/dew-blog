@@ -12,7 +12,7 @@ categories:
   - Tunisian
   - Language
   - Journal
-draft: true
+draft: false
 direction: rtl
 ---
 

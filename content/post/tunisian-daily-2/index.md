@@ -15,7 +15,7 @@ categories:
   - Journal
 draft: false
 direction: rtl
-description: Daily reflection in Tunisian Arabic for practic
+description: Daily reflection - Plans to sleep before work and listen to Tunisian music.
 ---
 الصبح نقوم في عربة و ربع من صفارات الإنذار و   نجمتش نرجع نرقد. ركبت بسكليتي خطار العيش ديما خير كي تكون فوق البسكليتة. منكن نمشي نرقد شوية قدم نخدم. مرتي حنّا و موشى (4) و صموئيل (2) راهو يكومو و تاو يفظورو.
 

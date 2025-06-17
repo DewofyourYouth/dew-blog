@@ -13,7 +13,7 @@ categories:
   - Tunisian
   - Language
   - Journal
-draft: true
+draft: false
 direction: rtl
 description: Daily reflection - Boring is good. Discussing lyrics.
 ---

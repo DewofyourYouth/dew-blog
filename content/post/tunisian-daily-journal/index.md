@@ -14,7 +14,7 @@ categories:
   - Journal
 draft: false
 direction: rtl
-description: Tunisian Daily Journal: Entry 1
+description: "Tunisian Daily Journal: Entry 1"
 ---
 
 اليوم انا متوتر شوية خاتر إيران تضرب فينا صواريخ. وكول ولدي ما عندهومش مدرسة واحنا باقين في المخبأ. انا بش نخدم من داري خاتر ما لزمنيش نخرج لتو من المكان المحمي على حساب مكانك الحالي. خدما من داري مش ساهلة - و انا تعبت من الحرب.

@@ -1,5 +1,5 @@
 ---
-title: "Tunisian Daily Journal: Entry 1"
+title: "Daily reflection - Tired of war and uncertainty."
 image: banana.jpg
 date: 2025-06-15T18:23:49+03:00
 tags:
@@ -14,7 +14,7 @@ categories:
   - Journal
 draft: false
 direction: rtl
-description: Daily reflection - Tired of war and uncertainty.
+description: Tunisian Daily Journal: Entry 1
 ---
 
 اليوم انا متوتر شوية خاتر إيران تضرب فينا صواريخ. وكول ولدي ما عندهومش مدرسة واحنا باقين في المخبأ. انا بش نخدم من داري خاتر ما لزمنيش نخرج لتو من المكان المحمي على حساب مكانك الحالي. خدما من داري مش ساهلة - و انا تعبت من الحرب.

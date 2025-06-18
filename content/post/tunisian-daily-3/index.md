@@ -1,5 +1,5 @@
 ---
-title: "Tunisian Daily Journal: Entry 3"
+title: "Daily reflection - Plans to sleep before work and listen to Tunisian music."
 date: 2025-06-17T10:37:10+03:00
 image: notebook.jpg
 tags:
@@ -15,7 +15,7 @@ categories:
   - Journal
 draft: false
 direction: rtl
-description: Daily reflection - Boring is good. Discussing lyrics.
+description: "Tunisian Daily Journal: Entry 3"
 ---
 
 الليلة إلي فاتت ما كانش فمّا صفارات الإنذار و رقدت كيف البيبي. الصباح حسّيت روحي متفاىٌل شوية.  مشيت للمعبد، شريت خبز من خبزة و سفنجات من الحانوت.  غسلت الماعون - يظهر لي باش يكون النهار هاذة نهار عدي و مملّ - هذا هو المطلوب!

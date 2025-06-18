@@ -17,6 +17,6 @@ draft: false
 direction: rtl
 description: "Tunisian Daily Journal: Entry 4"
 ---
-البارح حبيت مسا ليل خدمة في تل ابيب اما لقيت ما فمماش ترن - و لكار ياخو اكثر من زوز سوايع! الليل اللي فات فرجت في إعتراض صاروخ من شبّاكتي و أنا في فرشي!  خذيت الصوّار هاذم:
+البارح حبيت مسا ليل خدمة في تل ابيب اما لقيت ما فمماش ترن - و لكار ياخو اكثر من زوز سوايع! الليل اللي فات فرجت في إعتراض صاروخ من شبّاكتي و أنا في فرشي!  ما مشيتش. خذيت الصوّار هاذم:
 
 ![a present from Iran](missile1.jpeg)![some more gifts from Persia](missile.jpeg)![the train station in Beit Shemesh now closed](beitshemeshtrain.jpg)

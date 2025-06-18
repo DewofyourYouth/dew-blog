@@ -1,5 +1,5 @@
 ---
-title: "Daily reflection - Plans to sleep before work and listen to Tunisian music."
+title: "Daily reflection - Boring is Good. Discussing Lyrics"
 date: 2025-06-17T10:37:10+03:00
 image: notebook.jpg
 tags:

@@ -6,8 +6,7 @@ tags:
   - arabic
   - tunisian
   - journal
-  - daily
-  - reflection
+  - daily reflection
   - practice
 categories:
   - Arabic

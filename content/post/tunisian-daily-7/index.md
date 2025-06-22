@@ -30,3 +30,5 @@ description: "Tunisian Daily Journal: Entry 7"
 كل عام, مرتي الغالية تعمل كيكة من نوع اخر. العام لي فات عمات كيكة ليمون.
 
 ![الكيكة](birthday_cake.jpg)![](cake-slice.jpg)
+
+{{< youtube olh2H2RnT2o >}}

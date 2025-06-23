@@ -1,0 +1,44 @@
+<footer class="article-footer">
+  {{ partial "share-buttons.html" . }} {{ partial "article/components/tags" . }}
+  {{ if and (.Site.Params.article.license.enabled) (not (eq .Params.license
+  false)) }}
+  <section class="article-copyright">
+    {{ partial "helper/icon" "copyright" }}
+    <span
+      >{{ default .Site.Params.article.license.default .Params.license |
+      markdownify }}</span
+    >
+  </section>
+  {{ end }} {{- if ne .Lastmod .Date -}}
+  <section class="article-lastmod">
+    {{ partial "helper/icon" "clock" }}
+    <span>
+      {{ "article.lastUpdatedOn" }} {{ .Lastmod.Format ( or
+      .Site.Params.dateFormat.lastUpdated "Jan 02, 2006 15:04 MST" ) }}
+    </span>
+  </section>
+  {{- end -}}
+  <!-- Google tag (gtag.js) -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-V8B2ZNNM78"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-V8B2ZNNM78");
+  </script>
+  <script src="https://storage.ko-fi.com/cdn/scripts/overlay-widget.js"></script>
+  <script>
+    kofiWidgetOverlay.draw("dewofyouryouth", {
+      type: "floating-chat",
+      "floating-chat.donateButton.text": "Tip Me",
+      "floating-chat.donateButton.background-color": "#794bc4",
+      "floating-chat.donateButton.text-color": "#fff",
+    });
+  </script>
+</footer>

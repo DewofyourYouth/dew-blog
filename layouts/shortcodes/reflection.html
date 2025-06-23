@@ -6,7 +6,6 @@
       <article>
       <h2>{{ .Date | time.Format ":date_full" }} </h2>
           {{ partial "article/components/header" . }}
-        <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
         <div style="direction: rtl;">
         {{ .Content }}
         </div>

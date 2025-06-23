@@ -8,6 +8,7 @@ tags:
   - verbs
   - vocabulary
 draft: false
+hidden: true
 categories:
   - Arabic
   - Language

@@ -1,0 +1,12 @@
+{{ $cat := .Get "category" }} {{- $posts := where .Site.RegularPages
+"Params.categories" "intersect" (slice $cat) }} {{- if not (eq (len $posts) 0)
+-}}
+<section>
+  {{- range $posts }}
+  <article>{{ partial "article/components/header" . }}</article>
+  <hr />
+  {{- end }}
+</section>
+{{- else -}}
+<p>No daily reflections found.</p>
+{{- end -}}

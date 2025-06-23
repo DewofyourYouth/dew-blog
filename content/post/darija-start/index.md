@@ -9,6 +9,7 @@ categories:
   - Language
   - Arabic
 draft: false
+hidden: true
 image: morocco-boats.jpg
 ---
 

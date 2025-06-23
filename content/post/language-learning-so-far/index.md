@@ -12,7 +12,7 @@ tags:
   - methods
   - habits
   - Darija
-image: arabic.jpg
+image: ghriba.jpg
 ---
 
 # Learning Arabic: One Month In

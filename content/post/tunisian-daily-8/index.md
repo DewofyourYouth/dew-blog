@@ -1,6 +1,6 @@
 ---
-title: Daily reflection - When I was a child in Israel
-image: balcony-israel.jpg
+title: Daily reflection - Arabic when I was a child in Israel
+image: cover.jpeg
 date: 2025-06-23
 tags:
   - arabic

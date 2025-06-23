@@ -4,7 +4,10 @@ theme: hugo-theme-stack
 disqusShortname: dew-blog
 module:
   imports:
-    - path: github.com/CaiJimmy/hugo-theme-stack/v3
+    - disable: false
+      ignoreConfig: false
+      ignoreImports: false
+      path: github.com/CaiJimmy/hugo-theme-stack/v3
 ignoreLogs:
   - warning-goldmark-raw-html
 params:

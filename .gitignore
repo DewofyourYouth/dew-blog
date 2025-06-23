@@ -1,7 +1,0 @@
-dew-blog.code-workspace
-.vscode/settings.json
-*.icloudpublic
-public
-resources/_gen
-package-lock.json
-node_modules

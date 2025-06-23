@@ -1,13 +1,12 @@
 ---
-title: Daily reflection - Arabic Use In Israel
-image: banana.jpg
+title: Daily reflection - When I was a child in Israel
+image: balcony-israel.jpg
 date: 2025-06-23
 tags:
   - arabic
   - tunisian
   - journal
-  - daily
-  - reflection
+  - daily reflection
   - practice
 categories:
   - Arabic

@@ -1,12 +1,13 @@
 ---
-title: "Derja Reflection"
-tags: ["arabic"]
-slug: "arabic"
+title: "Arabic"
+tags: ["Arabic"]
+slug:
+ - "arabic"
 menu:
   main:
-    weight: 5
+    weight: 6
     params:
       icon: derja
 ---
 
-{{< reflection >}}
+{{< category-list category="Arabic" >}}

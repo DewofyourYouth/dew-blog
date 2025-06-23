@@ -8,6 +8,7 @@ tags:
   - travel
   - vocabulary
 draft: false
+hidden: true
 categories:
   - Arabic
   - Language

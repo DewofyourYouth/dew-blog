@@ -1,9 +1,10 @@
-{{- $posts :=  where .Site.RegularPages "Params.categories" "intersect" (slice "Daily Derja") }}
+{{ $cat := .Get "category" }}
+{{- $posts :=  where .Site.RegularPages "Params.categories" "intersect" (slice $cat) }}
 {{- if not (eq (len $posts) 0) -}}
   <section>
     {{- range $posts }}
       <article>
-      <h2>{{ .Date | time.Format ":date_medium" }} </h2>
+      <h2>{{ .Date | time.Format ":date_full" }} </h2>
           {{ partial "article/components/header" . }}
         <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
         <div style="direction: rtl;">

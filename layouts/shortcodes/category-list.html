@@ -1,12 +1,21 @@
-{{ $cat := .Get "category" }} {{- $posts := where .Site.RegularPages
-"Params.categories" "intersect" (slice $cat) }} {{- if not (eq (len $posts) 0)
--}}
-<section>
-  {{- range $posts }}
-  <article>{{ partial "article/components/header" . }}</article>
-  <hr />
-  {{- end }}
-</section>
+{{ $cat := .Get "category" }}
+{{- $posts :=  where .Site.RegularPages "Params.categories" "intersect" (slice $cat) }}
+{{- if not (eq (len $posts) 0) -}}
+  <article>
+    {{- range $posts }}
+    {{ if .Params.image }}
+    <div class="article-image">
+    <img src="{{ .Permalink }}{{ .Params.image }}" alt="{{ .Title }}" width="75%">
+    </div>
+    {{- end }}
+      <article>
+
+        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+<h4 class="article-subtitle">{{ .Description }}</h4>         <small>{{ .Date | time.Format ":date_full" }} </small>
+  </article>
+      <hr />
+    {{- end }}
+  </section>
 {{- else -}}
-<p>No daily reflections found.</p>
+  <p>No daily reflections found.</p>
 {{- end -}}

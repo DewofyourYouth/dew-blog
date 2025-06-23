@@ -1,0 +1,18 @@
+{{- $posts :=  where .Site.RegularPages "Params.categories" "intersect" (slice "Daily Derja") }}
+{{- if not (eq (len $posts) 0) -}}
+  <section>
+    {{- range $posts }}
+      <article>
+      <h2>{{ .Date | time.Format ":date_medium" }} </h2>
+          {{ partial "article/components/header" . }}
+        <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+        <div style="direction: rtl;">
+        {{ .Content }}
+        </div>
+      </article>
+      <hr />
+    {{- end }}
+  </section>
+{{- else -}}
+  <p>No daily reflections found.</p>
+{{- end -}}

@@ -8,11 +8,13 @@ tags:
   - journal
   - daily reflection
 categories:
+  - Daily Derja
   - Arabic
   - Tunisian
   - Language
   - Journal
 draft: false
+hidden: true
 direction: rtl
 description: "Tunisian Daily Journal: Entry 1"
 ---

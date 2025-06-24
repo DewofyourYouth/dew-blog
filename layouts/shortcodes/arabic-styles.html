@@ -1,0 +1,46 @@
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Lemonada:wght@300..700&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap"
+  rel="stylesheet"
+/>
+<style>
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Lemonada", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  .daily-derja {
+    font-family: "Lemonada", cursive;
+    font-weight: bold;
+    font-size: 4rem;
+    color: #ff6347;
+    direction: rtl;
+    text-align: center;
+  }
+
+  p {
+    font-family: "Zain", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5rem;
+  }
+
+  strong {
+    font-family: "Zain", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  em {
+    font-family: "Zain", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+</style>
+
+<h2 class="daily-derja">{{ .Get "heading" }}</h2>

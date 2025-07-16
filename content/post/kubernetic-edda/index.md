@@ -2,8 +2,16 @@
 title:  The Mirror Ascends
 date: 2025-07-16T12:54:22+02:00
 tags:
-draft: true
+- DevOps
+- Kubernetes
+- Cloud Native
+- Containerization
+- Norse Mythology
+draft: false
 categories:
+- DevOps
+- Kubernetes
+- IT
 image: kube.png
 description: "Book I of The Kubernetic Edda, A Saga of YAML, Blood, and Eventual Consistency"
 ---

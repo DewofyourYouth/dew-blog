@@ -1,6 +1,6 @@
 ---
 title: "More Complaining"
-date: 2025-08-06T19:02:34
+date: 2025-08-06T14:02:34
 tags:
   - arabic
   - tunisian
@@ -8,6 +8,7 @@ tags:
   - daily reflection
   - practice
 categories:
+  - "Daily Derja"
   - Daily Derja
   - Arabic
   - Tunisian

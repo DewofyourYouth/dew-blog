@@ -1,6 +1,5 @@
 ---
 title: "More Complaining"
-image: banana.jpg
 date: 2025-08-06T19:02:34
 tags:
   - arabic

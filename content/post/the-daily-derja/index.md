@@ -1,7 +1,7 @@
 ---
 title: "New Daily Derja Site"
 date: 2025-08-07T18:06:05+03:00
-draft: true
+draft: false
 description: "A new blog for the Daily Derja"
 image: tunisia.jpg
 ---

@@ -7,7 +7,7 @@ categories:
 - DevOps
 - IT
 - Automation
-description: "Book II of the Kubernetic Edda."
+summary: "Book II of the Kubernetic Edda."
 tags:
 - Kubernetes
 - DevOps

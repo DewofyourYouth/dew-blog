@@ -1,6 +1,6 @@
 ---
 title: "Visions of God in Exile"
-description: "Ezekiel's Vision and the fifth of Tammuz"
+summary: "Ezekiel's Vision and the fifth of Tammuz"
 date: 2024-07-11T00:16:43+03:00
 featuredImage: eye.jpg
 draft: true

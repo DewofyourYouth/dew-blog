@@ -1,6 +1,6 @@
 ---
 title: Rebbe Meir From Behind
-description: Memories of the Rosh Yeshiva זצ״ל, Part III
+summary: Memories of the Rosh Yeshiva זצ״ל, Part III
 date: 2023-08-29
 tags:
   - Rabbi Aaron Shechter

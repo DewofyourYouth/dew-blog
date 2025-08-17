@@ -11,7 +11,7 @@ theme: "DoIt"
 images:
   - "img/avatar.png"
 permalinks:
-  posts: "/:year/:month/:slug/"
+  posts: "/post/:slug"
 
 taxonomies:
   tag: "tags"
@@ -81,7 +81,9 @@ params:
         site: "css/override.css"
       js:
         site: "js/site.js"
-    showFeaturedImage: true
+    list:
+      displayDesc: true
+      displaySummary: false
     showDate: true
     showAuthor: true
     enableReadingTime: true

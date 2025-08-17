@@ -1,5 +1,5 @@
 ---
-title: "Tillie Beresovsky Shore - 71st Yahrzeit."
+title: "Tillie Beresovsky Shore - 71st Yahrzeit"
 date: 2025-02-07T11:04:39+02:00
 draft: false
 featuredImage: tillieShore.png

@@ -1,6 +1,6 @@
 ---
 title: New Talne - Saranduk Records
-description: New records added by JewishGen shed new light on the Saranduk's in Talne.
+summary: New records added by JewishGen shed new light on the Saranduk's in Talne.
 date: 2023-12-13T18:00:40+02:00
 draft: false
 categories:

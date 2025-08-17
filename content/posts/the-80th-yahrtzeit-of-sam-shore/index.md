@@ -3,6 +3,7 @@ title: "The 80th Yahrtzeit of Shmariahu Shore"
 date: 2024-05-14T12:27:47+03:00
 draft: false
 featuredImage: samShore.png
+summary: In celebration of Shmariahu Shore's 80th Yahrzeit - a post about his life.
 categories:
   - genealogy
 tags:
@@ -17,9 +18,9 @@ tags:
 
 | Name     | Value                                          |
 | -------- | ---------------------------------------------- |
-| Parents  | [Hyman and Sarah Shore](/post/hyman-and-sarah) |
+| Parents  | [Hyman and Sarah Shore](/post/hyman-sarah/) |
 | Birth    | March 10th, 1868                               |
-| Spouse   | [Tillie Beresovsky]() _(placeholder link)_     |
+| Spouse   | [Tillie Beresovsky](/post/tillie-beresovsky-shore-71st-yahrzeit/)      |
 | AKA      | Shmarya Saranduk / Shore                       |
 | Death    | April 30th, 1944                               |
 | Yarhzeit | Iyar 7                                         |

@@ -1,6 +1,6 @@
 ---
 title: "New Arabic Pages"
-description: "An explanation of the new Arabic pages"
+summary: "An explanation of the new Arabic pages"
 date: 2025-06-23T18:03:26+03:00
 featuredImage: ghriba.jpg
 tags:

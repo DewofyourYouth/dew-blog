@@ -1,6 +1,6 @@
 ---
 title: Chayei Sara - 5784
-description: Questions For Testing Yourself on the Parsha w/ Rashi and the Ramban
+summary: Questions For Testing Yourself on the Parsha w/ Rashi and the Ramban
 date: 2023-11-10T08:38:40+02:00
 draft: false
 languageDirection: rtl

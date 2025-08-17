@@ -1,6 +1,6 @@
 ---
 title: Eliyahu's Bar Mitzva Speech
-description: My son's bar mitzva speech, originally delivered by my son Eliyahu on August 6th, 2023
+summary: My son's bar mitzva speech, originally delivered by my son Eliyahu on August 6th, 2023
 date: 2023-09-01T10:10:48+03:00
 categories: ["Torah", "speaking"]
 tags: ["bar mitzva", "parshas Eikev", "speech", "ברכות"]

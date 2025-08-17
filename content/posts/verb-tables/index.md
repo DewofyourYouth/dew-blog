@@ -14,7 +14,7 @@ categories:
   - Language
   - Tunisian
 featuredImage: squirrel.jpg
-description: Tunisian Arabic Verbs With Causative Forms
+summary: Tunisian Arabic Verbs With Causative Forms
 ---
 
 Update 1:  I went over all the verbs with a native speaker and made corrections. Added audio recordings for **some** verbs.

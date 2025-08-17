@@ -13,7 +13,7 @@ categories:
   - Arabic
   - Language
 featuredImage: moghyar.png
-description: Some AI generated images for Tunisian vocabulary words.
+summary: Some AI generated images for Tunisian vocabulary words.
 ---
 I wanted to make some images for my Anki cards to incorporate mnemonics and have a visual element to help with retention. I didn't want to draw them by hand as I haven't really had time to illustrate things lately - so I used various AI tools. Originally, I used DaVinci - but that was terrible. Eventually I had DALL-E 3 inside GPT-4o generate the images for me. I received a lot of odd lecturing about body shaming and restrictions - but eventually I got something usable.
 

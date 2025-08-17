@@ -1,6 +1,6 @@
 ---
 title: "Language Learning So Far"
-description: "My methods for learning Arabic"
+summary: "My methods for learning Arabic"
 date: 2025-03-20T11:07:22+02:00
 draft: false
 categories:

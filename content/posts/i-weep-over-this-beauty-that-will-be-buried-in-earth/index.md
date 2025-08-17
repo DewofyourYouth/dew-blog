@@ -1,6 +1,6 @@
 ---
 title: I Weep Over This Beauty That Will Be Buried in Earth
-description: Memories of the Rosh Yeshiva זצ״ל, Part I
+summary: Memories of the Rosh Yeshiva זצ״ל, Part I
 date: 2023-08-25T08:57:12+03:00
 featuredImage: cover.jpg
 tags:

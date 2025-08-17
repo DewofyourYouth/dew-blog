@@ -9,7 +9,7 @@ tags:
 categories:
   - Genealogy
 draft: false
-description: Some comments on the methodology of my genealogy research.
+summary: Some comments on the methodology of my genealogy research.
 featuredImage: family-tree.png
 ---
 

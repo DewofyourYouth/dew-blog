@@ -1,7 +1,7 @@
 ---
 title: "Elul 5783 Postmortem"
 date: 2023-10-26T09:28:52+03:00
-description: A postmortem on my attempt to change my habits over last Elul.
+summary: A postmortem on my attempt to change my habits over last Elul.
 featuredImage: review.jpeg
 toc: true
 draft: false

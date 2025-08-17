@@ -11,7 +11,7 @@ categories:
   - Torah
   - Genealogy
 featuredImage: duvid-cover.jpg
-description: A trip to Ashdod with my kids to celebrate the yahrzeit of the original Tolna Rebbe tz"l.
+summary: A trip to Ashdod with my kids to celebrate the yahrzeit of the original Tolna Rebbe tz"l.
 ---
 
 ## Setting Out for Ashdod

@@ -5,6 +5,7 @@ draft: false
 featuredImage: tillieShore.png
 categories:
   - genealogy
+summary: Remembering the life of Taube bas Avraham Edel
 tags:
   - genealogy
   - Saranduk
@@ -20,23 +21,41 @@ tags:
 | Parents    | Avraham Edel Beresowsky, Rachel Bockman            |
 | Birth      | August 1st, 1871                                   |
 | Birthplace | Kalniboloto (Katerynopil)  / Mokra Kaligorka       |
-| Spouse     | [Sam Shore](/post/the-80th-yahrtzeit-of-sam-shore) |
+| Spouse     | [Sam Shore](/post/the-80th-yahrtzeit-of-shmariahu-shore/) |
 | AKA        | Taube Saranduk / Shore                             |
 | Death      | January 19, 1954                                   |
 | Yarhzeit   | Shvat 15 (Tu b'Shvat 5714)                         |
 | Burial     | Lincoln Park Cemetery, Warwick, RI.                |
 
 ---
+{{< mermaid >}}
+flowchart TB;
+  AEB[Avraham Edel Beresowsky] --> mAR((❤️))
+  RB[Rachel Bockman] --> mAR((❤️))
+  mAR --> TB((Taube - Tillie Beresowsky))
 
-```goat
-        Avraham Edel Beresowsky ---+--- Rachel Bockman                           Chaim Svi Saranduk -------+---- Sara Mamorofsky
-                                   |                                                                       |
-                            Taube (Tillie) --+-----------+-----+-------+------+-----+------+--- Shmaria (Sam) Shore
-                                             |           |     |       |      |     |      |
-          Teresa Slutsky --+----+----+-  Samuel O.  Bessie  David L. Bill  Joseph Jacob   Albert
-                          /     |     \             (Fishbein)
-                        Al  Harold    Ruth                                    
-```
+  CSS[Chaim Svi Saranduk] --> mCSTB((❤️))
+  SM[Sura Mamorofsky] --> mCSTB((❤️))
+  mCSTB --> SS[Shmaria - Sam Shore]
+
+  TB --> mTBSS((❤️))
+  SS --> mTBSS((❤️))
+
+  mTBSS --> BF[Bessie Fishbein]
+  mTBSS --> D[David L.]
+  mTBSS --> B[Bill]
+  mTBSS --> J[Joseph]
+  mTBSS --> JB[Jacob]
+  mTBSS --> A[Albert]
+  mTBSS --> OSS[Oscar Samuel Shore]
+
+  OSS --> mOSTS((❤️))
+  TS[Teresa Slustky] --> mOSTS((❤️))
+
+  mOSTS --> AL[Albert P.]
+  mOSTS --> HS[Harold]
+  mOSTS --> R[Ruth]
+{{</mermaid>}}
 
 This coming Thursday is the Jewish Holiday of Tu b'Shvat - the new year for fruit of the tree. The main significance of this Holiday is related to tithing, but there are various Jewish customs also connected with it. But besides its significance in tithing, the 15th of Shvat is also significant to the Shore family as it is the Yahrzeit (anniversary of the passing) of Taube Shore. This coming Thursday (starting Wednesday evening) will mark her 71st Yahrzeit.
 

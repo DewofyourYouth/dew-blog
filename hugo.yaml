@@ -52,8 +52,12 @@ params:
   header:
     themeChangeMode: select
 
+  footer:
+    enable: true
+
   social:
     GitHub: "DewofyourYouth"
+    Ko-Fi: "dewofyouryouth"
 
   image:
     enable: true
@@ -118,3 +122,12 @@ taxonomies:
   category: "categories"
   tag: "tags"
   series: "series"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+    guessSyntax: true
+    lineNos: false

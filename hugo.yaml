@@ -103,7 +103,7 @@ params:
   analytics:
     enable: true              # master switch for analytics
     google:
-      id: "GTM-MPWT6V4K"      # <- replace with your GA4 Measurement ID
+      id: "G-V8B2ZNNM78"      # <- replace with your GA4 Measurement ID
       anonymizeIP: true
 
 # Optional: cookie consent banner (shown by DoIt)

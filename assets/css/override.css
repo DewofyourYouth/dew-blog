@@ -60,13 +60,15 @@ pre { border-radius: 12px; }
 
 .cloze > strong {
     background-color: black;
+    color: black !important;
     padding: 0.2em;
     border-radius: .5em;
     }
 
 .reveal > strong {
-    color: cornflowerblue;
+    color: cornflowerblue !important;
     background-color: inherit;
+    display: inline;
 }
 
 .toggle-btn {

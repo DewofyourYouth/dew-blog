@@ -56,3 +56,23 @@ pre { border-radius: 12px; }
 /* Subtle accent variable you can tune */
 :root { --accent: #6b7bff; }          /* change once, affects multiple items */
 .post-tags a, .summary a:hover { color: var(--accent); }
+
+
+.cloze > strong {
+    background-color: black;
+    padding: 0.2em;
+    border-radius: .5em;
+    }
+
+.reveal > strong {
+    color: cornflowerblue;
+    background-color: inherit;
+}
+
+.toggle-btn {
+    margin: 0 5px;
+    padding: 5px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    }

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+:root { --font-sans: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
+html, body { font-family: var(--font-sans); }/* Card lift & soft shadow on hover */
+.list article, .archive .archive-post {
+  transition: transform .15s ease, box-shadow .15s ease;
+  border-radius: 16px;
+}
+.list article:hover, .archive .archive-post:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 24px rgba(0,0,0,.08);
+}
+
+/* Featured image: gentle zoom on hover */
+.list article .post-cover img, .single .post-cover img {
+  transition: transform .2s ease, filter .2s ease;
+  border-radius: 14px;
+}
+.list article:hover .post-cover img {
+  transform: scale(1.02);
+}
+
+/* Brighter link accents + animated underline */
+.post-content a, .summary a, .header a {
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-size: 0% 2px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size .2s ease;
+}
+.post-content a:hover, .summary a:hover, .header a:hover {
+  background-size: 100% 2px;
+}
+
+/* Tag pills */
+.post-tags a, .tags a {
+  border-radius: 999px;
+  padding: .2rem .6rem;
+  font-weight: 600;
+  background: rgba(0,0,0,.06);
+}
+
+/* Pull-quotes (use >! in markdown, see #4) */
+blockquote.fun {
+  font-size: 1.1rem;
+  border-left: 6px solid var(--accent, #6b7bff);
+  background: rgba(107,123,255,.08);
+  padding: .8rem 1rem;
+  border-radius: 10px;
+}
+
+/* Code block slight theme */
+pre code { filter: saturate(1.1); }
+pre { border-radius: 12px; }
+
+/* Subtle accent variable you can tune */
+:root { --accent: #6b7bff; }          /* change once, affects multiple items */
+.post-tags a, .summary a:hover { color: var(--accent); }

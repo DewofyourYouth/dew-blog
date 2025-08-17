@@ -13,16 +13,37 @@ tags:
   - Providence
 draft: false
 ---
+{{< mermaid >}}flowchart TB;
+ classDef marriage fill:#f6f6f9,stroke:#bbb,color:#c33,stroke-width:1px;
+  AS[Avraham Saranduk] ---> mASCh((❤️)):::marriage
+  Chaya[Chaya] ---> mASCh((❤️)):::marriage
+  mASCh --> Malka[Malka]
+  mASCh --> CH[Chaim Hersh]
+  mASCh --> MY[Moshe Yankel]
+  CH --> mCHS((❤️))
+  Sura[Sura] --> mCHS((❤️))
+  mCHS --> Sam[Sam]
+  mCHS --> William[William]
+  mCHS --> Tillie[Tillie]
+  mCHS --> Rose[Rose]
+  mCHS --> Morris[Morris]
 
-```goat
-Avraham Saranduk --+------------+---------------------------------------+- Chaya
-                  /             |                                        \
-              Malka       Chaim Hersh -+---+------+---+-----+-- Sura  Moshe Yankel --------+------------+------------------------+---- Asa
-                                      /   /       |    \      \                           /             |                         \
-                                    Sam  William Tillie Rose Morris                     Abe         Philip ------+------ Netty     Max
-                                                                                                     /     /          |     \
-                                                                                                   Irene Catherine  Thelma Frances
-```
+  MY --> mMA((❤️))
+  Asa[Asa] --> mMA((❤️))
+
+  mMA --> Abe[Abe]
+  mMA --> Philip[Philip]
+  mMA --> Max[Max]
+
+  Philip ---> mPhilNet((❤️))  
+  Netty[Netty] --> mPhilNet((❤️)) 
+  mPhilNet --> Irene[Irene]
+  mPhilNet --> Catherine[Catherine]
+  mPhilNet --> Thelma[Thelma]
+  mPhilNet --> Frances[Frances]
+{{< /mermaid >}}
+
+
 
 Philip Shore was the cousin of Sam (Shmariahu) Shore. He was the son of Moshe Yankel Saranduk, Hyman Shore's brother. I've included a picture of a tree I made, and various other photos and documents, below. They emigrated from a small town in Ukraine called Katerynopil' to Providence, RI. They appear on the passenger lists for the S.S. Majestic, arriving in New York in 1926. It's unclear whether Philip (then Pinhas) moved from Talne to Katerynopil'. They're also buried in [Lincoln Park Cemetery](https://www.findagrave.com/memorial/111785259/phillip_shore) in Rhode Island, along with [Hyman and Sarah Shore](/post/hyman-and-sarah), [Sam and Tillie Shore](/post/the-80th-yahrtzeit-of-sam-shore/), and various other Shores. They had four daughters, Irene (orginally Clara), Catherine, Thelma and Frances.
 

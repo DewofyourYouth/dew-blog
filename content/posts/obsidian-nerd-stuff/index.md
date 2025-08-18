@@ -54,7 +54,6 @@ Somewhat Advanced
 
 Obsidian already includes a basic templating plugin, but for more advanced functionality it’s worth using [Templater](https://github.com/SilentVoid13/Templater). It has a steeper learning curve, but I use it to generate blog posts and other boilerplate.
 
-{{<github-repo-card repo="SilentVoid13/Templater" showThumbnail=true >}}
 
 
 #### Quick Add
@@ -65,7 +64,6 @@ Somewhat Advanced
 
 There are notes I try to make nearly every day, such as [The Daily Derja](https://dailyderja.com)—a Tunisian Arabic journal to improve my language skills—or logs like my weight. To stay consistent, creating these notes needs to be frictionless. [QuickAdd](https://github.com/chhoumann/quickadd) removes a lot of that friction.
 
-{{<github-repo-card repo="chhoumann/quickadd" showThumbnail=true >}}
 
 #### Dataview
 
@@ -81,8 +79,6 @@ TABLE title FROM "Daily Derja" SORT date DESC
 ![Data Query Example](dataview-query-example.png)
 
 You write the query in a code block marked `dataview`.
-
-{{<github-repo-card repo="blacksmithgu/obsidian-dataview" showThumbnail=true >}}
 
 
 #### Charts View
@@ -131,7 +127,6 @@ options:
 
 The query is written in a code block marked `chartsview` within the note.
 
-{{<github-repo-card repo="caronchen/obsidian-chartsview-plugin" showThumbnail=true >}}
 
 ### Wrapping It Up
 

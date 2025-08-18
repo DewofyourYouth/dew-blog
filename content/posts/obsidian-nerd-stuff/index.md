@@ -8,7 +8,7 @@ tags:
   - plugins
   - workflows
   - nerd out
-draft: true
+draft: false
 categories:
   - Life Hacks
 featuredImage: obsidian.jpg

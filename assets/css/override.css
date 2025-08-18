@@ -110,3 +110,11 @@ pre { border-radius: 12px; }
 .stars, .forks {
     color: #586069;
 }
+
+.grc{border:1px solid #e5e7eb;border-radius:12px;padding:16px;display:block;max-width:680px;background:#fff}
+.grc-link{text-decoration:none;color:inherit;display:block}
+.grc-head{display:flex;gap:12px;align-items:center;margin-bottom:8px}
+.grc-avatar{width:40px;height:40px;border-radius:50%}
+.grc-title{margin:0;font-size:1.05rem;line-height:1.2}
+.grc-desc{margin:.25rem 0 .5rem;color:#374151}
+.grc-meta{display:flex;gap:12px;flex-wrap:wrap;font-size:.9rem;color:#6b7280}

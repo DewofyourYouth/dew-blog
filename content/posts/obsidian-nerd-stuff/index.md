@@ -53,6 +53,10 @@ Somewhat Advanced
 
 
 Obsidian already includes a basic templating plugin, but for more advanced functionality it’s worth using [Templater](https://github.com/SilentVoid13/Templater). It has a steeper learning curve, but I use it to generate blog posts and other boilerplate.
+
+{{< github-repo-card url="https://github.com/SilentVoid13/Templater" name="Templater" description="Templater is a template plugin for Obsidian.md. It defines a templating language that lets you insert variables and functions results into your notes. It will also let you execute JavaScript code manipulating those variables and functions." language="TypeScript" stars="100" forks="50" >}}
+
+
 #### Quick Add
 
 {{< admonition type=tip title="Difficulty Level" open=true >}}
@@ -60,6 +64,9 @@ Somewhat Advanced
 {{< /admonition >}}
 
 There are notes I try to make nearly every day, such as [The Daily Derja](https://dailyderja.com)—a Tunisian Arabic journal to improve my language skills—or logs like my weight. To stay consistent, creating these notes needs to be frictionless. [QuickAdd](https://github.com/chhoumann/quickadd) removes a lot of that friction.
+
+{{< github-repo-card url="https://github.com/chhoumann/quickadd" name="QuickAdd" description="QuickAdd is a powerful combination of four tools (called choices): templates, captures, macros, and multis." language="TypeScript" stars="100" forks="50" >}}
+
 #### Dataview
 
 {{< admonition type=warning title="Difficulty Level" open=true >}}
@@ -74,6 +81,10 @@ TABLE title FROM "Daily Derja" SORT date DESC
 ![Data Query Example](dataview-query-example.png)
 
 You write the query in a code block marked `dataview`.
+
+{{< github-repo-card url="https://github.com/blacksmithgu/obsidian-dataview" name="Obsidian Dataview" description="Treat your Obsidian Vault as a database which you can query from. Provides a JavaScript API and pipeline-based query language for filtering, sorting, and extracting data from Markdown pages." language="TypeScript" stars="100" forks="50" >}}
+
+
 #### Charts View
 
 {{< admonition type=warning title="Difficulty Level" open=true >}}
@@ -119,6 +130,8 @@ options:
 ```
 
 The query is written in a code block marked `chartsview` within the note.
+
+{{< github-repo-card url="https://github.com/caronchen/obsidian-chartsview-plugin" name="Obsidian Charts View Plugin" description="This is a data visualization plugin for Obsidian, based on Ant Design Charts." language="TypeScript" stars="100" forks="50" >}}
 
 ### Wrapping It Up
 

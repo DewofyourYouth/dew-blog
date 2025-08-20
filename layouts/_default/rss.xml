@@ -1,0 +1,66 @@
+{{- /* Minimal, XML-safe RSS for BLOG only. Inline <img> in <description>; no content:encoded. */ -}}
+{{- $now := now -}}
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\"?>" | safeHTML -}}
+<rss version="2.0"
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>{{ .Site.Title | htmlEscape }}</title>
+    <link>{{ .Site.BaseURL }}</link>
+    <description>{{ (or .Site.Params.description .Site.Title) | htmlEscape }}</description>
+    <language>{{ .Site.Language.Lang | default "en" }}</language>
+    <lastBuildDate>{{ $now.Format "Mon, 02 Jan 2006 15:04:05 MST" }}</lastBuildDate>
+
+    {{- /* Home feed: only posts in section "blog" */ -}}
+    {{- $items := .Pages -}}
+    {{- if .IsHome -}}
+      {{- $items = where .Site.RegularPages "Section" "blog" -}}
+    {{- end -}}
+
+    {{- range $items.ByDate.Reverse -}}
+    {{- $title := .Title | htmlEscape -}}
+    {{- $summary := (.Summary | plainify) | htmlEscape -}}
+
+    {{- /* Resolve image (absolute URL + mime) */ -}}
+    {{- $imgURL := "" -}}
+    {{- $imgType := "image/jpeg" -}}
+    {{- with .Params.featuredImage }}{{- $imgURL = absURL . -}}{{- end -}}
+    {{- if not $imgURL -}}
+      {{- $imgs := where .Resources "ResourceType" "image" -}}
+      {{- if gt (len $imgs) 0 -}}
+        {{- $r := index $imgs 0 -}}
+        {{- $imgURL = $r.Permalink -}}
+        {{- with $r.MediaType }}{{- if .SubType -}}{{- $imgType = printf "image/%s" .SubType -}}{{- end -}}{{- end -}}
+      {{- end -}}
+    {{- end -}}
+    {{- if not $imgURL -}}
+      {{- $m := findRE `<img[^>]*src=["']([^"']+)["']` .Content 1 -}}
+      {{- with $m -}}
+        {{- $rel := replaceRE `.*src=['"]([^'"]+)['"].*` "$1" (index . 0) -}}
+        {{- $imgURL = absURL $rel -}}
+      {{- end -}}
+    {{- end -}}
+
+    {{- /* Build a tiny, valid HTML snippet for <description>. No <p>, no <br>, no CDATA. */ -}}
+    {{- $imgHTML := "" -}}
+    {{- if $imgURL -}}
+      {{- $imgHTML = printf `<img src="%s" alt="%s" /> ` $imgURL $title -}}
+    {{- end -}}
+
+    <item>
+      <title>{{ $title }}</title>
+      <link>{{ .Permalink }}</link>
+      <guid isPermaLink="true">{{ .Permalink }}</guid>
+      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 MST" }}</pubDate>
+      {{- with .Params.author }}<author>{{ . | htmlEscape }}</author>{{ end }}
+
+      {{- if $imgURL -}}
+        <enclosure url="{{ $imgURL }}" type="{{ $imgType }}"/>
+        <media:content url="{{ $imgURL }}" medium="image"/>
+      {{- end }}
+
+      <description>{{ printf `%s%s` $imgHTML $summary | safeHTML }}</description>
+      {{- /* No <content:encoded> on purpose */ -}}
+    </item>
+    {{- end -}}
+  </channel>
+</rss>

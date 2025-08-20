@@ -18,7 +18,11 @@
         <div class="content" id="content">
             {{- dict "Content" .Content "Ruby" $params.ruby "Fraction" $params.fraction "Fontawesome" $params.fontawesome | partial "function/content.html" | safeHTML -}}
         </div>
-            <div class="ml-embedded" data-form="QcNEqI"></div>
+        <hr />
+        <div style="padding-top: 30px;">
+             <div class="ml-embedded"  data-form="QcNEqI"></div>
+        </div>
+           
 
         {{- /* Comment */ -}}
         {{- partial "comment.html" . -}}

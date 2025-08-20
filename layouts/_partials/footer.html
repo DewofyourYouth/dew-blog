@@ -1,6 +1,11 @@
 {{- if ne .Site.Params.footer.enable false -}}
     <footer class="footer">
         <div class="footer-container">
+            <div class="ml-embedded" data-form="QcNEqI"></div>
+
+            <!-- MailerLite Universal -->
+
+<!-- End MailerLite Universal -->
             {{- /* Custom Content */ -}}
             {{- with .Site.Params.footer.custom -}}
                 <div class="footer-line">
@@ -94,7 +99,9 @@
                 </script>
             {{- end -}}
         {{- end -}}
-       <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+    </footer>
+{{- end -}}
+<script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
 <script>
   kofiWidgetOverlay.draw('dewofyouryouth', {
     'type': 'floating-chat',
@@ -103,5 +110,11 @@
     'floating-chat.donateButton.text-color': '#fff'
   });
 </script>
-    </footer>
-{{- end -}}
+   
+<script>
+    (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
+    .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
+    n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+    (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+    ml('account', '1743911');
+</script>

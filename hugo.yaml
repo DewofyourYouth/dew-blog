@@ -22,6 +22,13 @@ imaging:
   quality: 85
   hint: photo
 
+menu:
+  main:
+    - identifier: dailyderja
+      name: Daily Derja
+      url: "https://dailyderja.com"
+      weight: 50
+
 outputs:
   home: ["HTML", "RSS", "JSON"]
 
@@ -48,7 +55,7 @@ params:
       subtitle: "The random musings of Jacob Shore."
       avatarUrl: "https://avatars.githubusercontent.com/u/20410178?v=4"
       social: true
-  
+
   header:
     themeChangeMode: select
 
@@ -59,6 +66,8 @@ params:
     GitHub: "DewofyourYouth"
     Ko-Fi: "dewofyouryouth"
     youtubechannel: "UC-rJLeLJVWLKQKnXyLkw3bw"
+    instagram: "yaakshore"
+ 
 
   image:
     enable: true

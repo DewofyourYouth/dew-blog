@@ -5,7 +5,7 @@ tags:
   - Elul
   - reflection
   - habits
-draft: true
+draft: false
 categories:
   - Torah
   - Mussar

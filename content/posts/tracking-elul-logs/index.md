@@ -147,19 +147,23 @@ const { elulStart, elulEnd } = dv.current().file.frontmatter;
 const start = dv.date(elulStart).startOf('day');
 const end   = dv.date(elulEnd).endOf('day');
 
-const logs = dv.pages("Elul Logs")
-  .where(p => p.type==="Elul Log" && p.date && dv.date(p.date)>=start && dv.date(p.date)<=end)
+// restrict to "Elul Logs" folder; exclude template files
+const logs = dv.pages('"Elul Logs"')
+  .where(p => p.type === "Elul Log" && p.date && dv.date(p.date) >= start && dv.date(p.date) <= end)
+  .where(p => !p.file.name.toLowerCase().includes("template"))
   .array();
 
-const doneDays = new Set(logs.filter(p=>p.gratitudeMeditation).map(p=>dv.date(p.date).toISODate()));
+const doneDays = new Set(logs.filter(p => p.gratitudeMeditation).map(p => dv.date(p.date).toISODate()));
 
 let totalDays = 0, completed = 0;
-for (let d = start; d <= end; d = d.plus({days:1})) {
+for (let d = start; d <= end; d = d.plus({ days: 1 })) {
   totalDays++;
   if (doneDays.has(d.toISODate())) completed++;
 }
-const missed = totalDays - completed;
-dv.paragraph(`Completed: ${completed} / ${totalDays} (${Math.round(100*completed/totalDays)}%)`);
+
+const pct = totalDays ? Math.round((completed / totalDays) * 100) : 0;
+dv.paragraph(`Completed: ${completed} / ${totalDays} (${pct}%)`);
+
 ```
 
 That one doesn’t care if I logged—if I didn’t show up, it still counts as a miss.

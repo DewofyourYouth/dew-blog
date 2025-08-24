@@ -24,7 +24,7 @@ One conclusion I reached in that postmortem was simple: when it comes to change,
 ## Gratitude Meditation
 
 {{< admonition type=info title="Meditation" open=true >}}
-Every day, preferably in the morning, meditate on Hashem’s kindness and the many gifts He has given me in His infinite love.
+Every day, preferably in the morning, meditate for at least 10 minutes on Hashem’s kindness and the many gifts He has given me in His infinite love.
 {{< /admonition >}}
 
 That’s it—that’s my plan for this Elul. One practice, done consistently.

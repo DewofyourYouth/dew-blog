@@ -1,6 +1,6 @@
 ---
-title: Tracking Elul In Obsidian
-date: 2025-08-25T20:31:28
+title: "Tracking Elul In Obsidian"
+date: 2025-08-25T08:54:18+03:00
 tags:
   - obsidian
   - nerd_out
@@ -26,7 +26,7 @@ This Elul I’m going with a “one thing” approach: one practice, one log, an
 
 Template for each day:
 
-```
+```frontmatter
 ---
 date: 2025-08-24
 gratitudeMeditation: false
@@ -42,18 +42,17 @@ type: Elul Log
 Started meditation around [timeStarted:: null].
 gratitudeMeditation → did I actually do it?
 
-gratefulFor → concrete things I named.
-
-lieCounter → reinforcement for my “truthfulness” resolution.
-
-timeStarted → inline timestamp for consistency.
+- gratefulFor → concrete things I named.
+- lieCounter → reinforcement for my “truthfulness” resolution.
+- timeStarted → inline timestamp for consistency.
 
 QuickAdd makes this painless: one hotkey = new log. Another marks the meditation done and stamps the time, another increments the lie counter.
 
-The Main Page
+## The Main Page
+
 All the pieces roll up into a single Resolution note with the Elul window in the front-matter:
 
-```
+```frontmatter
 ---
 type: Resolution
 resolution: Every day, preferably in the morning, meditate on Hashem’s kindness and the many gifts He has given me in His infinite love.
@@ -143,8 +142,7 @@ Lets me see if the counter stays flat at zero or spikes.
 Completion Rate with Calendar Accuracy
 The pie chart only counts logged days. If I want accuracy against the entire Elul window (including blanks), I use this DataviewJS snippet:
 
-```
-
+```dataviewjs
 const { elulStart, elulEnd } = dv.current().file.frontmatter;
 const start = dv.date(elulStart).startOf('day');
 const end   = dv.date(elulEnd).endOf('day');
@@ -168,16 +166,16 @@ That one doesn’t care if I logged—if I didn’t show up, it still counts as 
 ## The Meditation Script
 At the bottom of the page I keep the script I actually use, so the dashboard isn’t just analytics—it reminds me what I’m supposed to be doing:
 
-Gratitude Meditation Script (Elul)
-### Settle
+### Gratitude Meditation Script (Elul)
+#### Settle
 
 >  I stop. I breathe. I turn my mind toward Hashem.
 
-### Acknowledge
+#### Acknowledge
 
 > Everything I have is from You.
 
-### Name Three Gifts (concrete, today)
+#### Name Three Gifts (concrete, today)
 
 - “I thank You for ___ [first thing].”
 - “I thank You for ___ [second thing].”

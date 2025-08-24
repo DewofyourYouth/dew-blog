@@ -18,7 +18,7 @@ summary: Elul logs - the next iteration!
 
 Today is **Rosh Chodesh Elul**, which also marks this blog’s anniversary. I first began writing here to make a public record of the changes I wanted to pursue for Elul 5783 (2023). With the sudden passing of the Rosh Yeshiva זצ״ל, the blog also became a place to process that loss, which naturally broadened its scope.
 
-Later, I wrote a [postmortem](https://www.dewofyouryouth.com/post/elul-5783-postmortem/) reflecting on how the Elul changes went. One conclusion I reached in that postmortem was simple: when it comes to change, **less is more**. If I were to do it again, I would focus on just one thing.
+Later, I wrote a [postmortem](https://www.dewofyouryouth.com/post/elul-5783-postmortem/) reflecting specifically on how the Elul resolutions went. One conclusion I reached in that postmortem was simple: when it comes to change, **less is more**. If I were to do it again, I would focus on just one thing.
 
 ---
 

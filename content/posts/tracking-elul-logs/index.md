@@ -3,10 +3,12 @@ title: "Tracking Elul In Obsidian"
 date: 2025-08-25T08:54:18+03:00
 tags:
   - obsidian
-  - nerd_out
+  - nerd out
   - Elul
-  - lifeHacks
+  - life hacks
   - notes
+  - אלול
+  - קבלות
 draft: false
 categories:
   - Torah

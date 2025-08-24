@@ -5,6 +5,8 @@ tags:
   - Elul
   - reflection
   - habits
+  - אלול
+  - קבלות
 draft: false
 categories:
   - Torah

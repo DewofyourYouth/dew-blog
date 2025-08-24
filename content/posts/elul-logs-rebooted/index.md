@@ -31,6 +31,8 @@ That’s it—that’s my plan for this Elul. One practice, done consistently.
 
 While I believe that more than one resolution risks diluting focus, I do want to keep reinforcing a standing commitment: **truthfulness, or at least not lying**. But because this isn’t new, it feels like maintenance rather than addition, so it doesn’t take away from the “one thing” principle.
 
+Another caveat is that for the first week I will allow done for a meditation that is at least **3 minutes long** (to allow myself to get into the practice with less friction).
+
 ---
 
 ## The Inspiration

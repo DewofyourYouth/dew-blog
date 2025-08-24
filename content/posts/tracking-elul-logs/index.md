@@ -1,6 +1,6 @@
 ---
 title: "Tracking Elul In Obsidian"
-date: 2025-08-23T08:54:18+03:00
+date: 2025-08-25T08:54:18+03:00
 tags:
   - obsidian
   - nerd out

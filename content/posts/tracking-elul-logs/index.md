@@ -1,6 +1,6 @@
 ---
 title: "Tracking Elul In Obsidian"
-date: 2025-08-25T08:54:18+03:00
+date: 2025-08-23T08:54:18+03:00
 tags:
   - obsidian
   - nerd out
@@ -66,7 +66,7 @@ elulEnd: 2025-10-03
 
 The rest of the page is just DataviewJS + ChartsView.
 
-## Gratitude Meditation – Overall Completion
+### Gratitude Meditation – Overall Completion
 
 Pie chart showing how many days I’ve completed vs missed:
 
@@ -79,7 +79,7 @@ data: |
   const start = dv.date(elulStart);
   const end   = dv.date(elulEnd).endOf('day');
 
-  const logs = dv.pages()
+  const logs = dv.pages("Elul Logs")
     .where(p => p.type === "Elul Log" && p.date &&
                 dv.date(p.date) >= start && dv.date(p.date) <= end)
     .array();
@@ -106,9 +106,6 @@ Basically a streak visualizer: did I actually show up?
 Truthfulness – Daily Counts
 Column chart of lie counts per day:
 
-markdown
-Copy
-Edit
 ```chartsview
 type: Column
 data: |
@@ -141,7 +138,8 @@ options:
 ```
 Lets me see if the counter stays flat at zero or spikes.
 
-Completion Rate with Calendar Accuracy
+### Completion Rate with Calendar Accuracy
+
 The pie chart only counts logged days. If I want accuracy against the entire Elul window (including blanks), I use this DataviewJS snippet:
 
 ```dataviewjs
@@ -149,7 +147,7 @@ const { elulStart, elulEnd } = dv.current().file.frontmatter;
 const start = dv.date(elulStart).startOf('day');
 const end   = dv.date(elulEnd).endOf('day');
 
-const logs = dv.pages()
+const logs = dv.pages("Elul Logs")
   .where(p => p.type==="Elul Log" && p.date && dv.date(p.date)>=start && dv.date(p.date)<=end)
   .array();
 
@@ -163,31 +161,13 @@ for (let d = start; d <= end; d = d.plus({days:1})) {
 const missed = totalDays - completed;
 dv.paragraph(`Completed: ${completed} / ${totalDays} (${Math.round(100*completed/totalDays)}%)`);
 ```
+
 That one doesn’t care if I logged—if I didn’t show up, it still counts as a miss.
 
-## The Meditation Script
+### The Meditation Script
 At the bottom of the page I keep the script I actually use, so the dashboard isn’t just analytics—it reminds me what I’m supposed to be doing:
 
-### Gratitude Meditation Script (Elul)
-#### Settle
-
->  I stop. I breathe. I turn my mind toward Hashem.
-
-#### Acknowledge
-
-> Everything I have is from You.
-
-#### Name Three Gifts (concrete, today)
-
-- “I thank You for ___ [first thing].”
-- “I thank You for ___ [second thing].”
-- “I thank You for ___ [third thing].”
-
-### Seal
-
-> With these gifts, You remind me of Your kindness and love. I begin my day in gratitude.
-
-### Why This Matters
+## Why This Matters
 
 The point isn’t the charts. It’s that with automation in place, I don’t burn willpower on logistics. QuickAdd spawns the logs, Dataview aggregates them, ChartsView makes the streak obvious. My only job is to actually do the practice.
 

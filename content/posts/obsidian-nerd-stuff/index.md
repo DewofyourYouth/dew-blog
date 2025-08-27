@@ -11,6 +11,7 @@ tags:
 draft: false
 categories:
   - Life Hacks
+  - Nerd
 featuredImage: obsidian.jpg
 summary: Some tips and tricks I use with Obsidian. Plugin recommendations and workflows.
 ---

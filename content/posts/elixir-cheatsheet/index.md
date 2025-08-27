@@ -3,6 +3,9 @@ title: "Elixir Cheatsheet"
 summary: Some Elixir basics (work in progress).
 date: 2024-06-02T16:31:26+03:00
 featuredImage: potion.jpg
+categories:
+ - coding
+ - Nerd
 draft: false
 ---
 

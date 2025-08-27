@@ -12,6 +12,7 @@ categories:
 - DevOps
 - Kubernetes
 - IT
+- Nerd
 featuredImage: kube.png
 summary: "Book I of The Kubernetic Edda, A Saga of YAML, Blood, and Eventual Consistency"
 ---

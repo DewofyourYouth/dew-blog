@@ -7,6 +7,7 @@ categories:
 - DevOps
 - IT
 - Automation
+- Nerd
 summary: "Book II of the Kubernetic Edda."
 tags:
 - Kubernetes

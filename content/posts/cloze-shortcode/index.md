@@ -8,6 +8,7 @@ categories:
   - Blogging
   - Arabic
   - Hugo
+  - Nerd
 tags:
   - Cloze
   - Shortcodes

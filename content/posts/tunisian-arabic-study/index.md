@@ -9,6 +9,7 @@ categories:
   - Arabic
   - Tunisian
   - Language
+  - Nerd
 draft: false
 hidden: true
 featuredImage: dark-light.png

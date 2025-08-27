@@ -8,6 +8,7 @@ tags:
   - jewish-history
 categories:
   - Genealogy
+  - Nerd
 draft: false
 summary: Some comments on the methodology of my genealogy research.
 featuredImage: family-tree.png

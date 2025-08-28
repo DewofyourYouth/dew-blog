@@ -13,11 +13,21 @@ categories:
   - Nerd
 featuredImage: find.jpeg
 summary: What I do when a word refuses to stick—why brute force fails, and how I hack the brain’s tagging system.
+lastMod: 2025-08-28T13:00:51+03:00
 ---
 
 Most vocabulary doesn’t need tricks. If you review it in context, see it in sentences, and hear it in conversation, it eventually sticks. That’s the spacing effect at work ([Ebbinghaus, 1885/1913](https://archive.org/details/memorycontributi00ebbiuoft); [Cepeda et al., 2006](https://augmentingcognition.com/assets/Cepeda2006.pdf)). But every learner knows the stubborn few—the words you’ve looked up ten times and *still* forget. That’s when I switch to deliberate hacks. I use them in [Anki](https://apps.ankiweb.net/) and include them in spaced repetition.
 
 And here’s the kicker: the *act of inventing* the mnemonic is as important as the cue itself. Psychologists call this the **generation effect** ([Slamecka & Graf, 1978](https://doi.org/10.1037/0278-7393.4.6.592)). When you make the association yourself, the effort of construction strengthens the memory more than just reading someone else’s idea.
+
+{{< admonition type=note title="Editorial Note" open=true >}}
+A friend of mine (I haven’t yet asked if he minds being quoted) pointed out that I neglected all the literature on retrieval and testing. He shared with me [some recent research](https://www.teachertoolkit.co.uk/wp-content/uploads/2022/10/s44159-022-00089-1.pdf) showing that this is probably the *most* effective mnemonic of all.  
+
+I’ve already covered how I use [Anki Cards](/post/tunisian-arabic-study/#anki-flashcards) and how I use [Lingualism](/post/language-learning-so-far/#tools-and-methods) cards for spaced repetition. I also run [The Daily Derja](https://dailyderja.com/about/#what-is-this-blog), where I try to post a few times a week, partly to force myself to retrieve Derja. So I think I have this somewhat covered.  
+
+Still, it’s a significant omission from the memory literature I discussed—so I’m including this note here.  
+
+{{< /admonition >}}
 
 ---
 

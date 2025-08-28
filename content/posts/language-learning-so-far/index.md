@@ -13,6 +13,7 @@ tags:
   - habits
   - Darija
 featuredImage: arabic.jpg
+lastMod: 2025-08-28
 ---
 
 # Learning Arabic: One Month In
@@ -25,9 +26,16 @@ It became clear that I would need someone to teach me. At that point, I was torn
 
 I chose the [Preply](https://preply.com/en/?pref=MTg3MDQ0NzU=&id=1742500213.149993&ep=w2) platform. However, it soon became apparent that most Levantine tutors are not comfortable teaching a Jewish person. As I am not comfortable hiding this fact simply to get Arabic lessons, much of the choice was made for me.
 
-_NOTE: One teacher from Jordan was willing to teach me, he didn't speak a word of English, but I was going with it - because I thought it would force me to talk more Arabic, but then he missed the second lesson. I would've even put up with that - but then handled it very unprofessionally, so I dropped him. He got upset that I informed the platform that he didn't show up and got a refund and we had this wierd back and forth in Arabic._
+{{< admonition type=warning title="Your milage may vary" open=false >}}
+One teacher from Jordan was willing to teach me, he didn't speak a word of English, but I was going with it - because I thought it would force me to talk more Arabic, but then he missed the second lesson. I would've even put up with that - but then handled it very unprofessionally, so I dropped him. He got upset that I informed the platform that he didn't show up and got a refund and we had this wierd back and forth in Arabic._
+{{< /admonition >}}
 
 So, Moroccan Arabic it was.
+
+{{< admonition type=note title="Note on Pivot to Tunisian: August 28, 2025" open=false >}}
+I have since decided to learn [Tunisian Arabic as discussed here](/post/tunisian-arabic-study/) in a post in May. I didn't give my reason then, because I had planned a surprise trip to Tunisia and was worried that maybe my wife would see the blog post. She has since discovered that we're going - so basically that was the reason 😅. I have also discussed this more at length in the about section of my [Daily Derja](https://dailyderja.com) blog.
+{{< /admonition >}}
+
 
 ## Tools and Methods
 

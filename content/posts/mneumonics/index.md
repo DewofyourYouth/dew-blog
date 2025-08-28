@@ -34,19 +34,18 @@ Still, it’s a significant omission from the memory literature I discussed—so
 ## Examples: how I hack sticky words
 
 Here are three mnemonics I deliberately created for Tunisian Arabic words that wouldn’t stick—**and that interfered with each other**.
-
-### Sitting — قَاعِدْ (*9ad*)
+{{< admonition type=example title="Sitting — قَاعِدْ (*9ad*)" open=true >}}
 {{< image src="/sit.jpeg" caption="A cartoon of sitting on a **cod** (a type of fish in English). Cod → 9ad." >}}
+{{< /admonition >}}
 
-
-### Sleeping — رقد (*r9ad*)
-
+{{< admonition type=example title="Sleeping — رقد (*r9ad*)" open=true >}}
 {{< image src="/sleep.jpeg" caption="A woman dancing in her sleep. In Hebrew, *rakkad* = “dance,” which sounds like *r9ad* (sleep). " >}}
+{{< /admonition >}}
 
-### Finding — لقى (*l9a*)
-
-
+{{< admonition type=example title="Finding — لقى (*l9a*)" open=true >}}
 {{< image src="/find.jpeg" caption="A woman using a **Q-shaped magnifying glass** to **find** a clicker. The magnifying glass cues *find*, and the clicker reinforces the “click” in *l-QA*." >}}
+{{< /admonition >}}
+
 
 ### Why these three needed extra help (interference)
 These forms tripped me up because they’re **phonologically similar**: **9ad**, **r9ad**, **l9a**. The mnemonics are designed to **pull them apart**:
@@ -60,12 +59,15 @@ These forms tripped me up because they’re **phonologically similar**: **9ad**,
 
 Not all mnemonics need to be carefully designed. Sometimes the best ones just happen.
 
+{{< admonition type=example title="Hurry / Fast — فيسة (*feesa*)" open=true >}}
+
 A while back, while talking with my tutor Arij, she told me she’s often impatient and always shouting at her friends:  
 > “Feesa! Feesa!” (*Hurry up!*)
 
 That single anecdote stuck better than a thousand rote memorization drills. Now, whenever I hear the word **فيسة (*feesa*)**, I don’t just see text on a card—I hear Arij’s voice in my head, yelling *Feesa! Feesa!* at her slow friend. 🤣
 
 This is the power of a **personal story**: it links the word to a vivid, emotional, socially grounded memory. Because it came with humor, context, and a real person, it carved a deeper pathway than any flashcard could. Before that, I had forgotten the word many many times, now I can instantly recall it. 
+{{< /admonition >}}
 
 ---
 

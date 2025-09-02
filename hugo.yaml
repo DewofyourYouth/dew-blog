@@ -53,11 +53,12 @@ params:
       enable: true
       title: "Dew of Your Youth"
       subtitle: "The random musings of Jacob Shore."
-      avatarUrl: "https://avatars.githubusercontent.com/u/20410178?v=4"
+      avatarUrl: "images/logo.png"
       social: true
 
   header:
     themeChangeMode: select
+    logo: "images/logo.png"
 
   footer:
     enable: true

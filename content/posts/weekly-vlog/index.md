@@ -4,10 +4,12 @@ date: 2025-09-07T14:05:04+03:00
 tags: 
   - vlog
   - language
+  - Hebrew
 draft: false
 categories:
   - Language 
   - Learning
+  - Hebrew
 featuredImage: israel.jpg
 summary: I will now start a weekly vlog in Hebrew - similar to what I do with the Daily Derja.
 ---

@@ -22,4 +22,6 @@ So once a week, I’ll post a short video. Not polished, not scripted—just pra
 
 That’s the whole plan. To get all my vlog posts **follow me on [YouTube](https://www.youtube.com/channel/UC-rJLeLJVWLKQKnXyLkw3bw)**
 
+{{< youtube Xt1vwUm6ve8 >}}
+
 Photo by [Cristina Gottardi](https://unsplash.com/@cristina_gottardi?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/brown-rock-formation-during-sunset-Nh8bXxdP0DI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)

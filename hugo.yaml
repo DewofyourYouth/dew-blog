@@ -1,4 +1,6 @@
 baseURL: "https://dewofyouryouth.com/"
+relativeURLs: false
+canonifyURLs: true
 title: "Dew of Your Youth"
 languageCode: "en"
 defaultContentLanguage: "en"
@@ -53,12 +55,13 @@ params:
       enable: true
       title: "Dew of Your Youth"
       subtitle: "The random musings of Jacob Shore."
-      avatarUrl: "images/logo.png"
+      avatarUrl: "https://www.dewofyouryouth.com/images/logo.png"
       social: true
 
   header:
     themeChangeMode: select
     logo: "images/logo.png"
+    name: "Dew of Your Youth"
 
   footer:
     enable: true

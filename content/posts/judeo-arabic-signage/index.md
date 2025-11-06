@@ -26,9 +26,10 @@ As a teenager, I remember being surprised to learn that hundreds of thousands of
 I’m not getting into debates over what counts as “real” Judeo-Arabic versus Arabic simply written in Hebrew letters. I’m just sharing examples of what I saw.
 
 
-{{< admonition type=note title="Updates coming!" open=true >}}
-I’ll be adding transcriptions and translations gradually. I’m posting now rather than waiting until every sign is typed out.
+{{< admonition type=note title="Subscribers-only Translations" open=true >}}
+Full transcriptions, transliterations, and translations of the signs will be made available for Ko-fi subscribers. I’m posting the photos publicly, but the detailed language work is in the supporters-only section.
 {{</ admonition>}}
+{{< kofi-support >}}
 
 ## Forbidding Shorts in Synagogue
 

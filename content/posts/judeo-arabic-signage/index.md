@@ -33,15 +33,15 @@ I’ll be adding transcriptions and translations gradually. I’m posting now ra
 ## Forbidding Shorts in Synagogue
 
 {{< img-gallery >}}
-{{< image src="/img/shorts-close-up.jpeg" caption="Shorts are forbidden in synagogue." optimise="true" width="400" linked="false">}}
-{{< image src="/img/shorts.jpg" caption="Slightly wider view." optimise="true" width="400" linked="false">}}
+{{< image src="img/shorts-close-up.jpeg" caption="Shorts are forbidden in synagogue." optimise="true" width="400" linked="false">}}
+{{< image src="img/shorts.jpg" caption="Slightly wider view." optimise="true" width="400" linked="false">}}
 {{</ img-gallery>}}
 
 ## Slihot Incentives
 
 {{< img-gallery >}}
-{{< image src="/img/slihot-sign.jpeg" caption="Incentives for Slihot attendance." optimise="true" width="400" linked="false">}}
-{{< image src="/img/slihot-large.jpg" caption="Slightly wider view." optimise="true" width="400" linked="false">}}
+{{< image src="img/slihot-sign.jpeg" caption="Incentives for Slihot attendance." optimise="true" width="400" linked="false">}}
+{{< image src="img/slihot-large.jpg" caption="Slightly wider view." optimise="true" width="400" linked="false">}}
 {{</ img-gallery>}}
 
 ## Yeshiva Ohr Torah Donations
@@ -55,14 +55,14 @@ I removed the phone number because this is the internet—but if you’d like to
 ## Mikva Guidelines
 
 {{< img-gallery >}}
-{{< image src="/img/mikva-sign-cropped.jpg" caption="Cropped sign." optimise="true" width="400" linked="false">}}
-{{< image src="/img/mikva-sign.jpg" caption="Mikva sign." optimise="true" width="400" linked="false">}}
+{{< image src="img/mikva-sign-cropped.jpg" caption="Cropped sign." optimise="true" width="400" linked="false">}}
+{{< image src="img/mikva-sign.jpg" caption="Mikva sign." optimise="true" width="400" linked="false">}}
 {{</ img-gallery >}}
 
 ## Donations to El Ghriba
 
 {{< img-gallery >}}
-{{< image src="/img/ghiba-signage-closeup.jpg" caption="Cropped sign." optimise="true" width="400" linked="false">}}
+{{< image src="img/ghiba-signage-closeup.jpg" caption="Cropped sign." optimise="true" width="400" linked="false">}}
 {{< image src="img/ghiba-signage.jpeg" caption="A sign at El Ghriba Synagogue." optimise="true" width="400" linked="false">}}
 {{</ img-gallery >}}
 

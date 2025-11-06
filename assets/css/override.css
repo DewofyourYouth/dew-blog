@@ -118,3 +118,31 @@ pre { border-radius: 12px; }
 .grc-title{margin:0;font-size:1.05rem;line-height:1.2}
 .grc-desc{margin:.25rem 0 .5rem;color:#374151}
 .grc-meta{display:flex;gap:12px;flex-wrap:wrap;font-size:.9rem;color:#6b7280}
+
+.img-gallery-wrapper {
+  display: block;
+  overflow: keep;;
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.img-gallery {
+    display: flex;
+    gap: 5px;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+
+}
+
+.img-gallery > figure {
+  height: 50vh;
+  flex-grow: 1;
+}
+
+.img-gallery > figure img {
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+}

@@ -2,6 +2,7 @@
 title: "New Arabic Pages"
 summary: "An explanation of the new Arabic pages"
 date: 2025-06-23T18:03:26+03:00
+lastmod: 2025-12-12
 featuredImage: ghriba.jpg
 tags:
   - arabic
@@ -17,7 +18,11 @@ Hey there!
 
 Recently, I've taken an interest in studying Arabic and starting using this blog for my notes and to document my progress. Indeed, since Operation Rising Lion, I've been writing a daily reflection in Tunisian.
 
-It quickly became apparent the Tunisian Arabic was going to canabalize the blog entirely. As such, I decided to create 2 new pages, one for my [daily reflection in Derja](/page/derja), and the other containing all my [Arabic notes](/page/arabic) (includes the reflections as well). In addition to this, the daily reflections are so short - it is cumbersome to go to the designated posts - all the content will be readable from the daily derja reflection page.
+It quickly became apparent the Tunisian Arabic was going to canabalize the blog entirely. As such, I decided to create 2 new pages, one for my [daily reflection in Derja](https://dailyderja.com), and the other containing all my [Arabic notes](https://dewofyouryouth.gitlab.io/arabic-notes/) (includes the reflections as well). In addition to this, the daily reflections are so short - it is cumbersome to go to the designated posts - all the content will be readable from the daily derja reflection page.
+
+{{< admonition type=note title="Subscribers-only Translations" open=true >}}
+The pages have since branched off to separate sites. The links have been updated.
+{{</ admonition>}}
 
 Since I generally find that Arabic script comes off very small on screens, and the daily Derja reflections are generally short blog posts. I've increased the default font size and typefaces for the Daily Derja Reflection page.
 

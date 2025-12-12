@@ -15,10 +15,6 @@ images:
 permalinks:
   posts: "/post/:slug"
 
-taxonomies:
-  tag: "tags"
-  category: "categories"
-
 imaging:
   resampleFilter: Lanczos
   quality: 85
@@ -30,18 +26,13 @@ menu:
       name: Daily Derja
       url: "https://dailyderja.com"
       weight: 50
+    - identifier: categories
+      name: Categories
+      url: "/categories/"
+      weight: 2
 
 outputs:
   home: ["HTML", "RSS", "JSON"]
-
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
-  highlight:
-    noClasses: false
-    guessSyntax: true
-    lineNos: false
 
 params:
   version: "0.2.X"
@@ -73,7 +64,6 @@ params:
     instagram: "yaakshore"
     rss: "/index.xml"
     discord: "dew_of_your_youth"
- 
 
   image:
     enable: true
@@ -93,7 +83,7 @@ params:
 
   page:
     library:
-      css: 
+      css:
         site: "css/override.css"
       js:
         site: "js/site.js"
@@ -116,16 +106,16 @@ params:
 
     # --- Disqus (comments) ---
     comment:
-      enable: true            # global on/off switch for comments
+      enable: true # global on/off switch for comments
       disqus:
-        enable: true          # turn on Disqus as the provider
-        shortname: "dew-blog"   # <- replace
+        enable: true # turn on Disqus as the provider
+        shortname: "dew-blog" # <- replace
 
   # --- Analytics ---
   analytics:
-    enable: true              # master switch for analytics
+    enable: true # master switch for analytics
     google:
-      id: "G-V8B2ZNNM78"      # <- replace with your GA4 Measurement ID
+      id: "G-V8B2ZNNM78" # <- replace with your GA4 Measurement ID
       anonymizeIP: true
 
 # Optional: cookie consent banner (shown by DoIt)

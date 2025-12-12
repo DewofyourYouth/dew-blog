@@ -10,6 +10,7 @@ tags:
   - Saranduk
   - Shore
   - Talne
+summary: "Velvel/Wolf Saranduk (William Serin): Talne roots, Buffalo/California moves, and family records."
 ---
 
 Born Velvel/Wolf Saranduk in 1874 in the Town of Talne, to [Hyman Shore and Sarah Shore](/post/hyman-and-sarah).

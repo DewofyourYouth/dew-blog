@@ -4,6 +4,14 @@ summary: "Ezekiel's Vision and the fifth of Tammuz"
 date: 2024-07-11T00:16:43+03:00
 featuredImage: eye.jpg
 draft: true
+categories:
+  - Torah
+tags:
+  - Ezekiel
+  - Tammuz
+  - Chariot
+  - exile
+  - daf-yomi
 ---
 
 > In the thirtieth year, on the fifth day of the fourth month, when I was in the community of exiles by the Chebar Canal, the heavens opened and I saw visions of God.\

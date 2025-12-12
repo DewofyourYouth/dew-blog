@@ -3,6 +3,7 @@ title: "Cloze Shortcode"
 date: 2025-05-02T14:49:08+03:00
 draft: false
 featuredImage: cloze.png
+summary: "Hugo cloze shortcode for Tunisian Arabic posts with JS/CSS to reveal hidden answers."
 categories:
   - Web Development
   - Blogging

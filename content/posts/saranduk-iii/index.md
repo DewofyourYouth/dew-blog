@@ -9,6 +9,7 @@ tags:
   - Shore
 categories:
   - genealogy
+summary: "1836–1889 Saranduk census entries and Cherkasy church records tracing Mordko and Nakhman branches."
 draft: false
 featuredImage: hebrewcloseup.png
 ---

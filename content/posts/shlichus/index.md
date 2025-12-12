@@ -12,6 +12,7 @@ categories:
   - Torah
 featuredImage: agent.jpg
 draft: false
+summary: "Hebrew notes critiquing R. Asher Weiss on shlichus in mitzvos from Yarchei Kallah 5784."
 ---
 
 ### כמה השגות והערות על דברי הרה״ג ר׳ אשר וויס שליט״א

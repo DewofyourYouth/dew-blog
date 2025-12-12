@@ -3,6 +3,7 @@ title: תולדות משפחת שור סרנדוק
 date: 2024-08-30T14:34:39+03:00
 draft: false
 direction: rtl
+summary: "סקירת מקורות ושושלת משפחת שור/סרנדוק מטולנה והעליות לארה\"ב."
 categories:
   - genealogy
 tags:

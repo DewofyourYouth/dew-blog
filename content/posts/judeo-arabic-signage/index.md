@@ -1,6 +1,7 @@
 ---
 title: "Judeo-Arabic Signage in Djerba"
 date: "2025-11-06T09:08:10+02:00"
+lastmod: "2025-12-12T12:28:17Z"
 tags:
   - Arabic
   - Judeo-Arabic
@@ -27,9 +28,8 @@ I’m not getting into debates over what counts as “real” Judeo-Arabic versu
 
 
 {{< admonition type=note title="Subscribers-only Translations" open=true >}}
-Full transcriptions, transliterations, and translations of the signs will be made available for Ko-fi subscribers. I’m posting the photos publicly, but the detailed language work is in the supporters-only section.
+Translation will be made available on [Daily Derja Substack](https://substack.com/@dailyderja) 
 {{</ admonition>}}
-{{< kofi-support >}}
 
 ## Forbidding Shorts in Synagogue
 

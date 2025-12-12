@@ -2,6 +2,13 @@
 title: "Elul Update 1"
 date: 2025-08-31T09:23:04+03:00
 draft: true
+categories:
+  - Reflections
+tags:
+  - Elul
+  - habits
+  - meditation
+summary: "First weekly check-in on the Elul meditation experiment—attendance, pie chart, and early takeaways."
 ---
 
 First update on progress on the Elul logs. I said I would do biweekly updates - but in retrospect - that is a but much. Once a week should be more than enough to include all the relevant information.

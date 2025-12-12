@@ -25,12 +25,12 @@ _Jacob w sa7bou Omar yerte7ou fi 9ahwa ytkalmou m3 ba3dhom._
 
 | Dialogue | Audio |
 | --- | --- |
-| **Jacob:** Shnawellek Omar? 9adesh 3andi ma chofteksh! } | {{< audio src="Recording 20250530145158.m4a">}} |
-| **Omar:** Ena labas! ama n7es fi rou7hi fedd barsha! Shnowa t7eb t3mal? | {{< audio src="Recording 20250530145239.m4a">}} |
-| **Jacob:** Taw, ena n7eb nshrab 9ahwati, w ba3d ma tw nkhamou fi haja na3mlouha. Bish tshri 9ahwa, Omar? | {{< audio src="Recording 20250530145422.m4a">}} |
-| **Omar:** La, man7ebsh 9ahwa, bish nhabat tey. | {{< audio src="Recording 20250530145437.m4a">}} |
-| **Jacob:** Bahi! Sa7a!  | {{< audio src="Recording 20250530145452.m4a">}} |
-|   **Omar:** ya3tik sa7a. | {{< audio src="Recording 20250530145502.m4a">}} |
+| **Jacob:** Shnawellek Omar? 9adesh 3andi ma chofteksh! } | <audio controls src="Recording 20250530145158.m4a"></audio> |
+| **Omar:** Ena labas! ama n7es fi rou7hi fedd barsha! Shnowa t7eb t3mal? | <audio controls src="Recording 20250530145239.m4a"></audio> |
+| **Jacob:** Taw, ena n7eb nshrab 9ahwati, w ba3d ma tw nkhamou fi haja na3mlouha. Bish tshri 9ahwa, Omar? | <audio controls src="Recording 20250530145422.m4a"></audio> |
+| **Omar:** La, man7ebsh 9ahwa, bish nhabat tey. | <audio controls src="Recording 20250530145437.m4a"></audio> |
+| **Jacob:** Bahi! Sa7a!  | <audio controls src="Recording 20250530145452.m4a"></audio> |
+|   **Omar:** ya3tik sa7a. | <audio controls src="Recording 20250530145502.m4a"></audio> |
 
 
 
@@ -38,9 +38,9 @@ _Jacob w sa7bou Omar yerte7ou fi 9ahwa ytkalmou m3 ba3dhom._
 
 | Dialogue | Audio |
 | --- | --- |
-| **Omar:** Walla, shouwa n3malouha taw? | {{< audio src="Recording 20250530145717.m4a">}} |
-| **Jacob:** Nemshiw lel b7ar w n3oumou ghadi! | {{< audio src="Recording 20250530145734.m4a">}} |
-| **Omar:** Behi barsha! Ena n7eb l-b7ar! | {{< audio src="Recording 20250530145746.m4a">}} |
+| **Omar:** Walla, shouwa n3malouha taw? | <audio controls src="Recording 20250530145717.m4a"></audio> |
+| **Jacob:** Nemshiw lel b7ar w n3oumou ghadi! | <audio controls src="Recording 20250530145734.m4a"></audio> |
+| **Omar:** Behi barsha! Ena n7eb l-b7ar! | <audio controls src="Recording 20250530145746.m4a"></audio> |
 
 
 ![Jacob and Omar at the Café](dialogue1.png)

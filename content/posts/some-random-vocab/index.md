@@ -21,14 +21,14 @@ For much of this my pronounciation is very off. I apologize for any confusion ca
 
 | English                            | Tunisian                           | Audio | Sentence | Image                     |
 | ---------------------------------- | ---------------------------------- | ----- | -------- | ------------------------- |
-| wedding                            | 3irs                               |     {{<audio src="wedding.m4a">}}  |          | ![Wedding](3irs.png)             |
-| engaged (female)                   | ma5touba                           |   {{<audio src="engaged.m4a">}}    |          | ![engaged](ma5touba.png)      |
-| cheating                           | 5iyena                             |    {{<audio src="cheating.m4a">}}   |          | ![Cheater](khiyena.png)        |
-| jealous                            | moġyar / moġyara / ġayer / ġayera |      {{<audio src="jealous1.m4a">}} {{<audio src="jealous2.m4a">}} {{<audio src="jealous3.m4a">}} {{<audio src="jealous4.m4a">}}|          | ![moghyar.png](moghyar.png)       |
-| i respect you                      | ne7tarmek                          |   {{<audio src="i-respect-you.m4a">}}    |          | ![ne7tarmek.png](ne7tarmek.png)      |
-| before / after                     | qbel / ba3d                        |    {{<audio src="before.m4a">}} {{<audio src="after.m4a">}}   |          | ![qbel-ba3d.png](qbel-ba3d.png)       |
-| gossiper                           | t9al9il                            |   {{<audio src="gossiper.m4a">}}    |          | ![t9al9il.png](t9al9il.png)          |
-| she understands me                 | tefhemni                           |    {{<audio src="she-umderstands-me.m4a">}}   |          | ![tefhemni.png](tefhemni.png)    |
-| he understands me                  | yefhemni                           |    {{<audio src="he-understands-me.m4a">}}   |          | ![yefhemni.png](yefhemni.png)       |
-| welcome back! we missed you a lot! | marhabe! twahhasnek barsha!        |  {{<audio src="welcome-back.m4a">}}     |          | ![twahasnek-barsha.png](twahasnek-barsha.png) |
-| he shows off                       | yvayes                             |    {{<audio src="show-off.m4a">}}   |          | ![yvaves.png](yvaves.png)           |
+| wedding                            | 3irs                               |     <audio controls src="wedding.m4a"></audio>  |          | ![Wedding](3irs.png)             |
+| engaged (female)                   | ma5touba                           |   <audio controls src="engaged.m4a"></audio>    |          | ![engaged](ma5touba.png)      |
+| cheating                           | 5iyena                             |    <audio controls src="cheating.m4a"></audio>   |          | ![Cheater](khiyena.png)        |
+| jealous                            | moġyar / moġyara / ġayer / ġayera |      <audio controls src="jealous1.m4a"></audio> <audio controls src="jealous2.m4a"></audio> <audio controls src="jealous3.m4a"></audio> <audio controls src="jealous4.m4a"></audio>|          | ![moghyar.png](moghyar.png)       |
+| i respect you                      | ne7tarmek                          |   <audio controls src="i-respect-you.m4a"></audio>    |          | ![ne7tarmek.png](ne7tarmek.png)      |
+| before / after                     | qbel / ba3d                        |    <audio controls src="before.m4a"></audio> <audio controls src="after.m4a"></audio>   |          | ![qbel-ba3d.png](qbel-ba3d.png)       |
+| gossiper                           | t9al9il                            |   <audio controls src="gossiper.m4a"></audio>    |          | ![t9al9il.png](t9al9il.png)          |
+| she understands me                 | tefhemni                           |    <audio controls src="she-umderstands-me.m4a"></audio>   |          | ![tefhemni.png](tefhemni.png)    |
+| he understands me                  | yefhemni                           |    <audio controls src="he-understands-me.m4a"></audio>   |          | ![yefhemni.png](yefhemni.png)       |
+| welcome back! we missed you a lot! | marhabe! twahhasnek barsha!        |  <audio controls src="welcome-back.m4a"></audio>     |          | ![twahasnek-barsha.png](twahasnek-barsha.png) |
+| he shows off                       | yvayes                             |    <audio controls src="show-off.m4a"></audio>   |          | ![yvaves.png](yvaves.png)           |

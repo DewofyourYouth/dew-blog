@@ -24,8 +24,8 @@ _Edit: I made a shortcode for audio embeds, it does the trick for now 😊. I'm 
 
 | Arabic                | Transliteration              | English                                                                         |
 | --------------------- | ---------------------------- | ------------------------------------------------------------------------------- |
-| السلام عليكم          | As-salaam 'alaykum           | Hello (literally: Peace be upon you) {{< audio src="asalaam_aleikum.mp3" >}}    |
-| وعليكم السلام         | Wa'alaykum as-salaam         | [Reply] Hello (and peace be upon you) {{< audio src="wa_aleikum_salaam.mp3" >}} |
+| السلام عليكم          | As-salaam 'alaykum           | Hello (literally: Peace be upon you) <audio controls src="asalaam_aleikum.mp3"></audio>    |
+| وعليكم السلام         | Wa'alaykum as-salaam         | [Reply] Hello (and peace be upon you) <audio controls src="wa_aleikum_salaam.mp3"></audio> |
 | سلام                  | Salaam                       | Hi (causal greeting)                                                            |
 | مرحبا                 | Marhba                       | Welcome / Hello                                                                 |
 | صباح الخير            | Ṣbaḥ l-khayr                 | Good morning                                                                    |

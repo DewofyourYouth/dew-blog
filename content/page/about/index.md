@@ -14,19 +14,18 @@ menu:
 
 ## About Jacob
 
-Hi, I'm Jacob! I am a kollel-guy-turned-software-engineer living in Beit Shemesh, Israel with my wife Chani, and our five boys בלי עין הרע. I plan to use this blog to write my random musings and notes here.
+Hi, I'm Jacob—kollel-guy-turned-software-engineer living in Beit Shemesh with my wife Chani and our five boys (bli ayin hara). This space gathers the things I’m learning, building, and noticing.
 
-My interests include:
+What shows up here:
 
 - Torah
-- technologies
-- family
-- genealogy
-- music and banjo playing
-- math
-- languages (programming and spoken)
-- Toastmasters
+- Languages: Tunisian Arabic, Judeo-Arabic, and programming languages
+- Genealogy of the Shore/Saranduk family
+- Building side projects and tooling
+- Music (banjo) and the occasional math or public-speaking riff
 
 ## About The Name - Dew of your Youth
 
-The name is based on Tehillim/Psalms chapter 110:3.
+Taken from Tehillim/Psalms 110:3—“tal yaldutekha,” dew of your youth. It’s a reminder to stay curious and keep learning.
+
+Fun fact: the gematria of “טל ילדותך” matches my Hebrew name, Yaakov Ephraim.

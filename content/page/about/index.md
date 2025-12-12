@@ -28,4 +28,4 @@ What shows up here:
 
 Taken from Tehillim/Psalms 110:3—“tal yaldutekha,” dew of your youth. It’s a reminder to stay curious and keep learning.
 
-Fun fact: the gematria of “טל ילדותך” matches my Hebrew name, Yaakov Ephraim.
+Fun fact: the gematria of “טַ֣ל יַלְדֻתֶֽךָ” matches my Hebrew name, Yaakov Ephraim.

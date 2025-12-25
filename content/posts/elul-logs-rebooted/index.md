@@ -24,9 +24,8 @@ Later, I wrote a [postmortem](https://www.dewofyouryouth.com/post/elul-5783-post
 
 ## Gratitude Meditation
 
-{{< admonition type=info title="Meditation" open=true >}}
-Every day, preferably in the morning, meditate for at least 10 minutes on Hashem’s kindness and the many gifts He has given me in His infinite love.
-{{< /admonition >}}
+> [!INFO]
+> Every day, preferably in the morning, meditate for at least 10 minutes on Hashem’s > kindness and the many gifts He has given me in His infinite love.
 
 That’s it—that’s my plan for this Elul. One practice, done consistently.
 

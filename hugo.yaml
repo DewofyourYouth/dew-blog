@@ -8,8 +8,7 @@ enableRobotsTXT: true
 summaryLength: 40
 defaultTheme: "dark"
 optimizeImages: true
-# Theme (modules: remove this and use [module] instead)
-theme: "DoIt"
+theme: ["hugo-admonitions", "github-style"]
 images:
   - "img/avatar.png"
 permalinks:

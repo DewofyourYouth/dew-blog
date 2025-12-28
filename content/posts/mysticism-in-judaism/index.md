@@ -58,4 +58,6 @@ What is striking here is not skepticism, but discipline. The Rivash neither dism
 
 This strikes me as the more honest posture. It acknowledges the authority Kabbalah has acquired without pretending that such authority requires universal assent or uncritical adoption. It also avoids the far greater distortion that would come from attempting to retroactively purify Judaism of influences that have already shaped its living form. Between naïve acceptance and revisionist erasure, the Rivash models a third path: fidelity without pretense.
 
-_Featured image by [Roy Lindman](https://commons.wikimedia.org/wiki/File:RoyLindmanTenSephirot.jpg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), via Wikimedia Commons_
+_Featured image by [Roy Lindman](https://commons.wikimedia.org/wiki/File:RoyLindmanTenSephirot.jpg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), via Wikimedia Commons._
+
+_The image was cropped for design considerations._

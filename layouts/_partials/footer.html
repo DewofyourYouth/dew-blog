@@ -1,112 +1,296 @@
 {{- if ne .Site.Params.footer.enable false -}}
-  <footer class="footer">
-    <div class="footer-container">
-      {{- /* Custom Content */ -}}
-      {{- with .Site.Params.footer.custom -}}
-        <div class="footer-line">
-          {{- safeHTML . -}}
-        </div>
-      {{- end -}}
+  <style>
+    .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f]
+      .form-preview {
+      display: flex !important;
+      flex-direction: column !important;
+      justify-content: center !important;
+      margin-top: 30px !important;
+      padding: clamp(17px, 5%, 40px) clamp(17px, 7%, 50px) !important;
+      max-width: none !important;
+      border-radius: 6px !important;
+      box-shadow: 0 5px 25px rgba(34, 60, 47, 0.25) !important;
+    }
+    .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f]
+      .form-preview,
+    .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f]
+      .form-preview
+      * {
+      box-sizing: border-box !important;
+    }
+    .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f]
+      .form-preview
+      .preview-heading {
+      width: 100% !important;
+    }
+    .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f]
+      .form-preview
+      .preview-heading
+      h5 {
+      margin-top: 0 !important;
+      margin-bottom: 0 !important;
+    }
+    .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f]
+      .form-preview
+      .preview-input-field {
+      margin-top: 20px !important;
+      width: 100% !important;
+    }
+    .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f]
+      .form-preview
+      .preview-input-field
+      input {
+      width: 100% !important;
+      height: 40px !important;
+      border-radius: 6px !important;
+      border: 2px solid #e9e8e8 !important;
+      background-color: #fff;
+      outline: none !important;
+    }
+    .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f]
+      .form-preview
+      .preview-input-field
+      input {
+      color: #000000 !important;
+      font-family: "Montserrat" !important;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+      text-align: center;
+    }
+    .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f]
+      .form-preview
+      .preview-input-field
+      input::placeholder {
+      color: #000000 !important;
+      opacity: 1 !important;
+    }
 
-      {{- /* Hugo, Host and DoIt */ -}}
-      {{- $post_info := slice -}}
-      {{- if ne .Site.Params.footer.hugo false -}}
-        {{- $hugo := printf `<a href="https://gohugo.io/" target="_blank" rel="noopener noreferrer" title="Hugo %v">Hugo</a>` hugo.Version -}}
-        {{- $e := dict "Hugo" $hugo | T "poweredBy" -}}
-        {{- $post_info = $post_info | append $e -}}
-      {{- end -}}
-      {{- with .Site.Params.footer.hostedon -}}
-        {{- $e := dict "Host" . | T "hostedOn" -}}
-        {{- $post_info = $post_info | append $e -}}
-      {{- end -}}
-      {{- if ne .Site.Params.footer.hugo false -}}
-        {{- $icon := partial "plugin/fontawesome.html" (dict "Style" "regular" "Icon" "edit") -}}
-        {{- $theme := printf `<a href="https://github.com/HEIGE-PCloud/DoIt" target="_blank" rel="noopener noreferrer" title="DoIt %v">%v DoIt</a>` (.Scratch.Get "version") $icon -}}
-        {{- $e := dict "Theme" $theme | T "theme" -}}
-        {{- $post_info = $post_info | append $e -}}
-      {{- end -}}
-      {{- with $post_info -}}
-        <div class="footer-line">
-          {{ delimit . "&nbsp;|&nbsp;" | safeHTML }}
-        </div>
-      {{- end -}}
-      <div class="footer-line">
-        {{- /* Copyright year */ -}}
-        {{- if ne .Site.Params.footer.copyright false -}}
-          {{ partial "plugin/fontawesome.html" (dict "Style" "regular" "Icon" "copyright") }}
-          {{- with .Site.Params.footer.since -}}
-            {{- if lt . now.Year }}{{ . }} -{{ end }}{{ now.Year -}}
-          {{- else -}}
-            {{ now.Year }}
-          {{- end -}}
-        {{- end -}}
+    .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f]
+      .form-preview
+      .preview-input-field
+      input:-ms-input-placeholder {
+      color: #000000 !important;
+    }
 
-        {{- /* Author */ -}}
-        {{- if ne .Site.Params.footer.author false -}}
-          <span class="author"
-            >&nbsp;<a
-              href="{{ $.Site.Params.Author.link | default .Site.Home.RelPermalink }}"
-              target="_blank"
-              rel="noopener noreferrer"
-              >{{ .Site.Params.Author.name }}</a
-            ></span
-          >
-        {{- end -}}
-
-        {{- /* License */ -}}
-        {{- with .Site.Params.footer.license -}}
-          &nbsp;|&nbsp;<span class="license">{{ . | safeHTML }}</span>
-        {{- end -}}
-
-        {{- /* ICP */ -}}
-        {{- with .Site.Params.footer.icp -}}
-          <span class="icp-splitter">&nbsp;|&nbsp;</span><br class="icp-br" />
-          <span class="icp">{{ . | safeHTML }}</span>
-        {{- end -}}
-      </div>
-      <div class="footer-line">
-        {{- /* 不蒜子 */ -}}
-        {{- if eq .Site.Params.ibruce.enable true -}}
-          {{/* <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-            <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
-          */}}
-          <script
-            async
-            src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"
-          ></script>
-          <span
-            class="post-meta-item"
-            id="busuanzi_container_site_pv"
-            style="display: inline;"
-          >
-            <span class="post-meta-item-icon"
-              >{{ partial "plugin/fontawesome.html" (dict "Style" "regular" "Icon" "eye") }}</span
+    .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f]
+      .form-preview
+      .preview-input-field
+      input::-ms-input-placeholder {
+      color: #000000 !important;
+    }
+    .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f]
+      .form-preview
+      .preview-submit-button {
+      margin-top: 10px !important;
+      width: 100% !important;
+    }
+    .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f]
+      .form-preview
+      .preview-submit-button
+      button {
+      width: 100% !important;
+      height: 40px !important;
+      border: 0 !important;
+      border-radius: 6px !important;
+      line-height: 0px !important;
+    }
+    .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f]
+      .form-preview
+      .preview-submit-button
+      button:hover {
+      cursor: pointer !important;
+    }
+    .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f]
+      .powered-by-line {
+      color: #231f20 !important;
+      font-family: "Montserrat" !important;
+      font-size: 13px !important;
+      font-weight: 400 !important;
+      line-height: 25px !important;
+      text-align: center !important;
+      text-decoration: none !important;
+      display: flex !important;
+      width: 100% !important;
+      justify-content: center !important;
+      align-items: center !important;
+      margin-top: 10px !important;
+    }
+    .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f]
+      .powered-by-line
+      img {
+      margin-left: 10px !important;
+      height: 1.13em !important;
+      max-height: 1.13em !important;
+    }
+  </style>
+  <div>
+    <div
+      class="page followit--follow-form-container"
+      attr-a
+      attr-b
+      attr-c
+      attr-d
+      attr-e
+      attr-f
+    >
+      <form
+        data-v-e7d63655=""
+        action="https://api.follow.it/subscription-form/SWRWeUpkaVNyQXJXdFJhUU1PZTBMN2U4M1BaUXc5VmVxTUdhaWp6YzJoanpLL2tEQ2tZL01zZ21ESG40Nm9ySkN3am4xZnRSdHlxL3hnYmhCNXd3ZkRnVllWa0l0VTEzcUhBTXBFRjN6cUo1TjdQb2VXZzVwUlBhRzFtZHNHYkR8N2Z2WmRkREZMVjl3OUZMY3FiTFZKSGVpU0owTE1wWC9PZVJDOTh1YUYwYz0=/8"
+        method="post"
+      >
+        <div
+          data-v-e7d63655=""
+          class="form-preview"
+          style="background-color: rgb(255, 255, 255); border-style: solid; border-width: 1px; border-color: rgb(204, 204, 204); position: relative;"
+        >
+          <div data-v-e7d63655="" class="preview-heading">
+            <h5
+              data-v-e7d63655=""
+              style="font-family: Arial; font-weight: bold; color: rgb(0, 0, 0); font-size: 16px; text-align: center; text-transform: none !important;"
             >
-            <span class="site-pv" title="总访问量"
-              ><span id="busuanzi_value_site_pv"></span
-            ></span>
-          </span>
-        {{- end -}}
-        {{- /* CNZZ */ -}}
-        {{- if eq .Site.Params.cnzz.enable true -}}
-                    <script>document.write(unescape("%3Cspan id='cnzz_stat_icon_{{ .Site.Params.cnzz.id }}'%3E%3C/span%3E%3Cscript src='https://s4.cnzz.com/z_stat.php%3Fid%3D{{ .Site.Params.cnzz.id }}%26online%3D1%26show%3Dline' type='text/javascript'%3E%3C/script%3E"));</script>
-        {{- end -}}
-      </div>
-      <div class="footer-line"></div>
+              Get new posts by email:
+            </h5>
+          </div>
+          <div data-v-e7d63655="" class="preview-input-field">
+            <input
+              data-v-e7d63655=""
+              type="email"
+              name="email"
+              required=""
+              placeholder="Enter your email"
+              spellcheck="false"
+              style="font-family: Arial; font-weight: normal; color: rgb(0, 0, 0); font-size: 14px; text-align: center; background-color: rgb(255, 255, 255); text-transform: none !important;"
+            />
+          </div>
+          <div data-v-e7d63655="" class="preview-submit-button">
+            <button
+              data-v-e7d63655=""
+              type="submit"
+              style="font-family: Arial; font-weight: bold; color: rgb(255, 255, 255); font-size: 16px; text-align: center; background-color: rgb(0, 0, 0); text-transform: none !important;"
+            >
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </form>
+      <a href="https://follow.it" class="powered-by-line"
+        >Powered by
+        <img
+          src="https://follow.it/images/colored-logo.svg"
+          alt="follow.it"
+          height="17px"
+      /></a>
     </div>
-    {{- /* PWA */ -}}
-    {{- if eq .Site.Params.enablePWA true -}}
-      {{- if eq hugo.Environment "production" -}}
-        <script>
-          if ("serviceWorker" in navigator) {
-            navigator.serviceWorker
-              .register("/sw.min.js", { scope: "/" })
-              .then(function (registration) {});
+    <footer class="footer">
+      <div class="footer-container">
+        {{- /* Custom Content */ -}}
+        {{- with .Site.Params.footer.custom -}}
+          <div class="footer-line">
+            {{- safeHTML . -}}
+          </div>
+        {{- end -}}
 
-            navigator.serviceWorker.ready.then(function (registration) {});
-          }
-        </script>
+        {{- /* Hugo, Host and DoIt */ -}}
+        {{- $post_info := slice -}}
+        {{- if ne .Site.Params.footer.hugo false -}}
+          {{- $hugo := printf `<a href="https://gohugo.io/" target="_blank" rel="noopener noreferrer" title="Hugo %v">Hugo</a>` hugo.Version -}}
+          {{- $e := dict "Hugo" $hugo | T "poweredBy" -}}
+          {{- $post_info = $post_info | append $e -}}
+        {{- end -}}
+        {{- with .Site.Params.footer.hostedon -}}
+          {{- $e := dict "Host" . | T "hostedOn" -}}
+          {{- $post_info = $post_info | append $e -}}
+        {{- end -}}
+        {{- if ne .Site.Params.footer.hugo false -}}
+          {{- $icon := partial "plugin/fontawesome.html" (dict "Style" "regular" "Icon" "edit") -}}
+          {{- $theme := printf `<a href="https://github.com/HEIGE-PCloud/DoIt" target="_blank" rel="noopener noreferrer" title="DoIt %v">%v DoIt</a>` (.Scratch.Get "version") $icon -}}
+          {{- $e := dict "Theme" $theme | T "theme" -}}
+          {{- $post_info = $post_info | append $e -}}
+        {{- end -}}
+        {{- with $post_info -}}
+          <div class="footer-line">
+            {{ delimit . "&nbsp;|&nbsp;" | safeHTML }}
+          </div>
+        {{- end -}}
+        <div class="footer-line">
+          {{- /* Copyright year */ -}}
+          {{- if ne .Site.Params.footer.copyright false -}}
+            {{ partial "plugin/fontawesome.html" (dict "Style" "regular" "Icon" "copyright") }}
+            {{- with .Site.Params.footer.since -}}
+              {{- if lt . now.Year }}{{ . }} -{{ end }}{{ now.Year -}}
+            {{- else -}}
+              {{ now.Year }}
+            {{- end -}}
+          {{- end -}}
+
+          {{- /* Author */ -}}
+          {{- if ne .Site.Params.footer.author false -}}
+            <span class="author"
+              >&nbsp;<a
+                href="{{ $.Site.Params.Author.link | default .Site.Home.RelPermalink }}"
+                target="_blank"
+                rel="noopener noreferrer"
+                >{{ .Site.Params.Author.name }}</a
+              ></span
+            >
+          {{- end -}}
+
+          {{- /* License */ -}}
+          {{- with .Site.Params.footer.license -}}
+            &nbsp;|&nbsp;<span class="license">{{ . | safeHTML }}</span>
+          {{- end -}}
+
+          {{- /* ICP */ -}}
+          {{- with .Site.Params.footer.icp -}}
+            <span class="icp-splitter">&nbsp;|&nbsp;</span><br class="icp-br" />
+            <span class="icp">{{ . | safeHTML }}</span>
+          {{- end -}}
+        </div>
+        <div class="footer-line">
+          {{- /* 不蒜子 */ -}}
+          {{- if eq .Site.Params.ibruce.enable true -}}
+            {{/* <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+              <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+            */}}
+            <script
+              async
+              src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"
+            ></script>
+            <span
+              class="post-meta-item"
+              id="busuanzi_container_site_pv"
+              style="display: inline;"
+            >
+              <span class="post-meta-item-icon"
+                >{{ partial "plugin/fontawesome.html" (dict "Style" "regular" "Icon" "eye") }}</span
+              >
+              <span class="site-pv" title="总访问量"
+                ><span id="busuanzi_value_site_pv"></span
+              ></span>
+            </span>
+          {{- end -}}
+          {{- /* CNZZ */ -}}
+          {{- if eq .Site.Params.cnzz.enable true -}}
+                    <script>document.write(unescape("%3Cspan id='cnzz_stat_icon_{{ .Site.Params.cnzz.id }}'%3E%3C/span%3E%3Cscript src='https://s4.cnzz.com/z_stat.php%3Fid%3D{{ .Site.Params.cnzz.id }}%26online%3D1%26show%3Dline' type='text/javascript'%3E%3C/script%3E"));</script>
+          {{- end -}}
+        </div>
+        <div class="footer-line"></div>
+      </div>
+      {{- /* PWA */ -}}
+      {{- if eq .Site.Params.enablePWA true -}}
+        {{- if eq hugo.Environment "production" -}}
+          <script>
+            if ("serviceWorker" in navigator) {
+              navigator.serviceWorker
+                .register("/sw.min.js", { scope: "/" })
+                .then(function (registration) {});
+
+              navigator.serviceWorker.ready.then(function (registration) {});
+            }
+          </script>
+        {{- end -}}
       {{- end -}}
-    {{- end -}}
-  </footer>
+    </footer>
+  </div>
 {{- end -}}

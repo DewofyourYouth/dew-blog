@@ -8,6 +8,7 @@ categories:
   - Judaism
   - Media Critique
   - Textual Tradition
+  - Torah
 tags:
   - Elon Gilad
   - Hanukkah

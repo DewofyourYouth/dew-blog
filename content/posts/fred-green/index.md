@@ -48,11 +48,11 @@ I want to dedicate some time to writing about my paternal grandmother’s grandf
 
 Despite several surname changes over the generations, my grandmother’s family early history is documented in a genealogical work titled [_The Propp Family History_](https://books.google.co.il/books/about/The_Propp_Family_History.html?id=QdiGrgEACAAJ&source=kp_book_description&redir_esc=y), by David-Hillel Ruben and Henry W. Propp. I do not own the book myself, but I have been able to consult portions of it thanks to the generosity of a distant relative (_name withheld_).
 
-Based on what I have seen in _The Propp Family History_, Myer Propp fled Shkudvil, Lithuania sometime in the nineteenth century, eventually settling in Sweden. Upon leaving Lithuania, he changed his name to **Myer Greenberg**.
+Based on what I have seen in The Propp Family History, Myer Propp fled Shkudvil, Lithuania sometime in the nineteenth century, eventually settling in Sweden. Upon leaving Lithuania, he changed his name to Myer Greenberg. He is associated in later records with a wife, Rachel (Pikin). It is unclear whether they fled together as a married couple or whether Myer emigrated as a bachelor and married Rachel after settling in Sweden.
 
 ## Early Life
 
-It was there, in Sweden, that his son **Fredrick Philip (Fred) Greenberg** was born in August 1865. His exact birthdate is not consistent across sources. In sworn testimony given during his naturalization process, Fred stated that he was born on **17 August 1865**, while his tombstone records his birthdate as **10 August 1865**. His Hebrew name, _Shraga Feivel_, is preserved on the tombstone.
+It was there, in Sweden, that their son **Fredrick Philip (Fred) Greenberg** was born in August 1865. His exact birthdate is not consistent across sources. In sworn testimony given during his naturalization process, Fred stated that he was born on **17 August 1865**, while his tombstone records his birthdate as **10 August 1865**. His Hebrew name, _Shraga Feivel_, is preserved on the tombstone.
 
 In **1871**, Fred emigrated to the United States with his family, a date likewise supported by his sworn naturalization testimony. Depending on the exact date of arrival (only the year of arrival is recorded), he would have been five or six years old at the time. According to family memory, he retained the ability to speak Swedish later in life. His surname was shortened to **Green** at some point before his Naturalization Testimony, taken in **September of 1895**.
 
@@ -69,6 +69,51 @@ His obituary records that he was survived by one daughter, **Anne**, and two son
 It is noteworthy that Boston civil records are inconsistent in their recording of the parents’ origins. In one record, Fred and Sarah are listed as having come from Poland, while a death certificate records their origins as Russia. Neither designation aligns with other documentation, which shows that Fred was born in Sweden and Sarah was American-born. These discrepancies likely reflect the broad and imprecise manner in which Jewish origins were recorded in late nineteenth-century Boston, rather than the actual biographical facts of the family.
 
 His Yahrzeit is Kislev 27, 5700.
+
+{{<mermaid>}}
+flowchart TB
+  %% Fredrick Philip "Fred" Greenberg / Green family tree (core)
+
+  Myer["Myer Propp<br/>(changed name to Myer Greenberg)"]
+
+  Fred["Fredrick Philip (Fred) Greenberg / Green<br/>b. Aug 1865 (10th or 17th)<br/>d. Dec 1939<br/>Hebrew: Shraga Feivel"]
+  Sarah["Sarah Libby Cohen<br/>b. New York"]
+
+  Anne["Anne Green"]
+  SamP["Samuel Pianski<br/>(early New England cinema pioneer)"]
+
+  Irving["Irving Green"]
+  Maurice["Maurice Green"]
+  Goldie["Goldie Green (twin)<br/>d. Jun 10, 1895 (infancy)"]
+
+  Myer --> Fred
+  Fred --- Sarah
+
+  Fred --> Anne
+  Fred --> Irving
+  Fred --> Maurice
+  Fred --> Goldie
+
+  Sarah --> Anne
+  Sarah --> Irving
+  Sarah --> Maurice
+  Sarah --> Goldie
+
+  Anne --- SamP
+
+  %% Visual grouping
+  subgraph "Immediate family"
+    Fred
+    Sarah
+    Anne
+    SamP
+    Irving
+    Maurice
+    Goldie
+  end
+
+{{</mermaid>}}
+
 {{< img-gallery >}}
 {{< image src="gallery/fred-green-obit.jpg" caption="Obituary for Fred Green, Boston Globe, December 9, 1939" >}}
 {{< image src="gallery/naturalization-testimony.jpeg" width="500" caption="Testimony for the Naturalization of Fredrick Green" >}}

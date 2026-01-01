@@ -57,7 +57,7 @@ It was there, in Sweden, that their son **Fredrick Philip (Fred) Greenberg** was
 In **1871**, Fred emigrated to the United States with his family, a date likewise supported by his sworn naturalization testimony. Depending on the exact date of arrival (only the year of arrival is recorded), he would have been five or six years old at the time. According to family memory, he retained the ability to speak Swedish later in life. His surname was shortened to **Green** at some point before his Naturalization Testimony, taken in **September of 1895**.
 
 {{<admonition type=note >}}
-The variation between the surnames **Green** and **Greenberg** remains unclear. For example, in the Boston birth register, Goldie and Isador are recorded under the surname *Green*, while in the undertaker’s return filed eight months later the family name appears as *Greenberg*. Such inconsistencies may reflect informal name usage or clerical variation rather than a deliberate change, but the exact reason is not yet documented.
+The variation between the surnames **Green** and **Greenberg** remains unclear. For example, in the Boston birth register, Goldie and Israel are recorded under the surname *Green*, while in the undertaker’s return filed eight months later the family name appears as *Greenberg*. Such inconsistencies may reflect informal name usage or clerical variation rather than a deliberate change, but the exact reason is not yet documented.
 {{</admonition>}}
 
 

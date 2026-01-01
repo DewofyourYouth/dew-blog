@@ -72,9 +72,10 @@ His Yahrzeit is Kislev 27, 5700.
 
 {{<mermaid>}}
 flowchart TB
-  %% Fredrick Philip "Fred" Greenberg / Green family tree (core)
+  %% Fredrick Philip "Fred" Greenberg / Green family tree (with parents)
 
-  Myer["Myer Propp<br/>(changed name to Myer Greenberg)"]
+  Myer["Myer Propp<br/>(later: Myer Greenberg)<br/>from Shkudvil, Lithuania → Sweden"]
+  Rachel["Rachel (Pikin)<br/>(wife; marriage timing uncertain)"]
 
   Fred["Fredrick Philip (Fred) Greenberg / Green<br/>b. Aug 1865 (10th or 17th)<br/>d. Dec 1939<br/>Hebrew: Shraga Feivel"]
   Sarah["Sarah Libby Cohen<br/>b. New York"]
@@ -82,11 +83,16 @@ flowchart TB
   Anne["Anne Green"]
   SamP["Samuel Pianski<br/>(early New England cinema pioneer)"]
 
-  Irving["Irving Green"]
+  Irving["Irving Green<br/>(twin)"]
+  Goldie["Goldie Green<br/>twin<br/>d. Jun 10, 1895 (infancy)"]
   Maurice["Maurice Green"]
-  Goldie["Goldie Green (twin)<br/>d. Jun 10, 1895 (infancy)"]
 
+  %% Parent relationships
+  Myer -.-> Rachel
   Myer --> Fred
+  Rachel --> Fred
+
+  %% Fred's family
   Fred --- Sarah
 
   Fred --> Anne
@@ -99,10 +105,16 @@ flowchart TB
   Sarah --> Maurice
   Sarah --> Goldie
 
+  %% Marriage
   Anne --- SamP
 
   %% Visual grouping
-  subgraph "Immediate family"
+  subgraph "Founding Generation"
+    Myer
+    Rachel
+  end
+
+  subgraph "Fred Greenberg / Green Family"
     Fred
     Sarah
     Anne

@@ -56,6 +56,11 @@ It was there, in Sweden, that their son **Fredrick Philip (Fred) Greenberg** was
 
 In **1871**, Fred emigrated to the United States with his family, a date likewise supported by his sworn naturalization testimony. Depending on the exact date of arrival (only the year of arrival is recorded), he would have been five or six years old at the time. According to family memory, he retained the ability to speak Swedish later in life. His surname was shortened to **Green** at some point before his Naturalization Testimony, taken in **September of 1895**.
 
+{{<admonition type=note >}}
+The variation between the surnames **Green** and **Greenberg** remains unclear. For example, in the Boston birth register, Goldie and Isador are recorded under the surname *Green*, while in the undertaker’s return filed eight months later the family name appears as *Greenberg*. Such inconsistencies may reflect informal name usage or clerical variation rather than a deliberate change, but the exact reason is not yet documented.
+{{</admonition>}}
+
+
 ## Marriage, Career and Children
 
 He married **Sarah Libby Cohen**, a New York native, in 1890 and worked as a photographer. Family recollections add further, though sometimes imprecise, details. At one point I believed that Fred Green had been involved in lobbying the Commonwealth of Massachusetts to require photographs on driver’s licenses, but I now think this was a mistaken inference, likely arising from his long association with police identification photography.
@@ -64,7 +69,7 @@ Other family memories, however, remain unresolved. According to my father, Fred 
 
 While best documented for his twenty-six years as the official photographer of the Boston Police Department, Fred Green also maintained a civilian photography practice. Contemporary accounts describe him as well known in theatrical circles, and archival photographs attributed to him include documentation of Jewish lifecycle events such as bar mitzvahs. Taken together, these sources suggest a professional life that extended beyond police identification photography into private, communal, and cultural settings.
 
-His obituary records that he was survived by one daughter, **Anne**, and two sons, **Irving** and **Maurice**. Civil records, however, show that Irving was a twin, and that his twin sister, **Goldie**, died in infancy in 1895 and is therefore not mentioned in the obituary. 
+His obituary records that he was survived by one daughter, **Anne**, and two sons, **Irving** and **Maurice**. Civil records, however, show that Irving was a twin, and that his twin sister, **Goldie**, died in infancy in 1895 and is therefore not mentioned in the obituary.
 
 It is noteworthy that Boston civil records are inconsistent in their recording of the parents’ origins. In one record, Fred and Sarah are listed as having come from Poland, while a death certificate records their origins as Russia. Neither designation aligns with other documentation, which shows that Fred was born in Sweden and Sarah was American-born. These discrepancies likely reflect the broad and imprecise manner in which Jewish origins were recorded in late nineteenth-century Boston, rather than the actual biographical facts of the family.
 

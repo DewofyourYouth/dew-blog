@@ -54,7 +54,7 @@ Based on what I have seen in _The Propp Family History_, Myer Propp fled Shkudvi
 
 It was there, in Sweden, that his son **Fredrick Philip (Fred) Greenberg** was born in August 1865. His exact birthdate is not consistent across sources. In sworn testimony given during his naturalization process, Fred stated that he was born on **17 August 1865**, while his tombstone records his birthdate as **10 August 1865**. His Hebrew name, _Shraga Feivel_, is preserved on the tombstone.
 
-In **1871**, Fred emigrated to the United States with his family, a date likewise supported by his sworn naturalization testimony. Depending on the date of arrival, he would have been five or six years old at the time. According to family memory, he retained the ability to speak Swedish later in life. His surname was shortened to **Green** at some point before his Naturalization Testimony, taken in **September of 1895**.
+In **1871**, Fred emigrated to the United States with his family, a date likewise supported by his sworn naturalization testimony. Depending on the exact date of arrival (only the year of arrival is recorded), he would have been five or six years old at the time. According to family memory, he retained the ability to speak Swedish later in life. His surname was shortened to **Green** at some point before his Naturalization Testimony, taken in **September of 1895**.
 
 ## Marriage, Career and Children
 

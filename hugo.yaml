@@ -52,7 +52,8 @@ params:
     profile:
       enable: true
       title: "Dew of Your Youth"
-      subtitle: "The random musings of Jacob Shore."
+      subtitle: "Language. Faith. Memory. Systems."
+      description: "A blog about overthinking everything that matters (and some things that don’t)."
       avatarUrl: "https://www.dewofyouryouth.com/images/logo.png"
       social: true
 

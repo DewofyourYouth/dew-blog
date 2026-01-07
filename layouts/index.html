@@ -12,8 +12,11 @@
                 loading="lazy"
               />
             </div>
-            <h1>Dew of Your Youth</h1>
           {{ end }}
+          {{ with .Site.Params.home.profile.title }}
+            <h1>{{ . }}</h1>
+          {{ end }}
+
           {{- if .Site.Params.home.profile.social -}}
             <div class="links home-social-links">
               {{- $socialMap := resources.Get "data/social.yml" | transform.Unmarshal -}}
@@ -64,13 +67,14 @@
 
 
           <div class="home-hero-line"></div>
-          <p class="home-tagline">Language. Faith. Memory. Systems.</p>
-          <p class="home-subtitle">
-            <em
-              >A blog about overthinking everything that matters (and some
-              things that don’t).</em
-            >
-          </p>
+          {{ with .Site.Params.home.profile.subtitle }}
+            <p class="home-tagline">{{ . }}</p>
+          {{ end }}
+          {{ with .Site.Params.home.profile.description }}
+            <p class="home-subtitle">
+              <em>{{ . }}</em>
+            </p>
+          {{ end }}
         </section>
 
         {{ with .Content }}
@@ -80,8 +84,9 @@
         {{ end }}
 
 
+        <hr class="home-divider-line" />
         <div class="home-divider">
-          <span>Categories:</span>
+          <h2>Categories</h2>
         </div>
 
         <section class="home-categories">
@@ -139,18 +144,12 @@
             </a>
           </div>
         </section>
-
+        <hr class="home-divider-line-large" />
         <section class="home-latest">
           <div class="home-latest-main">
             <h2>Most Recent Posts</h2>
             {{ $posts := where .Site.RegularPages "Section" "posts" }}
             {{ range first 5 $posts.ByDate.Reverse }}
-              {{- $postLink := .RelPermalink -}}
-              {{- $isExternal := false -}}
-              {{- with .Params.externalUrl -}}
-                {{- $postLink = . -}}
-                {{- $isExternal = true -}}
-              {{- end -}}
               {{ $catTitle := "" }}
               {{ $catURL := "" }}
               {{ with .GetTerms "categories" }}
@@ -163,7 +162,7 @@
                   {{ $img = . }}
                 {{ end }}
                 {{ with .Resources.GetMatch $img }}
-                  <a class="home-post-media" href="{{ $postLink }}"{{ if $isExternal }} target="_blank" rel="noopener noreferrer"{{ end }}>
+                  <a class="home-post-media" href="{{ $.RelPermalink }}">
                     <img
                       src="{{ .RelPermalink }}"
                       alt="{{ $.Title }}"
@@ -172,7 +171,7 @@
                   </a>
                 {{ else }}
                   {{ with $img }}
-                    <a class="home-post-media" href="{{ $postLink }}"{{ if $isExternal }} target="_blank" rel="noopener noreferrer"{{ end }}>
+                    <a class="home-post-media" href="{{ $.RelPermalink }}">
                       <img
                         src="{{ . | relURL }}"
                         alt="{{ $.Title }}"
@@ -188,7 +187,7 @@
                     >{{ $catTitle }}</a
                   >
                 {{ end }}
-                <a class="home-post-title" href="{{ $postLink }}"{{ if $isExternal }} target="_blank" rel="noopener noreferrer"{{ end }}
+                <a class="home-post-title" href="{{ .RelPermalink }}"
                   >{{ .Title }}</a
                 >
                 <span class="home-post-date"
@@ -213,7 +212,7 @@
               {{ end }}
               <div class="home-author-copy">
                 <p>
-                  Hi, I’m Jacob. I’m a language nerd, developer, DevOps
+                  Hi, I’m Jacob. I’m a language nerd, eveloper, DevOps
                   journeyman, and spiritual wanderer.
                 </p>
                 <p><em>Let’s be confused together.</em></p>
@@ -221,7 +220,7 @@
             </div>
           </aside>
         </section>
-
+        <hr class="home-divider-line" />
         <section class="home-footer-note">
           <p>Want to follow along as I spiral through life?</p>
         </section>

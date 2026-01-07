@@ -4,7 +4,8 @@ date: 2024-05-12T22:31:34+03:00
 draft: false
 featuredImage: WolkoSarandukRevisionList.png
 categories:
-  - genealogy
+  - Heritage & Identity
+
 tags:
   - genealogy
   - Saranduk

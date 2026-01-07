@@ -5,10 +5,8 @@ draft: false
 externalUrl: https://substack.com/home/post/p-182014400
 featuredImage: klonimus.jpeg
 categories:
-  - Judaism
-  - Media Critique
-  - Textual Tradition
-  - Torah
+  - Faith & Practice
+
 tags:
   - Elon Gilad
   - Hanukkah

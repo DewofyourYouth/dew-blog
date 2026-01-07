@@ -4,10 +4,8 @@ summary: Rif Pesahim Review II
 date: 2024-05-23T11:06:39+03:00
 draft: false
 categories:
-  - Torah
-  - Halachah
-  - Pesachim
-  - Rif
+  - Faith & Practice
+
 tags:
   - rif
   - ran

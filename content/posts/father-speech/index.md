@@ -4,8 +4,8 @@ summary: A speech I gave at my son's bar mitzva. Originally delivered August 6th
 date: 2023-09-04T20:13:23+03:00
 draft: false
 categories:
-  - speaking
-  - Torah
+  - Faith & Practice
+
 tags: ["bar mitzvah", "speech", "cow"]
 featuredImage: DSC_1793.JPG
 ---

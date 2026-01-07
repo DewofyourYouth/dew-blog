@@ -3,7 +3,8 @@ title: "Elul Update 1"
 date: 2025-08-31T09:23:04+03:00
 draft: true
 categories:
-  - Reflections
+  - Faith & Practice
+
 tags:
   - Elul
   - habits

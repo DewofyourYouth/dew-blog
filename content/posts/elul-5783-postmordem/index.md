@@ -3,7 +3,8 @@ title: "Elul 5783 Postmortem"
 date: 2023-10-26T09:28:52+03:00
 summary: A postmortem on my attempt to change my habits over last Elul.
 categories:
-  - Reflections
+  - Faith & Practice
+
 featuredImage: review.jpeg
 toc: true
 draft: false

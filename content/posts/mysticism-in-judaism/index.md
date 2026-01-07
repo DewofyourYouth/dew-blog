@@ -9,10 +9,8 @@ tags:
   - mysticism
 draft: false
 categories:
-  - Judaism
-  - Philosophy
-  - Theology
-  - Torah
+  - Faith & Practice
+
 featuredImage: sefirot.jpg
 summary: "How Kabbalah became woven into normative Judaism despite disputed origins, and why disciplined restraint beats revisionist erasure. <br><br> Featured image by [Roy Lindman](https://commons.wikimedia.org/wiki/File:RoyLindmanTenSephirot.jpg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), via Wikimedia Commons"
 ---

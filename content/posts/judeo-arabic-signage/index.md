@@ -10,11 +10,8 @@ tags:
   - travel
 draft: false
 categories:
-  - Arabic
-  - Travel
-  - Tunisian
-  - Judaism
-  - Language
+  - Heritage & Identity
+
 featuredImage: "img/interior-el-ghriba.jpg"
 summary: "Some signage from my recent trip to Djerba"
 lightgallery: true

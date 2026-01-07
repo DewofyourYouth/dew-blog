@@ -9,8 +9,8 @@ tags:
   - humor
 featuredImage: sculpture.jpg
 categories:
-  - Toastmasters
-  - Speaking
+  - Heritage & Identity
+
 ---
 
 A speech I gave at Toastmasters a while back. Farewell old friend!

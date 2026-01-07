@@ -4,7 +4,8 @@ summary: Some details about Philip and Netty Shore
 date: 2024-05-24T15:07:25+03:00
 featuredImage: philip-netty.jpeg
 categories:
-  - genealogy
+  - Heritage & Identity
+
 tags:
   - genealogy
   - Saranduk

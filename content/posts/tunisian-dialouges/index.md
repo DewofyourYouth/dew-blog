@@ -9,8 +9,8 @@ tags:
 draft: false
 hidden: true
 categories:
-  - Arabic
-  - Tunisian
+  - Learning & Languages
+
 featuredImage: dialogue1.png
 summary: Jacob meets a friend for coffee and visits the doctor
 ---

@@ -4,7 +4,8 @@ summary: New records added by JewishGen shed new light on the Saranduk's in Taln
 date: 2023-12-13T18:00:40+02:00
 draft: false
 categories:
-  - genealogy
+  - Heritage & Identity
+
 tags:
   - genealogy
   - Saranduk

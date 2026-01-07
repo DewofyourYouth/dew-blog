@@ -5,9 +5,8 @@ tags: ["אלול", "קבלות", "self improvement", "introspection"]
 date: 2023-08-22T12:16:48+03:00
 featuredImage: honeycomb.jpg
 categories:
-  - Torah
-  - mussar
-  - introspection
+  - Faith & Practice
+
 draft: false
 ---
 

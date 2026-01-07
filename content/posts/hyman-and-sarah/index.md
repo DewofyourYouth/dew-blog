@@ -4,7 +4,8 @@ summary: A summary of the life and times of Hyman and Sarah Shore
 date: 2023-12-10T08:38:40+02:00
 draft: false
 categories:
-  - genealogy
+  - Heritage & Identity
+
 tags:
   - genealogy
   - Saranduk

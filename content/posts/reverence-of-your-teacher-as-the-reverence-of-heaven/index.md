@@ -9,8 +9,8 @@ tags:
   - ראש ישיבה
   - memories
 categories:
-  - Torah
-  - memories
+  - Faith & Practice
+
 draft: false
 comments: true
 ---

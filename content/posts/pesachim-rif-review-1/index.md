@@ -4,10 +4,8 @@ summary: Review of the basic obligation for checking for hametz according to the
 date: 2024-02-29T09:35:40+02:00
 draft: false
 categories:
-  - Torah
-  - Halachah
-  - Pesachim
-  - Rif
+  - Faith & Practice
+
 tags:
   - rif
   - ran

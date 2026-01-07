@@ -4,7 +4,8 @@ date: 2025-02-07T11:04:39+02:00
 draft: false
 featuredImage: tillieShore.png
 categories:
-  - genealogy
+  - Heritage & Identity
+
 summary: Remembering the life of Taube bas Avraham Edel
 tags:
   - genealogy

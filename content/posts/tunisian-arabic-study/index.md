@@ -6,10 +6,8 @@ tags:
   - dialogue
   - tunisian
 categories:
-  - Arabic
-  - Tunisian
-  - Language
-  - Nerd
+  - Learning & Languages
+
 draft: false
 hidden: true
 featuredImage: dark-light.png

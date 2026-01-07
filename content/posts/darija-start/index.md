@@ -6,8 +6,8 @@ tags:
   - Morocco
   - Darija
 categories:
-  - Language
-  - Arabic
+  - Learning & Languages
+
 draft: false
 hidden: true
 featuredImage: morocco-boats.jpg

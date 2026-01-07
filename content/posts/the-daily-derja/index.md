@@ -5,7 +5,8 @@ draft: false
 summary: "A new blog for the Daily Derja"
 featuredImage: tunisia.jpg
 categories:
-  - Site Updates
+  - Tech & Tools
+
 tags:
   - Daily Derja
   - Arabic

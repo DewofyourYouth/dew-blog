@@ -10,8 +10,8 @@ tags:
   - memories
 draft: false
 categories:
-  - Torah
-  - memories
+  - Faith & Practice
+
 author: Jacob Shore
 ---
 

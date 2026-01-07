@@ -8,7 +8,8 @@ tags:
   - Saranduk
   - Shore
 categories:
-  - genealogy
+  - Heritage & Identity
+
 summary: "1818/1836 Torgovitsa revision lists mapping Leyb → Mordko/Avrum lines and migration to Talne."
 featuredImage: manifest.jpeg
 ---

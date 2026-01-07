@@ -5,7 +5,8 @@ draft: false
 direction: rtl
 summary: "סקירת מקורות ושושלת משפחת שור/סרנדוק מטולנה והעליות לארה\"ב."
 categories:
-  - genealogy
+  - Heritage & Identity
+
 tags:
   - genealogy
   - Saranduk

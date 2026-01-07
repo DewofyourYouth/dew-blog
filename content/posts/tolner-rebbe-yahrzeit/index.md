@@ -8,8 +8,8 @@ tags:
   - Talne
 draft: false
 categories:
-  - Torah
-  - Genealogy
+  - Faith & Practice
+
 featuredImage: duvid-cover.jpg
 summary: A trip to Ashdod with my kids to celebrate the yahrzeit of the original Tolna Rebbe tz"l.
 ---

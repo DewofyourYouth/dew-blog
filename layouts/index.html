@@ -1,0 +1,217 @@
+{{ define "content" }}
+  <div class="page home home-splash">
+    <div class="single">
+      <div class="content" id="content">
+        <section class="home-hero">
+          {{ with .Site.Params.home.profile.avatarUrl }}
+            <div class="home-logo-container">
+              <img
+                class="home-logo"
+                src="{{ . }}"
+                alt="Site Logo"
+                loading="lazy"
+              />
+            </div>
+            <h1>Dew of Your Youth</h1>
+          {{ end }}
+          {{- if .Site.Params.home.profile.social -}}
+            <div class="links home-social-links">
+              {{- $socialMap := resources.Get "data/social.yml" | transform.Unmarshal -}}
+              {{- $socialArr := slice -}}
+              {{- range $key, $value := .Site.Params.social -}}
+                {{- $social := $key | lower | index $socialMap | default dict -}}
+                {{- if $value -}}
+                  {{- if reflect.IsMap $value -}}
+                    {{- with $value.weight -}}
+                      {{- $social = dict "Weight" . | merge $social -}}
+                    {{- end -}}
+                    {{- with $value.prefix -}}
+                      {{- $social = dict "Prefix" . | merge $social -}}
+                    {{- end -}}
+                    {{- with $value.template -}}
+                      {{- $social = dict "Template" . | merge $social -}}
+                    {{- end -}}
+                    {{- with $value.id -}}
+                      {{- $social = dict "Id" . | merge $social -}}
+                    {{- end -}}
+                    {{- with $value.url -}}
+                      {{- $social = dict "Url" . | merge $social -}}
+                    {{- end -}}
+                    {{- with $value.title -}}
+                      {{- $social = dict "Title" . | merge $social -}}
+                    {{- end -}}
+                    {{- with $value.newtab -}}
+                      {{- $social = dict "Newtab" . | merge $social -}}
+                    {{- end -}}
+                    {{- with $value.icon -}}
+                      {{- $social = dict "Icon" . | merge $social -}}
+                    {{- end -}}
+                  {{- else if ne $value true -}}
+                    {{- $social = dict "Id" $value | merge $social -}}
+                  {{- end -}}
+                  {{- if $social.Icon.Simpleicons -}}
+                    {{- $prefix := ($.Scratch.Get "cdn" | default dict).simpleIconsPrefix -}}
+                    {{- $social = dict "Prefix" $prefix | dict "Icon" | merge $social -}}
+                  {{- end -}}
+                  {{- $socialArr = $socialArr | append $social -}}
+                {{- end -}}
+              {{- end -}}
+              {{- range sort $socialArr "Weight" -}}
+                {{- partial "plugin/social.html" . -}}
+              {{- end -}}
+            </div>
+          {{- end -}}
+
+
+          <div class="home-hero-line"></div>
+          <p class="home-tagline">Language. Faith. Memory. Systems.</p>
+          <p class="home-subtitle">
+            <em
+              >A blog about overthinking everything that matters (and some
+              things that don’t).</em
+            >
+          </p>
+        </section>
+
+        {{ with .Content }}
+          <section class="home-intro">
+            {{ . }}
+          </section>
+        {{ end }}
+
+
+        <div class="home-divider">
+          <span>Categories:</span>
+        </div>
+
+        <section class="home-categories">
+          <div class="home-category-grid">
+            <a
+              class="home-card cat-learning-and-languages"
+              href="{{ "/categories/learning--languages/" | relURL }}"
+            >
+              <div class="home-card-body">
+                <h3>Learning &amp; Languages</h3>
+                <p>
+                  Language learning as obsession, memory systems, and pedagogy.
+                </p>
+              </div>
+              <div class="home-card-icon">📘</div>
+            </a>
+            <a
+              class="home-card cat-tech-and-tools"
+              href="{{ "/categories/tech--tools/" | relURL }}"
+            >
+              <div class="home-card-body">
+                <h3>Tech &amp; Tools</h3>
+                <p>
+                  Obsidian, Hugo tweaks, DevOps rants, scripts that almost
+                  worked.
+                </p>
+              </div>
+              <div class="home-card-icon">🛠</div>
+            </a>
+            <a
+              class="home-card cat-faith-and-practice"
+              href="{{ "/categories/faith--practice/" | relURL }}"
+            >
+              <div class="home-card-body">
+                <h3>Faith &amp; Practice</h3>
+                <p>
+                  Jewish rituals, Torah journaling, spiritual processing, the
+                  Elul Logs.
+                </p>
+              </div>
+              <div class="home-card-icon">🕯</div>
+            </a>
+            <a
+              class="home-card cat-heritage-and-identity"
+              href="{{ "/categories/heritage--identity/" | relURL }}"
+            >
+              <div class="home-card-body">
+                <h3>Heritage &amp; Identity</h3>
+                <p>
+                  Genealogy deep-dives, travel stories, cultural identity
+                  unraveling.
+                </p>
+              </div>
+              <div class="home-card-icon">🧬</div>
+            </a>
+          </div>
+        </section>
+
+        <section class="home-latest">
+          <div class="home-latest-main">
+            <h2>Most Recent Posts</h2>
+            {{ $posts := where .Site.RegularPages "Section" "posts" }}
+            {{ range first 5 $posts.ByDate.Reverse }}
+              {{ $catTitle := "" }}
+              {{ $catURL := "" }}
+              {{ with .GetTerms "categories" }}
+                {{ $catTitle = (index . 0).Title }}
+                {{ $catURL = (index . 0).RelPermalink }}
+              {{ end }}
+              <article class="home-post">
+                {{ $img := "" }}
+                {{ with .Params.featuredImage }}
+                  {{ $img = . }}
+                {{ end }}
+                {{ with .Resources.GetMatch $img }}
+                  <a class="home-post-media" href="{{ $.RelPermalink }}">
+                    <img src="{{ .RelPermalink }}" alt="{{ $.Title }}" loading="lazy" />
+                  </a>
+                {{ else }}
+                  {{ with $img }}
+                    <a class="home-post-media" href="{{ $.RelPermalink }}">
+                      <img src="{{ . | relURL }}" alt="{{ $.Title }}" loading="lazy" />
+                    </a>
+                  {{ end }}
+                {{ end }}
+                {{ if $catTitle }}
+                  <a
+                    class="home-post-cat cat-{{ $catTitle | urlize }}"
+                    href="{{ $catURL }}"
+                    >{{ $catTitle }}</a
+                  >
+                {{ end }}
+                <a class="home-post-title" href="{{ .RelPermalink }}"
+                  >{{ .Title }}</a
+                >
+                <span class="home-post-date"
+                  >{{ .Date.Format "Jan 2, 2006" }}</span
+                >
+                {{ with .Summary }}
+                  <p class="home-post-summary">{{ . | plainify }}</p>
+                {{ end }}
+              </article>
+            {{ end }}
+          </div>
+          <aside class="home-latest-aside">
+            <h2>About the Author</h2>
+            <div class="home-author">
+              {{ with .Site.Params.home.profile.avatarUrl }}
+                <img
+                  class="home-author-avatar"
+                  src="{{ . }}"
+                  alt="Jacob Shore"
+                  loading="lazy"
+                />
+              {{ end }}
+              <div class="home-author-copy">
+                <p>
+                  Hi, I’m Jacob. I’m a language nerd, DevOps journeyman, and
+                  spiritual wanderer.
+                </p>
+                <p><em>Let’s be confused together.</em></p>
+              </div>
+            </div>
+          </aside>
+        </section>
+
+        <section class="home-footer-note">
+          <p>Want to follow along as I spiral through life?</p>
+        </section>
+      </div>
+    </div>
+  </div>
+{{ end }}

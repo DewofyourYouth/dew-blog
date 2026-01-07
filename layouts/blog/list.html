@@ -1,0 +1,27 @@
+{{- define "title" }}
+  {{- .Title -}} - {{ .Site.Title -}}
+{{- end -}}
+
+{{- define "content" -}}
+  {{- $pages := where .Site.RegularPages "Section" "posts" -}}
+  {{- with .Site.Params.home.posts.paginate | default .Site.Params.paginate -}}
+    {{- $pages = $.Paginate $pages . -}}
+  {{- else -}}
+    {{- $pages = .Paginate $pages -}}
+  {{- end -}}
+
+  <div class="page list">
+    {{- if .Content -}}
+      <div class="single">
+        <div class="content" id="content">
+          {{- .Content -}}
+        </div>
+      </div>
+    {{- end -}}
+
+    {{- range $pages.Pages -}}
+      {{- .Render "summary" -}}
+    {{- end -}}
+    {{- partial "paginator.html" . -}}
+  </div>
+{{- end -}}

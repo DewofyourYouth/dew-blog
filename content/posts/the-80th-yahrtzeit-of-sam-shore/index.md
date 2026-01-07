@@ -5,7 +5,8 @@ draft: false
 featuredImage: samShore.png
 summary: In celebration of Shmariahu Shore's 80th Yahrzeit - a post about his life.
 categories:
-  - genealogy
+  - Heritage & Identity
+
 tags:
   - genealogy
   - Saranduk

@@ -8,9 +8,8 @@ tags:
   - tunisian-arabic
   - nerd out
 categories:
-  - Arabic
-  - Language
-  - Nerd
+  - Learning & Languages
+
 featuredImage: find.jpeg
 summary: What I do when a word refuses to stick—why brute force fails, and how I hack the brain’s tagging system.
 lastMod: 2025-08-28T13:00:51+03:00

@@ -8,9 +8,8 @@ tags:
   - אלול
 draft: false
 categories:
-  - Torah
-  - Mussar
-  - Introspection
+  - Faith & Practice
+
 featuredImage: honey.jpg
 summary: Elul logs - the next iteration!
 ---

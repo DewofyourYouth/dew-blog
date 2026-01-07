@@ -10,8 +10,8 @@ tags:
   - nerd out
 draft: false
 categories:
-  - Life Hacks
-  - Nerd
+  - Tech & Tools
+
 featuredImage: obsidian.jpg
 summary: Some tips and tricks I use with Obsidian. Plugin recommendations and workflows.
 ---

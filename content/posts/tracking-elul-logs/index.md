@@ -11,11 +11,8 @@ tags:
   - קבלות
 draft: false
 categories:
-  - Torah
-  - Mussar
-  - Life Hacks
-  - Obsidian
-  - Nerd
+  - Faith & Practice
+
 featuredImage: notes.jpg
 summary: "For Nerds! Tracking Elul in Obsidian: Logs, Charts, and Scripts"
 ---

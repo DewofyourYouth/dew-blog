@@ -8,8 +8,8 @@ tags:
   - Rabbi Mordechai Zelig Schechter
   - memories
 categories:
-  - Torah
-  - Memories
+  - Faith & Practice
+
 draft: false
 ---
 

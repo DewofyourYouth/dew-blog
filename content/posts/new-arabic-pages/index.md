@@ -10,8 +10,8 @@ tags:
   - tunisian
 draft: false
 categories:
-  - Arabic
-  - Tunisian
+  - Learning & Languages
+
 ---
 
 Hey there!

@@ -10,9 +10,8 @@ tags:
 draft: false
 hidden: true
 categories:
-  - Arabic
-  - Language
-  - Tunisian
+  - Learning & Languages
+
 featuredImage: squirrel.jpg
 summary: Tunisian Arabic Verbs With Causative Forms
 ---

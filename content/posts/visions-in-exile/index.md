@@ -5,7 +5,8 @@ date: 2024-07-11T00:16:43+03:00
 featuredImage: eye.jpg
 draft: true
 categories:
-  - Torah
+  - Faith & Practice
+
 tags:
   - Ezekiel
   - Tammuz

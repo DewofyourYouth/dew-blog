@@ -9,7 +9,8 @@ tags:
   - Ohr Somayach
 direction: rtl
 categories:
-  - Torah
+  - Faith & Practice
+
 featuredImage: agent.jpg
 draft: false
 summary: "Hebrew notes critiquing R. Asher Weiss on shlichus in mitzvos from Yarchei Kallah 5784."

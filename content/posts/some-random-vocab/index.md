@@ -10,8 +10,8 @@ tags:
 draft: false
 hidden: true
 categories:
-  - Arabic
-  - Language
+  - Learning & Languages
+
 featuredImage: moghyar.png
 summary: Some AI generated images for Tunisian vocabulary words.
 ---

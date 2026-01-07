@@ -1,7 +1,8 @@
 ---
 title: "Shore / Saranduk Family: Part I"
 categories:
-  - Genealogy
+  - Heritage & Identity
+
 tags:
   - Genealogy
   - Saranduk

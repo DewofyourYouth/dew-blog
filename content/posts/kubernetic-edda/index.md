@@ -1,14 +1,11 @@
 ---
 title:  The Mirror Ascends
 date: 2025-07-16T12:54:22+02:00
-tags:
-- DevOps
-- Kubernetes
-- Cloud Native
-- Containerization
-- Norse Mythology
+
 draft: false
 categories:
+  - Tech & Tools
+tags:
 - DevOps
 - Kubernetes
 - IT

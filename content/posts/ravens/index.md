@@ -3,11 +3,7 @@ title: "Huginn and Muninn"
 date: 2025-07-17T10:54:18+03:00
 featuredImage: ravens.jpg
 categories:
-- Kubernetes
-- DevOps
-- IT
-- Automation
-- Nerd
+  - Tech & Tools
 summary: "Book II of the Kubernetic Edda."
 tags:
 - Kubernetes

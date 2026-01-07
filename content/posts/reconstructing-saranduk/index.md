@@ -7,8 +7,8 @@ tags:
   - saranduk
   - jewish-history
 categories:
-  - Genealogy
-  - Nerd
+  - Heritage & Identity
+
 draft: false
 summary: Some comments on the methodology of my genealogy research.
 featuredImage: family-tree.png

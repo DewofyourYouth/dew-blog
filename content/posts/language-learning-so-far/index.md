@@ -4,8 +4,8 @@ summary: "My methods for learning Arabic"
 date: 2025-03-20T11:07:22+02:00
 draft: false
 categories:
-  - Arabic
-  - Language
+  - Learning & Languages
+
 tags:
   - language
   - learning

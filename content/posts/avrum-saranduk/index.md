@@ -5,7 +5,8 @@ tags:
   - genealogy
 draft: false
 categories:
-  - Genealogy
+  - Heritage & Identity
+
 featuredImage: "revision.jpg"
 summary: A review of the sources on Avrum Saranduk
 ---

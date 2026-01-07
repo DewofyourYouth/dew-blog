@@ -7,9 +7,8 @@ tags:
   - Hebrew
 draft: false
 categories:
-  - Language 
-  - Learning
-  - Hebrew
+  - Learning & Languages
+
 featuredImage: israel.jpg
 summary: I will now start a weekly vlog in Hebrew - similar to what I do with the Daily Derja.
 ---

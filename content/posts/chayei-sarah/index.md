@@ -6,8 +6,8 @@ draft: false
 languageDirection: rtl
 direction: rtl
 categories:
-  - Torah
-  - Parsha
+  - Faith & Practice
+
 tags:
   - Torah
   - Parsha

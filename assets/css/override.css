@@ -873,6 +873,37 @@ div.post-tags {
   padding: 1.5rem;
   margin: 1.5rem 0;
   box-shadow: 0 12px 30px rgba(31, 41, 55, 0.08);
+  position: relative;
+  --glow-color: rgba(47, 111, 235, 0.35);
+}
+
+.page.list .single.summary::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 16px;
+  pointer-events: none;
+  opacity: 0.35;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .page.list .single.summary::after {
+    animation: neonGlow 4s ease-in-out infinite;
+  }
+}
+
+@keyframes neonGlow {
+  0%,
+  100% {
+    box-shadow:
+      0 0 0 1px var(--glow-color),
+      0 0 12px rgba(47, 111, 235, 0.12);
+  }
+  50% {
+    box-shadow:
+      0 0 0 1px var(--glow-color),
+      0 0 22px var(--glow-color);
+  }
 }
 
 .page.list .single.summary.cat-learning-and-languages,
@@ -882,6 +913,7 @@ div.post-tags {
   box-shadow:
     0 10px 22px rgba(31, 41, 55, 0.08),
     0 0 0 2px rgba(37, 99, 235, 0.15);
+  --glow-color: rgba(37, 99, 235, 0.45);
 }
 
 .page.list .single.summary.cat-tech-and-tools,
@@ -891,6 +923,7 @@ div.post-tags {
   box-shadow:
     0 10px 22px rgba(31, 41, 55, 0.08),
     0 0 0 2px rgba(14, 116, 144, 0.15);
+  --glow-color: rgba(14, 116, 144, 0.45);
 }
 
 .page.list .single.summary.cat-faith-and-practice,
@@ -900,6 +933,7 @@ div.post-tags {
   box-shadow:
     0 10px 22px rgba(31, 41, 55, 0.08),
     0 0 0 2px rgba(249, 115, 22, 0.15);
+  --glow-color: rgba(249, 115, 22, 0.45);
 }
 
 .page.list .single.summary.cat-heritage-and-identity,
@@ -909,6 +943,7 @@ div.post-tags {
   box-shadow:
     0 10px 22px rgba(31, 41, 55, 0.08),
     0 0 0 2px rgba(16, 185, 129, 0.15);
+  --glow-color: rgba(16, 185, 129, 0.45);
 }
 
 .page.list .single.summary .single-title a {
@@ -1019,6 +1054,47 @@ html.dark .page.list .single.summary {
   background: #0f172a;
   border-color: rgba(148, 163, 184, 0.25);
   box-shadow: 0 16px 36px rgba(15, 23, 42, 0.6);
+  --glow-color: rgba(96, 165, 250, 0.45);
+}
+
+html.dark .page.list .single.summary.cat-learning-and-languages,
+html.dark .page.list .single.summary.cat-learning--languages,
+html.dark .page.list .single.summary.cat-learning-languages {
+  border-color: rgba(59, 130, 246, 0.75);
+  box-shadow:
+    0 16px 34px rgba(15, 23, 42, 0.6),
+    0 0 0 2px rgba(59, 130, 246, 0.2);
+  --glow-color: rgba(59, 130, 246, 0.55);
+}
+
+html.dark .page.list .single.summary.cat-tech-and-tools,
+html.dark .page.list .single.summary.cat-tech--tools,
+html.dark .page.list .single.summary.cat-tech-tools {
+  border-color: rgba(20, 184, 166, 0.75);
+  box-shadow:
+    0 16px 34px rgba(15, 23, 42, 0.6),
+    0 0 0 2px rgba(20, 184, 166, 0.2);
+  --glow-color: rgba(20, 184, 166, 0.55);
+}
+
+html.dark .page.list .single.summary.cat-faith-and-practice,
+html.dark .page.list .single.summary.cat-faith--practice,
+html.dark .page.list .single.summary.cat-faith-practice {
+  border-color: rgba(251, 146, 60, 0.8);
+  box-shadow:
+    0 16px 34px rgba(15, 23, 42, 0.6),
+    0 0 0 2px rgba(251, 146, 60, 0.22);
+  --glow-color: rgba(251, 146, 60, 0.6);
+}
+
+html.dark .page.list .single.summary.cat-heritage-and-identity,
+html.dark .page.list .single.summary.cat-heritage--identity,
+html.dark .page.list .single.summary.cat-heritage-identity {
+  border-color: rgba(34, 197, 94, 0.8);
+  box-shadow:
+    0 16px 34px rgba(15, 23, 42, 0.6),
+    0 0 0 2px rgba(34, 197, 94, 0.22);
+  --glow-color: rgba(34, 197, 94, 0.6);
 }
 
 html.dark .page.list .single.summary .single-title a {

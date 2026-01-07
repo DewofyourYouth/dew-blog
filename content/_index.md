@@ -7,8 +7,8 @@ menu:
       icon: home
 ---
 
-Dew of Your Youth is where I track the chaos — in languages, in faith, in memory, and in the systems I build to hold it all.
+Dew of Your Youth is about thought, memory, matters of faith, and the systems we build to keep our thinking from dissolving.
 
-I write about Arabic dialects, Jewish texts, note-taking workflows, and the strange comfort of finding my great-grandfather in a ship manifest.
+Jewish texts, personal workflows, family archives, and languages learned along the way.
 
 If you’ve ever tried to organize your soul with Markdown, welcome.

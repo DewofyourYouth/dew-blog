@@ -158,12 +158,20 @@
                 {{ end }}
                 {{ with .Resources.GetMatch $img }}
                   <a class="home-post-media" href="{{ $.RelPermalink }}">
-                    <img src="{{ .RelPermalink }}" alt="{{ $.Title }}" loading="lazy" />
+                    <img
+                      src="{{ .RelPermalink }}"
+                      alt="{{ $.Title }}"
+                      loading="lazy"
+                    />
                   </a>
                 {{ else }}
                   {{ with $img }}
                     <a class="home-post-media" href="{{ $.RelPermalink }}">
-                      <img src="{{ . | relURL }}" alt="{{ $.Title }}" loading="lazy" />
+                      <img
+                        src="{{ . | relURL }}"
+                        alt="{{ $.Title }}"
+                        loading="lazy"
+                      />
                     </a>
                   {{ end }}
                 {{ end }}
@@ -199,8 +207,8 @@
               {{ end }}
               <div class="home-author-copy">
                 <p>
-                  Hi, I’m Jacob. I’m a language nerd, DevOps journeyman, and
-                  spiritual wanderer.
+                  Hi, I’m Jacob. I’m a language nerd, developer, DevOps
+                  journeyman, and spiritual wanderer.
                 </p>
                 <p><em>Let’s be confused together.</em></p>
               </div>

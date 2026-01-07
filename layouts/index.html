@@ -145,6 +145,12 @@
             <h2>Most Recent Posts</h2>
             {{ $posts := where .Site.RegularPages "Section" "posts" }}
             {{ range first 5 $posts.ByDate.Reverse }}
+              {{- $postLink := .RelPermalink -}}
+              {{- $isExternal := false -}}
+              {{- with .Params.externalUrl -}}
+                {{- $postLink = . -}}
+                {{- $isExternal = true -}}
+              {{- end -}}
               {{ $catTitle := "" }}
               {{ $catURL := "" }}
               {{ with .GetTerms "categories" }}
@@ -157,7 +163,7 @@
                   {{ $img = . }}
                 {{ end }}
                 {{ with .Resources.GetMatch $img }}
-                  <a class="home-post-media" href="{{ $.RelPermalink }}">
+                  <a class="home-post-media" href="{{ $postLink }}"{{ if $isExternal }} target="_blank" rel="noopener noreferrer"{{ end }}>
                     <img
                       src="{{ .RelPermalink }}"
                       alt="{{ $.Title }}"
@@ -166,7 +172,7 @@
                   </a>
                 {{ else }}
                   {{ with $img }}
-                    <a class="home-post-media" href="{{ $.RelPermalink }}">
+                    <a class="home-post-media" href="{{ $postLink }}"{{ if $isExternal }} target="_blank" rel="noopener noreferrer"{{ end }}>
                       <img
                         src="{{ . | relURL }}"
                         alt="{{ $.Title }}"
@@ -182,7 +188,7 @@
                     >{{ $catTitle }}</a
                   >
                 {{ end }}
-                <a class="home-post-title" href="{{ .RelPermalink }}"
+                <a class="home-post-title" href="{{ $postLink }}"{{ if $isExternal }} target="_blank" rel="noopener noreferrer"{{ end }}
                   >{{ .Title }}</a
                 >
                 <span class="home-post-date"

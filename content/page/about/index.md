@@ -7,22 +7,16 @@ featuredImage: "family.jpeg"
 slug: "about"
 menu:
   main:
-    weight: 2
+    weight: 90
     params:
       icon: user
 ---
 
 ## About Jacob
 
-Hi, I'm Jacob—kollel-guy-turned-software-engineer living in Beit Shemesh with my wife Chani and our five boys (bli ayin hara). This space gathers the things I’m learning, building, and noticing.
+Hi, I’m Jacob. I’m a language nerd, developer, DevOps journeyman, and spiritual wanderer.
 
-What shows up here:
-
-- Torah
-- Languages: Tunisian Arabic, Judeo-Arabic, and programming languages
-- Genealogy of the Shore/Saranduk family
-- Building side projects and tooling
-- Music (banjo) and the occasional math or public-speaking riff
+_Let’s be confused together._
 
 ## About The Name - Dew of your Youth
 

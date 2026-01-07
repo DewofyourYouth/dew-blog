@@ -240,6 +240,9 @@ img.home-logo:hover {
   --home-border: #e5e7eb;
   --home-accent: #2f6feb;
   --home-accent-soft: rgba(47, 111, 235, 0.12);
+  max-width: none;
+  width: 100%;
+  margin: 0;
   background:
     radial-gradient(
       circle at 15% 15%,
@@ -764,36 +767,45 @@ html.dark .home-post {
 }
 
 .home-social-links a {
-  width: 40px;
-  height: 40px;
+  width: 42px;
+  height: 42px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  border-radius: 12px;
-  border: 1px solid var(--home-border);
-  background: var(--home-surface);
-  color: var(--home-muted);
+  border-radius: 14px;
+  border: 1px solid rgba(47, 111, 235, 0.2);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(47, 111, 235, 0.08));
+  color: var(--home-ink);
   text-decoration: none;
   transition:
     transform 0.2s ease,
     box-shadow 0.2s ease,
-    color 0.2s ease;
+    color 0.2s ease,
+    border-color 0.2s ease,
+    background 0.2s ease;
 }
 
 .home-social-links a:hover {
-  transform: translateY(-2px);
-  color: var(--home-accent);
-  box-shadow: 0 8px 20px rgba(31, 41, 55, 0.12);
+  transform: translateY(-3px) scale(1.02);
+  color: #1d4ed8;
+  border-color: rgba(47, 111, 235, 0.5);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(96, 165, 250, 0.2));
+  box-shadow:
+    0 12px 24px rgba(31, 41, 55, 0.16),
+    0 0 0 4px rgba(96, 165, 250, 0.15);
 }
 
 html.dark .home-social-links a {
-  background: #111827;
-  border-color: rgba(148, 163, 184, 0.25);
-  color: #cbd5f5;
+  background: linear-gradient(135deg, rgba(15, 23, 42, 0.9), rgba(59, 130, 246, 0.12));
+  border-color: rgba(96, 165, 250, 0.25);
+  color: #e2e8f0;
 }
 
 html.dark .home-social-links a:hover {
-  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.6);
+  border-color: rgba(96, 165, 250, 0.55);
+  box-shadow:
+    0 14px 28px rgba(15, 23, 42, 0.7),
+    0 0 0 4px rgba(96, 165, 250, 0.18);
 }
 
 .home-social-links .icon {

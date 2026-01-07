@@ -26,15 +26,18 @@ menu:
       name: Blog
       url: "/blog/"
       weight: 2
+    - identifier: categories
+      name: Topics
+      url: "/categories/"
+      weight: 3
+    - identifier: genealogy
+      name: Lineage
+      url: "/categories/heritage--identity/"
+      weight: 4
     - identifier: dailyderja
       name: Daily Derja
       url: "https://dailyderja.com"
       weight: 50
-    - identifier: categories
-      name: Categories
-      url: "/categories/"
-      weight: 3
-
 outputs:
   home: ["HTML", "RSS", "JSON"]
 

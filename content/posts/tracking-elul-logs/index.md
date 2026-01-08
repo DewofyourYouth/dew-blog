@@ -3,9 +3,9 @@ title: "Tracking Elul In Obsidian"
 date: 2025-08-25T08:54:18+03:00
 tags:
   - obsidian
-  - nerd out
-  - Elul
-  - life hacks
+  - nerd-out
+  - elul
+  - life-hacks
   - notes
   - אלול
   - קבלות

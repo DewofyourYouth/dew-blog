@@ -7,8 +7,8 @@ categories:
   - Tech & Tools
 
 tags:
-  - Elixir
-  - BEAM
+  - elixir
+  - beam
   - cheatsheet
   - functional-programming
 draft: false

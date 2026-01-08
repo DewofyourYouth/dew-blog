@@ -3,9 +3,9 @@ title: "Judeo-Arabic Signage in Djerba"
 date: "2025-11-06T09:08:10+02:00"
 lastmod: "2025-12-12T12:28:17Z"
 tags:
-  - Arabic
-  - Judeo-Arabic
-  - Djerba
+  - arabic
+  - judeo-arabic
+  - djerba
   - language
   - travel
 draft: false

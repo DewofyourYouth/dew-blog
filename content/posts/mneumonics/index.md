@@ -6,7 +6,7 @@ tags:
   - memory
   - hacks
   - tunisian-arabic
-  - nerd out
+  - nerd-out
 categories:
   - Learning & Languages
 

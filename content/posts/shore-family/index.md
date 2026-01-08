@@ -4,9 +4,9 @@ categories:
   - Heritage & Identity
 
 tags:
-  - Genealogy
-  - Saranduk
-  - Shore
+  - genealogy
+  - saranduk
+  - shore
 date: 2023-09-13T12:33:32+03:00
 featuredImage: papercut.jpg
 draft: false

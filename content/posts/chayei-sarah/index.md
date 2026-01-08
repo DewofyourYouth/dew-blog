@@ -9,8 +9,8 @@ categories:
   - Faith & Practice
 
 tags:
-  - Torah
-  - Parsha
+  - torah
+  - parsha
 featuredImage: hebron.jpeg
 ---
 

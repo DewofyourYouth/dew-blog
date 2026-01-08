@@ -2,10 +2,10 @@
 title: The Yahrzeit of Reb Duvid (Twersky) of Talne
 date: 2025-05-11T08:52:44+03:00
 tags:
-  - Torah
+  - torah
   - hassidus
-  - Tolna
-  - Talne
+  - tolna
+  - talne
 draft: false
 categories:
   - Faith & Practice

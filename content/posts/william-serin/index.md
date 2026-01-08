@@ -8,9 +8,9 @@ categories:
 
 tags:
   - genealogy
-  - Saranduk
-  - Shore
-  - Talne
+  - saranduk
+  - shore
+  - talne
 summary: "Velvel/Wolf Saranduk (William Serin): Talne roots, Buffalo/California moves, and family records."
 ---
 

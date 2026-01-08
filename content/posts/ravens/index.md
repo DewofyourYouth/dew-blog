@@ -6,13 +6,13 @@ categories:
   - Tech & Tools
 summary: "Book II of the Kubernetic Edda."
 tags:
-- Kubernetes
-- DevOps
-- IT
-- Observability
-- Norse Mythology
-- ReadinessProbe
-- LivenessProbe
+- kubernetes
+- dev-ops
+- it
+- observability
+- norse-mythology
+- readiness-probe
+- liveness-probe
 draft: false
 ---
 

@@ -6,7 +6,7 @@ categories:
   - Faith & Practice
 
 tags:
-  - Elul
+  - elul
   - habits
   - meditation
 summary: "First weekly check-in on the Elul meditation experiment—attendance, pie chart, and early takeaways."

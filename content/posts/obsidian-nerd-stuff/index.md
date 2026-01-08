@@ -7,7 +7,7 @@ tags:
   - notes
   - plugins
   - workflows
-  - nerd out
+  - nerd-out
 draft: false
 categories:
   - Tech & Tools

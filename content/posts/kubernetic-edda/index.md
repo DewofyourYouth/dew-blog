@@ -6,10 +6,10 @@ draft: false
 categories:
   - Tech & Tools
 tags:
-- DevOps
-- Kubernetes
-- IT
-- Nerd
+- dev-ops
+- kubernetes
+- it
+- nerd
 featuredImage: kube.png
 summary: "Book I of The Kubernetic Edda, A Saga of YAML, Blood, and Eventual Consistency"
 ---

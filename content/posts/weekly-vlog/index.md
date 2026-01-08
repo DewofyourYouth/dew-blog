@@ -4,7 +4,7 @@ date: 2025-09-07T14:05:04+03:00
 tags: 
   - vlog
   - language
-  - Hebrew
+  - hebrew
 draft: false
 categories:
   - Learning & Languages

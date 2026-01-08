@@ -11,7 +11,7 @@ tags:
   - learning
   - methods
   - habits
-  - Darija
+  - darija
 featuredImage: arabic.jpg
 lastMod: 2025-08-28
 ---

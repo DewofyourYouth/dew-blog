@@ -2,9 +2,9 @@
 title: "Darija Start"
 date: 2025-03-18T08:12:29+02:00
 tags:
-  - Arabic
-  - Morocco
-  - Darija
+  - arabic
+  - morocco
+  - darija
 categories:
   - Learning & Languages
 

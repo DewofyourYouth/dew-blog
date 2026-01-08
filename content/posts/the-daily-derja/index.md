@@ -8,9 +8,9 @@ categories:
   - Tech & Tools
 
 tags:
-  - Daily Derja
-  - Arabic
-  - Tunisian
+  - daily-derja
+  - arabic
+  - tunisian
   - announcement
 ---
 

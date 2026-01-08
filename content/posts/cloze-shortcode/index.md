@@ -8,12 +8,12 @@ categories:
   - Tech & Tools
 
 tags:
-  - Cloze
-  - Shortcodes
-  - JavaScript
-  - Tunisian
-  - Learning
-  - Memory
+  - cloze
+  - shortcodes
+  - java-script
+  - tunisian
+  - learning
+  - memory
 ---
 
 ## Creating a Cloze Shortcode in Hugo

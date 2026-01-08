@@ -4,8 +4,8 @@ summary: Remembering the Mashgiach Rabbi Mordechai Zelig Schechter זצ״ל
 date: 2023-09-22T11:00:18+03:00
 featuredImage: flame.jpg
 tags:
-  - Yeshivas Rabbeinu Chaim Berlin
-  - Rabbi Mordechai Zelig Schechter
+  - yeshivas-rabbeinu-chaim-berlin
+  - rabbi-mordechai-zelig-schechter
   - memories
 categories:
   - Faith & Practice

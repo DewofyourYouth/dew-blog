@@ -4,9 +4,9 @@ summary: Memories of the Rosh Yeshiva זצ״ל, Part I
 date: 2023-08-25T08:57:12+03:00
 featuredImage: cover.jpg
 tags:
-  - Rabbi Aaron Shechter
-  - Yeshivas Rabbeinu Chaim Berlin
-  - ראש ישיבה
+  - rabbi-aaron-shechter
+  - yeshivas-rabbeinu-chaim-berlin
+  - ראש-ישיבה
   - memories
 draft: false
 categories:

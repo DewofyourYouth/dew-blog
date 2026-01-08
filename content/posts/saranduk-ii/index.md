@@ -4,9 +4,9 @@ date: 2023-11-08T10:00:38+02:00
 draft: false
 tags:
   - genealogy
-  - revision lists
-  - Saranduk
-  - Shore
+  - revision-lists
+  - saranduk
+  - shore
 categories:
   - Heritage & Identity
 

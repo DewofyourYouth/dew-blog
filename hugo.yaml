@@ -30,10 +30,10 @@ menu:
       name: Topics
       url: "/categories/"
       weight: 3
-    - identifier: genealogy
-      name: Lineage
-      url: "/categories/heritage--identity/"
-      weight: 4
+#    - identifier: genealogy
+#      name: Lineage
+#      url: "/categories/heritage--identity/"
+#      weight: 4
     - identifier: dailyderja
       name: Daily Derja
       url: "https://dailyderja.com"

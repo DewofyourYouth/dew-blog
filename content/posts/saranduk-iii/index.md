@@ -3,10 +3,10 @@ title: "Shore / Saranduk Family: Part III"
 date: 2023-11-09T14:47:49+02:00
 tags:
   - genealogy
-  - revision lists
-  - Cherkasy Church Books
-  - Saranduk
-  - Shore
+  - revision-lists
+  - cherkasy-church-books
+  - saranduk
+  - shore
 categories:
   - Heritage & Identity
 

@@ -8,9 +8,9 @@ categories:
   - Faith & Practice
 
 tags:
-  - Ezekiel
-  - Tammuz
-  - Chariot
+  - ezekiel
+  - tammuz
+  - chariot
   - exile
   - daf-yomi
 ---

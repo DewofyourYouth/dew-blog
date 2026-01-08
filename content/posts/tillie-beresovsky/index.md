@@ -9,10 +9,10 @@ categories:
 summary: Remembering the life of Taube bas Avraham Edel
 tags:
   - genealogy
-  - Saranduk
-  - Shore
-  - Talne
-  - Providence
+  - saranduk
+  - shore
+  - talne
+  - providence
 ---
 
 ### Quick Facts

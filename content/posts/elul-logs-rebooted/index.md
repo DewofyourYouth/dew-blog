@@ -2,7 +2,7 @@
 title: Elul Logs Rebooted
 date: 2025-08-24T09:54:13+03:00
 tags:
-  - Elul
+  - elul
   - reflection
   - habits
   - אלול

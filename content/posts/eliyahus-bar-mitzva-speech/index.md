@@ -5,7 +5,7 @@ date: 2023-09-01T10:10:48+03:00
 categories:
   - Faith & Practice
 
-tags: ["bar mitzva", "parshas Eikev", "speech", "ברכות"]
+tags: ["bar-mitzva", "parshas-eikev", "speech", "ברכות"]
 draft: false
 featuredImage: DSC_1772.JPG
 ---

@@ -6,7 +6,7 @@ categories:
   - Faith & Practice
 
 tags:
-  - Chayei Sarah
+  - chayei-sarah
   - parsha
   - midrash
 summary: "Draft notes on the question of Sarah's age and narrative timing in Chayei Sarah."

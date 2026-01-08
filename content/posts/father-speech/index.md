@@ -6,7 +6,7 @@ draft: false
 categories:
   - Faith & Practice
 
-tags: ["bar mitzvah", "speech", "cow"]
+tags: ["bar-mitzvah", "speech", "cow"]
 featuredImage: DSC_1793.JPG
 ---
 

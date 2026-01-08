@@ -9,10 +9,10 @@ categories:
 
 tags:
   - genealogy
-  - Saranduk
-  - Shore
-  - Talne
-  - Providence
+  - saranduk
+  - shore
+  - talne
+  - providence
 ---
 
 ### Quick Facts

@@ -8,9 +8,9 @@ categories:
 
 tags:
   - genealogy
-  - Saranduk
-  - Shore
-  - Talne
+  - saranduk
+  - shore
+  - talne
 featuredImage: filing-cabinet.jpeg
 ---
 

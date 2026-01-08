@@ -2,7 +2,7 @@
 title: "Kabbalah and the Boundaries of Tradition"
 date: "2025-12-26T14:01:36+02:00"
 tags:
-  - Kabbalah
+  - kabbalah
   - masorah
   - tradition
   - halakha

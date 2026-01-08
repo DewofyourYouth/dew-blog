@@ -3,10 +3,10 @@ title: "Shlichus BeMitzvos"
 date: 2024-07-04T14:47:49+02:00
 tags:
   - shlichus
-  - Rabbi Asher Weiss
+  - rabbi-asher-weiss
   - mitzvos
-  - Yarchei Kallah
-  - Ohr Somayach
+  - yarchei-kallah
+  - ohr-somayach
 direction: rtl
 categories:
   - Faith & Practice

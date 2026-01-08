@@ -9,15 +9,15 @@ categories:
   - Heritage & Identity
 
 tags:
-  - Greenberg
-  - Green
-  - Propp
-  - Lithuanian-Jews
-  - Swedish-Jews
-  - Boston
-  - Photography
-  - Hanukkah
-  - Yahrzeit
+  - greenberg
+  - green
+  - propp
+  - lithuanian-jews
+  - swedish-jews
+  - boston
+  - photography
+  - hanukkah
+  - yahrzeit
 
 summary: >
   A genealogical and family-history note on Fredrick Philip Green (Shraga Feivel),

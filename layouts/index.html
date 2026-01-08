@@ -168,7 +168,13 @@
                   {{ $img = . }}
                 {{ end }}
                 {{ with .Resources.GetMatch $img }}
-                  <a class="home-post-media" href="{{ $postUrl }}"{{ if $isExternal }} target="_blank" rel="noopener noreferrer"{{ end }}>
+                  <a
+                    class="home-post-media"
+                    href="{{ $postUrl }}"
+                    {{ if $isExternal }}
+                      target="_blank" rel="noopener noreferrer"
+                    {{ end }}
+                  >
                     <img
                       src="{{ .RelPermalink }}"
                       alt="{{ $.Title }}"
@@ -177,7 +183,13 @@
                   </a>
                 {{ else }}
                   {{ with $img }}
-                    <a class="home-post-media" href="{{ $postUrl }}"{{ if $isExternal }} target="_blank" rel="noopener noreferrer"{{ end }}>
+                    <a
+                      class="home-post-media"
+                      href="{{ $postUrl }}"
+                      {{ if $isExternal }}
+                        target="_blank" rel="noopener noreferrer"
+                      {{ end }}
+                    >
                       <img
                         src="{{ . | relURL }}"
                         alt="{{ $.Title }}"
@@ -193,7 +205,12 @@
                     >{{ $catTitle }}</a
                   >
                 {{ end }}
-                <a class="home-post-title" href="{{ $postUrl }}"{{ if $isExternal }} target="_blank" rel="noopener noreferrer"{{ end }}
+                <a
+                  class="home-post-title"
+                  href="{{ $postUrl }}"
+                  {{ if $isExternal }}
+                    target="_blank" rel="noopener noreferrer"
+                  {{ end }}
                   >{{ .Title }}</a
                 >
                 <span class="home-post-date"
@@ -208,7 +225,7 @@
           <aside class="home-latest-aside">
             <h2>About the Author</h2>
             <div class="home-author">
-              {{ with .Site.Params.home.profile.avatarUrl }}
+              {{ with .Site.Params.author.avatarUrl }}
                 <img
                   class="home-author-avatar"
                   src="{{ . }}"
@@ -217,10 +234,11 @@
                 />
               {{ end }}
               <div class="home-author-copy">
-                <p>
-                  Hi, I’m Jacob. I’m a language nerd, developer, DevOps
-                  journeyman, and spiritual wanderer.
-                </p>
+                {{ with .Site.Params.author.blurb }}
+                  <p>{{ . }}</p>
+                {{ end }}
+
+
                 <p><em>Let’s be confused together.</em></p>
               </div>
             </div>

@@ -150,6 +150,7 @@
             <h2>Most Recent Posts</h2>
             {{ $posts := where .Site.RegularPages "Section" "posts" }}
             {{ range first 5 $posts.ByDate.Reverse }}
+              {{ $postUrl := .RelPermalink }}
               {{ $catTitle := "" }}
               {{ $catURL := "" }}
               {{ with .GetTerms "categories" }}
@@ -162,7 +163,7 @@
                   {{ $img = . }}
                 {{ end }}
                 {{ with .Resources.GetMatch $img }}
-                  <a class="home-post-media" href="{{ $.RelPermalink }}">
+                  <a class="home-post-media" href="{{ $postUrl }}">
                     <img
                       src="{{ .RelPermalink }}"
                       alt="{{ $.Title }}"
@@ -171,7 +172,7 @@
                   </a>
                 {{ else }}
                   {{ with $img }}
-                    <a class="home-post-media" href="{{ $.RelPermalink }}">
+                    <a class="home-post-media" href="{{ .RelPermalink }}">
                       <img
                         src="{{ . | relURL }}"
                         alt="{{ $.Title }}"

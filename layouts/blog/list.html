@@ -1,5 +1,6 @@
 {{- define "title" }}
-  {{- .Title -}} - {{ .Site.Title -}}
+  {{- .Title -}} -
+  {{ .Site.Title -}}
 {{- end -}}
 
 {{- define "content" -}}
@@ -9,6 +10,7 @@
   {{- else -}}
     {{- $pages = .Paginate $pages -}}
   {{- end -}}
+
 
   <div class="page list">
     {{- if .Content -}}
@@ -20,6 +22,7 @@
     {{- end -}}
 
     {{- range $pages.Pages -}}
+
       {{- .Render "summary" -}}
     {{- end -}}
     {{- partial "paginator.html" . -}}

@@ -30,10 +30,10 @@ menu:
       name: Topics
       url: "/categories/"
       weight: 3
-#    - identifier: genealogy
-#      name: Lineage
-#      url: "/categories/heritage--identity/"
-#      weight: 4
+    #    - identifier: genealogy
+    #      name: Lineage
+    #      url: "/categories/heritage--identity/"
+    #      weight: 4
     - identifier: dailyderja
       name: Daily Derja
       url: "https://dailyderja.com"
@@ -47,13 +47,15 @@ params:
   author:
     name: "Jacob Shore"
     link: "https://github.com/DewofyourYouth"
+    avatarUrl: "images/photo.jpeg"
+    blurb: "Hi, I'm Jacob. I'm a language nerd, developer, DevOps journeyman, and spiritual wanderer."
 
   home:
     profile:
       enable: true
       title: "Dew of Your Youth"
       subtitle: "Language. Faith. Memory. Systems."
-      description: "A blog about overthinking everything that matters (and some things that don’t)."
+      description: "A blog about overthinking everything that matters (and some things that don't)."
       avatarUrl: "https://www.dewofyouryouth.com/images/logo.png"
       social: true
 

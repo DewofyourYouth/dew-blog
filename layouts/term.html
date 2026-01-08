@@ -74,9 +74,29 @@
                     </article>
                 {{- end -}}
             {{- else -}}
-                {{- range .Paginator.PageGroups -}}
-                    <h3 class="group-title">{{ .Key }}</h3>
-                    {{- range .Pages -}}
+                {{- $pageGroups := .Paginator.PageGroups -}}
+                {{- if gt (len $pageGroups) 0 -}}
+                    {{- range $pageGroups -}}
+                        <h3 class="group-title">{{ .Key }}</h3>
+                        {{- range .Pages -}}
+                            {{- $postLink := .RelPermalink -}}
+                            {{- $isExternal := false -}}
+                            {{- with .Params.externalUrl -}}
+                                {{- $postLink = . -}}
+                                {{- $isExternal = true -}}
+                            {{- end -}}
+                            <article class="archive-item">
+                                <a href="{{ $postLink }}" class="archive-item-link"{{ if $isExternal }} target="_blank" rel="noopener noreferrer"{{ end }}>
+                                    {{- .Title -}}
+                                </a>
+                                <span class="archive-item-date">
+                                    {{- $.Site.Params.list.dateFormat | default "01-02" | .Date.Format -}}
+                                </span>
+                            </article>
+                        {{- end -}}
+                    {{- end -}}
+                {{- else -}}
+                    {{- range .Paginator.Pages -}}
                         {{- $postLink := .RelPermalink -}}
                         {{- $isExternal := false -}}
                         {{- with .Params.externalUrl -}}

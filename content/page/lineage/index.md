@@ -14,10 +14,10 @@ This page collects selected essays from my genealogical research.
 
 These posts are not exhaustive family trees, but case studies—built from records, memory, and the limits of both. I include only work where sources, uncertainties, and interpretive choices are made explicit.
 
-
 {{< post-spotlight path="posts/fred-green" >}}
 {{< post-spotlight path="posts/the-80th-yahrtzeit-of-sam-shore" >}}
 {{< post-spotlight path="posts/tillie-beresovsky" >}}
+{{< post-spotlight path="posts/hyman-and-sarah" >}}
 {{< post-spotlight path="posts/philip-netty" >}}
 {{< post-spotlight path="posts/william-serin" >}}
 

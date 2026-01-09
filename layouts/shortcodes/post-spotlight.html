@@ -1,0 +1,98 @@
+{{ $slug := .Get "slug" }}
+{{ $path := .Get "path" }}
+{{ $lookup := "" }}
+{{ if $path }}
+  {{ $lookup = $path }}
+{{ else if $slug }}
+  {{ $lookup = printf "posts/%s" $slug }}
+{{ end }}
+{{ $page := site.GetPage $lookup }}
+
+{{ if not $page }}
+  <div class="post-spotlight post-spotlight-missing">
+    <p>Post spotlight: page not found.</p>
+    {{ with (or $path $slug) }}
+      <code>{{ . }}</code>
+    {{ end }}
+  </div>
+{{ else }}
+  {{ $postUrl := $page.RelPermalink }}
+  {{ $isExternal := false }}
+  {{ with $page.Params.externalUrl }}
+    {{ $postUrl = . }}
+    {{ $isExternal = true }}
+  {{ end }}
+  {{ $catTitle := "" }}
+  {{ $catURL := "" }}
+  {{ with $page.GetTerms "categories" }}
+    {{ $catTitle = (index . 0).Title }}
+    {{ $catURL = (index . 0).RelPermalink }}
+  {{ end }}
+  {{ $img := $page.Params.featuredImage | default "" }}
+  {{ $imgUrl := "" }}
+  {{ with $img }}
+    {{ with $page.Resources.GetMatch . }}
+      {{ $imgUrl = .RelPermalink }}
+    {{ else }}
+      {{ $imgUrl = . | relURL }}
+    {{ end }}
+  {{ end }}
+  {{ $summary := $page.Params.summary | default $page.Summary }}
+  <section class="post-spotlight">
+    <div class="post-spotlight-media">
+      {{ if $imgUrl }}
+        <a
+          href="{{ $postUrl }}"
+          {{ if $isExternal }}
+            target="_blank" rel="noopener noreferrer"
+          {{ end }}
+        >
+          <img src="{{ $imgUrl }}" alt="{{ $page.Title }}" loading="lazy" />
+        </a>
+      {{ else }}
+        <a
+          class="post-spotlight-placeholder"
+          href="{{ $postUrl }}"
+          {{ if $isExternal }}
+            target="_blank" rel="noopener noreferrer"
+          {{ end }}
+        >
+          <span>{{ substr $page.Title 0 1 }}</span>
+        </a>
+      {{ end }}
+    </div>
+    <div class="post-spotlight-body">
+      <div class="post-spotlight-top">
+        <span class="post-spotlight-brand">{{ site.Title }}</span>
+        {{ if $catTitle }}
+          <a class="post-spotlight-cat" href="{{ $catURL }}">{{ $catTitle }}</a>
+        {{ end }}
+      </div>
+      <h3 class="post-spotlight-title">
+        <a
+          href="{{ $postUrl }}"
+          {{ if $isExternal }}
+            target="_blank" rel="noopener noreferrer"
+          {{ end }}
+          >{{ $page.Title }}</a
+        >
+      </h3>
+      {{ with $summary }}
+        <p class="post-spotlight-summary">{{ . | plainify }}</p>
+      {{ end }}
+      <div class="post-spotlight-meta">
+        <span class="post-spotlight-date"
+          >{{ $page.Date.Format "Jan 2, 2006" }}</span
+        >
+        <a
+          class="post-spotlight-link"
+          href="{{ $postUrl }}"
+          {{ if $isExternal }}
+            target="_blank" rel="noopener noreferrer"
+          {{ end }}
+          >Read the post →</a
+        >
+      </div>
+    </div>
+  </section>
+{{ end }}

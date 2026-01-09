@@ -945,6 +945,14 @@ html.dark .home-latest-aside {
     min-height: 0;
   }
 
+  .post-spotlight::before {
+    top: auto;
+    bottom: -1rem;
+    left: calc(50% + 60px);
+    transform: translateX(-50%) rotate(-6deg);
+    opacity: 0.12;
+  }
+
   .post-spotlight-media img,
   .post-spotlight-placeholder {
     min-height: 200px;

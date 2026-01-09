@@ -1,11 +1,11 @@
 ---
-title: "A Tale of a Wolf Named Saranduk"
+title: A Wolf Who Did Not Become Shore
 date: 2024-05-12T22:31:34+03:00
 draft: false
 featuredImage: WolkoSarandukRevisionList.png
 categories:
   - Heritage & Identity
-
+lastMod: 2026-01-08T22:31:34+03:00
 tags:
   - genealogy
   - saranduk
@@ -14,8 +14,25 @@ tags:
 summary: "Velvel/Wolf Saranduk (William Serin): Talne roots, Buffalo/California moves, and family records."
 ---
 
-Born Velvel/Wolf Saranduk in 1874 in the Town of Talne, to [Hyman Shore and Sarah Shore](/post/hyman-and-sarah).
-His Hebrew name was Mordechai Zev. Married **Bella Sarles** in Talne. He died in California on March 12th, 1943 at age 69.
+## A Notable Exception
+
+Among the Saranduk family, there is a notable pattern: over time, the surname Saranduk converges into Shore. This shift appears consistently across close relatives who are traceable through civil records, immigration documents, and family memory.
+
+Velvel Saranduk is the only known exception within that immediately traceable group.
+
+While his siblings and cousins ultimately appear as Shore, Velvel does not. Instead, his line fractures differently — through a series of name adaptations that never resolve into the family’s eventual norm. If more distant relatives adopted other surnames, they are harder to trace; Velvel is unusual precisely because he is both close and divergent.
+
+More distant relatives may well have adopted other surnames, but they are harder to trace. Velvel is unusual precisely because he is both genealogically close and demonstrably divergent.
+
+## Names Without Convergence
+
+Velvel was born in 1874 in Talne, to [Hyman and Sarah Shore](/post/hyman-and-sarah). In different records, he appears as Velvel, Wolf, and Volko — all vernacular equivalents — and in Hebrew as Mordechai Zev. Unlike Saranduk, which has no apparent semantic meaning, these given names align cleanly: each renders “wolf” in a different linguistic register.
+
+In Ukrainian revision lists from 1897, he appears as Motez Volko Saranduk, son of Khaym Ghersh Saranduk, head of household, a tailor by trade. Later migration records show Wolf Saranduk leaving the region in 1902, bound for Buffalo, New York. In American records, he does not become Shore. Instead, he becomes Serin (sometimes Serrin) — a surname that is neither a translation nor a direct truncation, but an accommodation.
+
+This divergence persists across his descendants.
+
+He was married to **Bella (Bayla) Sarles** in Talne. He died in California on March 12th, 1943 at age 69.
 
 Found on the Ukraine Revision Lists, Group 2, yr 1897 under surname "Saranduk" in the town of Talne:
 

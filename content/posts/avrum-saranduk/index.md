@@ -8,7 +8,7 @@ categories:
   - Heritage & Identity
 
 featuredImage: "revision.jpg"
-summary: A review of the sources on Avrum Saranduk
+summary: A source-driven reconstruction of Avrum Saranduk’s line, weighing Revision Lists from Talne and Torgovitsa and the open question of whether “Avrum Nikhem” is the same man.
 ---
 
 

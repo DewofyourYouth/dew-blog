@@ -30,9 +30,10 @@
   {{ end }}
   {{ $img := $page.Params.featuredImage | default "" }}
   {{ $imgUrl := "" }}
+  {{ $imgResource := "" }}
   {{ with $img }}
     {{ with $page.Resources.GetMatch . }}
-      {{ $imgUrl = .RelPermalink }}
+      {{ $imgResource = . }}
     {{ else }}
       {{ $imgUrl = . | relURL }}
     {{ end }}
@@ -40,7 +41,21 @@
   {{ $summary := $page.Params.summary | default $page.Summary }}
   <section class="post-spotlight">
     <div class="post-spotlight-media">
-      {{ if $imgUrl }}
+      {{ if $imgResource }}
+        {{ $optim := slice
+          (dict "Process" "fill 800x600 Center webp q75" "descriptor" "800w")
+          (dict "Process" "fill 1200x900 Center webp q75" "descriptor" "1200w")
+          (dict "Process" "fill 1600x1200 Center webp q75" "descriptor" "1600w")
+        }}
+        <a
+          href="{{ $postUrl }}"
+          {{ if $isExternal }}
+            target="_blank" rel="noopener noreferrer"
+          {{ end }}
+        >
+          {{- dict "Src" $imgResource "Title" $page.Title "Resources" $page.Resources "Loading" "lazy" "Width" "800" "Height" "600" "Sizes" "(max-width: 900px) 100vw, 520px" "OptimConfig" $optim "Alt" (printf "Featured image for %v" $page.Title) | partial "plugin/image.html" -}}
+        </a>
+      {{ else if $imgUrl }}
         <a
           href="{{ $postUrl }}"
           {{ if $isExternal }}

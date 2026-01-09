@@ -6,7 +6,7 @@ featuredImage: tillieShore.png
 categories:
   - Heritage & Identity
 
-summary: Remembering the life of Taube bas Avraham Edel
+summary: Remembering Taube (Tillie) Beresovsky Shore with family notes, migration records, and the tangled geography of her Ukrainian hometown.
 tags:
   - genealogy
   - saranduk

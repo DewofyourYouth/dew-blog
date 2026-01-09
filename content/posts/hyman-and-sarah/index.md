@@ -1,6 +1,6 @@
 ---
 title: Hyman & Sarah
-summary: A summary of the life and times of Hyman and Sarah Shore
+summary: A source-based sketch of Hyman and Sarah Shore, tracking census, manifest, and cemetery records while noting the inconsistencies in ages and dates across documents.
 date: 2023-12-10T08:38:40+02:00
 draft: false
 categories:

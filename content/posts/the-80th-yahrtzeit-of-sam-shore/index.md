@@ -3,7 +3,7 @@ title: "The 80th Yahrtzeit of Shmariahu Shore"
 date: 2024-05-14T12:27:47+03:00
 draft: false
 featuredImage: samShore.png
-summary: In celebration of Shmariahu Shore's 80th Yahrzeit - a post about his life.
+summary: Marking Shmariahu (Sam) Shore’s 80th yahrtzeit with family recollections, community leadership, and sources on his Providence life and legacy.
 categories:
   - Heritage & Identity
 

@@ -38,9 +38,9 @@ featuredImage: hyman_sarah.jpeg
 
 The oldest Saranduk we know to have emigrated from Russia (present day Ukraine) to America is Khaim Hersch Saranduk, known in America as Hyman Shore. This is a summary of what is known about him and his offspring.
 
-The earliest document we have from Khaim Hersch is a 1858 Russian census document (shown in gallery below). I referenced this document before in [this post](https://www.dewofyouryouth.com/post/shore-family/). It says he was the son of Arvum (35) son of Khaim Saranduk. His mother’s name is Khaya (32). He is 9 years old and has a 6 year old brother named Moshe Yankel. He lives in Talne Ukraine. This puts the birth year of Khaim Hersch at approximately 1849.
+The earliest document we have from Khaim Hersch is a 1858 Russian census document (shown in gallery below). I referenced this document before in [this post](https://www.dewofyouryouth.com/post/shore-family). It says he was the son of Arvum (35) son of Khaim Saranduk. His mother’s name is Khaya (32). He is 9 years old and has a 6 year old brother named Moshe Yankel. He lives in Talne Ukraine. This puts the birth year of Khaim Hersch at approximately 1849.
 
-The next document I’ve found that he appears on is a record of his oldest known Shmarya (23) son of Khaim Hersch Saranduk to a Taube (18) daughter of Avraham Yudel Beresowsky. The event was to occur on August 18th, 1888. The document is referenced in [this post](https://www.dewofyouryouth.com/post/saranduk-iii/).
+The next document I’ve found that he appears on is a record of his oldest known Shmarya (23) son of Khaim Hersch Saranduk to a Taube (18) daughter of Avraham Yudel Beresowsky. The event was to occur on August 18th, 1888. The document is referenced in [this post](https://www.dewofyouryouth.com/post/saranduk-iii).
 
 Based on this, we can see that Khaim Hersch got married relatively young. He was apparently only 16 when he has his first child.
 
@@ -65,8 +65,8 @@ JewishGen recently entered some new Revision List records from Talna. A 1850 lis
 
 Hyman and Sarah had five children that we know of. 3 sons and 2 daughters. (Links will be added as pages are made.)
 
-1. [Sam Shore](/post/the-80th-yahrtzeit-of-shmariahu-shore/) - born 1868
-2. [William Serin](/post/a-wolf-who-did-not-become-shore/) - born 1874
+1. [Sam Shore](/post/the-80th-yahrtzeit-of-shmariahu-shore) - born 1868
+2. [William Serin](/post/a-wolf-who-did-not-become-shore) - born 1874
 3. Tillie Lisagor - born 1882
 4. Rose Grossman - born 1883
 5. Morris Shore - born 1886

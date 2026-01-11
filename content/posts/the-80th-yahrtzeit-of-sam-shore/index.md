@@ -19,9 +19,9 @@ tags:
 
 | Name     | Value                                          |
 | -------- | ---------------------------------------------- |
-| Parents  | [Hyman and Sarah Shore](/post/hyman-sarah/) |
+| Parents  | [Hyman and Sarah Shore](/post/hyman-sarah) |
 | Birth    | March 10th, 1868                               |
-| Spouse   | [Tillie Beresovsky](/post/tillie-beresovsky-shore-71st-yahrzeit/)      |
+| Spouse   | [Tillie Beresovsky](/post/tillie-beresovsky-shore-71st-yahrzeit)      |
 | AKA      | Shmarya Saranduk / Shore                       |
 | Death    | April 30th, 1944                               |
 | Yarhzeit | Iyar 7                                         |

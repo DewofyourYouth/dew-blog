@@ -17,7 +17,7 @@ summary: "How Kabbalah became woven into normative Judaism despite disputed orig
 
 ## What This Essay Is Not About
 
-A while back, I wrote about taking my sons to a [Talne Rebbe yahrzeit](https://www.dewofyouryouth.com/post/the-yahrzeit-of-reb-duvid-twersky-of-talne/), even though I have longstanding misgivings about the foundations of Hasidism and Kabbalah. This piece is not a sequel in the sense some readers might expect. I’m not going to rehearse the familiar arguments for and against the antiquity of the Zohar, nor litigate the evidentiary gaps in the transmission of Kabbalistic teaching. Readers are free to explore those debates and arrive at their own conclusions.
+A while back, I wrote about taking my sons to a [Talne Rebbe yahrzeit](https://www.dewofyouryouth.com/post/the-yahrzeit-of-reb-duvid-twersky-of-talne), even though I have longstanding misgivings about the foundations of Hasidism and Kabbalah. This piece is not a sequel in the sense some readers might expect. I’m not going to rehearse the familiar arguments for and against the antiquity of the Zohar, nor litigate the evidentiary gaps in the transmission of Kabbalistic teaching. Readers are free to explore those debates and arrive at their own conclusions.
 
 ## Transmission, Asymmetry, and Dismissal
 

@@ -33,7 +33,7 @@ One teacher from Jordan was willing to teach me, he didn't speak a word of Engli
 So, Moroccan Arabic it was.
 
 {{< admonition type=note title="Note on Pivot to Tunisian: August 28, 2025" open=false >}}
-I have since decided to learn [Tunisian Arabic as discussed here](/post/tunisian-arabic-study/) in a post in May. I didn't give my reason then, because I had planned a surprise trip to Tunisia and was worried that maybe my wife would see the blog post. She has since discovered that we're going - so basically that was the reason 😅. I have also discussed this more at length in the about section of my [Daily Derja](https://dailyderja.com) blog.
+I have since decided to learn [Tunisian Arabic as discussed here](/post/tunisian-arabic-study) in a post in May. I didn't give my reason then, because I had planned a surprise trip to Tunisia and was worried that maybe my wife would see the blog post. She has since discovered that we're going - so basically that was the reason 😅. I have also discussed this more at length in the about section of my [Daily Derja](https://dailyderja.com) blog.
 {{< /admonition >}}
 
 

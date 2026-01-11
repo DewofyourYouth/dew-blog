@@ -22,7 +22,7 @@ tags:
 | Parents    | Avraham Edel Beresowsky, Rachel Bockman            |
 | Birth      | August 1st, 1871                                   |
 | Birthplace | Kalniboloto (Katerynopil)  / Mokra Kaligorka       |
-| Spouse     | [Sam Shore](/post/the-80th-yahrtzeit-of-shmariahu-shore/) |
+| Spouse     | [Sam Shore](/post/the-80th-yahrtzeit-of-shmariahu-shore) |
 | AKA        | Taube Saranduk / Shore                             |
 | Death      | January 19, 1954                                   |
 | Yarhzeit   | Shvat 15 (Tu b'Shvat 5714)                         |

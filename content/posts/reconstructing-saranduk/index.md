@@ -42,7 +42,7 @@ My great Aunt Ruth Mondlick OB"M and my cousin Rabbi Shmariya Shore יבלחט"�
 
 “Saranduk” didn’t survive America. My great-grandfather Hyman (Chaim Zvi) Saranduk became Hyman Shore. Why? According to Ruth Mandelik, his son Asher Shore told her: “It’s the name the damned Russians gave us.” Fair enough.
 
-Most of the family changed their name to Shore - however - Shmariya Shore's brother [Mordekhai Ze'ev / William](/post/william-serin/) - changed it to Serin
+Most of the family changed their name to Shore - however - Shmariya Shore's brother [Mordekhai Ze'ev / William](/post/william-serin) - changed it to Serin
 
 
 Other name oddities popped up too. Tuba bat Avrum Yudel is listed in one census as a “granddaughter” of Avrum Saranduk. She wasn’t. She was Shmariya Shore's wife. This is why I keep the “[sic]” label in the family chart. We’re not editing the record to make it clean. We’re documenting the mess.

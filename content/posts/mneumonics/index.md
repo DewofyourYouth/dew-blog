@@ -22,7 +22,7 @@ And here’s the kicker: the *act of inventing* the mnemonic is as important as 
 {{< admonition type=note title="Editorial Note" open=true >}}
 My friend [Dr. Franklin Zaromb PhD.](https://scholar.google.com/citations?user=pjl80ZIAAAAJ&hl=en) pointed out that I neglected all the literature on retrieval and testing. He shared with me [some recent research](https://www.teachertoolkit.co.uk/wp-content/uploads/2022/10/s44159-022-00089-1.pdf) showing that this is probably the *most* effective mnemonic of all.  
 
-I’ve already covered how I use [Anki Cards](/post/tunisian-arabic-study/#anki-flashcards) and how I use [Lingualism](/post/language-learning-so-far/#tools-and-methods) cards for spaced repetition. I also run [The Daily Derja](https://dailyderja.com/about/#what-is-this-blog), where I try to post a few times a week, partly to force myself to retrieve Derja. So I think I have this somewhat covered.  
+I’ve already covered how I use [Anki Cards](/post/tunisian-arabic-study#anki-flashcards) and how I use [Lingualism](/post/language-learning-so-far#tools-and-methods) cards for spaced repetition. I also run [The Daily Derja](https://dailyderja.com/about/#what-is-this-blog), where I try to post a few times a week, partly to force myself to retrieve Derja. So I think I have this somewhat covered.  
 
 Still, it’s a significant omission from the memory literature I discussed—so I’m including this note here.  
 

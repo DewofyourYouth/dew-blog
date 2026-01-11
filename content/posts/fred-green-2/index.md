@@ -17,7 +17,7 @@ tags:
   - police
 ---
 
-This post is a follow up to the last post on [Fredrick Philip Green](/post/fredrick-philip-green/).
+This post is a follow up to the last post on [Fredrick Philip Green](/post/fredrick-philip-green).
 
 My aunt apparently has a photograph that my father is now trying to locate. It is a formal family photograph of the Rambachs, taken by Fred Green.
 

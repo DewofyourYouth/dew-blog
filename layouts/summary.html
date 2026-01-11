@@ -43,7 +43,15 @@
 
     {{- with .Site.Params.dateFormat | default "2006-01-02" | .PublishDate.Format -}}
       &nbsp;<span class="post-publish">
+        {{- partial "plugin/fontawesome.html" (dict "Style" "regular" "Icon" "calendar-alt") -}}&nbsp;
         {{- printf `<time datetime="%v">%v</time>` . . | dict "Date" | T "publishedOnDate" | safeHTML -}}
+      </span>
+    {{- end -}}
+    {{- if $params.enableReadingTime | default true -}}
+      {{- $reading_speed := .Site.Params.reading_speed | default 228 -}}
+      {{- $readingTime := int (math.Ceil (div (float .WordCount) $reading_speed)) -}}
+      &nbsp;<span class="post-reading-time">
+        {{- partial "plugin/fontawesome.html" (dict "Style" "regular" "Icon" "clock") -}}&nbsp;{{ T "readingTime" $readingTime -}}
       </span>
     {{- end -}}
     {{- with .GetTerms "categories" -}}

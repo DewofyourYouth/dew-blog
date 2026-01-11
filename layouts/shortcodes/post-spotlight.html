@@ -96,9 +96,16 @@
         <p class="post-spotlight-summary">{{ . | plainify }}</p>
       {{ end }}
       <div class="post-spotlight-meta">
-        <span class="post-spotlight-date"
-          >{{ $page.Date.Format "Jan 2, 2006" }}</span
-        >
+        <span class="post-spotlight-date">
+          {{- partial "plugin/fontawesome.html" (dict "Style" "regular" "Icon" "calendar-alt") -}}&nbsp;{{ $page.Date.Format "Jan 2, 2006" -}}
+        </span>
+        {{- if site.Params.page.enableReadingTime | default true -}}
+          {{- $reading_speed := site.Params.reading_speed | default 228 -}}
+          {{- $readingTime := int (math.Ceil (div (float $page.WordCount) $reading_speed)) -}}
+          <span class="post-spotlight-reading-time">
+            {{- partial "plugin/fontawesome.html" (dict "Style" "regular" "Icon" "clock") -}}&nbsp;{{ T "readingTime" $readingTime -}}
+          </span>
+        {{- end -}}
         <a
           class="post-spotlight-link"
           href="{{ $postUrl }}"

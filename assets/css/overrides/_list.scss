@@ -1,0 +1,301 @@
+/* Blog list layout tweaks */
+.page.list {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem 3rem;
+  font-family: var(--font-sans);
+}
+
+.page.list .single.summary {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 1.1rem;
+  margin: 1.1rem 0;
+  box-shadow: 0 12px 30px rgba(31, 41, 55, 0.08);
+  position: relative;
+  --glow-color: rgba(47, 111, 235, 0.35);
+  display: flex;
+  flex-direction: column;
+}
+
+.page.list .single.summary::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 16px;
+  pointer-events: none;
+  opacity: 0.35;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .page.list .single.summary::after {
+    animation: neonGlow 4s ease-in-out infinite;
+  }
+}
+
+@keyframes neonGlow {
+  0%,
+  100% {
+    box-shadow:
+      0 0 0 1px var(--glow-color),
+      0 0 12px rgba(47, 111, 235, 0.12);
+  }
+  50% {
+    box-shadow:
+      0 0 0 1px var(--glow-color),
+      0 0 22px var(--glow-color);
+  }
+}
+
+.page.list .single.summary.cat-learning-and-languages,
+.page.list .single.summary.cat-learning--languages,
+.page.list .single.summary.cat-learning-languages {
+  border-color: rgba(37, 99, 235, 0.6);
+  box-shadow:
+    0 10px 22px rgba(31, 41, 55, 0.08),
+    0 0 0 2px rgba(37, 99, 235, 0.15);
+  --glow-color: rgba(37, 99, 235, 0.45);
+}
+
+.page.list .single.summary.cat-tech-and-tools,
+.page.list .single.summary.cat-tech--tools,
+.page.list .single.summary.cat-tech-tools {
+  border-color: rgba(14, 116, 144, 0.6);
+  box-shadow:
+    0 10px 22px rgba(31, 41, 55, 0.08),
+    0 0 0 2px rgba(14, 116, 144, 0.15);
+  --glow-color: rgba(14, 116, 144, 0.45);
+}
+
+.page.list .single.summary.cat-faith-and-practice,
+.page.list .single.summary.cat-faith--practice,
+.page.list .single.summary.cat-faith-practice {
+  border-color: rgba(249, 115, 22, 0.6);
+  box-shadow:
+    0 10px 22px rgba(31, 41, 55, 0.08),
+    0 0 0 2px rgba(249, 115, 22, 0.15);
+  --glow-color: rgba(249, 115, 22, 0.45);
+}
+
+.page.list .single.summary.cat-heritage-and-identity,
+.page.list .single.summary.cat-heritage--identity,
+.page.list .single.summary.cat-heritage-identity {
+  border-color: rgba(16, 185, 129, 0.6);
+  box-shadow:
+    0 10px 22px rgba(31, 41, 55, 0.08),
+    0 0 0 2px rgba(16, 185, 129, 0.15);
+  --glow-color: rgba(16, 185, 129, 0.45);
+}
+
+.page.list .single.summary .single-title a {
+  font-family: var(--font-serif);
+  font-size: clamp(1.6rem, 2.6vw, 2.1rem);
+  line-height: 1.25;
+  color: #0f172a;
+  letter-spacing: -0.01em;
+}
+
+.page.list .single.summary .single-title {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  margin: 0.35rem 0 0.5rem;
+}
+
+.page.list .single.summary .post-meta {
+  font-size: 0.82rem;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-top: 0.2rem;
+}
+
+.page.list .post-category-pill {
+  display: inline-block;
+  padding: 0.2rem 0.7rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  font-family: var(--font-sans);
+  background: rgba(47, 111, 235, 0.16);
+  color: #1e40af;
+  text-decoration: none;
+}
+
+.page.list .post-category-pills {
+  display: inline-flex;
+  gap: 0.4rem;
+  margin-left: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.page.list .post-category-pill.cat-learning-and-languages,
+.page.list .post-category-pill.cat-learning--languages,
+.page.list .post-category-pill.cat-learning-languages {
+  background: rgba(37, 99, 235, 0.12);
+  color: #1d4ed8;
+}
+
+.page.list .post-category-pill.cat-tech-and-tools,
+.page.list .post-category-pill.cat-tech--tools,
+.page.list .post-category-pill.cat-tech-tools {
+  background: rgba(14, 116, 144, 0.12);
+  color: #0e7490;
+}
+
+.page.list .post-category-pill.cat-faith-and-practice,
+.page.list .post-category-pill.cat-faith--practice,
+.page.list .post-category-pill.cat-faith-practice {
+  background: rgba(249, 115, 22, 0.12);
+  color: #c2410c;
+}
+
+.page.list .post-category-pill.cat-heritage-and-identity,
+.page.list .post-category-pill.cat-heritage--identity,
+.page.list .post-category-pill.cat-heritage-identity {
+  background: rgba(16, 185, 129, 0.12);
+  color: #047857;
+}
+
+.page.list .single.summary .content {
+  font-size: 1.02rem;
+  line-height: 1.65;
+  color: #475569;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  margin: 0.2rem 0 0.7rem;
+}
+
+.page.list .single.summary .featured-image-preview {
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid #e5e7eb;
+  box-shadow:
+    0 14px 30px rgba(31, 41, 55, 0.12),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.4);
+  position: relative;
+}
+
+.page.list .single.summary .featured-image-preview img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+  transition:
+    transform 0.35s ease,
+    filter 0.35s ease;
+}
+
+.page.list .single.summary .featured-image-preview::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(47, 111, 235, 0.12),
+    rgba(20, 184, 166, 0.08)
+  );
+  opacity: 0;
+  transition: opacity 0.35s ease;
+}
+
+.page.list .single.summary .featured-image-preview:hover img {
+  transform: scale(1.03);
+  filter: saturate(1.15);
+}
+
+.page.list .single.summary .featured-image-preview:hover::after {
+  opacity: 1;
+}
+
+html.dark .page.list {
+  color: #e5e7eb;
+}
+
+html.dark .page.list .single.summary {
+  background: #0f172a;
+  border-color: rgba(148, 163, 184, 0.25);
+  box-shadow: 0 16px 36px rgba(15, 23, 42, 0.6);
+  --glow-color: rgba(96, 165, 250, 0.45);
+}
+
+html.dark .page.list .single.summary.cat-learning-and-languages,
+html.dark .page.list .single.summary.cat-learning--languages,
+html.dark .page.list .single.summary.cat-learning-languages {
+  border-color: rgba(59, 130, 246, 0.75);
+  box-shadow:
+    0 16px 34px rgba(15, 23, 42, 0.6),
+    0 0 0 2px rgba(59, 130, 246, 0.2);
+  --glow-color: rgba(59, 130, 246, 0.55);
+}
+
+html.dark .page.list .single.summary.cat-tech-and-tools,
+html.dark .page.list .single.summary.cat-tech--tools,
+html.dark .page.list .single.summary.cat-tech-tools {
+  border-color: rgba(20, 184, 166, 0.75);
+  box-shadow:
+    0 16px 34px rgba(15, 23, 42, 0.6),
+    0 0 0 2px rgba(20, 184, 166, 0.2);
+  --glow-color: rgba(20, 184, 166, 0.55);
+}
+
+html.dark .page.list .single.summary.cat-faith-and-practice,
+html.dark .page.list .single.summary.cat-faith--practice,
+html.dark .page.list .single.summary.cat-faith-practice {
+  border-color: rgba(251, 146, 60, 0.8);
+  box-shadow:
+    0 16px 34px rgba(15, 23, 42, 0.6),
+    0 0 0 2px rgba(251, 146, 60, 0.22);
+  --glow-color: rgba(251, 146, 60, 0.6);
+}
+
+html.dark .page.list .single.summary.cat-heritage-and-identity,
+html.dark .page.list .single.summary.cat-heritage--identity,
+html.dark .page.list .single.summary.cat-heritage-identity {
+  border-color: rgba(34, 197, 94, 0.8);
+  box-shadow:
+    0 16px 34px rgba(15, 23, 42, 0.6),
+    0 0 0 2px rgba(34, 197, 94, 0.22);
+  --glow-color: rgba(34, 197, 94, 0.6);
+}
+
+html.dark .page.list .single.summary .single-title a {
+  color: #f1f5f9;
+}
+
+html.dark .page.list .single.summary .post-meta {
+  color: #94a3b8;
+}
+
+html.dark .page.list .single.summary .content {
+  color: #cbd5e1;
+}
+
+html.dark .page.list .single.summary .featured-image-preview {
+  border-color: rgba(148, 163, 184, 0.25);
+  box-shadow:
+    0 16px 34px rgba(15, 23, 42, 0.7),
+    inset 0 0 0 1px rgba(148, 163, 184, 0.12);
+}
+
+html.dark .page.list .single.summary .featured-image-preview::after {
+  background: linear-gradient(
+    135deg,
+    rgba(96, 165, 250, 0.22),
+    rgba(20, 184, 166, 0.16)
+  );
+}
+
+@media (max-width: 720px) {
+  .page.list {
+    padding: 1rem 0.8rem 2rem;
+  }
+
+  .page.list .single.summary {
+    padding: 1.2rem;
+  }
+}

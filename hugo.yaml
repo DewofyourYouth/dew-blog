@@ -94,8 +94,6 @@ params:
 
   page:
     library:
-      css:
-        site: "css/override.css"
       js:
         site: "js/site.js"
     list:

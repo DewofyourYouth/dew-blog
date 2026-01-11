@@ -1,0 +1,153 @@
+.cloze > strong {
+  background-color: black;
+  color: black !important;
+  padding: 0.2em;
+  border-radius: 0.5em;
+}
+
+.reveal > strong {
+  color: cornflowerblue !important;
+  background-color: inherit;
+  display: inline;
+}
+
+.toggle-btn {
+  margin: 0 5px;
+  padding: 5px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+img.home-logo {
+  align-content: center;
+  max-width: 300px !important;
+  border-radius: 50%;
+  padding: 25px;
+  border: 3px solid var(--home-border, #e5e7eb);
+  background: var(--home-surface, #ffffff);
+  box-shadow: 0 10px 30px rgba(31, 41, 55, 0.15);
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+img.home-logo:hover {
+  transform: translateY(-2px) scale(1.02);
+  box-shadow:
+    0 18px 40px rgba(31, 41, 55, 0.18),
+    0 0 0 6px rgba(47, 111, 235, 0.08);
+}
+
+.github-card {
+  border: 1px solid #e1e4e8;
+  padding: 15px;
+  margin: 20px 0;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12) !important;
+  background: #f6f8fa;
+}
+
+.github-card h2 {
+  font-size: 1.2em;
+  margin-bottom: 8px;
+  margin: auto;
+}
+
+.github-card h2 a {
+  text-decoration: none;
+  color: #0366d6;
+}
+
+.github-card p {
+  margin-bottom: 10px;
+}
+
+.card-details {
+  display: flex;
+  gap: 10px;
+  font-size: 0.9em;
+}
+
+.language {
+  color: #586069;
+}
+
+.stars,
+.forks {
+  color: #586069;
+}
+
+.grc {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 16px;
+  display: block;
+  max-width: 680px;
+  background: #fff;
+}
+
+.grc-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.grc-head {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.grc-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.grc-title {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.2;
+}
+
+.grc-desc {
+  margin: 0.25rem 0 0.5rem;
+  color: #374151;
+}
+
+.grc-meta {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+
+.img-gallery-wrapper {
+  display: block;
+  overflow: keep;
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.img-gallery {
+  display: flex;
+  gap: 5px;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.img-gallery > figure {
+  height: 50vh;
+  flex-grow: 1;
+}
+
+.img-gallery > figure img {
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+}

@@ -1,237 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap");
-:root {
-  --font-sans:
-    "Inter", system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial,
-    sans-serif;
-  --font-serif:
-    "Space Grotesk", "Inter", system-ui, -apple-system, Segoe UI, Roboto,
-    Helvetica, Arial, sans-serif;
-}
-html,
-body {
-  font-family: var(--font-sans);
-}
-
-/* Card lift & soft shadow on hover */
-.list article,
-.archive .archive-post {
-  transition:
-    transform 0.15s ease,
-    box-shadow 0.15s ease;
-  border-radius: 16px;
-}
-.list article:hover,
-.archive .archive-post:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);
-}
-
-/* Featured image: gentle zoom on hover */
-.list article .post-cover img,
-.single .post-cover img {
-  transition:
-    transform 0.2s ease,
-    filter 0.2s ease;
-  border-radius: 14px;
-}
-.list article:hover .post-cover img {
-  transform: scale(1.02);
-}
-
-/* Brighter link accents + animated underline */
-.post-content a,
-.summary a,
-.header a {
-  text-decoration: none;
-  background-image: linear-gradient(currentColor, currentColor);
-  background-size: 0% 2px;
-  background-position: 0 100%;
-  background-repeat: no-repeat;
-  transition: background-size 0.2s ease;
-}
-.post-content a:hover,
-.summary a:hover,
-.header a:hover {
-  background-size: 100% 2px;
-}
-
-/* Tag pills */
-.post-tags a,
-.tags a {
-  border-radius: 999px;
-  padding: 0.2rem 0.6rem;
-  font-weight: 600;
-  background: rgba(0, 0, 0, 0.06);
-}
-
-/* Pull-quotes (use >! in markdown, see #4) */
-blockquote.fun {
-  font-size: 1.1rem;
-  border-left: 6px solid var(--accent, #6b7bff);
-  background: rgba(107, 123, 255, 0.08);
-  padding: 0.8rem 1rem;
-  border-radius: 10px;
-}
-
-/* Code block slight theme */
-pre code {
-  filter: saturate(1.1);
-}
-pre {
-  border-radius: 12px;
-}
-
-/* Subtle accent variable you can tune */
-:root {
-  --accent: #6b7bff;
-} /* change once, affects multiple items */
-.post-tags a,
-.summary a:hover {
-  color: var(--accent);
-}
-
-.cloze > strong {
-  background-color: black;
-  color: black !important;
-  padding: 0.2em;
-  border-radius: 0.5em;
-}
-
-.reveal > strong {
-  color: cornflowerblue !important;
-  background-color: inherit;
-  display: inline;
-}
-
-.toggle-btn {
-  margin: 0 5px;
-  padding: 5px;
-  border: none;
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-img.home-logo {
-  align-content: center;
-  max-width: 300px !important;
-  border-radius: 50%;
-  padding: 25px;
-  border: 3px solid var(--home-border, #e5e7eb);
-  background: var(--home-surface, #ffffff);
-  box-shadow: 0 10px 30px rgba(31, 41, 55, 0.15);
-  transition:
-    transform 0.25s ease,
-    box-shadow 0.25s ease;
-}
-
-img.home-logo:hover {
-  transform: translateY(-2px) scale(1.02);
-  box-shadow:
-    0 18px 40px rgba(31, 41, 55, 0.18),
-    0 0 0 6px rgba(47, 111, 235, 0.08);
-}
-
-.github-card {
-  border: 1px solid #e1e4e8;
-  padding: 15px;
-  margin: 20px 0;
-  border-radius: 5px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12) !important;
-  background: #f6f8fa;
-}
-.github-card h2 {
-  font-size: 1.2em;
-  margin-bottom: 8px;
-  margin: auto;
-}
-.github-card h2 a {
-  text-decoration: none;
-  color: #0366d6;
-}
-.github-card p {
-  margin-bottom: 10px;
-}
-.card-details {
-  display: flex;
-  gap: 10px;
-  font-size: 0.9em;
-}
-.language {
-  color: #586069;
-}
-.stars,
-.forks {
-  color: #586069;
-}
-
-.grc {
-  border: 1px solid #e5e7eb;
-  border-radius: 12px;
-  padding: 16px;
-  display: block;
-  max-width: 680px;
-  background: #fff;
-}
-.grc-link {
-  text-decoration: none;
-  color: inherit;
-  display: block;
-}
-.grc-head {
-  display: flex;
-  gap: 12px;
-  align-items: center;
-  margin-bottom: 8px;
-}
-.grc-avatar {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-}
-.grc-title {
-  margin: 0;
-  font-size: 1.05rem;
-  line-height: 1.2;
-}
-.grc-desc {
-  margin: 0.25rem 0 0.5rem;
-  color: #374151;
-}
-.grc-meta {
-  display: flex;
-  gap: 12px;
-  flex-wrap: wrap;
-  font-size: 0.9rem;
-  color: #6b7280;
-}
-
-.img-gallery-wrapper {
-  display: block;
-  overflow: keep;
-  width: 100%;
-  margin-bottom: 60px;
-}
-
-.img-gallery {
-  display: flex;
-  gap: 5px;
-  justify-content: space-evenly;
-  align-items: center;
-  width: 100%;
-}
-
-.img-gallery > figure {
-  height: 50vh;
-  flex-grow: 1;
-}
-
-.img-gallery > figure img {
-  max-height: 100%;
-  min-width: 100%;
-  object-fit: cover;
-  vertical-align: bottom;
-}
-
 /* Homepage layout */
 .home-splash {
   --home-bg: #f5f7fb;
@@ -417,20 +183,8 @@ html.dark .home-card {
     0 10px 24px rgba(15, 23, 42, 0.45);
 }
 
-.home-card.cat-learning-and-languages {
-  border-color: rgba(37, 99, 235, 0.35);
-  box-shadow:
-    0 16px 36px rgba(31, 41, 55, 0.08),
-    0 0 0 1px rgba(37, 99, 235, 0.18);
-}
-
-.home-card.cat-learning-languages {
-  border-color: rgba(37, 99, 235, 0.35);
-  box-shadow:
-    0 16px 36px rgba(31, 41, 55, 0.08),
-    0 0 0 1px rgba(37, 99, 235, 0.18);
-}
-
+.home-card.cat-learning-and-languages,
+.home-card.cat-learning-languages,
 .home-card.cat-learning--languages {
   border-color: rgba(37, 99, 235, 0.35);
   box-shadow:
@@ -438,20 +192,8 @@ html.dark .home-card {
     0 0 0 1px rgba(37, 99, 235, 0.18);
 }
 
-.home-card.cat-tech-and-tools {
-  border-color: rgba(14, 116, 144, 0.35);
-  box-shadow:
-    0 16px 36px rgba(31, 41, 55, 0.08),
-    0 0 0 1px rgba(14, 116, 144, 0.18);
-}
-
-.home-card.cat-tech-tools {
-  border-color: rgba(14, 116, 144, 0.35);
-  box-shadow:
-    0 16px 36px rgba(31, 41, 55, 0.08),
-    0 0 0 1px rgba(14, 116, 144, 0.18);
-}
-
+.home-card.cat-tech-and-tools,
+.home-card.cat-tech-tools,
 .home-card.cat-tech--tools {
   border-color: rgba(14, 116, 144, 0.35);
   box-shadow:
@@ -459,20 +201,8 @@ html.dark .home-card {
     0 0 0 1px rgba(14, 116, 144, 0.18);
 }
 
-.home-card.cat-faith-and-practice {
-  border-color: rgba(249, 115, 22, 0.35);
-  box-shadow:
-    0 16px 36px rgba(31, 41, 55, 0.08),
-    0 0 0 1px rgba(249, 115, 22, 0.18);
-}
-
-.home-card.cat-faith-practice {
-  border-color: rgba(249, 115, 22, 0.35);
-  box-shadow:
-    0 16px 36px rgba(31, 41, 55, 0.08),
-    0 0 0 1px rgba(249, 115, 22, 0.18);
-}
-
+.home-card.cat-faith-and-practice,
+.home-card.cat-faith-practice,
 .home-card.cat-faith--practice {
   border-color: rgba(249, 115, 22, 0.35);
   box-shadow:
@@ -480,26 +210,15 @@ html.dark .home-card {
     0 0 0 1px rgba(249, 115, 22, 0.18);
 }
 
-.home-card.cat-heritage-and-identity {
-  border-color: rgba(16, 185, 129, 0.35);
-  box-shadow:
-    0 16px 36px rgba(31, 41, 55, 0.08),
-    0 0 0 1px rgba(16, 185, 129, 0.18);
-}
-
-.home-card.cat-heritage-identity {
-  border-color: rgba(16, 185, 129, 0.35);
-  box-shadow:
-    0 16px 36px rgba(31, 41, 55, 0.08),
-    0 0 0 1px rgba(16, 185, 129, 0.18);
-}
-
+.home-card.cat-heritage-and-identity,
+.home-card.cat-heritage-identity,
 .home-card.cat-heritage--identity {
   border-color: rgba(16, 185, 129, 0.35);
   box-shadow:
     0 16px 36px rgba(31, 41, 55, 0.08),
     0 0 0 1px rgba(16, 185, 129, 0.18);
 }
+
 .home-card-body h3 {
   font-family: var(--font-serif);
   font-size: 1.25rem;
@@ -620,61 +339,29 @@ html.dark .home-post-cat {
   color: #93c5fd;
 }
 
-.home-post-cat.cat-learning-and-languages {
-  background: rgba(37, 99, 235, 0.12);
-  color: #1d4ed8;
-}
-
-.home-post-cat.cat-learning-languages {
-  background: rgba(37, 99, 235, 0.12);
-  color: #1d4ed8;
-}
-
+.home-post-cat.cat-learning-and-languages,
+.home-post-cat.cat-learning-languages,
 .home-post-cat.cat-learning--languages {
   background: rgba(37, 99, 235, 0.12);
   color: #1d4ed8;
 }
 
-.home-post-cat.cat-tech-and-tools {
-  background: rgba(14, 116, 144, 0.12);
-  color: #0e7490;
-}
-
-.home-post-cat.cat-tech-tools {
-  background: rgba(14, 116, 144, 0.12);
-  color: #0e7490;
-}
-
+.home-post-cat.cat-tech-and-tools,
+.home-post-cat.cat-tech-tools,
 .home-post-cat.cat-tech--tools {
   background: rgba(14, 116, 144, 0.12);
   color: #0e7490;
 }
 
-.home-post-cat.cat-faith-and-practice {
-  background: rgba(249, 115, 22, 0.12);
-  color: #c2410c;
-}
-
-.home-post-cat.cat-faith-practice {
-  background: rgba(249, 115, 22, 0.12);
-  color: #c2410c;
-}
-
+.home-post-cat.cat-faith-and-practice,
+.home-post-cat.cat-faith-practice,
 .home-post-cat.cat-faith--practice {
   background: rgba(249, 115, 22, 0.12);
   color: #c2410c;
 }
 
-.home-post-cat.cat-heritage-and-identity {
-  background: rgba(16, 185, 129, 0.12);
-  color: #047857;
-}
-
-.home-post-cat.cat-heritage-identity {
-  background: rgba(16, 185, 129, 0.12);
-  color: #047857;
-}
-
+.home-post-cat.cat-heritage-and-identity,
+.home-post-cat.cat-heritage-identity,
 .home-post-cat.cat-heritage--identity {
   background: rgba(16, 185, 129, 0.12);
   color: #047857;
@@ -1115,11 +802,6 @@ html.dark .home-social-links a:hover {
   height: 18px;
 }
 
-div.post-tags {
-  min-width: 100% !important;
-  max-width: 100% !important;
-}
-
 @media (max-width: 1024px) {
   .home-latest {
     grid-template-columns: 1fr;
@@ -1157,301 +839,5 @@ div.post-tags {
 
   .home-author-avatar {
     margin: 0 auto;
-  }
-}
-
-/* Blog list layout tweaks */
-.page.list {
-  max-width: 980px;
-  margin: 0 auto;
-  padding: 1.5rem 1rem 3rem;
-  font-family: var(--font-sans);
-}
-
-.page.list .single.summary {
-  background: #ffffff;
-  border: 1px solid #e5e7eb;
-  border-radius: 16px;
-  padding: 1.1rem;
-  margin: 1.1rem 0;
-  box-shadow: 0 12px 30px rgba(31, 41, 55, 0.08);
-  position: relative;
-  --glow-color: rgba(47, 111, 235, 0.35);
-  display: flex;
-  flex-direction: column;
-}
-
-.page.list .single.summary::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-radius: 16px;
-  pointer-events: none;
-  opacity: 0.35;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .page.list .single.summary::after {
-    animation: neonGlow 4s ease-in-out infinite;
-  }
-}
-
-@keyframes neonGlow {
-  0%,
-  100% {
-    box-shadow:
-      0 0 0 1px var(--glow-color),
-      0 0 12px rgba(47, 111, 235, 0.12);
-  }
-  50% {
-    box-shadow:
-      0 0 0 1px var(--glow-color),
-      0 0 22px var(--glow-color);
-  }
-}
-
-.page.list .single.summary.cat-learning-and-languages,
-.page.list .single.summary.cat-learning--languages,
-.page.list .single.summary.cat-learning-languages {
-  border-color: rgba(37, 99, 235, 0.6);
-  box-shadow:
-    0 10px 22px rgba(31, 41, 55, 0.08),
-    0 0 0 2px rgba(37, 99, 235, 0.15);
-  --glow-color: rgba(37, 99, 235, 0.45);
-}
-
-.page.list .single.summary.cat-tech-and-tools,
-.page.list .single.summary.cat-tech--tools,
-.page.list .single.summary.cat-tech-tools {
-  border-color: rgba(14, 116, 144, 0.6);
-  box-shadow:
-    0 10px 22px rgba(31, 41, 55, 0.08),
-    0 0 0 2px rgba(14, 116, 144, 0.15);
-  --glow-color: rgba(14, 116, 144, 0.45);
-}
-
-.page.list .single.summary.cat-faith-and-practice,
-.page.list .single.summary.cat-faith--practice,
-.page.list .single.summary.cat-faith-practice {
-  border-color: rgba(249, 115, 22, 0.6);
-  box-shadow:
-    0 10px 22px rgba(31, 41, 55, 0.08),
-    0 0 0 2px rgba(249, 115, 22, 0.15);
-  --glow-color: rgba(249, 115, 22, 0.45);
-}
-
-.page.list .single.summary.cat-heritage-and-identity,
-.page.list .single.summary.cat-heritage--identity,
-.page.list .single.summary.cat-heritage-identity {
-  border-color: rgba(16, 185, 129, 0.6);
-  box-shadow:
-    0 10px 22px rgba(31, 41, 55, 0.08),
-    0 0 0 2px rgba(16, 185, 129, 0.15);
-  --glow-color: rgba(16, 185, 129, 0.45);
-}
-
-.page.list .single.summary .single-title a {
-  font-family: var(--font-serif);
-  font-size: clamp(1.4rem, 2.4vw, 1.9rem);
-  color: #111827;
-}
-
-.page.list .single.summary .single-title {
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
-  overflow: hidden;
-}
-
-.page.list .single.summary .post-meta {
-  font-size: 0.9rem;
-  color: #6b7280;
-  margin-top: 0.35rem;
-}
-
-.page.list .post-category-pill {
-  display: inline-block;
-  padding: 0.15rem 0.6rem;
-  border-radius: 999px;
-  font-size: 0.78rem;
-  font-family: var(--font-sans);
-  background: rgba(47, 111, 235, 0.12);
-  color: #1d4ed8;
-  text-decoration: none;
-}
-
-.page.list .post-category-pills {
-  display: inline-flex;
-  gap: 0.4rem;
-  margin-left: 0.5rem;
-  flex-wrap: wrap;
-}
-
-.page.list .post-category-pill.cat-learning-and-languages,
-.page.list .post-category-pill.cat-learning--languages,
-.page.list .post-category-pill.cat-learning-languages {
-  background: rgba(37, 99, 235, 0.12);
-  color: #1d4ed8;
-}
-
-.page.list .post-category-pill.cat-tech-and-tools,
-.page.list .post-category-pill.cat-tech--tools,
-.page.list .post-category-pill.cat-tech-tools {
-  background: rgba(14, 116, 144, 0.12);
-  color: #0e7490;
-}
-
-.page.list .post-category-pill.cat-faith-and-practice,
-.page.list .post-category-pill.cat-faith--practice,
-.page.list .post-category-pill.cat-faith-practice {
-  background: rgba(249, 115, 22, 0.12);
-  color: #c2410c;
-}
-
-.page.list .post-category-pill.cat-heritage-and-identity,
-.page.list .post-category-pill.cat-heritage--identity,
-.page.list .post-category-pill.cat-heritage-identity {
-  background: rgba(16, 185, 129, 0.12);
-  color: #047857;
-}
-
-.page.list .single.summary .content {
-  font-size: 1rem;
-  line-height: 1.7;
-  color: #374151;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
-  overflow: hidden;
-  margin-bottom: 0.4rem;
-}
-
-.page.list .single.summary .featured-image-preview {
-  border-radius: 14px;
-  overflow: hidden;
-  border: 1px solid #e5e7eb;
-  box-shadow:
-    0 14px 30px rgba(31, 41, 55, 0.12),
-    inset 0 0 0 1px rgba(255, 255, 255, 0.4);
-  position: relative;
-}
-
-.page.list .single.summary .featured-image-preview img {
-  width: 100%;
-  height: 180px;
-  object-fit: cover;
-  display: block;
-  transition:
-    transform 0.35s ease,
-    filter 0.35s ease;
-}
-
-.page.list .single.summary .featured-image-preview::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    135deg,
-    rgba(47, 111, 235, 0.12),
-    rgba(20, 184, 166, 0.08)
-  );
-  opacity: 0;
-  transition: opacity 0.35s ease;
-}
-
-.page.list .single.summary .featured-image-preview:hover img {
-  transform: scale(1.03);
-  filter: saturate(1.15);
-}
-
-.page.list .single.summary .featured-image-preview:hover::after {
-  opacity: 1;
-}
-
-html.dark .page.list {
-  color: #e5e7eb;
-}
-
-html.dark .page.list .single.summary {
-  background: #0f172a;
-  border-color: rgba(148, 163, 184, 0.25);
-  box-shadow: 0 16px 36px rgba(15, 23, 42, 0.6);
-  --glow-color: rgba(96, 165, 250, 0.45);
-}
-
-html.dark .page.list .single.summary.cat-learning-and-languages,
-html.dark .page.list .single.summary.cat-learning--languages,
-html.dark .page.list .single.summary.cat-learning-languages {
-  border-color: rgba(59, 130, 246, 0.75);
-  box-shadow:
-    0 16px 34px rgba(15, 23, 42, 0.6),
-    0 0 0 2px rgba(59, 130, 246, 0.2);
-  --glow-color: rgba(59, 130, 246, 0.55);
-}
-
-html.dark .page.list .single.summary.cat-tech-and-tools,
-html.dark .page.list .single.summary.cat-tech--tools,
-html.dark .page.list .single.summary.cat-tech-tools {
-  border-color: rgba(20, 184, 166, 0.75);
-  box-shadow:
-    0 16px 34px rgba(15, 23, 42, 0.6),
-    0 0 0 2px rgba(20, 184, 166, 0.2);
-  --glow-color: rgba(20, 184, 166, 0.55);
-}
-
-html.dark .page.list .single.summary.cat-faith-and-practice,
-html.dark .page.list .single.summary.cat-faith--practice,
-html.dark .page.list .single.summary.cat-faith-practice {
-  border-color: rgba(251, 146, 60, 0.8);
-  box-shadow:
-    0 16px 34px rgba(15, 23, 42, 0.6),
-    0 0 0 2px rgba(251, 146, 60, 0.22);
-  --glow-color: rgba(251, 146, 60, 0.6);
-}
-
-html.dark .page.list .single.summary.cat-heritage-and-identity,
-html.dark .page.list .single.summary.cat-heritage--identity,
-html.dark .page.list .single.summary.cat-heritage-identity {
-  border-color: rgba(34, 197, 94, 0.8);
-  box-shadow:
-    0 16px 34px rgba(15, 23, 42, 0.6),
-    0 0 0 2px rgba(34, 197, 94, 0.22);
-  --glow-color: rgba(34, 197, 94, 0.6);
-}
-
-html.dark .page.list .single.summary .single-title a {
-  color: #f8fafc;
-}
-
-html.dark .page.list .single.summary .post-meta {
-  color: #9ca3af;
-}
-
-html.dark .page.list .single.summary .content {
-  color: #cbd5f5;
-}
-
-html.dark .page.list .single.summary .featured-image-preview {
-  border-color: rgba(148, 163, 184, 0.25);
-  box-shadow:
-    0 16px 34px rgba(15, 23, 42, 0.7),
-    inset 0 0 0 1px rgba(148, 163, 184, 0.12);
-}
-
-html.dark .page.list .single.summary .featured-image-preview::after {
-  background: linear-gradient(
-    135deg,
-    rgba(96, 165, 250, 0.22),
-    rgba(20, 184, 166, 0.16)
-  );
-}
-
-@media (max-width: 720px) {
-  .page.list {
-    padding: 1rem 0.8rem 2rem;
-  }
-
-  .page.list .single.summary {
-    padding: 1.2rem;
   }
 }

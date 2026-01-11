@@ -1,4 +1,9 @@
 /* Homepage layout */
+.page.home {
+  max-width: none;
+  width: 100%;
+}
+
 .home-splash {
   --home-bg: #f5f7fb;
   --home-surface: #ffffff;

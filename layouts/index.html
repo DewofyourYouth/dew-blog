@@ -213,9 +213,16 @@
                   {{ end }}
                   >{{ .Title }}</a
                 >
-                <span class="home-post-date"
-                  >{{ .Date.Format "Jan 2, 2006" }}</span
-                >
+                <span class="home-post-date">
+                  {{- partial "plugin/fontawesome.html" (dict "Style" "regular" "Icon" "calendar-alt") -}}&nbsp;{{ .Date.Format "Jan 2, 2006" -}}
+                </span>
+                {{- if site.Params.page.enableReadingTime | default true -}}
+                  {{- $reading_speed := site.Params.reading_speed | default 228 -}}
+                  {{- $readingTime := int (math.Ceil (div (float .WordCount) $reading_speed)) -}}
+                  <span class="home-post-reading-time">
+                    {{- partial "plugin/fontawesome.html" (dict "Style" "regular" "Icon" "clock") -}}&nbsp;{{ T "readingTime" $readingTime -}}
+                  </span>
+                {{- end -}}
                 {{ with .Summary }}
                   <p class="home-post-summary">{{ . | plainify }}</p>
                 {{ end }}

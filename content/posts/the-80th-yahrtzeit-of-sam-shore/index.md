@@ -149,13 +149,14 @@ My father grew up around his grandfather, Samuel Oscar Shore, regarding his grea
 
 Record of _Shmarya_ and _Taube_’s wedding in Talne from the community ledger in Cherkassy: ![Record of wedding](ShmaryaToiyba.png) ![Hebrew close up](ShmaryaToibaHeb.png)
 
-## Children
 
----
 
 ---
 {{< followit >}}
 
+## Children
+
+---
 - [Bessie Fishbein]() _(placeholder)_
 - [David Louis Shore]() _(placeholder)_
 - [William Shore]() _(placeholder)_

@@ -20,6 +20,11 @@ I do need to figure out some things to reduce the friction of note taking - like
 
 _Edit: I made a shortcode for audio embeds, it does the trick for now 😊. I'm not going to put in all the sound files now - but I'll put in the first 2 for testing._
 
+
+
+---
+{{< followit >}}
+
 ## Basic Greetings & Phrases
 
 | Arabic                | Transliteration              | English                                                                         |
@@ -63,7 +68,3 @@ _Edit: I made a shortcode for audio embeds, it does the trick for now 😊. I'm 
 | مرحبا بكم فالمغرب     | marḥba bikum f l-məġrib      | Welcome to Morocco                                                              |
 | عيد ميلاد سعيد        | ʿīd mīlād saʿīd              | Happy Birthday                                                                  |
 | نهار زوين             | nhār zwīn                    | Have a nice day                                                                 |
-
----
-{{< followit >}}
-

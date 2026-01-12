@@ -34,10 +34,6 @@ Translation will be made available on [Daily Derja Substack](https://substack.co
 {{< image src="img/shorts-close-up.jpeg" caption="Shorts are forbidden in synagogue." optimise="true" width="400" linked="false">}}
 {{< image src="img/shorts.jpg" caption="Slightly wider view." optimise="true" width="400" linked="false">}}
 {{</ img-gallery>}}
-
----
-{{< followit >}}
-
 ## Slihot Incentives
 
 {{< img-gallery >}}
@@ -60,6 +56,9 @@ I removed the phone number because this is the internet—but if you’d like to
 {{< image src="img/mikva-sign.jpg" caption="Mikva sign." optimise="true" width="400" linked="false">}}
 {{</ img-gallery >}}
 
+---
+{{< followit >}}
+
 ## Donations to El Ghriba
 
 {{< img-gallery >}}
@@ -70,8 +69,8 @@ I removed the phone number because this is the internet—but if you’d like to
 Here are some other images at El Ghriba, just for fun:
 
 {{< img-gallery >}}
-{{< image src="img/el-ghiba-exterior.jpeg" width="300" >}}
-{{< image src="img/el-ghiba-bima.jpeg" width="500" >}}
-{{< image src="img/aron-kodesh.jpeg" width="500" >}}
+{{< image src="img/el-ghiba-exterior.jpeg" optimise="true" width="300" linked="false" >}}
+{{< image src="img/el-ghiba-bima.jpeg" optimise="true" width="300" >}}
+{{< image src="img/aron-kodesh.jpeg" optimise="true" width="300" >}}
 {{</ img-gallery >}}
 

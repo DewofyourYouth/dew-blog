@@ -24,10 +24,6 @@ While I usually preface what I’m writing with a disclaimer that these are just
 ## The Simple Reading vs. The Reductionist Reading
 
 The Rosh Yeshiva זצ״ל would often emphasize the importance of understanding what the “pushite (simple / straightforward) pshat” was. But he would also emphasize that understanding the simple pshat, required making the effort to appreciate the proper context and the spirit in which something was said in.
-
----
-{{< followit >}}
-
 To give a simple example, in Parshas Balak, at the Shabbos table in Camp Morris, we learnt the following _passuk_ (Numbers 23:9).
 
 > As I see them from the mountain tops, \
@@ -50,6 +46,11 @@ A student at the table asked the Rosh Yeshiva why Rashi, who usually explains th
 The Rosh Yeshiva first gave a very straightforward answer - in Bilaam’s ”curses”, he’s not giving a weather report, he’s waxing poetically in praise of _klal Yisroel_. In poetry, the _correct_ meaning is not the same as the _literal_ meaning. Mentioning the fact that Balak brought Bilaam to a mountain top to _look down_ on the Jews is not really congruent with the gist of what Bilaam was saying. Especially the way our sages interpret the rest of the “curse” (as brought by Rashi).
 
 The Rosh Yeshiva then decided that this was a teachable moment. For the next five minutes or so, the Rosh Yeshiva gave us a schmooze where he corrected various confusions and misconceptions about what “pushite pshat” means and what it doesn’t mean. I could never in a million years expect to do justice to the depth of insight and the clarity of thought the Rosh Yeshiva זצ״ל imparted to us in those 5 or so minutes. I will just relate one phrase that for some reason, echos in my mind. The Rosh Yeshiva said that some think it’s a form of sophistication to be very reductionist and try to reduce the pshat to be as close to the literal meaning of the words. “This is not a form of sophistication,” the Rosh Yeshiva said, “it is a form of **blindness**!”
+
+
+
+---
+{{< followit >}}
 
 ## The Mind’s Eye
 

@@ -14,10 +14,6 @@ draft: false
 ---
 
 After the devastating news of the passing of the Rosh Yeshiva זצ״ל, the news that the משגיח, Rabbi Mordechai Zelig Schechter זצ״ל has passed just a few short weeks later, is a lost that brings to mind the the verse in Yishaiah
-
----
-{{< followit >}}
-
 > על מה תכו עוד תוסיפו סרה כל ראש לחלי וכל לבב דוי\
 > Why do you seek further beatings, \
 > That you continue to offend? \
@@ -48,3 +44,6 @@ When his brother in law passed suddenly, the Mashgiach took some of his young ch
 
 Comments about the משגיח זצ״ל are welcomed below:
 
+
+---
+{{< followit >}}

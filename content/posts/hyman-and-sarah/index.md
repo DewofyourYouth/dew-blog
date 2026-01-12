@@ -61,6 +61,7 @@ Some other notes:
 
 JewishGen recently entered some new Revision List records from Talna. A 1850 list shows that Hyman had an older sister named Malka who was 6 in 1850. There are also several records from 1897 that I will explore in a later post.
 
+
 ---
 {{< followit >}}
 

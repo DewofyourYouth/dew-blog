@@ -18,10 +18,6 @@ tags:
 ---
 
 This post is a follow up to the last post on [Fredrick Philip Green](/post/fredrick-philip-green).
-
----
-{{< followit >}}
-
 My aunt apparently has a photograph that my father is now trying to locate. It is a formal family photograph of the Rambachs, taken by Fred Green.
 
 The photograph matters because it places Fred Green in the Rambachs’ social and business circle before the families were formally joined. According to family recollection, Fred was already associated with Hyman Rambach, and the families were close enough that Fred took an official photograph of them.
@@ -37,6 +33,10 @@ There is a related episode in which the sounds of fighting upstairs alarmed the 
 
 None of this replaces documentary evidence. It records oral history tied to specific people and objects. If the Rambach photograph can be located, it would anchor these accounts to a concrete artifact produced by the same person at the center of them.
 
+{{< followit >}}
+
 ---
 
 Photo by [Ehimetalor Akhere Unuabona](https://unsplash.com/@mettyunuabona?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/missing-signage-_7HU079sGNw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
+---

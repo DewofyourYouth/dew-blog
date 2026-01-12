@@ -26,10 +26,6 @@ When I left the Yeshiva to study in Kollel Avodas HaLeviim (Ner Israel) in Balti
 ## The Back Story
 
 When I came to Chaim Berlin, at age 22, I wasn't your typical Chaim Berliner. Now, anyone who knows anything about Chaim Berlin will be rolling their eyes at this statement because to be a "typical" Chaim Berliner, you need to have gone to Chaim Berlin in preschool! So I guess what I mean to say is that I wasn't a typical Yeshiva bochur at all. My Yeshiva high school education ended with my being kicked out of Mesivta of Boston in December of my 12th-grade year. From then on I wandered around, enrolling and dropping out of various Yeshivas and Universities. Eventually, I found work as a video editor. At this point, I considered myself to be "an agnostic" and found myself drifting away from religious observance altogether. A dangerous situation involving a car prompted me to make a commitment to return to Yeshiva and give G-d "another try" if I survived. When I did survive, I immediately regretted making such a commitment. Even so, I had made a deal, and I had to hold up my end of the bargain.
-
----
-{{< followit >}}
-
 When I first contacted Rabbi Eliezer Fireman, my 10th-grade rebbe, I asked him how I could get into Lakewood. When he heard the nature of the deal I had made, he told me that he didn't think Lakewood was a good fit for me. He thought I would find it "stifling" and that Yeshivas Chaim Berlin would be a better fit. And so it was, that I called the Yeshiva to inquire about admissions, dusted off an old גמרא and prepared something to be tested on.
 
 ## My First Encounter With The Rosh Yeshiva
@@ -51,6 +47,11 @@ The Rosh Yeshiva pointed to the tea in my hand. I found this question to be odd,
 "Then drink it downstairs", the Rosh Yeshiva said with a smile.
 
 The Rosh Yeshiva was not keen on people standing around in the Yeshiva lobby, drinking coffee.
+
+
+
+---
+{{< followit >}}
 
 ## The Shabbos Table
 

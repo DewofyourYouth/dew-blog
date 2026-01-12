@@ -30,10 +30,6 @@ Tonight I would like to discuss three things with you:
 1. From here are sages have taught, all comes from Heaven except for fear of Heaven.
 1. Eliyahu, you have a lot of potential. But you intelligence. Your strength. Your innate middos - are gifts from the באשעפר!
 1. It is the moral decisions you make, the values you live by, and your יראת שמיים
-
----
-{{< followit >}}
-
 ## Be a man
 
 1. Becoming a man means many things,
@@ -46,6 +42,11 @@ Tonight I would like to discuss three things with you:
    > Your deeds should not be like though of an young, inexperienced lad, but they should be like the deeds of a **great man** and this will be done with COUNSEL.
    1. Don't be that guy who is to "manly" to ask directions - being a man means getting help when you need it and seeking good counsel
    2. Your mother and I hope you'll count us among your good counsellors
+
+
+
+---
+{{< followit >}}
 
 ## Don’t waste time talking with the cow
 

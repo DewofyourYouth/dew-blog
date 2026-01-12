@@ -15,10 +15,6 @@ categories:
 ---
 
 Hey there!
-
----
-{{< followit >}}
-
 Recently, I've taken an interest in studying Arabic and starting using this blog for my notes and to document my progress. Indeed, since Operation Rising Lion, I've been writing a daily reflection in Tunisian.
 
 It quickly became apparent the Tunisian Arabic was going to canabalize the blog entirely. As such, I decided to create 2 new pages, one for my [daily reflection in Derja](https://dailyderja.com), and the other containing all my [Arabic notes](https://dewofyouryouth.gitlab.io/arabic-notes/) (includes the reflections as well). In addition to this, the daily reflections are so short - it is cumbersome to go to the designated posts - all the content will be readable from the daily derja reflection page.
@@ -31,3 +27,6 @@ Since I generally find that Arabic script comes off very small on screens, and t
 
 In the future, **Arabic notes will be hidden from the general homepage and feeds** and will be available from the designated pages.
 
+
+---
+{{< followit >}}

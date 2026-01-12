@@ -17,10 +17,6 @@ summary: "Current Tunisian Arabic study stack: Anki workflows, mnemonics, Easy T
 ## Pivot to Tunisian
 
 First of all, I feel I should address the fact that I’ve been studying Tunisian Arabic and not Moroccan Arabic. I have two opposing goals with my Arabic study and I’ve decided to put the Moroccan on hold in favor of Tunisian for the time being.
-
----
-{{< followit >}}
-
 Regardless of dialect, here are some tweaks I’ve been making to my study methods lately.
 
 ## Anki Flashcards
@@ -45,6 +41,11 @@ I need regular exposure to natural Tunisian speech to train my ear. I tried watc
 What’s been more useful is the [Easy Tunisian Arabic](https://www.youtube.com/playlist?list=PLA5UIoabheFNOtcQmuLyQedp7jDDp2Bif) playlist. They speak slowly and clearly in basic Tunisian Arabic with subtitles. It’s not glamorous, but it’s effective.
 
 {{<youtube qcaLVHlFbSA>}}
+
+
+
+---
+{{< followit >}}
 
 ## Obsidian
 

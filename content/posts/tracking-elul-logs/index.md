@@ -24,10 +24,6 @@ This Elul I’m going with a “one thing” approach: one practice, one log, an
 ## The Daily Log
 
 Template for each day:
-
----
-{{< followit >}}
-
 ```frontmatter
 ---
 date: 2025-08-24
@@ -170,6 +166,11 @@ That one doesn’t care if I logged—if I didn’t show up, it still counts as 
 
 ### The Meditation Script
 At the bottom of the page I keep the script I actually use, so the dashboard isn’t just analytics—it reminds me what I’m supposed to be doing:
+
+
+
+---
+{{< followit >}}
 
 ## Why This Matters
 

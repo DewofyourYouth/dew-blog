@@ -19,10 +19,6 @@ After the massacre of October 7th, I needed a distraction. I turned to genealogy
 ## The Premise: Don’t Trust, Verify
 
 Family memory is useful, but not trustworthy. My guiding principle was simple: write everything down, but don’t believe anything without evidence. Someone says we're related to the Illui of Poltava? Great. Let’s see how. A cousin claims we’re Levites? Wonderful. Let’s try to corroborate that.
-
----
-{{< followit >}}
-
 ## The Method: Archives, Manifests, and Mistrust
 
 I started with JewishGen, FamilySearch, and the Ukrainian Revision Lists. These tsarist-era censuses gave me concrete data from the 1800s—ages, locations, household structure. From there, I triangulated:
@@ -81,6 +77,11 @@ I’m not chasing prestige lineage. I’m chasing coherence. This work gave me a
 
 No one’s going to do this for you. And once your relatives are gone, their stories are gone too. Write it all down. Sort it out later.
 
+
+
+
+---
+{{< followit >}}
 
 ## Ukrainian Revision Lists Entries
 

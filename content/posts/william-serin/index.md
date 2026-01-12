@@ -17,10 +17,6 @@ tags:
 ## A Notable Exception
 
 Among the Saranduk family, there is a notable pattern: over time, the surname Saranduk converges into Shore. This shift appears consistently across close relatives who are traceable through civil records, immigration documents, and family memory.
-
----
-{{< followit >}}
-
 Velvel Saranduk is the only known exception within that immediately traceable group.
 
 While his siblings and cousins ultimately appear as Shore, Velvel does not. Instead, his line fractures differently — through a series of name adaptations that never resolve into the family’s eventual norm. If more distant relatives adopted other surnames, they are harder to trace; Velvel is unusual precisely because he is both close and divergent.
@@ -62,6 +58,11 @@ It lists his profession as a tailor. That is the profession listed for all Saran
 ![Tombstone](william-serin.jpeg)
 
 On his death certificate it says he had a Jewelry Shop in California. I don’t know much about how he wound up so far away from the rest of the Saranduk family, or why he changed his name to Serin (sometimes Serrin) instead of Shore (although it does seem somewhat closer to the original).
+
+
+
+---
+{{< followit >}}
 
 ## Children
 

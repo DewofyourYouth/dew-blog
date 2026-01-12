@@ -11,10 +11,6 @@ draft: false
 ---
 
 As the new year of תשפ״ד comes closer and we find ourselves in the month on אלול. My resolutions for Elul through עשרת ימי תשובה:
-
----
-{{< followit >}}
-
 1. Wake up and **daven with a minyan early**
    1. Go to bed by 23:00
    2. On days when I'm not davening on the train, daven with a minyan at 7 a.m. or earlier
@@ -32,3 +28,6 @@ As the new year of תשפ״ד comes closer and we find ourselves in the month on
 
 May we all merit to כתיבה וחתימה טובה for the coming year 5784!
 
+
+---
+{{< followit >}}

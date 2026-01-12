@@ -21,4 +21,3 @@ summary: "A critique of Elon Gilad’s confident pop-Judaism: how narrow philolo
 
 ---
 {{< followit >}}
-

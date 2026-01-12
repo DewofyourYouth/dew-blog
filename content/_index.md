@@ -12,6 +12,3 @@ Dew of Your Youth is about thought, memory, matters of faith, and the systems we
 Jewish texts, personal workflows, family archives, and languages learned along the way.
 
 If you’ve ever tried to organize your soul with Markdown, welcome.
-
----
-{{< followit >}}

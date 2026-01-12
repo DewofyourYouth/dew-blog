@@ -18,10 +18,6 @@ summary: "How Kabbalah became woven into normative Judaism despite disputed orig
 ## What This Essay Is Not About
 
 A while back, I wrote about taking my sons to a [Talne Rebbe yahrzeit](https://www.dewofyouryouth.com/post/the-yahrzeit-of-reb-duvid-twersky-of-talne), even though I have longstanding misgivings about the foundations of Hasidism and Kabbalah. This piece is not a sequel in the sense some readers might expect. I’m not going to rehearse the familiar arguments for and against the antiquity of the Zohar, nor litigate the evidentiary gaps in the transmission of Kabbalistic teaching. Readers are free to explore those debates and arrive at their own conclusions.
-
----
-{{< followit >}}
-
 ## Transmission, Asymmetry, and Dismissal
 
 For my purposes here, one point is enough: the transmission of the Talmud and Tanakh is historically traceable in a way that Kabbalah is not. That asymmetry matters.
@@ -53,6 +49,11 @@ If this seems uncomfortable, it is worth remembering that the faith shaped by th
 ## The Cost of Revisionism
 
 There is also a cost to revisionism that is too often ignored. Any serious attempt to reconstruct a Judaism without Kabbalah, or without its Lurianic forms, would not merely discard a disputed body of texts. It would sever contemporary Judaism from much of the spiritual vocabulary, conceptual depth, and religious insight developed by its most influential thinkers over the past five centuries. One does not remove Kabbalah without also losing access to the categories through which large portions of Jewish piety, law, and meaning have been articulated since.
+
+
+
+---
+{{< followit >}}
 
 ## The Rivash and a Third Path
 

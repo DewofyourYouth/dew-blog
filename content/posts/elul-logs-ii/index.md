@@ -12,10 +12,6 @@ draft: false
 ## Friday, September 1st
 
 I went to sleep late last night. I wasted time when waking up. I’m baruch Hashem davening with a minyan generally 3x a day. I did have time to learn some mussar before davening.
-
----
-{{< followit >}}
-
 ## Sunday, September 3rd
 
 ### Morning
@@ -41,6 +37,11 @@ I sort of lied. Someone said he wakes up at 5am every morning. I asked him why h
 I mostly caught up in Daf HaYomi but am still a little behind. Still l learnt more than a Daf (almost 2) so counting it. I learnt mussar on the train to work.
 
 My son is leining at school tomorrow morning. I had to help him. I ended up going to sleep late.
+
+
+
+---
+{{< followit >}}
 
 ## Monday, September 4th
 

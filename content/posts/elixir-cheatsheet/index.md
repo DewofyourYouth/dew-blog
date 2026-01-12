@@ -21,10 +21,6 @@ Source for documentation: [HexaDocs](https://hexdocs.pm/elixir/1.12/Kernel.html)
 ## Operators
 
 ### Match Operater
-
----
-{{< followit >}}
-
 In Elixir there is not concept of "assignment", the `=` operator is a **match** operator, not an assignment operator.
 
 ```elixir
@@ -149,6 +145,11 @@ Key value data structure.
 ### Functions
 
 ### Integers
+
+
+
+---
+{{< followit >}}
 
 ## Control Flow
 

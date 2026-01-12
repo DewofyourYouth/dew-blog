@@ -16,10 +16,6 @@ featuredImage: hebrewcloseup.png
 ---
 
 Getting to Mordko's side of the Saranduk clan, let's review the 1836 census entry we say last time, and review some of the other one's we haven't yet seen. Here is the 1836 entry from Torgovitsa for Mordko Saranduk's family:
-
----
-{{< followit >}}
-
 Last Name: **Saranduk** \
 Year: **1836** \
 Town: **Torgovitsa** \
@@ -115,3 +111,6 @@ The event was to occur August 17th, 1888.
 ![Hebrew close up](hebrewcloseup.png)
 ![Russian close up](russiancloseup.png)
 
+
+---
+{{< followit >}}

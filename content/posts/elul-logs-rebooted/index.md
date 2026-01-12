@@ -16,10 +16,6 @@ summary: Elul logs - the next iteration!
 ## Elul: Full Circle
 
 Today is **Rosh Chodesh Elul**, which also marks this blog’s anniversary. I first began writing here to make a public record of the changes I wanted to pursue for Elul 5783 (2023). With the sudden passing of the Rosh Yeshiva זצ״ל, the blog also became a place to process that loss, which naturally broadened its scope.
-
----
-{{< followit >}}
-
 Later, I wrote a [postmortem](https://www.dewofyouryouth.com/post/elul-5783-postmortem) reflecting specifically on how the Elul resolutions went. One conclusion I reached in that postmortem was simple: when it comes to change, **less is more**. If I were to do it again, I would focus on just one thing.
 
 ---
@@ -50,6 +46,11 @@ I plan to review this with the Rebbe and see if the resolution needs refinement,
 To make this resolution concrete, I plan to **log my daily gratitude meditation in Obsidian** as part of my journaling workflow. This will serve as both a record and a reminder. Every two weeks, I’ll post an update here on the blog summarizing how the practice is going—what worked, what slipped, and what I’ve learned in the process.
 
 ---
+
+
+
+---
+{{< followit >}}
 
 ## Looking Ahead
 

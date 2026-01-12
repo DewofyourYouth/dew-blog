@@ -15,10 +15,6 @@ featuredImage: filing-cabinet.jpeg
 ---
 
 Some new records from the Ukrainian Revision Lists related to Talne, have recently been added to the JewishGen database, they've written about it in a [recent blog post](https://www.jewishgen.org/blog/?p=ukraine-research-division). I checked and found some new Saranduk records. Some of these records add some new details and definition to the Saranduk family tree. In the current post I will not be trying to cover all of the new records, only records concerning the Talne Saranduks.
-
----
-{{< followit >}}
-
 In the [last post](/post/hyman-and-sarah) I wrote that previously the first know record of Khaim Hersh Saranduk (Hyman Shore) was this 1858 census:
 
 **Location**: Talnoye, Uman, Kyiv \
@@ -93,3 +89,6 @@ We also find Hyman Shore, living with his wife and younger children.
 | Reyzya      | Daughter          | F      | 16  | Khaym Gersh   |
 | Moshko      | Son               | 14     | M   | Khaym Gersh   |
 
+
+---
+{{< followit >}}

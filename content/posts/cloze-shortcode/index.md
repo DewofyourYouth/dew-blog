@@ -19,10 +19,6 @@ tags:
 ## Creating a Cloze Shortcode in Hugo
 
 I've made a shortcode for cloze questions to help with making the language posts on this blog — especially for Tunisian Arabic.
-
----
-{{< followit >}}
-
 Cloze deletions are fill-in-the-blank questions where part of the sentence is hidden, typically for testing recall or active vocabulary. They're useful for language learners, and I wanted a way to easily format them in Hugo using Markdown without needing raw HTML in every post.
 
 Here is a sample of what it looks like:
@@ -113,6 +109,11 @@ The cloze spans are initially hidden with background color matching the text. On
 </style>
 ```
 You can tweak these styles to fit any theme.
+
+
+
+---
+{{< followit >}}
 
 ## Why Not Use Raw HTML?
 

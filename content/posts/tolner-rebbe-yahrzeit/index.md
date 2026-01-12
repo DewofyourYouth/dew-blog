@@ -17,10 +17,6 @@ summary: A trip to Ashdod with my kids to celebrate the yahrzeit of the original
 ## Setting Out for Ashdod
 
 Last Wednesday night, a little after 8:00, I packed my three oldest boys—14, 11, and 9—into a city car and headed south. They'd been excited about this trip all week: the yahrzeit gathering in Ashdod for Reb Duvid of Talne, the original Tolna Rebbe. This wasn't a spontaneous thing. Back during Passover, we visited Ashdod and met the current Tolna Rebbe. When I mentioned our family's roots in Tolna, his eyes lit up. He told us that after the war, there weren't many Tolna families left who were still observant. He gave me some of the seforim of the original Tolna Rebbe and asked me to return for the yahrzeit, along with any documentation I had of our family's Tolna origins.
-
----
-{{< followit >}}
-
 ## Unfamiliar Yet Familiar
 
 We arrived right on time and stepped into a synagogue full of Hasidim. We stood out immediately—definitely the only non-Hasidic family in the room. My boys weren't fazed. They watched, listened, and absorbed the singing and the unique energy. The Rebbe spoke in Yiddish. I did my best to quietly translate the important pieces, but mostly my kids were content just to observe, happy to be part of something that connected to our heritage.
@@ -51,6 +47,11 @@ He explained, quoting the Zohar, that Habakkuk is the son revived by Elisha in t
 _NOTE: This is not a review of what was said - I'm just including what's necessary._
 
 Faith—its central challenge and its necessity—runs through all of Reb Duvid of Talne's works. After the Rebbe's words, the message hit home: faith is complex, sometimes even defiant, but it keeps tradition alive.
+
+
+
+---
+{{< followit >}}
 
 ## What I Hope They Remember
 

@@ -24,10 +24,6 @@ This is the second post in a series about my Rosh Yeshiva, Rav Aaron Schechter �
 ## Rejoice with Trembling
 
 If you've got the impression from my previous post, that the Rosh Yeshiva זצ״ל was a warm and cuddly Zeide figure, I'm afraid I've misled you. The protocols of decorum towards one's Rosh Yeshiva in Chaim Berlin were extreme, even for regular Yeshivas. I'm told this was put in place by the previous Rosh Yeshiva, Rav Yitzchak Hutner זצ״ל. The Rosh Yeshiva was revered and feared by all. And he didn't suffer fools gladly. Even so, the love that he had for his students was felt by us at all times. He was known for having a smile that would light up the room. He was _also_ known for the direct and no-holds-barred way he could express his disapproval.
-
----
-{{< followit >}}
-
 Critics of religion will often note the contradictory nature of the commandment to fear G-d, and the commandment to love G-d. Students of the Rosh Yeshiva have no problem appreciating how this is no contradiction at all. Because we felt the love of the Rosh Yeshiva, as well as his greatness of character, our love for him caused us to fear disappointing him even more.
 
 ## Unworthy Questions
@@ -55,6 +51,11 @@ Rashi, on this _passuk_, quotes a Medrash explaining that it doesn't mean He pic
 The Rosh Yeshiva answered, "No, the simple reading of the _passuk_ is like Rashi. The verb 'to take' means different things in different contexts. A man is not a sack of potatoes that you pick of here and place there. When referring to men, 'to take' means with words."
 
 With the Rosh Yeshiva this was clear. Your fellow man was to be treated with dignity and respect becoming "the image of G-d" in which he was created. He was not a sack of potatoes.
+
+
+
+---
+{{< followit >}}
 
 ## Care for all Students
 

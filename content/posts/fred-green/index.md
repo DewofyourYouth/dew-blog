@@ -44,10 +44,6 @@ resources:
 ## Intro
 
 I want to dedicate some time to writing about my paternal grandmother’s grandfather, part of **Roberta (Green) Shore’s** family line. My grandmother recently turned 100 years old, though her condition is not good. While reviewing family records, I noticed that his _yahrzeit_ falls on the third night of Hanukkah. This past Hanukkah marked his 86th _yahrzeit_.
-
----
-{{< followit >}}
-
 Despite several surname changes over the generations, my grandmother’s family early history is documented in a genealogical work titled [_The Propp Family History_](https://books.google.co.il/books/about/The_Propp_Family_History.html?id=QdiGrgEACAAJ&source=kp_book_description&redir_esc=y), by David-Hillel Ruben and Henry W. Propp. I do not own the book myself, but I have been able to consult portions of it thanks to the generosity of a distant relative (_name withheld_).
 
 Based on what I have seen in The Propp Family History, Myer Propp fled Shkudvil, Lithuania sometime in the nineteenth century, eventually settling in Sweden. Upon leaving Lithuania, he changed his name to Myer Greenberg. He is associated in later records with a wife, Rachel (Pikin). It is unclear whether they fled together as a married couple or whether Myer emigrated as a bachelor and married Rachel after settling in Sweden.
@@ -62,6 +58,11 @@ In **1871**, Fred emigrated to the United States with his family, a date likewis
 The variation between the surnames **Green** and **Greenberg** remains unclear. For example, in the Boston birth register, Goldie and Israel are recorded under the surname *Green*, while in the undertaker’s return filed eight months later the family name appears as *Greenberg*. Such inconsistencies may reflect informal name usage or clerical variation rather than a deliberate change, but the exact reason is not yet documented.
 {{< /admonition >}}
 
+
+
+
+---
+{{< followit >}}
 
 ## Marriage, Career and Children
 

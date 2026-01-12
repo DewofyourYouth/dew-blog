@@ -42,13 +42,14 @@ So the **Runekeeper** was summoned.
 >
 > For no container should rise with unbounded might, lest it defile the node entire.”
 
-## The Ritual
 
-1. First, he whispered to the cluster, summoning a base scroll from command:
 
 ---
 {{< followit >}}
 
+## The Ritual
+
+1. First, he whispered to the cluster, summoning a base scroll from command:
    ```bash
    kubectl create deployment holy-api \
      --image=<original-image> \

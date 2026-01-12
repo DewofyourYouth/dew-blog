@@ -40,10 +40,6 @@ I will later make a post with cloze lists to test yourself.
 ## Eat – كل
 
 ### Present
-
----
-{{< followit >}}
-
 | Pronoun      | Tunisian Arabic | Pronunciation | English       | Audio Recording                           |
 | ------------ | --------------- | ------------- | ------------- | ----------------------------------------- |
 | I            | Ena nekel       | ناكل أنا      | I eat         | <audio controls src="i-eat.m4a"></audio> |
@@ -318,6 +314,11 @@ I will later make a post with cloze lists to test yourself.
 | Houma   | A7na       | besh yefhemouna      | باش يفهمونا        | They will understand us    |
 
 ---
+
+
+
+---
+{{< followit >}}
 
 ## Explain – فهّم (fahhem)
 

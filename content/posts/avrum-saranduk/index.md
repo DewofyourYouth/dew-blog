@@ -21,10 +21,6 @@ As far as is known, no oral memories of him have been passed down. There is no p
 ## Avrum Saranduk in Talne: Documented Across Decades
 
 The most consistently documented Avrum Saranduk, and the direct ancestor of Hyman Shore, is found in the Revision Lists for Talne. He appears as Head of Household across nearly half a century:
-
----
-{{< followit >}}
-
 1. **1850 Talnoye Revision List**: Avrum Saranduk appears at age 26 (b. ~1824), son of **Khaim Gersh**. His wife **Khaya** is age 23 (b. 1827). Two children are listed: **Malka** (age 6, b. 1844) and **Gersh** (age 1, b. 1849). This “Gersh” later appears as **Khaim Gersh (Hyman Shore)**.
 
 
@@ -46,20 +42,22 @@ The most consistently documented Avrum Saranduk, and the direct ancestor of Hyma
 
 3. **1897 Talnoye Revision List**: An Avrum Saranduk appears as Head of Household at age 75 (b. ~1822), son of **Khaim-Gershko**. His wife **Khaya** is 70 (b. 1827), daughter of **Mot**. Others in the household include grandson **Shmariy** (Sam Shore, age 28) and a **sister, Khana Pysenko** (age 65, b. 1832).
 
-| Date | Age | Year Born | Surname  | Given Name | Father        | Relationship to HOH | Sex | Town    | Uzyed | Guberniya |
-| ---- | --- | --------- | -------- | ---------- | ------------- | ------------------- | --- | ------- | ----- | --------- |
-| 1897 | 75  | 1822      | SARANDUK | Avrum-Khaim  (sic)    | Gershko | HOH                 | M   | Talnoye | Uman  | Kiyev     |
-| 1897 | 70  | 1827      | SARANDUK | Khaya      | Mot           | Wife of Avrum       | F   | Talnoye | Uman  | Kiyev     |
-| 1897 | 28  | 1869      | SARANDUK | Shmariy    | Khaim Gershko | Grandson            | M   | Talnoye | Uman  | Kiyev     |
-| 1897 | 25  | 1872      | SARANDUK | Tuba       | Avrum Yudko   | Granddaughter (sic) | F   | Talnoye | Uman  | Kiyev     |
-| 1897 | 8   | 1889      | SARANDUK | Peysya     | Shmariya      | Relative            | F   | Talnoye | Uman  | Kiyev     |
-| 1897 | 4   | 1893      | SARANDUK | Duvid Leyb | Shmariya      | Relative            | M   | Talnoye | Uman  | Kiyev     |
-| 1897 | .5  | 1896.5    | SARANDUK | Volko      | Shmariya      | Relative            | M   | Talnoye | Uman  | Kiyev     |
-| 1897 | 65  | 1832      | PYSENKO  | Khana      | Khaim Gershko | Sister              | F   | Talnoye | Uman  | Kiyev     |
+| Date | Age | Year Born | Surname  | Given Name         | Father        | Relationship to HOH | Sex | Town    | Uzyed | Guberniya |
+| ---- | --- | --------- | -------- | ------------------ | ------------- | ------------------- | --- | ------- | ----- | --------- |
+| 1897 | 75  | 1822      | SARANDUK | Avrum-Khaim  (sic) | Gershko       | HOH                 | M   | Talnoye | Uman  | Kiyev     |
+| 1897 | 70  | 1827      | SARANDUK | Khaya              | Mot           | Wife of Avrum       | F   | Talnoye | Uman  | Kiyev     |
+| 1897 | 28  | 1869      | SARANDUK | Shmariy            | Khaim Gershko | Grandson            | M   | Talnoye | Uman  | Kiyev     |
+| 1897 | 25  | 1872      | SARANDUK | Tuba               | Avrum Yudko   | Granddaughter (sic) | F   | Talnoye | Uman  | Kiyev     |
+| 1897 | 8   | 1889      | SARANDUK | Peysya             | Shmariya      | Relative            | F   | Talnoye | Uman  | Kiyev     |
+| 1897 | 4   | 1893      | SARANDUK | Duvid Leyb         | Shmariya      | Relative            | M   | Talnoye | Uman  | Kiyev     |
+| 1897 | .5  | 1896.5    | SARANDUK | Volko              | Shmariya      | Relative            | M   | Talnoye | Uman  | Kiyev     |
+| 1897 | 65  | 1832      | PYSENKO  | Khana              | Khaim Gershko | Sister              | F   | Talnoye | Uman  | Kiyev     |
 
 ### Notes on the Records
+
 - **Birth-year discrepancy**: 1824 (1850/1858) vs. 1822 (1897). Routine for Revision Lists; ages were often approximate. Birth years are not present in the documents - they are derived from the age and year of the record.
 - **Father’s-name variation**: *Khaim Gersh* (1850), *Khaim* (1858). Typical double-name/patronymic drift in 19th-century Russian-Jewish records. Also, the 1897 record was digitalized in JewishGen as *Avrum Khaim* son of *Ghershko* - but the Russian patronymic is ambigous on this account. Given prevelant Ashkenazi custom it isn't plausible he would be *Avrum Khaim* and have a grandson who's father is *Khaim Gershko*. It makes must more sense that it's *Avrum Khaim-Gershkovitz* and not *Avrum-Khaim Gershkovitz*.
+
 ---
 
 ## The Question of *Avrum Nikhem* of Torgovitsa
@@ -125,6 +123,7 @@ A plausible (not definitive) reconstruction:
 Because of the **Khvulya vs. Khaya Leya** conflict, this tree must be read as a working hypothesis, not a proven structure.
 
 ---
+{{< followit >}}
 
 ## Avrum Saranduk’s Enduring Legacy
 
@@ -139,4 +138,3 @@ Crucially, the records also preserve the memory of his daughters and sisters:
 These women do not reappear in oral history, and they left no descendants carrying the Saranduk/Shore surname. Without the Revision Lists, they would be lost to memory entirely.  
 
 Avrum’s story therefore underscores a broader truth of genealogical reconstruction: **female family members often vanish from collective memory once surnames change through marriage.** Careful attention to census evidence and collateral records allows their presence to be restored and acknowledged, ensuring the family story is not told solely through the men who carried the surname forward.
-

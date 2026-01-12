@@ -15,10 +15,6 @@ featuredImage: speech-bubble.jpg
 ---
 
 ### Rif
-
----
-{{< followit >}}
-
 1. The reason the משנה using the wording לאור י״ד instead of ליל י״ד is to teach us to use positive phrasing. לישנא מעליא נקט
 2. Rabbi Yehoshua ben Levi said: One should never express a crude matter... לעולם אל יוציא אדם דבר מגונה מפיו
 3. Rabbi Yishmael said: A person should always speak euphemistically... לעולם יספר אדם בלשון נקיה
@@ -40,3 +36,6 @@ What comes out of the ר״ן is the following:
 3. This is only provided that the the non-euphemistic phrasing is equally precise, but if a phrasing is more precise and cleaner - one should choose it, even if non-euphemistic saying is shorter.
    It is clear we are willing to sacrifice some precision to speak with clean language.
 
+
+---
+{{< followit >}}

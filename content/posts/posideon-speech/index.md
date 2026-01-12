@@ -14,9 +14,8 @@ categories:
 ---
 
 A speech I gave at Toastmasters a while back. Farewell old friend!
+{{< youtube 2HRJhu2fVVo >}}
+
 
 ---
 {{< followit >}}
-
-{{< youtube 2HRJhu2fVVo >}}
-

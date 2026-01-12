@@ -36,10 +36,6 @@ Here are three mnemonics I deliberately created for Tunisian Arabic words that w
 {{< admonition type=example title="Sitting — قَاعِدْ (*9ad*)" open=true >}}
 {{< image src="/sit.jpeg" caption="A cartoon of sitting on a **cod** (a type of fish in English). Cod → 9ad." >}}
 {{< /admonition >}}
-
----
-{{< followit >}}
-
 {{< admonition type=example title="Sleeping — رقد (*r9ad*)" open=true >}}
 {{< image src="/sleep.jpeg" caption="A woman dancing in her sleep. In Hebrew, *rakkad* = “dance,” which sounds like *r9ad* (sleep). " >}}
 {{< /admonition >}}
@@ -129,6 +125,11 @@ Even if the cue is crude or clumsy, constructing it yourself embeds the word dee
 Not every mnemonic lands. If I still blank on a word despite the cue, I replace it. The goal isn’t an Anki deck of dead jokes—it’s to *tag* the unstickiest words with a signal strong enough that forgetting them is harder than remembering.
 
 ---
+
+
+
+---
+{{< followit >}}
 
 ## Bottom line
 

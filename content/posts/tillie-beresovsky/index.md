@@ -16,10 +16,6 @@ tags:
 ---
 
 ### Quick Facts
-
----
-{{< followit >}}
-
 | Key        | Value                                              |
 | --------   | ----------------------------------------------     |
 | Parents    | Avraham Edel Beresowsky, Rachel Bockman            |
@@ -96,3 +92,6 @@ May her _neshama_ have an _aliyah!_ (May her soul be elevated!)
 
 ![The record of marriage list Mokra Kaligorka as the town Taube comes from.](marriage.jpg)![David Boren | Certificate of Death](david-boren.jpg)![Bessie Fishbein birth record](pessie-birth-record.jpg)
 
+
+---
+{{< followit >}}

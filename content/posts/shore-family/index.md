@@ -14,10 +14,6 @@ summary: "Why Saranduk became Shore; matching the 1858 Talne census, 1904 Gerty 
 ---
 
 It would seem that in Ukraine our family name was Saranduk, but that this name was given by the Ukrainian ( or Russian ) authorities and used mostly for government documents etc. Not accepted by the family, who seemed to go by Shore.
-
----
-{{< followit >}}
-
 The reason I think this is because this is what I’ve been told by Aunt Ruth, who was something of the family genealogist. She claims she was told this by her father, Samuel Oscar / Asher Shore. The claim checks out to me for two reasons:
 
 1. I’ve found other cases of Jewish people who were named Saranduk immediately changed their surname to Shore upon arrival in to America (a Shore family in Missouri), with no known relationship or correspondence with our part of the family, which I take as evidence that they were in the same family.
@@ -133,3 +129,6 @@ There are 2 generations of Shores buried in Lincoln Park Cemetery in Warwick, RI
 
 ![Papercut made by Sam Shore commemorating his parents](papercut.jpg)
 
+
+---
+{{< followit >}}

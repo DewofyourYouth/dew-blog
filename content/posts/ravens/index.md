@@ -19,10 +19,6 @@ draft: false
 ## The Gaze of the All-Observer
 
 **Odin was the Control Plane.** In the celestial spires of coordination and will, he reigned as the All-Observer of the Cluster. Upon his shoulders perched two ravens—**Huginn** and **Muninn**—ancient agents of inquiry and revelation.
-
----
-{{< followit >}}
-
 * **Huginn**, whose name meant *Thought*, flew out each dawn to glean the *present state* of the Nine Constructs *(whose mysteries are carved in the next saga)*. He saw running pods, measured CPU and memory, watched the flickering of containers—*liveliness* in motion. His flight echoed the command:
 
   ```bash
@@ -88,6 +84,11 @@ kubectl config set-context --current --namespace=midgard
 ```
 
 And thus did the ravens fly only over Midgard, that lesser realm of mortals and staging environments.
+
+
+
+---
+{{< followit >}}
 
 ## Summary of the Raven-Eye
 

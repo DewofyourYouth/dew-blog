@@ -17,14 +17,15 @@ First update on progress on the Elul logs. I said I would do biweekly updates - 
 ## Attendance: How many times did I show up?
 
 So far, I did the mediation 6x and missed one day (August 28). So my attendence is 86%.
-
----
-{{< followit >}}
-
 {{<mermaid>}}pie
     "Done": 6
     "Missed": 1
 {{</mermaid>}}
+
+
+
+---
+{{< followit >}}
 
 ## Some Thoughts
 

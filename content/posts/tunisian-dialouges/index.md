@@ -20,10 +20,6 @@ _**UPDATE May 30th, 2025**: I've added audio for the first dialogue. Feel free t
 ## Dialogue One: Jacob and Omar
 
 A simple dialogue between Jacob and his friend Omar
-
----
-{{< followit >}}
-
 _Jacob w sa7bou Omar yerte7ou fi 9ahwa ytkalmou m3 ba3dhom._
 
 | Dialogue | Audio |
@@ -49,6 +45,11 @@ _Jacob w sa7bou Omar yerte7ou fi 9ahwa ytkalmou m3 ba3dhom._
 ![Jacob and Omar at the Café](dialogue1.png)
 ![Jacob at the Doctor](allergies.png)
 
+
+
+
+---
+{{< followit >}}
 
 ## Dialogue Two: Jacob at the Doctor
 

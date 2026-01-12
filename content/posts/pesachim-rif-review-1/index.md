@@ -15,16 +15,17 @@ tags:
 featuredImage: feather.jpeg
 ---
 
+
+
+---
+{{< followit >}}
+
 ## The Rif
 
 1. On the night of the 13th of Nissan (next day being the 14th) on must check for ḥametz in any place where ḥametz is brought.
 2. Any place where ḥametz is not brought, one is not required to check.
 3. Wine cellar stuff (which we'll cover later)
 4. The תנא said אור instead of לילי to teach you to use the cleaner phrasing when speaking
-
----
-{{< followit >}}
-
 ### The Ran
 
 #### The Rationale for Checking

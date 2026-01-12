@@ -15,6 +15,9 @@ draft: false
 
 After the devastating news of the passing of the Rosh Yeshiva זצ״ל, the news that the משגיח, Rabbi Mordechai Zelig Schechter זצ״ל has passed just a few short weeks later, is a lost that brings to mind the the verse in Yishaiah
 
+---
+{{< followit >}}
+
 > על מה תכו עוד תוסיפו סרה כל ראש לחלי וכל לבב דוי\
 > Why do you seek further beatings, \
 > That you continue to offend? \
@@ -44,3 +47,4 @@ In my case, I've noticed much of what the Mashgiach said was specific to circums
 When his brother in law passed suddenly, the Mashgiach took some of his young children to raise in his home. He would walk every Shabbos to boro park to make kiddush for his widow and give attention to his other children. I remember that once, when I was engaged to be married, I needed to discuss something with him. He suggested that we talk on his walk to Boro Park that Shabbos. I remember besides whatever I had to discuss with him, we also covered various topics, like Kabbalistic disagreements between the Chassidim and the Perushim and the philosophy of Radiziner Chassidus (his brother in law was a scion of the Radziner Rebbe). It was a truly uplifting experience.
 
 Comments about the משגיח זצ״ל are welcomed below:
+

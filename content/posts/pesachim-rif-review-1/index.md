@@ -22,6 +22,9 @@ featuredImage: feather.jpeg
 3. Wine cellar stuff (which we'll cover later)
 4. The תנא said אור instead of לילי to teach you to use the cleaner phrasing when speaking
 
+---
+{{< followit >}}
+
 ### The Ran
 
 #### The Rationale for Checking
@@ -54,3 +57,4 @@ The ר״ן then says that he see there is a lot of confusion around this topic a
 1. The obligation to check for ḥametz only applies to places where there is known ḥametz or where it is normal to bring ḥametz.
 2. It is impossible that the חשש of finding an appealing cake would cause someone to have retroactively violated בל יראה ובל ימצא because the Torah relies on חזקה. And if one has checked his property in all places where there is known or likely ḥametz, he has fulfilled his obligation.
 3. The חשש must therefore refer to the time from between his accidental finding of ḥametz during Pesaḥ and its destruction.
+

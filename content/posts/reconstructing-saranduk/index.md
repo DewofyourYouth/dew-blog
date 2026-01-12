@@ -20,6 +20,9 @@ After the massacre of October 7th, I needed a distraction. I turned to genealogy
 
 Family memory is useful, but not trustworthy. My guiding principle was simple: write everything down, but don’t believe anything without evidence. Someone says we're related to the Illui of Poltava? Great. Let’s see how. A cousin claims we’re Levites? Wonderful. Let’s try to corroborate that.
 
+---
+{{< followit >}}
+
 ## The Method: Archives, Manifests, and Mistrust
 
 I started with JewishGen, FamilySearch, and the Ukrainian Revision Lists. These tsarist-era censuses gave me concrete data from the 1800s—ages, locations, household structure. From there, I triangulated:
@@ -184,3 +187,4 @@ Shmariya --+-- Tuba    Motez Volko --+--- Beyla     Moshko   Reyza
 |          |          |
 Pesya   Dovid Leyb    Volko
 ```
+

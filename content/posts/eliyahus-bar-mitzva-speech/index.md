@@ -12,6 +12,9 @@ featuredImage: DSC_1772.JPG
 
 In Parshas Eikev it says:
 
+---
+{{< followit >}}
+
 > ואכלת ושבעת וברכת את ה׳ א-לוהיך על הארץ הטובה אשר נתן לך
 
 from here we learn the concept of ברכות הנהנין.
@@ -112,3 +115,4 @@ _thank yous here_
 May the time come when are all זוכה to say שהחיינו on a new שמחה
 בביאת גואל צדק במהרה בימינו
 אמן!!!
+

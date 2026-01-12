@@ -18,3 +18,7 @@ tags:
   - oral-tradition
 summary: "A critique of Elon Gilad’s confident pop-Judaism: how narrow philological claims about sufganiyot, meat-and-milk, and Mishnah variants get inflated into sweeping takedowns while ignoring broader sources and transmission. The piece argues for proportion—respecting evidence, the weight of commentary, and oral tradition instead of cherry-picked “gotchas.”"
 ---
+
+---
+{{< followit >}}
+

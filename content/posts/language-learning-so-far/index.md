@@ -22,6 +22,9 @@ lastMod: 2025-08-28
 
 It’s been about a month and a half since I decided I wanted to learn Arabic. I had been using Duolingo for a while (not included in the month). I made some progress learning how to read the letters, but not much else. There was also no one I’d be able to talk to because it’s in MSA. All Arabs speak dialects.
 
+---
+{{< followit >}}
+
 It became clear that I would need someone to teach me. At that point, I was torn between Levantine and Moroccan. Levantine was clearly the more reasonable choice, considering I live in the Levant, but I have a certain love for Morocco that comes from my exposure to family and friends who are Moroccan Jews.
 
 I chose the [Preply](https://preply.com/en/?pref=MTg3MDQ0NzU=&id=1742500213.149993&ep=w2) platform. However, it soon became apparent that most Levantine tutors are not comfortable teaching a Jewish person. As I am not comfortable hiding this fact simply to get Arabic lessons, much of the choice was made for me.
@@ -78,3 +81,4 @@ One of the unexpected fun parts of this process has been noticing how many words
 I don’t overanalyze. I don’t get stuck trying to _perfectly_ understand every word before moving forward. If I miss something, I keep the conversation going and figure it out later.
 
 I’m making some progress. The question now is: how far can I take this?
+

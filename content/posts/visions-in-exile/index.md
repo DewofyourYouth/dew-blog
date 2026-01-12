@@ -18,6 +18,9 @@ tags:
 > In the thirtieth year, on the fifth day of the fourth month, when I was in the community of exiles by the Chebar Canal, the heavens opened and I saw visions of God.\
 > --- Ezekiel 1, 1
 
+---
+{{< followit >}}
+
 Today is the fifth of Tammuz, year 5784.
 
 On the fifth of Tammuz, year 3332, Ezekiel saw vision of God in exile.
@@ -37,3 +40,4 @@ Rashi explains that the reason Rabbi Zeira wanted to forget the Torah of Babylon
 
 > Trust in Hashem and do good, dwell in the land and sheppard faith. \
 >  --- Psalms 37, 3
+

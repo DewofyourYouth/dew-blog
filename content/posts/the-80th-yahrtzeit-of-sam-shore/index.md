@@ -153,6 +153,9 @@ Record of _Shmarya_ and _Taube_’s wedding in Talne from the community ledger i
 
 ---
 
+---
+{{< followit >}}
+
 - [Bessie Fishbein]() _(placeholder)_
 - [David Louis Shore]() _(placeholder)_
 - [William Shore]() _(placeholder)_
@@ -168,3 +171,4 @@ This is the death certificate for Sam Shore:
 The death certificate contains various inaccuracies. 
 For example, there is a fair amount of proof that his mother's maiden name was not Grossman.
 Sam had a sister (Tillie) whose married name was Grossman. His mother's maiden name was Mamorofsky (based on her death certificate).
+

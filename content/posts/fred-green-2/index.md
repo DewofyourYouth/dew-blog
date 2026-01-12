@@ -19,6 +19,9 @@ tags:
 
 This post is a follow up to the last post on [Fredrick Philip Green](/post/fredrick-philip-green).
 
+---
+{{< followit >}}
+
 My aunt apparently has a photograph that my father is now trying to locate. It is a formal family photograph of the Rambachs, taken by Fred Green.
 
 The photograph matters because it places Fred Green in the Rambachs’ social and business circle before the families were formally joined. According to family recollection, Fred was already associated with Hyman Rambach, and the families were close enough that Fred took an official photograph of them.
@@ -26,6 +29,7 @@ The photograph matters because it places Fred Green in the Rambachs’ social an
 The same conversation produced several other details about Fred Green.
 
 According to my father, relaying a conversation with my uncle Rick (Fredrick Green’s namesake), Fred Green may have been responsible for introducing the use of a rogues’ gallery to the Boston Police. In the early period, before a formal police photography unit existed, he reportedly operated out of his own home. He had a studio in the attic, and for years the police brought criminals directly to the house to be photographed. This arrangement ended only when my great-great-grandmother insisted it stop.
+
 
 Another point concerns boxing. Fred Green was apparently an amateur boxer. He photographed boxers and moved in those circles. At one point, a well-known boxing champion in Boston came to the house to be photographed. Fred reportedly offered to take the photograph without charge if the boxer would do a single round with him.
 

@@ -17,6 +17,9 @@ summary: Some tips and tricks I use with Obsidian. Plugin recommendations and wo
 ---
 ### Obsidian - The Secret Sauce
 
+---
+{{< followit >}}
+
 Obsidian is a [Markdown-based](https://www.markdownguide.org/) note-taking application with a rich plugin ecosystem. This is one of my go-to tools for recording my thoughts and keeping track of things in my life. It also supports hyperlinking notes, so your notes are connected. Connected notes help you avoid "anti-patterns" like stuffing too much into a single note—so long you’ll never read it. You can also view your notes in "graph mode" to see the connections between them visually.         
  
 ![Graph Mode](graph-mode-screenshot.png)
@@ -132,4 +135,5 @@ The query is written in a code block marked `chartsview` within the note.
 ### Wrapping It Up
 
 This is a snapshot of how I keep my thoughts organized, do research, and practice languages. If you’re interested in more Obsidian workflows, let me know in the comments—or reach out—and I’ll write about some of the setups I’ve found productive.
+
 

@@ -25,6 +25,9 @@ While I usually preface what I’m writing with a disclaimer that these are just
 
 The Rosh Yeshiva זצ״ל would often emphasize the importance of understanding what the “pushite (simple / straightforward) pshat” was. But he would also emphasize that understanding the simple pshat, required making the effort to appreciate the proper context and the spirit in which something was said in.
 
+---
+{{< followit >}}
+
 To give a simple example, in Parshas Balak, at the Shabbos table in Camp Morris, we learnt the following _passuk_ (Numbers 23:9).
 
 > As I see them from the mountain tops, \
@@ -57,3 +60,4 @@ Once, an _avreich_ came to get a _haskama_ on a book of diagrams he made for tea
 The Rosh Yeshiva looked at the sefer for a few moments, admired the artwork and accuracy of the diagrams. He then apologized to the author and said that he had no doubt he would get _haskomos_ from great Rabbonim, but that he could not give one. I don’t remember if the Rosh Yeshiva volunteered the reason, or gave it after being asked, but it came out that he was not keen on this kind of educational material in principle. He explained that a rebbe’s job is to help the _talmidim_ learn the _passuk_ or a _mishna_ and create an image in their mind’s eye from the source material and the _mefarshim_. It’s not to show them a ready made picture that they can retrofit into the source material.
 
 Fortunate are the eyes that merited to gaze upon the Rosh Yeshiva זצ״ל. Even if only from behind.
+

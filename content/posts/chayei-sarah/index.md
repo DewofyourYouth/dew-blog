@@ -16,6 +16,9 @@ featuredImage: hebron.jpeg
 
 שאלות לשינון הפרשה עם רש״י והרמב״ן
 
+---
+{{< followit >}}
+
 1. מניין למדו חז״ל ששרה אימנו הייתה כבת עשרים לחטא כשהייתה בת מאה?
 2. איפה נפטרה שרה אימנו ע״ה?
 3. מהו סמיכות הפרשיות של סוף פרשת וירא ותחילת פרשת חיי שרה?
@@ -53,3 +56,4 @@ featuredImage: hebron.jpeg
 35. במה בירך ה׳ את יצחק אחרי מות אברהם?
 
 [Photo courtesy of Dan Rosenstein on Upsplash](https://unsplash.com/photos/brown-concrete-building-near-green-trees-during-daytime-eyuTaorbYVU?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash)
+

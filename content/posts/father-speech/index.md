@@ -31,6 +31,9 @@ Tonight I would like to discuss three things with you:
 1. Eliyahu, you have a lot of potential. But you intelligence. Your strength. Your innate middos - are gifts from the באשעפר!
 1. It is the moral decisions you make, the values you live by, and your יראת שמיים
 
+---
+{{< followit >}}
+
 ## Be a man
 
 1. Becoming a man means many things,
@@ -76,3 +79,4 @@ Eliyahu, your mother and I are so proud of the man your becoming, and we know yo
 Here is a video (please excuse the audio quality - it was taken from someones cell phone) of the speech.
 
 {{< youtube zAv939fzaF0 >}}
+

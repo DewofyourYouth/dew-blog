@@ -20,6 +20,9 @@ tags:
 
 I've made a shortcode for cloze questions to help with making the language posts on this blog — especially for Tunisian Arabic.
 
+---
+{{< followit >}}
+
 Cloze deletions are fill-in-the-blank questions where part of the sentence is hidden, typically for testing recall or active vocabulary. They're useful for language learners, and I wanted a way to easily format them in Hugo using Markdown without needing raw HTML in every post.
 
 Here is a sample of what it looks like:
@@ -116,3 +119,4 @@ You can tweak these styles to fit any theme.
 Because raw HTML in Markdown posts is ugly and hard to maintain. This shortcode approach lets me write cleanly in Markdown and let Hugo handle the transformation.
 
 Let me know if you'd like the full snippet files or to see how this integrates with Anki or other flashcard tooling.
+

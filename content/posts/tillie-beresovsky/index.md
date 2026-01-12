@@ -17,6 +17,9 @@ tags:
 
 ### Quick Facts
 
+---
+{{< followit >}}
+
 | Key        | Value                                              |
 | --------   | ----------------------------------------------     |
 | Parents    | Avraham Edel Beresowsky, Rachel Bockman            |
@@ -92,3 +95,4 @@ While there is quite a few accounts of Shmaria - I've heard very few accounts of
 May her _neshama_ have an _aliyah!_ (May her soul be elevated!)
 
 ![The record of marriage list Mokra Kaligorka as the town Taube comes from.](marriage.jpg)![David Boren | Certificate of Death](david-boren.jpg)![Bessie Fishbein birth record](pessie-birth-record.jpg)
+

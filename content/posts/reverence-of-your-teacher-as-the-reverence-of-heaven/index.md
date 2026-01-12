@@ -25,6 +25,9 @@ This is the second post in a series about my Rosh Yeshiva, Rav Aaron Schechter �
 
 If you've got the impression from my previous post, that the Rosh Yeshiva זצ״ל was a warm and cuddly Zeide figure, I'm afraid I've misled you. The protocols of decorum towards one's Rosh Yeshiva in Chaim Berlin were extreme, even for regular Yeshivas. I'm told this was put in place by the previous Rosh Yeshiva, Rav Yitzchak Hutner זצ״ל. The Rosh Yeshiva was revered and feared by all. And he didn't suffer fools gladly. Even so, the love that he had for his students was felt by us at all times. He was known for having a smile that would light up the room. He was _also_ known for the direct and no-holds-barred way he could express his disapproval.
 
+---
+{{< followit >}}
+
 Critics of religion will often note the contradictory nature of the commandment to fear G-d, and the commandment to love G-d. Students of the Rosh Yeshiva have no problem appreciating how this is no contradiction at all. Because we felt the love of the Rosh Yeshiva, as well as his greatness of character, our love for him caused us to fear disappointing him even more.
 
 ## Unworthy Questions
@@ -64,3 +67,4 @@ There was a certain young man in the Yeshiva who had a depressive temperament. O
 I will always be grateful to the Rosh Yeshiva for this. Not only for his care, but for the way he encouraged me to care, and gave me an awareness of being נושא בעול חבירו, shouldering your brother's burden. We revered him, but all the while, we felt his love.
 
 ![The Rosh Yeshiva זצ״ל with my father. (The current Rosh Yeshiva, Rabbi Shlomo Halouwa שליט״א in the background )](ry-and-father.jpg)
+

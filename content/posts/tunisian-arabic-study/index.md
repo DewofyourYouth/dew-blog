@@ -18,6 +18,9 @@ summary: "Current Tunisian Arabic study stack: Anki workflows, mnemonics, Easy T
 
 First of all, I feel I should address the fact that I’ve been studying Tunisian Arabic and not Moroccan Arabic. I have two opposing goals with my Arabic study and I’ve decided to put the Moroccan on hold in favor of Tunisian for the time being.
 
+---
+{{< followit >}}
+
 Regardless of dialect, here are some tweaks I’ve been making to my study methods lately.
 
 ## Anki Flashcards
@@ -52,3 +55,4 @@ I also draft example sentences, break down dialogues, and build out my own phras
 Obsidian handles depth and review. Anki handles spaced repetition. The combo works.
 
 **An added benefit**: because Obsidian is basically a Markdown editor - many of the posts about Tunisian, in fact, many of my posts in general, come straight out of my Obsidian notes.
+

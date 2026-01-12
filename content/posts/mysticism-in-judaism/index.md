@@ -19,6 +19,9 @@ summary: "How Kabbalah became woven into normative Judaism despite disputed orig
 
 A while back, I wrote about taking my sons to a [Talne Rebbe yahrzeit](https://www.dewofyouryouth.com/post/the-yahrzeit-of-reb-duvid-twersky-of-talne), even though I have longstanding misgivings about the foundations of Hasidism and Kabbalah. This piece is not a sequel in the sense some readers might expect. I’m not going to rehearse the familiar arguments for and against the antiquity of the Zohar, nor litigate the evidentiary gaps in the transmission of Kabbalistic teaching. Readers are free to explore those debates and arrive at their own conclusions.
 
+---
+{{< followit >}}
+
 ## Transmission, Asymmetry, and Dismissal
 
 For my purposes here, one point is enough: the transmission of the Talmud and Tanakh is historically traceable in a way that Kabbalah is not. That asymmetry matters.
@@ -30,6 +33,7 @@ I am not such a philosopher, and I am not a purist.
 ## Canonization and Irreversibility
 
 Whatever one thinks about its origins, Kabbalah has been canonized. For roughly five centuries it has informed halakhic rulings, liturgical language, and the conceptual vocabulary of Jewish thought. At this point, its influence is not confined to mystics or sectarians; it is woven into what many Jews experience as normative Judaism. Traditions do not require perfect origins to become permanent. Duration, use, and authority are sufficient.
+
 
 ## Judaism as an Inherited Tradition
 
@@ -45,6 +49,7 @@ The paradox of this compromise is not lost on me. Like conservative arguments mo
 
 If this seems uncomfortable, it is worth remembering that the faith shaped by the Talmud was never built on tidy conclusions. It learned to live with paradox, to preserve dissenting voices, and to transmit unresolved arguments as faithfully as resolved ones.
 
+
 ## The Cost of Revisionism
 
 There is also a cost to revisionism that is too often ignored. Any serious attempt to reconstruct a Judaism without Kabbalah, or without its Lurianic forms, would not merely discard a disputed body of texts. It would sever contemporary Judaism from much of the spiritual vocabulary, conceptual depth, and religious insight developed by its most influential thinkers over the past five centuries. One does not remove Kabbalah without also losing access to the categories through which large portions of Jewish piety, law, and meaning have been articulated since.
@@ -56,6 +61,8 @@ In this, I find myself closer to the pragmatic restraint expressed by the Rivash
 What is striking here is not skepticism, but discipline. The Rivash neither dismantles Kabbalah nor demands its removal from Judaism. He simply refuses to treat what he did not receive as binding upon himself. His response is neither credulity nor iconoclasm, but restraint.
 
 This strikes me as the more honest posture. It acknowledges the authority Kabbalah has acquired without pretending that such authority requires universal assent or uncritical adoption. It also avoids the far greater distortion that would come from attempting to retroactively purify Judaism of influences that have already shaped its living form. Between naïve acceptance and revisionist erasure, the Rivash models a third path: fidelity without pretense.
+
+---
 
 _Featured image by [Roy Lindman](https://commons.wikimedia.org/wiki/File:RoyLindmanTenSephirot.jpg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), via Wikimedia Commons._
 

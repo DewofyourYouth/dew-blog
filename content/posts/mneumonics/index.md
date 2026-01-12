@@ -37,6 +37,9 @@ Here are three mnemonics I deliberately created for Tunisian Arabic words that w
 {{< image src="/sit.jpeg" caption="A cartoon of sitting on a **cod** (a type of fish in English). Cod → 9ad." >}}
 {{< /admonition >}}
 
+---
+{{< followit >}}
+
 {{< admonition type=example title="Sleeping — رقد (*r9ad*)" open=true >}}
 {{< image src="/sleep.jpeg" caption="A woman dancing in her sleep. In Hebrew, *rakkad* = “dance,” which sounds like *r9ad* (sleep). " >}}
 {{< /admonition >}}
@@ -150,3 +153,4 @@ It’s a scalpel, not a hammer. And it works.
 - Craik, F. I. M., & Lockhart, R. S. (1972). Levels of processing: A framework for memory research. *Journal of Verbal Learning and Verbal Behavior*, 11(6), 671–684. [PDF](https://wixtedlab.ucsd.edu/publications/Psych%20218/Craik_Lockhart_1972.pdf).  
 - Craik, F. I. M., & Tulving, E. (1975). Depth of processing and the retention of words. *JEP: General*, 104, 268–294. [PDF](https://alicekim.ca/CraikTulving1975.pdf).  
 - Paivio, A. (1990). *Mental Representations: A Dual Coding Approach.* Oxford University Press. [Google Books](https://books.google.com/books/about/Mental_Representations.html?id=hLGmKkh_4K8C).
+

@@ -13,6 +13,9 @@ tags: ["reflections", "self-improvement", "אלול", "קבלות"]
 
 Last Elul I decided to try to formally set goals for myself and document what happened. Here's are my thoughts on the results of my experience trying to change my behavior over last Elul. The details of the changes I was trying to make are [posted here](/post/elul-5783). The basic list was as follows:
 
+---
+{{< followit >}}
+
 1. Wake up and daven early.
 2. Read a _mussar_ (ethical teachings) book for at least 10 minutes a day.
 3. Keep up with daf hayomi.
@@ -80,3 +83,4 @@ Making an honest and objective assessment of your own limitations is important, 
 Instead, I think it more makes sense to **just pick one thing**, and track your incremental progress in that one thing over a longer period of time. That way you can adjust your expectations based on previous performance, instead of deep introspection. I think this is what I will do in my next experiment.
 
 Most of these insights are not super counterintuitive and some might even say they're 'common sense', and yet, here we are! 😅
+

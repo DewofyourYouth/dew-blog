@@ -13,6 +13,9 @@ draft: false
 
 I went to sleep late last night. I wasted time when waking up. I’m baruch Hashem davening with a minyan generally 3x a day. I did have time to learn some mussar before davening.
 
+---
+{{< followit >}}
+
 ## Sunday, September 3rd
 
 ### Morning
@@ -48,3 +51,4 @@ I'm going to WFH today, and I think also on Thursday. Better to be in a _shul_ f
 I caught up with Daf HaYomi today! 😌
 
 Here is a [link to the spreadsheet](https://docs.google.com/spreadsheets/d/1-_lmKdJ7ZpfgfUV1Gm1zYOW8gRP5b75D2Qj52uR6KuA/edit?usp=sharing).
+

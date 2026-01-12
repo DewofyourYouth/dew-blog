@@ -25,6 +25,9 @@ This Elul I’m going with a “one thing” approach: one practice, one log, an
 
 Template for each day:
 
+---
+{{< followit >}}
+
 ```frontmatter
 ---
 date: 2025-08-24
@@ -173,3 +176,4 @@ At the bottom of the page I keep the script I actually use, so the dashboard isn
 The point isn’t the charts. It’s that with automation in place, I don’t burn willpower on logistics. QuickAdd spawns the logs, Dataview aggregates them, ChartsView makes the streak obvious. My only job is to actually do the practice.
 
 And yes—it’s also just fun to nerd out.
+

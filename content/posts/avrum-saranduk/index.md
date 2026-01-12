@@ -22,6 +22,9 @@ As far as is known, no oral memories of him have been passed down. There is no p
 
 The most consistently documented Avrum Saranduk, and the direct ancestor of Hyman Shore, is found in the Revision Lists for Talne. He appears as Head of Household across nearly half a century:
 
+---
+{{< followit >}}
+
 1. **1850 Talnoye Revision List**: Avrum Saranduk appears at age 26 (b. ~1824), son of **Khaim Gersh**. His wife **Khaya** is age 23 (b. 1827). Two children are listed: **Malka** (age 6, b. 1844) and **Gersh** (age 1, b. 1849). This “Gersh” later appears as **Khaim Gersh (Hyman Shore)**.
 
 
@@ -136,3 +139,4 @@ Crucially, the records also preserve the memory of his daughters and sisters:
 These women do not reappear in oral history, and they left no descendants carrying the Saranduk/Shore surname. Without the Revision Lists, they would be lost to memory entirely.  
 
 Avrum’s story therefore underscores a broader truth of genealogical reconstruction: **female family members often vanish from collective memory once surnames change through marriage.** Careful attention to census evidence and collateral records allows their presence to be restored and acknowledged, ensuring the family story is not told solely through the men who carried the surname forward.
+

@@ -46,6 +46,9 @@ So the **Runekeeper** was summoned.
 
 1. First, he whispered to the cluster, summoning a base scroll from command:
 
+---
+{{< followit >}}
+
    ```bash
    kubectl create deployment holy-api \
      --image=<original-image> \
@@ -76,3 +79,4 @@ So the **Runekeeper** was summoned.
 Thus did `holy-api` ascend from impermanence to immortality.
 
 And in `/opt/course/9/holy-api-deployment.yaml`, the new order was etched. The Control Plane nodded. Etcd remembered.
+

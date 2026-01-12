@@ -35,6 +35,9 @@ Translation will be made available on [Daily Derja Substack](https://substack.co
 {{< image src="img/shorts.jpg" caption="Slightly wider view." optimise="true" width="400" linked="false">}}
 {{</ img-gallery>}}
 
+---
+{{< followit >}}
+
 ## Slihot Incentives
 
 {{< img-gallery >}}
@@ -71,3 +74,4 @@ Here are some other images at El Ghriba, just for fun:
 {{< image src="img/el-ghiba-bima.jpeg" width="500" >}}
 {{< image src="img/aron-kodesh.jpeg" width="500" >}}
 {{</ img-gallery >}}
+

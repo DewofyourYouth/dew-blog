@@ -16,4 +16,8 @@ tags:
 
 I am happy to inform all my readers (mostly myself 🤣) that I no will no longer do posting the daily derja here. From now on the posts will be made at my new site [The Daily Derja](https://www.dailyderja.com)! 
 
+---
+{{< followit >}}
+
 Enjoy!
+

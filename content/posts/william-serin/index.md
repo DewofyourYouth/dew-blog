@@ -18,6 +18,9 @@ tags:
 
 Among the Saranduk family, there is a notable pattern: over time, the surname Saranduk converges into Shore. This shift appears consistently across close relatives who are traceable through civil records, immigration documents, and family memory.
 
+---
+{{< followit >}}
+
 Velvel Saranduk is the only known exception within that immediately traceable group.
 
 While his siblings and cousins ultimately appear as Shore, Velvel does not. Instead, his line fractures differently — through a series of name adaptations that never resolve into the family’s eventual norm. If more distant relatives adopted other surnames, they are harder to trace; Velvel is unusual precisely because he is both close and divergent.
@@ -78,3 +81,4 @@ None of these details can be corroborated through records, and they should not b
 
 That this same informant recalled a relative insisting the surname was “French,” only to later acknowledge its Ukrainian origin, underscores the point. These are not deceptions so much as adaptations—attempts to render an inherited identity intelligible in a new context, long after the original reasons were forgotten.
 {{</ admonition>}}
+

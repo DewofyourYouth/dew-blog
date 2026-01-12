@@ -61,6 +61,9 @@ Some other notes:
 
 JewishGen recently entered some new Revision List records from Talna. A 1850 list shows that Hyman had an older sister named Malka who was 6 in 1850. There are also several records from 1897 that I will explore in a later post.
 
+---
+{{< followit >}}
+
 ## Children
 
 Hyman and Sarah had five children that we know of. 3 sons and 2 daughters. (Links will be added as pages are made.)
@@ -76,3 +79,4 @@ Hyman and Sarah had five children that we know of. 3 sons and 2 daughters. (Link
 ![Sarah Shore death certificate](sarah-shore.jpeg)
 ![Hyman Shore death certificate](hyman-shore.jpeg)
 ![Tombstone](hyman_sarah.jpeg)
+

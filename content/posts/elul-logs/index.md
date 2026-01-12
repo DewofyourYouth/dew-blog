@@ -17,6 +17,9 @@ I feel like there are a lot of times where I've made a deal with myself in the f
 
 ### August 20th
 
+---
+{{< followit >}}
+
 Today I woke up early and went to shul. Although there was a big gap between the waking up early and the going to shul. I woke up and was out of bed by 6:10 and then wasted time and watched youtube videos from then until 7:30. I had to daven at the 8:00 minyan.
 
 I was זוכה to learn a chapter of יתגבר כארי. \
@@ -101,3 +104,4 @@ Some notes about the data:
 | 12-Elul-5783 | 8/29/2023    | 1               | 1                           | 1              | 1      | 1          | 1       | 0              | Parashat Ki Tavo    |
 | 13-Elul-5783 | 8/30/2023    | 1               | 1                           | 1              | 0      | 1          | 1       | 1              | Parashat Ki Tavo    |
 | 14-Elul-5783 | 8/31/2023    | 1               | 1                           | -1             | 1      | 0          | 1       | 0              | Parashat Ki Tavo    |
+

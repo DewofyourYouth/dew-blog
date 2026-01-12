@@ -18,6 +18,9 @@ First update on progress on the Elul logs. I said I would do biweekly updates - 
 
 So far, I did the mediation 6x and missed one day (August 28). So my attendence is 86%.
 
+---
+{{< followit >}}
+
 {{<mermaid>}}pie
     "Done": 6
     "Missed": 1
@@ -57,3 +60,4 @@ You can rotate the three gifts each day. Keep them **small and specific** (a goo
 ---
 
 Good enough I suppose, but I'm started to think that perhaps the focus on the thankfulness need to preceded with the focus on the love - as well as at the end. Otherwise, it very much a "quid pro quo" sort of meditation. 
+

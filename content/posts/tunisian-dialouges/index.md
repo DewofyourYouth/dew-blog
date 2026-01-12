@@ -21,6 +21,9 @@ _**UPDATE May 30th, 2025**: I've added audio for the first dialogue. Feel free t
 
 A simple dialogue between Jacob and his friend Omar
 
+---
+{{< followit >}}
+
 _Jacob w sa7bou Omar yerte7ou fi 9ahwa ytkalmou m3 ba3dhom._
 
 | Dialogue | Audio |
@@ -58,3 +61,4 @@ _Jacob w sa7bou Omar yerte7ou fi 9ahwa ytkalmou m3 ba3dhom._
 - 💊 **Tbib**: Lazmek (dweyet plr of dwe) hedhouma ou tshrub ma barsha - w ma t9ribsh li l-9tates
 
 hedhouma = these  
+

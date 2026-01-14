@@ -2,11 +2,11 @@
 title: What Duolingo Doesn't Teach You About Turkish
 date: 2026-01-14T09:24:40+02:00
 tags:
-  - Turkish
-  - Language Learning
-  - Pronunciation
-  - Beginner
-  - Duolingo
+  - turkish
+  - language-learning
+  - pronunciation
+  - beginner
+  - duolingo
 draft: false
 categories:
   - Learning & Languages

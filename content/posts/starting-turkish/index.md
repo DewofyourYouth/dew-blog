@@ -2,11 +2,16 @@
 title: What Duolingo Doesn't Teach You About Turkish
 date: 2026-01-14T09:24:40+02:00
 tags:
+  - Turkish
+  - Language Learning
+  - Pronunciation
+  - Beginner
+  - Duolingo
 draft: false
 categories:
-  -   Learning & Languages
+  - Learning & Languages
 featuredImage: istanbul-airport.jpg
-summary:
+summary: A beginner-friendly Turkish phrase list with IPA cues, early pronunciation notes, and why Duolingo basics miss what you actually need first.
 series:
   - Turkish
 series_order: 1

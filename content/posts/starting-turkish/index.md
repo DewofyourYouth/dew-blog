@@ -65,6 +65,8 @@ For correct pronunciation, consult the IPA provided. If you don’t read IPA, yo
 | Hayır     | No              | /haˈjɯɾ/    | <audio controls src="audio/turkish-no.m4a"></audio>       |
 | Ne kadar? | How much?       | /ne kaˈdaɾ/ | <audio controls src="audio/turkish-how-much.m4a"></audio> |
 
+{{< followit >}}
+
 ### Politeness, Help, Clarification
 
 | Turkish                  | English Meaning               | IPA                             | Audio Recording                                                     |

@@ -13,6 +13,9 @@ tags:
 - norse-mythology
 - readiness-probe
 - liveness-probe
+series:
+- kubernetes
+series_order: 2
 draft: false
 ---
 

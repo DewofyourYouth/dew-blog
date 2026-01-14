@@ -151,3 +151,53 @@ img.home-logo:hover {
   object-fit: cover;
   vertical-align: bottom;
 }
+
+.content audio {
+  width: 100%;
+  max-width: 320px;
+  height: 36px;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 999px;
+  padding: 6px 10px;
+  background: linear-gradient(
+    135deg,
+    var(--bgColor-secondary) 0%,
+    var(--bgColor-default) 100%
+  );
+  border: 1px solid var(--borderColor-default);
+  box-shadow:
+    0 10px 22px rgba(0, 0, 0, 0.12),
+    inset 0 1px 0 rgba(255, 255, 255, 0.65);
+  accent-color: var(--fgColor-link);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.content audio:hover {
+  transform: translateY(-1px);
+  box-shadow:
+    0 14px 28px rgba(0, 0, 0, 0.18),
+    inset 0 1px 0 rgba(255, 255, 255, 0.75);
+}
+
+.content audio:focus-visible {
+  outline: 2px solid var(--fgColor-link);
+  outline-offset: 3px;
+}
+
+.content td audio {
+  width: 100%;
+  max-width: 200px;
+  min-width: 180px;
+}
+
+.content audio::-webkit-media-controls-panel {
+  background: transparent;
+}
+
+.content table th:last-child,
+.content table td:last-child {
+  min-width: 200px;
+}

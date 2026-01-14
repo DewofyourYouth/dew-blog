@@ -72,6 +72,12 @@ params:
     Ko-Fi: "dewofyouryouth"
     youtubechannel: "UC-rJLeLJVWLKQKnXyLkw3bw"
     instagram: "yaakshore"
+    substack:
+      url: "https://dailyderja.substack.com/"
+      title: "Substack"
+      weight: 12
+      icon:
+        Src: "/images/substack.svg"
     rss: "/index.xml"
     discord: "dew_of_your_youth"
 

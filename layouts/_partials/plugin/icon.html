@@ -1,0 +1,28 @@
+{{- with .Fontawesome -}}
+{{- partial "plugin/fontawesome.html" . -}}
+{{- else -}}
+{{- with .Simpleicons -}}
+{{ partial "plugin/simpleicons.html" . }}
+{{- else -}}
+{{- $src := .Src | default (index . "src") -}}
+{{- with $src -}}
+{{- $resource := resources.Get . -}}
+{{- if $resource -}}
+{{- $resource := $resource.Content -}}
+{{- $resource | replaceRE `<svg ` `<svg class="icon" ` | safeHTML -}}
+{{- else -}}
+{{- $src := strings.TrimPrefix "/" . -}}
+{{- $staticPath := printf "static/%s" $src -}}
+{{- if fileExists $staticPath -}}
+{{- $svg := readFile $staticPath -}}
+{{- $svg | replaceRE `<svg ` `<svg class="icon" ` | safeHTML -}}
+{{- else -}}
+{{- errorf "Icon does not exist %v" . -}}
+{{- end -}}
+{{- end -}}
+{{- end -}}
+{{- with .Class -}}
+{{- errorf "Deprecated %v" . -}}
+{{- end -}}
+{{- end -}}
+{{- end -}}

@@ -47,7 +47,7 @@ params:
   author:
     name: "Jacob Shore"
     link: "https://github.com/DewofyourYouth"
-    avatarUrl: "images/photo.jpeg"
+    avatarUrl: "images/profile-pic.jpg"
     blurb: "Hi, I'm Jacob. I'm a language nerd, developer, DevOps journeyman, and spiritual wanderer."
 
   home:

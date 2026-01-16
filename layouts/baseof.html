@@ -8,6 +8,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="robots" content="noodp" />
     <meta name="follow.it-verification-code" content="0x6Mf7NWX30PNQyhLmFn" />
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-PQNR8V4V");
+    </script>
+    <!-- End Google Tag Manager -->
     {{- /* Paginate  */ -}}
     {{- /* Paginate in here, To solve the problem of the canonical URL being the same in the pagination */ -}}
     {{- /* see more https://github.com/gohugoio/hugo/issues/4507 */ -}}
@@ -34,6 +48,16 @@
     data-instant-intensity="viewport"
     class="tw-flex tw-min-h-screen tw-flex-col"
   >
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-PQNR8V4V"
+        height="0"
+        width="0"
+        style="display:none;visibility:hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     {{- partial "theme.html" . -}}
     <div id="back-to-top"></div>
     <div id="mask"></div>

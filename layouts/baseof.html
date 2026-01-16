@@ -22,6 +22,25 @@
       })(window, document, "script", "dataLayer", "GTM-PQNR8V4V");
     </script>
     <!-- End Google Tag Manager -->
+    <script>
+      (function () {
+        function geoDone(country) {
+          window.dataLayer = window.dataLayer || [];
+          window.dataLayer.push({
+            event: "geo_ready",
+            geoCountry: country || "ZZ",
+          });
+        }
+
+        fetch("https://www.cloudflare.com/cdn-cgi/trace")
+          .then((r) => r.text())
+          .then((t) => {
+            const m = t.match(/loc=([A-Z]{2})/);
+            geoDone(m ? m[1] : "ZZ");
+          })
+          .catch(() => geoDone("ZZ"));
+      })();
+    </script>
     {{- /* Paginate  */ -}}
     {{- /* Paginate in here, To solve the problem of the canonical URL being the same in the pagination */ -}}
     {{- /* see more https://github.com/gohugoio/hugo/issues/4507 */ -}}

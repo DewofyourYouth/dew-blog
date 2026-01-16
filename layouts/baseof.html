@@ -8,20 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="robots" content="noodp" />
     <meta name="follow.it-verification-code" content="0x6Mf7NWX30PNQyhLmFn" />
-    <!-- Google Tag Manager -->
-    <script>
-      (function (w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
-        var f = d.getElementsByTagName(s)[0],
-          j = d.createElement(s),
-          dl = l != "dataLayer" ? "&l=" + l : "";
-        j.async = true;
-        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
-        f.parentNode.insertBefore(j, f);
-      })(window, document, "script", "dataLayer", "GTM-PQNR8V4V");
-    </script>
-    <!-- End Google Tag Manager -->
+
+    <!-- Geo detection (must come BEFORE GTM) -->
     <script>
       (function () {
         function geoDone(country) {
@@ -41,11 +29,23 @@
           .catch(() => geoDone("ZZ"));
       })();
     </script>
-    {{- /* Paginate  */ -}}
-    {{- /* Paginate in here, To solve the problem of the canonical URL being the same in the pagination */ -}}
-    {{- /* see more https://github.com/gohugoio/hugo/issues/4507 */ -}}
-    {{- /* see more https://discourse.gohugo.io/t/control-pagination-and-page-collections-from-baseof-html/37643/8 */ -}}
-    {{- /* see more https://discourse.gohugo.io/t/determine-if-current-page-is-result-of-pagination/37494/4 */ -}}
+
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-PQNR8V4V");
+    </script>
+    <!-- End Google Tag Manager -->
+
+    {{- /* Pagination workaround */ -}}
     {{- partial "head/paginator.html" . -}}
 
 

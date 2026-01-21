@@ -13,6 +13,7 @@ categories:
 featuredImage: honey.jpg
 summary: Elul logs - the next iteration!
 ---
+
 ## Elul: Full Circle
 
 Today is **Rosh Chodesh Elul**, which also marks this blog’s anniversary. I first began writing here to make a public record of the changes I wanted to pursue for Elul 5783 (2023). With the sudden passing of the Rosh Yeshiva זצ״ל, the blog also became a place to process that loss, which naturally broadened its scope.

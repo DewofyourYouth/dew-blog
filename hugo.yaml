@@ -1,4 +1,4 @@
-baseURL: "https://dewofyouryouth.com/"
+baseURL: "https://jacob-shore.com/"
 relativeURLs: false
 canonifyURLs: true
 title: "Dew of Your Youth"
@@ -56,7 +56,7 @@ params:
       title: "Dew of Your Youth"
       subtitle: "Language. Faith. Memory. Systems."
       description: "A blog about overthinking everything that matters (and some things that don't)."
-      avatarUrl: "https://www.dewofyouryouth.com/images/logo.png"
+      avatarUrl: "https://www.jacob-shore.com/images/logo.png"
       social: true
 
   header:

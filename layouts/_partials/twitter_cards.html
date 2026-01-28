@@ -37,6 +37,15 @@
         {{- end -}}
     {{- end -}}
 {{- end -}}
+{{- if .IsHome -}}
+    {{- with .Site.Params.header.logo -}}
+        {{- $imageURL = . | absURL -}}
+    {{- else -}}
+        {{- with .Site.Params.home.profile.avatarUrl -}}
+            {{- $imageURL = . | absURL -}}
+        {{- end -}}
+    {{- end -}}
+{{- end -}}
 
 <meta name="twitter:card" content="{{ if $imageURL }}summary_large_image{{ else }}summary{{ end }}">
 <meta name="twitter:title" content="{{ $title }}">

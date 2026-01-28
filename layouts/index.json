@@ -1,0 +1,52 @@
+{{- $items := slice -}}
+{{- $pages := where .Site.RegularPages "Section" "posts" -}}
+{{- range $pages -}}
+  {{- $params := .Params | merge $.Site.Params.page -}}
+  {{- $summary := .Summary | plainify | htmlUnescape | strings.TrimSpace -}}
+  {{- $date := .PublishDate | default .Date -}}
+
+  {{- $images := $params.seo.images | default slice -}}
+  {{- if not $images -}}
+    {{- with $params.featuredImage -}}
+      {{- $images = slice . -}}
+    {{- end -}}
+    {{- with $params.featuredImagePreview -}}
+      {{- $images = $images | append . -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if not $images -}}
+    {{- with .Resources.GetMatch "featured-image" -}}
+      {{- $images = slice "featured-image" -}}
+    {{- end -}}
+    {{- with .Resources.GetMatch "featured-image-preview" -}}
+      {{- $images = $images | append "featured-image-preview" -}}
+    {{- end -}}
+  {{- end -}}
+  {{- with .Site.Params.seo.image -}}
+    {{- $images = $images | default (slice .) -}}
+  {{- end -}}
+  {{- with .Site.Params.images -}}
+    {{- $images = $images | default . -}}
+  {{- end -}}
+
+  {{- $imageURL := "" -}}
+  {{- if gt (len $images) 0 -}}
+    {{- with index $images 0 -}}
+      {{- with dict "Path" . "Resources" $.Resources | partial "function/resource.html" -}}
+        {{- $imageURL = .Permalink -}}
+      {{- else -}}
+        {{- $imageURL = . | absURL -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- $items = $items | append (dict
+    "url" .Permalink
+    "title" .Title
+    "summary" $summary
+    "date" ($date.Format "2006-01-02T15:04:05Z07:00")
+    "featuredImage" $imageURL
+  ) -}}
+{{- end -}}
+
+{{- $items | jsonify | safeJS -}}

@@ -16,13 +16,17 @@ The hill is quiet, almost pristine, a stark contrast to the urban sprawl of Grea
 
 **To be a Jew is to be hopeful.**
 
-That’s it. That was the thought. Not much of a thought, really. What — you expecting a pithy, Nietzschean aphorism? 
+That’s it. That was the thought. Not much of a thought, really. What — you expecting a pithy, Nietzschean aphorism?
 
 For context, earlier that day I had watched an interview between Jonathan Sacerdoti and Martin Stern, a Holocaust survivor originally from the Netherlands.
 
 {{< youtube JQe8ZP9jGfE >}}
 
 Martin’s story is both harrowing and profound. But as the interview progressed, two things became clear. First, Martin identifies deeply as Jewish and with the plight of the Jewish people. Second, Martin is not (or at least, by all appearances at the time, was not) what we would call “halachically Jewish.”
+
+{{< admonition type=note title="Halachic Status" open=false >}}
+Jewish father, non-Jewish mother, no mention of a formal conversion process.
+{{< /admonition >}}
 
 That combination should feel strange. For some, it’s immediately disqualifying. If “Jewish” is a strictly defined category, and Martin doesn’t fall into it, then whatever else he may be—sympathetic, admirable, even heroic—he is not "one of us."
 

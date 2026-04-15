@@ -16,7 +16,7 @@ The hill is quiet, almost pristine, a stark contrast to the urban sprawl of Grea
 
 **To be a Jew is to be hopeful.**
 
-That’s it. That was the thought. Not much of a thought, really. What — you expecting a pithy, Nietzschean aphorism?
+That’s it. That was the thought. Not much of a thought, really. What — you were expecting a pithy, Nietzschean aphorism?
 
 For context, earlier that day I had watched an interview between Jonathan Sacerdoti and Martin Stern, a Holocaust survivor originally from the Netherlands.
 

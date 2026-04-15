@@ -52,7 +52,7 @@ params:
       title: "Dew of Your Youth"
       subtitle: "Language. Faith. Memory. Systems."
       description: "A blog about overthinking everything that matters (and some things that don't)."
-      avatarUrl: "https://www.jacob-shore.com/images/logo.png"
+      avatarUrl: "/images/logo.png"
       social: true
 
   header:

@@ -1,0 +1,57 @@
+{{- $params := .Scratch.Get "params" -}}
+{{- $title := .Title | default .Site.Title -}}
+{{- $desc := .Description | default .Summary | default .Site.Params.description -}}
+{{- $desc = $desc | plainify | htmlUnescape | strings.TrimSpace | truncate 200 -}}
+
+{{- $images := $params.seo.images | default slice -}}
+{{- if not $images -}}
+    {{- with $params.featuredImage -}}
+        {{- $images = slice . -}}
+    {{- end -}}
+    {{- with $params.featuredImagePreview -}}
+        {{- $images = $images | append . -}}
+    {{- end -}}
+{{- end -}}
+{{- if not $images -}}
+    {{- with .Resources.GetMatch "featured-image" -}}
+        {{- $images = slice "featured-image" -}}
+    {{- end -}}
+    {{- with .Resources.GetMatch "featured-image-preview" -}}
+        {{- $images = $images | append "featured-image-preview" -}}
+    {{- end -}}
+{{- end -}}
+{{- with .Site.Params.seo.image -}}
+    {{- $images = $images | default (slice .) -}}
+{{- end -}}
+{{- with .Site.Params.images -}}
+    {{- $images = $images | default . -}}
+{{- end -}}
+
+{{- $imageURL := "" -}}
+{{- if gt (len $images) 0 -}}
+    {{- with index $images 0 -}}
+        {{- with dict "Path" . "Resources" $.Resources | partial "function/resource.html" -}}
+            {{- $imageURL = .Permalink -}}
+        {{- else -}}
+            {{- $imageURL = . | absURL -}}
+        {{- end -}}
+    {{- end -}}
+{{- end -}}
+{{- if .IsHome -}}
+    {{- with .Site.Params.header.logo -}}
+        {{- $imageURL = . | absURL -}}
+    {{- else -}}
+        {{- with .Site.Params.home.profile.avatarUrl -}}
+            {{- $imageURL = . | absURL -}}
+        {{- end -}}
+    {{- end -}}
+{{- end -}}
+
+<meta name="twitter:card" content="{{ if $imageURL }}summary_large_image{{ else }}summary{{ end }}">
+<meta name="twitter:title" content="{{ $title }}">
+{{- with $desc -}}
+<meta name="twitter:description" content="{{ . }}">
+{{- end -}}
+{{- with $imageURL -}}
+<meta name="twitter:image" content="{{ . }}">
+{{- end -}}

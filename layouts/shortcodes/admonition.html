@@ -1,0 +1,15 @@
+{{- $type := cond .IsNamedParams (.Get "type") (.Get 0) | default "note" -}}
+{{- $title := cond .IsNamedParams (.Get "title") (.Get 1) | default (T $type) -}}
+{{- $open := true -}}
+{{- if .IsNamedParams -}}
+    {{- with .Get "open" -}}
+        {{- $open = . -}}
+    {{- end -}}
+{{- else -}}
+    {{- with .Get 2 -}}
+        {{- $open = . -}}
+    {{- end -}}
+{{- end -}}
+{{- partial "plugin/admonitionPre.html" (dict "Type" $type "Title" $title "Open" $open) -}}
+{{- .Inner | .Page.RenderString -}}
+{{- partial "plugin/admonitionPost.html" -}}

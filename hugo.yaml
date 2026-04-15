@@ -1,4 +1,4 @@
-baseURL: "https://dewofyouryouth.com/"
+baseURL: "https://jacob-shore.com/"
 relativeURLs: false
 canonifyURLs: true
 title: "Dew of Your Youth"
@@ -30,10 +30,6 @@ menu:
       name: Topics
       url: "/categories/"
       weight: 3
-    #    - identifier: genealogy
-    #      name: Lineage
-    #      url: "/categories/heritage--identity/"
-    #      weight: 4
     - identifier: dailyderja
       name: Daily Derja
       url: "https://dailyderja.com"
@@ -56,7 +52,7 @@ params:
       title: "Dew of Your Youth"
       subtitle: "Language. Faith. Memory. Systems."
       description: "A blog about overthinking everything that matters (and some things that don't)."
-      avatarUrl: "https://www.dewofyouryouth.com/images/logo.png"
+      avatarUrl: "/images/logo.png"
       social: true
 
   header:

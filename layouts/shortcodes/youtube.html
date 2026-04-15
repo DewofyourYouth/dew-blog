@@ -1,0 +1,153 @@
+{{- $id := cond .IsNamedParams (.Get "id") (.Get 0) -}}
+{{- $title := cond .IsNamedParams (.Get "title") (.Get 1) | default "YouTube video" -}}
+{{- $thumbnail := printf "https://i.ytimg.com/vi/%s/hqdefault.jpg" $id -}}
+{{- $embed := printf "https://www.youtube-nocookie.com/embed/%s?rel=0&modestbranding=1&playsinline=1&autoplay=1" $id -}}
+
+<figure class="youtube-shortcode" data-youtube-id="{{ $id }}">
+  <style>
+    .youtube-shortcode {
+      width: min(100%, 720px);
+      margin: 1.25rem auto;
+    }
+
+    .youtube-shortcode__trigger,
+    .youtube-shortcode__player {
+      position: relative;
+      display: block;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      overflow: hidden;
+      border: 1px solid var(--global-border-color);
+      border-radius: 12px;
+      background: var(--global-background-color);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    }
+
+    .youtube-shortcode__trigger {
+      border: 0;
+      padding: 0;
+      margin: 0;
+      appearance: none;
+      cursor: pointer;
+    }
+
+    .youtube-shortcode__trigger:hover .youtube-shortcode__thumbnail {
+      transform: scale(1.01);
+      filter: saturate(0.88) contrast(0.96) brightness(0.94);
+    }
+
+    .youtube-shortcode__thumbnail {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      filter: saturate(0.86) contrast(0.95) brightness(0.93);
+      transform: scale(1);
+      transition: transform 180ms ease, filter 180ms ease;
+    }
+
+    .youtube-shortcode__shade {
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(180deg, rgba(15, 23, 42, 0.06), rgba(15, 23, 42, 0.22)),
+        radial-gradient(circle at center, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0));
+      pointer-events: none;
+    }
+
+    .youtube-shortcode__badge {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      display: inline-flex;
+      align-items: center;
+      gap: 0.55rem;
+      padding: 0.62rem 0.92rem;
+      border-radius: 999px;
+      background: rgba(15, 23, 42, 0.62);
+      color: #fff;
+      font-size: 0.88rem;
+      font-weight: 600;
+      letter-spacing: 0.01em;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.14);
+      pointer-events: none;
+    }
+
+    .youtube-shortcode__badge::before {
+      content: "";
+      width: 0;
+      height: 0;
+      border-top: 0.34rem solid transparent;
+      border-bottom: 0.34rem solid transparent;
+      border-left: 0.55rem solid currentColor;
+      opacity: 0.9;
+    }
+
+    .youtube-shortcode__caption {
+      margin-top: 0.6rem;
+      font-size: 0.9rem;
+      color: var(--global-font-secondary-color);
+      text-align: center;
+    }
+
+    .youtube-shortcode iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+      display: block;
+    }
+  </style>
+
+  <button
+    type="button"
+    class="youtube-shortcode__trigger"
+    aria-label="Play {{ $title }}"
+    data-youtube-trigger
+  >
+    <img
+      class="youtube-shortcode__thumbnail"
+      src="{{ $thumbnail }}"
+      alt="{{ $title }}"
+      loading="lazy"
+      decoding="async"
+    />
+    <span class="youtube-shortcode__shade" aria-hidden="true"></span>
+    <span class="youtube-shortcode__badge" aria-hidden="true">Play</span>
+  </button>
+  <noscript>
+    <p class="youtube-shortcode__caption">
+      <a href="https://www.youtube.com/watch?v={{ $id }}" rel="noopener noreferrer" target="_blank">
+        Watch on YouTube
+      </a>
+    </p>
+  </noscript>
+
+  <script>
+    (() => {
+      const root = document.currentScript && document.currentScript.closest(".youtube-shortcode");
+      if (!root) return;
+
+      const trigger = root.querySelector("[data-youtube-trigger]");
+      if (!trigger) return;
+
+      trigger.addEventListener("click", () => {
+        const player = document.createElement("div");
+        player.className = "youtube-shortcode__player";
+        player.innerHTML = `
+          <iframe
+            src="{{ $embed }}"
+            title="{{ $title }}"
+            loading="lazy"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        `;
+        // Replace only the thumbnail, not the entire figure, so the styling remains in place.
+        trigger.replaceWith(player);
+      }, { once: true });
+    })();
+  </script>
+</figure>

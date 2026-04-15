@@ -82,7 +82,7 @@ featuredImage: papercut.jpg
 
 הם נסעו לארה״ב מנמל טרייסט - על האוניה S.S Gerty. הגיעו בספטבר 1904. במניפסט של הספינה, חיים הערש, ושמריה וכו׳ - כולם נרשמו כחייטים.
 
-![manifest.jpeg](https://www.dewofyouryouth.com/post/saranduk-ii/manifest_hu1ea1d65355e49b11b927b5b4374904c5_1073207_1600x0_resize_q75_box.jpeg)]
+![manifest.jpeg](https://www.jacob-shore.com/post/saranduk-ii/manifest_hu1ea1d65355e49b11b927b5b4374904c5_1073207_1600x0_resize_q75_box.jpeg)]
 
 חיים הירש היה ידוע בארה״ב בשם Hyman Shore (היימן שור). היה מוכר כאדם שקט, תלמיד חכם, וירא שמיים - התגורר בפרובידנס, רוד איילנד ופתח שם חנות קטנה. בתעודת המוות שלו כתוב שהיה grocer (בעל מכולת).
 
@@ -105,7 +105,7 @@ featuredImage: papercut.jpg
 
 #### שמריה שור
 
-![Sam Shore](https://www.dewofyouryouth.com/post/the-80th-yahrtzeit-of-sam-shore/sam-shore_hucc285fe646c1cf2f50517a32f5f556a3_407603_1024x0_resize_q75_box.jpg)
+![Sam Shore](https://www.jacob-shore.com/post/the-80th-yahrtzeit-of-sam-shore/sam-shore_hucc285fe646c1cf2f50517a32f5f556a3_407603_1024x0_resize_q75_box.jpg)
 
 שמריה שור, בנו הבכור של חיים הערש, הנודע בשם [[Sam Shore]] בארה״ב, נולד בשנת 1868 בעיר טולנה. היה שומר שבת ודתי, אפילו בארה״ב. גם היה לו כנראה, אישיות מאיימת. האזכרה ה80 שלו היתה בז׳ אייר בשנה הזאת (תשפ״ד).
 
@@ -203,7 +203,7 @@ featuredImage: papercut.jpg
 
 שמריה וטיובע התחתנו ב17 לאוגוסט (כ״ב אלול), שנת 1888 וקיימת ערך בCherkassy Church Books
 
-![Shmaria and Taube Wedding](https://www.dewofyouryouth.com/post/saranduk-iii/hebrewcloseup.png) ![Russian Side](https://www.dewofyouryouth.com/post/saranduk-iii/russiancloseup.png)
+![Shmaria and Taube Wedding](https://www.jacob-shore.com/post/saranduk-iii/hebrewcloseup.png) ![Russian Side](https://www.jacob-shore.com/post/saranduk-iii/russiancloseup.png)
 
 הצד העברי:
 

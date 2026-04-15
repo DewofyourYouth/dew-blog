@@ -1,0 +1,44 @@
+{{- $params := .Scratch.Get "params" -}}
+{{- $title := .Title | default .Site.Title -}}
+{{- $desc := .Description | default .Summary | default .Site.Params.description -}}
+{{- $desc = $desc | plainify | htmlUnescape | strings.TrimSpace -}}
+
+{{- $images := $params.seo.images | default slice -}}
+{{- if not $images -}}
+    {{- with $params.featuredImage -}}
+        {{- $images = slice . -}}
+    {{- end -}}
+    {{- with $params.featuredImagePreview -}}
+        {{- $images = $images | append . -}}
+    {{- end -}}
+{{- end -}}
+{{- if not $images -}}
+    {{- with .Resources.GetMatch "featured-image" -}}
+        {{- $images = slice "featured-image" -}}
+    {{- end -}}
+    {{- with .Resources.GetMatch "featured-image-preview" -}}
+        {{- $images = $images | append "featured-image-preview" -}}
+    {{- end -}}
+{{- end -}}
+{{- with .Site.Params.seo.image -}}
+    {{- $images = $images | default (slice .) -}}
+{{- end -}}
+{{- with .Site.Params.images -}}
+    {{- $images = $images | default . -}}
+{{- end -}}
+
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:url" content="{{ .Permalink }}">
+{{- with $desc -}}
+<meta property="og:description" content="{{ . }}">
+{{- end -}}
+{{- range $images -}}
+    {{- with dict "Path" . "Resources" $.Resources | partial "function/resource.html" -}}
+<meta property="og:image" content="{{ .Permalink }}">
+    {{- else -}}
+        {{- with . -}}
+<meta property="og:image" content="{{ . | absURL }}">
+        {{- end -}}
+    {{- end -}}
+{{- end -}}

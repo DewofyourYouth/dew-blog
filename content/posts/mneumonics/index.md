@@ -47,6 +47,7 @@ Here are three mnemonics I deliberately created for Tunisian Arabic words that w
 
 ### Why these three needed extra help (interference)
 These forms tripped me up because they’re **phonologically similar**: **9ad**, **r9ad**, **l9a**. The mnemonics are designed to **pull them apart**:
+
 - **9ad (sit)** ↔ **cod** (static, seated).
 - **r9ad (sleep)** ↔ **rakkad** (dance) → absurd *sleep-dance* image.
 - **l9a (find)** ↔ **Q magnifier + clicker** (explicit *search* + the final “click”).
@@ -123,10 +124,6 @@ Even if the cue is crude or clumsy, constructing it yourself embeds the word dee
 ## Iteration: keep or kill
 
 Not every mnemonic lands. If I still blank on a word despite the cue, I replace it. The goal isn’t an Anki deck of dead jokes—it’s to *tag* the unstickiest words with a signal strong enough that forgetting them is harder than remembering.
-
----
-
-
 
 ---
 {{< followit >}}

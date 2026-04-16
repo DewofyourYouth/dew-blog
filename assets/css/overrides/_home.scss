@@ -374,7 +374,9 @@ html.dark .home-post-cat {
 
 .home-post-title {
   font-family: var(--font-serif);
-  font-size: 1.05rem;
+  font-size: 1.45rem;
+  line-height: 1.3;
+  padding-bottom: 2px;
   text-decoration: none;
   color: var(--home-ink);
   display: -webkit-box;

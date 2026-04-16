@@ -64,6 +64,15 @@ params:
     enable: true
 
   social:
+    telegram:
+      url: "https://t.me/+muANXhcSRCdmMDA0"
+      weight: 1
+    whatsapp:
+      url: "https://whatsapp.com/channel/0029VbBwSpQ7tkjIkExMTA2e"
+      weight: 2
+    discord:
+      url: "https://discord.gg/mKGhJ3eQ"
+      weight: 3
     GitHub: "DewofyourYouth"
     Ko-Fi: "dewofyouryouth"
     youtubechannel: "UC-rJLeLJVWLKQKnXyLkw3bw"
@@ -75,7 +84,6 @@ params:
       icon:
         Src: "/images/substack.svg"
     rss: "/index.xml"
-    discord: "dew_of_your_youth"
 
   image:
     enable: true

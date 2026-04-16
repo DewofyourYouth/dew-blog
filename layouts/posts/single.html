@@ -231,6 +231,48 @@
             {{- dict "Content" .Content "Ruby" $params.ruby "Fraction" $params.fraction "Fontawesome" $params.fontawesome | partial "function/content.html" | safeHTML -}}
         </div>
 
+        {{- /* Author Box */ -}}
+        {{- if .Site.Params.author.blurb -}}
+        <div class="author-box tw-my-8 tw-p-6 tw-bg-gray-100 dark:tw-bg-gray-800 tw-rounded-lg tw-flex tw-flex-col sm:tw-flex-row tw-items-center sm:tw-items-start tw-gap-6 tw-mt-12">
+            <div class="tw-flex tw-flex-col tw-items-center sm:tw-items-start tw-w-full">
+                <h3 class="tw-text-xl tw-font-bold tw-mb-2 !tw-mt-0 tw-m-0">{{ .Site.Params.author.name }}</h3>
+                <p class="tw-text-gray-600 dark:tw-text-gray-400 tw-mb-4 tw-text-center sm:tw-text-left tw-m-0">{{ .Site.Params.author.blurb }}</p>
+                
+                {{- if .Site.Params.social -}}
+                <div class="author-social-links tw-flex tw-flex-wrap tw-gap-4 tw-mt-2 links">
+                    {{- $socialMap := resources.Get "data/social.yml" | transform.Unmarshal -}}
+                    {{- $socialArr := slice -}}
+                    {{- range $key, $value := .Site.Params.social -}}
+                        {{- $social := $key | lower | index $socialMap | default dict -}}
+                        {{- if $value -}}
+                            {{- if reflect.IsMap $value -}}
+                                {{- with $value.weight -}}{{- $social = dict "Weight" . | merge $social -}}{{- end -}}
+                                {{- with $value.prefix -}}{{- $social = dict "Prefix" . | merge $social -}}{{- end -}}
+                                {{- with $value.template -}}{{- $social = dict "Template" . | merge $social -}}{{- end -}}
+                                {{- with $value.id -}}{{- $social = dict "Id" . | merge $social -}}{{- end -}}
+                                {{- with $value.url -}}{{- $social = dict "Url" . | merge $social -}}{{- end -}}
+                                {{- with $value.title -}}{{- $social = dict "Title" . | merge $social -}}{{- end -}}
+                                {{- with $value.newtab -}}{{- $social = dict "Newtab" . | merge $social -}}{{- end -}}
+                                {{- with $value.icon -}}{{- $social = dict "Icon" . | merge $social -}}{{- end -}}
+                            {{- else if ne $value true -}}
+                                {{- $social = dict "Id" $value | merge $social -}}
+                            {{- end -}}
+                            {{- if $social.Icon.Simpleicons -}}
+                                {{- $prefix := ($.Scratch.Get "cdn" | default dict).simpleIconsPrefix -}}
+                                {{- $social = dict "Prefix" $prefix | dict "Icon" | merge $social -}}
+                            {{- end -}}
+                            {{- $socialArr = $socialArr | append $social -}}
+                        {{- end -}}
+                    {{- end -}}
+                    {{- range sort $socialArr "Weight" -}}
+                        {{- partial "plugin/social.html" . -}}
+                    {{- end -}}
+                </div>
+                {{- end -}}
+            </div>
+        </div>
+        {{- end -}}
+
         {{/* Related Content */}}
         {{- if $params.related.enable -}}
             {{- partial "related.html" . -}}

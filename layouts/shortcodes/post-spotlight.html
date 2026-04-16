@@ -18,7 +18,7 @@
 {{ else }}
   {{ $postUrl := $page.RelPermalink }}
   {{ $isExternal := false }}
-  {{ with $page.Params.externalUrl }}
+  {{ with $page.Params.externalurl }}
     {{ $postUrl = . }}
     {{ $isExternal = true }}
   {{ end }}

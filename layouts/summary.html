@@ -1,4 +1,10 @@
 {{- $params := .Params | merge .Site.Params.page -}}
+{{- $postUrl := .RelPermalink -}}
+{{- $isExternal := false -}}
+{{- with .Params.externalurl -}}
+    {{- $postUrl = . -}}
+    {{- $isExternal = true -}}
+{{- end -}}
 
 <article class="single summary">
     {{- /* Featured image */ -}}
@@ -8,7 +14,7 @@
     {{- end -}}
     {{- with $image -}}
         <div class="featured-image-preview">
-            <a href="{{ $.RelPermalink }}" aria-label={{ $.Title }}>
+            <a href="{{ $postUrl }}" {{ if $isExternal }}target="_blank" rel="noopener noreferrer"{{ end }} aria-label={{ $.Title }}>
                 {{ $optim := slice 
                     (dict "Process" "fill 800x240 Center webp q75" "descriptor" "800w")
                     (dict "Process" "fill 1200x360 Center webp q75" "descriptor" "1200w")
@@ -21,7 +27,7 @@
 
     {{- /* Title */ -}}
     <h1 class="single-title">
-        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        <a href="{{ $postUrl }}"{{ if $isExternal }} target="_blank" rel="noopener noreferrer"{{ end }}>{{ .Title }}</a>
     </h1>
 
     {{- /* Meta */ -}}
@@ -83,7 +89,7 @@
 
     {{- /* Footer */ -}}
     <div class="post-footer">
-        <a href="{{ .RelPermalink }}">{{ T "readMore" }}</a>
+        <a href="{{ $postUrl }}"{{ if $isExternal }} target="_blank" rel="noopener noreferrer"{{ end }}>{{ T "readMore" }}</a>
         {{- with .Params.tags -}}
             <div class="post-tags">
                 {{- partial "plugin/fontawesome.html" (dict "Style" "solid" "Icon" "tags") -}}&nbsp;

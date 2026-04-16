@@ -44,7 +44,7 @@ params:
     name: "Jacob Shore"
     link: "https://github.com/DewofyourYouth"
     avatarUrl: "images/profile-pic.jpg"
-    blurb: "Hi, I'm Jacob. I'm a language nerd, developer, DevOps journeyman, and spiritual wanderer."
+    blurb: "Hi, I'm Jacob. I'm a language nerd, developer, and spiritual wanderer."
 
   home:
     profile:
@@ -101,6 +101,16 @@ params:
     snippetLength: 30
     highlightTag: "em"
     absoluteURL: false
+    fuse:
+      isCaseSensitive: false
+      minMatchCharLength: 2
+      findAllMatches: false
+      location: 0
+      threshold: 0.1
+      distance: 100
+      ignoreLocation: true
+      useExtendedSearch: true
+      ignoreFieldNorm: false
 
   page:
     library:

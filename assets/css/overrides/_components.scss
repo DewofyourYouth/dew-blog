@@ -193,3 +193,12 @@ img.home-logo:hover {
 .content table td:last-child {
   min-width: 200px;
 }
+
+.header-title, .header-title a {
+  font-family: var(--font-serif) !important;
+}
+
+#header-desktop, #header-mobile {
+  top: 0;
+  width: 100%;
+}

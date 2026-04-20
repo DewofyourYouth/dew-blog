@@ -23,7 +23,13 @@
     {{- /* Resolve image (absolute URL + mime) */ -}}
     {{- $imgURL := "" -}}
     {{- $imgType := "image/jpeg" -}}
-    {{- with .Params.featuredImage }}{{- $imgURL = absURL . -}}{{- end -}}
+    {{- with .Params.featuredImage -}}
+      {{- if or (hasPrefix . "http://") (hasPrefix . "https://") (hasPrefix . "/") -}}
+        {{- $imgURL = absURL . -}}
+      {{- else -}}
+        {{- $imgURL = urls.JoinPath $.Permalink . -}}
+      {{- end -}}
+    {{- end -}}
     {{- if not $imgURL -}}
       {{- $imgs := where .Resources "ResourceType" "image" -}}
       {{- if gt (len $imgs) 0 -}}

@@ -51,13 +51,15 @@ A Divine voice emerged and declared that Ketia bar Shalom was destined for the W
 Rashi’s commentary makes the point sharper:
 > **Without the toll:** *Meaning, woe is you—since you are being killed because of them [Israel], and yet you have not circumcised yourself to receive your reward with them.*
 
-Ketia bar Shalom was not born a Jew. He was not, by any procedural standard, what we would call halachically Jewish. And yet, in the moment of his death, he identified himself completely with the Jewish people. 
+Ketia bar Shalom was not born a Jew. He was not, by any procedural standard, what we would call halachically Jewish. And yet, in the moment of his death, he identified himself completely with the Jewish people.
 
 The Gemara does not treat this as mere sympathy. It treats it as something far more consequential. The matron’s critique wasn't that he was an outsider looking in; it was that, having already cast his lot with the Jewish people through his suffering and his stance, he had not yet physically acknowledged the "tax" of a reality he already inhabited.
 
+{{< join-channels >}}
+
 ## The Map and the Terrain
 
-One can attempt to force this story back into a comfortable framework—to suggest there must have been a *beit din* present, or that this constitutes a *post-facto* halachic conversion. 
+One can attempt to force this story back into a comfortable framework—to suggest there must have been a *beit din* present, or that this constitutes a *post-facto* halachic conversion.
 
 But that reading feels less like an explanation and more like a defense mechanism. It assumes the categories must be complete, and that any deviation must be reconciled at all costs. 
 

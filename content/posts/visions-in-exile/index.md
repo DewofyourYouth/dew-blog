@@ -39,4 +39,4 @@ Rashi explains that the reason Rabbi Zeira wanted to forget the Torah of Babylon
 
 
 ---
-{{< followit >}}
+{{< join-channels >}}

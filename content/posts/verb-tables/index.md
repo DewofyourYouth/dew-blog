@@ -318,7 +318,7 @@ I will later make a post with cloze lists to test yourself.
 
 
 ---
-{{< followit >}}
+{{< join-channels >}}
 
 ## Explain – فهّم (fahhem)
 

@@ -25,7 +25,7 @@ So far, I did the mediation 6x and missed one day (August 28). So my attendence 
 
 
 ---
-{{< followit >}}
+{{< join-channels >}}
 
 ## Some Thoughts
 

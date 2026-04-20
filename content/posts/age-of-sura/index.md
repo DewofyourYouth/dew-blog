@@ -13,4 +13,4 @@ summary: "Draft notes on the question of Sarah's age and narrative timing in Cha
 ---
 
 ---
-{{< followit >}}
+{{< join-channels >}}

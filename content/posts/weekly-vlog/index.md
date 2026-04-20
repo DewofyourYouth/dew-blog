@@ -26,4 +26,4 @@ Photo by [Cristina Gottardi](https://unsplash.com/@cristina_gottardi?utm_content
 
 
 ---
-{{< followit >}}
+{{< join-channels >}}

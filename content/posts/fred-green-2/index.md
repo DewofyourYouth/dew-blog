@@ -33,7 +33,7 @@ There is a related episode in which the sounds of fighting upstairs alarmed the 
 
 None of this replaces documentary evidence. It records oral history tied to specific people and objects. If the Rambach photograph can be located, it would anchor these accounts to a concrete artifact produced by the same person at the center of them.
 
-{{< followit >}}
+{{< join-channels >}}
 
 ---
 

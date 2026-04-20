@@ -16,7 +16,7 @@ I feel like there are a lot of times where I've made a deal with myself in the f
 
 
 ---
-{{< followit >}}
+{{< join-channels >}}
 
 ## Kabbolos Day One
 

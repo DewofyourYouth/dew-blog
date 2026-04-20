@@ -50,7 +50,7 @@ The Rosh Yeshiva then decided that this was a teachable moment. For the next fiv
 
 
 ---
-{{< followit >}}
+{{< join-channels >}}
 
 ## The Mind’s Eye
 

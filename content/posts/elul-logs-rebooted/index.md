@@ -51,7 +51,7 @@ To make this resolution concrete, I plan to **log my daily gratitude meditation 
 
 
 ---
-{{< followit >}}
+{{< join-channels >}}
 
 ## Looking Ahead
 

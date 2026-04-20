@@ -113,4 +113,4 @@ The event was to occur August 17th, 1888.
 
 
 ---
-{{< followit >}}
+{{< join-channels >}}

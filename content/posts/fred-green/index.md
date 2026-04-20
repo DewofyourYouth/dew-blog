@@ -62,7 +62,7 @@ The variation between the surnames **Green** and **Greenberg** remains unclear. 
 
 
 ---
-{{< followit >}}
+{{< join-channels >}}
 
 ## Marriage, Career and Children
 

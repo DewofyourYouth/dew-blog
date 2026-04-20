@@ -113,7 +113,7 @@ You can tweak these styles to fit any theme.
 
 
 ---
-{{< followit >}}
+{{< join-channels >}}
 
 ## Why Not Use Raw HTML?
 

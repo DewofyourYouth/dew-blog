@@ -194,11 +194,232 @@ img.home-logo:hover {
   min-width: 200px;
 }
 
-.header-title, .header-title a {
+.header-title,
+.header-title a {
   font-family: var(--font-serif) !important;
 }
 
-#header-desktop, #header-mobile {
+#header-desktop,
+#header-mobile {
   top: 0;
   width: 100%;
 }
+
+/* ── Join-Channels Widget ─────────────────────────────────── */
+.join-channels {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding: 1.75rem 2rem;
+  border-radius: 18px;
+  margin: 1.5rem 0;
+  background:
+    radial-gradient(
+      circle at 0% 50%,
+      rgba(37, 211, 102, 0.13),
+      transparent 55%
+    ),
+    radial-gradient(
+      circle at 100% 50%,
+      rgba(42, 171, 238, 0.13),
+      transparent 55%
+    ),
+    var(--home-surface, #ffffff);
+  border: 1px solid var(--home-border, #e5e7eb);
+  box-shadow:
+    0 12px 32px rgba(15, 23, 42, 0.08),
+    inset 0 1px 0 rgba(255, 255, 255, 0.7);
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.45),
+      transparent 50%
+    );
+    pointer-events: none;
+  }
+}
+
+html.dark .join-channels {
+  background:
+    radial-gradient(
+      circle at 0% 50%,
+      rgba(37, 211, 102, 0.14),
+      transparent 55%
+    ),
+    radial-gradient(
+      circle at 100% 50%,
+      rgba(42, 171, 238, 0.14),
+      transparent 55%
+    ),
+    #111827;
+  border-color: rgba(148, 163, 184, 0.18);
+  box-shadow:
+    0 14px 36px rgba(2, 6, 23, 0.55),
+    inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+.join-channels-copy {
+  flex: 1;
+  min-width: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.join-channels-heading {
+  font-family: var(--font-serif);
+  font-size: 1.45rem;
+  font-weight: 700;
+  color: var(--home-ink, #1f2937);
+  margin: 0 0 0.35rem;
+}
+
+html.dark .join-channels-heading {
+  color: #e2e8f0;
+}
+
+.join-channels-sub {
+  font-family: var(--font-sans);
+  font-size: 0.92rem;
+  color: var(--home-muted, #6b7280);
+  margin: 0;
+  line-height: 1.5;
+}
+
+html.dark .join-channels-sub {
+  color: rgba(226, 232, 240, 0.65);
+}
+
+.join-channels-buttons {
+  display: flex;
+  gap: 0.75rem;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.join-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  padding: 0.65rem 1.25rem;
+  border-radius: 999px;
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  letter-spacing: 0.01em;
+  border: none;
+  cursor: pointer;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    filter 0.2s ease;
+  white-space: nowrap;
+}
+
+.join-btn:hover {
+  transform: translateY(-2px) scale(1.03);
+}
+
+.join-btn-icon {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
+
+.join-btn--whatsapp {
+  background: #25d366;
+  color: #fff !important;
+  box-shadow:
+    0 6px 18px rgba(37, 211, 102, 0.38),
+    0 2px 6px rgba(37, 211, 102, 0.22);
+}
+
+.join-btn--whatsapp:hover {
+  box-shadow:
+    0 12px 28px rgba(37, 211, 102, 0.5),
+    0 4px 10px rgba(37, 211, 102, 0.3);
+  filter: brightness(1.06);
+  color: #fff !important;
+}
+
+.join-btn--telegram {
+  background: #2aabee;
+  color: #fff !important;
+  box-shadow:
+    0 6px 18px rgba(42, 171, 238, 0.38),
+    0 2px 6px rgba(42, 171, 238, 0.22);
+}
+
+.join-btn--telegram:hover {
+  box-shadow:
+    0 12px 28px rgba(42, 171, 238, 0.5),
+    0 4px 10px rgba(42, 171, 238, 0.3);
+  filter: brightness(1.06);
+  color: #fff !important;
+}
+
+.join-btn--discord {
+  background: #5865f2;
+  color: #fff !important;
+  box-shadow:
+    0 6px 18px rgba(88, 101, 242, 0.38),
+    0 2px 6px rgba(88, 101, 242, 0.22);
+}
+
+.join-btn--discord:hover {
+  box-shadow:
+    0 12px 28px rgba(88, 101, 242, 0.5),
+    0 4px 10px rgba(88, 101, 242, 0.3);
+  filter: brightness(1.06);
+  color: #fff;
+}
+
+@media (max-width: 680px) {
+  .join-channels {
+    flex-direction: column;
+    text-align: center;
+    padding: 1.5rem 1.25rem;
+  }
+
+  .join-channels-buttons {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+/* Footer variant – compact */
+.join-channels.join-channels--footer {
+  margin: 0 0 1rem;
+}
+
+/* Stacked variant – for use inside post content (shortcode) */
+.join-channels.join-channels--stacked {
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding: 1.75rem 1.5rem;
+  gap: 1.25rem;
+}
+
+.join-channels.join-channels--stacked .join-channels-copy {
+  flex: 0 0 auto;
+}
+
+.join-channels.join-channels--stacked .join-channels-buttons {
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.join-channels.join-channels--stacked .join-btn {
+  padding: 0.6rem 1.1rem;
+  font-size: 0.85rem;
+}
+

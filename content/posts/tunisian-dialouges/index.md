@@ -49,7 +49,7 @@ _Jacob w sa7bou Omar yerte7ou fi 9ahwa ytkalmou m3 ba3dhom._
 
 
 ---
-{{< followit >}}
+{{< join-channels >}}
 
 ## Dialogue Two: Jacob at the Doctor
 

@@ -53,7 +53,7 @@ There is also a cost to revisionism that is too often ignored. Any serious attem
 
 
 ---
-{{< followit >}}
+{{< join-channels >}}
 
 ## The Rivash and a Third Path
 

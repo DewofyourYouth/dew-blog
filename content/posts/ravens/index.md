@@ -91,7 +91,7 @@ And thus did the ravens fly only over Midgard, that lesser realm of mortals and 
 
 
 ---
-{{< followit >}}
+{{< join-channels >}}
 
 ## Summary of the Raven-Eye
 

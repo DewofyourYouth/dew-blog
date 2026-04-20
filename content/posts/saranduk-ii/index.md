@@ -89,4 +89,4 @@ On a sadder note, the [Jewish cemetery in Torgovitsa](https://www.esjf-cemeterie
 
 
 ---
-{{< followit >}}
+{{< join-channels >}}

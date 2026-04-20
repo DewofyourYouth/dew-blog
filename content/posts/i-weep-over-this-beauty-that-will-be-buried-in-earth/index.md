@@ -51,7 +51,7 @@ The Rosh Yeshiva was not keen on people standing around in the Yeshiva lobby, dr
 
 
 ---
-{{< followit >}}
+{{< join-channels >}}
 
 ## The Shabbos Table
 

@@ -38,4 +38,4 @@ What comes out of the ר״ן is the following:
 
 
 ---
-{{< followit >}}
+{{< join-channels >}}

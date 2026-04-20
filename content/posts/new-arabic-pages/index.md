@@ -29,4 +29,4 @@ In the future, **Arabic notes will be hidden from the general homepage and feeds
 
 
 ---
-{{< followit >}}
+{{< join-channels >}}

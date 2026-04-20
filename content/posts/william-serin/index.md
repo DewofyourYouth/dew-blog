@@ -62,7 +62,7 @@ On his death certificate it says he had a Jewelry Shop in California. I don’t 
 
 
 ---
-{{< followit >}}
+{{< join-channels >}}
 
 ## Children
 

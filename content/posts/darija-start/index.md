@@ -23,7 +23,7 @@ _Edit: I made a shortcode for audio embeds, it does the trick for now 😊. I'm 
 
 
 ---
-{{< followit >}}
+{{< join-channels >}}
 
 ## Basic Greetings & Phrases
 

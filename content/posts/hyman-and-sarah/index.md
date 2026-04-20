@@ -63,7 +63,7 @@ JewishGen recently entered some new Revision List records from Talna. A 1850 lis
 
 
 ---
-{{< followit >}}
+{{< join-channels >}}
 
 ## Children
 

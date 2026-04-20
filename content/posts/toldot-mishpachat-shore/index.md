@@ -97,7 +97,7 @@ featuredImage: papercut.jpg
 
 
 ---
-{{< followit >}}
+{{< join-channels >}}
 
 ## צאצאיו של חיים הערש שור
 

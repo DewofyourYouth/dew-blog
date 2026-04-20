@@ -81,7 +81,7 @@ No one’s going to do this for you. And once your relatives are gone, their sto
 
 
 ---
-{{< followit >}}
+{{< join-channels >}}
 
 ## Ukrainian Revision Lists Entries
 

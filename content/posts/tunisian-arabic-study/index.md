@@ -45,7 +45,7 @@ What’s been more useful is the [Easy Tunisian Arabic](https://www.youtube.com/
 
 
 ---
-{{< followit >}}
+{{< join-channels >}}
 
 ## Obsidian
 

@@ -75,7 +75,7 @@ One of the unexpected fun parts of this process has been noticing how many words
 
 
 ---
-{{< followit >}}
+{{< join-channels >}}
 
 ## What’s Next?
 

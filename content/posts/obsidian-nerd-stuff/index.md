@@ -135,4 +135,4 @@ This is a snapshot of how I keep my thoughts organized, do research, and practic
 
 
 ---
-{{< followit >}}
+{{< join-channels >}}

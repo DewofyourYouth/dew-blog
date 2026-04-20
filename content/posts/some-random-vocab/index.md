@@ -34,4 +34,4 @@ For much of this my pronounciation is very off. I apologize for any confusion ca
 
 
 ---
-{{< followit >}}
+{{< join-channels >}}

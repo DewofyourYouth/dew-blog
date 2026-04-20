@@ -94,4 +94,4 @@ May her _neshama_ have an _aliyah!_ (May her soul be elevated!)
 
 
 ---
-{{< followit >}}
+{{< join-channels >}}

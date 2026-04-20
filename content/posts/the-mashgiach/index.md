@@ -46,4 +46,4 @@ Comments about the משגיח זצ״ל are welcomed below:
 
 
 ---
-{{< followit >}}
+{{< join-channels >}}

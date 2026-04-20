@@ -131,4 +131,4 @@ There are 2 generations of Shores buried in Lincoln Park Cemetery in Warwick, RI
 
 
 ---
-{{< followit >}}
+{{< join-channels >}}

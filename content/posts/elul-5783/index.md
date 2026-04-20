@@ -30,4 +30,4 @@ May we all merit to כתיבה וחתימה טובה for the coming year 5784!
 
 
 ---
-{{< followit >}}
+{{< join-channels >}}

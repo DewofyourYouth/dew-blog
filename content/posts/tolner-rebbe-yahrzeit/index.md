@@ -51,7 +51,7 @@ Faith—its central challenge and its necessity—runs through all of Reb Duvid 
 
 
 ---
-{{< followit >}}
+{{< join-channels >}}
 
 ## What I Hope They Remember
 

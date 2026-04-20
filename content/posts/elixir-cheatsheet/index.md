@@ -149,7 +149,7 @@ Key value data structure.
 
 
 ---
-{{< followit >}}
+{{< join-channels >}}
 
 ## Control Flow
 

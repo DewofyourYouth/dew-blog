@@ -55,4 +55,4 @@ featuredImage: hebron.jpeg
 
 
 ---
-{{< followit >}}
+{{< join-channels >}}

@@ -82,4 +82,4 @@ Most of these insights are not super counterintuitive and some might even say th
 
 
 ---
-{{< followit >}}
+{{< join-channels >}}

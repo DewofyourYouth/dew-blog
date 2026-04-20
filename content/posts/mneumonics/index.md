@@ -126,7 +126,7 @@ Even if the cue is crude or clumsy, constructing it yourself embeds the word dee
 Not every mnemonic lands. If I still blank on a word despite the cue, I replace it. The goal isn’t an Anki deck of dead jokes—it’s to *tag* the unstickiest words with a signal strong enough that forgetting them is harder than remembering.
 
 ---
-{{< followit >}}
+{{< join-channels >}}
 
 ## Bottom line
 

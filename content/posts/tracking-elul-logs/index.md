@@ -170,7 +170,7 @@ At the bottom of the page I keep the script I actually use, so the dashboard isn
 
 
 ---
-{{< followit >}}
+{{< join-channels >}}
 
 ## Why This Matters
 

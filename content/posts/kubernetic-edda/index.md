@@ -48,7 +48,7 @@ So the **Runekeeper** was summoned.
 
 
 ---
-{{< followit >}}
+{{< join-channels >}}
 
 ## The Ritual
 

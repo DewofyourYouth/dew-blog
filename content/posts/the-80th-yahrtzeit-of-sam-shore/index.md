@@ -152,7 +152,7 @@ Record of _Shmarya_ and _Taube_’s wedding in Talne from the community ledger i
 
 
 ---
-{{< followit >}}
+{{< join-channels >}}
 
 ## Children
 

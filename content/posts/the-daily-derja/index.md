@@ -19,4 +19,4 @@ Enjoy!
 
 
 ---
-{{< followit >}}
+{{< join-channels >}}

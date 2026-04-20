@@ -46,7 +46,7 @@ Tonight I would like to discuss three things with you:
 
 
 ---
-{{< followit >}}
+{{< join-channels >}}
 
 ## Don’t waste time talking with the cow
 

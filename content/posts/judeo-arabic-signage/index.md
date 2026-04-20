@@ -57,7 +57,7 @@ I removed the phone number because this is the internet—but if you’d like to
 {{</ img-gallery >}}
 
 ---
-{{< followit >}}
+{{< join-channels >}}
 
 ## Donations to El Ghriba
 

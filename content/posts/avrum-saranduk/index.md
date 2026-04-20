@@ -123,7 +123,7 @@ A plausible (not definitive) reconstruction:
 Because of the **Khvulya vs. Khaya Leya** conflict, this tree must be read as a working hypothesis, not a proven structure.
 
 ---
-{{< followit >}}
+{{< join-channels >}}
 
 ## Avrum Saranduk’s Enduring Legacy
 

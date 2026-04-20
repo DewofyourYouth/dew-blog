@@ -30,4 +30,4 @@ summary: "Hebrew notes critiquing R. Asher Weiss on shlichus in mitzvos from Yar
 
 
 ---
-{{< followit >}}
+{{< join-channels >}}

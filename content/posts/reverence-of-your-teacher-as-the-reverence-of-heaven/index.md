@@ -55,7 +55,7 @@ With the Rosh Yeshiva this was clear. Your fellow man was to be treated with dig
 
 
 ---
-{{< followit >}}
+{{< join-channels >}}
 
 ## Care for all Students
 

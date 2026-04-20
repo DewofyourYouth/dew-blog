@@ -18,7 +18,7 @@ featuredImage: feather.jpeg
 
 
 ---
-{{< followit >}}
+{{< join-channels >}}
 
 ## The Rif
 

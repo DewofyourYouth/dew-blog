@@ -41,7 +41,7 @@ My son is leining at school tomorrow morning. I had to help him. I ended up goin
 
 
 ---
-{{< followit >}}
+{{< join-channels >}}
 
 ## Monday, September 4th
 

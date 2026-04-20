@@ -418,8 +418,74 @@ html.dark .join-channels-sub {
   flex-wrap: wrap;
 }
 
-.join-channels.join-channels--stacked .join-btn {
-  padding: 0.6rem 1.1rem;
-  font-size: 0.85rem;
+/* Subscribe Modal */
+.subscribe-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+.subscribe-modal-overlay.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.subscribe-modal-container {
+  position: relative;
+  width: 90%;
+  max-width: 500px;
+  background: var(--home-surface, #ffffff);
+  border: 1px solid var(--home-border, #e9ecef);
+  border-radius: 1.5rem;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+  transform: translateY(20px);
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.subscribe-modal-overlay.active .subscribe-modal-container {
+  transform: translateY(0);
+}
+
+[data-theme='dark'] .subscribe-modal-container {
+  box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+}
+
+.subscribe-modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1.25rem;
+  font-size: 1.75rem;
+  line-height: 1;
+  color: var(--home-sub, #6c757d);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 10;
+  transition: color 0.2s ease;
+}
+
+.subscribe-modal-close:hover {
+  color: var(--home-heading, #212529);
+}
+
+.join-channels--modal {
+  margin: 0;
+  border: none;
+  padding: 2.5rem 1.5rem 2rem;
+  background: transparent;
+  box-shadow: none;
 }
 

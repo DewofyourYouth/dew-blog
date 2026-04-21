@@ -1,4 +1,5 @@
-baseURL: "https://jacob-shore.com/"
+baseURL: "https://dewofyouryouth.com/"
+timeout: 300s
 relativeURLs: false
 canonifyURLs: true
 title: "Dew of Your Youth"

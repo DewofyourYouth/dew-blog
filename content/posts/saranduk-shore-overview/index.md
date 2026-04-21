@@ -4,7 +4,6 @@ date: 2026-04-21T00:00:00+03:00
 draft: false
 categories:
   - Heritage & Identity
-
 tags:
   - genealogy
   - saranduk
@@ -12,7 +11,6 @@ tags:
   - talne
   - ukraine
   - providence
-
 summary: "A findings-focused guide to three years of Saranduk / Shore family research — what we now know, what was newly discovered, and what remains open."
 featuredImage: papercut.jpg
 lightgallery: true

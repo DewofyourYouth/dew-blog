@@ -146,7 +146,7 @@ They arrived on the S.S. Gerty in 1904. Hyman initially headed to Buffalo (to jo
 {{< image src="pessi-birth-record.png" caption="Cherkassy Church Book: birth of Pessi (Bessie Fishbein), July 1889" >}}
 {{</ img-gallery >}}
 
-**[Tillie](/post/tillie-beresovsky)** was born August 1, 1871, and came from the Katerynopil / Mokra Kaligorka area, a few hours from Talne. Her father Avraham Edel ran a tavern. A persistent family legend — recorded independently in both Rabbi Shmaria Shore's notes and Aunt Ruth's notes — holds that her mother **died on the boat to America** rather than eat non-kosher food, and that her body was brought to Israel for burial.
+**[Tillie](/post/tillie-beresovsky-shore-71st-yahrzeit)** was born August 1, 1871, and came from the Katerynopil / Mokra Kaligorka area, a few hours from Talne. Her father Avraham Edel ran a tavern. A persistent family legend — recorded independently in both Rabbi Shmaria Shore's notes and Aunt Ruth's notes — holds that her mother **died on the boat to America** rather than eat non-kosher food, and that her body was brought to Israel for burial.
 
 In Providence, Sam became a central figure in the immigrant Jewish community:
 

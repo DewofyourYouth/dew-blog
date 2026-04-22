@@ -49,7 +49,7 @@ I have translated some of the shorter signs as best as I could. Note that this i
 {{</ img-gallery>}}
 
 {{< translate >}}
-הסליחות חיתנששא | The slihot are being forgotten
+**הסליחות חיתנששא** | **The slihot are being forgotten**
 עלה האדא הרביין אלדי מלוזמין יצללו | all of the Rabbinical (students) must pray
 שחרית פישיבה | the morning prayers in Yeshiva.
 ינזזמו יקומו הסליחות וקת אלדי יחבבו | They can rise for slihot any time they please

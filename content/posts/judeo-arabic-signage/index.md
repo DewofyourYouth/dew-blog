@@ -55,7 +55,7 @@ I have translated some of the shorter signs as best as I could. Note that this i
 ינזזמו יקומו הסליחות וקת אלדי יחבבו | They can rise for slihot any time they please
 כאן כי צאלת רבי שלום | here at the Synagogue of Rebbe Shalom
 האו צלא טראבלסייה | or the Trablesia Synagogue
-והתלאמדה אלדי לאבשין תפילין | students who wear tefillin
+והתלאמדה אלדי לאבשין תפילין | and students who wear tefillin
 אלדי יקום הסליחות | when they come for slihot
 יאכד עשרה דינאר | they shall receive (take) ten dinar
 כל יום אלדי יקום | for each day they rise

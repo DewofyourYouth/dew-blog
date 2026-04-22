@@ -1,0 +1,84 @@
+{{- $lang := .Get "lang" | default "hebrew" -}}
+{{- $title := .Get "title" | default "" -}}
+{{- $rawLines := split (trim .Inner "\n") "\n" -}}
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+{{- if eq $lang "hebrew" -}}
+<link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&display=swap" rel="stylesheet" />
+{{- else if eq $lang "arabic" -}}
+<link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400..700&display=swap" rel="stylesheet" />
+{{- end -}}
+<style>
+  .translation-block {
+    border: 1px solid var(--global-border-color);
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 1.5rem 0;
+    font-size: 1rem;
+  }
+  .translation-block-title {
+    padding: 0.5rem 1rem;
+    background: var(--table-thead-color);
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--global-font-secondary-color);
+    border-bottom: 1px solid var(--global-border-color);
+  }
+  .translation-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 1px solid var(--global-border-color);
+  }
+  .translation-row:last-child {
+    border-bottom: none;
+  }
+  .translation-source {
+    padding: 0.7rem 1rem;
+    direction: rtl;
+    text-align: right;
+    background: var(--code-background-color);
+    color: var(--global-font-color);
+    line-height: 1.7;
+    border-right: 1px solid var(--global-border-color);
+  }
+  .translation-target {
+    padding: 0.7rem 1rem;
+    direction: ltr;
+    text-align: left;
+    color: var(--global-font-secondary-color);
+    line-height: 1.7;
+  }
+  .translation-block.lang-hebrew .translation-source {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 1.2em;
+  }
+  .translation-block.lang-arabic .translation-source {
+    font-family: 'Noto Naskh Arabic', serif;
+    font-size: 1.15em;
+  }
+  @media (max-width: 640px) {
+    .translation-row {
+      grid-template-columns: 1fr;
+    }
+    .translation-source {
+      border-right: none;
+      border-bottom: 1px solid var(--global-border-color);
+    }
+  }
+</style>
+<div class="translation-block lang-{{ $lang }}">
+  {{- if $title -}}
+  <div class="translation-block-title">{{ $title }}</div>
+  {{- end -}}
+  {{- range $rawLines -}}
+    {{- $parts := split . "|" -}}
+    {{- if ge (len $parts) 2 -}}
+    <div class="translation-row">
+      <div class="translation-target">{{ index $parts 1 | markdownify }}</div>
+      <div class="translation-source">{{ index $parts 0 | markdownify }}</div>
+    </div>
+    {{- end -}}
+  {{- end -}}
+</div>

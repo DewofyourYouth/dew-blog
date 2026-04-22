@@ -14,7 +14,15 @@ This page collects selected essays from my genealogical research.
 
 These posts are not exhaustive family trees, but case studies—built from records, memory, and the limits of both. I include only work where sources, uncertainties, and interpretive choices are made explicit.
 
-### Recent Work: Fred Green
+### Recent Work
+
+#### Saranduk / Shore Overview
+
+A findings-focused guide to three years of Saranduk / Shore family research — what we now know, what was newly discovered, and what remains open.
+
+{{< post-spotlight path="posts/saranduk-shore-overview" >}}
+
+#### Fred Green
 
 A focused reconstruction of Fredrick Philip Green’s life, tracing one family line across Sweden, Lithuania, and the United States, with attention to where records and family memory diverge.
 

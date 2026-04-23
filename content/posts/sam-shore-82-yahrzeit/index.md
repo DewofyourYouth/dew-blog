@@ -1,5 +1,5 @@
 ---
-title: "Sam Shore 82 Yahrzeit"
+title: "Sam Shore's 82 Yahrzeit: A Tale of a Spear and Emigration"
 date: 2026-04-23T20:11:34+03:00
 draft: false
 categories:
@@ -42,6 +42,8 @@ defense — and said:
 
 > “In America, we won’t need this.”
 
+---
+
 I find this story striking for a few reasons.
 
 The first is what it tells us about the conditions of Jewish life in the Pale of Settlement at the
@@ -51,16 +53,7 @@ Cherkassy region of Ukraine, was not a peaceful place for Jews in the 1890s and 
 Ukraine and Bessarabia. The first major Kishinev pogrom was in 1903; the family sailed on
 the S.S. Gerty in 1904. The *schpeze* was a practical object — and not an unusual one.
 
-The word itself is almost certainly Yiddish, likely derived from the German Spieß, meaning
-spear or pike. And spear-like weapons were a documented feature of Jewish self-defense in
-this exact region and period. In Yekaterinoslav — in the Dnieper region, not far from Talne —
-Jewish self-defense groups in the years between 1903 and 1905 had smithies fashion iron
-poles with spikes specifically for pogrom defense. A memoir from a Jewish farming colony in
-Ukraine from roughly the same era describes improvised weapons made from iron in the
-smithy: long-bladed pointed implements that the author noted were “difficult to define — it
-was unclear whether it was a knife or a spear.” The *schpeze* in the Saranduk family closet
-was not an eccentric artifact. It was what people kept — a direct consequence of the 660
-pogroms recorded across Ukraine and Bessarabia between 1903 and 1906 alone.
+The word itself is almost certainly Yiddish, likely derived from the German *Spieß*, meaning spear or pike. And spear-like weapons were a documented feature of [Jewish self-defense](https://judaism_enc.en-academic.com/17695/SELF-DEFENSE) in this exact region and period. In Yekaterinoslav — in the Dnieper region, not far from Talne — Jewish self-defense groups in the years between 1903 and 1905 had smithies fashion iron poles with spikes specifically for pogrom defense. A [memoir from a Jewish farming colony in Ukraine](https://www.jewishgen.org/yizkor/JewishFarmers/jew354.html) from roughly the same era describes improvised weapons made from iron in the smithy: long-bladed pointed implements that the author noted were "difficult to define — it was unclear whether it was a knife or a spear." The *schpeze* in the Saranduk family closet was not an eccentric artifact. It was what people kept — a direct consequence of the [660 pogroms recorded across Ukraine and Bessarabia](https://en.wikipedia.org/wiki/Pogroms_in_the_Russian_Empire) between 1903 and 1906 alone.
 
 The second is what it tells us about Shmaria. The notes I’ve collected describe a man who
 was forceful, intimidating, not easily cowed — someone who reportedly punched a horse (it
@@ -73,7 +66,6 @@ had real misgivings. Shmaria’s answer wasn’t a speech. He just went to the c
 We know how it ended: the S.S. Gerty manifest from September 1904 lists Chaim Hersch
 Saranduk, age 55, sailing alongside his son Schmarje and three generations of family,
 bound for America. His father got on the boat. The *schpeze* apparently stayed behind.
-
 
 What we know from the documents is consistent with it: Shmaria was the one who
 organized the emigration, who led three generations of Saranduks onto the S.S. Gerty, and

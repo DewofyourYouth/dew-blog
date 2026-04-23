@@ -16,7 +16,7 @@ featuredImage: "sam-shore-naturalization-1.jpg"
 
 Tonight, the 7th of Iyar, is the 82nd yahrtzeit of Shmariahu (Sam) Shore — my great-great
 grandfather, born in Talne, Ukraine in 1868, died in Providence, Rhode Island on April 30,
-1.    May his neshama have an aliyah.
+1944. May his neshama have an aliyah.
 
 Two years ago, I wrote a fuller account of his life for his [80th yahrtzeit](/post/the-80th-yahrtzeit-of-shmariahu-shore/) — his role as the first
 president of Sons of Jacob Synagogue, his founding of the Hebrew Free Loan Society and

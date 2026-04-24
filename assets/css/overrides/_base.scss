@@ -85,3 +85,16 @@ div.post-tags {
   min-width: 100% !important;
   max-width: 100% !important;
 }
+
+@media only screen and (max-width: 680px) {
+  main {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  .page {
+    width: calc(100% - 2rem) !important;
+    padding-left: 0.75rem !important;
+    padding-right: 0.75rem !important;
+  }
+}

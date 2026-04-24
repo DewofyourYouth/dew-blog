@@ -43,6 +43,7 @@ defense — and said:
 > “In America, we won’t need this.”
 
 ---
+{{< join-channels >}}
 
 I find this story striking for a few reasons.
 

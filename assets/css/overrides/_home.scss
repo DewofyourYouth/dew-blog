@@ -831,6 +831,19 @@ html.dark .home-social-links a:hover {
   .home-splash {
     padding: 2rem 0.6rem 2.5rem;
   }
+}
+
+@media only screen and (max-width: 680px) {
+  .home-splash {
+    border-radius: 0;
+    width: 100vw;
+    margin-left: -1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media (max-width: 720px) {
 
   .home-category-grid {
     grid-template-columns: 1fr;

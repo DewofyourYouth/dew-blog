@@ -87,14 +87,8 @@ div.post-tags {
 }
 
 @media only screen and (max-width: 680px) {
-  main {
+  .page:not(.home) {
     padding-left: 1rem !important;
     padding-right: 1rem !important;
-  }
-
-  .page {
-    width: calc(100% - 2rem) !important;
-    padding-left: 0.75rem !important;
-    padding-right: 0.75rem !important;
   }
 }

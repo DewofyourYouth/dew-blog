@@ -9,6 +9,7 @@ categories:
 
 featuredImage: "revision.jpg"
 summary: A source-driven reconstruction of Avrum Saranduk’s line, weighing Revision Lists from Talne and Torgovitsa and the open question of whether “Avrum Nikhem” is the same man.
+description: A source-driven reconstruction of Avrum Saranduk’s line — tracing the Saranduk family surname through 19th-century Revision Lists from Talne and Torgovitsa, Ukraine, and weighing whether “Avrum Nikhem” and Avrum of Talne are the same man.
 ---
 
 

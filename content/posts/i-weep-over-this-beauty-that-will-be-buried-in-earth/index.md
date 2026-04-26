@@ -1,12 +1,14 @@
 ---
 title: I Weep Over This Beauty That Will Be Buried in Earth
 summary: Memories of the Rosh Yeshiva זצ״ל, Part I
+description: Personal reflections on the passing of Rabbi Aaron Schechter זצ״ל, Rosh Yeshiva of Yeshivas Rabbeinu Chaim Berlin — memories of his character, his Torah, and the irreplaceable loss his passing represents.
 date: 2023-08-25T08:57:12+03:00
 featuredImage: cover.jpg
 tags:
+  - rabbi-aaron-schechter
   - rabbi-aaron-shechter
   - yeshivas-rabbeinu-chaim-berlin
-  - ראש-ישיבה
+  - Rosh-Yeshiva
   - memories
 draft: false
 categories:

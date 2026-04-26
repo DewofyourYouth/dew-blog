@@ -1,6 +1,7 @@
 ---
 title: Hyman & Sarah
 summary: A source-based sketch of Hyman and Sarah Shore, tracking census, manifest, and cemetery records while noting the inconsistencies in ages and dates across documents.
+description: A source-based reconstruction of Hyman Shore (Khaim Hersh Saranduk) and his wife Sarah — tracing the first Saranduk to emigrate from Talne, Ukraine to America through census, ship manifest, and cemetery records.
 date: 2023-12-10T08:38:40+02:00
 draft: false
 categories:

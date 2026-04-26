@@ -1,8 +1,10 @@
 ---
 title: Rebbe Meir From Behind
 summary: Memories of the Rosh Yeshiva זצ״ל, Part III
+description: Impressions of the Torah of Rabbi Aaron Schechter זצ״ל, Rosh Yeshiva of Yeshivas Rabbeinu Chaim Berlin — on learning from a great teacher, even from a distance, and the enduring impact of what one absorbs.
 date: 2023-08-29
 tags:
+  - rabbi-aaron-schechter
   - rabbi-aaron-shechter
   - yeshivas-rabbeinu-chaim-berlin
   - ראש-ישיבה

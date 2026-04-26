@@ -1,9 +1,11 @@
 ---
 title: The Reverence for your Teacher as the Reverence of Heaven
 summary: Memories of the Rosh Yeshiva זצ״ל, Part II
+description: Personal memories of Rabbi Aaron Schechter זצ״ל, Rosh Yeshiva of Yeshivas Rabbeinu Chaim Berlin — reflections on the awe he inspired and the lessons he taught about the relationship between a student and his teacher.
 date: 2023-08-27
 featuredImage: cover.jpg
 tags:
+  - rabbi-aaron-schechter
   - rabbi-aaron-shechter
   - yeshivas-rabbeinu-chaim-berlin
   - ראש-ישיבה

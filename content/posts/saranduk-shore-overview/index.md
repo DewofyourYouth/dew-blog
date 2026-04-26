@@ -12,6 +12,7 @@ tags:
   - ukraine
   - providence
 summary: "A findings-focused guide to three years of Saranduk / Shore family research — what we now know, what was newly discovered, and what remains open."
+description: "An overview of three years of Saranduk / Shore genealogical research — tracing the Saranduk family from Talne, Ukraine through immigration, name change to Shore, and settlement in America."
 featuredImage: papercut.jpg
 lightgallery: true
 toc: true

@@ -16,16 +16,7 @@ These posts are not exhaustive family trees, but case studies—built from recor
 
 ### Recent Work
 
-#### Saranduk / Shore Overview
-
-A findings-focused guide to three years of Saranduk / Shore family research — what we now know, what was newly discovered, and what remains open.
-
-{{< post-spotlight path="posts/saranduk-shore-overview" >}}
-
-#### Fred Green
-
-A focused reconstruction of Fredrick Philip Green’s life, tracing one family line across Sweden, Lithuania, and the United States, with attention to where records and family memory diverge.
-
+{{< post-spotlight path="posts/sam-shore-82-yahrzeit" >}}
 {{< post-spotlight path="posts/fred-green" >}}
 
 ### Yahrzeit Essays
@@ -35,9 +26,11 @@ Commemorative posts written on the yahrzeits of ancestors, using dates of rememb
 {{< post-spotlight path="posts/the-80th-yahrtzeit-of-sam-shore" >}}
 {{< post-spotlight path="posts/tillie-beresovsky" >}}
 
-###   The Saranduk Line
+###  The Saranduk Line
 
 Source-driven posts tracing the Saranduk family from Talne through migration, name change, and divergence, with an emphasis on what the records support and where they fall short.
+
+{{< post-spotlight path="posts/saranduk-shore-overview" >}}
 
 {{< post-spotlight path="posts/hyman-and-sarah" >}}
 {{< post-spotlight path="posts/avrum-saranduk">}}

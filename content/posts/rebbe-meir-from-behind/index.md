@@ -11,7 +11,7 @@ tags:
   - memories
 categories:
   - Faith & Practice
-
+featuredImage: rosh-yeshiva.png
 draft: false
 ---
 

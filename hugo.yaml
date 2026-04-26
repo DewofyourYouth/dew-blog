@@ -71,9 +71,6 @@ params:
     whatsapp:
       url: "https://whatsapp.com/channel/0029VbBwSpQ7tkjIkExMTA2e"
       weight: 2
-    discord:
-      url: "https://discord.gg/wZuMGdUr3H"
-      weight: 3
     GitHub: "DewofyourYouth"
     Ko-Fi: "dewofyouryouth"
     youtubechannel: "UC-rJLeLJVWLKQKnXyLkw3bw"

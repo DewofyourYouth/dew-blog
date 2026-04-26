@@ -11,6 +11,7 @@ date: 2023-09-13T12:33:32+03:00
 featuredImage: papercut.jpg
 draft: false
 summary: "Why Saranduk became Shore; matching the 1858 Talne census, 1904 Gerty manifest, and Lincoln Park burials."
+description: "Shore / Saranduk Family Part I: why Saranduk became Shore, matching the 1858 Talne census, the 1904 ship manifest, and Lincoln Park cemetery records."
 ---
 
 It would seem that in Ukraine our family name was Saranduk, but that this name was given by the Ukrainian ( or Russian ) authorities and used mostly for government documents etc. Not accepted by the family, who seemed to go by Shore.

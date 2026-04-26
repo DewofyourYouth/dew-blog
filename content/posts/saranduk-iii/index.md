@@ -11,6 +11,7 @@ categories:
   - Heritage & Identity
 
 summary: "1836–1889 Saranduk census entries and Cherkasy church records tracing Mordko and Nakhman branches."
+description: "Shore / Saranduk Family Part III: 1836–1889 census entries and Cherkasy church records tracing the Mordko and Nakhman branches of the Saranduk family."
 draft: false
 featuredImage: hebrewcloseup.png
 ---

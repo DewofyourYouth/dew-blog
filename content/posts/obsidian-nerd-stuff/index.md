@@ -14,6 +14,7 @@ categories:
 
 featuredImage: obsidian.jpg
 summary: Some tips and tricks I use with Obsidian. Plugin recommendations and workflows.
+description: "Plugin recommendations and workflow tips for Obsidian — how I use it for language study, genealogy notes, and daily habit tracking."
 ---
 ### Obsidian - The Secret Sauce
 Obsidian is a [Markdown-based](https://www.markdownguide.org/) note-taking application with a rich plugin ecosystem. This is one of my go-to tools for recording my thoughts and keeping track of things in my life. It also supports hyperlinking notes, so your notes are connected. Connected notes help you avoid "anti-patterns" like stuffing too much into a single note—so long you’ll never read it. You can also view your notes in "graph mode" to see the connections between them visually.         

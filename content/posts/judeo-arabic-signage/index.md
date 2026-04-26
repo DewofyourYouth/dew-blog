@@ -14,6 +14,7 @@ categories:
 
 featuredImage: "img/interior-el-ghriba.jpg"
 summary: "Some signage from my recent trip to Djerba"
+description: "Notes and photos from Djerba, Tunisia — Judeo-Arabic signage still in active use around the Hara Kabira Jewish quarter and El-Ghriba synagogue."
 lightgallery: true
 ---
 

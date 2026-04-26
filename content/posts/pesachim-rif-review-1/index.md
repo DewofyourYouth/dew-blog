@@ -1,6 +1,7 @@
 ---
 title: Pesachim Rif Review 1
 summary: Review of the basic obligation for checking for hametz according to the Rif and Ran.
+description: "Study notes on the Rif (Alfasi) and Ran on Pesachim — the halakhic framework and basic obligation for bedikat hametz before Passover."
 date: 2024-02-29T09:35:40+02:00
 draft: false
 categories:

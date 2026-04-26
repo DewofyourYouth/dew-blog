@@ -15,6 +15,7 @@ categories:
 
 featuredImage: notes.jpg
 summary: "For Nerds! Tracking Elul in Obsidian: Logs, Charts, and Scripts"
+description: "How I track Elul resolutions in Obsidian — QuickAdd buttons, Dataview charts, and a minimal logging setup that keeps the focus on showing up."
 ---
 
 This Elul I’m going with a “one thing” approach: one practice, one log, and a couple of charts that keep me honest. The goal is zero ceremony—hit a QuickAdd button, jot a line, and let Obsidian do the rest. Here’s the setup.

@@ -13,6 +13,7 @@ categories:
 
 featuredImage: dialogue1.png
 summary: Jacob meets a friend for coffee and visits the doctor
+description: "Two simple Tunisian Arabic dialogues — Jacob meets a friend for coffee and visits the doctor, with audio recordings for pronunciation practice."
 ---
 
 _**UPDATE May 30th, 2025**: I've added audio for the first dialogue. Feel free to correct my pronunciation in the comments._

@@ -4,6 +4,7 @@ date: 2024-05-14T12:27:47+03:00
 draft: false
 featuredImage: samShore.png
 summary: Marking Shmariahu (Sam) Shore’s 80th yahrtzeit with family recollections, community leadership, and sources on his Providence life and legacy.
+description: "Marking the 80th yahrzeit of Shmariahu (Sam) Shore — family recollections, his role in the Providence Jewish community, and genealogical sources."
 categories:
   - Heritage & Identity
 

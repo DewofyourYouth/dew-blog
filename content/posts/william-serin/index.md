@@ -7,6 +7,7 @@ categories:
   - Heritage & Identity
 lastMod: 2026-01-08T22:31:34+03:00
 summary: Tracing Velvel (Wolf/Volko) Saranduk from Talne to Buffalo and California, this post examines how one close branch of the Saranduk family diverged from the Shore surname, highlighting the limits and contingencies of genealogical reconstruction.
+description: "Tracing Velvel (Wolf) Saranduk from Talne to Buffalo and California — the one close branch of the Saranduk family who never became Shore."
 tags:
   - genealogy
   - saranduk

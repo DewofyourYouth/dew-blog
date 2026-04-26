@@ -7,6 +7,7 @@ categories:
   - Heritage & Identity
 
 summary: Remembering Taube (Tillie) Beresovsky Shore with family notes, migration records, and the tangled geography of her Ukrainian hometown.
+description: "Remembering Taube (Tillie) Beresovsky Shore on her 71st yahrzeit — migration records, family notes, and the geography of her Ukrainian hometown."
 tags:
   - genealogy
   - saranduk

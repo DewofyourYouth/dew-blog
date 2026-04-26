@@ -3,6 +3,7 @@ title: "New Daily Derja Site"
 date: 2025-08-07T18:06:05+03:00
 draft: false
 summary: "A new blog for the Daily Derja"
+description: "Announcing the Daily Derja — a dedicated site for daily Tunisian Arabic reflections, separate from this blog."
 featuredImage: tunisia.jpg
 categories:
   - Tech & Tools

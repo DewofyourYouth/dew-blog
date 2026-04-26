@@ -11,6 +11,7 @@ categories:
 
 featuredImage: israel.jpg
 summary: I will now start a weekly vlog in Hebrew - similar to what I do with the Daily Derja.
+description: "Starting a weekly Hebrew vlog — practicing language in public, getting comfortable on camera, and the reasoning behind deliberate imperfection."
 ---
 
 Recently, I started making a daily vlog in Derja (Tunisian Arabic) to force myself to use it every day. I have now decided that I will do this weekly for Hebrew. (I haven't yet determined the day of the week I'll be doing it on.)

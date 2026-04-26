@@ -1,6 +1,7 @@
 ---
 title: "Language Learning So Far"
 summary: "My methods for learning Arabic"
+description: "My Arabic learning approach one month in: the methods, apps, and habits that work for Darija and what doesn't transfer from other language study."
 date: 2025-03-20T11:07:22+02:00
 draft: false
 categories:

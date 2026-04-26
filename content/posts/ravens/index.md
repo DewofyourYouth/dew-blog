@@ -5,6 +5,7 @@ featuredImage: ravens.jpg
 categories:
   - Tech & Tools
 summary: "Book II of the Kubernetic Edda."
+description: "Book II of the Kubernetic Edda: Huginn and Muninn as Kubernetes readiness and liveness probes — on observability, health checks, and what it means to know."
 tags:
 - kubernetes
 - dev-ops

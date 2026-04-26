@@ -12,6 +12,7 @@ draft: false
 hidden: true
 featuredImage: dark-light.png
 summary: "Current Tunisian Arabic study stack: Anki workflows, mnemonics, Easy Tunisian Arabic, and Obsidian notes."
+description: "Current Tunisian Arabic study stack: Anki with spaced repetition, Easy Tunisian Arabic, mnemonic strategies, and Obsidian note workflows."
 ---
 
 ## Pivot to Tunisian

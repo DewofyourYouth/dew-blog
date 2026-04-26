@@ -15,6 +15,7 @@ series:
 series_order: 1
 featuredImage: kube.png
 summary: "Book I of The Kubernetic Edda, A Saga of YAML, Blood, and Eventual Consistency"
+description: "Book I of the Kubernetic Edda: a saga of Kubernetes, YAML, and Norse mythology — the journey from tangled EC2 infrastructure to declarative state."
 ---
 
 In times of old, where **Ymir** (the tangled, pre-containerized infrastructure) dwelt, nor sand nor sea, nor nodes nor pods existed. Not declarative state nor resilience. Only EC2 instances, crontabs, manual failovers, and nginx configs like spiderwebs.

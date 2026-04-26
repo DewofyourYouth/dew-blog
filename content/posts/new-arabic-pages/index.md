@@ -1,6 +1,7 @@
 ---
 title: "New Arabic Pages"
 summary: "An explanation of the new Arabic pages"
+description: "An update on where to find daily Tunisian Arabic reflections and study notes — the Daily Derja site and the Arabic notes collection."
 date: 2025-06-23T18:03:26+03:00
 lastmod: 2025-12-12
 featuredImage: ghriba.jpg

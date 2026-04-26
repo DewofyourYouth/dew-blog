@@ -1,6 +1,7 @@
 ---
 title: Elul Logs
 summary: Notes from Obsidian on Progress
+description: "Raw Obsidian notes from Elul 5783 — public accountability for resolutions on davening, mussar, and daily habits during the month before Rosh Hashana."
 tags: ["אלול", "קבלות", "self-improvement", "elul-logs", "introspection"]
 date: 2023-08-31T09:10:48+03:00
 categories:

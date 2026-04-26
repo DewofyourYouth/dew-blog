@@ -1,6 +1,7 @@
 ---
 title: "Elul 5783"
 summary: "Hope For The New Year"
+description: "My public Elul resolutions for 5783: davening early, daily mussar, daf yomi, and not lying — a contract with myself, documented for accountability."
 tags: ["אלול", "קבלות", "self-improvement", "introspection"]
 date: 2023-08-22T12:16:48+03:00
 featuredImage: honeycomb.jpg

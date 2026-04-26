@@ -11,6 +11,7 @@ categories:
   - Heritage & Identity
 
 summary: "1818/1836 Torgovitsa revision lists mapping Leyb → Mordko/Avrum lines and migration to Talne."
+description: "Shore / Saranduk Family Part II: the 1818 and 1836 Torgovitsa Revision Lists tracing the Leyb–Mordko–Avrum lines and the family's migration to Talne."
 featuredImage: manifest.jpeg
 ---
 

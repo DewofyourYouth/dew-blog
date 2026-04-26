@@ -4,6 +4,7 @@ date: 2026-01-09T14:13:45+02:00
 lastMod: 2026-01-09T14:13:45+02:00
 draft: false
 summary: "Family recollections about a missing Rambach portrait by Fred Green, his early work with Boston police photography, and his boxing ties, recorded as oral history pending documentation."
+description: "Oral history follow-up on Fred Green: family recollections of a missing Rambach portrait, his Boston police photography work, and boxing connections."
 categories:
   - Heritage & Identity
 featuredImage: featured.jpg

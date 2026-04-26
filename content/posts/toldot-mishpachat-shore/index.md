@@ -4,6 +4,7 @@ date: 2024-08-30T14:34:39+03:00
 draft: false
 direction: rtl
 summary: "סקירת מקורות ושושלת משפחת שור/סרנדוק מטולנה והעליות לארה\"ב."
+description: "A Hebrew-language overview of the Shore/Saranduk family lineage from Talne — genealogical sources, evidence, and documentation for future generations."
 categories:
   - Heritage & Identity
 

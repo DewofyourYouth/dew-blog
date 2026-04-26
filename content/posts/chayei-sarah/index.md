@@ -1,6 +1,7 @@
 ---
 title: Chayei Sara - 5784
 summary: Questions For Testing Yourself on the Parsha w/ Rashi and the Ramban
+description: "Self-test questions on Parshat Chayei Sarah with Rashi and Ramban — covering Sarah's age at death, her burial place, and the parsha's narrative structure."
 date: 2023-11-10T08:38:40+02:00
 draft: false
 languageDirection: rtl

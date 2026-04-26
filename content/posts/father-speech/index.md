@@ -1,6 +1,7 @@
 ---
 title: Don't Waste Time Talking With The Cow
 summary: A speech I gave at my son's bar mitzva. Originally delivered August 6th, 2023
+description: "A bar mitzva speech for my son Eliyahu — three life lessons wrapped in a story about a cow, a compliment, and speaking with intention."
 date: 2023-09-04T20:13:23+03:00
 draft: false
 categories:

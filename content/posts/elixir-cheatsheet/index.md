@@ -1,6 +1,7 @@
 ---
 title: "Elixir Cheatsheet"
 summary: Some Elixir basics (work in progress).
+description: "A working reference for Elixir basics: pattern matching, data types, functions, and BEAM idioms, built while exploring the language."
 date: 2024-06-02T16:31:26+03:00
 featuredImage: potion.jpg
 categories:

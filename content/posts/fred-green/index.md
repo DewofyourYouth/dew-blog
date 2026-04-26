@@ -23,6 +23,7 @@ summary: >
   A genealogical and family-history note on Fredrick Philip Green (Shraga Feivel),
   tracing his origins from Lithuania to Sweden and the United States, and
   distinguishing between documented records and family memory.
+description: "A genealogical profile of Fredrick Philip Green (1865–1939) — Boston photographer and ancestor traced through Lithuanian-Jewish immigration records."
 
 authors:
   - Jacob Shore

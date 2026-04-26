@@ -12,6 +12,7 @@ categories:
   - Learning & Languages
 featuredImage: istanbul-airport.jpg
 summary: A beginner-friendly Turkish phrase list with IPA cues, early pronunciation notes, and why Duolingo basics miss what you actually need first.
+description: "A beginner Turkish phrase list with IPA pronunciation cues — what Duolingo misses in its early lessons and what you actually need to know first."
 series:
   - Turkish
 series_order: 1

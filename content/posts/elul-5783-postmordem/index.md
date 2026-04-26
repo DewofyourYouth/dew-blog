@@ -2,6 +2,7 @@
 title: "Elul 5783 Postmortem"
 date: 2023-10-26T09:28:52+03:00
 summary: A postmortem on my attempt to change my habits over last Elul.
+description: "A postmortem on four Elul resolutions — what worked, what didn't, and the lesson that when it comes to change, less is more."
 categories:
   - Faith & Practice
 

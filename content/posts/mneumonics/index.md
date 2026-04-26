@@ -12,6 +12,7 @@ categories:
 
 featuredImage: find.jpeg
 summary: What I do when a word refuses to stick—why brute force fails, and how I hack the brain’s tagging system.
+description: "Why brute force vocabulary review fails, and how to hack your memory using the generation effect — mnemonic strategies for stubborn language-learning words."
 lastMod: 2025-08-28T13:00:51+03:00
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: Elul Logs II
 summary: More Notes from Obsidian on Progress
+description: "Daily notes from Elul 5783, Part II — tracking minyan attendance, mussar reading, and small habits during the Days of Awe."
 tags: ["אלול", "קבלות", "self-improvement", "elul-logs", "introspection"]
 date: 2023-09-04T08:10:48+03:00
 categories:

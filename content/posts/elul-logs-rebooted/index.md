@@ -12,6 +12,7 @@ categories:
 
 featuredImage: honey.jpg
 summary: Elul logs - the next iteration!
+description: "Returning to Elul logs in 5785 — one focused practice, a simple Obsidian tracking system, and what the previous attempt taught me."
 ---
 
 ## Elul: Full Circle

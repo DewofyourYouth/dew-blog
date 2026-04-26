@@ -14,6 +14,7 @@ categories:
 featuredImage: agent.jpg
 draft: false
 summary: "Hebrew notes critiquing R. Asher Weiss on shlichus in mitzvos from Yarchei Kallah 5784."
+description: "Hebrew notes from Ohr Somayach's Yarchei Kallah 5784 — critiquing Rabbi Asher Weiss on the concept of shlichus (agency) in mitzvos."
 ---
 
 ### כמה השגות והערות על דברי הרה״ג ר׳ אשר וויס שליט״א

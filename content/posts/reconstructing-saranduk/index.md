@@ -11,6 +11,7 @@ categories:
 
 draft: false
 summary: Some comments on the methodology of my genealogy research.
+description: "The methodology behind Saranduk–Shore genealogical research — using Revision Lists, immigration records, and skepticism to rebuild the family line."
 featuredImage: family-tree.png
 ---
 

@@ -14,6 +14,7 @@ categories:
 
 featuredImage: squirrel.jpg
 summary: Tunisian Arabic Verbs With Causative Forms
+description: "Tunisian Arabic verb tables for eat, feed, teach, and learn — including causative forms, with audio corrections from a native speaker."
 ---
 
 Update 1:  I went over all the verbs with a native speaker and made corrections. Added audio recordings for **some** verbs.

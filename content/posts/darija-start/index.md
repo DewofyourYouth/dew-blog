@@ -12,6 +12,7 @@ draft: false
 hidden: true
 featuredImage: morocco-boats.jpg
 summary: "Starter notes for Moroccan Darija with greetings, transliterations, and embedded audio."
+description: "Starter notes for Moroccan Darija — greetings, basic phrases, transliteration, and embedded audio for pronunciation practice."
 ---
 
 Recently, I've started trying to learn Darija, the Moroccan dialect of Arabic. I'm going to try to keep some of my notes here.

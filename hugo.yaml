@@ -41,6 +41,8 @@ outputs:
 params:
   version: "0.2.X"
 
+  description: "A blog by Jacob Shore about genealogy, language learning, faith, and software — tracing family history, studying Arabic, and thinking carefully about things that matter."
+
   author:
     name: "Jacob Shore"
     link: "https://github.com/DewofyourYouth"

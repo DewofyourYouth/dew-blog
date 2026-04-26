@@ -8,6 +8,7 @@ categories:
   - Faith & Practice
 tags: ["Halacha", "Identity", "Yom-HaShoah", "Beit-Shemesh", "Gemara"]
 summary: "A jog up Tel Yarmut sparks a reflection on the tension between halachic categories and the lived reality of Jewish destiny."
+description: "A Yom HaShoah reflection from a jog up Tel Yarmut: on the tension between halachic categories and the lived reality of Jewish destiny."
 ---
 
 Yesterday was Yom HaShoah. To clear my head, I went for a jog up Tel Yarmut—an archaeologically significant hill about five minutes from my home. It contains the ruins of a Bronze Age Canaanite city and even gets a passing mention in Joshua 10 as an Amorite city.

@@ -14,6 +14,7 @@ tags:
 featuredImage: "sam-shore-naturalization-1.jpg"
 toc: false
 summary: "A story about Shmariahu (Sam) Shore, his father, and a spear kept for self-defense in the Pale of Settlement."
+description: "Marking Sam Shore's 82nd yahrzeit — a story about Shmariahu Shore, a spear kept for self-defense in the Pale of Settlement, and his emigration from Talne."
 ---
 
 Tonight, the 7th of Iyar, is the 82nd yahrtzeit of Shmariahu (Sam) Shore — my great-great

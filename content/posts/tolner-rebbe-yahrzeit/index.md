@@ -12,6 +12,7 @@ categories:
 
 featuredImage: duvid-cover.jpg
 summary: A trip to Ashdod with my kids to celebrate the yahrzeit of the original Tolna Rebbe tz"l.
+description: "A trip with my sons to Ashdod for the yahrzeit of Reb Duvid Twersky of Talne — our family's roots in Tolna and a living Hasidic gathering."
 ---
 
 ## Setting Out for Ashdod

@@ -1,0 +1,27 @@
+{{- $index := slice -}}
+{{- range .Site.RegularPages.ByDate.Reverse -}}
+    {{- $page := . -}}
+    {{- $imageURL := "" -}}
+    {{- with .Params.featuredimage -}}
+        {{- if strings.HasPrefix . "http" -}}
+            {{- $imageURL = . -}}
+        {{- else -}}
+            {{- with $page.Resources.GetMatch . -}}
+                {{- $imageURL = .Permalink -}}
+            {{- else -}}
+                {{- $imageURL = . | absURL -}}
+            {{- end -}}
+        {{- end -}}
+    {{- end -}}
+    {{- $entry := dict
+        "date" (.Date.Format "2006-01-02T15:04:05Z07:00")
+        "externalUrl" .Params.externalUrl
+        "featured_image" $imageURL
+        "permalink" .Permalink
+        "summary" .Summary
+        "title" .Title
+        "url" .Permalink
+    -}}
+    {{- $index = $index | append $entry -}}
+{{- end -}}
+{{- $index | jsonify (dict "indent" "  ") | safeJS -}}

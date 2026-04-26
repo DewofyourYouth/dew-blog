@@ -493,14 +493,12 @@ html.dark .home-latest-aside {
   top: 1.8rem;
   left: calc(50% + 84px);
   transform: translateX(-50%) rotate(-15deg);
-  background: url("/images/background-logo.png") center / 300px no-repeat;
-  opacity: 0.16;
+  background: url("/images/logo.png") center / 300px no-repeat;
+  opacity: 0.32;
   pointer-events: none;
   z-index: 0;
-  filter: grayscale(1) brightness(0.4);
+  filter: grayscale(1) brightness(0.75);
   mix-blend-mode: multiply;
-  border-radius: 50%;
-  border: 1.5px solid rgba(15, 23, 42, 0.22);
 }
 
 .post-spotlight-media a {
@@ -844,7 +842,6 @@ html.dark .home-social-links a:hover {
 }
 
 @media (max-width: 720px) {
-
   .home-category-grid {
     grid-template-columns: 1fr;
   }

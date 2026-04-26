@@ -6,6 +6,8 @@ featuredImage: philip-netty.jpeg
 categories:
   - Heritage & Identity
 
+lightgallery: true
+
 tags:
   - genealogy
   - saranduk
@@ -59,8 +61,42 @@ I reached out to Norine Ginsburg, one of Philip and Netty’s descendants, she t
 >
 > I did ask my great aunt Thelma once when she was elderly about the ship ride, and she refused to talk about it. **NO** talk about her early childhood. Must have been rough. Well... no one ever mentioned it, just my mother when I asked about our history.
 
-![Clara Birth](clara-birth.png)![Tombstone Hebrew](tombstone.jpeg)![Tombstone English](tombstone-english.jpeg)![Philip Shore Tree](tree.jpg)![Philip and Netty Family](philip-netty.jpeg)![Philip Death Certificate](philip-full-death.jpg)![Philip's Death Certificate Detail](netty-death.png)![S.S. Majestic](majestic-passengers.jpg)
-![Philip Naturalization Index](philip-nat-index-1.jpg)![Philip name change](philip-nat-index-2.jpg)![Netty Naturalization Index](netty-nat-index-1.jpg)![Netty name change](netty-nat-index-2.jpg)
+## Family Photos
+
+{{< img-gallery >}}
+{{< image src="philip-netty.jpeg" caption="Philip and Netty Shore" >}}
+{{< image src="tree.jpg" caption="Philip Shore family tree" >}}
+{{</ img-gallery >}}
+
+## Cemetery
+
+{{< img-gallery >}}
+{{< image src="tombstone.jpeg" caption="Tombstone — Hebrew inscription" >}}
+{{< image src="tombstone-english.jpeg" caption="Tombstone — English inscription" >}}
+{{</ img-gallery >}}
+
+## Birth & Death Records
+
+{{< img-gallery >}}
+{{< image src="clara-birth.png" caption="Birth record of Clara Saranduk (later Irene Shore)" >}}
+{{< image src="philip-full-death.jpg" caption="Philip Shore — death certificate" >}}
+{{< image src="netty-death.png" caption="Netty Shore — death record detail" >}}
+{{</ img-gallery >}}
+
+## Immigration
+
+{{< img-gallery >}}
+{{< image src="majestic-passengers.jpg" caption="S.S. Majestic passenger list" >}}
+{{</ img-gallery >}}
+
+## Naturalization Records
+
+{{< img-gallery >}}
+{{< image src="philip-nat-index-1.jpg" caption="Philip — naturalization index" >}}
+{{< image src="philip-nat-index-2.jpg" caption="Philip — name change to Shore" >}}
+{{< image src="netty-nat-index-1.jpg" caption="Netty — naturalization index" >}}
+{{< image src="netty-nat-index-2.jpg" caption="Netty — name change to Shore" >}}
+{{</ img-gallery >}}
 
 
 ---

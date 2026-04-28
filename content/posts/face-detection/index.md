@@ -237,8 +237,7 @@ Loading the model inside the function works but reloads from disk on every call.
 {{< image src="bbq_yolo.png" >}}
 {{< / img-gallery >}}
 
-
-Note that YOLO detected other things in the BBQ image — sometimes inaccurately. For example, it labeled the rock we had out disposable grill on as a "dining table" at high confidence and a plate as a "cell phone" at low confidence.
+One thing I genuinely enjoyed about YOLO: it detects everything in the frame, not just faces. The BBQ image came back with people, cars, etc — and also a rock labeled "dining table" at high confidence, and a plate labeled "cell phone" at low confidence. It's hard not to find that charming.
 
 ## What I Learned
 
@@ -247,8 +246,6 @@ Haar cascades are worth understanding as a historical baseline — they explain 
 MediaPipe's BlazeFace is fast, handles real-world variation well, and works correctly once you get past the versioning issues and the BGR/RGB trap. The confidence threshold is a real parameter you have to tune per image context — 0.5 is a starting point, not a guarantee. For faces it can actually see, it works well. For faces that are heavily occluded or at extreme angles, no amount of threshold tuning will help.
 
 For detecting whether people are present at all, YOLO is more robust — it's looking for bodies, not faces, so pose and occlusion matter less.
-
-The woman in sunglasses gave every detector trouble. This seems correct.
 
 ---
 

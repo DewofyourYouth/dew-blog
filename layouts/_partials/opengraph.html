@@ -35,9 +35,14 @@
 {{- end -}}
 {{- range $images -}}
     {{- with dict "Path" . "Resources" $.Resources | partial "function/resource.html" -}}
-<meta property="og:image" content="{{ .Permalink }}">
-<meta property="og:image:width" content="{{ .Width }}">
-<meta property="og:image:height" content="{{ .Height }}">
+        {{- $ogImage := . -}}
+        {{- if and (ne .MediaType.SubType "svg") (ne .MediaType.SubType "gif") -}}
+            {{- $ogImage = .Process "jpeg q85" -}}
+        {{- end -}}
+<meta property="og:image" content="{{ $ogImage.Permalink }}">
+<meta property="og:image:width" content="{{ $ogImage.Width }}">
+<meta property="og:image:height" content="{{ $ogImage.Height }}">
+<meta property="og:image:type" content="{{ $ogImage.MediaType }}">
     {{- else -}}
         {{- with . -}}
 <meta property="og:image" content="{{ . | absURL }}">

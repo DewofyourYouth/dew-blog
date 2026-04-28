@@ -1,5 +1,5 @@
 <div class="img-gallery-wrapper">
-    <section class="img-gallery">
+    <section class="img-gallery{{ if .Get "uniform" }} uniform-height{{ end }}">
     {{ .Inner }}
 </section>
 </div>

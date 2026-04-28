@@ -37,13 +37,17 @@ Three test images: a woman in sunglasses sitting in a car ([photo by Michael Kyu
 {{< image src="bbq.jpeg" >}}
 {{< / img-gallery >}}
 
-One note on displaying images: OpenCV loads images in BGR format but matplotlib expects RGB. You'll see this everywhere:
+{{< admonition type="note" title="Note on Image Display" >}}
+OpenCV loads images in BGR format but matplotlib expects RGB. You'll see this everywhere:
 
 ```python
 plt.imshow(cv.cvtColor(image, cv.COLOR_BGR2RGB))
 ```
 
-The `[:, :, ::-1]` trick you might see elsewhere does the same thing but is harder to read. Use `cvtColor`. Your future self will thank you.
+The `[:, :, ::-1]` trick you might see elsewhere does the same thing but is harder to read. 
+
+Use `cvtColor`. Your future self will thank you.
+{{< /admonition >}}
 
 ## First Attempt: Haar Cascades
 

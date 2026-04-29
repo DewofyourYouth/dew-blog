@@ -89,7 +89,7 @@ Haar cascades still have legitimate uses — extremely resource-constrained hard
 
 
 {{< admonition type=note title="Postscript" >}}
-When writing this post the thought didn't dawn on, but upon further research 
+When writing this post the thought didn't dawn on me, but upon further research 
 I discovered that skin color is also a large factor.
 Haar Cascades failure to detect non-white people is one of the most documented biases in AI.
 {{< /admonition >}}

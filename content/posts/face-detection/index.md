@@ -87,6 +87,13 @@ The sunglasses made things worse. Eye detection is the backbone of Haar frontal 
 
 Haar cascades still have legitimate uses — extremely resource-constrained hardware, controlled environments with consistent lighting and angle, quick prototypes where you just need *something*. But for real-world images with real-world variation, they're the wrong tool.
 
+
+{{< admonition type=note title="Postscript" >}}
+When writing this post the thought didn't dawn on, but upon further research 
+I discovered that skin color is also a large factor.
+Haar Cascades failure to detect non-white people is one of the most documented biases in AI.
+{{< /admonition >}}
+
 ## MediaPipe: The Right Tool
 
 MediaPipe's BlazeFace model is what you actually want for face detection in the real world. Start by downloading the model:

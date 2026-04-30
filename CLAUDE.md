@@ -25,11 +25,13 @@ The site deploys automatically via GitHub Actions on push to `master`. The workf
 This is a Hugo static site using the **DoIt** theme (git submodule at `themes/DoIt`). The live site is at `https://dewofyouryouth.com/` and deployed to GitHub Pages.
 
 **Content** lives in:
+
 - `content/posts/` — 58+ blog posts, each as a directory bundle (`post-name/index.md` + assets)
 - `content/page/` — static pages (about, lineage, rabbi-aaron-schechter, tags)
 - Permalinks resolve to `/post/:slug`
 
 **Customization layers** (in order of specificity):
+
 1. `layouts/` — overrides theme templates. Includes `baseof.html`, `index.html`, `page.html`, `summary.html`, `taxonomy.html`, `term.html`, plus `_default/`, `_partials/`, `blog/`, and `posts/` subdirectories.
 2. `layouts/shortcodes/` — 17 custom shortcodes: `admonition`, `arabic-styles`, `arabic-title`, `audio`, `cloze-list`, `category-list`, `followit`, `img-gallery`, `join-channels`, `kofi-support`, `post-spotlight`, `reflection`, `tag-cloud`, `translate`, `youtube`, and others.
 3. `assets/css/` and `assets/js/site.js` — custom styles and JavaScript layered on top of the theme's Tailwind CSS v4.
@@ -45,6 +47,11 @@ This is a Hugo static site using the **DoIt** theme (git submodule at `themes/Do
 - The archetype at `archetypes/default.md` is the template for `hugo new`
 - Arabic/Hebrew content uses the `arabic-styles` and `arabic-title` shortcodes
 - Summary length is configured to 40 words; use `<!--more-->` to set a manual break
+- For image imports use the `image` shortcode with `src`, `alt`, and optional `caption` parameters
+- Grouped images can use the `img-gallery` shortcode with nested `image` shortcodes inside
+- Admonitions use the `admonition` shortcode with `type` (note, warning, etc.) and `title` parameters - don't just put a bold **NOTE** or alike in the text.
+- Insert one `join-channels` shortcode at a natural place in each post to promote newsletter and social media channels.
+- There are four categories: `Language Learning`, `Genealogy`, `Faith / Torah`, and `Tech`. Each has a distinct tone and style (see below). Posts should be tagged with relevant keywords for search and filtering.
 
 ## Voice and Style Guide
 
@@ -67,13 +74,13 @@ This blog has a consistent, distinctive voice. When editing titles, summaries, o
 
 ### Tone by category
 
-| Category | Register |
-| --- | --- |
-| Language learning | Assertive, slightly iconoclastic — challenges conventional approaches |
-| Genealogy | Scholarly, detective-like; data before interpretation; uncertainty acknowledged |
-| Faith / Torah | Reverent and intellectually rigorous; Talmudic structure; intimate memoir moments |
-| Tech | Playfully irreverent; self-aware nerdiness; humor makes technical content approachable |
-| Personal / memoir | Intimate without being indulgent; vulnerability in service of a broader principle |
+| Category          | Register                                                                               |
+| ----------------- | -------------------------------------------------------------------------------------- |
+| Language learning | Assertive, slightly iconoclastic — challenges conventional approaches                  |
+| Genealogy         | Scholarly, detective-like; data before interpretation; uncertainty acknowledged        |
+| Faith / Torah     | Reverent and intellectually rigorous; Talmudic structure; intimate memoir moments      |
+| Tech              | Playfully irreverent; self-aware nerdiness; humor makes technical content approachable |
+| Personal / memoir | Intimate without being indulgent; vulnerability in service of a broader principle      |
 
 ### Signature moves to preserve
 

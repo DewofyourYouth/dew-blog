@@ -44,9 +44,7 @@ OpenCV loads images in BGR format but matplotlib expects RGB. You'll see this ev
 plt.imshow(cv.cvtColor(image, cv.COLOR_BGR2RGB))
 ```
 
-The `[:, :, ::-1]` trick you might see elsewhere does the same thing but is harder to read. 
-
-Use `cvtColor`. Your future self will thank you.
+The `[:, :, ::-1]` trick you might see elsewhere does the same thing but is harder to read. Use `cvtColor` — your future self will thank you.
 {{< /admonition >}}
 
 ## First Attempt: Haar Cascades
@@ -88,10 +86,8 @@ The sunglasses made things worse. Eye detection is the backbone of Haar frontal 
 Haar cascades still have legitimate uses — extremely resource-constrained hardware, controlled environments with consistent lighting and angle, quick prototypes where you just need *something*. But for real-world images with real-world variation, they're the wrong tool.
 
 
-{{< admonition type=note title="Postscript" >}}
-When writing this post the thought didn't dawn on me, but upon further research 
-I discovered that skin color is also a large factor.
-Haar Cascades failure to detect non-white people is one of the most documented biases in AI.
+{{< admonition type="note" title="Postscript" >}}
+I didn't think about it while running these experiments, but upon further research I discovered that skin tone is also a significant factor. Haar Cascades' failure to detect darker-skinned faces is one of the most well-documented examples of bias in computer vision.
 {{< /admonition >}}
 
 ## MediaPipe: The Right Tool
@@ -248,7 +244,7 @@ Loading the model inside the function works but reloads from disk on every call.
 {{< image src="bbq_yolo.png" >}}
 {{< / img-gallery >}}
 
-One thing I genuinely enjoyed about YOLO: it detects everything in the frame, not just faces. The BBQ image came back with people, cars, etc — and also a rock labeled "dining table" at high confidence, and a plate labeled "cell phone" at low confidence. It's hard not to find that charming.
+One thing I genuinely enjoyed about YOLO: it detects everything in the frame, not just faces. The BBQ image came back with people, chairs, food — and also a rock labeled "dining table" at high confidence, and a plate labeled "cell phone" at low confidence. It's hard not to find that charming.
 
 ## What I Learned
 
@@ -258,6 +254,8 @@ MediaPipe's BlazeFace is fast, handles real-world variation well, and works corr
 
 For detecting whether people are present at all, YOLO is more robust — it's looking for bodies, not faces, so pose and occlusion matter less.
 
+The woman in sunglasses gave every detector trouble. This seems correct.
+
 ---
 
-*Photo credits: [Michael Kyule](https://unsplash.com/@madness_leahcim_) on Unsplash (woman image). [Land O'Lakes, Inc.](https://unsplash.com/@landolakes) on Unsplash (couple image). BBQ image: personal.*
+*Photo credits: [Michael Kyule](https://unsplash.com/@madness_leahcim_) on Unsplash (woman image). [Land O'Lakes, Inc.](https://unsplash.com/@landolakesinc) on Unsplash (couple image). BBQ image: personal.*

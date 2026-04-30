@@ -254,8 +254,6 @@ MediaPipe's BlazeFace is fast, handles real-world variation well, and works corr
 
 For detecting whether people are present at all, YOLO is more robust — it's looking for bodies, not faces, so pose and occlusion matter less.
 
-The woman in sunglasses gave every detector trouble. This seems correct.
-
 ---
 
 *Photo credits: [Michael Kyule](https://unsplash.com/@madness_leahcim_) on Unsplash (woman image). [Land O'Lakes, Inc.](https://unsplash.com/@landolakesinc) on Unsplash (couple image). BBQ image: personal.*

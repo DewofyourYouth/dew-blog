@@ -24,7 +24,7 @@ seo:
     - "tts-post.jpg"
 ---
 
-How does one order coffee in Levantine Arabic? It turns out the answer is not as simple as it seems. This is the story about how I made Arabic audio work in Haki, the challenges I faced, and why it is still not perfect.
+How does one order coffee in Levantine Arabic? It turns out the answer is not as simple as it seems. This is the story about how I made Arabic audio work in [Haki](https://haki-game.com), the challenges I faced, and why it is still not perfect.
 
 When I first added pronunciation audio to Haki, I did the obvious thing:
 

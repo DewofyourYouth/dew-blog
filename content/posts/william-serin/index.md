@@ -1,5 +1,7 @@
 ---
 title: A Wolf Who Did Not Become Shore
+aliases:
+  - "/post/william-serin/"
 date: 2024-05-12T22:31:34+03:00
 draft: false
 featuredImage: WolkoSarandukRevisionList.png
@@ -83,4 +85,3 @@ None of these details can be corroborated through records, and they should not b
 
 That this same informant recalled a relative insisting the surname was “French,” only to later acknowledge its Ukrainian origin, underscores the point. These are not deceptions so much as adaptations—attempts to render an inherited identity intelligible in a new context, long after the original reasons were forgotten.
 {{</ admonition>}}
-

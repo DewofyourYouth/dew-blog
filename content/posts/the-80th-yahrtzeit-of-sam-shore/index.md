@@ -1,5 +1,7 @@
 ---
 title: "The 80th Yahrtzeit of Shmariahu Shore"
+aliases:
+  - "/post/the-80th-yahrtzeit-of-sam-shore/"
 date: 2024-05-14T12:27:47+03:00
 draft: false
 featuredImage: samShore.png
@@ -173,4 +175,3 @@ This is the death certificate for Sam Shore:
 The death certificate contains various inaccuracies. 
 For example, there is a fair amount of proof that his mother's maiden name was not Grossman.
 Sam had a sister (Tillie) whose married name was Grossman. His mother's maiden name was Mamorofsky (based on her death certificate).
-

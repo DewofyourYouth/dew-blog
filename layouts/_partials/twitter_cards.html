@@ -31,22 +31,16 @@
 {{- if gt (len $images) 0 -}}
     {{- with index $images 0 -}}
         {{- with dict "Path" . "Resources" $.Resources | partial "function/resource.html" -}}
-            {{- $imageURL = .Permalink -}}
+            {{- if and (ne .MediaType.SubType "svg") (ne .MediaType.SubType "gif") -}}
+                {{- $imageURL = (.Process "jpeg q85").Permalink -}}
+            {{- else -}}
+                {{- $imageURL = .Permalink -}}
+            {{- end -}}
         {{- else -}}
             {{- $imageURL = . | absURL -}}
         {{- end -}}
     {{- end -}}
 {{- end -}}
-{{- if .IsHome -}}
-    {{- with .Site.Params.header.logo -}}
-        {{- $imageURL = . | absURL -}}
-    {{- else -}}
-        {{- with .Site.Params.home.profile.avatarUrl -}}
-            {{- $imageURL = . | absURL -}}
-        {{- end -}}
-    {{- end -}}
-{{- end -}}
-
 <meta name="twitter:card" content="{{ if $imageURL }}summary_large_image{{ else }}summary{{ end }}">
 <meta name="twitter:title" content="{{ $title }}">
 {{- with $desc -}}

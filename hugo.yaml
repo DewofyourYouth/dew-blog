@@ -11,8 +11,6 @@ defaultTheme: "dark"
 optimizeImages: true
 # Theme (modules: remove this and use [module] instead)
 theme: "DoIt"
-images:
-  - "img/avatar.png"
 permalinks:
   posts: "/post/:slug"
 
@@ -36,6 +34,9 @@ outputs:
 
 params:
   version: "0.2.X"
+
+  images:
+    - "images/card.jpg"
 
   description: "A blog by Jacob Shore about genealogy, language learning, faith, and software — tracing family history, studying Arabic, and thinking carefully about things that matter."
 

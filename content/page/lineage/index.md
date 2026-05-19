@@ -1,6 +1,7 @@
 ---
 title: "Lineage"
 description: "Curated genealogical essays tracing the Shore and Saranduk family from Talne, Ukraine through immigration and name change — source-driven posts that make uncertainties explicit."
+summary: "Case studies in family history — Shore and Saranduk ancestry traced from Talne, Ukraine through immigration, name change, and dispersal. Sources cited, uncertainties acknowledged."
 date: 2026-01-09T14:41:31+02:00
 draft: false
 slug: "lineage"

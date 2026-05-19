@@ -1,6 +1,7 @@
 ---
 title: About
 description: "The random musings of Jacob Shore"
+summary: "Language nerd, developer, DevOps journeyman, and spiritual wanderer. The name comes from Psalms 110:3 — *tal yaldutekha*, dew of your youth — a reminder to stay curious."
 tags: ["about", "random-musings", "bio"]
 date: 2023-08-22
 featuredImage: "family.jpeg"

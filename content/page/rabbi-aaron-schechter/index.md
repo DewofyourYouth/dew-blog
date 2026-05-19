@@ -1,6 +1,7 @@
 ---
 title: "Rabbi Aaron Schechter זצ״ל"
 description: "A collection of personal essays remembering Rabbi Aaron Schechter זצ״ל, Rosh Yeshiva of Yeshivas Rabbeinu Chaim Berlin — memories, Torah impressions, and reflections on his passing."
+summary: "Personal essays by a former talmid — not biography, not eulogy, but an attempt to record what it meant to learn under a genuine gadol, and what was lost when he passed in August 2023."
 date: 2023-09-22T00:00:00+03:00
 draft: false
 slug: "rabbi-aaron-schechter"

@@ -186,6 +186,8 @@ So the current system is a compromise:
 
 It is much better than where it started. It is still not where I want it to be.
 
+{{< join-channels>}}
+
 ## The Audio Is Still Not Great
 
 After all that, I still do not think the TTS is good enough to rely on as a pronunciation teacher.

@@ -75,6 +75,8 @@ Why did it work when Irish didn't? Partly because every speaker already had prio
 
 ---
 
+{{< join-channels>}}
+
 ### MSA: A Standard Without a Street
 
 Modern Standard Arabic occupies a genuinely strange position. It is nobody's mother tongue. No child grows up speaking it at home, no neighborhood conducts its arguments in it, no market vendor haggles in it. It exists as a written and formal register — the language of newspapers, official documents, political speeches, and broadcast media — sitting above a vast landscape of living dialects that are mutually intelligible to varying degrees and in some cases barely at all. An Egyptian and a Moroccan can communicate in MSA. In their respective dialects, they may struggle considerably.

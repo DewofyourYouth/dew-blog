@@ -2,7 +2,7 @@
 title: Modern Standard Arabic, Hebrew, and the Ghost of Yiddish
 date: 2026-05-26T07:54:09+02:00
 categories:
-  - Language Learning
+  - Learning & Languages
 tags:
   - Hebrew
   - Arabic

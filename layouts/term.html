@@ -58,7 +58,12 @@
         {{- end -}}
         {{- /* Paginate */ -}}
         {{- /* Paginate is first call on baseof.html */ -}}
-        {{- if or .Pages .RegularPages -}}
+        {{- if eq $taxonomy "category" -}}
+            <span data-pages="{{ len .Pages }}" data-regular="{{ len .RegularPages }}" style="display:none"></span>
+            {{- range .Pages -}}
+                {{- .Render "summary" -}}
+            {{- end -}}
+        {{- else if .Pages -}}
             {{- if eq $taxonomy "series" -}}
                 {{- range .Paginator.Pages -}}
                     {{- $postLink := .RelPermalink -}}
@@ -76,11 +81,6 @@
                         </span>
                     </article>
                 {{- end -}}
-            {{- else if eq $taxonomy "category" -}}
-                    <span data-pages="{{ len .Pages }}" data-regular="{{ len .RegularPages }}" style="display:none"></span>
-                    {{- range .RegularPages -}}
-                        {{- .Render "summary" -}}
-                    {{- end -}}
             {{- else -}}
                 {{- $pageGroups := .Paginator.PageGroups -}}
                 {{- if gt (len $pageGroups) 0 -}}

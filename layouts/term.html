@@ -77,8 +77,10 @@
                     </article>
                 {{- end -}}
             {{- else if eq $taxonomy "category" -}}
-                    {{- range .Pages -}}
-                        {{- .Render "summary" -}}
+                    {{- range .Paginator.PageGroups -}}
+                        {{- range .Pages -}}
+                            {{- .Render "summary" -}}
+                        {{- end -}}
                     {{- end -}}
             {{- else -}}
                 {{- $pageGroups := .Paginator.PageGroups -}}

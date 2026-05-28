@@ -77,8 +77,8 @@
                     </article>
                 {{- end -}}
             {{- else if eq $taxonomy "category" -}}
-                    <!-- cat-debug: {{ len .Pages }} pages -->
-                    {{- range .Pages -}}
+                    <span data-pages="{{ len .Pages }}" data-regular="{{ len .RegularPages }}" style="display:none"></span>
+                    {{- range .RegularPages -}}
                         {{- .Render "summary" -}}
                     {{- end -}}
             {{- else -}}

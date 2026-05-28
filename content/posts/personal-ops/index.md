@@ -102,4 +102,4 @@ The Elul experiment was the right instinct — make the implicit explicit, track
 
 This time I wrote the spec and delegated the operations.
 
-*Code is on GitHub. Personal infrastructure, not a product.*
+*Personal infrastructure. Your mileage, as they say, will vary.*

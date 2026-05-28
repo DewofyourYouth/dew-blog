@@ -51,9 +51,9 @@
             {{- end -}}
         </h2>
         {{- /* Introduction */ -}}
-        {{- if .Content -}}
+        {{- with .Params.intro -}}
         <div class="category-intro{{ if $catSlug }} cat-intro{{ end }}">
-            {{- dict "Content" .Content "Ruby" $params.ruby "Fraction" $params.fraction "Fontawesome" $params.fontawesome | partial "function/content.html" | safeHTML -}}
+            {{ . | markdownify }}
         </div>
         {{- end -}}
         {{- /* Paginate */ -}}

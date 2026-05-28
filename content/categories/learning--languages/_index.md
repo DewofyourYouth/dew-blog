@@ -1,6 +1,5 @@
 ---
 title: "Learning & Languages"
 description: "Language learning from someone actively doing it — Arabic, Hebrew, Turkish, Yiddish. Skeptical of conventional methods and interested in what linguistic structure reveals about thought."
+intro: "Arabic, Hebrew, Turkish, Yiddish — from someone actively doing it. Not tutorials. Skeptical of most conventional language advice. Interested in what linguistic structure reveals about how people think."
 ---
-
-Language learning from someone actively doing it — Arabic, Hebrew, Turkish, Yiddish. The approach is skeptical of conventional methods, interested in what linguistic structure reveals about thought, and willing to say that most popular advice optimizes for the wrong things. These posts are not tutorials. They're field notes.

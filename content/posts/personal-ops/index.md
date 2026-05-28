@@ -94,7 +94,7 @@ None of these appear in a demo. They appear when a real person uses a real tool.
 
 ## My Current Setup
 
-The whole thing runs on my laptop, writes to flat files. No database, no dashboard, no subscription.
+The whole thing runs on my laptop, writes to flat files. No database, no dashboard, no subscription. (Although, I think that I will be putting it on a VPS server now that it's working.)
 
 The Elul experiment was the right instinct — make the implicit explicit, track it, review it, adjust based on what actually happened. The failure was operational: I was doing all the work to run the system myself, and the friction of operating it was eating the benefit of having it.
 

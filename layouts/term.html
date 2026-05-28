@@ -121,7 +121,7 @@
                     {{- end -}}
                 {{- end -}}
             {{- end -}}
-            {{- partial "paginator.html" . -}}
+            {{- if ne $taxonomy "category" -}}{{- partial "paginator.html" . -}}{{- end -}}
         {{- end -}}
     </div>
 {{- end -}}

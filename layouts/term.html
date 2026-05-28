@@ -58,7 +58,7 @@
         {{- end -}}
         {{- /* Paginate */ -}}
         {{- /* Paginate is first call on baseof.html */ -}}
-        {{- if .Pages -}}
+        {{- if or .Pages .RegularPages -}}
             {{- if eq $taxonomy "series" -}}
                 {{- range .Paginator.Pages -}}
                     {{- $postLink := .RelPermalink -}}

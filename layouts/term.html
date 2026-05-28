@@ -59,9 +59,11 @@
         {{- /* Paginate */ -}}
         {{- /* Paginate is first call on baseof.html */ -}}
         {{- if eq $taxonomy "category" -}}
-            <span data-pages="{{ len .Pages }}" data-regular="{{ len .RegularPages }}" style="display:none"></span>
+            <p><small>DEBUG pages:{{ len .Pages }} regular:{{ len .RegularPages }}</small></p>
             {{- range .Pages -}}
-                {{- .Render "summary" -}}
+                <article class="single summary">
+                    <h1 class="single-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+                </article>
             {{- end -}}
         {{- else if .Pages -}}
             {{- if eq $taxonomy "series" -}}

@@ -1,0 +1,63 @@
+/* ── Category Term Page Branding ──────────────────────────── */
+
+.page.list.cat-tech--tools {
+  --cat-color: #0e7490;
+  --cat-color-light: rgba(14, 116, 144, 0.07);
+  --cat-color-border: rgba(14, 116, 144, 0.35);
+}
+
+.page.list.cat-faith--practice {
+  --cat-color: #d97706;
+  --cat-color-light: rgba(217, 119, 6, 0.07);
+  --cat-color-border: rgba(217, 119, 6, 0.35);
+}
+
+.page.list.cat-heritage--identity {
+  --cat-color: #059669;
+  --cat-color-light: rgba(5, 150, 105, 0.07);
+  --cat-color-border: rgba(5, 150, 105, 0.35);
+}
+
+.page.list.cat-learning--languages {
+  --cat-color: #2563eb;
+  --cat-color-light: rgba(37, 99, 235, 0.07);
+  --cat-color-border: rgba(37, 99, 235, 0.35);
+}
+
+/* Colored top stripe */
+.page.list[class*="cat-"] {
+  border-top: 4px solid var(--cat-color, #6b7bff);
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+}
+
+/* Title icon inherits category color */
+.page.list[class*="cat-"] .single-title svg path,
+.page.list[class*="cat-"] .single-title i {
+  fill: var(--cat-color, #6b7bff);
+  color: var(--cat-color, #6b7bff);
+}
+
+/* Category intro block */
+.cat-intro {
+  padding: 1.1rem 1.4rem;
+  border-radius: 12px;
+  background: var(--cat-color-light, rgba(107, 123, 255, 0.06));
+  border-left: 4px solid var(--cat-color, #6b7bff);
+  margin: 0.25rem 0 2rem;
+  font-size: 1.02rem;
+  line-height: 1.7;
+  color: #374151;
+}
+
+html.dark .cat-intro {
+  color: #cbd5e1;
+  background: rgba(255, 255, 255, 0.04);
+  border-left-color: var(--cat-color, #6b7bff);
+}
+
+/* Cards on category pages pick up the category glow/border */
+.page.list[class*="cat-"] .single.summary {
+  --glow-color: var(--cat-color-border, rgba(47, 111, 235, 0.35));
+  border-color: var(--cat-color-border, #e5e7eb);
+}

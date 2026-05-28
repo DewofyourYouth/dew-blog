@@ -6,7 +6,11 @@
     {{- $isExternal = true -}}
 {{- end -}}
 
-<article class="single summary">
+{{- $catClasses := "" -}}
+{{- range (.GetTerms "categories") -}}
+    {{- $catClasses = printf "%v cat-%v" $catClasses (urlize .LinkTitle) -}}
+{{- end -}}
+<article class="single summary{{ $catClasses }}">
     {{- /* Featured image */ -}}
     {{- $image := "" -}}
     {{- if ($.Site.Params.home.posts.imagePreview | default true) -}}

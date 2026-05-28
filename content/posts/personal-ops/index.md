@@ -48,7 +48,7 @@ The core loop is: capture, digest, adapt, propose.
 
 > *"Yeah, I've been sort of laser focused on personal ops. I did apply to a bunch of jobs today. I didn't feel like working on Haki and I don't know, I guess I've been pushing it off because it came back from Apple and it said I had to fix stuff and now I'm going to have to debug it. Maybe I'm psychologically just trying to push off debugging things. I haven't eaten today. I'm going to go eat lunch now. It's 1:54pm."*
 
-That's a check-in. It took thirty seconds. It contains: task completion status, avoidance behavior and a plausible reason for it, a physiological fact, and a corrective action. A therapist would need several sessions to surface all of that. The bot has the timestamp.
+That's a check-in. It took less than thirty seconds. It contains: task completion status, avoidance behavior and a plausible reason for it, a physiological fact, and a corrective action. A therapist would need several sessions to surface all of that. The bot has the timestamp.
 
 **Digest.** Every Sunday the bot reads the week's logs and produces a structured review. But the digest isn't just a summary — it's also context management. Six weeks of raw logs would bloat a prompt into uselessness. The digest compresses the past week into something small enough to include in every subsequent agenda proposal without degrading the signal.
 

@@ -30,6 +30,20 @@
   border-radius: 16px;
   padding: 2.5rem 1rem 3rem;
   box-shadow: 0 14px 40px rgba(31, 41, 55, 0.08);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Subtle film-grain atmosphere so the pale field reads as composed, not empty */
+.home-splash::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.5;
+  mix-blend-mode: soft-light;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
 }
 
 html.dark .home-splash {
@@ -60,6 +74,8 @@ html.dark .home-splash {
   margin: 0 auto;
   font-family: var(--font-sans);
   color: var(--home-ink);
+  position: relative;
+  z-index: 1; /* keep content above the grain overlay */
 }
 
 .home-hero {
@@ -71,8 +87,8 @@ html.dark .home-splash {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 2rem;
-  margin-bottom: 1.5rem;
+  padding-top: 1rem;
+  margin-bottom: 0.75rem;
 }
 
 .home-kicker {
@@ -85,8 +101,10 @@ html.dark .home-splash {
 
 .home-hero h1 {
   font-family: var(--font-serif);
-  font-size: clamp(2.4rem, 4vw, 3.5rem);
-  margin: 0.4rem 0 0.6rem;
+  font-size: clamp(2.7rem, 5.2vw, 4.2rem);
+  line-height: 1.04;
+  letter-spacing: -0.02em;
+  margin: 0.2rem 0 0.55rem;
   color: var(--home-ink);
 }
 
@@ -162,6 +180,7 @@ html.dark .home-splash {
   padding: 1.5rem;
   background: var(--home-surface);
   border: 1px solid var(--home-border);
+  border-left: 4px solid var(--cat, var(--home-border));
   border-radius: 14px;
   text-decoration: none;
   color: inherit;
@@ -177,7 +196,7 @@ html.dark .home-splash {
   transform: translateY(-2px);
   box-shadow:
     0 16px 36px rgba(31, 41, 55, 0.12),
-    0 0 0 1px var(--home-accent-soft);
+    0 0 0 1px var(--cat, var(--home-accent-soft));
 }
 
 html.dark .home-card {
@@ -188,46 +207,67 @@ html.dark .home-card {
     0 10px 24px rgba(15, 23, 42, 0.45);
 }
 
+/* Per-category identity color, set on the card and consumed by the left
+   accent bar (.home-card), the heading, and the hover ring. Icon-agnostic —
+   nothing here touches the icon markup, so custom icons slot in untouched. */
 .home-card.cat-learning-and-languages,
 .home-card.cat-learning-languages,
 .home-card.cat-learning--languages {
-  border-color: rgba(37, 99, 235, 0.35);
-  box-shadow:
-    0 16px 36px rgba(31, 41, 55, 0.08),
-    0 0 0 1px rgba(37, 99, 235, 0.18);
+  --cat: #2563eb;
+  border-color: rgba(37, 99, 235, 0.3);
 }
 
 .home-card.cat-tech-and-tools,
 .home-card.cat-tech-tools,
 .home-card.cat-tech--tools {
-  border-color: rgba(14, 116, 144, 0.35);
-  box-shadow:
-    0 16px 36px rgba(31, 41, 55, 0.08),
-    0 0 0 1px rgba(14, 116, 144, 0.18);
+  --cat: #0e7490;
+  border-color: rgba(14, 116, 144, 0.3);
 }
 
 .home-card.cat-faith-and-practice,
 .home-card.cat-faith-practice,
 .home-card.cat-faith--practice {
-  border-color: rgba(249, 115, 22, 0.35);
-  box-shadow:
-    0 16px 36px rgba(31, 41, 55, 0.08),
-    0 0 0 1px rgba(249, 115, 22, 0.18);
+  --cat: #c2410c;
+  border-color: rgba(249, 115, 22, 0.3);
 }
 
 .home-card.cat-heritage-and-identity,
 .home-card.cat-heritage-identity,
 .home-card.cat-heritage--identity {
-  border-color: rgba(16, 185, 129, 0.35);
-  box-shadow:
-    0 16px 36px rgba(31, 41, 55, 0.08),
-    0 0 0 1px rgba(16, 185, 129, 0.18);
+  --cat: #047857;
+  border-color: rgba(16, 185, 129, 0.3);
+}
+
+/* Brighter identity hues for dark mode legibility */
+html.dark .home-card.cat-learning-and-languages,
+html.dark .home-card.cat-learning-languages,
+html.dark .home-card.cat-learning--languages {
+  --cat: #60a5fa;
+}
+
+html.dark .home-card.cat-tech-and-tools,
+html.dark .home-card.cat-tech-tools,
+html.dark .home-card.cat-tech--tools {
+  --cat: #22d3ee;
+}
+
+html.dark .home-card.cat-faith-and-practice,
+html.dark .home-card.cat-faith-practice,
+html.dark .home-card.cat-faith--practice {
+  --cat: #fb923c;
+}
+
+html.dark .home-card.cat-heritage-and-identity,
+html.dark .home-card.cat-heritage-identity,
+html.dark .home-card.cat-heritage--identity {
+  --cat: #34d399;
 }
 
 .home-card-body h3 {
   font-family: var(--font-serif);
   font-size: 1.25rem;
   margin: 0 0 0.35rem;
+  color: var(--cat, var(--home-ink));
 }
 
 .home-card-body p {

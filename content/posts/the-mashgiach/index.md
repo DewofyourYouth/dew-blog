@@ -1,6 +1,9 @@
 ---
 title: "The Mashgiach זצ״ל"
 summary: Remembering the Mashgiach Rabbi Mordechai Zelig Schechter זצ״ל
+series:
+  - rabbi-aaron-schechter
+series_order: 4
 description: A tribute to Rabbi Mordechai Zelig Schechter זצ״ל, Mashgiach of Yeshivas Rabbeinu Chaim Berlin and son of Rosh Yeshiva Rabbi Aaron Schechter זצ״ל — personal memories of his warmth, depth, and the irreplaceable role he played.
 date: 2023-09-22T11:00:18+03:00
 featuredImage: flame.jpg

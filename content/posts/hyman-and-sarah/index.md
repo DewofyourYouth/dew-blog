@@ -1,5 +1,8 @@
 ---
 title: Hyman & Sarah
+series:
+  - shore-saranduk
+series_order: 6
 aliases:
   - "/post/hyman-and-sarah/"
 summary: A source-based sketch of Hyman and Sarah Shore, tracking census, manifest, and cemetery records while noting the inconsistencies in ages and dates across documents.

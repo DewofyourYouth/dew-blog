@@ -1,6 +1,9 @@
 ---
 title: "Speaking Euphemistically"
 summary: Rif Pesahim Review II
+series:
+  - pesachim-rif-review
+series_order: 2
 description: "Rif Pesahim Review II: the Mishnah's use of euphemism, Talmudic teachings on clean speech, and Rabbi Yishmael's principle of dignified language."
 date: 2024-05-23T11:06:39+03:00
 draft: false

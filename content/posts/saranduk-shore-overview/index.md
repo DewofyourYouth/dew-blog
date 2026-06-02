@@ -1,5 +1,8 @@
 ---
 title: "The Saranduk / Shore Family: An Overview"
+series:
+  - shore-saranduk
+series_order: 1
 date: 2026-04-21T00:00:00+03:00
 draft: false
 categories:

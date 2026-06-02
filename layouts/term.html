@@ -90,7 +90,7 @@
                         {{- $num := $p.Params.series_order | default (add $i 1) -}}
                         {{- $img := "" -}}
                         {{- with $p.Params.featuredImage -}}{{- $img = $p.Resources.GetMatch . -}}{{- end -}}
-                        <li class="series-card">
+                        <li class="series-entry">
                             <a class="series-card-link{{ if not $img }} series-card-link--noimg{{ end }}" href="{{ $postLink }}"{{ if $isExternal }} target="_blank" rel="noopener noreferrer"{{ end }}>
                                 {{- with $img -}}
                                     <span class="series-card-media">

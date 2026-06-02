@@ -1,5 +1,8 @@
 ---
 title: A Wolf Who Did Not Become Shore
+series:
+  - shore-saranduk
+series_order: 11
 aliases:
   - "/post/william-serin/"
 date: 2024-05-12T22:31:34+03:00

@@ -1,6 +1,10 @@
 ---
-title: "Shore / Saranduk Family: Part III"
+title: "The Mordko & Nakhman Branches"
+url: "/post/-saranduk-family-part-iii/"
 date: 2023-11-09T14:47:49+02:00
+series:
+  - shore-saranduk
+series_order: 3
 tags:
   - genealogy
   - revision-lists

@@ -1,5 +1,8 @@
 ---
 title: "The 80th Yahrtzeit of Shmariahu Shore"
+series:
+  - shore-saranduk
+series_order: 8
 aliases:
   - "/post/the-80th-yahrtzeit-of-sam-shore/"
 date: 2024-05-14T12:27:47+03:00

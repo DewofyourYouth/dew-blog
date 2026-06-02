@@ -1,5 +1,8 @@
 ---
 title: תולדות משפחת שור סרנדוק
+series:
+  - shore-saranduk
+series_order: 12
 date: 2024-08-30T14:34:39+03:00
 draft: false
 direction: rtl

@@ -1,5 +1,8 @@
 ---
 title: "Sam Shore's 82 Yahrzeit: A Tale of a Spear and Emigration"
+series:
+  - shore-saranduk
+series_order: 9
 date: 2026-04-23T20:11:34+03:00
 draft: false
 categories:

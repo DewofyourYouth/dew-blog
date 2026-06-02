@@ -1,5 +1,8 @@
 ---
 title: "Philip & Netty Shore"
+series:
+  - shore-saranduk
+series_order: 7
 summary: Tracing Philip (Pinhas) and Netty Shore from Katerynopil to Providence through passenger lists, naturalization records, and family oral history of their escape.
 description: Tracing Philip (Pinhas) Shore and Netty Shore — members of the Saranduk family — from Katerynopil, Ukraine to Providence, Rhode Island through passenger lists, naturalization records, and oral family history.
 date: 2024-05-24T15:07:25+03:00

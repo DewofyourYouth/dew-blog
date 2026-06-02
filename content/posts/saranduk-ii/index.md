@@ -1,6 +1,10 @@
 ---
-title: "Shore / Saranduk Family: Part II"
+title: "From Torgovitsa to Talne: The Earliest Saranduks"
+url: "/post/-saranduk-family-part-ii/"
 date: 2023-11-08T10:00:38+02:00
+series:
+  - shore-saranduk
+series_order: 2
 draft: false
 tags:
   - genealogy

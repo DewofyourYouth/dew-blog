@@ -1,5 +1,9 @@
 ---
-title: "Shore / Saranduk Family: Part I"
+title: "Why Saranduk Became Shore"
+url: "/post/-saranduk-family-part-i/"
+series:
+  - shore-saranduk
+series_order: 5
 categories:
   - Heritage & Identity
 

@@ -25,7 +25,7 @@ seo:
     - reed-in-wind.jpg
 ---
 
-Last time I wrote about how completion rate is a trap — how the moment your system scores you on what percentage of your commitments you finish, the rational move is to stop writing down anything you might actually fail at. That post was about *measuring* the wrong thing. This one is about the thing underneath it, which turned out to be worse: my bot wasn't just measuring the wrong thing. It was *bossing me around*.
+Last time I wrote about how [completion rate is a trap](/post/clipping-your-wings/) — how the moment your system scores you on what percentage of your commitments you finish, the rational move is to stop writing down anything you might actually fail at. That post was about *measuring* the wrong thing. This one is about the thing underneath it, which turned out to be worse: my bot wasn't just measuring the wrong thing. It was *bossing me around*.
 
 Here's the embarrassing part. I built this whole system to offload my executive function — to be a thinking partner, energy-aware, the opposite of a nag. And then every morning it handed me an agenda. Monday is a development day, here's your list, here's where you stand. I had built myself a task master and given it my phone number.
 

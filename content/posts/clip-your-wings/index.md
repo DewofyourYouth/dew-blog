@@ -17,6 +17,9 @@ tags:
   - Sharpe ratio
   - burnout
   - Telegram bot
+series:
+  - personal-ops
+series_order: 2
 description: "Completion rate is a trap. If your productivity system scores you on what percentage of commitments you finish, the rational move is to stop writing down anything hard. This is Goodhart’s Law in action — and the fix requires borrowing from psychometrics, chess ratings, and finance."
 summary: "Completion rate is a trap. The moment your productivity system scores you on what percentage of commitments you finish, the rational move is to stop writing down anything you might actually fail at. I ran into this building my own personal ops system, and it turns out fixing it means thinking about Item Response Theory, Glicko ratings, and the Sharpe ratio."
 ---

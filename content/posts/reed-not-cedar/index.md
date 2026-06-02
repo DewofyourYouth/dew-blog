@@ -22,7 +22,7 @@ featuredImage: reed-in-wind.jpg
 featuredImageAlt: "Bamboo stalks bending in the wind without breaking"
 series:
   - personal-ops
-series_order: 2
+series_order: 3
 seo:
   images:
     - reed-in-wind.jpg

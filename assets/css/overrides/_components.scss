@@ -421,22 +421,137 @@ html.dark .join-channels-sub {
   margin: 0 0 1rem;
 }
 
-/* Stacked variant – for use inside post content (shortcode) */
+/* ============================================================
+   In-content "interlude" variant (shortcode).
+
+   Recomposed as an asymmetric editorial aside rather than a
+   centered, footer-style slab — readers (especially on mobile)
+   mistook the symmetric card for the end of the post. The form now
+   reads as an interjection: left-anchored, marked by a vertical
+   gradient bar that fuses the two channel colors (WhatsApp green ->
+   Telegram blue), opened by a fleuron eyebrow and closed by a
+   chevron that bobs back down into the article. Scoped to
+   --stacked so the homepage footer styling is untouched.
+   ============================================================ */
 .join-channels.join-channels--stacked {
   flex-direction: column;
-  text-align: center;
-  align-items: center;
-  padding: 1.75rem 1.5rem;
-  gap: 1.25rem;
+  align-items: flex-start;
+  text-align: left;
+  gap: 0.85rem;
+  padding: 1.5rem 1.75rem 1.35rem 2rem;
+  /* flat, "tabbed" left edge + rounded right = a margin marker, not a slab */
+  border-radius: 4px 18px 18px 4px;
+  /* anchor the ambient glow to the left so it isn't the symmetric footer wash */
+  background:
+    radial-gradient(circle at 0% 0%, rgba(37, 211, 102, 0.13), transparent 42%),
+    radial-gradient(circle at 6% 130%, rgba(42, 171, 238, 0.13), transparent 48%),
+    var(--home-surface, #ffffff);
+}
+
+/* the vertical gradient marker — the primary "this is an aside" signal */
+.join-channels.join-channels--stacked::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: linear-gradient(180deg, #25d366, #2aabee);
+  z-index: 2;
+}
+
+html.dark .join-channels.join-channels--stacked {
+  background:
+    radial-gradient(circle at 0% 0%, rgba(37, 211, 102, 0.16), transparent 42%),
+    radial-gradient(circle at 6% 130%, rgba(42, 171, 238, 0.16), transparent 48%),
+    #111827;
 }
 
 .join-channels.join-channels--stacked .join-channels-copy {
   flex: 0 0 auto;
 }
 
+.join-channels.join-channels--stacked .join-channels-heading {
+  font-size: 1.55rem;
+  line-height: 1.1;
+}
+
 .join-channels.join-channels--stacked .join-channels-buttons {
-  justify-content: center;
+  justify-content: flex-start;
   flex-wrap: wrap;
+  margin-top: 0.2rem;
+}
+
+/* Eyebrow: editorial fleuron label, tinted toward the green end of the bar */
+.join-channels.join-channels--stacked .join-channels-eyebrow {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #1f9d57;
+}
+
+.join-channels.join-channels--stacked .join-channels-fleuron {
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+  line-height: 0;
+  letter-spacing: 0;
+  transform: translateY(0.12em);
+}
+
+html.dark .join-channels.join-channels--stacked .join-channels-eyebrow {
+  color: #5fd39a;
+}
+
+/* Continuation cue: kinetic down-chevron that points back into the article */
+.join-channels.join-channels--stacked .join-channels-more {
+  position: relative;
+  z-index: 1;
+  margin: 0.15rem 0 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--font-sans);
+  font-size: 0.74rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--home-muted, #6b7280);
+}
+
+.join-channels.join-channels--stacked .join-channels-more-arrow {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: #2aabee;
+  animation: jc-bob 1.6s ease-in-out infinite;
+}
+
+html.dark .join-channels.join-channels--stacked .join-channels-more {
+  color: rgba(226, 232, 240, 0.62);
+}
+
+@keyframes jc-bob {
+  0%,
+  100% {
+    transform: translateY(-1px);
+  }
+  50% {
+    transform: translateY(3px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .join-channels.join-channels--stacked .join-channels-more-arrow {
+    animation: none;
+  }
 }
 
 /* Subscribe Modal */

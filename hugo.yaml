@@ -1,7 +1,7 @@
 baseURL: "https://dewofyouryouth.com/"
 timeout: 300s
 relativeURLs: false
-canonifyURLs: true
+canonifyURLs: false
 title: "Dew of Your Youth"
 languageCode: "en"
 defaultContentLanguage: "en"

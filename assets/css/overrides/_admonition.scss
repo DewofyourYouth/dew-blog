@@ -1,0 +1,47 @@
+// Custom "reflection" admonition type.
+//
+// The DoIt theme builds its admonition colors at compile time from the
+// `$admonition-color-map` / `$admonition-background-color-map` SCSS maps in
+// the theme, so a type it doesn't know about (here: `reflection`) falls back
+// to the default "note" blue.
+//
+// IMPORTANT: the theme scopes every admonition rule under `.single .content`
+// (e.g. `.single .content .admonition` -> specificity (0,3,0)). A bare
+// `.admonition.reflection` (0,2,0) therefore LOSES to it and the blue wins.
+// So these overrides are scoped under `.single .content` too, matching the
+// theme's specificity and landing one class higher so reflection wins.
+//
+// Palette: sage / grounded, for personal, contemplative asides.
+
+$reflection-accent: #6b8e6b;
+$reflection-bg: rgba(107, 142, 107, 0.1);
+$reflection-bar: rgba(107, 142, 107, 0.25); // theme uses opacify(bg, 0.15)
+
+.single .content .admonition.reflection {
+  border-left-color: $reflection-accent;
+  background-color: $reflection-bg;
+
+  span.icon > svg {
+    color: $reflection-accent;
+  }
+
+  .admonition-title {
+    border-bottom-color: $reflection-bg;
+    background-color: $reflection-bar;
+  }
+
+  &.open .admonition-title {
+    background-color: $reflection-bg;
+  }
+}
+
+// Lift the accent slightly on dark backgrounds for legibility.
+html.dark .single .content .admonition.reflection {
+  $reflection-accent-dark: #8fb38f;
+
+  border-left-color: $reflection-accent-dark;
+
+  span.icon > svg {
+    color: $reflection-accent-dark;
+  }
+}

@@ -422,7 +422,7 @@ html.dark .join-channels-sub {
   width: 100%;
   max-width: none;
   box-sizing: border-box;
-  margin: 0 0 1rem;
+  margin: 20px 0 1rem;
   border-radius: 0;
 }
 
@@ -449,7 +449,11 @@ html.dark .join-channels-sub {
   /* anchor the ambient glow to the left so it isn't the symmetric footer wash */
   background:
     radial-gradient(circle at 0% 0%, rgba(37, 211, 102, 0.13), transparent 42%),
-    radial-gradient(circle at 6% 130%, rgba(42, 171, 238, 0.13), transparent 48%),
+    radial-gradient(
+      circle at 6% 130%,
+      rgba(42, 171, 238, 0.13),
+      transparent 48%
+    ),
     var(--home-surface, #ffffff);
 }
 
@@ -468,7 +472,11 @@ html.dark .join-channels-sub {
 html.dark .join-channels.join-channels--stacked {
   background:
     radial-gradient(circle at 0% 0%, rgba(37, 211, 102, 0.16), transparent 42%),
-    radial-gradient(circle at 6% 130%, rgba(42, 171, 238, 0.16), transparent 48%),
+    radial-gradient(
+      circle at 6% 130%,
+      rgba(42, 171, 238, 0.16),
+      transparent 48%
+    ),
     #111827;
 }
 
@@ -590,7 +598,7 @@ html.dark .join-channels.join-channels--stacked .join-channels-more {
   background: var(--home-surface, #ffffff);
   border: 1px solid var(--home-border, #e9ecef);
   border-radius: 1.5rem;
-  box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
   transform: translateY(20px);
   transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
@@ -599,8 +607,8 @@ html.dark .join-channels.join-channels--stacked .join-channels-more {
   transform: translateY(0);
 }
 
-[data-theme='dark'] .subscribe-modal-container {
-  box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+[data-theme="dark"] .subscribe-modal-container {
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
 }
 
 .subscribe-modal-close {

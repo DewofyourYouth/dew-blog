@@ -91,3 +91,24 @@ html.dark .cat-intro {
     transform: translateY(-2px);
   }
 }
+
+/* ── Topics listing (/categories/) — engraved icon + thin category accent ── */
+.categories-card .card-item {
+  border-left: 3px solid var(--cat-color, #6b7bff);
+  padding-left: 1.25rem;
+}
+
+/* keep the engraved icon inline before the title (theme floats stray spans right) */
+.card-item-title .card-item-icon {
+  float: none !important;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.5rem;
+  padding-right: 0 !important;
+}
+
+.card-item-title .card-item-icon svg {
+  display: block;
+  width: 1.6rem;
+  height: 1.6rem;
+}

@@ -1,5 +1,5 @@
 {{- define "title" -}}
-    {{- .Params.Title | default (T .Data.Plural) | default .Data.Plural | dict "Some" | T "allSome" }} - {{ .Site.Title -}}
+    {{- if eq .Data.Plural "categories" -}}All Topics{{- else -}}{{- .Params.Title | default (T .Data.Plural) | default .Data.Plural | dict "Some" | T "allSome" -}}{{- end }} - {{ .Site.Title -}}
 {{- end -}}
 
 {{- define "content" -}}
@@ -9,22 +9,27 @@
     <div class="page archive">
         {{- /* Title */ -}}
         <h2 class="single-title">
-            {{- .Params.Title | default (T $taxonomies) | default $taxonomies | dict "Some" | T "allSome" -}}
+            {{- if eq $taxonomies "categories" -}}All Topics{{- else -}}{{- .Params.Title | default (T $taxonomies) | default $taxonomies | dict "Some" | T "allSome" -}}{{- end -}}
         </h2>
 
         {{- /* Categories Page */ -}}
         {{- if eq $taxonomies "categories" -}}
             {{- $terms := .Data.Terms.ByCount -}}
+            {{- $stems := dict "Learning & Languages" "doy-learning" "Tech & Tools" "doy-tech" "Faith & Practice" "doy-faith" "Heritage & Identity" "doy-heritage" -}}
+            {{- $colors := dict "Learning & Languages" "#2563eb" "Tech & Tools" "#0e7490" "Faith & Practice" "#d97706" "Heritage & Identity" "#059669" -}}
             <div class="categories-card">
                 {{- range $terms -}}
                     {{- $term := .Term -}}
                     {{- $pages := .Pages -}}
                     {{- with $.Site.GetPage "taxonomy" (printf "%v/%v" $type $term) -}}
-                    <div class="card-item">
+                    {{- $title := .Page.Title -}}
+                    {{- $color := index $colors $title | default "#6b7bff" -}}
+                    {{- $stem := index $stems $title -}}
+                    <div class="card-item" style="--cat-color: {{ $color }}">
                         <div class="card-item-wrapper">
                             <h3 class="card-item-title">
                                 <a href="{{ .RelPermalink }}">
-                                    {{ partial "plugin/fontawesome.html" (dict "Style" "regular" "Icon" "folder") }}&nbsp;{{ .Page.Title }} <sup>{{- len $pages -}}</sup>
+                                    {{- with $stem -}}{{- with resources.Get (printf "images/doy-category-icons/svg/%s.svg" .) -}}<span class="card-item-icon">{{ .Content | safeHTML }}</span>{{- end -}}{{- else -}}{{ partial "plugin/fontawesome.html" (dict "Style" "regular" "Icon" "folder") }}&nbsp;{{- end -}}{{ $title }} <sup>{{- len $pages -}}</sup>
                                 </a>
                             </h3>
                             {{- range first 5 $pages -}}

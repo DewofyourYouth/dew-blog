@@ -1,0 +1,122 @@
+/* ============================================================
+   Series term page — ordered cards (rendered by term.html).
+   Posts are shown in series_order, each as a media + body card.
+   ============================================================ */
+
+.series-list {
+  list-style: none;
+  margin: 1.5rem 0 0;
+  padding: 0;
+  display: grid;
+  gap: 1.1rem;
+}
+
+.series-card {
+  margin: 0;
+}
+
+.series-card-link {
+  display: grid;
+  grid-template-columns: 168px 1fr;
+  align-items: stretch;
+  text-decoration: none;
+  color: inherit;
+  background: var(--home-surface, #fff);
+  border: 1px solid var(--home-border, #e5e7eb);
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 8px 22px rgba(31, 41, 55, 0.05);
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease;
+}
+
+.series-card-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 34px rgba(31, 41, 55, 0.13);
+}
+
+.series-card-link--noimg {
+  grid-template-columns: 1fr;
+}
+
+.series-card-media {
+  display: block;
+  position: relative;
+}
+
+.series-card-media img {
+  width: 100%;
+  height: 100%;
+  min-height: 132px;
+  object-fit: cover;
+  display: block;
+}
+
+.series-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.28rem;
+  padding: 1.05rem 1.2rem;
+  min-width: 0;
+}
+
+.series-card-num {
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: #c0673c; /* terracotta — brand accent */
+}
+
+.series-card-title {
+  font-family: var(--font-serif);
+  font-size: 1.32rem;
+  line-height: 1.18;
+  color: var(--home-ink, #1f2937);
+}
+
+.series-card-date {
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  color: var(--home-muted, #6b7280);
+}
+
+.series-card-summary {
+  font-family: var(--font-sans);
+  font-size: 0.92rem;
+  line-height: 1.5;
+  color: var(--home-muted, #6b7280);
+  margin-top: 0.15rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+html.dark .series-card-link {
+  background: #0f172a;
+  border-color: rgba(148, 163, 184, 0.2);
+  box-shadow: 0 10px 26px rgba(2, 6, 23, 0.5);
+}
+
+html.dark .series-card-title {
+  color: #e5e7eb;
+}
+
+html.dark .series-card-num {
+  color: #e2935f;
+}
+
+@media (max-width: 680px) {
+  .series-card-link {
+    grid-template-columns: 1fr;
+  }
+
+  .series-card-media img {
+    height: 190px;
+    min-height: 0;
+  }
+}

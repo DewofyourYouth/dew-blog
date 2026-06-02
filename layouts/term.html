@@ -55,6 +55,8 @@
                 {{- else -}}
                     {{- .Title | safeHTML -}}
                 {{- end -}}
+            {{- else if eq $taxonomy "series" -}}
+                {{ partial "plugin/fontawesome.html" (dict "Style" "solid" "Icon" "layer-group") }}&nbsp;{{ .Title }}
             {{- else -}}
                 {{- printf "%v - %v" (T $taxonomy | default $taxonomy) .Title -}}
             {{- end -}}
@@ -75,22 +77,38 @@
             {{- end -}}
         {{- else if .Pages -}}
             {{- if eq $taxonomy "series" -}}
-                {{- range .Paginator.Pages -}}
-                    {{- $postLink := .RelPermalink -}}
-                    {{- $isExternal := false -}}
-                    {{- with .Params.externalUrl -}}
-                        {{- $postLink = . -}}
-                        {{- $isExternal = true -}}
+                {{- /* Series order (series_order asc), not reverse-chronological */ -}}
+                {{- $ordered := sort .Pages "Params.series_order" "asc" -}}
+                <ol class="series-list">
+                    {{- range $i, $p := $ordered -}}
+                        {{- $postLink := $p.RelPermalink -}}
+                        {{- $isExternal := false -}}
+                        {{- with $p.Params.externalUrl -}}
+                            {{- $postLink = . -}}
+                            {{- $isExternal = true -}}
+                        {{- end -}}
+                        {{- $num := $p.Params.series_order | default (add $i 1) -}}
+                        {{- $img := "" -}}
+                        {{- with $p.Params.featuredImage -}}{{- $img = $p.Resources.GetMatch . -}}{{- end -}}
+                        <li class="series-card">
+                            <a class="series-card-link{{ if not $img }} series-card-link--noimg{{ end }}" href="{{ $postLink }}"{{ if $isExternal }} target="_blank" rel="noopener noreferrer"{{ end }}>
+                                {{- with $img -}}
+                                    <span class="series-card-media">
+                                        <img src="{{ (.Resize "520x webp q82").RelPermalink }}" alt="" loading="lazy" />
+                                    </span>
+                                {{- end -}}
+                                <span class="series-card-body">
+                                    <span class="series-card-num">Part {{ $num }}</span>
+                                    <span class="series-card-title">{{ $p.Title }}</span>
+                                    <span class="series-card-date">{{ $.Site.Params.dateFormat | default "Jan 2, 2006" | $p.Date.Format }}</span>
+                                    {{- with ($p.Params.summary | default ($p.Summary | plainify)) -}}
+                                        <span class="series-card-summary">{{ . | plainify }}</span>
+                                    {{- end -}}
+                                </span>
+                            </a>
+                        </li>
                     {{- end -}}
-                    <article class="archive-item">
-                        <a href="{{ $postLink }}" class="archive-item-link"{{ if $isExternal }} target="_blank" rel="noopener noreferrer"{{ end }}>
-                            {{- .Title -}}
-                        </a>
-                        <span class="archive-item-date">
-                            {{- $.Site.Params.dateFormat | default "2006-01-02" | .Date.Format -}}
-                        </span>
-                    </article>
-                {{- end -}}
+                </ol>
             {{- else -}}
                 {{- $pageGroups := .Paginator.PageGroups -}}
                 {{- if gt (len $pageGroups) 0 -}}
@@ -132,7 +150,7 @@
                     {{- end -}}
                 {{- end -}}
             {{- end -}}
-            {{- if ne $taxonomy "category" -}}{{- partial "paginator.html" . -}}{{- end -}}
+            {{- if and (ne $taxonomy "category") (ne $taxonomy "series") -}}{{- partial "paginator.html" . -}}{{- end -}}
         {{- end -}}
     </div>
 {{- end -}}

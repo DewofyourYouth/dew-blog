@@ -93,7 +93,7 @@ This is the one thing a pure energy-led model loses, and it's the difference bet
 
 ## The Reversible Switch
 
-I should admit the conditions I'm designing under. Long job search, not enough sleep, two small kids, a mild but chronic-illness flare humming in the background. Calibrating a *permanent* architecture from your most flattened moment is a mistake — the scaffolding I find oppressive today might be exactly what I miss when capacity comes back.
+I should admit the conditions I'm designing under. Long job search, not enough sleep, two small kids (+ three not so small kids), a mild but chronic-illness flare humming in the background. Calibrating a *permanent* architecture from your most flattened moment is a mistake — the scaffolding I find oppressive today might be exactly what I miss when capacity comes back.
 
 So this isn't a one-way rewrite. It's a mode. **Structured** is the old behavior: daily agenda, completion scored — a forcing function for when you've got gas in the tank and want one. **Advisory** is the new model: no agenda push, suggestions on pull and energy-push, no scoring. One command flips it. If I flip to advisory and find I miss the rails, I flip back. The decision was never permanent, which is the whole point.
 

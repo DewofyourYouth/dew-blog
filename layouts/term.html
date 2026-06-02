@@ -18,9 +18,18 @@
         {{- /* Title */ -}}
         <h2 class="single-title">
             {{- if eq $taxonomy "category" -}}
-                {{- $icons := dict "Faith & Practice" "book-open" "Heritage & Identity" "tree" "Learning & Languages" "language" "Tech & Tools" "code" -}}
-                {{- $icon := index $icons .Title | default "folder-open" -}}
-                {{ partial "plugin/fontawesome.html" (dict "Style" "solid" "Icon" $icon) }}&nbsp;{{ .Title }}
+                {{- /* Clay seal per category (assets/images/doy-category-icons/clay-transparent) */ -}}
+                {{- $claySeals := dict "Learning & Languages" "doy-learning" "Tech & Tools" "doy-tech" "Faith & Practice" "doy-faith" "Heritage & Identity" "doy-heritage" -}}
+                {{- $seal := "" -}}
+                {{- with index $claySeals .Title -}}
+                    {{- $seal = resources.Get (printf "images/doy-category-icons/clay-transparent/%s-clay.png" .) -}}
+                {{- end -}}
+                {{- with $seal -}}
+                    <img class="doy-seal" src="{{ .RelPermalink }}" alt="" width="64" height="64" />
+                {{- else -}}
+                    {{ partial "plugin/fontawesome.html" (dict "Style" "solid" "Icon" "folder-open") }}&nbsp;
+                {{- end -}}
+                {{ .Title }}
             {{- else if eq $taxonomy "tag" -}}
                 {{ partial "plugin/fontawesome.html" (dict "Style" "solid" "Icon" "tag") }}&nbsp;{{ .Title }}
             {{- else if eq $taxonomy "author" -}}

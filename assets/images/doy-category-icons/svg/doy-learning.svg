@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="50" cy="50" r="44" fill="none" stroke="#C0673C" stroke-width="2.4"/>
+<circle cx="50" cy="50" r="38.5" fill="none" stroke="#C0673C" stroke-width="1" opacity="0.5"/>
+<line x1="88.5" y1="50.0" x2="93.0" y2="50.0" stroke="#C0673C" stroke-width="1" opacity="0.45"/>
+<line x1="83.3" y1="69.2" x2="87.2" y2="71.5" stroke="#C0673C" stroke-width="1" opacity="0.45"/>
+<line x1="69.2" y1="83.3" x2="71.5" y2="87.2" stroke="#C0673C" stroke-width="1" opacity="0.45"/>
+<line x1="50.0" y1="88.5" x2="50.0" y2="93.0" stroke="#C0673C" stroke-width="1" opacity="0.45"/>
+<line x1="30.8" y1="83.3" x2="28.5" y2="87.2" stroke="#C0673C" stroke-width="1" opacity="0.45"/>
+<line x1="16.7" y1="69.2" x2="12.8" y2="71.5" stroke="#C0673C" stroke-width="1" opacity="0.45"/>
+<line x1="11.5" y1="50.0" x2="7.0" y2="50.0" stroke="#C0673C" stroke-width="1" opacity="0.45"/>
+<line x1="16.7" y1="30.7" x2="12.8" y2="28.5" stroke="#C0673C" stroke-width="1" opacity="0.45"/>
+<line x1="30.7" y1="16.7" x2="28.5" y2="12.8" stroke="#C0673C" stroke-width="1" opacity="0.45"/>
+<line x1="50.0" y1="11.5" x2="50.0" y2="7.0" stroke="#C0673C" stroke-width="1" opacity="0.45"/>
+<line x1="69.2" y1="16.7" x2="71.5" y2="12.8" stroke="#C0673C" stroke-width="1" opacity="0.45"/>
+<line x1="83.3" y1="30.7" x2="87.2" y2="28.5" stroke="#C0673C" stroke-width="1" opacity="0.45"/>
+<path d="M50,9.7 C53.2,13.0 53.2,18.0 50,19.7 C46.8,18.0 46.8,13.0 50,9.7 Z" fill="#C0673C"/>
+
+<path d="M1094 272H492L397 0H10L563 1493H1022L1575 0H1188ZM588 549H997L793 1143Z" fill="#20566A" stroke="none" transform="translate(35.5 49) scale(0.0100 -0.0100) translate(-792.5 -746.5)"/>
+<path d="M1019 435 1319 0H947L597 504Q542 440 542 296V0H214V221Q214 313 230.5 387.0Q247 461 269.5 506.0Q292 551 330.5 589.0Q369 627 397.5 645.5Q426 664 470 686L172 1120H543L893 616Q948 680 948 824V1120H1277V899Q1277 832 1268.5 775.0Q1260 718 1247.0 677.0Q1234 636 1212.0 600.0Q1190 564 1170.5 541.5Q1151 519 1121.0 497.0Q1091 475 1070.5 463.0Q1050 451 1019 435Z" fill="#20566A" stroke="none" transform="translate(64 49) scale(0.0134 -0.0134) translate(-745.5 -560.0)"/>
+<path d="M43.5,60.2 L54,60.2" stroke="#C0673C" stroke-width="2.3"/>
+<path d="M52,58.1 L54.2,60.2 L52,62.3" stroke="#C0673C" stroke-width="2.3"/>
+<path d="M56.5,64.6 L46,64.6" stroke="#C0673C" stroke-width="2.3"/>
+<path d="M48,62.5 L45.8,64.6 L48,66.7" stroke="#C0673C" stroke-width="2.3"/>
+
+</g></svg>

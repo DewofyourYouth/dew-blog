@@ -267,7 +267,7 @@ html.dark .home-card.cat-heritage--identity {
   font-family: var(--font-serif);
   font-size: 1.25rem;
   margin: 0 0 0.35rem;
-  color: var(--cat, var(--home-ink));
+  color: var(--home-ink); /* ink, so headings don't fight the two-color icons */
 }
 
 .home-card-body p {
@@ -278,8 +278,15 @@ html.dark .home-card.cat-heritage--identity {
 }
 
 .home-card-icon {
-  font-size: 2.5rem;
   margin-left: 1rem;
+  flex-shrink: 0;
+  line-height: 0;
+}
+
+.home-card-icon svg {
+  display: block;
+  width: 3.1rem;
+  height: 3.1rem;
 }
 
 .home-latest {

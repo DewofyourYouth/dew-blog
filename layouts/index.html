@@ -101,7 +101,9 @@
                   Language learning as obsession, memory systems, and pedagogy.
                 </p>
               </div>
-              <div class="home-card-icon">📘</div>
+              <div class="home-card-icon">
+                {{- with resources.Get "images/doy-category-icons/svg/doy-learning.svg" }}{{ .Content | safeHTML }}{{ end -}}
+              </div>
             </a>
             <a
               class="home-card cat-tech-and-tools"
@@ -114,7 +116,9 @@
                   worked.
                 </p>
               </div>
-              <div class="home-card-icon">🛠</div>
+              <div class="home-card-icon">
+                {{- with resources.Get "images/doy-category-icons/svg/doy-tech.svg" }}{{ .Content | safeHTML }}{{ end -}}
+              </div>
             </a>
             <a
               class="home-card cat-faith-and-practice"
@@ -127,7 +131,9 @@
                   Elul Logs.
                 </p>
               </div>
-              <div class="home-card-icon">🕯</div>
+              <div class="home-card-icon">
+                {{- with resources.Get "images/doy-category-icons/svg/doy-faith.svg" }}{{ .Content | safeHTML }}{{ end -}}
+              </div>
             </a>
             <a
               class="home-card cat-heritage-and-identity"
@@ -140,7 +146,9 @@
                   unraveling.
                 </p>
               </div>
-              <div class="home-card-icon">🧬</div>
+              <div class="home-card-icon">
+                {{- with resources.Get "images/doy-category-icons/svg/doy-heritage.svg" }}{{ .Content | safeHTML }}{{ end -}}
+              </div>
             </a>
           </div>
         </section>

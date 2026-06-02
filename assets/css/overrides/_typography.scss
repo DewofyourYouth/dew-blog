@@ -1,17 +1,14 @@
 /* ============================================================
    Single-post reading typography.
 
-   Goal: sophisticated and engaging long-form reading without the
-   high-contrast "fashion magazine / New Yorker" stiffness. Body is
-   set in Newsreader (a warm, screen-optimized text serif with real
-   italics); headings + title in Fraunces (an optical-sizing display
-   serif with a little soul). Plus a genuine reading measure, serif
-   rhythm, old-style figures + ligatures, and a restrained lede.
+   Goal: clean, engaging long-form reading. Body is set in Source
+   Serif 4 (a crisp, low-texture text serif); headings + title in
+   Playfair Display. Plus a genuine reading measure, serif rhythm,
+   old-style figures + ligatures, and a restrained lede.
 
    Scoped to `.page.single` (0,3,0) so it outranks the theme's
    `.single .content` rules, which load LATER in the bundle and would
-   otherwise win at equal specificity. UI chrome elsewhere (home,
-   cards, buttons, the join-channels box) keeps Inter / Playfair.
+   otherwise win at equal specificity.
    ============================================================ */
 
 /* ---- Reading column: a comfortable measure, centered ---- */
@@ -87,7 +84,7 @@ html.dark .page.single .content > h6 {
   color: #f1f4f8;
 }
 
-/* Title: big, optical, and allowed to breathe (theme clamps it to 2 lines) */
+/* Title: big, and allowed to breathe (theme clamps it to 2 lines) */
 .page.single .single-title {
   -webkit-line-clamp: unset;
   display: block;
@@ -96,35 +93,23 @@ html.dark .page.single .content > h6 {
   font-size: clamp(2rem, 4.6vw, 2.95rem);
   line-height: 1.07;
   letter-spacing: -0.02em;
-  font-variation-settings:
-    "opsz" 80,
-    "wght" 600;
 }
 
 .page.single .content > h2 {
   font-size: 1.85rem;
   line-height: 1.16;
   margin: 2.6rem 0 0.85rem;
-  font-variation-settings:
-    "opsz" 44,
-    "wght" 600;
 }
 
 .page.single .content > h3 {
   font-size: 1.42rem;
   line-height: 1.22;
   margin: 2.1rem 0 0.6rem;
-  font-variation-settings:
-    "opsz" 30,
-    "wght" 600;
 }
 
 .page.single .content > h4 {
   font-size: 1.18rem;
   margin: 1.7rem 0 0.5rem;
-  font-variation-settings:
-    "opsz" 22,
-    "wght" 600;
 }
 
 /* Optional subtitle, if a post sets one */

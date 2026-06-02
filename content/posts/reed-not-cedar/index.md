@@ -20,6 +20,9 @@ summary: "I built a Telegram bot to offload my executive function and accidental
 description: "Redesigning a personal productivity bot to advise instead of dictate: energy-led suggestions, opt-in 'futures' instead of commitments, a stall detector, and logged data to eventually learn when to push and when to back off."
 featuredImage: reed-in-wind.jpg
 featuredImageAlt: "Bamboo stalks bending in the wind without breaking"
+series:
+  - personal-ops
+series_order: 2
 seo:
   images:
     - reed-in-wind.jpg

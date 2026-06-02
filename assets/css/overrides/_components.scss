@@ -416,8 +416,12 @@ html.dark .join-channels-sub {
   }
 }
 
-/* Footer variant – compact, full-width, squared off (no rounded corners) */
+/* Footer variant – compact, viewport-width, squared off (no rounded corners) */
 .join-channels.join-channels--footer {
+  align-self: stretch;
+  width: 100%;
+  max-width: none;
+  box-sizing: border-box;
   margin: 0 0 1rem;
   border-radius: 0;
 }
@@ -625,4 +629,3 @@ html.dark .join-channels.join-channels--stacked .join-channels-more {
   background: transparent;
   box-shadow: none;
 }
-

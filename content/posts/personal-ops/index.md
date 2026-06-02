@@ -6,6 +6,9 @@ description: "Two years ago my Elul accountability experiment half-worked. The p
 categories: ["Tech & Tools"]
 tags: ["productivity", "AI", "LLM", "personal knowledge management", "Obsidian", "Telegram", "self-improvement"]
 draft: false
+series:
+  - personal-ops
+series_order: 1
 featuredImage: telegram-bot.jpg
 summary: "Two years ago my Elul accountability experiment half-worked. The problem was friction, not motivation — and I had no mechanism to adjust expectations based on actual performance. So I built one: voice capture via Telegram, weekly LLM digest, and a daily agenda calibrated to what I've actually been completing versus missing."
 ---

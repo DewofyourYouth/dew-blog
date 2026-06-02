@@ -2,7 +2,7 @@
 title: "Reed, Not Cedar: Building a Productivity System That Bends With You"
 slug: reed-not-cedar
 date: 2026-06-02T09:25:35+03:00
-draft: true
+draft: false
 categories:
   - Tech & Tools
 tags:
@@ -60,6 +60,10 @@ The reason is mechanical, not poetic. If the app is a cedar — rigid, insistent
 
 A reed bends and stays rooted. When I resist — skip a suggestion, ignore a prompt, go quiet — it yields and stays, instead of escalating. Its firmness lives in *being there*: it's always present, it doesn't forget my goals, it holds up the honest mirror once. Not in *force* — it never nags, never repeats, never makes me fight it. Resistance should cost me nothing, because a system that's expensive to resist is a system I'll abandon by Thursday.
 
+{{<admonition type=reflection title="Daode Jing: A Philosophical Translation" >}}
+When I was a yeshiva bochur — sixteen or so — I needed a break from Yevamos one afternoon, so I walked over to the Barnes & Noble on Harvard Ave in Brookline (Greater Boston), and bought a copy of the *Daode Jing* (the Roger T. Ames philosophical translation) on my lunch break. I read it over and over, footnotes and all, and it stuck with me in a way few books have. Every so often a design principle or a stray insight surfaces in my head and I realize it's really a paraphrase of something from that book. *Firm but yielding* is one of those — which is how a line I read at sixteen ended up being the rule this whole system runs on.
+{{< /admonition  >}}
+
 ### Advisory, Not Prescriptive
 
 So the core move: the system stops dictating and starts advising. The day gets led by my *actual state* — energy, mood, whatever's pulling at me — and the bot's job is to *offer* things that fit my current capacity and nudge my goals along. I choose. It suggests.
@@ -71,10 +75,6 @@ To make that work I had to stop treating "things to do" as one undifferentiated 
 **Futures** are the opposite — things *I* decide must happen. "This ships by Thursday whether I like it or not." Because I chose to be held to it, this one *is* tracked and counts. Accountability, but opt-in, never imposed. I deliberately don't call them *commitments*. "Commitment" drips with dread and moral weight, and for an avoidance-prone, burnt-out person, a heavy word is itself a deterrent — it feeds the exact avoidance I'm fighting. "Futures" is lighter. A thing set for a future date, with a quiet nod to a futures contract. The framing isn't decoration; it's part of the design. This is also what kills Goodhart's Law on the spot: I'm only ever measured against what I chose to be measured against. The system can't punish me for blowing something it made up.
 
 **Emergent patterns** are observed, never prescribed. The bot watches the data and surfaces patterns as *insight*: "your most focused work lands on Sundays," "job apps tend to happen on low-energy afternoons." Day types get *revealed* from data, not decreed by the app. They flavor the suggestions; they never harden into a schedule I have to obey. This is where the hardcoded "Monday = development" goes to die.
-
-{{<admonition type=reflection title="Daode Jing: A Philosophical Translation" >}}
-When I was a yeshiva bochur — sixteen or so — I needed a break from Yevamos one afternoon, so I walked over to the Barnes & Noble on Harvard Ave in Brookline (Greater Boston), and bought a copy of the *Daode Jing* (the Roger T. Ames philosophical translation) on my lunch break. I read it over and over, footnotes and all, and it stuck with me in a way few books have. Every so often a design principle or a stray insight surfaces in my head and I realize it's really a paraphrase of something from that book. *Firm but yielding* is one 3of those — which is how a line I read at sixteen ended up being the rule this whole system runs on.
-{{< /admonition  >}}
 
 ### The Trap This Walks Straight Into
 
@@ -97,6 +97,8 @@ So this isn't a one-way rewrite. It's a mode. **Structured** is the old behavior
 But one thing runs in *both* modes, always on: the accountability floor. Futures and the stall detector don't belong to the advisory package — they're the floor under everything. The mode toggles whether the bot pushes an agenda and grades me. It never toggles whether the system tells me the truth.
 
 The dream version of this is *adaptive* — it slides the structure level on its own, depending on whether I'm thriving or drowning. I can't build that yet, because I don't know the rules. Which is the part I actually care about most.
+
+{{< join-channels >}}
 
 ## The Data Is the Whole Bet
 

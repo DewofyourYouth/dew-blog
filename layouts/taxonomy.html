@@ -29,7 +29,7 @@
                         <div class="card-item-wrapper">
                             <h3 class="card-item-title">
                                 <a href="{{ .RelPermalink }}">
-                                    {{- with $stem -}}{{- with resources.Get (printf "images/doy-category-icons/svg/%s.svg" .) -}}<span class="card-item-icon">{{ .Content | safeHTML }}</span>{{- end -}}{{- else -}}{{ partial "plugin/fontawesome.html" (dict "Style" "regular" "Icon" "folder") }}&nbsp;{{- end -}}{{ $title }} <sup>{{- len $pages -}}</sup>
+                                    {{- with $stem -}}{{- with resources.Get (printf "images/doy-category-icons/clay-transparent/%s-clay.png" .) -}}<span class="card-item-icon"><img class="card-item-seal" src="{{ .RelPermalink }}" alt="" /></span>{{- end -}}{{- else -}}<span class="card-item-icon">{{ partial "plugin/fontawesome.html" (dict "Style" "regular" "Icon" "folder") }}</span>{{- end -}}<span class="card-item-label">{{ $title }} <sup>{{- len $pages -}}</sup></span>
                                 </a>
                             </h3>
                             {{- range first 5 $pages -}}

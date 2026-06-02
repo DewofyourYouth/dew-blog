@@ -98,17 +98,31 @@ html.dark .cat-intro {
   padding-left: 1.25rem;
 }
 
-/* keep the engraved icon inline before the title (theme floats stray spans right) */
-.card-item-title .card-item-icon {
-  float: none !important;
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 0.5rem;
-  padding-right: 0 !important;
+/* Lay the title row out as flex so the seal and the title+count sit side by
+   side and the count can't break onto its own line under the seal. Flex also
+   neutralizes the theme's float:right on stray spans. */
+.card-item-title a {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
 }
 
-.card-item-title .card-item-icon svg {
+.card-item-title .card-item-icon {
+  flex: 0 0 auto;
+  float: none !important;
+  padding-right: 0 !important;
+  line-height: 0;
+}
+
+.card-item-title .card-item-label {
+  float: none !important;
+  padding-right: 0 !important;
+  min-width: 0; /* allow the title to wrap instead of overflowing */
+}
+
+.card-item-title .card-item-seal {
   display: block;
-  width: 1.6rem;
-  height: 1.6rem;
+  width: 3.8rem;
+  height: 3.8rem;
+  filter: drop-shadow(0 6px 10px rgba(120, 60, 30, 0.18));
 }

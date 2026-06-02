@@ -1,0 +1,26 @@
+{{- /*
+    Social-card fallback for SERIES term pages.
+    Returns the URL of the first post (by series_order) that has a usable
+    featured image, processed to a 1.91:1 OG card. Returns "" when the page
+    isn't a series term page or no post has a resolvable image — callers
+    should only use this after their own (bespoke) image checks come up empty.
+    Usage: {{ partial "function/series-cover-url.html" . }}
+*/ -}}
+{{- $url := "" -}}
+{{- if and (eq (.Data.Singular | default "") "series") (gt (len .Pages) 0) -}}
+    {{- range (sort .Pages "Params.series_order" "asc") -}}
+        {{- $post := . -}}
+        {{- if not $url -}}
+            {{- with $post.Params.featuredImage -}}
+                {{- with $post.Resources.GetMatch . -}}
+                    {{- if and (ne .MediaType.SubType "svg") (ne .MediaType.SubType "gif") -}}
+                        {{- $url = (.Process "fill 1200x630 Center jpeg q85").Permalink -}}
+                    {{- else -}}
+                        {{- $url = .Permalink -}}
+                    {{- end -}}
+                {{- end -}}
+            {{- end -}}
+        {{- end -}}
+    {{- end -}}
+{{- end -}}
+{{- return $url -}}

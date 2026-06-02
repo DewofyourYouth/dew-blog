@@ -20,6 +20,12 @@
         {{- $images = $images | append "featured-image-preview" -}}
     {{- end -}}
 {{- end -}}
+{{- /* Series term pages: fall back to the first post's cover before the site default */ -}}
+{{- if not $images -}}
+    {{- with partial "function/series-cover-url.html" . -}}
+        {{- $images = slice . -}}
+    {{- end -}}
+{{- end -}}
 {{- with .Site.Params.seo.image -}}
     {{- $images = $images | default (slice .) -}}
 {{- end -}}

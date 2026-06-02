@@ -15,6 +15,21 @@
   margin: 0;
 }
 
+/* Series intro paragraph (from the series _index.md `intro:` field).
+   Scoped to .page.archive so it doesn't affect category-page intros. */
+.page.archive .category-intro {
+  margin: 0.6rem 0 1.4rem;
+  font-family: var(--font-sans);
+  font-size: 1.03rem;
+  line-height: 1.6;
+  color: var(--home-muted, #6b7280);
+  max-width: 62ch;
+}
+
+html.dark .page.archive .category-intro {
+  color: rgba(226, 232, 240, 0.68);
+}
+
 .series-card-link {
   display: grid;
   grid-template-columns: 168px 1fr;

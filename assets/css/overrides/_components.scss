@@ -416,6 +416,310 @@ html.dark .join-channels-sub {
   }
 }
 
+/* ── Spotify Track Card ───────────────────────────────────
+   A compact "listen" aside for the spotify shortcode. Reuses the
+   join-channels left-bar convention (colored strip = marginal aside,
+   not primary content) so repeated cards in a long list read as
+   interjections rather than section breaks. The disc glyph does a
+   single half-turn on hover — a wink at the vinyl groove, not a
+   constant spin, since this can repeat dozens of times on one page.
+   ============================================================ */
+.spotify-card {
+  position: relative;
+  display: flex;
+  margin: 1.75rem 0;
+  border-radius: 4px 16px 16px 4px;
+  overflow: hidden;
+  background: var(--global-background-color);
+  border: 1px solid var(--global-border-color);
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.spotify-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 32px rgba(15, 23, 42, 0.1);
+}
+
+.spotify-card-bar {
+  flex-shrink: 0;
+  width: 4px;
+  background: linear-gradient(180deg, #1db954, #169c46);
+}
+
+html.dark .spotify-card-bar {
+  background: linear-gradient(180deg, #1ed760, #15803d);
+}
+
+.spotify-card-body {
+  flex: 1;
+  min-width: 0;
+  padding: 1.1rem 1.3rem 1.3rem;
+}
+
+.spotify-card-eyebrow {
+  margin: 0 0 0.5rem;
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.45rem;
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #1db954;
+}
+
+html.dark .spotify-card-eyebrow {
+  color: #1ed760;
+}
+
+.spotify-card-disc {
+  font-size: 0.95rem;
+  line-height: 0;
+  display: inline-block;
+  transform: translateY(0.08em);
+  transition: transform 0.6s ease;
+}
+
+.spotify-card:hover .spotify-card-disc {
+  transform: translateY(0.08em) rotate(180deg);
+}
+
+.spotify-card-meta {
+  margin: 0 0 0.85rem;
+  line-height: 1.35;
+}
+
+.spotify-card-song {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 1.18rem;
+  color: var(--global-font-color);
+}
+
+.spotify-card-artist {
+  font-family: var(--font-text);
+  font-size: 0.96rem;
+  color: var(--global-font-secondary-color);
+}
+
+.spotify-card-frame {
+  border-radius: 10px;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.spotify-card-frame iframe {
+  display: block;
+  width: 100%;
+  border: 0;
+}
+
+.spotify-card-fallback {
+  margin: 0;
+  padding: 0.85rem 1rem;
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 680px) {
+  .spotify-card-body {
+    padding: 1rem 1.1rem 1.1rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .spotify-card,
+  .spotify-card-disc {
+    transition: none;
+  }
+
+  .spotify-card:hover .spotify-card-disc {
+    transform: translateY(0.08em);
+  }
+}
+
+/* ── Lyric Quote ──────────────────────────────────────────
+   Original-language lyric (right-to-left, Noto Naskh Arabic) paired
+   with its English translation. A small diamond marks the seam
+   between the two, reading like a printed songbook rather than a
+   generic pull-quote. The watermark glyph and divider share one
+   warm-gold accent — distinct from the green spotify card and the
+   green/blue join-channels widget, since this one is doing literary
+   duty, not a brand callout.
+   ============================================================ */
+.lyric-quote {
+  position: relative;
+  margin: 1.85rem 0;
+  padding: 1.6rem 1.9rem 1.5rem;
+  border-radius: 14px;
+  background:
+    radial-gradient(circle at 100% 0%, rgba(184, 134, 11, 0.07), transparent 60%),
+    var(--global-background-color);
+  border: 1px solid var(--global-border-color);
+  overflow: hidden;
+}
+
+.lyric-quote::before {
+  content: "”";
+  position: absolute;
+  top: -1.4rem;
+  right: 1rem;
+  font-family: var(--font-display);
+  font-size: 5.5rem;
+  line-height: 1;
+  color: rgba(184, 134, 11, 0.16);
+  pointer-events: none;
+}
+
+html.dark .lyric-quote::before {
+  color: rgba(224, 185, 77, 0.16);
+}
+
+.lyric-quote-ar {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  border: none;
+  padding: 0;
+  text-align: right;
+  font-family: "Noto Naskh Arabic", "Source Serif 4", serif;
+  font-size: 1.45rem;
+  font-weight: 500;
+  line-height: 2;
+  color: var(--global-font-color);
+}
+
+.lyric-quote-ar p {
+  margin: 0;
+}
+
+.lyric-quote-divider {
+  position: relative;
+  z-index: 1;
+  display: block;
+  text-align: center;
+  margin: 0.65rem 0;
+  font-size: 0.6rem;
+  color: rgba(184, 134, 11, 0.55);
+}
+
+html.dark .lyric-quote-divider {
+  color: rgba(224, 185, 77, 0.55);
+}
+
+.lyric-quote-en {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  text-align: left;
+  font-family: var(--font-text);
+  font-style: italic;
+  font-size: 1.02rem;
+  line-height: 1.65;
+  color: var(--global-font-secondary-color);
+}
+
+.lyric-quote-en p {
+  margin: 0;
+}
+
+@media (max-width: 680px) {
+  .lyric-quote {
+    padding: 1.35rem 1.3rem 1.25rem;
+  }
+
+  .lyric-quote-ar {
+    font-size: 1.28rem;
+  }
+
+  .lyric-quote::before {
+    font-size: 4.2rem;
+    right: 0.6rem;
+  }
+}
+
+/* ── Track Info Card ──────────────────────────────────────
+   Replaces the plain Song/Artist/Dialect/Genre markdown table.
+   Deliberately quiet — thin rules, no fill, no color — so it reads
+   as a catalog label between the heading and the colored lyric/
+   spotify cards below, rather than competing with them.
+   ============================================================ */
+.track-card {
+  margin: 1.1rem 0 1.6rem;
+  padding: 0.95rem 0;
+  border-top: 1px solid var(--global-border-color);
+  border-bottom: 1px solid var(--global-border-color);
+}
+
+.track-card-title {
+  margin: 0 0 0.3rem;
+  line-height: 1.3;
+}
+
+.track-card-song {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 1.3rem;
+  color: var(--global-font-color);
+}
+
+.track-card-artist {
+  font-family: var(--font-text);
+  font-size: 1.05rem;
+  color: var(--global-font-secondary-color);
+}
+
+.track-card-meaning {
+  margin: 0 0 0.65rem;
+  font-family: var(--font-text);
+  font-style: italic;
+  font-size: 0.96rem;
+  color: var(--global-font-secondary-color);
+}
+
+.track-card-meta {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.1rem;
+}
+
+.track-card-meta-item {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.45rem;
+}
+
+.track-card-meta-label {
+  font-family: var(--font-sans);
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--global-font-secondary-color);
+  opacity: 0.7;
+}
+
+.track-card-meta-value {
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  color: var(--global-font-color);
+}
+
+@media (max-width: 680px) {
+  .track-card-song {
+    font-size: 1.18rem;
+  }
+
+  .track-card-meta {
+    gap: 0.85rem 1.1rem;
+  }
+}
+
 /* Footer variant – compact, viewport-width, squared off (no rounded corners) */
 .join-channels.join-channels--footer {
   align-self: stretch;

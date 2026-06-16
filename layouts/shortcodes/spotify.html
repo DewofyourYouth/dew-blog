@@ -1,0 +1,52 @@
+{{- $url := cond .IsNamedParams (.Get "url") (.Get 0) -}}
+{{- $type := .Get "type" | default "track" -}}
+{{- $id := .Get "id" -}}
+{{- $title := .Get "title" | default "Spotify track" -}}
+{{- $height := .Get "height" | default "152" -}}
+
+{{- if $url -}}
+  {{- $match := index (findRE `(track|album|playlist|episode|artist)/[A-Za-z0-9]+` $url) 0 -}}
+  {{- $parts := split $match "/" -}}
+  {{- $type = index $parts 0 -}}
+  {{- $id = index $parts 1 -}}
+{{- end -}}
+
+{{- $embed := printf "https://open.spotify.com/embed/%s/%s?utm_source=generator" $type $id -}}
+{{- $link := printf "https://open.spotify.com/%s/%s" $type $id -}}
+
+{{- $song := $title -}}
+{{- $artist := "" -}}
+{{- $bits := split $title " — " -}}
+{{- if eq (len $bits) 2 -}}
+  {{- $song = index $bits 0 -}}
+  {{- $artist = index $bits 1 -}}
+{{- end -}}
+{{- $label := cond (ne $artist "") (printf "%s by %s" $song $artist) $song -}}
+
+<aside class="spotify-card">
+  <span class="spotify-card-bar" aria-hidden="true"></span>
+  <div class="spotify-card-body">
+    <p class="spotify-card-eyebrow">
+      <span class="spotify-card-disc" aria-hidden="true">◉</span>Listen on Spotify
+    </p>
+    <p class="spotify-card-meta">
+      <span class="spotify-card-song">{{ $song }}</span>
+      {{- with $artist }}<span class="spotify-card-artist"> · {{ . }}</span>{{ end -}}
+    </p>
+    <div class="spotify-card-frame">
+      <iframe
+        src="{{ $embed }}"
+        height="{{ $height }}"
+        frameborder="0"
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        loading="lazy"
+        title="{{ $label }} — Spotify embed"
+      ></iframe>
+    </div>
+    <noscript>
+      <p class="spotify-card-fallback">
+        <a href="{{ $link }}" rel="noopener noreferrer" target="_blank">Listen to {{ $label }} on Spotify</a>
+      </p>
+    </noscript>
+  </div>
+</aside>

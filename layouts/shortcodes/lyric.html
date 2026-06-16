@@ -1,0 +1,33 @@
+{{- if not ($.Page.Scratch.Get "lyricFontLoaded") -}}
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400..700&display=swap" rel="stylesheet" />
+{{- $.Page.Scratch.Set "lyricFontLoaded" true -}}
+{{- end -}}
+
+{{- $raw := trim .Inner "\n" -}}
+{{- $stanzas := split $raw "\n\n" -}}
+{{- $arBlock := index $stanzas 0 -}}
+{{- $enBlock := "" -}}
+{{- if gt (len $stanzas) 1 -}}
+  {{- $enBlock = index $stanzas 1 -}}
+{{- end -}}
+{{- $arLines := split (trim $arBlock "\n") "\n" -}}
+
+<figure class="lyric-quote">
+  <blockquote class="lyric-quote-ar" lang="ar" dir="rtl">
+    {{- range $arLines -}}
+      {{- $line := strings.TrimSpace . -}}
+      {{- if ne $line "" }}<p>{{ $line }}</p>{{ end -}}
+    {{- end }}
+  </blockquote>
+  {{- with $enBlock }}
+  <span class="lyric-quote-divider" aria-hidden="true">&#9670;</span>
+  <figcaption class="lyric-quote-en" lang="en" dir="ltr">
+    {{- range split (trim . "\n") "\n" -}}
+      {{- $line := strings.TrimSpace . -}}
+      {{- if ne $line "" }}<p>{{ $line }}</p>{{ end -}}
+    {{- end }}
+  </figcaption>
+  {{- end }}
+</figure>

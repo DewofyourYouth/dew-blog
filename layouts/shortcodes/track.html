@@ -1,0 +1,23 @@
+{{- $song := .Get "song" -}}
+{{- $artist := .Get "artist" -}}
+{{- $dialect := .Get "dialect" -}}
+{{- $meaning := .Get "meaning" -}}
+{{- $genre := .Get "genre" -}}
+
+<div class="track-card">
+  <p class="track-card-title">
+    <span class="track-card-song">{{ $song }}</span>
+    {{- with $artist }}<span class="track-card-artist"> · {{ . }}</span>{{ end -}}
+  </p>
+  {{- with $meaning }}
+  <p class="track-card-meaning">“{{ . }}”</p>
+  {{- end }}
+  <p class="track-card-meta">
+    {{- with $dialect }}
+    <span class="track-card-meta-item"><span class="track-card-meta-label">Dialect</span><span class="track-card-meta-value">{{ . }}</span></span>
+    {{- end }}
+    {{- with $genre }}
+    <span class="track-card-meta-item"><span class="track-card-meta-label">Genre</span><span class="track-card-meta-value">{{ . }}</span></span>
+    {{- end }}
+  </p>
+</div>

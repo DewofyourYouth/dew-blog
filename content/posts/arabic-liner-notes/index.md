@@ -41,6 +41,10 @@ On my Arabic blog [Daily Derja](https://dailyderja.com/), I have been writing ab
 
 {{< featured-link url="https://dailyderja.com/series/%D9%86%D8%B3%D9%85%D8%A9-%D9%86%D8%BA%D9%85%D8%A9/" title="Melody Breeze" brand="Daily Derja" cat="نسمة نغمة" summary="Short, recurring notes on Arabic songs — lyrics, dialect quirks, and ear training. As well as just Arabic posts on music I'm listening to." cta="Read the series →" image="images/melody-breeze.jpg" >}}
 
+If you’d rather just press play than read twenty mini-essays, I put every song from this list into one Spotify playlist.
+
+{{< spotify url="https://open.spotify.com/playlist/39iXaFol8uok9MPlz0SENq" title="The Full Liner Notes Playlist" height="380" >}}
+
 ## 1. Liya Snin
 
 {{< track song="Liya Snin" artist="Ÿuma" dialect="Tunisian Derja" meaning="It’s been years" genre="Folk Pop" >}}
@@ -265,6 +269,8 @@ That matters because the word is not just a genre label. **Dabkeh** carries a wh
 Bedouin Burger’s version does not sound like a standard wedding dabkeh track. It feels more like the idea of dabkeh refracted through an indie-electronic imagination: folk pulse, voice, beat, repetition, and modern production. Zeid Hamdan gives it the machine; Lynn Adib gives it the human breath.
 
 For a learner, this kind of song is useful because Arabic is not only vocabulary and grammar. It is also movement. Some words are attached to social forms. You do not really understand **دبكة** by translating it as “dance.” You understand it by hearing the stomp inside the word.
+
+{{< join-channels >}}
 
 ## 11. WBa3dein? / وبعدين؟
 

@@ -39,6 +39,8 @@ If you happen to be learning Arabic, or just enjoy listening to Arabic music, th
 
 On my Arabic blog [Daily Derja](https://dailyderja.com/), I have been writing about Arabic music and language and ear training for a while now. I have a series of posts dedicated to it called ["Melody Breeze نسمة نغمة"](https://dailyderja.com/series/%D9%86%D8%B3%D9%85%D8%A9-%D9%86%D8%BA%D9%85%D8%A9/). Many of the Tunisian and Levantine songs on the list have either been featured in those posts or are planned future entries.
 
+This post also happens to land right around Daily Derja's first birthday — which feels fitting, since most of this list grew out of a year of writing about Arabic music there.
+
 {{< featured-link url="https://dailyderja.com/series/%D9%86%D8%B3%D9%85%D8%A9-%D9%86%D8%BA%D9%85%D8%A9/" title="Melody Breeze" brand="Daily Derja" cat="نسمة نغمة" summary="Short, recurring notes on Arabic songs — lyrics, dialect quirks, and ear training. As well as just Arabic posts on music I'm listening to." cta="Read the series →" image="images/melody-breeze.jpg" >}}
 
 If you’d rather just press play than read twenty mini-essays, I put every song from this list into one Spotify playlist.

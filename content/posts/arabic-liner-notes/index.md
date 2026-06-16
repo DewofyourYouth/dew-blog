@@ -64,7 +64,7 @@ It’s been years
 I could write this whole post about my favorite Ÿuma songs and it would be a worthwhile read. But the scope would be a little too narrow for me, so I decided to include _Liya Snin_ as the main entry. I will include a few more Ÿuma songs under this heading without discussing each one.
 
 {{< admonition type=note title="A note on the song selection" >}}
-I tried to limit the entries to one per artists. Many of these Artists have many amazing songs, and if you connect to one - you will probably connect to many of their songs.
+I tried to limit the entries to one per artist. Many of these Artists have many amazing songs, and if you connect to one - you will probably connect to many of their songs.
 {{< /admonition >}}
 
 

@@ -394,31 +394,32 @@ What makes the song work is that it is not a simple patriotic anthem. It is abou
 
 For a learner, this is also a useful reminder that Arabic does not only move east-west between the Levant and the Maghreb. There is also Sudanese Arabic, Nubian musical memory, East African rhythm, diaspora Arabic, and the sound of Arabic shaped by the Nile from another direction.
 
-## 17. Al Bint El Chalabeya / البنت الشلبية
+## 17. Kifak Enta / كيفك إنت
 
-{{< track song="Al Bint El Chalabeya" artist="Dorsaf Hamdani" dialect="Levantine / Arabic folk" meaning="The Shalabiya girl / The girl from Shalabeya" genre="Arabic Folk / Chamber Arabic Song" >}}
+{{< track song="Kifak Enta" artist="Fairuz" dialect="Levantine Lebanese" meaning="How are you?" genre="Lebanese Classic / Art Song" >}}
 
 {{< lyric >}}
-البنت الشلبية
-عيونها لوزية
-بحبك من قلبي
-يا قلبي إنت عينيّ
+كيفك إنت
+إن شاء الله تكون بخير
+مش إنت قلت بآخر مرة
+إنك مش راح تغيب كتير
 
-The Shalabiya girl
-Her eyes are almond-shaped
-I love you from my heart
-My heart, you are my eyes
+How are you?
+I hope you are well
+Didn’t you say last time
+That you wouldn’t be gone long?
 {{< /lyric >}}
 
-{{< spotify id="2OxygAH92guaY9kliJboul" title="Al Bint El Chalabeya — Dorsaf Hamdani" >}}
+{{< spotify id="6X9vha34d3KXEfdlaYjsyP" title="Kifak Enta — Fairuz" >}}
 
-_Al Bint El Chalabeya_ is one of those songs that feels older than any one recording of it. Most listeners know it through Fairuz, but I am including Dorsaf Hamdani’s version here because of the delicacy of her interpretation. Hamdani takes a familiar Levantine song and gives it a chamber-like clarity: less village square, more candlelit room.
+*Kifak Enta* means **“How are you?”** in Lebanese Arabic. The phrase is simple — **كيفك إنت؟** — but the song is not simple at all. It is one of those Fairuz songs where an ordinary expression becomes emotionally dangerous. “How are you?” is not really small talk here. It is a door opening onto memory.
 
-On the surface, the song is simple: the girl with almond-shaped eyes, the beloved waiting near the bridges, the pomegranate tree, the wounded heart, the old sweetness of Arabic folk romance. But that simplicity is part of its power. It does not need elaborate poetry to work. **عيونها لوزية** — “her eyes are almond-shaped” — is enough. **بحبك من قلبي** — “I love you from my heart” — is enough.
+Fairuz is unavoidable in Arabic music. You do not have to listen to her every morning, and you do not have to turn your Arabic taste into a museum of respectable classics, but at some point the road passes through Fairuz. Her voice is one of the central sounds of modern Lebanese and Arab musical memory.
 
-For a learner, this is useful because the Arabic is immediately rewarding. The vocabulary is concrete and emotional: eyes, heart, love, waiting, trees, pain. It is also a good reminder that some of the most beloved Arabic songs are not difficult because the words are obscure. They are difficult because the feeling has accumulated over generations of people singing them.
+What makes *Kifak Enta* useful for a learner is that the title itself is immediately usable. **كيفك؟** is one of the first things people learn in Levantine Arabic. But the song shows you how a basic phrase can carry adult emotional weight. In a textbook, **kifak enta** means “how are you?” In Fairuz, it means: I remember you, I am asking more than I can say, and this question is not innocent.
 
-Dorsaf Hamdani’s version also gives the list a Tunisian artist interpreting a Levantine classic, which is itself part of the pleasure of Arabic music. Songs travel. A Lebanese standard can be sung by a Tunisian vocalist and still remain recognizably itself, while gaining a slightly different color through her voice.
+The song also gives the list a clean Fairuz entry without making the whole post about Fairuz. It sits nicely beside *Al Bint El Chalabeya*: one is a folk-like classic sung through Dorsaf Hamdani’s Tunisian voice, and the other is Fairuz herself, turning a plain Lebanese phrase into an ache.
+
 
 ## 18. Bisaraha / وبصراحة
 

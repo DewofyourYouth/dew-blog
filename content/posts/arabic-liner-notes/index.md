@@ -50,7 +50,9 @@ A friend immediately pointed out that I left out obvious giants: Amr Diab, Asala
 
 **He is right.**
 
-This list is not meant to be a canon of Arabic music. It is a listening journal: songs I actually spent time with while learning Arabic. Some of the giants are missing because I have not yet lived with their music enough to write about it honestly.
+This list is not meant to be a canon of Arabic music. It is a listening journal: songs I actually spent time with while learning Arabic. Some of the giants are missing because I have not yet lived with their music enough to write about it honestly. 
+
+Stay tuned for ["Melody Breeze"](https://dailyderja.com/series/%D9%86%D8%B3%D9%85%D8%A9-%D9%86%D8%BA%D9%85%D8%A9/) posts on some of those artists in the future on [Daily Derja](https://dailyderja.com/).
 {{< /admonition >}}
 
 ## 1. Liya Snin

@@ -1,5 +1,5 @@
 ---
-title: "My Arabic Liner Notes"
+title: "My Arabic Music Liner Notes"
 date: 2026-06-16T13:17:11+03:00
 draft: false
 featuredImage: liner-notes.jpg
@@ -38,6 +38,8 @@ That said, you don’t need to speak Arabic, or be learning Arabic, to enjoy Ara
 If you happen to be learning Arabic, or just enjoy listening to Arabic music, these are some of my favorite recommendations to train your ears on. I will include dialect notes along with each recommendation. This is not meant to be an objective “best Arabic songs” list. It is more like liner notes for the songs that have lodged themselves in my ear while I have been circling Arabic through Tunisian, Moroccan, Algerian, Sudanese, and Levantine music.
 
 On my Arabic blog [Daily Derja](https://dailyderja.com/), I have been writing about Arabic music and language and ear training for a while now. I have a series of posts dedicated to it called ["Melody Breeze نسمة نغمة"](https://dailyderja.com/series/%D9%86%D8%B3%D9%85%D8%A9-%D9%86%D8%BA%D9%85%D8%A9/). Many of the Tunisian and Levantine songs on the list have either been featured in those posts or are planned future entries.
+
+{{< featured-link url="https://dailyderja.com/series/%D9%86%D8%B3%D9%85%D8%A9-%D9%86%D8%BA%D9%85%D8%A9/" title="Melody Breeze" brand="Daily Derja" cat="نسمة نغمة" summary="Short, recurring notes on Arabic songs — lyrics, dialect quirks, and ear training. As well as just Arabic posts on music I'm listening to." cta="Read the series →" image="images/melody-breeze.jpg" >}}
 
 ## 1. Liya Snin
 

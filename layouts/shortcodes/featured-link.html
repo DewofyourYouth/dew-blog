@@ -1,0 +1,56 @@
+{{- $url := .Get "url" -}}
+{{- $title := .Get "title" -}}
+{{- $summary := .Get "summary" -}}
+{{- $img := .Get "image" -}}
+{{- $brand := .Get "brand" -}}
+{{- $cat := .Get "cat" -}}
+{{- $cta := .Get "cta" | default "Visit →" -}}
+
+{{- $host := "" -}}
+{{- with urls.Parse $url -}}
+  {{- $host = .Host -}}
+{{- end -}}
+
+{{- $imgResource := "" -}}
+{{- with $img -}}
+  {{- $imgResource = ($.Page.Resources.Get .) | default (resources.Get .) -}}
+{{- end -}}
+
+<section class="post-spotlight featured-link">
+  <div class="post-spotlight-media">
+    {{- if $imgResource }}
+      {{- $optim := slice
+        (dict "Process" "fill 800x600 Center webp q75" "descriptor" "800w")
+        (dict "Process" "fill 1200x900 Center webp q75" "descriptor" "1200w")
+        (dict "Process" "fill 1600x1200 Center webp q75" "descriptor" "1600w")
+      -}}
+      <a href="{{ $url }}" target="_blank" rel="noopener noreferrer">
+        {{- dict "Src" $img "Title" $title "Resources" $.Page.Resources "Loading" "lazy" "Width" "800" "Height" "600" "Sizes" "(max-width: 900px) 100vw, 520px" "OptimConfig" $optim "Alt" (printf "Featured image for %v" $title) | partial "plugin/image.html" -}}
+      </a>
+    {{- else }}
+      <a class="post-spotlight-placeholder" href="{{ $url }}" target="_blank" rel="noopener noreferrer">
+        <span>{{ substr $title 0 1 }}</span>
+      </a>
+    {{- end }}
+  </div>
+  <div class="post-spotlight-body">
+    <div class="post-spotlight-top">
+      {{- with $brand }}<span class="post-spotlight-brand">{{ . }}</span>{{ end }}
+      {{- with $cat }}<span class="post-spotlight-cat">{{ . }}</span>{{ end }}
+    </div>
+    <h3 class="post-spotlight-title">
+      <a href="{{ $url }}" target="_blank" rel="noopener noreferrer">{{ $title }}</a>
+    </h3>
+    {{- with $summary }}
+    <p class="post-spotlight-summary">{{ . }}</p>
+    {{- end }}
+    <div class="post-spotlight-meta">
+      {{- with $host }}
+      <span class="post-spotlight-date">
+        {{- partial "plugin/fontawesome.html" (dict "Style" "solid" "Icon" "external-link-alt") -}}&nbsp;{{ . }}
+      </span>
+      {{- end }}
+      <a class="post-spotlight-link" href="{{ $url }}" target="_blank" rel="noopener noreferrer">{{ $cta }}</a>
+    </div>
+  </div>
+</section>

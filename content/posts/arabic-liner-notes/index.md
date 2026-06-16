@@ -45,6 +45,14 @@ If you’d rather just press play than read twenty mini-essays, I put every song
 
 {{< spotify url="https://open.spotify.com/playlist/39iXaFol8uok9MPlz0SENq" title="The Full Liner Notes Playlist" height="380" >}}
 
+{{<admonition type=important title="This is not the cannonical list of Arabic music" >}}
+A friend immediately pointed out that I left out obvious giants: Amr Diab, Asalah, Wael Kfoury, Nassif Zeytoun, George Wassouf, and others.
+
+**He is right.**
+
+This list is not meant to be a canon of Arabic music. It is a listening journal: songs I actually spent time with while learning Arabic. Some of the giants are missing because I have not yet lived with their music enough to write about it honestly.
+{{< /admonition >}}
+
 ## 1. Liya Snin
 
 {{< track song="Liya Snin" artist="Ÿuma" dialect="Tunisian Derja" meaning="It’s been years" genre="Folk Pop" >}}

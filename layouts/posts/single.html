@@ -186,7 +186,7 @@
                 {{- range $key, $value := .Site.Taxonomies.series -}}
                     {{- range $params.series -}}
                         {{- if . | urlize | eq ($key | urlize) -}}
-                            {{- $term := $.Site.GetPage "series" $key -}}
+                            {{- $term := $.Site.GetPage (printf "/series/%v" ($key | urlize)) -}}
                             <div class="details series-nav open">
                                 <div class="details-summary series-title">
                                     <span>{{ T "series" }} - {{ $term.Title }}</span>

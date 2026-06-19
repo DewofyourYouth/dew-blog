@@ -16,7 +16,12 @@ tags:
   - Zionism
   - comparative linguistics
 featuredImage: "tlv-cafe.jpg"
+featuredImageAlt: "A Tel Aviv café storefront with a Hebrew sign, evoking modern spoken Hebrew."
+seo:
+  images:
+    - "tlv-cafe.jpg"
 summary: "Hebrew became the mother tongue of millions; Modern Standard Arabic remains a formal register nobody speaks at home. Both underwent deliberate standardization in the same historical window — the difference reveals what language revival actually requires."
+description: "Why Modern Hebrew became a living mother tongue while Modern Standard Arabic stayed a formal register nobody speaks at home — compared through Irish, Yiddish, and Ben-Yehuda's revival."
 draft: false
 ---
 

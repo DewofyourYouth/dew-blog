@@ -102,6 +102,8 @@ end
 ```elixir
 defmodule CheeseAI do
   def describe(name) do
+    # JSON schema the model must conform to - this is what makes the
+    # response parseable instead of "here's a paragraph about brie"
     schema = %{
       type: "object",
       properties: %{
@@ -116,7 +118,7 @@ defmodule CheeseAI do
     response =
       Req.post!("https://api.openai.com/v1/responses",
         headers: [
-          authorization: "Bearer #{System.fetch_env!("LB_OPEN_API_KEY")}"
+          authorization: "Bearer #{System.fetch_env!("OPENAI_API_KEY")}"
         ],
         json: %{
           model: "gpt-4o-mini",
@@ -125,15 +127,19 @@ defmodule CheeseAI do
             format: %{
               type: "json_schema",
               name: "cheese_details",
-              strict: true,
+              strict: true,        # forces the model to match `schema` exactly
               schema: schema
             }
           }
         }
       )
 
+    # Pattern match the response - if status isn't 200, this crashes loudly
+    # instead of silently handing garbage to the code below.
     %{status: 200, body: body} = response
 
+    # The Responses API nests the actual text a few levels deep inside
+    # `output`, so dig through it to find the message content we care about.
     json_text =
       Enum.find_value(body["output"], fn
         %{"type" => "message", "content" => content} ->
@@ -146,8 +152,11 @@ defmodule CheeseAI do
           nil
       end)
 
+    # `json_text` is a string containing JSON - decode it into a map.
     details = Jason.decode!(json_text)
 
+    # Finally, build the struct so the rest of the code deals with
+    # a %CheeseStruct{}, not a loose map of string keys.
     %CheeseStruct{
       name: name,
       flavor_profile: details["flavor_profile"],

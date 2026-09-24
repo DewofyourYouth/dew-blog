@@ -3,6 +3,7 @@ title: "Elixir Cheatsheet"
 summary: Some Elixir basics (work in progress).
 description: "A working reference for Elixir basics: pattern matching, data types, functions, and BEAM idioms, built while exploring the language."
 date: 2024-06-02T16:31:26+03:00
+lastmod: 2026-09-24T18:07:07+03:00
 featuredImage: potion.jpg
 categories:
   - Tech & Tools
@@ -12,6 +13,8 @@ tags:
   - beam
   - cheatsheet
   - functional-programming
+code:
+  maxShownLines: 999
 draft: false
 ---
 
@@ -21,7 +24,7 @@ Source for documentation: [HexaDocs](https://hexdocs.pm/elixir/1.12/Kernel.html)
 
 ## Operators
 
-### Match Operater
+### Match Operator
 In Elixir there is not concept of "assignment", the `=` operator is a **match** operator, not an assignment operator.
 
 ```elixir
@@ -46,7 +49,7 @@ true
 
 ### The Pipe Operator
 
-Takes pipe operator `|>` the output of a function and uses it as the first argument in the next function.
+The pipe operator `|>` takes the output of a function and uses it as the first argument of the next function.
 
 ```elixir
 iex(1)> add_3 = fn a -> a + 3 end
@@ -63,7 +66,7 @@ For more documentation, see the [HexaDocs](https://hexdocs.pm/elixir/1.12/Kernel
 
 ### Booleans
 
-Whether something is `true` of `false`. (Attached from atoms `:true` or `:false`).
+Whether something is `true` or `false`. Under the hood, booleans are just the atoms `:true` and `:false`.
 
 ### Atoms
 
@@ -91,9 +94,7 @@ IO.puts(HandleMessage.check_message tup2)
 IO.puts(HandleMessage.check_message tup3)
 ```
 
-Output:
-
-```
+```bash
 An error occured: 'The sky is falling!' 😭
 Hurray! 'Everything is under control.' 🎉
 I don't know what to do with this: 'Davie Crocket' 🤷
@@ -139,15 +140,75 @@ From the hexdocs:
 
 ### Keyword Lists
 
+Keyword lists are lists of two-element tuples where the first element is an atom. They preserve order and allow duplicate keys — the opposite tradeoff from maps. You'll see them most often as optional arguments at the end of a function call.
+
+```elixir
+iex(1)> opts = [enabled: true, timeout: 30]
+[enabled: true, timeout: 30]
+iex(2)> opts == [{:enabled, true}, {:timeout, 30}]   # the [key: value] form is just sugar for tuples
+true
+iex(3)> opts[:timeout]
+30
+```
+
 ### Maps
 
-Key value data structure.
+Maps are Elixir's key-value data structure. Keys can be any type and must be unique — no preserved order, no duplicates.
+
+```elixir
+iex(1)> cheese = %{name: "brie", price: 12.5}
+%{name: "brie", price: 12.5}
+iex(2)> cheese.name              # dot access only works when the key is an atom
+"brie"
+iex(3)> %{cheese | price: 14.0}  # update syntax - only works on keys that already exist
+%{name: "brie", price: 14.0}
+iex(4)> Map.put(cheese, :in_stock, true)   # Map.put/3 can add brand new keys
+%{in_stock: true, name: "brie", price: 12.5}
+```
 
 ### Functions
 
+Elixir has named functions, defined with `def` inside a module, and anonymous functions that get passed around like any other value.
+
+```elixir
+defmodule Greeter do
+  def hello(name) do
+    "Hello, #{name}!"
+  end
+end
+
+IO.puts(Greeter.hello("World"))
+```
+
+```bash
+Hello, World!
+```
+
+Anonymous functions:
+
+```elixir
+iex(1)> square = fn x -> x * x end
+#Function<42.105768164/1 in :erl_eval.expr/6>
+iex(2)> square.(4)                       # anonymous functions are invoked with a dot
+16
+iex(3)> Enum.map([1, 2, 3], &(&1 * &1))  # the capture operator is shorthand for a one-line fn
+[1, 4, 9]
+```
+
 ### Integers
 
+Integers have arbitrary precision — they grow as large as memory allows, no overflow to worry about. Underscores are allowed as a visual separator in large literals.
 
+```elixir
+iex(1)> 1_000_000
+1000000
+iex(2)> 2 ** 100      # exponentiation
+1267650600228229401496703205376
+iex(3)> div(7, 2)     # integer division
+3
+iex(4)> rem(7, 2)     # remainder
+1
+```
 
 ---
 {{< join-channels >}}
@@ -176,6 +237,12 @@ IO.puts(HandleMessage.check_message tup2)
 IO.puts(HandleMessage.check_message tup3)
 ```
 
+```bash
+An error occured: 'The sky is falling!' 😭
+Hurray! 'Everything is under control.' 🎉
+I don't know what to do with this: 'Davie Crocket' 🤷
+```
+
 This can also be accomplished with pattern matching and overloading:
 
 ```elixir
@@ -201,5 +268,11 @@ end
 IO.puts(HandleMessage2.check_message tup1)
 IO.puts(HandleMessage2.check_message tup2)
 IO.puts(HandleMessage2.check_message tup3)
+```
+
+```bash
+An error occured: 'The sky is falling!' 😭
+Hurray! 'Everything is under control.' 🎉
+I don't know what to do with this: 'Davie Crocket' 🤷
 ```
 

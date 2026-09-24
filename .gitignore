@@ -10,3 +10,4 @@ node_modules/public/
 .hugo_build.lock
 .idea
 .DS_Store
+content/posts/.DS_Store

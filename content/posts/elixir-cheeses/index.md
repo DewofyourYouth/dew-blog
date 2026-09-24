@@ -22,7 +22,7 @@ code:
 draft: false
 ---
 
-I have been playing around with Elixir and I want to make a little tutorial about how to use Elixir with AI and some thoughts about data modeling with Elixir. I also want to make a cheese catalog because I love cheese and I think it would be fun to see how AI can help me with that. First let's install the Req library so we can make HTTP requests to the OpenAI API.
+I've been playing around with Elixir, and I wanted an excuse to think out loud about data modeling in a language that treats structs and pattern matching as load-bearing walls, not decoration. Naturally, the excuse I landed on is cheese — a subject LLMs turn out to have shockingly strong opinions about. So: a cheese catalog, populated by AI, built entirely in Elixir. First, let's install `Req` so we can actually talk to the OpenAI API.
 
 ```elixir
 Mix.install([
@@ -32,13 +32,13 @@ Mix.install([
 
 ## Playing Around With Cheese
 
-I want to make a cheese struct for my Hall of cheeses. I feel that it would be simpler to just have AI fill in the data since cheese is a thing LLMs are very fond of.
+I want a struct for my (deeply necessary) Hall of Cheeses. And since typing out flavor profiles and pairings by hand sounded like actual work, I'm outsourcing it — cheese, it turns out, is a topic LLMs have plenty to say about.
 
 <!-- livebook:{"break_markdown":true} -->
 
-Here is a short list of cheese I'm considering. Just to start off with.
+Here's a short list to start with.
 
-Let's also check how many cheeses we have - just for fun!
+And, purely for the satisfaction of it, let's count them.
 
 ```elixir
 cheeses = ["mozzerella", "cheddar", "parmesan", "gouda", "swiss", "brie"]
@@ -50,7 +50,7 @@ Enum.count(cheeses)
 6
 ```
 
-Just to give a sense of the arrow syntax and functions in Elixir:
+Just to get a feel for the pipe operator and functions in Elixir:
 
 ```elixir
 defmodule Cheese do
@@ -82,9 +82,9 @@ Brie is a type of cheese.
 
 ### Structs and Stuff
 
-Sometimes I want a construct that keeps related data about my cheese together. This is a struct.
+Sometimes you want one construct that holds related data together — in Elixir, that's a struct.
 
-My cheese struct will have a name, flavor profile, a list of items the cheese pairs well with, and a description of the cheese.
+My cheese struct needs a name, a flavor profile, a list of pairings, and a description. If I had a cheese store, I could add things like price and inventory, but for now, let's keep it simple.
 
 ```elixir
 defmodule CheeseStruct do
@@ -96,6 +96,8 @@ end
 ```bash
 {:module, CheeseStruct, <<70, 79, 82, 49, 0, 0, 15, ...>>, ...}
 ```
+
+### Letting AI Fill In the Details
 
 ```elixir
 defmodule CheeseAI do
@@ -169,7 +171,9 @@ CheeseAI.describe("brie")
 }
 ```
 
-Now let's map over all our cheese and get their flavor profiles and pairings. This will take a few seconds because we are making a request to the OpenAI API for each cheese.
+### Building the Full Catalog
+
+Now let's map over the whole list and get flavor profiles and pairings for each cheese. This takes a few seconds — one HTTP round-trip to OpenAI per cheese.
 
 ```elixir
 cheesy_goodness = Enum.map(cheeses, &CheeseAI.describe/1)
@@ -194,9 +198,13 @@ cheesy_goodness = Enum.map(cheeses, &CheeseAI.describe/1)
 ]
 ```
 
-Awesome! Now we have a catalog of cheeses with their flavor profiles and pairings.
+{{<admonition type="info" title="On Brie Inconsistencies" >}}
+Note that the brie description is slightly different than the one we got when we asked for just brie. That's because the AI is generating a new response each time, and it doesn't have memory of previous responses.
+{{</admonition>}}
 
-Let's find out which of our cheeses pair well with crackers.
+And there it is — a full catalog of cheeses, each with an AI-generated flavor profile and a list of pairings.
+
+Let's find out which of our cheeses actually pair well with crackers.
 
 ```elixir
 Enum.filter(cheesy_goodness, fn cheese -> 
@@ -229,9 +237,11 @@ end)
 ]
 ```
 
-Well that was great! But now, let's turn this into a reusable function to discover pairings.
+## From One-Off Filter to Reusable Function
 
-We should also make sure that the function recieves a list of `CheeseStructs` because otherwise - who know what could happen! We could be left with poorly paired cheeses - or an exception we can't understand!!
+That worked, but filtering by hand every time isn't exactly reusable. Let's turn it into a proper function.
+
+We should also make sure the function actually receives a list of `CheeseStruct`s — otherwise, who knows what happens. Best case, nonsense pairings. Worst case, an exception no one can explain.
 
 ```elixir
 defmodule CheeseCatalog do
@@ -255,7 +265,9 @@ Enum.map(CheeseCatalog.find_pairings(cheesy_goodness, "red wine"), fn cheese -> 
 ["cheddar", "parmesan", "gouda", "brie"]
 ```
 
-Let's add a test to the `CheeseCatalogTest` module to ensure that the `find_pairings` function works and throws understandable errors
+## Testing the Catalog
+
+Let's add tests to `CheeseCatalogTest` to make sure `find_pairings` behaves — and fails loudly, not mysteriously, when it doesn't.
 
 ```elixir
 ExUnit.start(autorun: false)
@@ -282,5 +294,13 @@ end
 
 ExUnit.run()
 ```
+
+### Semantic Search and Future Features
+
+Of course, this will only work on exact matches. If you want to find cheeses that pair with a "chardonet" or "wine" in general, or something "salty" you are going to need a more sophisticated search. You could use embeddings and vector search, or you could just ask the AI to do the work for you.
+
+We will, G-d willing, address this in a future post. For now, we have a working cheese catalog, and a reusable function to find pairings. 
+
+Bon appétit!
 
 <!-- livebook:{"offset":4873,"stamp":{"token":"XCP.FP7aKoSGZHGlEG3hE8hLJNgXYeuXNCatT6k-xuCS7zRmLGAehLOhAKc9QFJzrGKQcdwpe_gjBPOC1_hacgLhQHzJZFP9IP3ctfpYjaCP97AxjhKDAHIE","version":2}} -->

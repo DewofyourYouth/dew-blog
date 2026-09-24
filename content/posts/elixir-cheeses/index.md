@@ -17,6 +17,9 @@ tags:
   - cheese
 summary: "I built a cheese catalog in Elixir, letting an LLM fill in flavor profiles and pairings — then used pattern matching to keep the data honest."
 description: "A hands-on Elixir tutorial: using structs, pattern matching, and the OpenAI API in a Livebook notebook to build an AI-generated cheese catalog with pairing lookups."
+series:
+  - elixir-and-cheese
+series_order: 1
 code:
   maxShownLines: 999
 draft: false

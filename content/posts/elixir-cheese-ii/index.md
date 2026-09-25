@@ -29,7 +29,7 @@ In [part one](/post/pairing-elixir-with-cheese/), I assembled a small Hall of Ch
 
 I ended that post promising a more sophisticated search. Naturally, I tried embeddings. What follows is a record of me finding a perfectly reasonable answer to a question I hadn't quite meant to ask. When I say I want something that goes with `salty`, I mean I have something salty to eat and need a cheese to serve alongside it. This distinction will take me longer to notice than it should.
 
-The cells below pick up where the [first notebook](/post/pairing-elixir-with-cheese/) left off. They assume `cheesy_goodness` is a list of `%CheeseStruct{}` values, Req is installed, and my Livebook secret is available as `OPENAI_API_KEY`.
+The cells below pick up where the [first notebook](/post/pairing-elixir-with-cheese/) left off. They assume `cheesy_goodness` is a list of `%CheeseStruct{}` values, Req is installed, and my API key is available as `OPENAI_API_KEY`.
 
 ## Teaching the Catalog to Search by Meaning
 

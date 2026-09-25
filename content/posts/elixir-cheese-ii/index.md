@@ -13,10 +13,15 @@ tags:
   - embeddings
   - semantic-search
   - cosine-similarity
+  - structured-outputs
   - cheese
-summary: "I tried embeddings to make my cheese catalog searchable by meaning, then discovered similarity isn't the same as a good pairing."
-description: "A follow-up Elixir tutorial: building semantic search over a cheese catalog with OpenAI embeddings and cosine similarity, then finding its limits with an LLM-based pairing recommender."
+summary: "Embeddings taught my Elixir cheese catalog that cabernet means red wine, but a search for salty proved similarity isn't the same as a good pairing."
+description: "An Elixir Livebook tutorial: semantic search over a cheese catalog with OpenAI embeddings and cosine similarity, and why an LLM recommender with JSON-schema output pairs better."
 featuredImage: featured.jpg
+featuredImageAlt: "A cheese board with brie, aged cheddar, and gouda beside red and white wine, next to a laptop showing Elixir IEx pairing queries and a similarity graph"
+seo:
+  images:
+    - featured.jpg
 series:
   - elixir-and-cheese
 series_order: 2

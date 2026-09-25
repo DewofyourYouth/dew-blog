@@ -16,6 +16,7 @@ tags:
   - cheese
 summary: "I tried embeddings to make my cheese catalog searchable by meaning, then discovered similarity isn't the same as a good pairing."
 description: "A follow-up Elixir tutorial: building semantic search over a cheese catalog with OpenAI embeddings and cosine similarity, then finding its limits with an LLM-based pairing recommender."
+featuredImage: featured.jpg
 series:
   - elixir-and-cheese
 series_order: 2
@@ -24,11 +25,11 @@ code:
 draft: true
 ---
 
-In [part one](https://www.dewofyouryouth.com/post/pairing-elixir-with-cheese/), I assembled a small Hall of Cheeses, persuaded an LLM to fill in the tasting notes, and wrote a function that finds cheeses whose pairing lists contain a given string. It works splendidly if I search for `red wine`. It is less helpful if I search for `cabernet`, which the catalog has never heard of.
+In [part one](/post/pairing-elixir-with-cheese/), I assembled a small Hall of Cheeses, persuaded an LLM to fill in the tasting notes, and wrote a function that finds cheeses whose pairing lists contain a given string. It works splendidly if I search for `red wine`. It is less helpful if I search for `cabernet`, which the catalog has never heard of.
 
 I ended that post promising a more sophisticated search. Naturally, I tried embeddings. What follows is a record of me finding a perfectly reasonable answer to a question I hadn't quite meant to ask. When I say I want something that goes with `salty`, I mean I have something salty to eat and need a cheese to serve alongside it. This distinction will take me longer to notice than it should.
 
-The cells below pick up where the [first notebook](/post/pairing-elixir-with-cheese/) left off. They assume `cheesy_goodness` is a list of `%CheeseStruct{}` values, Req is installed, and my Livebook secret is available as `LB_OPEN_API_KEY`.
+The cells below pick up where the [first notebook](/post/pairing-elixir-with-cheese/) left off. They assume `cheesy_goodness` is a list of `%CheeseStruct{}` values, Req is installed, and my Livebook secret is available as `OPENAI_API_KEY`.
 
 ## Teaching the Catalog to Search by Meaning
 
@@ -85,7 +86,7 @@ defmodule CheeseSearch do
     response =
       Req.post!("https://api.openai.com/v1/embeddings",
         headers: [
-          authorization: "Bearer #{System.fetch_env!("LB_OPEN_API_KEY")}"
+          authorization: "Bearer #{System.fetch_env!("OPENAI_API_KEY")}"
         ],
         json: %{
           model: "text-embedding-3-small",
@@ -129,11 +130,82 @@ There are two API steps here. `build_index/1` embeds all the pairing strings in 
 cheese_index = CheeseSearch.build_index(cheesy_goodness)
 ```
 
+```result
+[
+  %{
+    cheese: %CheeseStruct{
+      name: "mozzerella",
+      flavor_profile: "Mild, creamy, and slightly tangy with a stretchy texture.",
+      pairs_well_with: ["Tomatoes", "Basil", "Olive oil", "Balsamic vinegar", "Prosciutto"],
+      description: "Mozzarella is a soft, white cheese originating from Italy, traditionally made from water buffalo milk."
+    },
+    pairing: "Tomatoes",
+    vector: [0.01557159423828125, -0.0254974365234375, -0.0297088623046875, 0.0272979736328125,
+     0.0115814208984375, -0.04791259765625, 0.01983642578125, -0.00588226318359375,
+     -0.00750732421875, -0.028167724609375, 0.043487548828125, 0.0179595947265625, 0.019775390625,
+     0.0157928466796875, -0.002368927001953125, 0.00505828857421875, 0.00272369384765625,
+     0.0193328857421875, 0.00982666015625, 0.03350830078125, 0.0555419921875, 0.007190704345703125,
+     0.005767822265625, -0.031890869140625, 0.01090240478515625, 0.02801513671875,
+     -0.01392364501953125, 0.046356201171875, -6.814002990722656e-4, -0.045166015625,
+     0.038970947265625, -0.047088623046875, -0.0086517333984375, -0.01078033447265625,
+     -0.01100921630859375, -0.02557373046875, 0.016448974609375, 0.06158447265625,
+     0.0157318115234375, 0.0212249755859375, -0.0081939697265625, 0.0361328125,
+     -0.01136016845703125, 0.0078582763671875, 0.0159454345703125, -0.023345947265625,
+     -0.05902099609375, 0.015899658203125, 0.00572967529296875, 0.026824951171875,
+     -1.850128173828125e-4, -0.0753173828125, -0.024017333984375, 0.034332275390625, -0.0322265625,
+     -0.01557159423828125, -0.005859375, 0.053375244140625, 0.0156402587890625, 0.024627685546875,
+     -0.040771484375, -0.0035686492919921875, 0.03350830078125, -0.03045654296875,
+     0.01352691650390625, -0.04150390625, 0.00939178466796875, 0.007022857666015625,
+     -0.007843017578125, 0.0214691162109375, -0.0095062255859375, 0.048583984375, -0.04583740234375,
+     0.0165863037109375, 0.039306640625, 0.00931549072265625, -0.015228271484375,
+     0.00106048583984375, 0.033935546875, 0.031768798828125, -0.0066070556640625,
+     0.0294647216796875, -0.007965087890625, -0.009765625, -0.024688720703125,
+     -0.001216888427734375, -0.0257110595703125, ...]
+  },
+  ...
+]
+```
+
 Now, what happens if I ask for a cabernet?
 
 ```elixir
 # Try different queries without rebuilding the index.
 CheeseSearch.search(cheese_index, "cabernet")
+```
+
+```result
+[
+  %{
+    cheese: %CheeseStruct{
+      name: "brie",
+      flavor_profile: "Mild, buttery, and earthy with a slight nuttiness.",
+      pairs_well_with: ["crackers", "fruit", "nuts", "honey", "red wine"],
+      description: "A soft, creamy cheese from France with a white, bloomy rind."
+    },
+    matching_pairing: "red wine",
+    score: 0.5815349151581114
+  },
+  %{
+    cheese: %CheeseStruct{
+      name: "cheddar",
+      flavor_profile: "Rich, nutty, and sharp, Cheddar develops a stronger flavor with aging, becoming crumbly and tangy.",
+      pairs_well_with: ["Apples", "Crackers", "Red wine", "Beer", "Nuts"],
+      description: "Cheddar cheese is a hard, natural cheese made from cow's milk that originated in England. It varies in color from white to deep orange, often enhanced with annatto."
+    },
+    matching_pairing: "Red wine",
+    score: 0.5215413024063058
+  },
+  %{
+    cheese: %CheeseStruct{
+      name: "parmesan",
+      flavor_profile: "Nutty, savory, and slightly fruity with a strong umami presence.",
+      pairs_well_with: ["Pasta", "Red wine", "Olive oil", "Fruits", "Nuts", "Soup"],
+      description: "Parmesan cheese is a hard, aged cheese originating from Italy, known for its granular texture."
+    },
+    matching_pairing: "Red wine",
+    score: 0.5215413024063058
+  }
+]
 ```
 
 This is the trick I wanted: a query can retrieve a related phrase even when the exact word doesn't occur in the list. It is a **ranking**, though, not a ruling from an accredited cheese authority. The function always returns up to three cheeses, even if the third result is a rather heroic stretch.
@@ -192,7 +264,7 @@ defmodule CheeseRecommender do
     response =
       Req.post!("https://api.openai.com/v1/responses",
         headers: [
-          authorization: "Bearer #{System.fetch_env!("LB_OPEN_API_KEY")}"
+          authorization: "Bearer #{System.fetch_env!("OPENAI_API_KEY")}"
         ],
         json: %{
           model: "gpt-4o-mini",
@@ -262,6 +334,38 @@ The model returns names and reasons in JSON. I look those names up in my actual 
 
 ```elixir
 CheeseRecommender.recommend(cheesy_goodness, "salty pretzels")
+```
+
+```result
+[
+  %{
+    reason: "The sharp, rich flavor of cheddar contrasts beautifully with the saltiness of pretzels, enhancing their taste while providing a satisfying crumbly texture.",
+    cheese: %CheeseStruct{
+      name: "cheddar",
+      flavor_profile: "Rich, nutty, and sharp, Cheddar develops a stronger flavor with aging, becoming crumbly and tangy.",
+      pairs_well_with: ["Apples", "Crackers", "Red wine", "Beer", "Nuts"],
+      description: "Cheddar cheese is a hard, natural cheese made from cow's milk that originated in England. It varies in color from white to deep orange, often enhanced with annatto."
+    }
+  },
+  %{
+    reason: "Gouda's mild nuttiness and slight sweetness harmonizes well with the salt, creating a delightful balance that enhances each bite.",
+    cheese: %CheeseStruct{
+      name: "gouda",
+      flavor_profile: "Mild and nutty when young; caramel and complex when aged, with a slight sweetness.",
+      pairs_well_with: ["Crackers", "Nuts", "Fruits", "Red wine", "Beer"],
+      description: "Gouda is a semi-hard cheese from the Netherlands, known for its smooth texture and rich flavor. It can be young or aged, with varying characteristics."
+    }
+  },
+  %{
+    reason: "Parmesan's strong umami flavor adds depth to the saltiness of the pretzels, while its crumbly texture offers an interesting contrast.",
+    cheese: %CheeseStruct{
+      name: "parmesan",
+      flavor_profile: "Nutty, savory, and slightly fruity with a strong umami presence.",
+      pairs_well_with: ["Pasta", "Red wine", "Olive oil", "Fruits", "Nuts", "Soup"],
+      description: "Parmesan cheese is a hard, aged cheese originating from Italy, known for its granular texture."
+    }
+  }
+]
 ```
 
 This is closer to what I wanted from a pairing recommender. It can explain why a particular cheese would balance a salty pretzel, rather than merely announcing which pairing string happens to sit nearest the word `salty`. Whether I agree with its taste is another matter. That sounds like an excellent excuse to buy some cheese.

@@ -49,7 +49,7 @@ cheeses = ["mozzerella", "cheddar", "parmesan", "gouda", "swiss", "brie"]
 Enum.count(cheeses)
 ```
 
-```bash
+```result
 6
 ```
 
@@ -73,7 +73,7 @@ end
 Cheese.print_cheeses(cheeses)
 ```
 
-```bash
+```result
 Mozzerella is a type of cheese.
 Cheddar is a type of cheese.
 Parmesan is a type of cheese.
@@ -96,7 +96,7 @@ defmodule CheeseStruct do
 end
 ```
 
-```bash
+```result
 {:module, CheeseStruct, <<70, 79, 82, 49, 0, 0, 15, ...>>, ...}
 ```
 
@@ -173,7 +173,7 @@ end
 CheeseAI.describe("brie")
 ```
 
-```bash
+```result
 %CheeseStruct{
   name: "brie",
   flavor_profile: "Mild, creamy, and slightly nutty with earthy undertones.",
@@ -191,7 +191,7 @@ Now let's map over the whole list and get flavor profiles and pairings for each 
 cheesy_goodness = Enum.map(cheeses, &CheeseAI.describe/1)
 ```
 
-```bash
+```result
 [
   %CheeseStruct{
     name: "mozzerella",
@@ -226,7 +226,7 @@ Enum.filter(cheesy_goodness, fn cheese ->
 end)
 ```
 
-```bash
+```result
 [
   %CheeseStruct{
     name: "cheddar",
@@ -273,7 +273,7 @@ end
 Enum.map(CheeseCatalog.find_pairings(cheesy_goodness, "red wine"), fn cheese -> cheese.name end)
 ```
 
-```bash
+```result
 ["cheddar", "parmesan", "gouda", "brie"]
 ```
 

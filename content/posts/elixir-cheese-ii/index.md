@@ -22,7 +22,7 @@ series:
 series_order: 2
 code:
   maxShownLines: 999
-draft: true
+draft: false
 ---
 
 In [part one](/post/pairing-elixir-with-cheese/), I assembled a small Hall of Cheeses, persuaded an LLM to fill in the tasting notes, and wrote a function that finds cheeses whose pairing lists contain a given string. It works splendidly if I search for `red wine`. It is less helpful if I search for `cabernet`, which the catalog has never heard of.

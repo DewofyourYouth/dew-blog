@@ -223,6 +223,42 @@ Let’s search for `salty`. I am imagining a salty snack in need of a cheese.
 CheeseSearch.search(cheese_index, "salty")
 ```
 
+```result
+[
+  %{
+    cheese: %CheeseStruct{
+      name: "parmesan",
+      flavor_profile: "Nutty, savory, and slightly fruity with a strong umami presence.",
+      pairs_well_with: ["Pasta", "Red wine", "Olive oil", "Fruits", "Nuts", "Soup"],
+      description: "Parmesan cheese is a hard, aged cheese originating from Italy, known for its granular texture."
+    },
+    matching_pairing: "Soup",
+    score: 0.3568933978791376
+  },
+  %{
+    cheese: %CheeseStruct{
+      name: "brie",
+      flavor_profile: "Mild, buttery, and earthy with a slight nuttiness.",
+      pairs_well_with: ["crackers", "fruit", "nuts", "honey", "red wine"],
+      description: "A soft, creamy cheese from France with a white, bloomy rind."
+    },
+    matching_pairing: "honey",
+    score: 0.34962333190240713
+  },
+  %{
+    cheese: %CheeseStruct{
+      name: "swiss",
+      flavor_profile: "Mild, nutty, and slightly sweet with a creamy texture.",
+      pairs_well_with: ["Charcuterie meats", "Fruits (like apples and pears)", "Mustards",
+       "Breads and crackers", "White wine (like Riesling)", "Pickles"],
+      description: "Swiss cheese is a semi-hard cheese known for its characteristic holes and pale yellow color, originating from Switzerland."
+    },
+    matching_pairing: "Pickles",
+    score: 0.3304594019097383
+  }
+]
+```
+
 My run put Parmesan first because `"Soup"` was its nearest pairing; Brie came up through `"honey"`, and Swiss through `"Pickles"`. But I wasn't asking for a food whose name is semantically near *salty*. I had a salty food in mind and wanted to know which cheese would go well **with it**. Even if pickles happen to be salty, a similarity score between `"salty"` and `"Pickles"` doesn't tell me why Swiss would be the right cheese for my snack. Nor does `"honey"` tell me that Brie would be wrong: sweetness might be exactly the contrast I want.
 
 The search was working exactly as designed. It just wasn't designed to answer the question I was actually asking.

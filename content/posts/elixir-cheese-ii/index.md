@@ -45,6 +45,8 @@ defmodule CheeseSearch do
   # Turn the cheese catalog into searchable entries.
   # Each pairing gets its own entry and embedding.
   def build_index(catalog) do
+    # Flatten the catalog: one entry per {cheese, pairing} combination,
+    # so a cheese with five pairings becomes five searchable entries.
     entries =
       Enum.flat_map(catalog, fn %CheeseStruct{} = cheese ->
         Enum.map(cheese.pairs_well_with, fn pairing ->
@@ -52,6 +54,7 @@ defmodule CheeseSearch do
         end)
       end)
 
+    # Skip the API call entirely if there is nothing to embed.
     if entries == [] do
       []
     else
@@ -71,6 +74,7 @@ defmodule CheeseSearch do
     # The query must be embedded with the same model as the pairings.
     [query_vector] = embed([query])
 
+    # Score every pairing in the index against the query.
     index
     |> Enum.map(fn entry ->
       %{
@@ -94,7 +98,9 @@ defmodule CheeseSearch do
           authorization: "Bearer #{System.fetch_env!("OPENAI_API_KEY")}"
         ],
         json: %{
+          # A small, cheap embedding model is plenty for six cheeses.
           model: "text-embedding-3-small",
+          # The API accepts a list, so one request can embed many strings.
           input: texts,
           encoding_format: "float"
         }
@@ -116,13 +122,17 @@ defmodule CheeseSearch do
   # Measure how close two vectors point in embedding space.
   # A higher score means the texts are more similar to the model.
   defp cosine_similarity(a, b) do
+    # Cosine similarity = dot(a, b) / (|a| * |b|).
+    # First, multiply matching components and add them up.
     dot =
       Enum.zip(a, b)
       |> Enum.reduce(0.0, fn {x, y}, sum -> sum + x * y end)
 
+    # Then take each vector's length (its Euclidean norm).
     length_a = :math.sqrt(Enum.reduce(a, 0.0, fn x, sum -> sum + x * x end))
     length_b = :math.sqrt(Enum.reduce(b, 0.0, fn x, sum -> sum + x * x end))
 
+    # Dividing by the lengths leaves only the angle between the vectors.
     dot / (length_a * length_b)
   end
 end
@@ -271,6 +281,8 @@ That is a different job. Instead of retrieving text near `"salty"` in embedding 
 
 ```elixir
 defmodule CheeseRecommender do
+  # Ask the model to choose cheeses from the catalog for a given food,
+  # then map its answers back onto real %CheeseStruct{} values.
   def recommend(catalog, food) when is_list(catalog) and is_binary(food) do
     # Send only the fields needed to make a pairing recommendation.
     cheese_data =
@@ -282,6 +294,8 @@ defmodule CheeseRecommender do
         }
       end)
 
+    # A JSON Schema describing the only shape of answer we'll accept:
+    # %{"recommendations" => [%{"name" => ..., "reason" => ...}, ...]}
     schema = %{
       type: "object",
       properties: %{
@@ -293,6 +307,8 @@ defmodule CheeseRecommender do
               name: %{type: "string"},
               reason: %{type: "string"}
             },
+            # Strict mode requires every property to be listed here
+            # and forbids any extra keys.
             required: ["name", "reason"],
             additionalProperties: false
           }
@@ -302,6 +318,7 @@ defmodule CheeseRecommender do
       additionalProperties: false
     }
 
+    # Call the Responses API with the prompt and the schema.
     response =
       Req.post!("https://api.openai.com/v1/responses",
         headers: [
@@ -309,6 +326,8 @@ defmodule CheeseRecommender do
         ],
         json: %{
           model: "gpt-4o-mini",
+          # The prompt explicitly allows contrast, not just similarity,
+          # and embeds the catalog as JSON so the model can only pick from it.
           input: """
           Recommend up to three cheeses from the catalog to serve with #{food}.
 
@@ -322,6 +341,7 @@ defmodule CheeseRecommender do
           Catalog:
           #{Jason.encode!(cheese_data)}
           """,
+          # Constrain the output to match our schema exactly.
           text: %{
             format: %{
               type: "json_schema",
@@ -333,8 +353,11 @@ defmodule CheeseRecommender do
         }
       )
 
+    # Crash loudly on anything but a successful response.
     %{status: 200, body: body} = response
 
+    # The response's "output" is a list of items. Find the first message,
+    # then the first output_text inside it; that text is our JSON string.
     json_text =
       Enum.find_value(body["output"], fn
         %{"type" => "message", "content" => content} ->
@@ -347,6 +370,7 @@ defmodule CheeseRecommender do
           nil
       end)
 
+    # Thanks to the schema, this pattern match should always succeed.
     %{"recommendations" => recommendations} = Jason.decode!(json_text)
 
     # Convert the model's cheese names back into your actual structs.
@@ -355,6 +379,7 @@ defmodule CheeseRecommender do
         {String.downcase(cheese.name), cheese}
       end)
 
+    # Keep at most three, look each one up, and drop any duplicates.
     recommendations
     |> Enum.take(3)
     |> Enum.map(fn %{"name" => name, "reason" => reason} ->

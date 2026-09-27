@@ -1,13 +1,35 @@
 {{- $params := .Page.Params | merge .Site.Params.Page | merge (dict "author" .Site.Params.Author.name) -}}
 {{- $image := $params.featuredImagePreview | default $params.featuredImage -}}
-{{- with .Page.Resources.GetMatch (printf "%s" ($image)) -}}
-    {{- $image = .RelPermalink -}}
+{{- /* Resolve the featured image to an absolute URL (email clients can't follow relative
+       paths), plus its MIME type and byte length for the <enclosure>. */ -}}
+{{- $imageRes := "" -}}
+{{- with $image -}}
+    {{- $imageRes = $.Page.Resources.GetMatch (printf "%s" .) -}}
 {{- end -}}
 {{- with .Page.Resources.GetMatch "featured-image" -}}
-    {{- $image = .RelPermalink -}}
+    {{- $imageRes = . -}}
 {{- end -}}
 {{- with .Page.Resources.GetMatch "featured-image-preview" -}}
-    {{- $image = .RelPermalink -}}
+    {{- $imageRes = . -}}
+{{- end -}}
+{{- $imageType := "" -}}
+{{- $imageLength := 0 -}}
+{{- /* Downscale raster images so feed readers and email campaigns aren't pulling multi-MB originals. */ -}}
+{{- with $imageRes -}}
+    {{- if and (eq .ResourceType "image") (in (slice "jpeg" "png" "webp") .MediaType.SubType) -}}
+        {{- $imageRes = .Process "fit 1200x1200 q80 jpg" -}}
+    {{- end -}}
+{{- end -}}
+{{- with $imageRes -}}
+    {{- $image = .Permalink -}}
+    {{- $imageType = .MediaType.Type -}}
+    {{- $imageLength = len .Content -}}
+{{- else -}}
+    {{- with $image -}}
+        {{- $image = absURL . -}}
+        {{- $ext := path.Ext . | strings.TrimPrefix "." | lower -}}
+        {{- $imageType = cond (in (slice "jpg" "jpeg") $ext) "image/jpeg" (printf "image/%s" $ext) -}}
+    {{- end -}}
 {{- end -}}
 <item>
     <title>
@@ -51,11 +73,16 @@
     <guid>
         {{- .Page.Permalink -}}
     </guid>
+    {{- with $image -}}
+    <enclosure url="{{ . }}" length="{{ $imageLength }}" type="{{ $imageType }}" />
+    <media:content url="{{ . }}" medium="image" type="{{ $imageType }}" />
+    <media:thumbnail url="{{ . }}" />
+    {{- end -}}
     <description>
         {{- "<![CDATA[" | safeHTML -}}
         {{- with $image -}}
             <div class="featured-image">
-                <img src="{{ . }}" referrerpolicy="no-referrer">
+                <img src="{{ . }}" alt="{{ $params.featuredImageAlt | default $.Page.Title }}" style="max-width:100%;height:auto;" referrerpolicy="no-referrer">
             </div>
         {{- end -}}
         {{- $content := .Page.Description -}}

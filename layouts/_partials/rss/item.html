@@ -80,11 +80,6 @@
     {{- end -}}
     <description>
         {{- "<![CDATA[" | safeHTML -}}
-        {{- with $image -}}
-            <div class="featured-image">
-                <img src="{{ . }}" alt="{{ $params.featuredImageAlt | default $.Page.Title }}" style="max-width:100%;height:auto;" referrerpolicy="no-referrer">
-            </div>
-        {{- end -}}
         {{- $content := .Page.Description -}}
         {{- if $params.rssFullText -}}
             {{- $content = dict "Content" .Page.Content "Ruby" $params.ruby "Fraction" $params.fraction "Fontawesome" $params.fontawesome | partial "function/content.html" -}}

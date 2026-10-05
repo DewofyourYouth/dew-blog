@@ -95,7 +95,7 @@ We often describe truth in the language of sight. We “see the point.” An exp
 
 There is real power in that. There is also a temptation to believe that once we have seen something, the work of understanding it is finished.
 
-The Gemara gives a striking example. In explaining Rabbi Akiva’s position about judges who witnessed a killing, it says that having seen the act, they may be unable to find grounds for acquittal. Yet the court has an obligation to consider those grounds. The impression of what they saw can become so forceful that it crowds out the deliberation still required of them.
+The Gemara gives a striking example (*Rosh Hashanah* 26a). In explaining Rabbi Akiva’s rule that a witness cannot become a judge, it says that in capital cases the court is commanded to search for grounds to acquit (“*v’shaftu ha-edah… v’hitzilu ha-edah*,” ושפטו העדה והצילו העדה), but judges who have themselves seen the killing are unable to find them: *“v’cheivan d’chazyuhu d’katal nafsha lo matzu chazu leih zechusa”* (וכיון דחזיוהו דקטל נפשא לא מצו חזו ליה זכותא). The impression of what they saw can become so forceful that it crowds out the deliberation still required of them.
 
 “I saw it myself” can close a conversation.
 
@@ -167,7 +167,7 @@ The interval between the claps and Moshe’s *mah* (מה) began to illuminate on
 
 
 {{< admonition type="reflection" title="A place for life to grow" open=false >}}
-The same pattern brings *imma* (אמא), mother, and *abba* (אבא), father, to mind.
+The same pattern brings *imma* (אמא), mother, and *abba* (אבא), father, to mind. This too comes from Rav Hutner, as I remember it.
 
 The womb offers an interior in which life can grow. Its openness is a capacity: it can receive, hold, nourish, and allow something to develop. The seed introduces the beginning of a life that can take form there.
 

@@ -46,7 +46,7 @@ The film lets the experience unfold without immediately explaining it or moving 
 
 Miyazaki calls this interval *ma* (間). In his conversation with Roger Ebert, he illustrated it by clapping his hands. The space between the claps gives the action its rhythm. Without breathing room, action becomes busyness.
 
-In Japanese art and architecture, this concept is called ***Ma* (間)**—most simply translated as **"empty space," "negative space," or the "pause in between."** It’s the intentional void that allows the surrounding structure to breathe and take on meaning.
+In Japanese art and architecture, ***Ma* (間)**— is most often translated as **"empty space," "negative space," or the "pause in between."** It’s the intentional void that allows the surrounding structure to breathe and take on meaning.
 
 Those pauses gave everything else room to register. The quiet stayed with me, and it brought me back to things I had learned long before I encountered Miyazaki.
 

@@ -46,6 +46,8 @@ The film lets the experience unfold without immediately explaining it or moving 
 
 Miyazaki calls this interval *ma* (間). In his conversation with Roger Ebert, he illustrated it by clapping his hands. The space between the claps gives the action its rhythm. Without breathing room, action becomes busyness.
 
+In Japanese art and architecture, this concept is called ***Ma* (間)**—most simply translated as **"empty space," "negative space," or the "pause in between."** It’s the intentional void that allows the surrounding structure to breathe and take on meaning.
+
 Those pauses gave everything else room to register. The quiet stayed with me, and it brought me back to things I had learned long before I encountered Miyazaki.
 
 ## A field where something can appear
@@ -167,6 +169,7 @@ Moshe had convictions. He argued, acted, led, and carried responsibility. His hu
 There is also the Torah’s explanation of his name: *“Min ha-mayim meshitihu”* (מן המים משיתיהו)—I drew him from the water. Water takes the shape of what holds it. For me, that becomes another image of receptivity: the ability to encounter something without immediately forcing it into the shape of one’s own expectations.
 
 Then there is Miyazaki’s *ma* (間): the interval that gives an action room to register.
+
 
 The interval between the claps and Moshe’s *mah* (מה) began to illuminate one another for me. Both brought me back to the space in which something can be received.
 

@@ -8,9 +8,8 @@ description: Impressions of the Torah of Rabbi Aaron Schechter זצ״ל, Rosh Ye
 date: 2023-08-29
 tags:
   - rabbi-aaron-schechter
-  - rabbi-aaron-shechter
   - yeshivas-rabbeinu-chaim-berlin
-  - ראש-ישיבה
+  - rosh-yeshiva
   - memories
 categories:
   - Faith & Practice

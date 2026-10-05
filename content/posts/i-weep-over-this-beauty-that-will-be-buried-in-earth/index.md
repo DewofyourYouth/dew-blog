@@ -9,9 +9,8 @@ date: 2023-08-25T08:57:12+03:00
 featuredImage: cover.jpg
 tags:
   - rabbi-aaron-schechter
-  - rabbi-aaron-shechter
   - yeshivas-rabbeinu-chaim-berlin
-  - Rosh-Yeshiva
+  - rosh-yeshiva
   - memories
 draft: false
 categories:

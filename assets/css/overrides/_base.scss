@@ -92,3 +92,15 @@ div.post-tags {
     padding-right: 1rem !important;
   }
 }
+
+/* RTL posts (frontmatter postLang: he): theme hard-codes the blockquote bar on the left */
+article[dir="rtl"] .content blockquote {
+  border-left: 0;
+  border-right: 0.25rem solid var(--blockquote-color);
+}
+
+/* RTL posts: keep the theme's English meta labels reading left-to-right, but aligned under the RTL title */
+.single[dir="rtl"] .post-meta {
+  direction: ltr;
+  text-align: right;
+}

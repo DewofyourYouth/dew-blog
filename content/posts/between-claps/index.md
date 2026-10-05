@@ -25,7 +25,12 @@ featuredImageAlt: "A dark beis midrash at night: two blank folios facing each ot
 seo:
   images:
     - between-claps.jpg
+alternates:
+  en: /post/between-claps/
+  he: /post/between-claps-he/
 ---
+
+<p lang="he" dir="rtl" style="text-align:right"><a href="/post/between-claps-he/">לקריאה בעברית</a></p>
 
 > “The time in between my clapping is *ma*.”
 >
@@ -69,14 +74,14 @@ I don’t have the books of Pachad Yitzchak in front of me, and I am writing fro
 
 We ordinarily think of letters as marks we combine into words, and words as tools for describing a world that already exists. The Torah’s account of creation through divine speech, and the treatment of letters in *Sefer Yetzirah*, ask us to think more deeply. Creation was given expression through utterance. Language belongs to the constitution of the world.
 
-That changed how one thinks about letters. Their shapes and relationships were worth attending to because they expressed something underlying existence itself.
+That changes how one thinks about letters. Their shapes and relationships are worth attending to because they express something underlying existence itself.
 
 The letters’ grammatical functions offered another way to notice these relationships: where something comes from, what receives an action, and what exists within something else.
 
 {{< admonition type="reflection" title="Letters in grammar" open=false >}}
 I also remember learning to notice how a letter’s significance can find expression in its grammatical function.
 
-A prefixed *mem* (מ), meaning “from,” points toward an origin: the place from which something emerges. In *“Min ha-mayim meshitihu”* (מן המים משיתיהו)—“I drew him from the water”—the water is the source from which Moshe is drawn. In *“Mekimi me’afar dal”* (מקימי מעפר דל)—“Who raises the poor from the dust”—it is the *mem* (מ) of *me’afar* (מעפר) that marks the point of departure. I associate this with the maternal image: a child comes forth from a mother.
+A prefixed *mem* (מ), meaning “from,” points toward an origin: the place from which something emerges. In *“Min ha-mayim meshitihu”* (מן המים משיתיהו)—“I drew him from the water”—the water is the source from which Moshe is drawn. In *“Mekimi me’afar dal”* (מקימי מעפר דל)—“Who raises the poor from the dust”—it is the *mem* (מ) of *me’afar* (מעפר) that marks the point of departure. I associate this with the maternal image: a child comes forth from a mother. For more on this, see the box “A place for life to grow” further down.
 
 The *nun* (נ) in forms such as *nistar* (נסתר), “hidden,” and *nivra* (נברא), “created,” directs my attention toward what receives an action. There is the *borei* (בורא), the creator, and the *nivra* (נברא), that which is created.
 

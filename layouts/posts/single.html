@@ -44,7 +44,7 @@
         <script>document.getElementsByTagName("main")[0].setAttribute("autoTOC", "false")</script>
     {{- end -}}
 
-    <article class="page single print:!tw-w-full print:!tw-max-w-none print:!tw-m-0 print:!tw-p-0">
+    <article class="page single print:!tw-w-full print:!tw-max-w-none print:!tw-m-0 print:!tw-p-0"{{ with .Params.postLang }} lang="{{ . }}"{{ if eq . "he" }} dir="rtl"{{ end }}{{ end }}>
         {{- /* Title */ -}}
         <h1 class="single-title" data-pagefind-meta="date:{{- .Site.Params.dateformat | default "2006-01-02" | .PublishDate.Format -}}" data-pagefind-body>{{ .Title }}</h1>
 

@@ -45,3 +45,30 @@ html.dark .single .content .admonition.reflection {
     color: $reflection-accent-dark;
   }
 }
+
+// RTL posts (frontmatter postLang: he): the theme pins the colored bar and the
+// icons to the left; mirror them so they sit on the reading-start side.
+.single[dir="rtl"] .content .admonition {
+  border-left: 0;
+  border-right: 0.25rem solid map-get($admonition-color-map, "note");
+
+  span.icon > svg {
+    left: auto;
+    right: 0.4rem;
+  }
+
+  span.details-icon > svg {
+    right: auto;
+    left: 0.3rem;
+  }
+
+  @each $type, $color in $admonition-color-map {
+    &.#{$type} {
+      border-right-color: $color;
+    }
+  }
+
+  &.reflection {
+    border-right-color: $reflection-accent;
+  }
+}

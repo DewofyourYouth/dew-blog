@@ -2,11 +2,15 @@
 
 
 <!doctype html>
-<html lang="{{ .Site.LanguageCode }}">
+<html lang="{{ with .Params.postLang }}{{ . }}{{ else }}{{ .Site.LanguageCode }}{{ end }}">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="robots" content="noodp" />
+    {{- /* Translations: frontmatter `alternates: {en: /post/x/, he: /post/x-he/}` -> hreflang links */ -}}
+    {{- range $lang, $url := .Params.alternates }}
+    <link rel="alternate" hreflang="{{ $lang }}" href="{{ $url | absURL }}" />
+    {{- end }}
     <meta name="follow.it-verification-code" content="0x6Mf7NWX30PNQyhLmFn" />
 
     <!-- Geo detection (must come BEFORE GTM) -->

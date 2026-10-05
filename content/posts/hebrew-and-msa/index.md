@@ -1,6 +1,7 @@
 ---
 title: Modern Standard Arabic, Hebrew, and the Ghost of Yiddish
 date: 2026-05-26T07:54:09+02:00
+lastmod: 2026-10-05T15:58:11+03:00
 categories:
   - Learning & Languages
 tags:
@@ -100,7 +101,7 @@ Modern Israeli Hebrew uses a pronunciation that is, in most respects, closer to 
 
 {{< admonition title="The Pronunciation Problem in Halacha" type="note" >}}
 It is worth noting, incidentally, that neither pronunciation tradition fully preserves the original. The daled without a dagesh, for example, was almost certainly pronounced as a *dh* sound — like the *th* in *the* — a distinction that both Modern Hebrew and Ashkenazi Hebrew have collapsed entirely. The claim that modernization was a return to authenticity is only partly true. It was also a set of choices, and some of what was chosen against was worth keeping. For more information on this from a Halachic perspective,
-Rav Kook has a responsum on the topic — I do not have the exact reference in front of me, and perhaps I will add it later — arguing that each community should maintain its own pronunciation tradition.
+Rav Kook has a responsum on the topic in his Responsas Orech Mishpat - The laws of reciting the Shema (16 - 17), arguing that each community should maintain its own pronunciation tradition.
 For the counter argument, which I have halfway embraced myself, see the Teshuva of Rabbi Ovadia Haddaya on the topic, which argues that pronunciations that are indefensible are just considered מנהג טעות — mistaken customs that can be corrected without halachic consequence. It's in [Shut Yaskil Avdi, Volume Two, Orech Chaim - Responsa 3](https://hebrewbooks.org/pdfpager.aspx?req=960&st=&pgnum=23). It also goes through all the various congregations and points out various mistakes they make in their pronunciation, which is interesting in its own right. He lists Ashkenazim, Sephardim, Tunisians, Persians, Georgians, Yeminites and Syrians, and finds mistakes in all of them — which is a reminder that no tradition is perfect, and that the idea of a single "authentic" pronunciation is always going to be an idealized fiction.
 
 The Ashkenazi rabbinic establishment has largely responded by treating modern Hebrew as a separate language, which has real halachic implications, and which strikes me as simultaneously defensible and convenient. Defensible because the gap is genuine. Convenient because it neatly avoids having to engage with the new thing on its own terms.

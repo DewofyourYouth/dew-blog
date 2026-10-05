@@ -224,8 +224,6 @@ And in the scribal form of *peh* (פ) we have been considering, that same *bet* 
 The field allows growth. The house allows dwelling. The space within the mouth allows speech to take form.
 {{< /admonition >}}
 
-
-
 ## Hearing across traditions
 
 People sometimes describe different religious traditions as paths up the same mountain, each offering a different view of the summit.

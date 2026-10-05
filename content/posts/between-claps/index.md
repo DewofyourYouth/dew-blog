@@ -148,7 +148,7 @@ The manna belongs to this discussion too. When the Jewish people first encounter
 
 *“Vayomru ish el achiv man hu, ki lo yad’u mah hu.”* (ויאמרו איש אל אחיו מן הוא כי לא ידעו מה הוא)
 
-They said to one another, *man hu* (מן הוא), because they did not know *mah hu* (מה הוא)—what it was.
+They said to one another,  *man hu* (מן הוא)-it is manna, because they did not know what*mah hu* (מה הוא)—what it was.
 
 In my memory of the discussion, the difference between *man* (מן) and *mah* (מה)—the *nun* (נ) and the *heh* (ה)—was important. As I understood the teaching, *man* (מן) expresses the attempt to identify something, to give it a determinate place among the things we know. *Mah* (מה) opens onto what has not yet been fixed within those categories.
 

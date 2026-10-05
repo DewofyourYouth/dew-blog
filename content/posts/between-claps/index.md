@@ -16,10 +16,10 @@ tags:
   - moshe
   - manna
   - listening
-  - torah
-  - memories
+  - parashat-bereshit
+  - bereshit
 summary: "Miyazaki's ma, Nishitani's field of emptiness, and Moshe's mah all point to one thing: the open space where something can be received."
-description: "Examining empty space in Jewish and Japanese traditions: Miyazaki's ma, Nishitani's field of emptiness, and the Hebrew letters mah and bet as places where something can be received."
+description: "Empty space in Jewish and Japanese traditions: Miyazaki's ma, Nishitani's emptiness, and creation by utterance in Parashat Bereshit 5787."
 featuredImage: "between-claps.jpg"
 featuredImageAlt: "A dark beis midrash at night: two blank folios facing each other across a gap where a single candle burns, and through the window behind them a train crossing still water at dusk"
 seo:

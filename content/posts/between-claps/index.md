@@ -2,7 +2,7 @@
 title: "The Space Between the Claps"
 slug: "between-claps"
 date: 2026-10-05T14:32:51+03:00
-draft: true
+draft: false
 categories:
   - Faith & Practice
 tags:

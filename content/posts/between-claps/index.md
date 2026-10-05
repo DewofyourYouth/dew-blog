@@ -204,6 +204,8 @@ And *bet* (ב) is also the opening letter of *Bereshit* (בראשית). The Midr
 
 Through what Rav Schechter taught me, the space within the letter deserves attention too. The white parchment and the black ink together make it readable.
 
+This is also where *ma* (間) returns. A designer would call it white space: the part of the page where nothing is printed, and without which the page could not be read. The character itself pictures this. As it is usually explained, it shows a gate (門) with the sun (日) visible through the opening; an older form (閒) has the moon instead. *Ma* is the light that comes through the gap. The white space inside the *peh* (פ) is the same kind of thing: not something missing from the letter, but part of what makes it that letter, and it turns out to have the shape of a *bet* (ב).
+
 This brings me back to Nishitani’s *ba* (場), the field, and to the Hebrew *bah* (בָּהּ): “in her” or “in it,” when the thing referred to is feminine.
 
 The Japanese word names a place. The Hebrew expression places something within another. A *bayit* (בית) gives that “within” a dwelling, while *binyan* (בניין), building, brings in the act of giving something form.

@@ -33,7 +33,7 @@ But occasionally, the Arabic makes me stop and reconsider the Hebrew.
 
 The example that has been bothering me lately is לחם. In Hebrew, *lechem* means bread. In Arabic, لحم (*laḥm*) means meat. The words are related, but how did they end up meaning such different things?
 
-My first thought was that the original word might have meant food, or a meal, and that each language eventually settled on a particular kind of food. That seems reasonable enough. Then I started looking at the pesukim, and found myself in the middle of a disagreement between Ibn Ezra and the Ramban.
+My first thought was that the original word might have meant food, or a meal, and that each language eventually settled on a particular kind of food. That seems reasonable enough. Then I started looking at the {{< tooltip term="pesukim" def="Verses of Tanach (singular *pasuk*)." >}}, and found myself in the middle of a disagreement between {{< tooltip term="Ibn Ezra" def="Abraham ibn Ezra (1089–c. 1167), Spanish poet, grammarian and Torah commentator, attentive to grammar and plain sense." >}} and the {{< tooltip term="Ramban" def="Rabbi Moshe ben Nachman (Nachmanides, 1194–1270), Catalan Torah commentator, Talmudist and kabbalist." >}}.
 
 As often happens, what I thought would be a small language-learning observation became a rather longer investigation.
 
@@ -43,7 +43,7 @@ I made a video about some of these connections. This post gives me room to follo
 
 ## Words I Already Know. More or Less.
 
-Hebrew and Arabic are both Semitic languages. If you know Hebrew, a fair amount of basic Arabic vocabulary is immediately recognizable:
+Hebrew and Arabic are both {{< tooltip term="Semitic languages" def="The language family that includes Hebrew, Arabic, Aramaic and Amharic, along with many ancient Near Eastern languages." >}}. If you know Hebrew, a fair amount of basic Arabic vocabulary is immediately recognizable:
 
 | Hebrew         | Arabic        | Meaning   |
 | -------------- | ------------- | --------- |
@@ -55,7 +55,7 @@ Hebrew and Arabic are both Semitic languages. If you know Hebrew, a fair amount 
 | יד (*yad*)     | إيد (*ʾīd*)   | hand      |
 | רגל (*regel*)  | رِجل (*rijil*) | foot, leg |
 
-The Arabic pronunciations here are Levantine, the sort I am learning and actually hear in conversation.
+The Arabic pronunciations here are {{< tooltip term="Levantine" def="The spoken Arabic dialects of Syria, Lebanon, Jordan and Israel. Also called Shami." >}}, the sort I am learning and actually hear in conversation.
 
 Some of the differences are fairly predictable once you know what to listen for. Arabic سلام (*salām*) corresponds to Hebrew שלום (*shalom*). The long *ā* in an ancestral form became *ō* in the Canaanite languages, including Hebrew. This is called the Canaanite shift.[^shift]
 
@@ -87,9 +87,9 @@ Back to לחם.
 
 Hebrew לחם and Arabic لحم are recognized relatives.[^bread] The question is what happened to their meanings.
 
-The idea that they developed from a broader word for food appeals to me. I wondered whether Hebrew had narrowed the meaning relatively late, perhaps by the time of the Mishnah. But before trying to date that change, I need to establish what would count as evidence that it happened at all.
+The idea that they developed from a broader word for food appeals to me. I wondered whether Hebrew had narrowed the meaning relatively late, perhaps by the time of the {{< tooltip term="Mishnah" def="The first written code of the Oral Torah, edited around 200 CE by Rabbi Yehudah HaNasi." >}}. But before trying to date that change, I need to establish what would count as evidence that it happened at all.
 
-What we do find in Tanach are uses that seem broader than bread. The difficulty is deciding what to make of them.
+What we do find in {{< tooltip term="Tanach" def="The Hebrew Bible: an acronym of Torah, Nevi'im (Prophets) and Ketuvim (Writings)." >}} are uses that seem broader than bread. The difficulty is deciding what to make of them.
 
 ## Belshazzar Made a Very Large Lunch
 
@@ -99,7 +99,7 @@ Daniel 5 begins:
 >
 > King Belshazzar made a great *lechem* for a thousand of his nobles.[^daniel]
 
-Rashi explains:
+{{< tooltip term="Rashi" def="Rabbi Shlomo Yitzchaki (1040–1105) of Troyes, whose line-by-line commentary on Tanach and Talmud is the standard starting point." >}} explains:
 
 > עבד לחם רב — עשה סעודה גדולה
 >
@@ -113,27 +113,27 @@ That may sound like a rather fussy distinction. It turns out to be the distincti
 
 ## The Bread on the Mizbeach
 
-In Vayikra, the kohen is described as offering לחם:
+In {{< tooltip term="Vayikra" def="Leviticus, the third of the Five Books of Moses." >}}, the {{< tooltip term="kohen" def="A priest descended from Aharon, who served in the Mishkan and the Temple." >}} is described as offering לחם:
 
 > וְקִדַּשְׁתּוֹ כִּי אֶת לֶחֶם אֱלֹהֶיךָ הוּא מַקְרִיב
 >
 > You shall treat him as holy, for he offers the *lechem* of your God.[^lev21]
 
-More specifically, in the description of the korban shelamim, the fat and kidneys burned on the mizbeach are called לֶחֶם אִשֶּׁה, the *lechem* of the fire offering.[^lev3]
+More specifically, in the description of the {{< tooltip term="korban shelamim" def="The peace offering, whose fats are burned on the altar and whose meat the owners eat." >}}, the fat and kidneys burned on the {{< tooltip term="mizbeach" def="The altar in the Mishkan and the Temple." >}} are called לֶחֶם אִשֶּׁה, the *lechem* of the fire offering.[^lev3]
 
 There is no loaf of bread in that description. There are parts of an animal. To someone learning Arabic, calling them לחם suddenly seems considerably less strange.
 
-But we still have the same question. Is לחם a general word for food, which can include animal offerings? Or does it mean bread, with the offerings described figuratively as Hashem's bread?
+But we still have the same question. Is לחם a general word for food, which can include animal offerings? Or does it mean bread, with the offerings described figuratively as {{< tooltip term="Hashem" def="Literally “the Name”: a reverent way of referring to God." >}}'s bread?
 
 ## Ibn Ezra and the Ramban
 
-In Shemos 16:4, Hashem tells Moshe:
+In {{< tooltip term="Shemos" def="Exodus, the second of the Five Books of Moses." >}} 16:4, Hashem tells {{< tooltip term="Moshe" def="Moses." >}}:
 
 > הִנְנִי מַמְטִיר לָכֶם לֶחֶם מִן הַשָּׁמָיִם
 >
 > I am going to rain down *lechem* for you from heaven.
 
-The subject is the מן. Why call it לחם?
+The subject is the {{< tooltip term="מן" def="Manna (*man*), the food that fell from heaven in the wilderness (Exodus 16)." >}}. Why call it לחם?
 
 Ibn Ezra writes:
 
@@ -145,7 +145,7 @@ Well, there it is. Ibn Ezra explicitly includes בשר among the meanings of ל�
 
 That does not solve the historical question, but it is rather satisfying to find the exact difficulty I was thinking about addressed so directly in a familiar commentary.
 
-The Ramban brings the view that לחם means food, along with the proof from the korbanos and the phrase כי תשב ללחום את מושל, “when you sit down to eat with a ruler.” Chavel identifies the commentators behind this view as Ibn Ezra and Radak.[^ramban]
+The Ramban brings the view that לחם means food, along with the proof from the {{< tooltip term="korbanos" def="Offerings brought in the Mishkan and the Temple (singular *korban*)." >}} and the phrase כי תשב ללחום את מושל, “when you sit down to eat with a ruler.” {{< tooltip term="Chavel" def="Rabbi Charles B. Chavel (1906–1982), editor and English translator of the Ramban's Torah commentary." >}} identifies the commentators behind this view as Ibn Ezra and {{< tooltip term="Radak" def="Rabbi David Kimchi (c. 1160–1235) of Narbonne: grammarian, lexicographer and biblical commentator." >}}.[^ramban]
 
 The Ramban then gives his own explanation:
 
@@ -170,12 +170,12 @@ Both can account for the pesukim. But they leave me with different ways of think
 If the Hebrew word itself includes food more generally, it is easier to imagine Hebrew and Arabic preserving different parts of an older, broader meaning. If these are figurative uses of “bread,” I cannot use them in quite the same way. Either reading still leaves the historical question open.
 
 {{< admonition type="note" title="Did the Ramban know the Arabic word?" >}}
-I was tempted to bring Arabic into the Ramban's own thinking here. But I have not established that he knew this word or considered it in this comment. The Ramban was from Girona in Catalonia, not al-Andalus, and his knowledge of Arabic is debated. Ibn Ezra's comment, meanwhile, argues from the pesukim. The Arabic is what brought *me* to this discussion; I should not assume it brought them there too.
+I was tempted to bring Arabic into the Ramban's own thinking here. But I have not established that he knew this word or considered it in this comment. The Ramban was from Girona in Catalonia, not {{< tooltip term="al-Andalus" def="Muslim-ruled Iberia (711–1492), where many Jewish scholars wrote in Arabic." >}}, and his knowledge of Arabic is debated. Ibn Ezra's comment, meanwhile, argues from the pesukim. The Arabic is what brought *me* to this discussion; I should not assume it brought them there too.
 {{< /admonition >}}
 
 ## Bread Called Food, or Food Called Bread?
 
-The obvious objection is לחם הפנים. That was clearly bread. Vayikra describes flour baked into twelve challos, arranged on the shulchan, and calls it לחם. The שתי הלחם are just as explicit: flour, leaven, and baking.[^loaves]
+The obvious objection is {{< tooltip term="לחם הפנים" def="The showbread: twelve loaves set out each Shabbos on the golden table in the Mishkan and Temple." >}}. That was clearly bread. Vayikra describes flour baked into twelve {{< tooltip term="challos" def="Loaves (singular *challah*); here, the twelve loaves of the showbread." >}}, arranged on the {{< tooltip term="shulchan" def="The golden table in the Mishkan and Temple on which the showbread was arranged." >}}, and calls it לחם. The {{< tooltip term="שתי הלחם" def="The “two loaves”: leavened wheat loaves offered in the Temple on Shavuos." >}} are just as explicit: flour, leaven, and baking.[^loaves]
 
 So we certainly have actual bread being called לחם in Tanach.
 
@@ -187,17 +187,17 @@ That is why I am reluctant to say that the existence of לחם הפנים dispro
 
 ## What About the Mishnah?
 
-My original question included the possibility that לחם became more specific in Mishnaic Hebrew. I still think the change in usage is worth looking into, but I do not have enough to say that this is what happened.
+My original question included the possibility that לחם became more specific in {{< tooltip term="Mishnaic Hebrew" def="The Hebrew of the Mishnah and early rabbinic literature, distinct in vocabulary and grammar from Biblical Hebrew." >}}. I still think the change in usage is worth looking into, but I do not have enough to say that this is what happened.
 
-One small thing caught my attention. In the first Mishnah of the sixth perek of Berachos, the word used for bread is פת:
+One small thing caught my attention. In the first Mishnah of the sixth {{< tooltip term="perek" def="A chapter of the Mishnah, Talmud or Tanach." >}} of {{< tooltip term="Berachos" def="The Mishnah and Talmud tractate on blessings and prayer." >}}, the word used for bread is פת:
 
 > חוץ מן הפת, שעל הפת הוא אומר המוציא לחם מן הארץ
 >
 > Except for bread, over which one says: “Who brings forth bread from the earth.”[^mishnah]
 
-The Mishnah uses פת in its own sentence and לחם in the bracha, whose wording echoes Tehillim. But assigning this bracha to bread does not by itself prove that לחם excludes other foods. A general word for food could also appear in a blessing said over bread.
+The Mishnah uses פת in its own sentence and לחם in the {{< tooltip term="bracha" def="A blessing; here, the blessing said before eating." >}}, whose wording echoes {{< tooltip term="Tehillim" def="The book of Psalms." >}}. But assigning this bracha to bread does not by itself prove that לחם excludes other foods. A general word for food could also appear in a blessing said over bread.
 
-Menachos gives us the more concrete examples again: the שתי הלחם are kneaded and baked individually, and their dimensions are specified.[^mloaves] These are unmistakably loaves. But this is inherited Temple terminology, so it does not settle the range of the word in everyday Mishnaic speech either.
+{{< tooltip term="Menachos" def="The Mishnah and Talmud tractate on grain offerings, including the showbread and the two loaves." >}} gives us the more concrete examples again: the שתי הלחם are kneaded and baked individually, and their dimensions are specified.[^mloaves] These are unmistakably loaves. But this is inherited Temple terminology, so it does not settle the range of the word in everyday Mishnaic speech either.
 
 I would like to know whether the use of פת alongside לחם reflects a broader difference in usage. These examples give me something to investigate, rather than a date at which I can confidently say the meaning narrowed.
 

@@ -493,7 +493,7 @@ Labess are the right band for this kind of song because their music already soun
 
 Placed at the end of this list, _Lampedusa_ changes the shape of the whole post. The earlier songs move through love, bitterness, refusal, homeland, exile, dance, memory, and voice. _Lampedusa_ brings all of that to the sea. It is the Mediterranean not as vacation fantasy, but as crossing, risk, hope, desperation, and graveyard.
 
-That makes it a fitting final song. Arabic music in this list has moved across Tunis, Algeria, Morocco, Palestine, Lebanon, Syria, Sudan, and the Jewish-Arab archive. _Lampedusa_ closes with the water between those worlds and Europe — the water people sing across, flee across, drown in, and dream beyond.
+That makes it a fitting final song. Arabic music in this list has moved across Tunis, Algeria, Morocco, Israel, Lebanon, Syria, Sudan, and the Jewish-Arab archive. _Lampedusa_ closes with the water between those worlds and Europe — the water people sing across, flee across, drown in, and dream beyond.
 
 For a learner, the song is also a reminder that language is never just vocabulary. A place name can carry a whole history. **Lampedusa** is not an Arabic word, but in a Maghrebi song it becomes part of the Arabic emotional map: migration, hunger, dignity, danger, and the terrible courage of leaving.
 

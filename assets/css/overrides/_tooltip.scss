@@ -1,0 +1,99 @@
+/* Glossary tooltips (layouts/shortcodes/tooltip.html, behaviour in site.js).
+   The term reads as text with a dotted underline; the card opens below it. */
+.gloss {
+  position: relative;
+  display: inline;
+}
+
+.gloss .gloss-term {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  line-height: inherit;
+  color: inherit;
+  text-align: inherit;
+  background: none;
+  border: 0;
+  border-bottom: 1px dotted var(--doyy-accent);
+  border-radius: 0;
+  cursor: help;
+}
+
+.gloss .gloss-term:hover,
+.gloss.is-open .gloss-term {
+  color: var(--doyy-accent);
+  border-bottom-style: solid;
+}
+
+.gloss .gloss-term:focus-visible {
+  outline: 2px solid var(--doyy-accent);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+.gloss .gloss-def {
+  position: absolute;
+  z-index: 30;
+  top: calc(100% + 0.4rem);
+  left: 50%;
+  width: max-content;
+  max-width: #{"min(18rem, calc(100vw - 24px))"};
+  padding: 0.6rem 0.8rem;
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.45;
+  text-align: start;
+  white-space: normal;
+  color: var(--doyy-ink);
+  background: var(--doyy-paper);
+  border-top: 2px solid var(--doyy-accent);
+  border-radius: 3px;
+  box-shadow: 0 6px 18px rgba(29, 35, 41, 0.18);
+  transform: translateX(calc(-50% + var(--gloss-shift, 0px)));
+  visibility: hidden;
+  opacity: 0;
+  transition:
+    opacity 0.12s ease,
+    visibility 0.12s;
+  pointer-events: none;
+}
+
+html.dark .gloss .gloss-def {
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.45);
+}
+
+.gloss:hover .gloss-def,
+.gloss:focus-within .gloss-def,
+.gloss.is-open .gloss-def {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Bridge the gap so the pointer can move onto the card without closing it */
+.gloss .gloss-def::before {
+  content: "";
+  position: absolute;
+  top: -0.5rem;
+  right: 0;
+  left: 0;
+  height: 0.5rem;
+}
+
+.gloss.is-dismissed:not(.is-open) .gloss-def {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.gloss .gloss-def em {
+  font-style: italic;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .gloss .gloss-def {
+    transition: none;
+  }
+}

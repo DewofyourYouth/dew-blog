@@ -1,0 +1,10 @@
+{{- /* Inline definition for a specialized term: {{< tooltip term="Ramban" def="..." >}}
+     The term renders in place with a dotted underline; the definition opens on
+     hover, keyboard focus or tap (behaviour in assets/js/site.js, styles in
+     _tooltip.scss). Output stays on one line so it can sit mid-paragraph.
+     Full entries live on /glossary/. */ -}}
+{{- $term := .Get "term" -}}
+{{- $def := .Get "def" -}}
+{{- $id := printf "gloss-%s-%d" (anchorize $term) .Ordinal -}}
+<span class="gloss"><button type="button" class="gloss-term" aria-describedby="{{ $id }}" aria-expanded="false"><bdi>{{ $term }}</bdi></button><span class="gloss-def" role="tooltip" id="{{ $id }}">{{ $def | markdownify }}</span></span>
+{{- /* trailing newline trimmed */ -}}

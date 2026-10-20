@@ -33,7 +33,7 @@ But occasionally, the Arabic makes me stop and reconsider the Hebrew.
 
 The example that has been bothering me lately is לחם. In Hebrew, *lechem* means bread. In Arabic, لحم (*laḥm*) means meat. The words are related, but how did they end up meaning such different things?
 
-My first thought was that the original word might have meant food, or a meal, and that each language eventually settled on a particular kind of food. That seems reasonable enough. Then I started looking at the {{< tooltip term="pesukim" def="Verses of Tanach (singular *pasuk*)." >}}, and found myself in the middle of a disagreement between {{< tooltip term="Ibn Ezra" def="Abraham ibn Ezra (1089–c. 1167), Spanish poet, grammarian and Torah commentator, attentive to grammar and plain sense." >}} and the {{< tooltip term="Ramban" def="Rabbi Moshe ben Nachman (Nachmanides, 1194–1270), Catalan Torah commentator, Talmudist and kabbalist." >}}.
+My first thought was that the original word might have meant food, or a meal, and that each language eventually settled on a particular kind of food. That seems reasonable enough. Then I started thinking through the {{< tooltip term="pesukim" def="Verses of Tanach (singular *pasuk*)." >}}, and found myself in the middle of a disagreement between {{< tooltip term="Ibn Ezra" def="Abraham ibn Ezra (1089–c. 1167), Spanish poet, grammarian and Torah commentator, attentive to grammar and plain sense." >}} and the {{< tooltip term="Ramban" def="Rabbi Moshe ben Nachman (Nachmanides, 1194–1270), Catalan Torah commentator, Talmudist and kabbalist." >}}.
 
 As often happens, what I thought would be a small language-learning observation became a rather longer investigation.
 

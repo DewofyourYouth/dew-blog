@@ -1,0 +1,364 @@
+/* /blog/ archive (layouts/blog/list.html): feature-page header, category
+   filter, posts grouped by year in the homepage's row style. */
+.blog-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1.5rem 0 0;
+}
+
+.page.blog-archive .blog-filter-btn {
+  display: inline-block;
+  padding: 0.4rem 0.85rem;
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--doyy-ink);
+  text-decoration: none;
+  background: transparent;
+  background-image: none;
+  border: 1px solid var(--doyy-rule);
+  border-radius: 999px;
+  transition:
+    background-color 0.15s ease,
+    border-color 0.15s ease,
+    color 0.15s ease;
+}
+
+.page.blog-archive .blog-filter-btn:hover {
+  border-color: var(--cat, var(--doyy-accent));
+  color: var(--cat, var(--doyy-accent));
+}
+
+.page.blog-archive .blog-filter-btn[aria-current="true"] {
+  color: var(--doyy-on-accent);
+  background: var(--cat, var(--doyy-ink));
+  border-color: var(--cat, var(--doyy-ink));
+}
+
+html.dark .page.blog-archive .blog-filter-btn[aria-current="true"] {
+  color: #1d2329;
+}
+
+.page.blog-archive .blog-filter-btn:focus-visible {
+  outline: 2px solid var(--doyy-accent);
+  outline-offset: 2px;
+}
+
+.blog-year[hidden],
+.blog-row[hidden] {
+  display: none;
+}
+
+.page.blog-archive .content .blog-year {
+  margin: 0 0 2.5rem;
+}
+
+/* Year label: Playfair numerals, the archive's one large typographic element */
+.page.blog-archive .content > .blog-year > h2.blog-year-label {
+  margin: 0 0 0.25rem;
+  font-family: var(--font-serif);
+  font-size: 2.6rem;
+  font-weight: 600;
+  line-height: 1;
+  font-variant-numeric: lining-nums;
+  color: var(--doyy-accent);
+}
+
+.page.blog-archive .content > .blog-year > h2 > .header-mark::before {
+  content: none;
+}
+
+.blog-row {
+  display: grid;
+  grid-template-columns: 200px minmax(0, 1fr);
+  gap: 1.5rem;
+  padding: 1.5rem 0;
+  border-top: 1px solid var(--doyy-rule);
+}
+
+.blog-row:not(:has(.blog-row-media)) {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.blog-row-media {
+  display: block;
+  overflow: hidden;
+  border-radius: 3px;
+  aspect-ratio: 1.91 / 1;
+  background: var(--doyy-paper);
+}
+
+.page.blog-archive .content .blog-row-media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  object-fit: cover;
+}
+
+.page.blog-archive .content .blog-row-cat {
+  display: inline-block;
+  margin-bottom: 0.3rem;
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--cat, var(--doyy-muted));
+  text-decoration: none;
+  background-image: none;
+}
+
+.page.blog-archive .content .blog-row-cat:hover {
+  text-decoration: underline;
+}
+
+.page.blog-archive .content .blog-row-title {
+  margin: 0;
+  font-family: var(--font-serif);
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.page.blog-archive .content > .blog-year .blog-row-title > .header-mark::before {
+  content: none;
+}
+
+.page.blog-archive .content .blog-row-title a {
+  color: var(--doyy-ink);
+  text-decoration: none;
+  background-image: none;
+}
+
+.page.blog-archive .content .blog-row-title a:hover {
+  color: var(--doyy-accent);
+}
+
+.page.blog-archive .content .blog-row-title a:focus-visible,
+.page.blog-archive .content .blog-row-cat:focus-visible {
+  outline: 2px solid var(--doyy-accent);
+  outline-offset: 3px;
+}
+
+.page.blog-archive .content .blog-row-summary {
+  margin: 0.45rem 0 0;
+  font-size: 1rem;
+  line-height: 1.55;
+  color: var(--doyy-muted);
+}
+
+.page.blog-archive .content .blog-row-meta {
+  display: flex;
+  gap: 1rem;
+  margin: 0.55rem 0 0;
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  color: var(--doyy-muted);
+}
+
+@media (max-width: 640px) {
+  .page.blog-archive .content > .blog-year > h2.blog-year-label {
+    font-size: 2.1rem;
+  }
+
+  .blog-row {
+    grid-template-columns: 112px minmax(0, 1fr);
+    gap: 1rem;
+    padding: 1.25rem 0;
+  }
+
+  .page.blog-archive .content .blog-row-title {
+    font-size: 1.1rem;
+  }
+
+  .page.blog-archive .content .blog-row-summary {
+    display: none;
+  }
+
+  .blog-filter {
+    gap: 0.4rem;
+  }
+
+  .page.blog-archive .blog-filter-btn {
+    padding: 0.35rem 0.7rem;
+    font-size: 0.8rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .page.blog-archive .blog-filter-btn {
+    transition: none;
+  }
+}
+
+/* ---------- Category pages (layouts/term.html) and the Topics index ---------- */
+.page.category-page .category-hero {
+  display: grid;
+  grid-template-columns: 80px minmax(0, 1fr);
+  gap: 1.5rem;
+  align-items: start;
+}
+
+.category-hero-seal {
+  display: block;
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.page.category-page .category-hero .feature-dek p {
+  margin: 0;
+}
+
+.page.category-page .category-hero-count {
+  margin: 0.9rem 0 0;
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--cat, var(--doyy-muted));
+}
+
+.page.category-page .content .category-other {
+  margin: 1rem 0 0;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--doyy-rule);
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  color: var(--doyy-muted);
+}
+
+.page.category-page .content .category-other a {
+  color: var(--doyy-accent);
+  background-image: none;
+}
+
+/* On a category page every row is the same category; the label is noise */
+.page.category-page .content .blog-row-cat {
+  display: none;
+}
+
+.page.category-page .content > .blog-year > h2.blog-year-label {
+  color: var(--cat, var(--doyy-accent));
+}
+
+@media (max-width: 640px) {
+  .page.category-page .category-hero {
+    grid-template-columns: 56px minmax(0, 1fr);
+    gap: 1rem;
+  }
+
+  .category-hero-seal {
+    width: 56px;
+    height: 56px;
+  }
+}
+
+/* Topics index (/categories/) */
+.page.topics-page .content .topic {
+  display: grid;
+  grid-template-columns: 72px minmax(0, 1fr);
+  gap: 1.5rem;
+  padding: 1.75rem 0;
+  border-top: 2px solid var(--cat, var(--doyy-rule));
+}
+
+.page.topics-page .content .topic-seal {
+  display: block;
+  background-image: none;
+}
+
+.page.topics-page .content .topic-seal img {
+  display: block;
+  width: 72px;
+  height: 72px;
+  margin: 0;
+  object-fit: contain;
+}
+
+.page.topics-page .content > .topic h2.topic-title {
+  margin: 0;
+  font-family: var(--font-serif);
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.page.topics-page .content > .topic h2 > .header-mark::before {
+  content: none;
+}
+
+.page.topics-page .content .topic-title a {
+  color: var(--doyy-ink);
+  text-decoration: none;
+  background-image: none;
+}
+
+.page.topics-page .content .topic-title a:hover {
+  color: var(--cat, var(--doyy-accent));
+}
+
+.page.topics-page .content .topic-intro p {
+  margin: 0.5rem 0 0;
+  font-size: 1.02rem;
+  line-height: 1.6;
+  color: var(--doyy-muted);
+}
+
+.page.topics-page .content ul.topic-latest {
+  margin: 1rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.page.topics-page .content ul.topic-latest li {
+  margin: 0;
+  padding: 0.35rem 0;
+  border-top: 1px solid var(--doyy-rule);
+}
+
+.page.topics-page .content ul.topic-latest li::before {
+  content: none;
+}
+
+.page.topics-page .content .topic-latest a {
+  font-size: 1.02rem;
+  color: var(--doyy-ink);
+  text-decoration: none;
+  background-image: none;
+}
+
+.page.topics-page .content .topic-latest a:hover {
+  color: var(--cat, var(--doyy-accent));
+}
+
+.page.topics-page .content .topic-all {
+  display: inline-block;
+  margin-top: 0.75rem;
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--cat, var(--doyy-accent));
+  background-image: none;
+}
+
+.page.topics-page .content .topic a:focus-visible {
+  outline: 2px solid var(--doyy-accent);
+  outline-offset: 3px;
+}
+
+@media (max-width: 640px) {
+  .page.topics-page .content .topic {
+    grid-template-columns: 52px minmax(0, 1fr);
+    gap: 1rem;
+  }
+
+  .page.topics-page .content .topic-seal img {
+    width: 52px;
+    height: 52px;
+  }
+
+  .page.topics-page .content > .topic h2.topic-title {
+    font-size: 1.35rem;
+  }
+}

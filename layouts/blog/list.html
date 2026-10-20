@@ -4,27 +4,72 @@
 {{- end -}}
 
 {{- define "content" -}}
-  {{- $pages := where .Site.RegularPages "Section" "posts" -}}
-  {{- with .Site.Params.home.posts.paginate | default .Site.Params.paginate -}}
-    {{- $pages = $.Paginate $pages . -}}
-  {{- else -}}
-    {{- $pages = .Paginate $pages -}}
-  {{- end -}}
+  {{- /* The whole archive on one page, newest first, grouped by year. Category
+       buttons filter it in place (they're plain links to the category pages
+       without JS). */ -}}
+  {{- $posts := where .Site.RegularPages "Section" "posts" -}}
+  {{- $cats := slice
+    (dict "key" "learning-languages" "slug" "learning--languages" "name" "Learning & Languages")
+    (dict "key" "faith-practice" "slug" "faith--practice" "name" "Faith & Practice")
+    (dict "key" "heritage-identity" "slug" "heritage--identity" "name" "Heritage & Identity")
+    (dict "key" "tech-tools" "slug" "tech--tools" "name" "Tech & Tools")
+  -}}
 
+  <div class="page single feature-page blog-archive">
+    <header class="feature-hero">
+      <h1 class="single-title">{{ .Title }}</h1>
+      <p class="feature-dek">
+        {{ len $posts }} posts since {{ (index $posts.ByDate 0).Date.Format "2006" }}, newest first.
+      </p>
+      <nav class="blog-filter" aria-label="Filter by category" data-blog-filter>
+        <a class="blog-filter-btn" href="{{ .RelPermalink }}" data-filter="" aria-current="true">All</a>
+        {{- range $cats }}
+          <a class="blog-filter-btn cat-{{ .key }}" href="{{ printf "/categories/%s/" .slug | relURL }}" data-filter="{{ .key }}">{{ .name }}</a>
+        {{- end }}
+      </nav>
+    </header>
 
-  <div class="page list" style="margin-top: 3rem;">
-    {{- if .Content -}}
-      <div class="single">
-        <div class="content" id="content">
-          {{- .Content -}}
-        </div>
-      </div>
-    {{- end -}}
-
-    {{- range $pages.Pages -}}
-
-      {{- .Render "summary" -}}
-    {{- end -}}
-    {{- partial "paginator.html" . -}}
+    <div class="content" id="content">
+      {{- .Content -}}
+      {{- range $posts.GroupByDate "2006" }}
+        <section class="blog-year" data-blog-year>
+          <h2 class="blog-year-label">{{ .Key }}</h2>
+          {{- range .Pages }}
+            {{- partial "post-row.html" . -}}
+          {{- end }}
+        </section>
+      {{- end }}
+    </div>
   </div>
+
+  <script>
+    (function () {
+      var nav = document.querySelector("[data-blog-filter]");
+      if (!nav) return;
+      var buttons = nav.querySelectorAll("[data-filter]");
+      var rows = document.querySelectorAll(".blog-row");
+      var years = document.querySelectorAll("[data-blog-year]");
+
+      function apply(key) {
+        rows.forEach(function (r) { r.hidden = key !== "" && r.dataset.cat !== key; });
+        years.forEach(function (y) { y.hidden = !y.querySelector(".blog-row:not([hidden])"); });
+        buttons.forEach(function (b) {
+          if (b.dataset.filter === key) b.setAttribute("aria-current", "true");
+          else b.removeAttribute("aria-current");
+        });
+      }
+
+      buttons.forEach(function (b) {
+        b.addEventListener("click", function (e) {
+          e.preventDefault();
+          var key = b.dataset.filter;
+          apply(key);
+          history.replaceState(null, "", key ? "#" + key : location.pathname);
+        });
+      });
+
+      var initial = location.hash.slice(1);
+      if (initial && nav.querySelector('[data-filter="' + initial + '"]')) apply(initial);
+    })();
+  </script>
 {{- end -}}

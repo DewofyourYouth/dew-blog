@@ -1,0 +1,49 @@
+{{- /* One post in an archive list (/blog/, category pages): thumbnail, category,
+     title, summary, date + read time. Context: the post page. Styles in
+     assets/css/overrides/_blog.scss. */ -}}
+{{- $p := . -}}
+{{- $reading_speed := site.Params.reading_speed | default 228 -}}
+{{- $postUrl := .RelPermalink -}}
+{{- $isExternal := false -}}
+{{- with .Params.externalUrl -}}
+  {{- $postUrl = . -}}
+  {{- $isExternal = true -}}
+{{- end -}}
+{{- $catTitle := "" -}}
+{{- $catURL := "" -}}
+{{- with .GetTerms "categories" -}}
+  {{- $catTitle = (index . 0).Title -}}
+  {{- $catURL = (index . 0).RelPermalink -}}
+{{- end -}}
+{{- $imgSrc := "" -}}
+{{- with .Params.featuredImage -}}
+  {{- with $p.Resources.GetMatch . -}}
+    {{- $imgSrc = (.Fill "400x210 webp q80").RelPermalink -}}
+  {{- else -}}
+    {{- $imgSrc = . | relURL -}}
+  {{- end -}}
+{{- end -}}
+<article class="blog-row{{ with $catTitle }} cat-{{ . | urlize }}{{ end }}" data-cat="{{ $catTitle | urlize }}">
+  {{- with $imgSrc }}
+  <a class="blog-row-media" href="{{ $postUrl }}" tabindex="-1" aria-hidden="true"{{ if $isExternal }} target="_blank" rel="noopener noreferrer"{{ end }}>
+    <img src="{{ . }}" alt="" loading="lazy" decoding="async" width="400" height="210">
+  </a>
+  {{- end }}
+  <div class="blog-row-text">
+    {{- with $catTitle }}
+    <a class="blog-row-cat" href="{{ $catURL }}">{{ . }}</a>
+    {{- end }}
+    <h3 class="blog-row-title" dir="auto">
+      <a href="{{ $postUrl }}"{{ if $isExternal }} target="_blank" rel="noopener noreferrer"{{ end }}>{{ .Title }}</a>
+    </h3>
+    {{- with .Summary }}
+    <p class="blog-row-summary" dir="auto">{{ . | plainify }}</p>
+    {{- end }}
+    <p class="blog-row-meta">
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2" }}</time>
+      {{- if site.Params.page.enableReadingTime | default true -}}
+      <span>{{ int (math.Ceil (div (float .WordCount) $reading_speed)) }} min read</span>
+      {{- end -}}
+    </p>
+  </div>
+</article>

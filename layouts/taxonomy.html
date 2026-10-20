@@ -6,6 +6,53 @@
     {{- $taxonomies := .Data.Plural -}}
     {{- $type := .Type -}}
 
+    {{- if eq $taxonomies "categories" -}}
+    {{- /* Topics index: one entry per category with its seal, intro, count and
+         latest posts. Category order is fixed rather than by count. */ -}}
+    {{- $cats := slice
+      (dict "title" "Learning & Languages" "slug" "learning--languages" "stem" "doy-learning")
+      (dict "title" "Faith & Practice" "slug" "faith--practice" "stem" "doy-faith")
+      (dict "title" "Heritage & Identity" "slug" "heritage--identity" "stem" "doy-heritage")
+      (dict "title" "Tech & Tools" "slug" "tech--tools" "stem" "doy-tech")
+    -}}
+    <div class="page single feature-page topics-page">
+        <header class="feature-hero">
+            <h1 class="single-title">Topics</h1>
+            <p class="feature-dek">Four subjects, one notebook. Pick a way in.</p>
+        </header>
+        <div class="content" id="content">
+            {{- range $cats -}}
+                {{- $c := . -}}
+                {{- $term := "" -}}
+                {{- range $.Data.Terms -}}
+                    {{- if eq .Page.Title $c.title -}}{{- $term = . -}}{{- end -}}
+                {{- end -}}
+                {{- with $term -}}
+                <section class="topic cat-{{ $c.title | urlize }}">
+                    <a class="topic-seal" href="{{ .Page.RelPermalink }}" tabindex="-1" aria-hidden="true">
+                        {{- with resources.Get (printf "images/doy-category-icons/clay-transparent/%s-clay.png" $c.stem) -}}
+                            <img src="{{ (.Resize "160x webp q85").RelPermalink }}" alt="" width="72" height="72" loading="lazy" />
+                        {{- end -}}
+                    </a>
+                    <div class="topic-body">
+                        <h2 class="topic-title"><a href="{{ .Page.RelPermalink }}">{{ $c.title }}</a></h2>
+                        {{- $tp := site.GetPage (printf "/categories/%s" $c.slug) -}}
+                        {{- with $tp.Params.intro -}}
+                            <div class="topic-intro">{{ . | markdownify }}</div>
+                        {{- end -}}
+                        <ul class="topic-latest">
+                            {{- range first 3 .Pages.ByDate.Reverse -}}
+                                <li><a href="{{ .RelPermalink }}" dir="auto">{{ .Title }}</a></li>
+                            {{- end -}}
+                        </ul>
+                        <a class="topic-all" href="{{ .Page.RelPermalink }}">All {{ .Count }} posts</a>
+                    </div>
+                </section>
+                {{- end -}}
+            {{- end -}}
+        </div>
+    </div>
+    {{- else -}}
     <div class="page archive">
         {{- /* Title */ -}}
         <h2 class="single-title">
@@ -139,4 +186,5 @@
             {{- partial "tag-index.html" . -}}
         {{- end -}}
     </div>
+    {{- end -}}
 {{- end -}}

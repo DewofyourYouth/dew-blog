@@ -14,7 +14,49 @@
     {{- if eq $taxonomy "category" -}}
         {{- $catSlug = urlize .Title -}}
     {{- end -}}
-    <div class="page {{ if $catSlug }}list cat-{{ $catSlug }}{{ else }}archive{{ end }}">
+    {{- if $catSlug -}}
+    {{- /* Category page: parchment header with the clay seal and intro, then the
+         category's posts grouped by year (rows from _partials/post-row.html). */ -}}
+    {{- $claySeals := dict "Learning & Languages" "doy-learning" "Tech & Tools" "doy-tech" "Faith & Practice" "doy-faith" "Heritage & Identity" "doy-heritage" -}}
+    {{- $catPosts := where $.Site.RegularPages "Params.categories" "intersect" (slice .Title) -}}
+    <div class="page single feature-page blog-archive category-page cat-{{ $catSlug | replaceRE "-+" "-" }}">
+        <header class="feature-hero category-hero">
+            {{- with index $claySeals .Title -}}
+                {{- with resources.Get (printf "images/doy-category-icons/clay-transparent/%s-clay.png" .) -}}
+                    <img class="category-hero-seal" src="{{ (.Resize "160x webp q85").RelPermalink }}" alt="" width="80" height="80" />
+                {{- end -}}
+            {{- end -}}
+            <div class="category-hero-text">
+                <h1 class="single-title">{{ .Title }}</h1>
+                {{- with .Params.intro -}}
+                    <div class="feature-dek">{{ . | markdownify }}</div>
+                {{- end -}}
+                <p class="category-hero-count">{{ len $catPosts }} posts</p>
+            </div>
+        </header>
+        <div class="content" id="content">
+            {{- range $catPosts.GroupByDate "2006" }}
+                <section class="blog-year">
+                    <h2 class="blog-year-label">{{ .Key }}</h2>
+                    {{- range .Pages }}
+                        {{- partial "post-row.html" . -}}
+                    {{- end }}
+                </section>
+            {{- end }}
+            <p class="category-other">
+                Other categories:&#32;
+                {{- $others := slice -}}
+                {{- range slice (slice "Learning & Languages" "learning--languages") (slice "Faith & Practice" "faith--practice") (slice "Heritage & Identity" "heritage--identity") (slice "Tech & Tools" "tech--tools") -}}
+                    {{- if ne (index . 0) $.Title -}}
+                        {{- $others = $others | append (printf `<a href="%s">%s</a>` (printf "/categories/%s/" (index . 1) | relURL) (index . 0 | htmlEscape)) -}}
+                    {{- end -}}
+                {{- end -}}
+                {{ delimit $others ", " " and " | safeHTML }}.
+            </p>
+        </div>
+    </div>
+    {{- else -}}
+    <div class="page archive">
         {{- /* Title */ -}}
         <h2 class="single-title">
             {{- if eq $taxonomy "category" -}}
@@ -153,4 +195,5 @@
             {{- if and (ne $taxonomy "category") (ne $taxonomy "series") -}}{{- partial "paginator.html" . -}}{{- end -}}
         {{- end -}}
     </div>
+    {{- end -}}
 {{- end -}}

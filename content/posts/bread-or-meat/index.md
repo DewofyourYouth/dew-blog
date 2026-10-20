@@ -2,7 +2,7 @@
 title: "Bread, Meat, or a Meal? Hebrew and Arabic as Cousins"
 slug: "bread-or-meat"
 date: 2026-10-20T01:00:00+03:00
-draft: true
+draft: false
 categories:
   - Learning & Languages
 tags:

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="x-apple-disable-message-reformatting">
+<meta name="color-scheme" content="light only">
+<title>Dew of Your Youth</title>
+<!--
+  Brevo RSS campaign template for Dew of Your Youth.
+  Paste into Brevo → Templates → New template → "Paste your code".
+  Feed: https://www.dewofyouryouth.com/index.xml (no <category>, so labels fall back to "Dew of Your Youth").
+  Also works with the combined https://jacob-shore.com/index.xml (<category> = source site, "Now" = status).
+  RSS keys (Brevo help 360016993299): item.ENCLOSURE · TITLE · CATEGORY · DESCRIPTION · LINK.
+  The {% for %} loop is the repeatable block; change the slice to send more/fewer posts.
+-->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+  body { margin:0; padding:0; background:#f4ede3; }
+  a { color:#b53f2c; }
+  .serif-display { font-family:'Playfair Display', Georgia, 'Times New Roman', serif; }
+  .serif-text { font-family:'Source Serif 4', Georgia, 'Times New Roman', serif; }
+  @media (max-width:620px) {
+    .container { width:100% !important; }
+    .px { padding-left:24px !important; padding-right:24px !important; }
+    .h1 { font-size:30px !important; line-height:36px !important; }
+    .post-title { font-size:24px !important; line-height:30px !important; }
+  }
+</style>
+</head>
+<body style="margin:0; padding:0; background:#f4ede3;">
+
+<!-- Preheader (inbox preview text) -->
+<div style="display:none; max-height:0; overflow:hidden; mso-hide:all; font-size:1px; line-height:1px; color:#f4ede3;">
+  New writing on Torah, genealogy, language and code. Pour yourself something and read slowly.
+</div>
+
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#f4ede3;">
+<tr><td align="center" style="padding:32px 12px;">
+
+  <table role="presentation" class="container" width="600" cellpadding="0" cellspacing="0" border="0" style="width:600px; max-width:600px;">
+
+    <!-- Top line -->
+    <tr><td class="px" style="padding:0 8px 16px; font-family:Georgia, serif; font-size:12px; letter-spacing:2px; text-transform:uppercase; color:#8a7a69;" align="center">
+      Letters from Jerusalem &nbsp;·&nbsp; <a href="{{ mirror }}" style="color:#8a7a69; text-decoration:underline;">View in browser</a>
+    </td></tr>
+
+    <!-- Masthead -->
+    <tr><td style="background:#fffaf3; border-top:6px solid #b53f2c; border-radius:4px 4px 0 0;" align="center">
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr><td class="px" align="center" style="padding:40px 48px 8px;">
+          <a href="https://www.dewofyouryouth.com/" style="text-decoration:none;">
+            <img src="https://www.dewofyouryouth.com/android-chrome-192x192.png" width="72" height="72" alt="Dew of Your Youth" style="display:block; width:72px; height:72px; border:0; border-radius:50%;">
+          </a>
+        </td></tr>
+        <tr><td class="px" align="center" style="padding:18px 48px 0;">
+          <div class="serif-display h1" style="font-family:'Playfair Display', Georgia, 'Times New Roman', serif; font-size:36px; line-height:42px; font-weight:700; color:#2b211b; letter-spacing:-0.3px;">
+            Dew of Your Youth
+          </div>
+        </td></tr>
+        <tr><td class="px" align="center" style="padding:10px 48px 0;">
+          <div dir="rtl" lang="he" style="font-family:'Frank Ruhl Libre', 'Times New Roman', serif; font-size:20px; line-height:26px; color:#b53f2c;">
+            לְךָ טַל יַלְדֻתֶיךָ
+          </div>
+          <div class="serif-text" style="font-family:'Source Serif 4', Georgia, serif; font-style:italic; font-size:14px; line-height:20px; color:#8a7a69; padding-top:4px;">
+            “Yours is the dew of your youth” · Psalm 110:3
+          </div>
+        </td></tr>
+        <tr><td class="px" style="padding:28px 48px 0;">
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
+            <td style="border-top:1px solid #e6d9c8; font-size:0; line-height:0;">&nbsp;</td>
+            <td width="40" align="center" style="font-family:Georgia, serif; font-size:14px; color:#b53f2c; line-height:14px;">&#10022;</td>
+            <td style="border-top:1px solid #e6d9c8; font-size:0; line-height:0;">&nbsp;</td>
+          </tr></table>
+        </td></tr>
+        <tr><td class="px serif-text" style="padding:24px 48px 8px; font-family:'Source Serif 4', Georgia, serif; font-size:17px; line-height:28px; color:#3d332b;">
+          Shalom {{ contact.FIRSTNAME | default : "friend" }},<br>
+          here’s what’s new on Dew of Your Youth: Torah, family history, Arabic and Hebrew, and the occasional piece of software. Each one is meant to be read slowly.
+        </td></tr>
+      </table>
+    </td></tr>
+
+    <!-- Posts (repeatable block). The loop sits inside one cell so HTML parsers keep it in place. -->
+    <tr><td style="background:#fffaf3;">
+      {% for item in params.items | slice:":5" %}
+      {% if item.CATEGORY == "Now" %}
+      <!-- "Now" status item: a quiet note, no image or button -->
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr><td class="px" style="padding:24px 48px 24px;">
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
+            <td style="border-left:3px solid #b53f2c; background:#f6ece0; padding:16px 20px;">
+              <div style="font-family:Georgia, serif; font-size:12px; letter-spacing:1.5px; text-transform:uppercase; color:#b53f2c;">Now</div>
+              <div class="serif-text" dir="auto" style="padding-top:6px; font-family:'Source Serif 4', Georgia, serif; font-style:italic; font-size:17px; line-height:27px; color:#3d332b;">{{ item.DESCRIPTION | safe }}</div>
+            </td>
+          </tr></table>
+        </td></tr>
+        <tr><td class="px" style="padding:0 48px;">
+          <div style="border-top:1px solid #e6d9c8; font-size:0; line-height:0;">&nbsp;</div>
+        </td></tr>
+      </table>
+      {% else %}
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr><td class="px" style="padding:24px 48px 0;">
+          <a href="{{ item.LINK }}" style="text-decoration:none;">
+            <img src="{{ item.ENCLOSURE }}" width="504" alt="" style="display:block; width:100%; max-width:504px; height:auto; border:0; border-radius:3px;">
+          </a>
+        </td></tr>
+        <tr><td class="px" style="padding:20px 48px 0; font-family:Georgia, serif; font-size:12px; letter-spacing:1.5px; text-transform:uppercase; color:#b53f2c;">
+          {{ item.CATEGORY | default : "Dew of Your Youth" }}
+        </td></tr>
+        <tr><td class="px" dir="auto" style="padding:6px 48px 0;">
+          <a href="{{ item.LINK }}" class="serif-display post-title" style="font-family:'Playfair Display', Georgia, 'Times New Roman', serif; font-size:27px; line-height:34px; font-weight:700; color:#2b211b; text-decoration:none;">{{ item.TITLE }}</a>
+        </td></tr>
+        <tr><td class="px serif-text" dir="auto" style="padding:10px 48px 0; font-family:'Source Serif 4', Georgia, serif; font-size:17px; line-height:28px; color:#3d332b;">
+          {{ item.DESCRIPTION | safe }}
+        </td></tr>
+        <tr><td class="px" style="padding:18px 48px 28px;">
+          <table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr>
+            <td style="background:#b53f2c; border-radius:3px;">
+              <a href="{{ item.LINK }}" style="display:inline-block; padding:11px 22px; font-family:Georgia, serif; font-size:15px; color:#fffaf3; text-decoration:none; letter-spacing:0.3px;">Read on {{ item.CATEGORY | default : "Dew of Your Youth" }} &rarr;</a>
+            </td>
+          </tr></table>
+        </td></tr>
+        <tr><td class="px" style="padding:0 48px;">
+          <div style="border-top:1px solid #e6d9c8; font-size:0; line-height:0;">&nbsp;</div>
+        </td></tr>
+      </table>
+      {% endif %}
+      {% endfor %}
+    </td></tr>
+
+    <!-- Sign-off -->
+    <tr><td class="px serif-text" style="background:#fffaf3; padding:28px 48px 40px; font-family:'Source Serif 4', Georgia, serif; font-size:17px; line-height:28px; color:#3d332b; border-radius:0 0 4px 4px;">
+      Thanks for reading. If something here was useful, or you think I got it wrong, just hit reply. Every email reaches me.
+      <div style="padding-top:18px; font-family:'Playfair Display', Georgia, serif; font-style:italic; font-size:20px; color:#2b211b;">Jacob</div>
+    </td></tr>
+
+    <!-- Sister sites -->
+    <tr><td class="px" align="center" style="padding:28px 48px 8px; font-family:Georgia, serif; font-size:14px; line-height:22px; color:#6f6255;">
+      <a href="https://www.dewofyouryouth.com/" style="color:#6f6255;">Dew of Your Youth</a>
+      &nbsp;·&nbsp; <a href="https://dailyderja.com/" style="color:#6f6255;">Daily Derja</a>
+      &nbsp;·&nbsp; <a href="https://jacob-shore.com/latest/" style="color:#6f6255;">Everything I write</a>
+    </td></tr>
+
+    <!-- Legal footer -->
+    <tr><td class="px" align="center" style="padding:8px 48px 0; font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:18px; color:#9a8c7d;">
+      You’re getting this because you subscribed at dewofyouryouth.com.<br>
+      This email was sent to {{ contact.EMAIL }}.
+      <a href="{{ unsubscribe }}" style="color:#9a8c7d; text-decoration:underline;">Unsubscribe</a>
+    </td></tr>
+
+  </table>
+
+</td></tr>
+</table>
+</body>
+</html>

@@ -32,6 +32,8 @@ jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
+    outputs:
+      new_post: ${{ steps.new-posts.outputs.first }}
     env:
       HUGO_VERSION: 0.161.1
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
@@ -55,6 +57,28 @@ jobs:
         run: |
           hugo \
             --minify
+      - name: Restore last published post list
+        uses: actions/cache/restore@v4
+        with:
+          path: .published-permalinks
+          key: published-permalinks-${{ github.run_id }}
+          restore-keys: published-permalinks-
+      - name: Detect new posts
+        id: new-posts
+        # Compares the freshly built index.json with the post list saved by the
+        # last successful deploy (Actions cache — no request to the live site,
+        # which Cloudflare blocks from GitHub runners). Any new permalink means
+        # jacob-shore.com/latest (and its Brevo RSS feed) needs a rebuild.
+        run: |
+          jq -r '.[].permalink' public/index.json | sort > .built-permalinks
+          first=""
+          if [ -f .published-permalinks ]; then
+            first=$(comm -13 .published-permalinks .built-permalinks | head -n 1)
+          else
+            echo "No saved post list yet; this run only seeds it."
+          fi
+          echo "New post: ${first:-none}"
+          echo "first=$first" >> "$GITHUB_OUTPUT"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
@@ -73,3 +97,37 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
+
+  # Rebuild jacob-shore.com (Cloudflare Pages) so /latest picks up the new post,
+  # then remember this deploy's post list for the next run.
+  notify-jacob-shore:
+    needs: [build, deploy]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger jacob-shore.com deploy hook
+        if: needs.build.outputs.new_post != ''
+        env:
+          NEW_POST: ${{ needs.build.outputs.new_post }}
+          DEPLOY_HOOK: ${{ secrets.JACOB_SHORE_DEPLOY_HOOK }}
+        run: |
+          if [ -z "$DEPLOY_HOOK" ]; then
+            echo "::warning::JACOB_SHORE_DEPLOY_HOOK secret is not set; skipping"
+            exit 0
+          fi
+          echo "New post $NEW_POST — triggering jacob-shore.com rebuild"
+          sleep 30  # let the Pages CDN pick up the deploy before Hugo fetches index.json
+          curl -fsS -X POST "$DEPLOY_HOOK"
+      - name: Download deployed site
+        uses: actions/download-artifact@v4
+        with:
+          name: github-pages
+      - name: Record published post list
+        run: |
+          tar -xf artifact.tar ./index.json
+          jq -r '.[].permalink' index.json | sort > .published-permalinks
+          wc -l < .published-permalinks
+      - name: Save published post list
+        uses: actions/cache/save@v4
+        with:
+          path: .published-permalinks
+          key: published-permalinks-${{ github.run_id }}

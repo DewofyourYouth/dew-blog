@@ -40,24 +40,25 @@
   {{ end }}
   {{ $summary := $page.Params.summary | default $page.Summary }}
   <section class="post-spotlight">
-    <div class="post-spotlight-media">
+    <div class="post-spotlight-media" aria-hidden="true">
       {{ if $imgResource }}
         {{ $optim := slice
+          (dict "Process" "fill 480x360 Center webp q80" "descriptor" "480w")
           (dict "Process" "fill 800x600 Center webp q75" "descriptor" "800w")
-          (dict "Process" "fill 1200x900 Center webp q75" "descriptor" "1200w")
-          (dict "Process" "fill 1600x1200 Center webp q75" "descriptor" "1600w")
         }}
         <a
           href="{{ $postUrl }}"
+          tabindex="-1"
           {{ if $isExternal }}
             target="_blank" rel="noopener noreferrer"
           {{ end }}
         >
-          {{- dict "Src" $imgResource "Title" $page.Title "Resources" $page.Resources "Loading" "lazy" "Width" "800" "Height" "600" "Sizes" "(max-width: 900px) 100vw, 520px" "OptimConfig" $optim "Alt" (printf "Featured image for %v" $page.Title) | partial "plugin/image.html" -}}
+          {{- dict "Src" $imgResource "Title" $page.Title "Resources" $page.Resources "Loading" "lazy" "Width" "800" "Height" "600" "Sizes" "(max-width: 640px) 100vw, 240px" "OptimConfig" $optim "Alt" (printf "Featured image for %v" $page.Title) | partial "plugin/image.html" -}}
         </a>
       {{ else if $imgUrl }}
         <a
           href="{{ $postUrl }}"
+          tabindex="-1"
           {{ if $isExternal }}
             target="_blank" rel="noopener noreferrer"
           {{ end }}
@@ -68,6 +69,7 @@
         <a
           class="post-spotlight-placeholder"
           href="{{ $postUrl }}"
+          tabindex="-1"
           {{ if $isExternal }}
             target="_blank" rel="noopener noreferrer"
           {{ end }}
@@ -77,13 +79,10 @@
       {{ end }}
     </div>
     <div class="post-spotlight-body">
-      <div class="post-spotlight-top">
-        <span class="post-spotlight-brand">{{ site.Title }}</span>
-        {{ if $catTitle }}
-          <a class="post-spotlight-cat" href="{{ $catURL }}">{{ $catTitle }}</a>
-        {{ end }}
-      </div>
-      <h3 class="post-spotlight-title">
+      {{ if $catTitle }}
+        <a class="post-spotlight-cat cat-{{ $catTitle | urlize }}" href="{{ $catURL }}">{{ $catTitle }}</a>
+      {{ end }}
+      <h3 class="post-spotlight-title" dir="auto">
         <a
           href="{{ $postUrl }}"
           {{ if $isExternal }}
@@ -93,28 +92,15 @@
         >
       </h3>
       {{ with $summary }}
-        <p class="post-spotlight-summary">{{ . | plainify }}</p>
+        <p class="post-spotlight-summary" dir="auto">{{ . | plainify }}</p>
       {{ end }}
-      <div class="post-spotlight-meta">
-        <span class="post-spotlight-date">
-          {{- partial "plugin/fontawesome.html" (dict "Style" "regular" "Icon" "calendar-alt") -}}&nbsp;{{ $page.Date.Format "Jan 2, 2006" -}}
-        </span>
+      <p class="post-spotlight-meta">
+        <time datetime="{{ $page.Date.Format "2006-01-02" }}">{{ $page.Date.Format "Jan 2, 2006" }}</time>
         {{- if site.Params.page.enableReadingTime | default true -}}
           {{- $reading_speed := site.Params.reading_speed | default 228 -}}
-          {{- $readingTime := int (math.Ceil (div (float $page.WordCount) $reading_speed)) -}}
-          <span class="post-spotlight-reading-time">
-            {{- partial "plugin/fontawesome.html" (dict "Style" "regular" "Icon" "clock") -}}&nbsp;{{ T "readingTime" $readingTime -}}
-          </span>
+          <span>{{ int (math.Ceil (div (float $page.WordCount) $reading_speed)) }} min read</span>
         {{- end -}}
-        <a
-          class="post-spotlight-link"
-          href="{{ $postUrl }}"
-          {{ if $isExternal }}
-            target="_blank" rel="noopener noreferrer"
-          {{ end }}
-          >Read the post →</a
-        >
-      </div>
+      </p>
     </div>
   </section>
 {{ end }}

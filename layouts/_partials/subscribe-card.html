@@ -1,0 +1,52 @@
+{{- /* Newsletter signup card (Brevo form "doyy-subscribe", list "Dew of your Youth
+     Readers", double opt-in). Confirming the email lands the reader on /welcome/.
+     The submit is handled with fetch in _partials/footer.html; without JS the
+     form posts straight to Brevo. WhatsApp/Telegram stay as a secondary line.
+
+     Used by: the join-channels shortcode (in posts), layouts/page.html, the site
+     footer (compact) and the header's Subscribe modal.
+
+     Params (all optional): heading, sub, button, location (GA signup_location),
+     variant ("full" | "compact" | "modal"), id (for aria-labelledby). */ -}}
+{{- $action := site.Params.newsletter.brevoAction -}}
+{{- with $action -}}
+{{- $variant := $.variant | default "full" -}}
+{{- $location := $.location | default "post" -}}
+{{- $heading := $.heading | default (cond (eq $variant "compact") "New posts by email" "Get new posts by email") -}}
+{{- $sub := $.sub | default "One short email when there’s a new post: Torah, family history, Arabic and Hebrew, and the occasional script that almost worked." -}}
+{{- $button := $.button | default "Subscribe" -}}
+{{- $id := $.id | default (printf "doyy-sub-%s" ($location | urlize)) -}}
+{{- $whatsapp := "" -}}
+{{- with site.Params.social.whatsapp -}}{{- if reflect.IsMap . -}}{{- $whatsapp = .url -}}{{- else -}}{{- $whatsapp = . -}}{{- end -}}{{- end -}}
+{{- $telegram := "" -}}
+{{- with site.Params.social.telegram -}}{{- if reflect.IsMap . -}}{{- $telegram = .url -}}{{- else -}}{{- $telegram = . -}}{{- end -}}{{- end -}}
+<aside class="doyy-sub doyy-sub--{{ $variant }}" dir="ltr" lang="en" data-signup-location="{{ $location }}" aria-labelledby="{{ $id }}">
+  {{- if ne $variant "compact" }}
+  <img class="doyy-sub-seal doyy-sub-seal--light" src="{{ "/images/logo.png" | relURL }}" alt="" width="56" height="54" loading="lazy">
+  <img class="doyy-sub-seal doyy-sub-seal--dark" src="{{ "/images/logo-seal-gold.png" | relURL }}" alt="" width="52" height="54" loading="lazy">
+  {{- end }}
+  <div class="doyy-sub-main">
+    <p class="doyy-sub-heading" id="{{ $id }}">{{ $heading }}</p>
+    <p class="doyy-sub-text">{{ $sub }}</p>
+
+    <form class="doyy-sub-form" action="{{ . }}" method="post">
+      <label class="doyy-sub-label" for="{{ $id }}-email">Email address</label>
+      <input id="{{ $id }}-email" type="email" name="EMAIL" required placeholder="you@email.com" spellcheck="false" autocomplete="email">
+      {{- /* Brevo's honeypot: must stay empty. */}}
+      <input type="text" name="email_address_check" value="" class="doyy-sub-hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <input type="hidden" name="locale" value="en">
+      <input type="hidden" name="html_type" value="simple">
+      <button type="submit">{{ $button }}</button>
+    </form>
+    <p class="doyy-sub-status" role="status" aria-live="polite" hidden></p>
+
+    <p class="doyy-sub-fine">
+      Free. You’ll confirm by email first. Unsubscribe anytime.
+      {{- if or $whatsapp $telegram }}
+      Or follow on
+      {{ with $whatsapp }}<a href="{{ . }}" target="_blank" rel="noopener noreferrer" data-channel="whatsapp">WhatsApp</a>{{ end }}{{ if and $whatsapp $telegram }} or {{ end }}{{ with $telegram }}<a href="{{ . }}" target="_blank" rel="noopener noreferrer" data-channel="telegram">Telegram</a>{{ end }}.
+      {{- end }}
+    </p>
+  </div>
+</aside>
+{{- end -}}

@@ -1,0 +1,73 @@
+/* Static/collection pages (layouts/page.html): Lineage, Rabbi Aaron Schechter,
+   About. A parchment header band like the homepage hero, then the post
+   reading column from _typography.scss. */
+.page.feature-page .feature-hero {
+  max-width: 44rem;
+  margin: 0 auto 2.5rem;
+  padding: 1.5rem 0 2.25rem;
+  background: var(--doyy-paper);
+  /* Full-bleed band without horizontal scroll; it also extends up behind the
+     theme's top padding so it meets the header */
+  box-shadow: 0 0 0 100vmax var(--doyy-paper);
+  clip-path: inset(-100vmax -100vmax 0);
+}
+
+/* The theme right-aligns titles on .special pages */
+.page.feature-page .feature-hero .single-title {
+  text-align: left;
+  margin: 0;
+  font-family: var(--font-serif);
+  font-size: clamp(2.2rem, 5vw, 3.2rem);
+  font-weight: 600;
+  line-height: 1.1;
+  color: var(--doyy-ink);
+}
+
+.page.feature-page .feature-dek {
+  margin: 0.9rem 0 0;
+  max-width: 38rem;
+  font-family: var(--font-text);
+  font-style: italic;
+  font-size: 1.15rem;
+  line-height: 1.55;
+  color: var(--doyy-muted);
+}
+
+.page.feature-page .feature-dek p {
+  margin: 0;
+}
+
+/* Section headings: drop the theme's "|" mark, use a quiet rule instead */
+.page.feature-page .content > h2 > .header-mark::before,
+.page.feature-page .content > h3 > .header-mark::before {
+  content: none;
+}
+
+.page.feature-page .content > h2,
+.page.feature-page .content > h3 {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  color: var(--doyy-ink);
+}
+
+.page.feature-page .content > h2 {
+  font-size: 1.7rem;
+  margin: 0 0 1rem;
+}
+
+.page.feature-page .content > h3 {
+  font-size: 1.35rem;
+  margin: 3rem 0 0.75rem;
+}
+
+.page.feature-page .content > h3 + p {
+  color: var(--doyy-muted);
+  font-size: 1.05rem;
+}
+
+@media (max-width: 680px) {
+  .page.feature-page .feature-hero {
+    padding: 2rem 0 1.75rem;
+    margin-bottom: 2rem;
+  }
+}

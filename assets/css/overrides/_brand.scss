@@ -1,0 +1,45 @@
+/* DOYY brand tokens (dew_cover_pipeline/assets/BRAND_GUIDE.md), shared by the
+   homepage, feature pages, post spotlights and the newsletter card. */
+:root {
+  --doyy-paper: #f4ecdc;
+  --doyy-ink: #313a43;
+  --doyy-muted: #5f646a;
+  --doyy-rule: #e2d8c4;
+  --doyy-accent: #985232;
+  --doyy-accent-hover: #c8754c;
+  --doyy-on-accent: #fffaf2;
+
+  /* Category hues from the brand's editorial palette */
+  --doyy-cat-learning: #4f6577;
+  --doyy-cat-faith: #a9562f;
+  --doyy-cat-heritage: #8f6b1c;
+  --doyy-cat-tech: #5e6b3a;
+}
+
+html.dark {
+  --doyy-paper: #232a31;
+  --doyy-ink: #e8e2d6;
+  --doyy-muted: #a8a196;
+  --doyy-rule: rgba(232, 226, 214, 0.14);
+  --doyy-accent: #d4ad52;
+  --doyy-accent-hover: #e6c674;
+  --doyy-on-accent: #1d2329;
+
+  --doyy-cat-learning: #9db2c3;
+  --doyy-cat-faith: #df9470;
+  --doyy-cat-heritage: #d4ad52;
+  --doyy-cat-tech: #a9b47f;
+}
+
+.cat-learning-languages {
+  --cat: var(--doyy-cat-learning);
+}
+.cat-faith-practice {
+  --cat: var(--doyy-cat-faith);
+}
+.cat-heritage-identity {
+  --cat: var(--doyy-cat-heritage);
+}
+.cat-tech-tools {
+  --cat: var(--doyy-cat-tech);
+}

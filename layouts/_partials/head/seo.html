@@ -240,3 +240,6 @@
         </script>
     {{- end -}}
 {{- end -}}
+{{- with .Params.robots }}
+    <meta name="robots" content="{{ . }}" >
+{{- end }}

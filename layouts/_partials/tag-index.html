@@ -1,0 +1,109 @@
+{{- /* Tag index: every tag, grouped under the category most of its posts belong to,
+     plus a "where the subjects meet" row of tags that span two or more categories.
+     Used by the tag-cloud shortcode (/page/tags/) and the /tags/ taxonomy page.
+     Tags on uncategorized pages (About etc.) are left out. */ -}}
+{{- $cats := slice
+  (dict "key" "learning-languages" "name" "Learning & Languages" "icon" "learning")
+  (dict "key" "faith-practice" "name" "Faith & Practice" "icon" "faith")
+  (dict "key" "heritage-identity" "name" "Heritage & Identity" "icon" "heritage")
+  (dict "key" "tech-tools" "name" "Tech & Tools" "icon" "tech")
+-}}
+{{- $groups := dict -}}
+{{- $shared := slice -}}
+{{- $total := 0 -}}
+{{- range site.Taxonomies.tags.ByCount -}}
+  {{- $t := . -}}
+  {{- $counts := dict -}}
+  {{- range $t.Pages -}}
+    {{- with .Params.categories -}}
+      {{- $ck := index . 0 | urlize -}}
+      {{- $counts = merge $counts (dict $ck (add (index $counts $ck | default 0) 1)) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $dom := "" -}}
+  {{- $max := 0 -}}
+  {{- $spans := slice -}}
+  {{- range $cats -}}
+    {{- $n := index $counts .key | default 0 -}}
+    {{- if gt $n 0 -}}{{- $spans = $spans | append .key -}}{{- end -}}
+    {{- if gt $n $max -}}{{- $max = $n -}}{{- $dom = .key -}}{{- end -}}
+  {{- end -}}
+  {{- with $dom -}}
+    {{- $tier := cond (ge $t.Count 8) 3 (cond (ge $t.Count 3) 2 1) -}}
+    {{- $entry := dict "name" $t.Page.Title "url" $t.Page.RelPermalink "count" $t.Count "tier" $tier "spans" $spans -}}
+    {{- $groups = merge $groups (dict $dom ((index $groups $dom | default slice) | append $entry)) -}}
+    {{- if and (gt (len $spans) 1) (ge $t.Count 2) -}}{{- $shared = $shared | append $entry -}}{{- end -}}
+    {{- $total = add $total 1 -}}
+  {{- end -}}
+{{- end -}}
+
+<div class="tag-index" data-tag-index>
+  <div class="tag-index-filter">
+    <label for="tag-index-q">Filter {{ $total }} tags</label>
+    <input id="tag-index-q" type="search" placeholder="Try “hebrew”, “talne” or “anki”" autocomplete="off" spellcheck="false" data-tag-filter>
+    <p class="tag-index-empty" role="status" aria-live="polite" hidden>No tags match that. Try a shorter word.</p>
+  </div>
+
+  {{- with $shared }}
+  <section class="tag-index-group tag-index-shared" data-tag-group>
+    <h2>Where the subjects meet</h2>
+    <p class="tag-index-note">Tags that turn up in more than one category. The dots show which.</p>
+    <ul class="tag-index-list">
+      {{- range . }}
+      <li data-tag-name="{{ .name | lower }}">
+        <a class="tag-index-tag tier-{{ .tier }}" href="{{ .url }}"><bdi>{{ .name }}</bdi><span class="tag-index-count">{{ .count }}</span></a>
+        <span class="tag-index-dots" aria-label="In {{ len .spans }} categories">
+          {{- range .spans }}<span class="tag-index-dot cat-{{ . }}"></span>{{ end -}}
+        </span>
+      </li>
+      {{- end }}
+    </ul>
+  </section>
+  {{- end }}
+
+  {{- range $cats }}
+    {{- $cat := . }}
+    {{- with index $groups $cat.key }}
+  <section class="tag-index-group cat-{{ $cat.key }}" data-tag-group>
+    <h2>
+      <span class="tag-index-icon" aria-hidden="true">
+        {{- with resources.Get (printf "images/doy-category-icons/svg/doy-%s.svg" $cat.icon) }}{{ .Content | safeHTML }}{{ end -}}
+      </span>
+      <a href="{{ printf "/categories/%s/" (replace $cat.key "-" "--" 1) | relURL }}">{{ $cat.name }}</a>
+    </h2>
+    <ul class="tag-index-list">
+      {{- range . }}
+      <li data-tag-name="{{ .name | lower }}">
+        <a class="tag-index-tag tier-{{ .tier }}" href="{{ .url }}"><bdi>{{ .name }}</bdi><span class="tag-index-count">{{ .count }}</span></a>
+      </li>
+      {{- end }}
+    </ul>
+  </section>
+    {{- end }}
+  {{- end }}
+</div>
+
+<script>
+  (function () {
+    var root = document.querySelector("[data-tag-index]");
+    var input = root && root.querySelector("[data-tag-filter]");
+    if (!input) return;
+    var groups = root.querySelectorAll("[data-tag-group]");
+    var empty = root.querySelector(".tag-index-empty");
+    input.addEventListener("input", function () {
+      var q = input.value.trim().toLowerCase();
+      var any = false;
+      groups.forEach(function (g) {
+        var shown = 0;
+        g.querySelectorAll("li").forEach(function (li) {
+          var hit = !q || li.dataset.tagName.indexOf(q) !== -1;
+          li.hidden = !hit;
+          if (hit) shown++;
+        });
+        g.hidden = shown === 0;
+        if (shown) any = true;
+      });
+      empty.hidden = any;
+    });
+  })();
+</script>

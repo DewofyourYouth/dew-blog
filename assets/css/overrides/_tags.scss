@@ -1,0 +1,210 @@
+/* Tag index (layouts/_partials/tag-index.html): /page/tags/ and /tags/ */
+.tag-index {
+  font-family: var(--font-text);
+  color: var(--doyy-ink);
+}
+
+/* On /tags/ (taxonomy archive) keep the same reading column as /page/tags/ */
+.page.archive .tag-index {
+  max-width: 44rem;
+  margin: 0 auto;
+}
+
+.tag-index-filter {
+  margin: 0 0 2.5rem;
+}
+
+.tag-index-filter label {
+  display: block;
+  margin-bottom: 0.4rem;
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--doyy-muted);
+}
+
+.tag-index-filter input {
+  width: 100%;
+  max-width: 26rem;
+  padding: 0.65rem 0.8rem;
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  color: var(--doyy-ink);
+  background: var(--global-background-color, #fff);
+  border: 1px solid var(--doyy-rule);
+  border-radius: 3px;
+}
+
+.tag-index-filter input:focus-visible {
+  outline: 2px solid var(--doyy-accent);
+  outline-offset: 2px;
+}
+
+.page.single .content .tag-index-empty,
+.tag-index-empty {
+  margin: 0.75rem 0 0;
+  font-size: 1rem;
+  color: var(--doyy-muted);
+}
+
+.tag-index-group {
+  padding: 1.5rem 0 1.75rem;
+  border-top: 2px solid var(--cat, var(--doyy-rule));
+}
+
+.tag-index-group[hidden],
+.tag-index-list li[hidden] {
+  display: none;
+}
+
+.page .content .tag-index-group h2,
+.tag-index-group h2 {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 0 0 1rem;
+  font-family: var(--font-serif);
+  font-size: 1.35rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--doyy-ink);
+}
+
+.tag-index-group h2 a,
+.page.single .content .tag-index .tag-index-group h2 a,
+.page.archive .tag-index .tag-index-group h2 a {
+  color: inherit;
+  text-decoration: none;
+  background-image: none;
+}
+
+.tag-index-group h2 a:hover,
+.page.single .content .tag-index .tag-index-group h2 a:hover,
+.page.archive .tag-index .tag-index-group h2 a:hover {
+  color: var(--cat, var(--doyy-accent));
+}
+
+.tag-index-icon svg {
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+
+/* The intersection row gets the parchment field: it's the page's one loud moment */
+.tag-index-shared {
+  padding: 1.5rem 1.5rem 1.75rem;
+  margin-bottom: 1.5rem;
+  background: var(--doyy-paper);
+  border-top: 3px solid var(--doyy-accent);
+  border-radius: 3px;
+}
+
+.page.single .content .tag-index-note,
+.tag-index-note {
+  margin: -0.5rem 0 1rem;
+  font-size: 1rem;
+  font-style: italic;
+  color: var(--doyy-muted);
+}
+
+.tag-index-list,
+.page.single .content ul.tag-index-list,
+.page.archive ul.tag-index-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.35rem 1.25rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.page.single .content .tag-index-list li,
+.tag-index-list li {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.35rem;
+  margin: 0;
+  padding: 0;
+}
+
+.page.single .content .tag-index-list li::before,
+.tag-index-list li::before {
+  content: none;
+}
+
+.page.single .content .tag-index a.tag-index-tag,
+.page.archive .tag-index a.tag-index-tag,
+a.tag-index-tag {
+  color: var(--doyy-ink);
+  text-decoration: none;
+  background-image: none;
+  line-height: 1.35;
+}
+
+.page.single .content .tag-index a.tag-index-tag:hover,
+.page.archive .tag-index a.tag-index-tag:hover,
+a.tag-index-tag:hover {
+  color: var(--cat, var(--doyy-accent));
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.tag-index-shared a.tag-index-tag:hover,
+.page.single .content .tag-index .tag-index-shared a.tag-index-tag:hover,
+.page.archive .tag-index .tag-index-shared a.tag-index-tag:hover {
+  color: var(--doyy-accent);
+}
+
+a.tag-index-tag:focus-visible {
+  outline: 2px solid var(--doyy-accent);
+  outline-offset: 2px;
+}
+
+/* Three restrained size steps by post count (1–2, 3–7, 8+) */
+.tag-index-tag.tier-1 {
+  font-size: 1rem;
+}
+
+.tag-index-tag.tier-2 {
+  font-size: 1.2rem;
+}
+
+.tag-index-tag.tier-3 {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.tag-index-count {
+  margin-left: 0.25rem;
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  font-weight: 400;
+  color: var(--doyy-muted);
+  vertical-align: super;
+}
+
+.tag-index-dots {
+  display: inline-flex;
+  gap: 3px;
+}
+
+.tag-index-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--cat);
+}
+
+/* /tags/ archive title: the theme right-aligns it in the UI sans */
+.page.archive:has(.tag-index) > .single-title {
+  max-width: 44rem;
+  margin: 0 auto 2rem;
+  text-align: left;
+  font-family: var(--font-serif);
+  font-size: clamp(2.2rem, 5vw, 3.2rem);
+  font-weight: 600;
+  color: var(--doyy-ink);
+}

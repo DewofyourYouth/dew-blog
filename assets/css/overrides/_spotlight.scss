@@ -1,0 +1,131 @@
+/* post-spotlight shortcode: an editorial row (image, category, title, summary,
+   meta) used on the Lineage and Rabbi Aaron Schechter collection pages. */
+.page.single .content .post-spotlight {
+  display: grid;
+  grid-template-columns: 240px minmax(0, 1fr);
+  gap: 1.5rem;
+  align-items: start;
+  margin: 0;
+  padding: 1.5rem 0;
+  border-top: 1px solid var(--doyy-rule);
+}
+
+.page.single .content .post-spotlight + .post-spotlight {
+  margin-top: 0;
+}
+
+.page.single .content .post-spotlight:last-child,
+.page.single .content .post-spotlight:has(+ :not(.post-spotlight)) {
+  border-bottom: 1px solid var(--doyy-rule);
+  margin-bottom: 2rem;
+}
+
+.post-spotlight-media a,
+.post-spotlight-placeholder {
+  display: block;
+  overflow: hidden;
+  border-radius: 3px;
+  aspect-ratio: 4 / 3;
+  background: var(--doyy-paper);
+}
+
+.post-spotlight-media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  object-fit: cover;
+}
+
+.page.single .content .post-spotlight-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-serif);
+  font-size: 3rem;
+  color: var(--doyy-accent);
+  text-decoration: none;
+}
+
+.post-spotlight-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.page.single .content .post-spotlight-cat {
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--cat, var(--doyy-muted));
+  text-decoration: none;
+  background-image: none;
+  margin-bottom: 0.3rem;
+}
+
+.page.single .content .post-spotlight-cat:hover {
+  text-decoration: underline;
+}
+
+.page.single .content .post-spotlight-title {
+  font-family: var(--font-serif);
+  font-size: 1.35rem;
+  font-weight: 600;
+  line-height: 1.25;
+  margin: 0;
+  width: 100%;
+}
+
+.page.single .content .post-spotlight-title a {
+  color: var(--doyy-ink);
+  text-decoration: none;
+  background-image: none;
+}
+
+.page.single .content .post-spotlight-title a:hover {
+  color: var(--doyy-accent);
+}
+
+.page.single .content .post-spotlight-title a:focus-visible,
+.page.single .content .post-spotlight-cat:focus-visible {
+  outline: 2px solid var(--doyy-accent);
+  outline-offset: 3px;
+}
+
+.page.single .content .post-spotlight-summary {
+  margin: 0.5rem 0 0;
+  width: 100%;
+  font-size: 1rem;
+  line-height: 1.55;
+  color: var(--doyy-muted);
+}
+
+.page.single .content .post-spotlight-meta {
+  display: flex;
+  gap: 1rem;
+  margin: 0.6rem 0 0;
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  color: var(--doyy-muted);
+}
+
+.post-spotlight-missing {
+  padding: 1rem;
+  border: 1px dashed var(--doyy-rule);
+  font-family: var(--font-sans);
+}
+
+@media (max-width: 640px) {
+  .page.single .content .post-spotlight {
+    grid-template-columns: 112px minmax(0, 1fr);
+    gap: 1rem;
+  }
+
+  .page.single .content .post-spotlight-title {
+    font-size: 1.15rem;
+  }
+
+  .page.single .content .post-spotlight-summary {
+    display: none;
+  }
+}

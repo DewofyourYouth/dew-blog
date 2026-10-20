@@ -1,0 +1,235 @@
+/* Newsletter signup card (layouts/_partials/subscribe-card.html).
+   Variants: full (in posts), compact (site footer), modal (header Subscribe). */
+.doyy-sub {
+  display: grid;
+  grid-template-columns: 56px minmax(0, 1fr);
+  gap: 1.25rem;
+  align-items: start;
+  margin: 2.5rem 0;
+  padding: 1.75rem 1.75rem 1.5rem;
+  background: var(--doyy-paper);
+  border-top: 3px solid var(--doyy-accent);
+  border-radius: 3px;
+  color: var(--doyy-ink);
+  font-family: var(--font-text);
+}
+
+.doyy-sub-seal {
+  display: block;
+  width: 56px;
+  height: auto;
+}
+
+.doyy-sub-seal--dark,
+html.dark .doyy-sub-seal--light {
+  display: none;
+}
+
+html.dark .doyy-sub-seal--dark {
+  display: block;
+  width: 52px;
+}
+
+/* Beat `.single .content p` margins and link styles inside posts */
+.doyy-sub .doyy-sub-heading {
+  margin: 0;
+  font-family: var(--font-serif);
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--doyy-ink);
+}
+
+.doyy-sub .doyy-sub-text {
+  margin: 0.4rem 0 0;
+  font-size: 1.02rem;
+  line-height: 1.55;
+  color: var(--doyy-muted);
+  max-width: 36rem;
+}
+
+.doyy-sub-form {
+  display: flex;
+  gap: 0.5rem;
+  margin: 1rem 0 0;
+  max-width: 30rem;
+}
+
+.doyy-sub-form[hidden] {
+  display: none;
+}
+
+.doyy-sub-label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.doyy-sub-form input[type="email"] {
+  flex: 1 1 auto;
+  min-width: 0;
+  padding: 0.65rem 0.8rem;
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  color: var(--doyy-ink);
+  background: var(--global-background-color, #fff);
+  border: 1px solid var(--doyy-rule);
+  border-radius: 3px;
+}
+
+html.dark .doyy-sub-form input[type="email"] {
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.doyy-sub-form input[type="email"]::placeholder {
+  color: var(--doyy-muted);
+  opacity: 0.8;
+}
+
+.doyy-sub-form input[type="email"]:focus-visible,
+.doyy-sub-form button:focus-visible,
+.doyy-sub-fine a:focus-visible {
+  outline: 2px solid var(--doyy-accent);
+  outline-offset: 2px;
+}
+
+.doyy-sub-form button {
+  flex: 0 0 auto;
+  padding: 0.65rem 1.15rem;
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--doyy-on-accent);
+  background: var(--doyy-accent);
+  border: 0;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+.doyy-sub-form button:hover {
+  background: var(--doyy-accent-hover);
+}
+
+.doyy-sub-form button:disabled {
+  opacity: 0.6;
+  cursor: progress;
+}
+
+.doyy-sub-hp {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+
+.doyy-sub .doyy-sub-status {
+  margin: 1rem 0 0;
+  font-size: 1.02rem;
+  line-height: 1.5;
+  color: var(--doyy-ink);
+}
+
+.doyy-sub .doyy-sub-status[data-state="error"] {
+  color: var(--doyy-cat-faith);
+}
+
+.doyy-sub .doyy-sub-fine {
+  margin: 0.75rem 0 0;
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: var(--doyy-muted);
+}
+
+.doyy-sub .doyy-sub-fine a,
+.single .content .doyy-sub .doyy-sub-fine a {
+  color: var(--doyy-muted);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  background-image: none;
+}
+
+.doyy-sub .doyy-sub-fine a:hover,
+.single .content .doyy-sub .doyy-sub-fine a:hover {
+  color: var(--doyy-accent);
+}
+
+/* Compact: full-width band above the site footer */
+.doyy-sub--compact {
+  display: block;
+  margin: 3rem 0 0;
+  padding: 2rem 1rem;
+  border-radius: 0;
+}
+
+.doyy-sub--compact .doyy-sub-main {
+  max-width: 44rem;
+  margin: 0 auto;
+}
+
+/* Modal: sits inside .subscribe-modal-container */
+.doyy-sub--modal {
+  margin: 0;
+  border-top: 0;
+  background: transparent;
+  padding: 0.5rem 0.25rem 0;
+}
+
+@media (max-width: 560px) {
+  .doyy-sub {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.75rem;
+    padding: 1.4rem 1.1rem 1.2rem;
+  }
+
+  .doyy-sub-seal,
+  html.dark .doyy-sub-seal--dark {
+    width: 44px;
+  }
+
+  .doyy-sub-form {
+    flex-direction: column;
+  }
+
+  .doyy-sub-form button {
+    padding: 0.75rem 1rem;
+  }
+}
+
+/* Header "Subscribe" modal shell (base rules in _components.scss) */
+.subscribe-modal-overlay {
+  background: rgba(29, 35, 41, 0.55);
+}
+
+.subscribe-modal-container {
+  max-width: 520px;
+  padding: 2rem 1.75rem 1.5rem;
+  background: var(--doyy-paper);
+  border: 0;
+  border-top: 3px solid var(--doyy-accent);
+  border-radius: 3px;
+  box-shadow: 0 24px 48px rgba(29, 35, 41, 0.25);
+  transition: transform 0.2s ease;
+}
+
+.subscribe-modal-close {
+  top: 0.75rem;
+  right: 1rem;
+  color: var(--doyy-muted);
+}
+
+.subscribe-modal-close:hover {
+  color: var(--doyy-ink);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .subscribe-modal-overlay,
+  .subscribe-modal-container {
+    transition: none;
+  }
+}

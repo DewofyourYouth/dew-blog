@@ -4,17 +4,18 @@
       <div class="content" id="content">
         <section class="home-hero">
           {{ with .Site.Params.home.profile.avatarUrl }}
-            <div class="home-logo-container">
-              <img
-                class="home-logo"
-                src="{{ . }}"
-                alt="Site Logo"
-                loading="lazy"
-              />
-            </div>
+            <img class="home-logo home-logo-light" src="{{ . }}" alt="" width="168" height="160" />
+            <img class="home-logo home-logo-dark" src="{{ "/images/logo-seal-gold.png" | relURL }}" alt="" width="160" height="165" />
           {{ end }}
           {{ with .Site.Params.home.profile.title }}
             <h1>{{ . }}</h1>
+          {{ end }}
+          <p class="home-verse">
+            <span lang="he" dir="rtl">טַל יַלְדֻתֶיךָ</span>
+            <span class="home-verse-source">Tehillim 110:3</span>
+          </p>
+          {{ with .Content }}
+            <div class="home-intro">{{ . }}</div>
           {{ end }}
 
           {{- if .Site.Params.home.profile.social -}}
@@ -64,100 +65,14 @@
               {{- end -}}
             </div>
           {{- end -}}
-
-
-          <div class="home-hero-line"></div>
-          {{ with .Site.Params.home.profile.subtitle }}
-            <p class="home-tagline">{{ . }}</p>
-          {{ end }}
-          {{ with .Site.Params.home.profile.description }}
-            <p class="home-subtitle">
-              <em>{{ . }}</em>
-            </p>
-          {{ end }}
         </section>
 
-        {{ with .Content }}
-          <section class="home-intro">
-            {{ . }}
-          </section>
-        {{ end }}
-
-
-        <hr class="home-divider-line" />
-        <div class="home-divider">
-          <h2>Categories</h2>
-        </div>
-
-        <section class="home-categories">
-          <div class="home-category-grid">
-            <a
-              class="home-card cat-learning-and-languages"
-              href="{{ "/categories/learning--languages/" | relURL }}"
-            >
-              <div class="home-card-body">
-                <h3>Learning &amp; Languages</h3>
-                <p>
-                  Language learning as obsession, memory systems, and pedagogy.
-                </p>
-              </div>
-              <div class="home-card-icon">
-                {{- with resources.Get "images/doy-category-icons/svg/doy-learning.svg" }}{{ .Content | safeHTML }}{{ end -}}
-              </div>
-            </a>
-            <a
-              class="home-card cat-tech-and-tools"
-              href="{{ "/categories/tech--tools/" | relURL }}"
-            >
-              <div class="home-card-body">
-                <h3>Tech &amp; Tools</h3>
-                <p>
-                  Obsidian, Hugo tweaks, DevOps rants, scripts that almost
-                  worked.
-                </p>
-              </div>
-              <div class="home-card-icon">
-                {{- with resources.Get "images/doy-category-icons/svg/doy-tech.svg" }}{{ .Content | safeHTML }}{{ end -}}
-              </div>
-            </a>
-            <a
-              class="home-card cat-faith-and-practice"
-              href="{{ "/categories/faith--practice/" | relURL }}"
-            >
-              <div class="home-card-body">
-                <h3>Faith &amp; Practice</h3>
-                <p>
-                  Jewish rituals, Torah journaling, spiritual processing, the
-                  Elul Logs.
-                </p>
-              </div>
-              <div class="home-card-icon">
-                {{- with resources.Get "images/doy-category-icons/svg/doy-faith.svg" }}{{ .Content | safeHTML }}{{ end -}}
-              </div>
-            </a>
-            <a
-              class="home-card cat-heritage-and-identity"
-              href="{{ "/categories/heritage--identity/" | relURL }}"
-            >
-              <div class="home-card-body">
-                <h3>Heritage &amp; Identity</h3>
-                <p>
-                  Genealogy deep-dives, travel stories, cultural identity
-                  unraveling.
-                </p>
-              </div>
-              <div class="home-card-icon">
-                {{- with resources.Get "images/doy-category-icons/svg/doy-heritage.svg" }}{{ .Content | safeHTML }}{{ end -}}
-              </div>
-            </a>
-          </div>
-        </section>
-        <hr class="home-divider-line-large" />
-        <section class="home-latest">
-          <div class="home-latest-main">
-            <h2>Most Recent Posts</h2>
+        <div class="home-body">
+          <section class="home-latest">
+            <h2>Recent posts</h2>
             {{ $posts := where .Site.RegularPages "Section" "posts" }}
-            {{ range first 5 $posts.ByDate.Reverse }}
+            {{ $reading_speed := site.Params.reading_speed | default 228 }}
+            {{ range $i, $p := first 5 $posts.ByDate.Reverse }}
               {{ $postUrl := .RelPermalink }}
               {{ $isExternal := false }}
               {{ with .Params.externalUrl }}
@@ -170,94 +85,107 @@
                 {{ $catTitle = (index . 0).Title }}
                 {{ $catURL = (index . 0).RelPermalink }}
               {{ end }}
-              <article class="home-post">
-                {{ $img := "" }}
-                {{ with .Params.featuredImage }}
-                  {{ $img = . }}
+              {{ $imgSrc := "" }}
+              {{ with .Params.featuredImage }}
+                {{ with $p.Resources.GetMatch . }}
+                  {{ if eq $i 0 }}
+                    {{ $imgSrc = (.Resize "1200x webp q85").RelPermalink }}
+                  {{ else }}
+                    {{ $imgSrc = (.Fill "400x210 webp q85").RelPermalink }}
+                  {{ end }}
+                {{ else }}
+                  {{ $imgSrc = . | relURL }}
                 {{ end }}
-                {{ with .Resources.GetMatch $img }}
+              {{ end }}
+              <article class="home-post{{ if eq $i 0 }} home-post-lead{{ end }}{{ with $catTitle }} cat-{{ . | urlize }}{{ end }}">
+                {{ with $imgSrc }}
                   <a
                     class="home-post-media"
                     href="{{ $postUrl }}"
+                    tabindex="-1"
+                    aria-hidden="true"
                     {{ if $isExternal }}
                       target="_blank" rel="noopener noreferrer"
                     {{ end }}
                   >
-                    <img
-                      src="{{ .RelPermalink }}"
-                      alt="{{ $.Title }}"
-                      loading="lazy"
-                    />
+                    <img src="{{ . }}" alt="" loading="lazy" />
                   </a>
-                {{ else }}
-                  {{ with $img }}
+                {{ end }}
+                <div class="home-post-text">
+                  {{ if $catTitle }}
+                    <a class="home-post-cat" href="{{ $catURL }}">{{ $catTitle }}</a>
+                  {{ end }}
+                  <h3 class="home-post-title" dir="auto">
                     <a
-                      class="home-post-media"
                       href="{{ $postUrl }}"
                       {{ if $isExternal }}
                         target="_blank" rel="noopener noreferrer"
                       {{ end }}
+                      >{{ .Title }}</a
                     >
-                      <img
-                        src="{{ . | relURL }}"
-                        alt="{{ $.Title }}"
-                        loading="lazy"
-                      />
-                    </a>
+                  </h3>
+                  {{ with .Summary }}
+                    <p class="home-post-summary" dir="auto">{{ . | plainify }}</p>
                   {{ end }}
-                {{ end }}
-                {{ if $catTitle }}
-                  <a
-                    class="home-post-cat cat-{{ $catTitle | urlize }}"
-                    href="{{ $catURL }}"
-                    >{{ $catTitle }}</a
-                  >
-                {{ end }}
-                <a
-                  class="home-post-title"
-                  href="{{ $postUrl }}"
-                  {{ if $isExternal }}
-                    target="_blank" rel="noopener noreferrer"
-                  {{ end }}
-                  >{{ .Title }}</a
-                >
-                <span class="home-post-date">
-                  {{- partial "plugin/fontawesome.html" (dict "Style" "regular" "Icon" "calendar-alt") -}}&nbsp;{{ .Date.Format "Jan 2, 2006" -}}
-                </span>
-                {{- if site.Params.page.enableReadingTime | default true -}}
-                  {{- $reading_speed := site.Params.reading_speed | default 228 -}}
-                  {{- $readingTime := int (math.Ceil (div (float .WordCount) $reading_speed)) -}}
-                  <span class="home-post-reading-time">
-                    {{- partial "plugin/fontawesome.html" (dict "Style" "regular" "Icon" "clock") -}}&nbsp;{{ T "readingTime" $readingTime -}}
-                  </span>
-                {{- end -}}
-                {{ with .Summary }}
-                  <p class="home-post-summary">{{ . | plainify }}</p>
-                {{ end }}
+                  <p class="home-post-meta">
+                    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+                    {{- if site.Params.page.enableReadingTime | default true -}}
+                      <span>{{ int (math.Ceil (div (float .WordCount) $reading_speed)) }} min read</span>
+                    {{- end -}}
+                  </p>
+                </div>
               </article>
             {{ end }}
-          </div>
-          <aside class="home-latest-aside">
-            <h2>About the Author</h2>
+            <a class="home-all-posts" href="{{ "/blog/" | relURL }}">All posts</a>
+          </section>
+
+          <aside class="home-aside">
+            <h2>About</h2>
             <div class="home-author">
               {{ with .Site.Params.author.avatarUrl }}
-                <img
-                  class="home-author-avatar"
-                  src="{{ . }}"
-                  alt="Jacob Shore"
-                  loading="lazy"
-                />
+                <img class="home-author-avatar" src="{{ . | relURL }}" alt="Jacob Shore" loading="lazy" />
               {{ end }}
-              <div class="home-author-copy">
-                {{ with .Site.Params.author.blurb }}
-                  <p>{{ . }}</p>
-                {{ end }}
-
-
-                <p><em>Let’s be confused together.</em></p>
-              </div>
+              {{ with .Site.Params.author.blurb }}
+                <p>{{ . }}</p>
+              {{ end }}
+              {{/* Shared gematria of the site name and the author's Hebrew name — see dew_cover_pipeline BRAND_GUIDE §1 */}}
+              <p class="home-gematria-note">
+                The blog's name, <bdi lang="he">טַל יַלְדֻתֶיךָ</bdi>, has the
+                same gematria as my Hebrew name,
+                <bdi lang="he">יַעֲקֹב אֶפְרַיִם</bdi>: 513.
+              </p>
+              <p><em>Let’s be confused together.</em></p>
             </div>
           </aside>
+        </div>
+
+        <section class="home-categories">
+          <h2>Categories</h2>
+          <div class="home-category-grid">
+            {{ $cats := slice
+              (dict "slug" "learning--languages" "name" "Learning & Languages" "icon" "learning" "blurb" "Language learning as obsession, memory systems, and pedagogy.")
+              (dict "slug" "faith--practice" "name" "Faith & Practice" "icon" "faith" "blurb" "Jewish rituals, Torah journaling, spiritual processing, the Elul Logs.")
+              (dict "slug" "heritage--identity" "name" "Heritage & Identity" "icon" "heritage" "blurb" "Genealogy deep-dives, travel stories, cultural identity unraveling.")
+              (dict "slug" "tech--tools" "name" "Tech & Tools" "icon" "tech" "blurb" "Obsidian, Hugo tweaks, DevOps rants, scripts that almost worked.")
+            }}
+            {{ range $cats }}
+              {{ $name := .name }}
+              {{ $count := 0 }}
+              {{ range site.Taxonomies.categories }}
+                {{ if eq .Page.Title $name }}{{ $count = .Count }}{{ end }}
+              {{ end }}
+              <a class="home-card cat-{{ .name | urlize }}" href="{{ printf "/categories/%s/" .slug | relURL }}">
+                <span class="home-card-icon" aria-hidden="true">
+                  {{- with resources.Get (printf "images/doy-category-icons/svg/doy-%s.svg" .icon) }}{{ .Content | safeHTML }}{{ end -}}
+                </span>
+                <span class="home-card-body">
+                  <span class="home-card-title">{{ .name }}</span>
+                  <span class="home-card-blurb">{{ .blurb }}</span>
+                  {{ with $count }}<span class="home-card-count">{{ . }} posts</span>{{ end }}
+                </span>
+              </a>
+            {{ end }}
+          </div>
         </section>
       </div>
     </div>

@@ -25,10 +25,6 @@ menu:
       name: Topics
       url: "/categories/"
       weight: 3
-    - identifier: dailyderja
-      name: Daily Derja
-      url: "https://dailyderja.com"
-      weight: 50
 outputs:
   home: ["HTML", "RSS", "JSON"]
 
@@ -52,6 +48,11 @@ params:
     link: "https://github.com/DewofyourYouth"
     avatarUrl: "images/profile-pic.jpeg"
     blurb: "Hi, I'm Jacob. I'm a language nerd, developer, and spiritual wanderer."
+
+  # Email signups (layouts/_partials/subscribe-card.html). Brevo form "doyy-subscribe",
+  # list "Dew of your Youth Readers", double opt-in -> /welcome/.
+  newsletter:
+    brevoAction: "https://6178fa53.sibforms.com/serve/MUIFAMNJdpAjCi1KP6umvWr89zrKVOw90BxarXBHyEEkhXLmA-McvPCx-po3pPB2b5OWkH_z2jCfW4HnWGyjKRvBRbKT_8iKTwDG_K6GiPmQ5T8KYxO3m6gcJJrWXLnryMN1hJTmXNvBK50mcRfy1bYVyK6W9MuNoqnppp6tZetcKOeyqgUqyHd9vOEzO8oxOHnJKXi7k1MhVJV9qA=="
 
   home:
     profile:

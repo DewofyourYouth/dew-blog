@@ -44,14 +44,14 @@ resources:
 
 ## Intro
 
-I want to dedicate some time to writing about my paternal grandmother’s grandfather, part of **Roberta (Green) Shore’s** family line. My grandmother recently turned 100 years old, though her condition is not good. While reviewing family records, I noticed that his _yahrzeit_ falls on the third night of Hanukkah. This past Hanukkah marked his 86th _yahrzeit_.
+I want to dedicate some time to writing about my paternal grandmother’s grandfather, part of **Roberta (Green) Shore’s** family line. My grandmother recently turned 100 years old, though her condition is not good. While reviewing family records, I noticed that his _{{< tooltip term="yahrzeit" key="yahrzeit" >}}_ falls on the third night of Hanukkah. This past Hanukkah marked his 86th _yahrzeit_.
 Despite several surname changes over the generations, my grandmother’s family early history is documented in a genealogical work titled [_The Propp Family History_](https://books.google.co.il/books/about/The_Propp_Family_History.html?id=QdiGrgEACAAJ&source=kp_book_description&redir_esc=y), by David-Hillel Ruben and Henry W. Propp. I do not own the book myself, but I have been able to consult portions of it thanks to the generosity of a distant relative (_name withheld_).
 
 Based on what I have seen in The Propp Family History, Myer Propp fled Shkudvil, Lithuania sometime in the nineteenth century, eventually settling in Sweden. Upon leaving Lithuania, he changed his name to Myer Greenberg. He is associated in later records with a wife, Rachel (Pikin). It is unclear whether they fled together as a married couple or whether Myer emigrated as a bachelor and married Rachel after settling in Sweden.
 
 ## Early Life
 
-It was there, in Sweden, that their son **Fredrick Philip (Fred) Greenberg** was born in August 1865. His exact birthdate is not consistent across sources. In sworn testimony given during his naturalization process, Fred stated that he was born on **17 August 1865**, while his tombstone records his birthdate as **10 August 1865**. His Hebrew name, _Shraga Feivel_, is preserved on the tombstone.
+It was there, in Sweden, that their son **Fredrick Philip (Fred) Greenberg** was born in August 1865. His exact birthdate is not consistent across sources. In sworn testimony given during his {{< tooltip term="naturalization" key="naturalization" >}} process, Fred stated that he was born on **17 August 1865**, while his tombstone records his birthdate as **10 August 1865**. His Hebrew name, _Shraga Feivel_, is preserved on the tombstone.
 
 In **1871**, Fred emigrated to the United States with his family, a date likewise supported by his sworn naturalization testimony. Depending on the exact date of arrival (only the year of arrival is recorded), he would have been five or six years old at the time. According to family memory, he retained the ability to speak Swedish later in life. His surname was shortened to **Green** at some point before his Naturalization Testimony, taken in **September of 1895**.
 

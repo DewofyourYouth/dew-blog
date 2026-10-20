@@ -105,7 +105,7 @@ Daniel 5 begins:
 >
 > He made a great feast.[^rashi]
 
-This part of Daniel is Aramaic, so we have brought a third language into the discussion. But the familiar word is there, and Rashi understands the phrase as a סעודה גדולה.
+This part of Daniel is in {{< tooltip term="Aramaic" def="A Northwest Semitic language on a sister branch to Hebrew; long contact also shaped Mishnaic Hebrew. Parts of Daniel and most of the Talmud are Aramaic." >}}. That is a help rather than a complication. If the question is what the shared ancestral word meant, every related Semitic language that uses it gives us another point to triangulate from. The familiar word is there, and Rashi understands the phrase as a סעודה גדולה.
 
 Does that mean לחם itself means a meal? Or is bread standing for the meal as a whole? We do something similar in English when we talk about “breaking bread” with someone.
 

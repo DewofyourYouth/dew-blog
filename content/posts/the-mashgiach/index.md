@@ -18,14 +18,14 @@ categories:
 draft: false
 ---
 
-After the devastating news of the passing of the Rosh Yeshiva זצ״ל, the news that the משגיח, Rabbi Mordechai Zelig Schechter זצ״ל has passed just a few short weeks later, is a lost that brings to mind the the verse in Yishaiah
+After the devastating news of the passing of the {{< tooltip term="Rosh Yeshiva" key="rosh-yeshiva" >}} זצ״ל, the news that the משגיח, Rabbi Mordechai Zelig Schechter זצ״ל has passed just a few short weeks later, is a lost that brings to mind the the verse in Yishaiah
 > על מה תכו עוד תוסיפו סרה כל ראש לחלי וכל לבב דוי\
 > Why do you seek further beatings, \
 > That you continue to offend? \
 > Every head is ailing, \
 > And every heart is sick.
 
-The Rosh Yeshiva, the one who sits at the head of the yeshiva, and the Mashgiach, the heart of the yeshiva, have been struck in such a short time. Oy! How far have we strayed to be stricken like this!?
+The Rosh Yeshiva, the one who sits at the head of the yeshiva, and the {{< tooltip term="Mashgiach" key="mashgiach" >}}, the heart of the yeshiva, have been struck in such a short time. Oy! How far have we strayed to be stricken like this!?
 
 Unfortunately, the passing of the משגיח זצ״ל didn’t come as a total surprise. He had a prolonged two year battle with cancer ר״ל.
 
@@ -45,7 +45,7 @@ At one point he was sick in bed with the flu for a week. When he came back he ca
 
 In my case, I've noticed much of what the Mashgiach said was specific to circumstances, but planted a seed. In these cases, I was able to absorb the actual message immediately, but the underlying perspectives that went into what was said had a prolonged effect over time. I used to try to go to the Mashgiach’s home for סעודה שלישית. That was the time when he would generally wax philosophically. I’m certain that many of my life insights were formed from those times.
 
-When his brother in law passed suddenly, the Mashgiach took some of his young children to raise in his home. He would walk every Shabbos to boro park to make kiddush for his widow and give attention to his other children. I remember that once, when I was engaged to be married, I needed to discuss something with him. He suggested that we talk on his walk to Boro Park that Shabbos. I remember besides whatever I had to discuss with him, we also covered various topics, like Kabbalistic disagreements between the Chassidim and the Perushim and the philosophy of Radiziner Chassidus (his brother in law was a scion of the Radziner Rebbe). It was a truly uplifting experience.
+When his brother in law passed suddenly, the Mashgiach took some of his young children to raise in his home. He would walk every {{< tooltip term="Shabbos" key="shabbos" >}} to boro park to make kiddush for his widow and give attention to his other children. I remember that once, when I was engaged to be married, I needed to discuss something with him. He suggested that we talk on his walk to Boro Park that Shabbos. I remember besides whatever I had to discuss with him, we also covered various topics, like {{< tooltip term="Kabbalistic" key="kabbalah" >}} disagreements between the Chassidim and the Perushim and the philosophy of Radiziner {{< tooltip term="Chassidus" key="chassidus" >}} (his brother in law was a scion of the Radziner {{< tooltip term="Rebbe" key="rebbe" >}}). It was a truly uplifting experience.
 
 Comments about the משגיח זצ״ל are welcomed below:
 

@@ -11,7 +11,7 @@ draft: false
 featuredImage: DSC_1772.JPG
 ---
 
-In Parshas Eikev it says:
+In {{< tooltip term="Parshas" key="parsha" >}} Eikev it says:
 > ואכלת ושבעת וברכת את ה׳ א-לוהיך על הארץ הטובה אשר נתן לך
 
 from here we learn the concept of ברכות הנהנין.
@@ -103,7 +103,7 @@ This would certainly make our גמרא and the רשב״ם in פסחים make sen
 
 There are many interesting ways to be מתרץ this. But I want to just share an interesting ב״ח in הלכות תפילין at the end of סימן כ״ט.
 
-The ב״ח says there's a חילוק between שהחיינו and all other ברכות - since שהחיינו is a ברכה made על שמחה שבלבו - on the joy in his heart - even if he is not absolutely obligated - he is not making a ברכה לבטלה if he feels joy and is giving blessing to Hashem who has given him life, sustained him, and allowed him to reach this special time!
+The ב״ח says there's a חילוק between שהחיינו and all other ברכות - since שהחיינו is a ברכה made על שמחה שבלבו - on the joy in his heart - even if he is not absolutely obligated - he is not making a ברכה לבטלה if he feels joy and is giving blessing to {{< tooltip term="Hashem" key="hashem" >}} who has given him life, sustained him, and allowed him to reach this special time!
 
 I certainly would like to give praise to thanks to Hashem for giving me life, sustaining me, and bringing me to this special time! I would like to thank each and everyone of you for coming to share this special time with me! Your being here has truly put JOY IN MY HEART!
 

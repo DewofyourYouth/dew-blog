@@ -17,7 +17,7 @@ description: "Returning to Elul logs in 5785 — one focused practice, a simple 
 
 ## Elul: Full Circle
 
-Today is **Rosh Chodesh Elul**, which also marks this blog’s anniversary. I first began writing here to make a public record of the changes I wanted to pursue for Elul 5783 (2023). With the sudden passing of the Rosh Yeshiva זצ״ל, the blog also became a place to process that loss, which naturally broadened its scope.
+Today is **Rosh Chodesh {{< tooltip term="Elul" key="elul" >}}**, which also marks this blog’s anniversary. I first began writing here to make a public record of the changes I wanted to pursue for Elul 5783 (2023). With the sudden passing of the {{< tooltip term="Rosh Yeshiva" key="rosh-yeshiva" >}} זצ״ל, the blog also became a place to process that loss, which naturally broadened its scope.
 Later, I wrote a [postmortem](https://www.jacob-shore.com/post/elul-5783-postmortem) reflecting specifically on how the Elul resolutions went. One conclusion I reached in that postmortem was simple: when it comes to change, **less is more**. If I were to do it again, I would focus on just one thing.
 
 ---
@@ -37,7 +37,7 @@ Another caveat is that for the first week I will allow done for a meditation tha
 
 ## The Inspiration
 
-The inspiration for this resolution came from the Rebbe _שליט״א_’s shiur in _בים דרכך_, where he explains that the essence of _teshuvah_ is returning to Hashem with joy. And when one returns in joy, Hashem receives him immediately with love. That framing—teshuvah as joy, not just as heaviness or regret—struck me deeply. Gratitude felt like the most direct way to put that into practice.
+The inspiration for this resolution came from the {{< tooltip term="Rebbe" key="rebbe" >}} _שליט״א_’s {{< tooltip term="shiur" key="shiur" >}} in _בים דרכך_, where he explains that the essence of _{{< tooltip term="teshuvah" key="teshuvah" >}}_ is returning to {{< tooltip term="Hashem" key="hashem" >}} with joy. And when one returns in joy, Hashem receives him immediately with love. That framing—teshuvah as joy, not just as heaviness or regret—struck me deeply. Gratitude felt like the most direct way to put that into practice.
 
 I plan to review this with the Rebbe and see if the resolution needs refinement, but for now the core feels clear.
 
@@ -45,7 +45,7 @@ I plan to review this with the Rebbe and see if the resolution needs refinement,
 
 ## Tracking the Practice
 
-To make this resolution concrete, I plan to **log my daily gratitude meditation in Obsidian** as part of my journaling workflow. This will serve as both a record and a reminder. Every two weeks, I’ll post an update here on the blog summarizing how the practice is going—what worked, what slipped, and what I’ve learned in the process.
+To make this resolution concrete, I plan to **log my daily gratitude meditation in {{< tooltip term="Obsidian" key="obsidian" >}}** as part of my journaling workflow. This will serve as both a record and a reminder. Every two weeks, I’ll post an update here on the blog summarizing how the practice is going—what worked, what slipped, and what I’ve learned in the process.
 
 ---
 

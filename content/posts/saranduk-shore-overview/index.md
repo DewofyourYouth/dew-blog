@@ -63,7 +63,7 @@ The manifest listed **Chaim Hersch Saranduk** (age 55), his wife **Sura** (age 5
 
 Matching Chaim Hersch Saranduk to **Hyman Shore** was the foundational link. The evidence was convergent from multiple independent sources:
 
-- The 1858 Talne census records a **Khaim Hersh Saranduk**, son of Avrum, aged 9 — placing his birth in ~1849, consistent with "age 55" on the 1904 manifest.
+- The 1858 {{< tooltip term="Talne" key="talne" >}} census records a **Khaim Hersh Saranduk**, son of Avrum, aged 9 — placing his birth in ~1849, consistent with "age 55" on the 1904 manifest.
 - His father is listed as **Avrum son of Khaim**, consistent with Hyman Shore's tombstone inscription *Chaim Tzvi ben Avraham*. ("Hersh" is the Yiddish form of Tzvi; his religious name was Chaim Tzvi.)
 - His son Shmarje's children on the manifest — **Pesi, Dovodleb, Wolke, Uscher, Yosi, Yankel** — match the known names of Sam and Tillie Shore's children.
 - His daughter **Rose** and son **Moses** on the Buffalo portion of the manifest match Morris Shore and Rose Shore Grossman, both buried at Lincoln Park Cemetery in Rhode Island.
@@ -187,7 +187,7 @@ He died April 30, 1944. Tillie died January 19, 1954 (Tu b'Shvat). Both are buri
 
 Philip and Netty emigrated from **Katerynopil**, arriving in New York on the **S.S. Majestic in 1926** — more than twenty years after the Hyman Shore branch. According to family oral history passed down by their granddaughter Nordine Ginsburg, they had two leather shops and the daughters had private tutors — unusual for girls at the time. When the Bolsheviks raided their town, the family fled with little more than the clothes on their backs, went first to France, and then Philip came to America ahead of the family to find work and housing before bringing them over.
 
-Philip and Netty's **naturalization papers** are one of the few places where the surname change from Saranduk to Shore is **made explicit in writing**. The birth record of their oldest daughter **Clara** (later Irene Shore Roth) in the Cherkassy Church Books names her father as *Pinkhas ben Moshe Yaakov Saranduk* — directly connecting the Katerynopil branch to the Ukrainian census records. Philip is buried at Lincoln Park Cemetery with the Hebrew inscription *ר׳ פינא ב״ר משה יעקב שאהר*, confirming the Moshe Yankel link.
+Philip and Netty's **{{< tooltip term="naturalization" key="naturalization" >}} papers** are one of the few places where the surname change from Saranduk to Shore is **made explicit in writing**. The birth record of their oldest daughter **Clara** (later Irene Shore Roth) in the Cherkassy Church Books names her father as *Pinkhas ben Moshe Yaakov Saranduk* — directly connecting the Katerynopil branch to the Ukrainian census records. Philip is buried at Lincoln Park Cemetery with the Hebrew inscription *ר׳ פינא ב״ר משה יעקב שאהר*, confirming the Moshe Yankel link.
 
 ---
 

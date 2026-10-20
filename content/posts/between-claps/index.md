@@ -68,7 +68,7 @@ The interval, *ma* (間), gives an experience room to develop. The field, *ba* (
 
 ## What Rav Schechter taught me
 
-I learned several passages in Rav Hutner’s *Pachad Yitzchak* with our Rosh Yeshiva, Rav Aharon Schechter. What I remember clearly is the understanding he impressed upon me: the letters are the building blocks of existence.
+I learned several passages in Rav Hutner’s *Pachad Yitzchak* with our {{< tooltip term="Rosh Yeshiva" key="rosh-yeshiva" >}}, Rav Aharon Schechter. What I remember clearly is the understanding he impressed upon me: the letters are the building blocks of existence.
 
 {{< admonition type="warning" title="Note on sources" open=true >}}
 I don’t have the books of Pachad Yitzchak in front of me, and I am writing from memories of those conversations. I remember some of this learning from the Shavuot and Passover material, connected with the teaching that Torah was given to those who ate the manna. Some details may belong to different passages; some connections may be my own. I believe much of this is based on Rav Hutner’s *Pachad Yitzchak*, but if anything is off, assume the mistake lies with me.
@@ -102,7 +102,7 @@ We often describe truth in the language of sight. We “see the point.” An exp
 
 There is real power in that. There is also a temptation to believe that once we have seen something, the work of understanding it is finished.
 
-The Gemara gives a striking example (*Rosh Hashanah* 26a). In explaining Rabbi Akiva’s rule that a witness cannot become a judge, it says that in capital cases the court is commanded to search for grounds to acquit (“*v’shaftu ha-edah… v’hitzilu ha-edah*,” ושפטו העדה והצילו העדה), but judges who have themselves seen the killing are unable to find them: *“v’cheivan d’chazyuhu d’katal nafsha lo matzu chazu leih zechusa”* (וכיון דחזיוהו דקטל נפשא לא מצו חזו ליה זכותא). The impression of what they saw can become so forceful that it crowds out the deliberation still required of them.
+The {{< tooltip term="Gemara" key="gemara" >}} gives a striking example (*Rosh Hashanah* 26a). In explaining Rabbi Akiva’s rule that a witness cannot become a judge, it says that in capital cases the court is commanded to search for grounds to acquit (“*v’shaftu ha-edah… v’hitzilu ha-edah*,” ושפטו העדה והצילו העדה), but judges who have themselves seen the killing are unable to find them: *“v’cheivan d’chazyuhu d’katal nafsha lo matzu chazu leih zechusa”* (וכיון דחזיוהו דקטל נפשא לא מצו חזו ליה זכותא). The impression of what they saw can become so forceful that it crowds out the deliberation still required of them.
 
 “I saw it myself” can close a conversation.
 
@@ -110,7 +110,7 @@ Hearing has a different character. A sentence takes time. Someone else has to fi
 
 To hear someone, you have to be quiet enough to hold their voice.
 
-That helps me understand why *shemi’ah* (שמיעה) occupies such an important place in Torah. *Shema* (שמע) asks something of the person being addressed. We have to receive what comes to us before we can respond.
+That helps me understand why *shemi’ah* (שמיעה) occupies such an important place in Torah. *{{< tooltip term="Shema" key="shema" >}}* (שמע) asks something of the person being addressed. We have to receive what comes to us before we can respond.
 
 ## Seeing the sounds
 
@@ -120,7 +120,7 @@ At Sinai, the Torah brings these two senses together in an extraordinary phrase:
 
 All the people saw the sounds.
 
-Chazal describe the people’s souls departing with each divine utterance. The encounter was more than they could bear.
+{{< tooltip term="Chazal" key="chazal" >}} describe the people’s souls departing with each divine utterance. The encounter was more than they could bear.
 
 I find myself thinking about this through the distinction between seeing and hearing. What happens when speech reaches someone with the immediacy and force we associate with sight? When there is no distance in which to consider it, no interval in which to gather oneself?
 
@@ -200,7 +200,7 @@ In the familiar Ashkenazi scribal form of *peh* (פ), the white space inside the
 
 The mouth contains a house.
 
-And *bet* (ב) is also the opening letter of *Bereshit* (בראשית). The Midrash asks why the world was created with this letter. Creation begins with a *bet* (ב); the letter of speech contains a *bet* (ב) within it.
+And *bet* (ב) is also the opening letter of *Bereshit* (בראשית). The {{< tooltip term="Midrash" key="midrash" >}} asks why the world was created with this letter. Creation begins with a *bet* (ב); the letter of speech contains a *bet* (ב) within it.
 
 Through what Rav Schechter taught me, the space within the letter deserves attention too. The white parchment and the black ink together make it readable.
 

@@ -1,10 +1,16 @@
-{{- /* Inline definition for a specialized term: {{< tooltip term="Ramban" def="..." >}}
-     The term renders in place with a dotted underline; the definition opens on
-     hover, keyboard focus or tap (behaviour in assets/js/site.js, styles in
+{{- /* Inline definition for a specialized term: {{< tooltip term="the Ramban" key="ramban" >}}
+     `term` is the text shown in place; the definition comes from `def` if given,
+     otherwise from data/glossary.yaml under `key` (default: the term, anchorized).
+     The term renders with a dotted underline and the definition opens on hover,
+     keyboard focus or tap (behaviour in assets/js/site.js, styles in
      _tooltip.scss). Output stays on one line so it can sit mid-paragraph.
      Full entries live on /glossary/. */ -}}
 {{- $term := .Get "term" -}}
-{{- $def := .Get "def" -}}
+{{- $key := .Get "key" | default (anchorize $term) -}}
+{{- $def := .Get "def" | default (index (hugo.Data.glossary | default dict) $key) -}}
+{{- if not $def -}}
+  {{- errorf "tooltip: no definition for %q (key %q) in %s" $term $key .Position -}}
+{{- end -}}
 {{- $id := printf "gloss-%s-%d" (anchorize $term) .Ordinal -}}
 <span class="gloss"><button type="button" class="gloss-term" aria-describedby="{{ $id }}" aria-expanded="false"><bdi>{{ $term }}</bdi></button><span class="gloss-def" role="tooltip" id="{{ $id }}">{{ $def | markdownify }}</span></span>
 {{- /* trailing newline trimmed */ -}}

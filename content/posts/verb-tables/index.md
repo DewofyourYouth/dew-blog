@@ -19,9 +19,9 @@ description: "Tunisian Arabic verb tables for eat, feed, teach, and learn — in
 
 Update 1:  I went over all the verbs with a native speaker and made corrections. Added audio recordings for **some** verbs.
 
-_**NOTE**: I make recordings with Obsidian notes - some of the recordings cut out in the middle._
+_**NOTE**: I make recordings with {{< tooltip term="Obsidian" key="obsidian" >}} notes - some of the recordings cut out in the middle._
 
-I will later make a post with cloze lists to test yourself.
+I will later make a post with {{< tooltip term="cloze" key="cloze" >}} lists to test yourself.
 
 | Base Verb (intransitive) | Meaning       | Causative Form      | Meaning                | Audio Recording                                                            |
 | ------------------------ | ------------- | ------------------- | ---------------------- | -------------------------------------------------------------------------- |

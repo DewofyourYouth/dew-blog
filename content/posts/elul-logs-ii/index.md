@@ -12,7 +12,7 @@ draft: false
 
 ## Friday, September 1st
 
-I went to sleep late last night. I wasted time when waking up. I’m baruch Hashem davening with a minyan generally 3x a day. I did have time to learn some mussar before davening.
+I went to sleep late last night. I wasted time when waking up. I’m baruch {{< tooltip term="Hashem" key="hashem" >}} {{< tooltip term="davening" key="davening" >}} with a minyan generally 3x a day. I did have time to learn some {{< tooltip term="mussar" key="mussar" >}} before davening.
 ## Sunday, September 3rd
 
 ### Morning
@@ -46,7 +46,7 @@ My son is leining at school tomorrow morning. I had to help him. I ended up goin
 
 ## Monday, September 4th
 
-Today I woke up and woke up Eliyahu to practice his leining before shul. I went to the 6:40 minyan at KSY. It's a much farther walk than Zichron Moshe, but the pace is somewhat better.
+Today I woke up and woke up Eliyahu to practice his leining before {{< tooltip term="shul" key="shul" >}}. I went to the 6:40 minyan at KSY. It's a much farther walk than Zichron Moshe, but the pace is somewhat better.
 
 I'm going to WFH today, and I think also on Thursday. Better to be in a _shul_ for _krias hatorah_.
 

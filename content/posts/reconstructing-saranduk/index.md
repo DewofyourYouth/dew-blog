@@ -51,7 +51,7 @@ Other name oddities popped up too. Tuba bat Avrum Yudel is listed in one census 
 
 I don’t use fancy genealogy software. I use:
 
-- **Obsidian** for linking data points and contradictory reports. I keep my notes in **Markdown**.
+- **{{< tooltip term="Obsidian" key="obsidian" >}}** for linking data points and contradictory reports. I keep my notes in **{{< tooltip term="Markdown" key="markdown" >}}**.
 - **CSV spreadsheets** for tracking relationships, aliases, and source confidence
 - **Python Jupyter Notebooks** in **Google Drive** for checking the data with **Pandas** and other tools. (As well as parsing raw data files from Aunt Ruth's Genealogy software database.)
 - **My blog**, as a central place to present raw findings, theories, and family context
@@ -60,9 +60,9 @@ I update posts rather than rewrite them—if I got something wrong last year, I 
 
 ## Dealing with Conflicting Testimonies
 
-Over the course of this project, I came across a number of claims about our family’s lineage—some relating to tribal status, others to famous figures in Jewish history. One tradition held that we were Levites, based on a remark passed down from a relative referred to as “Uncle Bill.” A rabbi in Boston reportedly ruled the statement could be relied upon as *מסיח לפי תומו*. I explored the claim further and consulted Rabbi Nachum Eisenstein in Jerusalem, who advised against treating our family as Levites from a halachic standpoint.
+Over the course of this project, I came across a number of claims about our family’s lineage—some relating to tribal status, others to famous figures in Jewish history. One tradition held that we were Levites, based on a remark passed down from a relative referred to as “Uncle Bill.” A rabbi in Boston reportedly ruled the statement could be relied upon as *מסיח לפי תומו*. I explored the claim further and consulted Rabbi Nachum Eisenstein in Jerusalem, who advised against treating our family as Levites from a {{< tooltip term="halachic" key="halacha" >}} standpoint.
 
-Beyond the halacha, I looked for corroborating evidence: our family names are listed throughout Bnei Yaakov Synagogue in Providence, but none include “הלוי.” The same is true for the gravestones. I also couldn't find any corroborating evidence consistent with us being Levites. My father told me that he heard from his grandfather (Asher Shore - also born in Talne) that we are related to the Illui of Poltava — Rabbi Yoel Shurin — a figure of note but not a Levi. That line of inquiry has so far gone cold.
+Beyond the halacha, I looked for corroborating evidence: our family names are listed throughout Bnei Yaakov Synagogue in Providence, but none include “הלוי.” The same is true for the gravestones. I also couldn't find any corroborating evidence consistent with us being Levites. My father told me that he heard from his grandfather (Asher Shore - also born in {{< tooltip term="Talne" key="talne" >}}) that we are related to the Illui of Poltava — Rabbi Yoel Shurin — a figure of note but not a Levi. That line of inquiry has so far gone cold.
 
 Other family stories include various colorful tales that seem more legendary than literal. I try not to dismiss any of it outright — but I do separate what’s verifiable from what’s cherished lore. When I add commentary, it’s to signal which parts are evidence-based and which are best held loosely.
 

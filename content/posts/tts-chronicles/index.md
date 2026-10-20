@@ -24,7 +24,7 @@ seo:
     - "tts-post.jpg"
 ---
 
-How does one order coffee in Levantine Arabic? It turns out the answer is not as simple as it seems. This is the story about how I made Arabic audio work in [Haki](https://haki-game.com), the challenges I faced, and why it is still not perfect.
+How does one order coffee in {{< tooltip term="Levantine" key="levantine" >}} Arabic? It turns out the answer is not as simple as it seems. This is the story about how I made Arabic audio work in [Haki](https://haki-game.com), the challenges I faced, and why it is still not perfect.
 
 When I first added pronunciation audio to Haki, I did the obvious thing:
 
@@ -38,7 +38,7 @@ It was not a small feature.
 
 ## The First Version
 
-The initial version of Haki was a fairly simple React SRS flashcard app for Levantine Arabic. The audio hook already handled sound effects: an ascending tone for correct answers, a buzz for wrong answers. Pronunciation seemed like the next obvious thing to add.
+The initial version of Haki was a fairly simple React {{< tooltip term="SRS" key="spaced-repetition" >}} flashcard app for Levantine Arabic. The audio hook already handled sound effects: an ascending tone for correct answers, a buzz for wrong answers. Pronunciation seemed like the next obvious thing to add.
 
 The first version was basically this:
 

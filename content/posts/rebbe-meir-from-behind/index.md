@@ -21,14 +21,14 @@ draft: false
 
 [Eruvin 13b - translation from Sefaria](https://www.sefaria.org/Eruvin.13b.5)
 
-This is the third post in a series of posts about my Rosh Yeshiva, Rabbi Aaron Schechter זצ״ל. Each one of these posts is written in tears. This post was going to be the fourth post. There was another post I had started writing called “The Angels Have Defeated The Sages”, about the suffering and challenges the Rosh Yeshiva זצ״ל overcame without ever compromising his learning and _avodas Hashem_. However, writing about the Rosh Yeshiva’s _yissurim_ was too painful for me at this point; the pain of his passing is too fresh. I have therefore decided to write about some my impressions of the Torah of the Rosh Yeshiva זצ״ל, as the edicts of Hashem are straight, they gladden the heart.
+This is the third post in a series of posts about my {{< tooltip term="Rosh Yeshiva" key="rosh-yeshiva" >}}, Rabbi Aaron Schechter זצ״ל. Each one of these posts is written in tears. This post was going to be the fourth post. There was another post I had started writing called “The Angels Have Defeated The Sages”, about the suffering and challenges the Rosh Yeshiva זצ״ל overcame without ever compromising his learning and _avodas Hashem_. However, writing about the Rosh Yeshiva’s _yissurim_ was too painful for me at this point; the pain of his passing is too fresh. I have therefore decided to write about some my impressions of the Torah of the Rosh Yeshiva זצ״ל, as the edicts of {{< tooltip term="Hashem" key="hashem" >}} are straight, they gladden the heart.
 
 While I usually preface what I’m writing with a disclaimer that these are just my personal memories and impressions of the Rosh Yeshiva זצ״ל, in this matter it would be silly for me to do so. I’m not so delusional as to believe that anyone would think that I, little Yankel Shore, came to understand even a drop out of the broad oceans that were the Torah, or even the approach _to_ Torah, of a giant like the Rosh Yeshiva זצ״ל. Everyone is already aware that all they can hope to hear from me are nothing more than the table scraps that fell from the Royal banquet! As such I will just apologize for my brazenness to even have the gall to talk about this matter. I hope the reader will forgive me on account of my grief.
 
 ## The Simple Reading vs. The Reductionist Reading
 
 The Rosh Yeshiva זצ״ל would often emphasize the importance of understanding what the “pushite (simple / straightforward) pshat” was. But he would also emphasize that understanding the simple pshat, required making the effort to appreciate the proper context and the spirit in which something was said in.
-To give a simple example, in Parshas Balak, at the Shabbos table in Camp Morris, we learnt the following _passuk_ (Numbers 23:9).
+To give a simple example, in {{< tooltip term="Parshas" key="parsha" >}} Balak, at the {{< tooltip term="Shabbos" key="shabbos" >}} table in Camp Morris, we learnt the following _passuk_ (Numbers 23:9).
 
 > As I see them from the mountain tops, \
 > Gaze on them from the heights, \
@@ -39,9 +39,9 @@ The general context here is that Bilaam is hired by Balak to curse the children 
 
 The phrase “I see them from the mountain tops” is ambiguous both in English and in _Loshon_ _Kodesh_. It could mean either, I see those who are on the mountain top, or I, who am on the mountain top, see them.
 
-Rashi, in explaining this _passuk_, brings the Medrash Tanchuma that says that “the mountain tops” refers to the great Patriarchs and Matriarchs who laid the foundation of the children of Israel. This implies that it is the children of Israel that are on the mountain top.
+{{< tooltip term="Rashi" key="rashi" >}}, in explaining this _passuk_, brings the Medrash Tanchuma that says that “the mountain tops” refers to the great Patriarchs and Matriarchs who laid the foundation of the children of Israel. This implies that it is the children of Israel that are on the mountain top.
 
-The Ramban, on the other hand, explains that Bilaam is referring to the fact that _he_ is viewing them from a mountain top.
+The {{< tooltip term="Ramban" key="ramban" >}}, on the other hand, explains that Bilaam is referring to the fact that _he_ is viewing them from a mountain top.
 
 As the Ramban points out, the fact that Bilaam is looking down on the Jews from a mountain top is not controversial. The last _passuk_ in the previous _Perek_ says so explicitly.
 
@@ -62,7 +62,7 @@ For one summer, I had the opportunity to learn second seder with the Rosh Yeshiv
 
 Once, an _avreich_ came to get a _haskama_ on a book of diagrams he made for teaching children. I believe it was on the Tabernacle and the clothes of the Cohanim, but I don’t remember for sure.
 
-The Rosh Yeshiva looked at the sefer for a few moments, admired the artwork and accuracy of the diagrams. He then apologized to the author and said that he had no doubt he would get _haskomos_ from great Rabbonim, but that he could not give one. I don’t remember if the Rosh Yeshiva volunteered the reason, or gave it after being asked, but it came out that he was not keen on this kind of educational material in principle. He explained that a rebbe’s job is to help the _talmidim_ learn the _passuk_ or a _mishna_ and create an image in their mind’s eye from the source material and the _mefarshim_. It’s not to show them a ready made picture that they can retrofit into the source material.
+The Rosh Yeshiva looked at the {{< tooltip term="sefer" key="sefer" >}} for a few moments, admired the artwork and accuracy of the diagrams. He then apologized to the author and said that he had no doubt he would get _haskomos_ from great Rabbonim, but that he could not give one. I don’t remember if the Rosh Yeshiva volunteered the reason, or gave it after being asked, but it came out that he was not keen on this kind of educational material in principle. He explained that a rebbe’s job is to help the _talmidim_ learn the _passuk_ or a _mishna_ and create an image in their mind’s eye from the source material and the _mefarshim_. It’s not to show them a ready made picture that they can retrofit into the source material.
 
 Fortunate are the eyes that merited to gaze upon the Rosh Yeshiva זצ״ל. Even if only from behind.
 

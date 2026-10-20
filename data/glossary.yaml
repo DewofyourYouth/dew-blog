@@ -1,0 +1,67 @@
+# Short definitions for {{< tooltip >}} (layouts/shortcodes/tooltip.html), keyed by
+# anchorized term. Keep each under ~20 words so hover cards stay readable on phones.
+# Longer entries live on /glossary/ (content/page/glossary/index.md).
+
+# Commentators and texts
+rashi: "Rabbi Shlomo Yitzchaki (1040–1105) of Troyes, whose line-by-line commentary on Tanach and Talmud is the standard starting point."
+ramban: "Rabbi Moshe ben Nachman (Nachmanides, 1194–1270), Catalan Torah commentator, Talmudist and kabbalist."
+chazal: "The Sages of the Mishnah and Talmud; an acronym for “our Sages, of blessed memory.”"
+rebbe-yehuda-hanasi: "Rabbi Yehudah HaNasi, editor of the Mishnah, referred to in the Talmud simply as “Rebbe.”"
+tanach: "The Hebrew Bible: an acronym of Torah, Nevi'im (Prophets) and Ketuvim (Writings)."
+chumash: "The Five Books of Moses in printed form, usually with commentaries."
+parsha: "The weekly Torah portion read in synagogue; *Parshas* Eikev is the portion called Eikev."
+talmud: "The Mishnah with the Gemara's discussion of it: the central text of rabbinic law and thought, mostly in Aramaic."
+gemara: "The rabbis' extended discussion of the Mishnah; together the two make up the Talmud."
+midrash: "Rabbinic interpretation of Scripture through exposition, narrative and parable; also the books that collect it."
+shema: "The declaration “Hear, O Israel” (Deuteronomy 6:4–9), recited every morning and evening."
+zohar: "The central work of Kabbalah, a mystical commentary on the Torah that surfaced in 13th-century Spain."
+sefer: "A book of Torah literature; literally “book.”"
+teshuva-responsum: "A responsum: a rabbi's written answer to a question of Jewish law."
+
+# Practice and community
+hashem: "Literally “the Name”: a reverent way of referring to God."
+halacha: "Relating to halacha, Jewish law as derived from the Written and Oral Torah."
+kabbalah: "Kabbalah: the Jewish mystical tradition, whose central text is the Zohar."
+chassidus: "Hasidism: the pietist movement founded in 18th-century Ukraine by the Baal Shem Tov, organized around rebbes."
+hasidic: "Belonging to Hasidism, the pietist movement founded in 18th-century Ukraine and organized around rebbes."
+rebbe: "The leader of a Hasidic community; also what a student calls his own Torah teacher."
+shabbos: "The Sabbath, from Friday sunset to Saturday nightfall."
+davening: "Yiddish for praying, especially the set daily prayers."
+shul: "Yiddish for synagogue."
+tefillin: "Leather boxes holding Torah passages, worn on the arm and head during weekday morning prayers."
+mussar: "Jewish ethical literature, and the practice of deliberately working on one's character."
+teshuvah: "Repentance; literally “return.”"
+elul: "The month before Rosh Hashanah, set aside for introspection and repentance."
+yahrzeit: "The anniversary of a death, kept on its Hebrew calendar date."
+aliyah-neshama: "“May his soul have an aliyah”: a prayer that the soul of the departed rise higher."
+yeshiva: "An academy for advanced Torah and Talmud study."
+rosh-yeshiva: "The head of a yeshiva and its senior Talmud lecturer."
+mashgiach: "The yeshiva's spiritual supervisor, responsible for the students' character and growth in mussar."
+kollel: "A Talmud academy for married men, usually with a stipend."
+shiur: "A Torah lecture or class."
+chavrusa: "A study partner; Talmud is traditionally learned in pairs."
+
+# Languages
+aramaic: "A Northwest Semitic language on a sister branch to Hebrew; long contact also shaped Mishnaic Hebrew. Parts of Daniel and most of the Talmud are Aramaic."
+ladino: "Judeo-Spanish: the language of Sephardi Jews descended from those expelled from Spain, traditionally written in Hebrew script."
+yishuv: "The Jewish community in the Land of Israel before the founding of the state in 1948."
+levantine: "The spoken Arabic dialects of Syria, Lebanon, Jordan and Israel, including Judea and Samaria, also called Shami."
+darija: "Spoken Moroccan Arabic, distinct from Modern Standard Arabic."
+derja: "Spoken Tunisian Arabic, distinct from Modern Standard Arabic."
+msa: "Modern Standard Arabic: the formal Arabic of writing, news and speeches, shared across the Arab world but nobody's native dialect."
+judeo-arabic: "Arabic as spoken and written by Jewish communities in the Middle East and North Africa, traditionally in Hebrew script."
+
+# History and genealogy
+talne: "A town in central Ukraine, home of the Shore and Saranduk families and seat of the Talne Hasidic dynasty."
+djerba: "An island off southern Tunisia, home to one of the oldest continuous Jewish communities in North Africa."
+pale-of-settlement: "The western region of the Russian Empire where Jews were, with few exceptions, required to live (1791–1917)."
+shtetl: "A small Eastern European market town with a large Jewish population."
+naturalization: "The legal process by which an immigrant becomes a citizen; its paperwork often records birth dates and hometowns."
+ellis-island: "New York's main immigration station (1892–1954), whose ship manifests are a core genealogy source."
+
+# Tools
+obsidian: "A note-taking app that keeps notes as plain Markdown files on your own device."
+markdown: "A plain-text format that uses simple marks such as `#` and `*` for headings and emphasis."
+anki: "A free flashcard app that schedules reviews by spaced repetition."
+spaced-repetition: "Reviewing material at gradually increasing intervals, timed for just before you would forget it."
+cloze: "A fill-in-the-blank exercise: a word is hidden from a sentence and you supply it."

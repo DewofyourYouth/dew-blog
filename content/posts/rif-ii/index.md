@@ -22,7 +22,7 @@ featuredImage: speech-bubble.jpg
 1. The reason the משנה using the wording לאור י״ד instead of ליל י״ד is to teach us to use positive phrasing. לישנא מעליא נקט
 2. Rabbi Yehoshua ben Levi said: One should never express a crude matter... לעולם אל יוציא אדם דבר מגונה מפיו
 3. Rabbi Yishmael said: A person should always speak euphemistically... לעולם יספר אדם בלשון נקיה
-4. Two students were sitting in front of Rebbe - one asked "why is it that we harvest a vineyard in a state of purity but we harvest olives in a state of impurity?" the other asked "why is that we harvest a vineyard in a state of purity, but we don't harvest olives in a state of purity?". Rebbe said: "I am certain on this one will issue halachic rulings in Israel."
+4. Two students were sitting in front of {{< tooltip term="Rebbe" key="rebbe-yehuda-hanasi" >}} - one asked "why is it that we harvest a vineyard in a state of purity but we harvest olives in a state of impurity?" the other asked "why is that we harvest a vineyard in a state of purity, but we don't harvest olives in a state of purity?". Rebbe said: "I am certain on this one will issue {{< tooltip term="halachic" key="halacha" >}} rulings in Israel."
 
 ### Ran
 

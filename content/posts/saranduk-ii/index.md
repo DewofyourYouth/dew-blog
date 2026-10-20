@@ -67,7 +67,7 @@ Gershko, Mordko's son, was supposedly 6 in 1818 and 23 in 1836. This is also con
 
 But assuming that the data in these Russian census data are infallible seems dubious to me. Also, it doesn't work for everyone. I can't justify the 2 year difference in Basya / Rasya (I'm assuming really Basya?).
 
-In the last post on the Saranduks, I referenced a 1858 census from Talne - I've copied the table here:
+In the last post on the Saranduks, I referenced a 1858 census from {{< tooltip term="Talne" key="talne" >}} - I've copied the table here:
 
 **Location**: Talnoye, Uman, Kyiv \
 **Surname**: Saranduk \

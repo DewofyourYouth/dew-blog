@@ -20,9 +20,9 @@ summary: "A story about Shmariahu (Sam) Shore, his father, and a spear kept for 
 description: "Marking Sam Shore's 82nd yahrzeit — a story about Shmariahu Shore, a spear kept for self-defense in the Pale of Settlement, and his emigration from Talne."
 ---
 
-Tonight, the 7th of Iyar, is the 82nd yahrtzeit of Shmariahu (Sam) Shore — my great-great
-grandfather, born in Talne, Ukraine in 1868, died in Providence, Rhode Island on April 30,
-1944. May his neshama have an aliyah.
+Tonight, the 7th of Iyar, is the 82nd {{< tooltip term="yahrtzeit" key="yahrzeit" >}} of Shmariahu (Sam) Shore — my great-great
+grandfather, born in {{< tooltip term="Talne" key="talne" >}}, Ukraine in 1868, died in Providence, Rhode Island on April 30,
+1944. May his neshama have an {{< tooltip term="aliyah" key="aliyah-neshama" >}}.
 
 Two years ago, I wrote a fuller account of his life for his [80th yahrtzeit](/post/the-80th-yahrtzeit-of-shmariahu-shore/) — his role as the first
 president of Sons of Jacob Synagogue, his founding of the Hebrew Free Loan Society and
@@ -53,7 +53,7 @@ defense — and said:
 
 I find this story striking for a few reasons.
 
-The first is what it tells us about the conditions of Jewish life in the Pale of Settlement at the
+The first is what it tells us about the conditions of Jewish life in the {{< tooltip term="Pale of Settlement" key="pale-of-settlement" >}} at the
 turn of the century. A spear kept in a closet for self-defense is not a metaphor. Talne, in the
 Cherkassy region of Ukraine, was not a peaceful place for Jews in the 1890s and early
 1900s. Between 1903 and 1906 alone, approximately 660 pogroms were recorded across

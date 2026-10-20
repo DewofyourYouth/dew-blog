@@ -104,13 +104,13 @@ Shmari and Asher were very similar. His mother-in-law died on the boat trip to t
 
 > _**Jacob note** - In another part of Shmarya’s notes it says that they received a note that they got the body and it was sent to Israel._
 
-Shmari's house was religious and he put on tefillin. He gave a religious education to his children. The bar mitzvah of Shmari took place when they were selling shmattes—they just went in to the synagogue, finished and went back.
+Shmari's house was religious and he put on {{< tooltip term="tefillin" key="tefillin" >}}. He gave a religious education to his children. The bar mitzvah of Shmari took place when they were selling shmattes—they just went in to the synagogue, finished and went back.
 
 > **_Jacob note_** - Shmari’s bar mitzva was in Talne presumably. My father confirms that he's heard this story about his grandfather, Asher Shore (Shmarya's son).
 
 Shmari began a "Hebrew Free Sheltering" center in Providence. People could sleep there for free and it still exists today. (25 S. Court Street)
 
-In Shmari's home they observed Shabbat. Asher studied until 8th grade in school.
+In Shmari's home they observed {{< tooltip term="Shabbat" key="shabbos" >}}. Asher studied until 8th grade in school.
 
 Shmari bought a grocery store from William Fishbein and remodeled it.
 
@@ -145,7 +145,7 @@ He greeted everything _everyone_ with joy and laughter.
 
 In the store he would kiss his sons.
 
-_Weird story about the Tolna Rebbe who came to visit Shmari, something about him explaining to him what Santa Claus is._
+_Weird story about the Tolna {{< tooltip term="Rebbe" key="rebbe" >}} who came to visit Shmari, something about him explaining to him what Santa Claus is._
 
 #### My Notes:
 
@@ -153,7 +153,7 @@ Seems a lot of Shmarya's notes are based on the testimonies of Barrie Shore My f
 
 My father grew up around his grandfather, Samuel Oscar Shore, regarding his great grandfather, Sam Shore, he told me: “I heard a lot of nonsense stories (about Sam Shore) that my grandfather (Samuel Oscar Shore) dismissed.”
 
-Record of _Shmarya_ and _Taube_’s wedding in Talne from the community ledger in Cherkassy: ![Record of wedding](ShmaryaToiyba.png) ![Hebrew close up](ShmaryaToibaHeb.png)
+Record of _Shmarya_ and _Taube_’s wedding in {{< tooltip term="Talne" key="talne" >}} from the community ledger in Cherkassy: ![Record of wedding](ShmaryaToiyba.png) ![Hebrew close up](ShmaryaToibaHeb.png)
 
 
 

@@ -13,9 +13,9 @@ description: A source-driven reconstruction of Avrum Saranduk’s line — traci
 ---
 
 
-Avrum Saranduk stands as a pivotal ancestral figure in the genealogical records of the Shore–Saranduk family, particularly the Avrum who resided in Talne (Talnoye), now Ukraine. His repeated appearance across multiple Revision Lists provides critical data for reconstructing the family line. At the same time, distinguishing him from other individuals named Avrum in earlier records raises several open questions.
+Avrum Saranduk stands as a pivotal ancestral figure in the genealogical records of the Shore–Saranduk family, particularly the Avrum who resided in {{< tooltip term="Talne" key="talne" >}} (Talnoye), now Ukraine. His repeated appearance across multiple Revision Lists provides critical data for reconstructing the family line. At the same time, distinguishing him from other individuals named Avrum in earlier records raises several open questions.
 
-As far as is known, no oral memories of him have been passed down. There is no preserved yahrzeit and no personal traditions connected to him, other than his identification as the father of Hyman (Chaim Hersh) Shore and Moshe Yankel Saranduk.
+As far as is known, no oral memories of him have been passed down. There is no preserved {{< tooltip term="yahrzeit" key="yahrzeit" >}} and no personal traditions connected to him, other than his identification as the father of Hyman (Chaim Hersh) Shore and Moshe Yankel Saranduk.
 
 ---
 

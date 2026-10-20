@@ -18,10 +18,10 @@ description: "How Kabbalah became woven into normative Judaism despite disputed 
 
 ## What This Essay Is Not About
 
-A while back, I wrote about taking my sons to a [Talne Rebbe yahrzeit](https://www.jacob-shore.com/post/the-yahrzeit-of-reb-duvid-twersky-of-talne), even though I have longstanding misgivings about the foundations of Hasidism and Kabbalah. This piece is not a sequel in the sense some readers might expect. I’m not going to rehearse the familiar arguments for and against the antiquity of the Zohar, nor litigate the evidentiary gaps in the transmission of Kabbalistic teaching. Readers are free to explore those debates and arrive at their own conclusions.
+A while back, I wrote about taking my sons to a [Talne Rebbe yahrzeit](https://www.jacob-shore.com/post/the-yahrzeit-of-reb-duvid-twersky-of-talne), even though I have longstanding misgivings about the foundations of {{< tooltip term="Hasidism" key="chassidus" >}} and {{< tooltip term="Kabbalah" key="kabbalah" >}}. This piece is not a sequel in the sense some readers might expect. I’m not going to rehearse the familiar arguments for and against the antiquity of the {{< tooltip term="Zohar" key="zohar" >}}, nor litigate the evidentiary gaps in the transmission of Kabbalistic teaching. Readers are free to explore those debates and arrive at their own conclusions.
 ## Transmission, Asymmetry, and Dismissal
 
-For my purposes here, one point is enough: the transmission of the Talmud and Tanakh is historically traceable in a way that Kabbalah is not. That asymmetry matters.
+For my purposes here, one point is enough: the transmission of the {{< tooltip term="Talmud" key="talmud" >}} and {{< tooltip term="Tanakh" key="tanach" >}} is historically traceable in a way that Kabbalah is not. That asymmetry matters.
 
 It does not, however, settle the question I am interested in. The issue is not whether Kabbalah is convincing as a masorah, but what it means that it has become part of Judaism regardless. For some earlier Jewish philosophers and purists, the lack of a convincing transmission would have been sufficient grounds for dismissal.
 
@@ -29,7 +29,7 @@ I am not such a philosopher, and I am not a purist.
 
 ## Canonization and Irreversibility
 
-Whatever one thinks about its origins, Kabbalah has been canonized. For roughly five centuries it has informed halakhic rulings, liturgical language, and the conceptual vocabulary of Jewish thought. At this point, its influence is not confined to mystics or sectarians; it is woven into what many Jews experience as normative Judaism. Traditions do not require perfect origins to become permanent. Duration, use, and authority are sufficient.
+Whatever one thinks about its origins, Kabbalah has been canonized. For roughly five centuries it has informed {{< tooltip term="halakhic" key="halacha" >}} rulings, liturgical language, and the conceptual vocabulary of Jewish thought. At this point, its influence is not confined to mystics or sectarians; it is woven into what many Jews experience as normative Judaism. Traditions do not require perfect origins to become permanent. Duration, use, and authority are sufficient.
 
 
 ## Judaism as an Inherited Tradition
@@ -58,7 +58,7 @@ There is also a cost to revisionism that is too often ignored. Any serious attem
 
 ## The Rivash and a Third Path
 
-In this, I find myself closer to the pragmatic restraint expressed by the Rivash in Responsum 157. He does not deny the existence of Kabbalistic wisdom, nor does he attempt to refute it. Instead, he acknowledges both its authority and its danger when severed from proper transmission. He reports that even his teacher, Rabbeinu Nissim, regarded Ramban as having gone too far in committing himself to Kabbalah. Lacking a direct transmission from a reliable master, the Rivash explains that he chose not to involve himself in that wisdom at all, noting how easily partial disclosures lead to error, revealing “a handbreadth while concealing many handbreadths.”
+In this, I find myself closer to the pragmatic restraint expressed by the Rivash in Responsum 157. He does not deny the existence of Kabbalistic wisdom, nor does he attempt to refute it. Instead, he acknowledges both its authority and its danger when severed from proper transmission. He reports that even his teacher, Rabbeinu Nissim, regarded {{< tooltip term="Ramban" key="ramban" >}} as having gone too far in committing himself to Kabbalah. Lacking a direct transmission from a reliable master, the Rivash explains that he chose not to involve himself in that wisdom at all, noting how easily partial disclosures lead to error, revealing “a handbreadth while concealing many handbreadths.”
 
 What is striking here is not skepticism, but discipline. The Rivash neither dismantles Kabbalah nor demands its removal from Judaism. He simply refuses to treat what he did not receive as binding upon himself. His response is neither credulity nor iconoclasm, but restraint.
 

@@ -47,7 +47,7 @@ So I built something to solve that. But the architecture only makes sense once y
 
 The core loop is: capture, digest, adapt, propose.
 
-**Capture.** I send messages to a Telegram bot throughout the day — notes, insights, wins, check-ins, hypotheses. They land in dated JSONL files in my Obsidian vault. Most of it goes in by voice. I'll say something while walking back from a chavrusa, [Whisper](https://openai.com/index/whisper/) transcribes it, it gets tagged and filed. Here's an actual entry from this week:
+**Capture.** I send messages to a Telegram bot throughout the day — notes, insights, wins, check-ins, hypotheses. They land in dated JSONL files in my {{< tooltip term="Obsidian" key="obsidian" >}} vault. Most of it goes in by voice. I'll say something while walking back from a {{< tooltip term="chavrusa" key="chavrusa" >}}, [Whisper](https://openai.com/index/whisper/) transcribes it, it gets tagged and filed. Here's an actual entry from this week:
 
 > *"Yeah, I've been sort of laser focused on personal ops. I did apply to a bunch of jobs today. I didn't feel like working on Haki and I don't know, I guess I've been pushing it off because it came back from Apple and it said I had to fix stuff and now I'm going to have to debug it. Maybe I'm psychologically just trying to push off debugging things. I haven't eaten today. I'm going to go eat lunch now. It's 1:54pm."*
 

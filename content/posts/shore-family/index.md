@@ -22,7 +22,7 @@ It would seem that in Ukraine our family name was Saranduk, but that this name w
 The reason I think this is because this is what I’ve been told by Aunt Ruth, who was something of the family genealogist. She claims she was told this by her father, Samuel Oscar / Asher Shore. The claim checks out to me for two reasons:
 
 1. I’ve found other cases of Jewish people who were named Saranduk immediately changed their surname to Shore upon arrival in to America (a Shore family in Missouri), with no known relationship or correspondence with our part of the family, which I take as evidence that they were in the same family.
-2. All documents I found were of a government nature. Ukrainian census documents and Ellis Island ship manifests. I’ve never seen in any other context that a family member is referred to as Saranduk.
+2. All documents I found were of a government nature. Ukrainian census documents and {{< tooltip term="Ellis Island" key="ellis-island" >}} ship manifests. I’ve never seen in any other context that a family member is referred to as Saranduk.
 
 Aunt Ruth claimed her father told her they were given the surname Saranduk as a form of shaming by the Russians and as such didn’t keep it in America. I have asked native Russian and Ukrainian speakers who all claim there is no meaning to the name Saranduk.
 
@@ -30,7 +30,7 @@ _**UPDATE - Nov 9th 2023:** I've since found records going back to 1818 and Hebr
 
 ### Russian 1858 Census Document
 
-We were able to find a 1858 Census document from Talne, Uman, Ukraine - which seems to contain the members of our family as Saranduk. The data in this census matches the data we found from ship logs, tombstones, and other records. As such, we identify the child named as Chaim Hershel - as Hyman Shore - see explanation below.
+We were able to find a 1858 Census document from {{< tooltip term="Talne" key="talne" >}}, Uman, Ukraine - which seems to contain the members of our family as Saranduk. The data in this census matches the data we found from ship logs, tombstones, and other records. As such, we identify the child named as Chaim Hershel - as Hyman Shore - see explanation below.
 
 The census data says:
 
@@ -75,7 +75,7 @@ The relevant manifest data:
 
 #### Matching the Census with the Ship Manifest
 
-It is extremely likely that the Chaim Hersch Saranduk on the ship manifest is the same one from the Russian census. The person in the census was 9 in 1858. This would make him 55 in 1904 - which is consistent with the ship manifest. Also, there is no indication that the name Saranduk is a very common name. The idea that there would be two unrelated people named Chaim Hersch Saranduk, born in the same year in a shtetl the size of Tolna seems far fetched.
+It is extremely likely that the Chaim Hersch Saranduk on the ship manifest is the same one from the Russian census. The person in the census was 9 in 1858. This would make him 55 in 1904 - which is consistent with the ship manifest. Also, there is no indication that the name Saranduk is a very common name. The idea that there would be two unrelated people named Chaim Hersch Saranduk, born in the same year in a {{< tooltip term="shtetl" key="shtetl" >}} the size of Tolna seems far fetched.
 
 #### Matching Chaim Hersch Saranduk with Hyman Shore
 

@@ -23,7 +23,7 @@ For context, earlier that day I had watched an interview between Jonathan Sacerd
 
 {{< youtube JQe8ZP9jGfE >}}
 
-Martin’s story is both harrowing and profound. But as the interview progressed, two things became clear. First, Martin identifies deeply as Jewish and with the plight of the Jewish people. Second, Martin is not (or at least, by all appearances at the time, was not) what we would call “halachically Jewish.”
+Martin’s story is both harrowing and profound. But as the interview progressed, two things became clear. First, Martin identifies deeply as Jewish and with the plight of the Jewish people. Second, Martin is not (or at least, by all appearances at the time, was not) what we would call “{{< tooltip term="halachically" key="halacha" >}} Jewish.”
 
 {{< admonition type=note title="Halachic Status" open=false >}}
 Jewish father, non-Jewish mother, no mention of a formal conversion process.
@@ -49,12 +49,12 @@ Ketia was a Roman official under a King who sought to destroy the Jews. Ketia st
 
 A Divine voice emerged and declared that Ketia bar Shalom was destined for the World-to-Come. When Rebbe (Yehuda the Prince) heard this, he wept, saying: *“There is one who acquires his world in a single moment.”*
 
-Rashi’s commentary makes the point sharper:
+{{< tooltip term="Rashi" key="rashi" >}}’s commentary makes the point sharper:
 > **Without the toll:** *Meaning, woe is you—since you are being killed because of them [Israel], and yet you have not circumcised yourself to receive your reward with them.*
 
 Ketia bar Shalom was not born a Jew. He was not, by any procedural standard, what we would call halachically Jewish. And yet, in the moment of his death, he identified himself completely with the Jewish people.
 
-The Gemara does not treat this as mere sympathy. It treats it as something far more consequential. The matron’s critique wasn't that he was an outsider looking in; it was that, having already cast his lot with the Jewish people through his suffering and his stance, he had not yet physically acknowledged the "tax" of a reality he already inhabited.
+The {{< tooltip term="Gemara" key="gemara" >}} does not treat this as mere sympathy. It treats it as something far more consequential. The matron’s critique wasn't that he was an outsider looking in; it was that, having already cast his lot with the Jewish people through his suffering and his stance, he had not yet physically acknowledged the "tax" of a reality he already inhabited.
 
 {{< join-channels >}}
 

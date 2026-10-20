@@ -11,7 +11,7 @@ tags: ["bar-mitzvah", "speech", "cow"]
 featuredImage: DSC_1793.JPG
 ---
 
-Family and friends thank you for joining us on this auspicious occasion! You’re being here has **really** enhanced our simcha. A special thanks to the Rebbe _Shlita_ who has seen the potential in Eliyahu, and has become such a positive influence in his life and ours!
+Family and friends thank you for joining us on this auspicious occasion! You’re being here has **really** enhanced our simcha. A special thanks to the {{< tooltip term="Rebbe" key="rebbe" >}} _Shlita_ who has seen the potential in Eliyahu, and has become such a positive influence in his life and ours!
 
 Eliyahu it is a great honor for me to stand here and address you as you take your journey into manhood. Your mother and I are so proud of the strides you’ve made to get here and we know you’ll continue to make us proud as you **blossom** into a true man of character and a תלמיד חכם. Or, as Rabbi Zaks once put it, you have a bright future ahead of you as a תלמיד חכם, but maybe not as a professional soccer player!
 

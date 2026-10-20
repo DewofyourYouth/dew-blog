@@ -17,7 +17,7 @@ description: "Starter notes for Moroccan Darija — greetings, basic phrases, tr
 
 Recently, I've started trying to learn Darija, the Moroccan dialect of Arabic. I'm going to try to keep some of my notes here.
 
-I do need to figure out some things to reduce the friction of note taking - like how to type Arabic on the computer. I don't have an Arabic keyboard. Currently, my process involves writing in Obsidian on my phone and then copying from the synced version. I also want to find an easy solution for audio - for pronunciation.
+I do need to figure out some things to reduce the friction of note taking - like how to type Arabic on the computer. I don't have an Arabic keyboard. Currently, my process involves writing in {{< tooltip term="Obsidian" key="obsidian" >}} on my phone and then copying from the synced version. I also want to find an easy solution for audio - for pronunciation.
 
 _Edit: I made a shortcode for audio embeds, it does the trick for now 😊. I'm not going to put in all the sound files now - but I'll put in the first 2 for testing._
 

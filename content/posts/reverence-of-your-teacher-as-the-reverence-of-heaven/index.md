@@ -23,7 +23,7 @@ comments: true
 
 [From Avos Chapter 4, Mishna 12 - Translation by Sefaria](https://www.sefaria.org.il/Pirkei_Avot.4.12?lang=bi&with=all&lang2=en)
 
-This is the second post in a series about my Rosh Yeshiva, Rav Aaron Schechter זצ״ל. I want to stress again, that I am neither qualified nor capable of writing a biography of the Rosh Yeshiva זצ״ל. The Rosh Yeshiva's memory should not be confined to the musings of Lilliputians like myself. I am just recording my memories and the life lessons I learned whilst being blessed to live in the presence of a giant such as the Rosh Yeshiva זצ״ל.
+This is the second post in a series about my {{< tooltip term="Rosh Yeshiva" key="rosh-yeshiva" >}}, Rav Aaron Schechter זצ״ל. I want to stress again, that I am neither qualified nor capable of writing a biography of the Rosh Yeshiva זצ״ל. The Rosh Yeshiva's memory should not be confined to the musings of Lilliputians like myself. I am just recording my memories and the life lessons I learned whilst being blessed to live in the presence of a giant such as the Rosh Yeshiva זצ״ל.
 
 ## Rejoice with Trembling
 
@@ -48,7 +48,7 @@ In Parashas Bereishis, the Rosh Yeshiva would note regarding the verse (Genesis 
 
 > And HaShem took the Adam and placed him in the garden of Eden...
 
-Rashi, on this _passuk_, quotes a Medrash explaining that it doesn't mean He picked him up and placed him in the Garden, but rather that He convinced him with words to go to the garden.
+{{< tooltip term="Rashi" key="rashi" >}}, on this _passuk_, quotes a Medrash explaining that it doesn't mean He picked him up and placed him in the Garden, but rather that He convinced him with words to go to the garden.
 
 "How did חז״ל know this?", the Rosh Yeshiva asked, "How does he know the meaning isn't simply that He picked him up and placed Adam in the garden!? Isn't that the simple reading of the _passuk?_"
 

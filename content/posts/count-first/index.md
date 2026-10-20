@@ -40,7 +40,7 @@ What I got, early on, was something more dangerous: a confident storyteller work
 
 ## What Went Wrong
 
-The failures were not mostly technical in the narrow sense. Yes, there were bugs. The bot miscounted a Talmud session once and turned a data problem into a warning about religious-anchor instability. It confused an externally-canceled session with my inconsistency. It sometimes treated a gap in the day’s logs as evidence that work hadn’t happened.
+The failures were not mostly technical in the narrow sense. Yes, there were bugs. The bot miscounted a {{< tooltip term="Talmud" key="talmud" >}} session once and turned a data problem into a warning about religious-anchor instability. It confused an externally-canceled session with my inconsistency. It sometimes treated a gap in the day’s logs as evidence that work hadn’t happened.
 
 But the deeper failures were epistemic.
 

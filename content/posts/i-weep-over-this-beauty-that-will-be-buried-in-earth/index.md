@@ -25,7 +25,7 @@ author: Jacob Shore
 
 The [death of my Rosh Yeshiva](https://hamodia.com/2023/08/24/bde-harav-aharon-schechter-ztl-rosh-yeshivah-yeshivas-chaim-berlin/), Rabbi Aaron Schechter זצ״ל came as a shock yesterday. He hadn't been well for many years, and it was very hard to get in to see him. His memory was not what it used to be towards the end - I guess I had a lot of excuses for not staying in touch. The news of his passing hit me like a ton of bricks. It had been 8 years since I had last spoken with him.
 
-When I left the Yeshiva to study in Kollel Avodas HaLeviim (Ner Israel) in Baltimore, the Rosh Yeshiva told me "Yankel, you're not leaving Chaim Berlin, you're bringing Chaim Berlin to Baltimore!" At this time of great loss, I try to to console myself by telling myself that I didn't leave the Rosh Yeshiva, I bring him with me every day. I'm not going to be so pretentious as to claim to be a _talmid_ of the Rosh Yeshiva זצ״ל, his _talmidim_ are great scholars and leaders of כלל ישראל. But when I was learning in Yeshiva Chaim Berlin, his presence demanded greatness from us! In consoling myself, I want to relate some personal stories I had with the Rosh Yeshiva זצ״לֹ that I take with me every day. This is the first of what will be a series of such stories.
+When I left the {{< tooltip term="Yeshiva" key="yeshiva" >}} to study in {{< tooltip term="Kollel" key="kollel" >}} Avodas HaLeviim (Ner Israel) in Baltimore, the {{< tooltip term="Rosh Yeshiva" key="rosh-yeshiva" >}} told me "Yankel, you're not leaving Chaim Berlin, you're bringing Chaim Berlin to Baltimore!" At this time of great loss, I try to to console myself by telling myself that I didn't leave the Rosh Yeshiva, I bring him with me every day. I'm not going to be so pretentious as to claim to be a _talmid_ of the Rosh Yeshiva זצ״ל, his _talmidim_ are great scholars and leaders of כלל ישראל. But when I was learning in Yeshiva Chaim Berlin, his presence demanded greatness from us! In consoling myself, I want to relate some personal stories I had with the Rosh Yeshiva זצ״לֹ that I take with me every day. This is the first of what will be a series of such stories.
 
 ## The Back Story
 
@@ -34,7 +34,7 @@ When I first contacted Rabbi Eliezer Fireman, my 10th-grade rebbe, I asked him h
 
 ## My First Encounter With The Rosh Yeshiva
 
-In most cases, you can't get accepted to a Yeshiva, without meeting with, and getting approved by, the Rosh Yeshiva. I was the exception. The day I came to be tested the Rosh Yeshiva was moving and he couldn't make it there to test me. As such, I was interviewed by his son, the Mashgiach of the yeshiva, Rabbi Mordechai Schechter.
+In most cases, you can't get accepted to a Yeshiva, without meeting with, and getting approved by, the Rosh Yeshiva. I was the exception. The day I came to be tested the Rosh Yeshiva was moving and he couldn't make it there to test me. As such, I was interviewed by his son, the {{< tooltip term="Mashgiach" key="mashgiach" >}} of the yeshiva, Rabbi Mordechai Schechter.
 
 On the first day of Yeshiva, I got up early, made myself tea, and started heading down towards the בית מדרש for שחרית. When I got to the lobby of the Yeshiva, I encountered the Rosh Yeshiva. The Rosh Yeshiva approached me.
 
@@ -59,7 +59,7 @@ The Rosh Yeshiva was not keen on people standing around in the Yeshiva lobby, dr
 
 ## The Shabbos Table
 
-Chaim Berlin is a relatively big yeshiva. But because it is an "in-town" yeshiva, it doesn't offer meals on Shabbos. An "in-town" yeshiva used to mean a yeshiva in New York, although I'm told now it increasingly means a yeshiva in Lakewood. Either way, I was from New England, which placed me squarely "out of town". As such, I had to go to people's houses for Shabbos meals.
+Chaim Berlin is a relatively big yeshiva. But because it is an "in-town" yeshiva, it doesn't offer meals on {{< tooltip term="Shabbos" key="shabbos" >}}. An "in-town" yeshiva used to mean a yeshiva in New York, although I'm told now it increasingly means a yeshiva in Lakewood. Either way, I was from New England, which placed me squarely "out of town". As such, I had to go to people's houses for Shabbos meals.
 
 I soon found out that there were 8 spots for students to eat at the Rosh Yeshiva's house for Shabbos meals every week. I thought that would be interesting. In day-to-day yeshiva life, you don't have much direct contact with the Rosh Yeshiva. I also assumed there would be a long waiting list, so I went to the person in charge of arranging the guests and quickly asked to be put on the list. When he asked me which meal, day or night, I wanted, I told him it didn't matter, whichever was available first. He then clarified with me that was asking which meal I wanted to go to **that Shabbos**. Can I go to both?
 
@@ -69,7 +69,7 @@ At first, I thought perhaps it was a fluke that there were spots available for t
 - One of the Rosh Yeshiva's granddaughters would serve gefilte fish. So far still normal.
 - When the Rosh Yeshiva put down his fork, Rosh Yeshiva's granddaughter would clear the fish plates.
 - The Rosh Yeshiva's grandson in charge of the meals would bring out and distribute חומשים.
-- The Rosh Yeshiva would start learning that week's Torah portion, with Rashi and Ramban, out loud. No talking, other than questions related to the material the Rosh Yeshiva was learning then, was allowed.
+- The Rosh Yeshiva would start learning that week's Torah portion, with {{< tooltip term="Rashi" key="rashi" >}} and {{< tooltip term="Ramban" key="ramban" >}}, out loud. No talking, other than questions related to the material the Rosh Yeshiva was learning then, was allowed.
 - At some point the Rosh Yeshiva would close his חומש and his granddaughter would bring out the chicken soup.
 - When the Rosh Yeshiva put down his spoon, Rosh Yeshiva's granddaughter would clear the soup bowl.
 - The Rosh Yeshiva's grandson would bring out and distribute חומשים.
@@ -83,11 +83,11 @@ At first, I thought perhaps it was a fluke that there were spots available for t
 
 There's a joke they say about these long sessions of study at the Shabbos table when all talking was forbidden. They say that when a Chaim Berliner gets married, at this first Shabbos meal in his new home, with his new wife, he motions to her and whispers "Honey, could you please pass the salt?"
 
-I immediately saw the opportunity here to learn חומש from the Rosh Yeshiva. But sitting quietly all those hours definitely wouldn't do. So I came up with a plan. Every Friday, I would study that week's Torah portion thoroughly with every Rashi and Ramban. If I'm being honest, I usually only did the first half of the Parsha, or whatever I thought we'd get up to. I'd plan out a bunch of, what I thought to be, clever and open-ended questions on the material. Since everyone else there was generally silent most of the time, I figured it would be like having a private study session with the Rosh Yeshiva!
+I immediately saw the opportunity here to learn חומש from the Rosh Yeshiva. But sitting quietly all those hours definitely wouldn't do. So I came up with a plan. Every Friday, I would study that week's Torah portion thoroughly with every Rashi and Ramban. If I'm being honest, I usually only did the first half of the {{< tooltip term="Parsha" key="parsha" >}}, or whatever I thought we'd get up to. I'd plan out a bunch of, what I thought to be, clever and open-ended questions on the material. Since everyone else there was generally silent most of the time, I figured it would be like having a private study session with the Rosh Yeshiva!
 
 While I quickly found out that I would have to up the ante regarding my prep work by a large margin, if I wanted to ask questions that the Rosh Yeshiva deemed worthy of responding to in more than just one sentence or less, the general plan worked great! The meals, of course, got a lot longer than they used to be, and not everyone appreciated that, but I paid them no mind. I told myself that if they wanted to, nothing was stopping them from participating, except maybe their lack of familiarity with the source material.
 
-Looking back on this, I realize that was one of the ways the Rosh Yeshiva pushed us to grow. The Rosh Yeshiva knew full well what I was doing, but he knew that this was the driving force to me learning Chumash, Rashi, and Ramban every week. And learning them _well!_ I mean, who learns Chumash _well!?_
+Looking back on this, I realize that was one of the ways the Rosh Yeshiva pushed us to grow. The Rosh Yeshiva knew full well what I was doing, but he knew that this was the driving force to me learning {{< tooltip term="Chumash" key="chumash" >}}, Rashi, and Ramban every week. And learning them _well!_ I mean, who learns Chumash _well!?_
 
 One time, the Rosh Yeshiva smiled at me in the middle of a meal, put his hand on my hand, and said, "Yankel, I see you prepared שניים מקרא well this week."
 

@@ -18,7 +18,7 @@ description: "Notes and photos from Djerba, Tunisia — Judeo-Arabic signage sti
 lightgallery: true
 ---
 
-I recently came back from a week-long trip with my wife to Djerba, Tunisia. I’ll write a longer post about the trip in general, but for now I want to focus on one thing that kept catching my eye—and ear: the [Judeo-Arabic](https://en.wikipedia.org/wiki/Judeo-Arabic) used around Hara Kabira. Most people talk about Jewish languages outside Modern Hebrew as if they were relics. In Djerba, Judeo-Arabic is not a museum piece. It’s printed on signs, written on walls, and spoken by the people who live there.
+I recently came back from a week-long trip with my wife to {{< tooltip term="Djerba" key="djerba" >}}, Tunisia. I’ll write a longer post about the trip in general, but for now I want to focus on one thing that kept catching my eye—and ear: the [Judeo-Arabic](https://en.wikipedia.org/wiki/Judeo-Arabic) used around Hara Kabira. Most people talk about Jewish languages outside Modern Hebrew as if they were relics. In Djerba, {{< tooltip term="Judeo-Arabic" key="judeo-arabic" >}} is not a museum piece. It’s printed on signs, written on walls, and spoken by the people who live there.
 
 As a teenager, I remember being surprised to learn that hundreds of thousands of Jews still speak Yiddish as a first language. Djerba gave me the same kind of jolt: a reminder that Jewish languages aren’t just things academics write books about. They’re still alive in the most ordinary, mundane ways.
 

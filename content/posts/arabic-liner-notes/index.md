@@ -35,7 +35,7 @@ That is the advantage of music as ear training. It does not just repeat language
 
 That said, you don’t need to speak Arabic, or be learning Arabic, to enjoy Arabic music.
 
-If you happen to be learning Arabic, or just enjoy listening to Arabic music, these are some of my favorite recommendations to train your ears on. I will include dialect notes along with each recommendation. This is not meant to be an objective “best Arabic songs” list. It is more like liner notes for the songs that have lodged themselves in my ear while I have been circling Arabic through Tunisian, Moroccan, Algerian, Sudanese, and Levantine music.
+If you happen to be learning Arabic, or just enjoy listening to Arabic music, these are some of my favorite recommendations to train your ears on. I will include dialect notes along with each recommendation. This is not meant to be an objective “best Arabic songs” list. It is more like liner notes for the songs that have lodged themselves in my ear while I have been circling Arabic through Tunisian, Moroccan, Algerian, Sudanese, and {{< tooltip term="Levantine" key="levantine" >}} music.
 
 On my Arabic blog [Daily Derja](https://dailyderja.com/), I have been writing about Arabic music and language and ear training for a while now. I have a series of posts dedicated to it called ["Melody Breeze نسمة نغمة"](https://dailyderja.com/series/%D9%86%D8%B3%D9%85%D8%A9-%D9%86%D8%BA%D9%85%D8%A9/). Many of the Tunisian and Levantine songs on the list have either been featured in those posts or are planned future entries.
 
@@ -262,7 +262,7 @@ Bab L’ Bluz are a Moroccan-French band led by Yousra Mansour, and their sound 
 
 The song’s lyrics were inspired by Tunisian poet Anis Shoshan and aim at racism, herd mentality, and the way difference becomes criminalized. The line **والاختلاف صار جريمة** — “and difference has become a crime” — gives the song its moral center. It is not subtle, but it does not need to be. Some songs exist to name the thing directly.
 
-For a learner, this is interesting because the title is clean, almost classical Arabic — **إلى متى؟** — while the band’s broader identity is Moroccan and Darija-rooted. That mixture is common in Arabic music: a phrase may be formal enough to travel across the Arabic-speaking world, while the voice, rhythm, and musical body remain deeply local.
+For a learner, this is interesting because the title is clean, almost classical Arabic — **إلى متى؟** — while the band’s broader identity is Moroccan and {{< tooltip term="Darija" key="darija" >}}-rooted. That mixture is common in Arabic music: a phrase may be formal enough to travel across the Arabic-speaking world, while the voice, rhythm, and musical body remain deeply local.
 
 What I like about _Ila Mata_ is that it sounds like protest without sounding like a speech. The groove is heavy, the voice is fierce, and the question keeps hanging there: **إلى متى؟** How long?
 

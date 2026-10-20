@@ -54,7 +54,7 @@ Those are the success criteria. If a redesign doesn't move them, it failed — h
 
 ### Reed, Not Cedar
 
-Before any feature, a question of temperament. There's a line in the Talmud (Taanit 20a): *be soft like a reed and not hard like a cedar.* Aesop tells the same thing as a fable — the oak stands rigid against the wind and snaps, the reed bends and lives. The Daode Jing says it a third time: the stiff and unbending are companions of death; the soft and yielding are companions of life; a tree that cannot bend will be broken.
+Before any feature, a question of temperament. There's a line in the {{< tooltip term="Talmud" key="talmud" >}} (Taanit 20a): *be soft like a reed and not hard like a cedar.* Aesop tells the same thing as a fable — the oak stands rigid against the wind and snaps, the reed bends and lives. The Daode Jing says it a third time: the stiff and unbending are companions of death; the soft and yielding are companions of life; a tree that cannot bend will be broken.
 
 
 Three traditions, one idea, and it's the rule I'm building the whole system around: **firm but yielding — like a reed, not a cedar.**
@@ -64,7 +64,7 @@ The reason is mechanical, not poetic. If the app is a cedar — rigid, insistent
 A reed bends and stays rooted. When I resist — skip a suggestion, ignore a prompt, go quiet — it yields and stays, instead of escalating. Its firmness lives in *being there*: it's always present, it doesn't forget my goals, it holds up the honest mirror once. Not in *force* — it never nags, never repeats, never makes me fight it. Resistance should cost me nothing, because a system that's expensive to resist is a system I'll abandon by Thursday.
 
 {{<admonition type=reflection title="Daode Jing: A Philosophical Translation" >}}
-When I was a yeshiva bochur — sixteen or so — I needed a break from Yevamos one afternoon, so I walked over to the Barnes & Noble on Harvard Ave in Brookline (Greater Boston), and bought a copy of the *Daode Jing* (the Roger T. Ames philosophical translation) on my lunch break. I read it over and over, footnotes and all, and it stuck with me in a way few books have. Every so often a design principle or a stray insight surfaces in my head and I realize it's really a paraphrase of something from that book. *Firm but yielding* is one of those — which is how a line I read at sixteen ended up being the rule this whole system runs on.
+When I was a {{< tooltip term="yeshiva" key="yeshiva" >}} bochur — sixteen or so — I needed a break from Yevamos one afternoon, so I walked over to the Barnes & Noble on Harvard Ave in Brookline (Greater Boston), and bought a copy of the *Daode Jing* (the Roger T. Ames philosophical translation) on my lunch break. I read it over and over, footnotes and all, and it stuck with me in a way few books have. Every so often a design principle or a stray insight surfaces in my head and I realize it's really a paraphrase of something from that book. *Firm but yielding* is one of those — which is how a line I read at sixteen ended up being the rule this whole system runs on.
 {{< /admonition  >}}
 
 ### Advisory, Not Prescriptive

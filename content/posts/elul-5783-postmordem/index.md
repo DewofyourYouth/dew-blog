@@ -12,8 +12,8 @@ draft: false
 tags: ["reflections", "self-improvement", "אלול", "קבלות"]
 ---
 
-Last Elul I decided to try to formally set goals for myself and document what happened. Here's are my thoughts on the results of my experience trying to change my behavior over last Elul. The details of the changes I was trying to make are [posted here](/post/elul-5783). The basic list was as follows:
-1. Wake up and daven early.
+Last {{< tooltip term="Elul" key="elul" >}} I decided to try to formally set goals for myself and document what happened. Here's are my thoughts on the results of my experience trying to change my behavior over last Elul. The details of the changes I was trying to make are [posted here](/post/elul-5783). The basic list was as follows:
+1. Wake up and {{< tooltip term="daven" key="davening" >}} early.
 2. Read a _mussar_ (ethical teachings) book for at least 10 minutes a day.
 3. Keep up with daf hayomi.
 4. Don't lie.

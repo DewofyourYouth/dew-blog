@@ -38,7 +38,7 @@ I have no objection to piety. There are things we do because they help us develo
 And this has a very practical consequence. When we fall short of that expanding minimum, we can end up feeling much worse about ourselves than we should. Understanding the distinctions ought to help us be a little kinder to ourselves.
 
 {{< admonition type="note" title="A note on the examples" >}}
-Please note that the examples I give here are intended to be illustrative of the phenomenon I am describing. **It is not my intention to suggest that any of the practices I discuss are themselves inappropriate or wrong.** I am not trying to say that anyone should stop doing them, or that they are not valuable.
+The examples I give here are intended to be illustrative of the phenomenon I am describing. **It is not my intention to suggest that any of the practices I discuss are themselves inappropriate or wrong.** I am not trying to say that anyone should stop doing them, or that they are not valuable. I've chosen a few examples but there are so many more that could be discussed. The point is to illustrate the process by which a practice can become a baseline expectation, and to consider the consequences of that process for how we treat ourselves.
 
 These are not criticisms of the normative practice of any community. The intent is simply to point out that these changes are happening and not always being recognized as such, and to suggest that we should be aware of the consequences for how we treat ourselves.
 {{< /admonition >}}
@@ -57,7 +57,7 @@ And then there is a history of how these practices came to be understood and inc
 
 {{< tooltip term="Tzitzit" key="tzitzit" >}} raises a related question. The Torah requires tzitzit on a qualifying four-cornered garment. Going out of your way to wear such a garment so that you can fulfill the mitzvah is an additional step.
 
-The story of Rav Ketina and the angel in Menachot is often brought into this discussion. But there is a difference between arranging your clothing to avoid a mitzvah in a society where the relevant clothing is normal, and simply living in a society where people ordinarily wear shirts and trousers.
+The story of Rav Ketina and the angel in Menachot is often brought into this discussion. But there is a difference between arranging your clothing to avoid a mitzvah in a society where the relevant clothing is normal, and simply living in a society where people ordinarily wear shirts and pantss.
 
 {{< tooltip term="Tosafot" key="tosafot" >}} makes precisely this distinction. In Moed Katan, they distinguish the earlier period, when four-cornered garments were ordinary dress, from their own period, when they were not. They still encourage seeking out the mitzvah. But encouragement to seek it out and criticism of avoiding an obligation are distinguishable things.[^3]
 
@@ -149,7 +149,7 @@ The distinctions matter because they allow us to have some proportion. An omitte
 
 If you said less this morning, give some attention to what you did say. If you want to do more tomorrow, let that grow out of a desire to serve God rather than a conviction that whatever you manage will never be enough.
 
-So be kind to yourself when you find yourself cutting corners—pun intended. There is room to take your avodah seriously and still recognize that you are a person with limited time, attention, and energy. The things you did manage to do don't stop counting because there was more you could have done.
+So be kind to yourself when you find yourself cutting corners (pun intended). There is room to take your avodah seriously and still recognize that you are a person with limited time, attention, and energy. The things you did manage to do don't stop counting because there was more you could have done.
 
 [^1]: [Shabbat 156b](https://www.sefaria.org/Shabbat.156b.6).
 

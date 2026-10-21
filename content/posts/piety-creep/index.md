@@ -99,7 +99,7 @@ But we seem to speak out of both sides of our mouths here. We tell someone that 
 
 The message received is that you should say less with more attention, provided you don't actually leave anything out. You are allowed to recognize your limits in principle, but each particular limit turns out to be unacceptable.
 
-The tension becomes sharper when the warning is expressed in mystical terms. If omitting something is presented as damaging the channels through which divine blessing flows—interfering, so to speak, with the plumbing of heaven—then we have attached enormous consequences to the very choice we seemed to allow. Telling someone to be kind to himself afterward won't undo that. He has already been told that his ordinary limitations may have cosmic consequences.
+The tension becomes sharper when the warning is expressed in mystical terms. If omitting something is presented as damaging the channels through which divine blessing flows—interfering, so to speak, with the plumbing of heaven—then we have attached enormous consequences to the very choice we seemed to allow.[^8] Telling someone to be kind to himself afterward won't undo that. He has already been told that his ordinary limitations may have cosmic consequences.
 
 If we mean that a little with kavana can be preferable, there have to be actual circumstances in which we are prepared to say what can be left out, and to stand behind that guidance without immediately making the person feel that he is doing something spiritually disastrous. Otherwise, we should admit that we haven't given him much of a choice.
 
@@ -164,3 +164,5 @@ So be kind to yourself when you find yourself cutting corners (pun intended). Th
 [^6]: [Shulchan Aruch, Orach Chaim 1:4](https://he.wikisource.org/wiki/שולחן_ערוך_אורח_חיים_א_ד): "טוב מעט תחנונים בכוונה מהרבות בלא כוונה." This concerns supplications; it does not by itself authorize omitting obligatory prayer.
 
 [^7]: [Tzidkat HaTzadik 31](https://ashoova.co.il/ask/צדקת-הצדיק-ל״א/). The passage addresses distraction and concentration; the application here to resentment over accumulated devotional additions is my own.
+
+[^8]: [Kaf HaChaim, Orach Chaim 52:2](https://www.sefaria.org/Kaf_HaChayim_on_Shulchan_Arukh%2C_Orach_Chayim.52.2): "וכן הזהיר המגיד למרן ז״ל לבא לביהכ״נ בהשכמה כדי שיוכל להתפלל כסדר ולא בדילוג. כי העושה כן מהפך הצינורות."

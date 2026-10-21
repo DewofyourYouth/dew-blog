@@ -131,7 +131,7 @@ There is a related tendency that I think of as the {{< tooltip term="Litvak" key
 
 Of course there are doubts that require us to be stringent. But we also have to ask whether we are resolving the halachic question or continually expanding the range of things we feel unable to permit. If every possible concern leaves behind a permanent additional requirement, the cumulative effect can become considerable.
 
-I am not suggesting that identifying a practice's origins automatically settles what we should do today. Customs have weight, and later halachic developments matter. But we should be able to explain those developments honestly, and preserve the distinctions that remain, rather than teaching everything as one undifferentiated package of what a Jew must do.
+I am not suggesting that identifying a practice's origins automatically settles what we should do today. Customs have weight, and later halachic developments matter. But we should be able to explain those developments honestly, and preserve the distinctions that remain, rather than teaching everything as one undifferentiated package of what a Jew must do. (Perhaps I will write more about this in a future post.)
 
 ## Be kind to yourself
 

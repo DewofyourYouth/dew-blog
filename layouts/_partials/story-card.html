@@ -1,0 +1,78 @@
+{{- /* 1080x1920 Instagram story card for a post, built at render time from its
+     featured image: the art squared off on a dark field, the title set in
+     EB Garamond beneath it, the gold seal at the foot. Returns the image
+     resource (or nothing if no usable image). Call via partialCached with the
+     page as context and variant key.
+
+     - The bottom 7% of the featured image is trimmed first: covers from
+       ~/development/dew_cover_pipeline carry a footer band (domain + seal)
+       that would otherwise be repeated.
+     - Hugo's text filter draws strictly left to right with no bidi support.
+       Hebrew needs no letter shaping, so it is put into visual order here:
+       each Hebrew word's letters are reversed, and a title that starts in
+       Hebrew also has its word order reversed. (A title wrapping onto two
+       lines would then wrap end-first; every Hebrew title so far fits one.)
+       Hebrew titles are set in Frank Ruhl Libre, which has the glyphs. Arabic
+       does need joining forms, so Arabic titles are left off the card.
+     - Type steps down for long titles so three lines still clear the seal.
+     - Text blocks stay out of the top ~200px and bottom ~220px, where
+       Instagram overlays the profile bar and reply field. */ -}}
+{{- $p := . -}}
+{{- $src := false -}}
+{{- with $p.Params.featuredImage -}}
+  {{- $src = $p.Resources.Get . -}}
+{{- end -}}
+{{- if not $src -}}
+  {{- $src = resources.Get "images/card.jpg" -}}
+{{- end -}}
+
+{{- $card := false -}}
+{{- if $src -}}
+  {{- $w := 1080 -}}
+  {{- $top := 200 -}}
+  {{- $field := "#1d1915" -}}
+  {{- $parchment := "#F4ECDC" -}}
+  {{- $gold := "#B48B27" -}}
+  {{- $font := resources.Get "fonts/EBGaramond.ttf" -}}
+  {{- $seal := (resources.Get "img/doyy_waxseal_gold_512.png").Resize "150x" -}}
+
+  {{- $trim := $src.Crop (printf "%dx%d Top" $src.Width (int (math.Floor (mul $src.Height 0.93)))) -}}
+  {{- $art := $trim.Fill (printf "%dx%d Center" $w $w) -}}
+
+  {{- $filters := slice (images.Padding $top 0 (sub 1920 (add $top $w)) 0 $field) -}}
+  {{- $filters = $filters | append (images.Text "dewofyouryouth.com" (dict
+      "font" $font "color" $gold "size" 30 "x" 540 "y" 1312 "alignx" "center")) -}}
+  {{- $title := $p.Title -}}
+  {{- $hebrew := `[\x{0590}-\x{05FF}\x{FB1D}-\x{FB4F}]` -}}
+  {{- if findRE $hebrew $title -}}
+    {{- $font = resources.Get "fonts/FrankRuhlLibre.ttf" -}}
+    {{- $words := slice -}}
+    {{- range split $title " " -}}
+      {{- $w := . -}}
+      {{- if findRE $hebrew . -}}
+        {{- $rev := slice -}}
+        {{- range split . "" }}{{ $rev = (slice .) | collections.Append $rev }}{{ end -}}
+        {{- $w = delimit $rev "" -}}
+      {{- end -}}
+      {{- $words = $words | append $w -}}
+    {{- end -}}
+    {{- if findRE (printf `^[^A-Za-z]*%s` $hebrew) $title -}}
+      {{- $rw := slice -}}
+      {{- range $words }}{{ $rw = (slice .) | collections.Append $rw }}{{ end -}}
+      {{- $words = $rw -}}
+    {{- end -}}
+    {{- $title = delimit $words " " -}}
+  {{- end -}}
+
+  {{- if not (findRE `[\x{0600}-\x{06FF}]` $title) -}}
+    {{- $n := strings.RuneCount $title -}}
+    {{- $size := cond (gt $n 60) 60 (cond (gt $n 40) 66 74) -}}
+    {{- $filters = $filters | append (images.Text $title (dict
+        "font" $font "color" $parchment "size" $size "linespacing" 14
+        "x" 540 "y" 1385 "alignx" "center")) -}}
+  {{- end -}}
+  {{- $filters = $filters | append (images.Overlay $seal 465 1680) -}}
+
+  {{- $card = ($art | images.Filter $filters).Process "jpg q85" -}}
+{{- end -}}
+{{- return $card -}}

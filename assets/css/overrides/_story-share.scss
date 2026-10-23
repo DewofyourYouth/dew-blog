@@ -1,0 +1,58 @@
+/* "Share to Instagram story" button (layouts/_partials/story-share.html).
+   A labelled outline button so it reads as an action at the end of a post,
+   not one more icon; it fills with the accent on hover. */
+.post-info-share {
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.post-info-share .story-share {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.35rem 0.8rem;
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  line-height: 1.2;
+  color: var(--doyy-accent);
+  text-decoration: none;
+  border: 1px solid var(--doyy-accent);
+  border-radius: 3px;
+  transition:
+    background-color 0.12s ease,
+    color 0.12s ease;
+
+  .icon {
+    width: 1em;
+    height: 1em;
+    fill: currentColor;
+  }
+
+  &:hover {
+    color: var(--doyy-paper);
+    background-color: var(--doyy-accent);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--doyy-accent);
+    outline-offset: 2px;
+  }
+}
+
+.post-info-share .story-share-status {
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  color: var(--doyy-ink);
+  opacity: 0.8;
+
+  &:empty {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .post-info-share .story-share {
+    transition: none;
+  }
+}

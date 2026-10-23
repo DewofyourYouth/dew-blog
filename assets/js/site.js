@@ -75,3 +75,53 @@ document.addEventListener("DOMContentLoaded", () => {
     })
   );
 })();
+
+// Instagram story share (layouts/_partials/story-share.html). The link downloads
+// the story card by default; where the browser can share files (phones), it
+// opens the share sheet with the card instead and copies the post link for a
+// link sticker. The card is fetched once the button nears the viewport, because
+// iOS Safari refuses navigator.share() if the tap has to wait on a download.
+(() => {
+  const btn = document.querySelector(".story-share");
+  // Desktop browsers can share files too, but their share sheets have no
+  // Instagram, so share mode is for touch devices only.
+  if (!btn || !navigator.canShare || !window.File) return;
+  if (!matchMedia("(pointer: coarse)").matches) return;
+  const probe = new File([""], "probe.jpg", { type: "image/jpeg" });
+  if (!navigator.canShare({ files: [probe] })) return;
+
+  const label = btn.querySelector(".story-share-label");
+  const status = btn.parentElement.querySelector(".story-share-status");
+  label.textContent = "Share to Instagram story";
+  let file = null;
+
+  const load = () =>
+    fetch(btn.href)
+      .then((r) => r.blob())
+      .then((b) => { file = new File([b], btn.getAttribute("download"), { type: "image/jpeg" }); })
+      .catch(() => {});
+
+  new IntersectionObserver((entries, io) => {
+    if (!entries.some((e) => e.isIntersecting)) return;
+    io.disconnect();
+    load();
+  }, { rootMargin: "600px" }).observe(btn);
+
+  const say = (text) => {
+    if (!status) return;
+    status.textContent = text;
+    clearTimeout(say.t);
+    say.t = setTimeout(() => (status.textContent = ""), 6000);
+  };
+
+  btn.addEventListener("click", (e) => {
+    if (!file) return; // not fetched yet: fall back to the download
+    e.preventDefault();
+    navigator.clipboard?.writeText(btn.dataset.storyUrl)
+      .then(() => say("Link copied. Paste it into a link sticker."))
+      .catch(() => {});
+    navigator.share({ files: [file] }).catch((err) => {
+      if (err.name !== "AbortError") window.location.href = btn.href;
+    });
+  });
+})();

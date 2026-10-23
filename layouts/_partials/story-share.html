@@ -1,0 +1,15 @@
+{{- /* "Share to Instagram story" button in the post footer. Instagram has no
+     web share URL, so this hands the story card (_partials/story-card.html)
+     to the phone's share sheet through the Web Share API and copies the post
+     link for a link sticker. Where file sharing isn't supported (desktop), the
+     link downloads the card instead and its label says so. Behaviour in
+     assets/js/site.js; styles in overrides/_story-share.scss. */ -}}
+{{- with partialCached "story-card.html" . .RelPermalink -}}
+  {{- $name := $.Params.slug | default $.File.ContentBaseName -}}
+  <a class="story-share" href="{{ .RelPermalink }}" download="{{ $name }}-story.jpg"
+     data-story-url="{{ $.Permalink }}">
+    {{- partial "plugin/fontawesome.html" (dict "Style" "brands" "Icon" "instagram") -}}
+    <span class="story-share-label">Download story image</span>
+  </a>
+  <span class="story-share-status" role="status"></span>
+{{- end -}}

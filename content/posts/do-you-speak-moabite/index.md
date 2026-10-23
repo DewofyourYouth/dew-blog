@@ -24,6 +24,7 @@ featuredImageAlt: "Close-up of the Mesha Stele's black basalt surface: rows of i
 seo:
   images:
     - mesha-stele.jpg
+storyShare: true
 ---
 
 I recently wrote about [Hebrew and Arabic](/post/bread-or-meat/), the words they share, and the ones that look familiar until you discover that you have confused bread with meat.

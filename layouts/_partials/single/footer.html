@@ -66,6 +66,10 @@
             </div>
             <div class="post-info-share">
                 {{- partial "plugin/share.html" . -}}
+                {{- /* Instagram story button: opt-in per post while it's being tested */ -}}
+                {{- if .Params.storyShare -}}
+                    {{- partial "story-share.html" . -}}
+                {{- end -}}
             </div>
         </div>
     </div>

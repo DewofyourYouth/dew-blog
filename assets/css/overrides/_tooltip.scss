@@ -88,6 +88,22 @@ html.dark .gloss .gloss-def {
   opacity: 0;
 }
 
+/* Admonitions clip a card that opens near their edge twice over: the box has
+   `overflow: auto`, and its collapsible `.details-content` has
+   `overflow-y: hidden` (which forces x to auto) so it can animate shut. Only
+   admonitions holding a glossary term are released, and the inner wrapper only
+   while open, so collapsing still works. flow-root keeps the box containing
+   floats as overflow did. Scoped under `.single .content` to beat the theme's
+   (0,3,0) selector. */
+.single .content .admonition:has(.gloss) {
+  display: flow-root;
+  overflow: visible;
+
+  &.open .details-content {
+    overflow: visible;
+  }
+}
+
 .gloss .gloss-def em {
   font-style: italic;
 }

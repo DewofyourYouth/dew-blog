@@ -208,12 +208,11 @@ The translations don't all agree either. Some have native and resident men and w
 Basically, he definitely says he killed a lot of people. I understand that much. I'm not sure what all his classifications mean.
 
 {{< admonition type="note" title="Of Women and Wombs" open=true >}}
-My friend Rabbi Reuven Chaim Klien, author of [G-d versus gods](https://www.feldheim.com/g-d-versus-gods) and [Lashon HaKodesh: History, Holiness and Hebrew](https://www.feldheim.com/lashon-hakodesh-1) pointed out to me that there is a 
-relevant verse in Judges 5:30 where  Sisera's mother asks why her son has not returned from battle, and the text says:
+My friend Rabbi Reuven Chaim Klein, author of [G-d versus gods](https://www.feldheim.com/g-d-versus-gods) and [Lashon HaKodesh: History, Holiness and Hebrew](https://www.feldheim.com/lashon-hakodesh-1), pointed out to me that there is a relevant verse in Judges 5:30 where Sisera's mother asks why her son has not returned from battle, and the text says:
 
 > הלא ימצאו יחלקו שלל, רחם רחמתיים לראש גבר
 
-Translated as: "Are they not finding and dividing the spoils: a woman (womb) or two for each man"
+Translated as: “Are they not finding and dividing the spoils: a woman (womb) or two for each man?”
 
 The women hostages are referred to as רחם רחמתיים.
 {{< /admonition >}}

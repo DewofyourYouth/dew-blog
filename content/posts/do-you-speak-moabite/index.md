@@ -27,17 +27,15 @@ seo:
 storyShare: true
 ---
 
-I recently wrote about [Hebrew and Arabic](/post/bread-or-meat/), the words they share, and the ones that look familiar until you discover that you have confused bread with meat.
+I recently wrote a post about [the similarities and differences between Hebrew and Arabic](/post/bread-or-meat/), including false friends and the לחם / لحم, bread-and-meat question.
 
-Learning Arabic has also made me think about what we mean when we call two ways of speaking different languages, rather than different dialects. Moroccan Arabic and Palestinian Arabic both get called Arabic, but that does not mean that speakers can necessarily understand each other without exposure or accommodation. The differences can be substantial.
+I've also discussed the differences among Arabic dialects and how they're not all mutually intelligible. The difference between Moroccan Arabic and Palestinian Arabic, for instance, is substantial. They're both called Arabic, but that doesn't mean a speaker of one can necessarily understand the other without some exposure, or without changing how they speak.
 
-Meanwhile, Hebrew and Moabite get different names.
+Now, what about Hebrew and Moabite? Those are considered different languages, not different dialects. But I think a Hebrew speaker can understand quite a lot of Moabite once you get past the alphabet.
 
-How different are they, though? If you know Hebrew, how much Moabite do you already know?
+So I want to go through the opening of the Mesha Stele and see how much of it I can read. I haven't studied Moabite. I'm working from Hebrew, with some knowledge of Biblical Hebrew, and trying to figure it out.
 
-There is a fairly straightforward way to try this. We have a long inscription left by a Moabite king. Put it into familiar letters and see how far you get.
-
-That is the experiment here. I am a Hebrew speaker reading Moabite, not someone who has learned Moabite explaining it afterward. My first readings include guesses, things I get approximately right, and things I get wrong. Those are part of the result. I will keep them visible and distinguish them from the corrections. Otherwise, it would be rather easy to demonstrate how much Moabite I understand by first looking up all the Moabite.
+I've kept my initial guesses here, including the mistakes, and explained the corrections afterward. The question is how much a Hebrew speaker could understand from the text, so getting something wrong is part of the experiment too.
 
 ## A Moabite King Introduces Himself
 
@@ -45,13 +43,13 @@ The Mesha Stele, also called the Moabite Stone, is a ninth-century BCE inscripti
 
 {{< image src="images/mesha-stele-louvre.jpeg" alt="The Mesha Stele in the Louvre: a round-topped slab of black basalt, its rough inscribed fragments set into a smooth dark restoration, with rows of ancient letters running across the surface" caption="The Mesha Stele in the Louvre. (Photo: Mbzt, 2012, [CC BY 3.0](https://creativecommons.org/licenses/by/3.0), via [Wikimedia Commons](https://commons.wikimedia.org/w/index.php?curid=22090379).)" >}}
 
-Mesha is also familiar from 2 Kings. In chapter 3, he is the king who had paid tribute to Israel and rebelled after Ahab’s death. Jehoram, Ahab’s son, then campaigns against him with Jehoshaphat and the king of Edom.
+Mesha also appears in 2 Kings, chapter 3. He had paid tribute to Israel and rebelled after Ahab's death. Ahab's son Jehoram then campaigns against him, together with Jehoshaphat and the king of Edom.
 
-The stele traces Moab’s subjection to Israel back to Omri, Ahab’s father, and describes Mesha’s victories against Israel and Omri’s dynasty. That gives us the Moabite side of the broader conflict described in 2 Kings, though we should not assume that every episode on the stone corresponds to a particular scene in the biblical account.
+On the stele, Mesha traces Moab's subjection to Israel back to Omri, Ahab's father, and describes his victories against Israel and Omri's dynasty. So we have a Moabite account of the broader conflict described in 2 Kings. That doesn't mean that every battle he describes is the same battle as one in the biblical account.
 
-It is also worth remembering who commissioned the inscription. Mesha is explaining his own accomplishments. His claim later in the text that Israel has perished forever would have come as news to the Israelites who continued living there.
+Of course, this is Mesha telling us how well Mesha did. He says later that Israel has perished forever, which clearly didn't happen.
 
-This is not the only surviving Moabite writing. There is also the short Kerak inscription, and inscriptions on an altar from Ataruz, among other finds. But the Mesha Stele is by far the most substantial surviving text. It gives us enough connected language to do something more interesting than read a name on a seal.[^other]
+I initially thought this might be the only surviving Moabite writing. It isn't: there's also the short Kerak inscription and inscriptions on an altar from Ataruz, among other finds. But the Mesha Stele is by far the most substantial text we have. We can read connected sentences here, rather than just a name on a seal.[^other]
 
 ## First, Get Past the Letters
 
@@ -65,17 +63,17 @@ Those are {{< tooltip term="Phoenician" key="phoenician" >}} Unicode characters 
 
 Ancient Hebrew was written in a related script too. The square Hebrew letters we use today developed from {{< tooltip term="Aramaic" key="aramaic" >}} writing; in Jewish terminology, this is {{< tooltip term="כתב אשורי" key="ktav-ashuri" >}}. Calling it *Ashuri* does not mean that our letters came directly from Assyrian cuneiform.
 
-Put the same words into square Hebrew letters and suddenly things become considerably less foreign:
+Now put the same words into the Hebrew letters we use today:
 
 > אנכ משע בן כמש[ית] מלך מאב הדיבני
 
-I think a Hebrew reader with some familiarity with the Hebrew Bible can get quite a lot of that without having studied Moabite.
+I think a Hebrew speaker who knows some Biblical Hebrew can figure out more or less what that says.
 
-There is another qualification. Recognizing the words does not tell us exactly how Mesha pronounced them. This is primarily consonantal writing. Some letters can indicate vowels, but there is no system here that supplies the full pronunciation.
+A couple of things first, though. Being able to read it doesn't mean we'll pronounce it correctly. The writing mostly gives us consonants. Some letters can indicate vowels, but we don't have the full pronunciation written out for us.
 
-For instance, I initially read אנכ as something like *anoki*, using Hebrew אנכי to supply the vowels. Then I wondered whether it could have sounded more like *anak*. That uncertainty belongs in the experiment too: I could recognize “I” without knowing how to pronounce it. The spelling alone cannot settle those vowels. Nor should we automatically carry our modern Hebrew distinction between ב and בֿ, כ and כֿ, or פ and פֿ back into ninth-century Moabite. The history of those pronunciations is a separate question.
+For instance, the first word is אנכ. I read it as something like *anoki*, based on Hebrew אנכי. But maybe it sounded more like *anak*. I don't know. I can recognize the word as “I” without knowing the vowels. The spelling doesn't settle that.
 
-For the purposes of reading, I am going to lean on the Hebrew. It is useful scaffolding, provided I remember that it is scaffolding.
+The same goes for the different pronunciations of ב and בֿ, כ and כֿ, or פ and פֿ. We shouldn't assume the modern Hebrew distinctions apply to ninth-century Moabite. That's a separate historical question. I'm going to use Hebrew to help me read this, but I'm guessing about some of the pronunciation.
 
 ## “I Am Mesha”
 
@@ -83,25 +81,23 @@ Here is the opening again:
 
 > אנכ משע בן כמש[ית] מלך מאב הדיבני
 
-My first pass was essentially: “I am Mesha, son of {{< tooltip term="Kemosh" key="kemosh" >}}—or Kemosh-something—king of Moab, the Dibonite.”
+My first reading was: “I am Mesha, son of {{< tooltip term="Kemosh" key="kemosh" >}}—or Kemosh-something—king of Moab, the Dibonite.”
 
-אנכ is recognizable as אנכי, the first word of the Ten Commandments in Hebrew. בן and מלך need very little explanation. מאב is מואב without the ו, and הדיבני identifies him with Dibon.
+I think most of this is pretty straightforward. אנכ is like אנכי, the first word of the Ten Commandments in Hebrew. בן is “son,” מלך is “king,” מאב is מואב without the ו, and הדיבני means he's from Dibon.
 
 {{< admonition type="note" title="On “missing” letters" open=true >}}
 
-I will keep pointing out letters that seem to be missing, so a word on what is actually absent. Hebrew, Aramaic, Arabic, Phoenician and Moabite are all written in {{< tooltip term="abjads" key="abjad" >}}: the letters record consonants, and the reader largely supplies the vowels. Some letters, particularly ו and י, can also do double duty as vowel markers, the {{< tooltip term="*matres lectionis*" key="matres-lectionis" >}} or אמות הקריאה, but whether a scribe writes them is a matter of spelling convention.
+I keep saying that a letter is “missing,” but I should explain what I mean. Hebrew, Aramaic, Arabic, Phoenician and Moabite are all written in {{< tooltip term="abjads" key="abjad" >}}: the letters record consonants, and the reader largely supplies the vowels. Some letters, particularly ו and י, can also do double duty as vowel markers, the {{< tooltip term="*matres lectionis*" key="matres-lectionis" >}} or אמות הקריאה, but whether a scribe writes them is a matter of spelling convention.
 
 {{< tooltip term="Tanach" key="tanach" >}} itself spells some words both ways; David is usually דוד, but often דויד in Chronicles. Modern Hebrew without {{< tooltip term="*nikud*" key="nikud" >}} adds extra ו and י to help the reader, and Arabic writes long vowels while leaving short ones unmarked. Ninth-century inscriptions use these vowel letters sparingly. So מאב for מואב, or השעני for הושיעני, is mostly a difference in how the words are spelled, not evidence that Moabite lacked the sounds.
 
 {{< /admonition >}}
 
-The difficult bit is his father’s name. In the dictation, I tried a few readings and then slid into understanding it as “son of Kemosh,” as though the king were claiming divine parentage.
+His father's name was where I got stuck. I tried a few readings, all with Kemosh in them, and ended up taking it as “son of Kemosh.” I thought perhaps the king was calling himself the son of the god.
 
-That was a reading mistake, and an interesting one for this experiment. I recognized בן and the name of a familiar Moabite god, and supplied an explanation that seemed to fit.
+That turns out to be wrong. It's his father's personal name, which includes the name Kemosh. The opening is damaged and there are different restorations; the one used here is כמש[ית], *Kemoshyat*. So the checked translation is: “I am Mesha, son of Kemoshyat, king of Moab, the Dibonite.”[^opening]
 
-The correction is that this is his father’s personal name, containing the name Kemosh. The opening is damaged, and editions have offered different restorations; כמש[ית], *Kemoshyat*, is the reading used here. So the checked translation is: “I am Mesha, son of Kemoshyat, king of Moab, the Dibonite.”[^opening]
-
-I understood the introduction and most of its words. I did not correctly identify the whole name.
+I understood most of the sentence, but knowing who Kemosh was also led me to read something into it that wasn't there.
 
 Kemosh himself appears in Numbers, in the {{< tooltip term="Torah portion" key="parsha" >}} Chukat:
 
@@ -111,15 +107,13 @@ Kemosh himself appears in Numbers, in the {{< tooltip term="Torah portion" key="
 >
 > — Numbers 21:29
 
-The passage introduces this as something the מושלים, the poets or proverbial speakers, would say. It is part of the poem about Heshbon and Sihon, rather than a straightforward account of the Israelites singing a victory song about their own conquest of Moab.
+The passage attributes this to the מושלים, the poets or proverbial speakers, in the poem about Heshbon and Sihon. I originally described it as the Israelites singing about the downfall of Moab, but that isn't an accurate description of the passage.
 
-But the expression עם כמוש is clear enough. Kemosh was associated with Moab, and here is a Moabite king whose father’s name contains his name and who credits him with his victories.
-
-For someone who knows these names mainly from the Torah, seeing them in a text commissioned by a Moabite king is rather satisfying.
+The expression עם כמוש, “people of Kemosh,” is clear enough, though. This was Moab's god. And here we have a Moabite king whose father's name includes Kemosh and who credits Kemosh with his victories. I know these names mainly from the Torah, so it's interesting to see them in something written for a Moabite king.
 
 ## Thirty Years, With a Different Ending
 
-The next sentence is almost as accessible:
+Okay, the next sentence:
 
 > 𐤀𐤁𐤉 𐤟 𐤌𐤋𐤊 𐤟 𐤏𐤋 𐤟 𐤌𐤀𐤁 𐤟 𐤔𐤋𐤔𐤍 𐤟 𐤔𐤕 𐤟 𐤅𐤀𐤍𐤊 𐤟 𐤌𐤋𐤊𐤕𐤉 𐤟 𐤀𐤇𐤓 𐤟 𐤀𐤁𐤉
 >
@@ -129,7 +123,7 @@ The next sentence is almost as accessible:
 
 אבי מלך על מאב: my father ruled over Moab. Straightforward enough.
 
-שלשן שת takes a little more work. שלשן is “thirty,” corresponding to Hebrew שלשים. The ending is different, but the שלש is right there. שת means “year,” where Hebrew gives us שנה.
+שלשן שת is a little harder. שלשן is like שלשים, thirty, with a different ending. שת is a year, where Hebrew has שנה.
 
 My first reaction to שת was to connect it with שנה, helped by the context: a king describing how long his father ruled. It also reminded me of the Passover Haggadah, the text read at the seder:
 
@@ -137,9 +131,7 @@ My first reaction to שת was to connect it with שנה, helped by the context: 
 >
 > This year we are slaves; next year, free people.
 
-השתא is Aramaic, and I would not use it as a direct grammatical explanation of the Moabite form. It is simply another familiar expression that might help a reader make the connection.
-
-Even without it, context helps. His father ruled over Moab for thirty *something*. Years would be a reasonable place to start.
+Now, השתא is Aramaic. I'm not claiming that it explains the Moabite grammar; it's just a form I already knew that came to mind. A Hebrew speaker might make that connection, or might not. But even without it, I think you could figure it out from context. We're talking about someone's father ruling a place for thirty *something*. Presumably, years.
 
 Then:
 
@@ -147,19 +139,17 @@ Then:
 
 “And I reigned after my father.”
 
-Replace אנכ with אני and put the vowels back in, and this is not a particularly difficult Hebrew sentence. The spelling אחר אב also appears in transcriptions of this passage; either way, the sense is “after my father.”
-
-I have not learned a new language to get this far. I have recognized most of the words and made a couple of adjustments.
+That could almost be a modern Hebrew sentence. You'd say אני rather than אנכ or אנכי, but otherwise it's very familiar. Some transcriptions have אחר אב; either way, it means “after my father.” So far, I've mostly been reading words I know, with a few spelling differences and unfamiliar forms.
 
 ## A Bamah of Salvation
 
-The next sentence was where my reading became much more tentative. The version I was working from read:
+The third sentence was harder. This is the version I was reading:
 
 > ואעש הבמת זאת לכמש בקרחה במ[ת י]שע כי השעני מכל המלכן וכי הראני בכל שנאי
 
 My first pass was roughly: “I made this altar to Kemosh in Qarhoh, Bamat Yesha, because he saved me from all the kings and let me see my enemies defeated.”
 
-That gets the general purpose of the sentence. It also contains a few assumptions worth taking apart. Before doing that, there is a problem with the supplied text itself: editions differ. One traditional transcription gives:
+I think that gets the general meaning, but I made some assumptions. There's also an issue with the text I was given. Editions differ; one traditional transcription has:
 
 > ואעש הבמת זאת לכמש בקרחה במ[ת י]שע כי השעני מכל השלחן וכי הראני בכל שנאי
 
@@ -167,11 +157,11 @@ Roughly:
 
 > I made this high place for Kemosh in Qarhoh, a high place of salvation, because he saved me from all my attackers and let me triumph over all my enemies.
 
-There are damaged letters and disputed readings here. In particular, translations differ over the word rendered “attackers”; some give “kings.” This is not a place where I want to pretend that every letter and every interpretation is settled.[^readings]
+Some letters are damaged and some readings are disputed. The word translated here as “attackers” is “kings” in some translations. I don't know enough to settle that.[^readings]
 
-Still, look at how much is recognizable.
+But let's go through the words I could recognize.
 
-ואעש: I made. I got that directly from the Hebrew.
+ואעש: I made. That's straightforward Hebrew.
 
 הבמת זאת: this {{< tooltip term="bamah" key="bamah" >}}. The ה is the definite article, and the ת belongs to the noun. Hebrew gives us במה, and the ת is familiar from its construct form, במת. We should not read this as the plural במות just because the spelling looks a little unusual.
 
@@ -181,43 +171,41 @@ I initially called it an altar, which is how the word is used in rabbinic litera
 
 בקרחה: in Qarhoh, generally understood as a part of Dibon.
 
-במ[ת י]שע: this was another place where I supplied too much. I recognized ישע as salvation, but wondered whether he was naming the bamah “Yesha” or “Yeshua.” On the restoration used here, “a bamah of salvation” is enough; there is no need to make it a proper name.
+במ[ת י]שע: I recognized ישע as salvation, but I thought perhaps he was giving the bamah a name, “Yesha” or “Yeshua.” On this restoration, it just means “a bamah of salvation.” I got the salvation part, but the idea that this was its name was my own assumption.
 
-Again, the Hebrew got me to the right idea. It did not stop me from adding an interpretation the words did not require.
-
-כי השעני: because he saved me. Compare Hebrew הושיעני. Again, some of the letters we expect are absent, but the root and the suffix are recognizable.
+כי השעני: because he saved me. In Hebrew, הושיעני. It has fewer vowel letters, but I can recognize the root and the “me” ending.
 
 And then:
 
 > וכי הראני בכל שנאי
 
-My literal starting point was something like “he showed me … all my enemies.” In the dictation, I then understood it as being able to see myself victorious over my enemies. That was a way of getting at the sense, although “myself” is something I supplied, not a separate word in the inscription.
+I started with something like “he showed me … all my enemies.” I took it to mean that I was able to see myself emerging victorious over my enemies. There's no separate word for “myself” here; that was how I was trying to make sense of it.
 
-The checked sense is that Kemosh let Mesha see his enemies defeated, or triumph over them. So this is a case where recognizing the words and considering the context got me fairly close to the idiom.
+The checked meaning is that Kemosh let Mesha see his enemies defeated, or triumph over them. So I was fairly close on that one.
 
 Hebrew has a useful parallel in Psalms 59:11:
 
 > אלהים יראני בשררי
 
-The idea is seeing the downfall of one’s foes. So the Moabite expression is unfamiliar at first glance, but even its idiom has a recognizable biblical counterpart.
+This also has the sense of seeing your enemies defeated. I didn't immediately recognize the Moabite expression, but there's a similar one in Biblical Hebrew.
 
 ## Where the Hebrew Stops Being Enough
 
-I do not want to give the impression that the whole inscription reads like a slightly misspelled page of Kings.
+There are parts further on that I couldn't figure out as easily.
 
 Later, Mesha describes taking Nebo and killing its population. The text includes:
 
 > שבעת אלפן גברן וגרן וגברת וגרת ורחמת
 
-שבעת אלפן: seven thousand. גברן clearly has something to do with men. After that, I can make guesses, but guesses are not the same thing as a translation.
+שבעת אלפן is seven thousand. גברן is clearly something to do with men. After that, I'm guessing.
 
 In my first reading, I wondered whether גרן and גרת were connected with גרים—converts, or perhaps people living among another population. I took גברת as something feminine related to גבר, perhaps women. רחמת made me think of רחם, a womb, but I did not know what to do with it.
 
-Those associations are the point here. I recognized enough to see a list of people, with masculine and feminine categories, but could not confidently tell you what each category meant.
+I could tell he was listing people, with masculine and feminine categories. I couldn't tell you exactly what all of them were.
 
-Checking translations does not produce complete agreement either. Some divide the population into native and resident men and women, followed by female servants or concubines; another gives men, boys, women, girls, and pregnant women. The גר connection helps with one interpretation, and the רחם association resembles another. Neither association, by itself, settles the text.[^population]
+The translations don't all agree either. Some have native and resident men and women, followed by female servants or concubines. Another has men, boys, women, girls, and pregnant women. So the connection I made with גר fits one interpretation, and רחם fits another, but that doesn't tell me which reading is right.[^population]
 
-My own conclusion at this point was essentially: he definitely says he killed a lot of people; I cannot tell you precisely how he classified them. That is a meaningful level of comprehension, but it has limits.
+Basically, he definitely says he killed a lot of people. I understand that much. I'm not sure what all his classifications mean.
 
 Another passage says:
 
@@ -229,37 +217,25 @@ Another passage says:
 
 מבקע השחרת suggests the breaking of dawn. עד הצהרם is close to עד הצהריים.
 
-This sentence I understood fairly readily as going at night and fighting from dawn until noon. ואלתחם caught my attention because I would expect a Hebrew form such as ואלחם. I recognized לחם, noticed the unexpected ת, and understood the action without knowing the conjugation.
+I read this as going at night and fighting from the crack of dawn until noon. ואלתחם isn't the Hebrew form I would expect; I'd expect something like ואלחם. Clearly, the conjugation is different. But I recognized לחם and could understand the sentence without knowing what the ת was doing there.
 
-That is a useful result too: an unfamiliar grammatical form did not necessarily prevent me from following the sentence.
-
-There are differences in vocabulary too. The inscription uses קר for a city, related to the family of words we recognize in קריה and קרית. Familiar material, but not always in the form or distribution I would expect from Hebrew.
-
-These are real differences. The fact that I can follow the story does not mean I have accounted for its grammar.
+There are also differences in which words are used. The normal Hebrew word for a city is עיר. The inscription uses קר, related to קריה and קרית, which we also have in Hebrew. So there are familiar words and roots, but they don't always appear where I'd expect them. I can follow what's happening without being able to explain all the grammar.
 
 {{< join-channels >}}
 
 ## So, Could I Talk to Mesha?
 
-That is where I need to be a little more careful with my original question.
+My first impression was that, if the Moabites were still around, a Hebrew speaker could probably communicate with them somewhat effectively. Having gone through the text, I still think the closeness is striking, but I should be more careful about what that establishes.
 
-First, the result is mixed in a fairly specific way. I could follow much of the opening, sometimes almost word for word. I could infer some unfamiliar forms from context. I also misidentified part of a name and wondered whether a descriptive phrase was a place name. Further on, I could understand the general claim without understanding every category in a list.
+I understood a lot of the opening, sometimes almost word for word. I figured out some forms from context. I also got part of a name wrong and thought a descriptive phrase might be a name. Further on, I understood the general claim without knowing exactly which groups of people he was listing. Those mistakes belong here too; correcting them afterward doesn't change what I understood on the first reading.
 
-Correcting those readings afterward should not erase them from the experiment. They show both how far the Hebrew got me and where it encouraged me to fill in gaps.
+But reading this, with familiar letters and time to think, is different from hearing someone speak. I don't know exactly how Mesha pronounced these words, how quickly I'd recognize them, or what an everyday conversation would sound like. Knowing Biblical Hebrew helps, and so does knowing roughly what he's talking about. If a king is describing a battle, I already have some idea of what to expect.
 
-Reading a formal inscription with time to think, familiar letters, and help from the Hebrew Bible is also not the same as understanding someone speaking. I do not know exactly what Mesha sounded like, how quickly I would recognize his words aloud, or what his everyday conversation would have been like. Royal victory inscriptions also have a fairly predictable range of subjects. Once I know that the king is describing a battle, I have a useful head start.
+Hebrew and Moabite are very close members of the {{< tooltip term="Canaanite" key="canaanite-languages" >}} language group, and I think you can see that pretty clearly here. These sentences are easier for me to work through than plenty of things I've come across in Arabic, even though very different varieties of Arabic are called dialects of the same language.
 
-Still, the amount I can recognize is striking. Hebrew and Moabite are very close members of the {{< tooltip term="Canaanite" key="canaanite-languages" >}} language group. The opening of this inscription makes that closeness tangible.
+That doesn't give me a precise ranking of mutual intelligibility. I'd need to distinguish reading from listening, among other things. But calling two things languages, or calling them dialects, doesn't tell you how much of one a speaker of the other will understand.
 
-I would be comfortable saying that these Moabite sentences are easier for me to work through than plenty of things I encounter in Arabic, even though some very distant varieties of Arabic share a single language name. I would be less comfortable turning that experience into a precise ranking of mutual intelligibility. Written comprehension and spoken comprehension are different tests.
-
-But the names alone certainly do not tell us how far apart the languages are.
-
-I started with a text that looked completely foreign. Change the letters, recognize a few spellings, and suddenly I am reading about somebody’s father, how many years he ruled, and what his son did after him.
-
-There are still words I cannot account for. There are vowels I cannot recover. But I can follow quite a lot of what a Moabite king wanted to tell me, nearly three thousand years later, using Hebrew I already know.
-
-That seems worth getting past a different alphabet for.
+Once I got past the alphabet, I could read about his father ruling Moab, how many years he ruled, and Mesha ruling after him. I don't know all the words, and I'm guessing at some of the pronunciation. But I could understand quite a lot of a text written nearly three thousand years ago without having studied the language. I think that's pretty cool.
 
 ---
 
@@ -278,3 +254,4 @@ _Featured image: detail of a photograph of the Mesha Stele by Mbzt, 2012, croppe
 [^readings]: Compare the transcription and translation attributed to Alviero Niccacci, “The Stele of Mesha and the Bible: Verbal System and Narrativity,” *Orientalia* 63 (1994), pp. 226–248, reproduced in the [Mesha Stele text section](https://en.wikipedia.org/wiki/Mesha_Stele#Text), with [André Lemaire’s translation](https://library.biblicalarchaeology.org/sidebar/a-new-reading-translation-of-the-mesha-stela/). They illustrate the differences behind “attackers,” “kings,” and the restoration involving ישע. The Hebrew parallel is Psalms 59:11.
 
 [^population]: Compare Lemaire’s translation of lines 16–17 with the Jordan Museum’s translation and [the translation adapted from Klaas Smelik at Livius](https://www.livius.org/sources/content/anet/320-the-stela-of-mesha/). Their differing lists are a reason to avoid deriving a confident translation from the apparent Hebrew cognates alone.
+

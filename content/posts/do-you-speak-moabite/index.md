@@ -37,6 +37,10 @@ So I want to go through the opening of the Mesha Stele and see how much of it I 
 
 I've kept my initial guesses here, including the mistakes, and explained the corrections afterward. The question is how much a Hebrew speaker could understand from the text, so getting something wrong is part of the experiment too.
 
+I also made a video of the reading, if you'd rather watch me work through it:
+
+{{< youtube id="oBhQEzOfnlE" title="Can a Hebrew Speaker Read Ancient Moabite? Trying the Mesha Stele" >}}
+
 ## A Moabite King Introduces Himself
 
 The Mesha Stele, also called the Moabite Stone, is a ninth-century BCE inscription commissioned by Mesha, king of Moab. It was found at Dhiban, the biblical Dibon, in what is now Jordan, and is now in the Louvre. It has thirty-four lines describing his victories and building projects.[^stele]

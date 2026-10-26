@@ -3,7 +3,7 @@ timeout: 300s
 relativeURLs: false
 canonifyURLs: false
 title: "Dew of Your Youth"
-languageCode: "en"
+locale: "en"
 defaultContentLanguage: "en"
 enableRobotsTXT: true
 summaryLength: 40
@@ -16,8 +16,11 @@ permalinks:
 
 imaging:
   resampleFilter: Lanczos
-  quality: 85
-  hint: photo
+  jpeg:
+    quality: 85
+  webp:
+    quality: 85
+    hint: photo
 
 menu:
   main:

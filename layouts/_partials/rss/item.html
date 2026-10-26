@@ -44,7 +44,7 @@
     {{- if .Page.Params.authors -}}
     {{- $lang := ( .Page.Language.Lang | default $.Lang ) -}}
         {{- range $i, $name := .Page.Params.authors -}}
-            {{- $authors := $.Site.Data.authors -}}
+            {{- $authors := hugo.Data.authors -}}
             {{- if $authors -}}
                 {{- with partial "function/author.html" (dict "name" $name "author" (index $authors $name) "lang" $lang) -}}
                     <author>

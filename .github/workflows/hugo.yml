@@ -35,7 +35,7 @@ jobs:
     outputs:
       new_post: ${{ steps.new-posts.outputs.first }}
     env:
-      HUGO_VERSION: 0.161.1
+      HUGO_VERSION: 0.167.0
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - name: Install Hugo CLI

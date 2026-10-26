@@ -18,7 +18,7 @@ hugo new posts/my-post-title/index.md
 npx prettier --write "layouts/**/*.html"
 ```
 
-The site deploys automatically via GitHub Actions on push to `master`. The workflow installs Hugo extended v0.154.5, Dart Sass, and npm deps before building.
+The site deploys automatically via GitHub Actions on push to `master`. The workflow installs Hugo extended v0.167.0, Dart Sass, and npm deps before building.
 
 ## Architecture
 

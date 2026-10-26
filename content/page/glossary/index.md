@@ -88,6 +88,23 @@ Essays here lean on classical rabbinic literature, comparative Semitic linguisti
 | **Bracha (pl. brachos)**                          | Hebrew         | A blessing, such as the one said before eating bread (_hamotzi_).                                                                   |
 | **Elul**                                          | Hebrew         | The month before Rosh Hashanah, set aside for introspection and repentance.                                                         |
 | **Yahrzeit**                                      | Yiddish        | The anniversary of a death, kept on its Hebrew calendar date.                                                                       |
+| **Tzidkat HaTzaddik**                             | Hebrew         | "The Righteousness of the Righteous": Rav Tzadok's book of short numbered teachings on spiritual life.                              |
+| **Os (pl. otiyot)**                               | Hebrew         | Literally "letter": a numbered paragraph in a book like _Tzidkat HaTzaddik_.                                                        |
+| **Yisrael**                                       | Hebrew         | Israel: the name Yaakov received after wrestling the angel (Genesis 32:29), and so the name of his descendants.                     |
+| **Shevatim**                                      | Hebrew         | The tribes of Israel, each descended from one of Yaakov's sons.                                                                     |
+| **Moshe Rabbeinu**                                | Hebrew         | "Moshe our teacher": Moses, through whom the Torah was given.                                                                       |
+| **Kohen (pl. kohanim)**                           | Hebrew         | A priest: a male descendant of Aharon, Moshe's brother and the first high priest.                                                   |
+| **Tzaddik**                                       | Hebrew         | A righteous person; tradition calls Yosef _the_ tzaddik.                                                                            |
+| **Chassid**                                       | Hebrew         | A pious person who goes beyond what the law requires.                                                                               |
+| **Kedusha**                                       | Hebrew         | Holiness: being set apart for God.                                                                                                  |
+| **Tahara**                                        | Hebrew         | Ritual purity.                                                                                                                      |
+| **Middot (sing. middah)**                         | Hebrew         | Character traits; also the particular spiritual bent of a person or group.                                                          |
+| **Chochma**                                       | Hebrew         | Wisdom.                                                                                                                             |
+| **Talmid chacham (pl. talmidei chachamim)**       | Hebrew         | Literally "a student of a wise man": a Torah scholar.                                                                               |
+| **Ger (pl. gerim)**                               | Hebrew         | A convert to Judaism.                                                                                                               |
+| **Zera Yisrael**                                  | Hebrew         | "Seed of Israel": someone of Jewish descent, typically through the father, who is not Jewish by halacha.                            |
+| **Kinui**                                         | Hebrew         | A by-name or epithet: what someone is called, as distinct from what he is.                                                          |
+| **Avodah zarah**                                  | Hebrew         | Literally "strange worship": idolatry.                                                                                              |
 
 ## The Mishkan and the Temple
 

@@ -25,7 +25,7 @@ seo:
 storyShare: true
 ---
 
-My father and I were learning אותיות ס״ב–ס״ג in *Tzidkat HaTzaddik*, where Rav Tzadok talks about the qualities people inherit from their parents. There are some interesting ideas here. There are also a few places where I had to stop and say, “Hang on. Didn't you just tell us the opposite?”
+My father and I were learning {{< tooltip term="אותיות" key="otiyot" >}} ס״ב–ס״ג in {{< tooltip term="Tzidkat HaTzaddik" key="tzidkat-hatzaddik" >}}, where {{< tooltip term="Rav Tzadok" key="rav-tzadok" >}} talks about the qualities people inherit from their parents. There are some interesting ideas here. There are also a few places where I had to stop and say, “Hang on. Didn't you just tell us the opposite?”
 
 <!--more-->
 
@@ -35,9 +35,9 @@ He starts with this:
 
 There are many מעלות, qualities or spiritual attainments, which great people in earlier generations acquired for themselves and for their descendants.
 
-The examples are fairly familiar. Yaakov acquired the name ישראל. Yosef acquired the name צדיק. David acquired the name חסיד. Levi acquired טהרה, and Aharon and his descendants acquired קדושה.
+The examples are fairly familiar. Yaakov acquired the name {{< tooltip term="ישראל" key="yisrael" >}}. Yosef acquired the name {{< tooltip term="צדיק" key="tzaddik" >}}. David acquired the name {{< tooltip term="חסיד" key="chassid" >}}. Levi acquired {{< tooltip term="טהרה" key="tahara" >}}, and Aharon and his descendants acquired {{< tooltip term="קדושה" key="kedusha" >}}.
 
-But he means something fairly strong by this. Aharon did something that imparted a quality to his descendants. It became part of what they are. So a כהן has this aspect of קדושה even if you happen to meet him and find it very, very well hidden.
+But he means something fairly strong by this. Aharon did something that imparted a quality to his descendants. It became part of what they are. So a {{< tooltip term="כהן" key="kohen" >}} has this aspect of קדושה even if you happen to meet him and find it very, very well hidden.
 
 You could have fooled me, but apparently it's there.
 
@@ -65,13 +65,13 @@ The question came up whether Rav Tzadok means that only these people can have th
 
 My reading is that other people can acquire them. The point is that certain people have them as an inheritance. They don't have to work for them in quite the same way. That doesn't mean the quality will be obvious in everything they do, but it's there.
 
-During the conversation, I called it epigenetics. I'm using that as an analogy; Rav Tzadok isn't telling us about genes. He's saying that something a person does can become part of what gets passed on to their descendants.
+During the conversation, I called it {{< tooltip term="epigenetics" key="epigenetics" >}}. I'm using that as an analogy; Rav Tzadok isn't telling us about genes. He's saying that something a person does can become part of what gets passed on to their descendants.
 
 And he takes this seriously enough to apply it to converts:
 
 > אבל הגרים אי אפשר להם לזכות למעלת ישראל כיון שאינו מזרעו של יעקב.
 
-A convert joins the Jewish people. He's a Jew. But he isn't a biological descendant of Yaakov. Rav Tzadok distinguishes the inherited מעלה of ישראל from bearing the name ישראל through conversion, which he connects to “בשם ישראל יכנה.”
+A convert joins the Jewish people. He's a Jew. But he isn't a biological descendant of Yaakov. Rav Tzadok distinguishes the inherited מעלה of ישראל from bearing the name ישראל through conversion, which he connects to “{{< tooltip term="בשם ישראל יכנה" key="beshem-yisrael-yechaneh" >}}.”
 
 This is an essentialist argument. Virtue, or at least certain kinds of virtue, is being connected to ancestry. Rav Tzadok was not particularly concerned about whether this would go over well in a modern discussion of identity.
 
@@ -80,34 +80,34 @@ He would definitely be canceled.
 {{< admonition type="note" title="A few caveats" >}}
 I should say that I'm explaining Reb Tzadok here, and I don't find all of this easy to accept. I'm uncomfortable with essentialist arguments, especially when they connect virtue or spiritual qualities to ancestry.
 
-Also, we learned something rather different just a few paragraphs earlier. In [אות נ״ד](https://he.wikisource.org/wiki/צדקת_הצדיק/נד), Reb Tzadok writes, “עיקר היהדות בקריאת שם ישראל.” He discusses a convert who doesn't even know that Shabbos and עבודה זרה are prohibited, and asks what makes him a גר. His answer: “רק בקריאת שם ישראל די.” Bearing the name ישראל is enough.
+Also, we learned something rather different just a few paragraphs earlier. In [אות נ״ד](https://he.wikisource.org/wiki/צדקת_הצדיק/נד), Reb Tzadok writes, “עיקר היהדות בקריאת שם ישראל.” He discusses a convert who doesn't even know that {{< tooltip term="Shabbos" key="shabbos" >}} and {{< tooltip term="עבודה זרה" key="avodah-zarah" >}} are prohibited, and asks what makes him a {{< tooltip term="גר" key="ger" >}}. His answer: “רק בקריאת שם ישראל די.” Bearing the name ישראל is enough.
 
-Now, in אות ס״ב, that same name is described as a כינוי for converts, distinguished from an inherited quality they don't possess. Maybe these are different questions: what makes somebody Jewish, and which particular מעלות he inherits. But I think the earlier passage needs to be part of this discussion too.
+Now, in אות ס״ב, that same name is described as a {{< tooltip term="כינוי" key="kinui" >}} for converts, distinguished from an inherited quality they don't possess. Maybe these are different questions: what makes somebody Jewish, and which particular מעלות he inherits. But I think the earlier passage needs to be part of this discussion too.
 
-I also brought up זרע ישראל: somebody can have Jewish ancestry without being halachically Jewish. Jewish status and ancestral connection aren't exactly the same question. This relates to what I wrote in [Categorically Wrong](/post/categorically-wrong/): halachic categories matter, but I don't think they exhaust everything real about a person's connection to the Jewish people.
+I also brought up {{< tooltip term="זרע ישראל" key="zera-yisrael" >}}: somebody can have Jewish ancestry without being {{< tooltip term="halachically" key="halacha" >}} Jewish. Jewish status and ancestral connection aren't exactly the same question. This relates to what I wrote in [Categorically Wrong](/post/categorically-wrong/): halachic categories matter, but I don't think they exhaust everything real about a person's connection to the Jewish people.
 {{< /admonition >}}
 
 But there's another part of the argument that I find interesting. We sometimes talk about these things as though God was handing out goodies a few thousand years ago. Who wants to be the chosen people? Who wants a special birthright? Fine, everyone got their thing, and now that part of history is over.
 
-Rav Tzadok seems to be describing something that continues. A person acquires a מעלה and can acquire it for the people who come after him. That's how he's reading the families of the שבטים in the Torah. Each family has something of its own, something the founder of that family acquired.
+Rav Tzadok seems to be describing something that continues. A person acquires a מעלה and can acquire it for the people who come after him. That's how he's reading the families of the {{< tooltip term="שבטים" key="shevatim" >}} in the Torah. Each family has something of its own, something the founder of that family acquired.
 
 He then connects that to the different groups within the Jewish people:
 
 > אלו בעלי מדה זו ואלו חפיצים בזו, ולכן אמרו על כל המחלוקת שבישראל: אלו ואלו דברי אלהים חיים.
 
-Different people have different מידות and are drawn to different things. This fits a theme we've encountered with him before: there's the Torah that applies to everybody, and there are things particular to a person or a group. Everybody doesn't have to be doing exactly the same thing.
+Different people have different {{< tooltip term="מידות" key="middot" >}} and are drawn to different things. This fits a theme we've encountered with him before: there's the Torah that applies to everybody, and there are things particular to a person or a group. Everybody doesn't have to be doing exactly the same thing.
 
 ## Torah is the exception
 
-Then he gets to Moshe Rabbeinu.
+Then he gets to {{< tooltip term="Moshe Rabbeinu" key="moshe-rabbeinu" >}}.
 
-Moshe acquired Torah and חכמה, but he didn't acquire them for his descendants. Rav Tzadok brings the statement that Moshe wanted his greatness passed on to his children, and it wasn't given to him.
+Moshe acquired Torah and {{< tooltip term="חכמה" key="chochma" >}}, but he didn't acquire them for his descendants. Rav Tzadok brings the statement that Moshe wanted his greatness passed on to his children, and it wasn't given to him.
 
 > ולכן אמרו: כתר תורה מונח לכל.
 
 The crown of Torah is available to everybody.
 
-Your father can't do that part for you. Being the son of a תלמיד חכם doesn't make you a תלמיד חכם. You have to learn the Torah yourself.
+Your father can't do that part for you. Being the son of a {{< tooltip term="תלמיד חכם" key="talmid-chacham" >}} doesn't make you a תלמיד חכם. You have to learn the Torah yourself.
 
 That's also why Moshe can be an אב בתורה, a father in Torah, to people who aren't his biological children. His relationship to תלמידי חכמים isn't confined to his own descendants.
 

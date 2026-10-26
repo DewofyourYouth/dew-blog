@@ -91,7 +91,7 @@ I also brought up {{< tooltip term="זרע ישראל" key="zera-yisrael" >}}: s
 
 But there's another part of the argument that I find interesting. We sometimes talk about these things as though God was handing out goodies a few thousand years ago. Who wants to be the chosen people? Who wants a special birthright? Fine, everyone got their thing, and now that part of history is over.
 
-Rav Tzadok seems to be describing something that continues. A person acquires a מעלה and can acquire it for the people who come after him. That's how he's reading the families of the {{< tooltip term="שבטים" key="shevatim" >}} in the Torah. Each family has something of its own, something the founder of that family acquired.
+Rav Tzadok seems to be describing something that continues. A person acquires a מעלה and can acquire it for the people who come after him. That's how he's reading the families of the {{< tooltip term="שבטים" key="shevatim" >}} in the Torah. Each family has something of its own, something the founder of that family acquired. This is something you, here in 2026, have the power to do for your descendants! You can acquire a מעלה and pass it on to your offspring for all time!
 
 He then connects that to the different groups within the Jewish people:
 

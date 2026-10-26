@@ -32,8 +32,8 @@ My father and I were learning {{< tooltip term="אותיות ס״ב–ס״ג" ke
 He starts with this:
 
 > מעלות הרבה יש, וכולם זכו כבר גדולי הדורות ונטלום, וזכו לבניהם אחריהם.
-
-There are many מעלות, qualities or spiritual attainments, which great people in earlier generations acquired for themselves and for their descendants.
+>
+> There are many מעלות, qualities or spiritual attainments, which great people in earlier generations acquired for themselves and for their descendants.
 
 The examples are fairly familiar. Yaakov acquired the name {{< tooltip term="ישראל" key="yisrael" >}}. Yosef acquired the name {{< tooltip term="צדיק" key="tzaddik" >}}. David acquired the name {{< tooltip term="חסיד" key="chassid" >}}. Levi acquired {{< tooltip term="טהרה" key="tahara" >}}, and Aharon and his descendants acquired {{< tooltip term="קדושה" key="kedusha" >}}.
 
@@ -70,6 +70,8 @@ During the conversation, I called it {{< tooltip term="epigenetics" key="epigene
 And he takes this seriously enough to apply it to converts:
 
 > אבל הגרים אי אפשר להם לזכות למעלת ישראל כיון שאינו מזרעו של יעקב.
+>
+> But converts can't attain the מעלה of ישראל, since they aren't descended from Yaakov.
 
 A convert joins the Jewish people. He's a Jew. But he isn't a biological descendant of Yaakov. Rav Tzadok distinguishes the inherited מעלה of ישראל from bearing the name ישראל through conversion, which he connects to “{{< tooltip term="בשם ישראל יכנה" key="beshem-yisrael-yechaneh" >}}.”
 
@@ -94,6 +96,8 @@ Rav Tzadok seems to be describing something that continues. A person acquires a 
 He then connects that to the different groups within the Jewish people:
 
 > אלו בעלי מדה זו ואלו חפיצים בזו, ולכן אמרו על כל המחלוקת שבישראל: אלו ואלו דברי אלהים חיים.
+>
+> Some have this trait and some are drawn to that one, and that's why they said of every dispute in Israel: “These and these are the words of the living God” (*Eruvin* 13b).
 
 Different people have different {{< tooltip term="מידות" key="middot" >}} and are drawn to different things. This fits a theme we've encountered with him before: there's the Torah that applies to everybody, and there are things particular to a person or a group. Everybody doesn't have to be doing exactly the same thing.
 
@@ -104,8 +108,8 @@ Then he gets to {{< tooltip term="Moshe Rabbeinu" key="moshe-rabbeinu" >}}.
 Moshe acquired Torah and {{< tooltip term="חכמה" key="chochma" >}}, but he didn't acquire them for his descendants. Rav Tzadok brings the statement that Moshe wanted his greatness passed on to his children, and it wasn't given to him.
 
 > ולכן אמרו: כתר תורה מונח לכל.
-
-The crown of Torah is available to everybody.
+>
+> That's why they said: “The crown of Torah is set out for everyone.”
 
 Your father can't do that part for you. Being the son of a {{< tooltip term="תלמיד חכם" key="talmid-chacham" >}} doesn't make you a תלמיד חכם. You have to learn the Torah yourself.
 
@@ -120,8 +124,8 @@ Then we turn to the next paragraph.
 אות ס״ג begins:
 
 > הבנים דומים לאם, כמו שכתב בפסחים: ישא בת תלמיד חכם, שאם כו׳ בניו ת״ח; ואלו אם הוא ת״ח אין בניו ת״ח.
-
-Sons resemble their mothers. A man should marry the daughter of a תלמיד חכם so that his sons will be תלמידי חכמים, whereas being a תלמיד חכם himself doesn't ensure that his children will be.
+>
+> Sons resemble their mother, as it says in tractate *Pesachim* (49a): “A man should marry the daughter of a תלמיד חכם, for if [he dies or is exiled], his sons will be תלמידי חכמים.” Whereas if he himself is a תלמיד חכם, his sons aren't תלמידי חכמים.
 
 Wait a second.
 
@@ -138,6 +142,8 @@ That math is clear.
 But a daughter also spends time with her mother, so she'll resemble her mother through habit:
 
 > מצד ההרגל ולא מצד התולדה.
+>
+> From habit, not from birth.
 
 That's nurture rather than nature. He's distinguishing what you're born with from what you pick up by spending your life around somebody.
 
@@ -158,12 +164,14 @@ But yes. I do want to know how we know that.
 Then Rav Tzadok adds something else:
 
 > ולעולם האבות ניכרים בבניהם, כי מה שהוא סתום במעמקי הלב של האבות מתגלה לפועל בבנים.
-
-Fathers are recognizable in their children because something hidden in the depths of the fathers' hearts becomes actual in their children.
+>
+> Fathers are always recognizable in their sons, because what is hidden in the depths of the fathers' hearts becomes actual in the sons.
 
 He ends:
 
 > וכך קבלתי כי הבנים מעמקי לב האבות.
+>
+> And so I have received: the sons are the depths of the fathers' hearts.
 
 So now we have another thing to account for. The sons resemble their mothers, but they also reveal something deep within their fathers.
 

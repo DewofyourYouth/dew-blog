@@ -49,7 +49,7 @@ This is a Hugo static site using the **DoIt** theme (git submodule at `themes/Do
 - Summary length is configured to 40 words; use `<!--more-->` to set a manual break
 - For image imports use the `image` shortcode with `src`, `alt`, and optional `caption` parameters
 - Grouped images can use the `img-gallery` shortcode with nested `image` shortcodes inside
-- Admonitions use the `admonition` shortcode with `type` (note, warning, etc.) and `title` parameters - don't just put a bold **NOTE** or alike in the text.
+- Admonitions use the `admonition` shortcode with `type` (note, warning, etc.) and `title` parameters - don't just put a bold **NOTE** or alike in the text. Custom local types: `reflection` (contemplative aside) and `joke` (a told joke, set off from the argument; keep the author's reaction to it outside the box).
 - Insert one `join-channels` shortcode at a natural place in each post to promote newsletter and social media channels.
 - There are four categories: `Language Learning`, `Genealogy`, `Faith / Torah`, and `Tech`. Each has a distinct tone and style (see below). Posts should be tagged with relevant keywords for search and filtering.
 

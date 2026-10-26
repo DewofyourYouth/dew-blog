@@ -46,6 +46,43 @@ html.dark .single .content .admonition.reflection {
   }
 }
 
+// Custom "joke" admonition type: a told joke, set off from the argument it
+// interrupts. Same specificity rules as reflection above.
+//
+// Palette: warm mustard, distinct from the theme's orange warning.
+
+$joke-accent: #b8892b;
+$joke-bg: rgba(184, 137, 43, 0.1);
+$joke-bar: rgba(184, 137, 43, 0.25);
+
+.single .content .admonition.joke {
+  border-left-color: $joke-accent;
+  background-color: $joke-bg;
+
+  span.icon > svg {
+    color: $joke-accent;
+  }
+
+  .admonition-title {
+    border-bottom-color: $joke-bg;
+    background-color: $joke-bar;
+  }
+
+  &.open .admonition-title {
+    background-color: $joke-bg;
+  }
+}
+
+html.dark .single .content .admonition.joke {
+  $joke-accent-dark: #ddb460;
+
+  border-left-color: $joke-accent-dark;
+
+  span.icon > svg {
+    color: $joke-accent-dark;
+  }
+}
+
 // RTL posts (frontmatter postLang: he): the theme pins the colored bar and the
 // icons to the left; mirror them so they sit on the reading-start side.
 .single[dir="rtl"] .content .admonition {
@@ -70,5 +107,9 @@ html.dark .single .content .admonition.reflection {
 
   &.reflection {
     border-right-color: $reflection-accent;
+  }
+
+  &.joke {
+    border-right-color: $joke-accent;
   }
 }

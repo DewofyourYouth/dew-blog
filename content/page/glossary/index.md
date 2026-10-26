@@ -94,6 +94,9 @@ Essays here lean on classical rabbinic literature, comparative Semitic linguisti
 | **Shevatim**                                      | Hebrew         | The tribes of Israel, each descended from one of Yaakov's sons.                                                                     |
 | **Moshe Rabbeinu**                                | Hebrew         | "Moshe our teacher": Moses, through whom the Torah was given.                                                                       |
 | **Kohen (pl. kohanim)**                           | Hebrew         | A priest: a male descendant of Aharon, Moshe's brother and the first high priest.                                                   |
+| **Maalah (pl. maalot)**                           | Hebrew         | A spiritual quality or attainment; literally "a step up."                                                                           |
+| **Av batorah**                                    | Hebrew         | A father in Torah: a teacher, counted as a parent to the students he teaches.                                                       |
+| **Hergel and toldah**                             | Hebrew         | Habit and birth: what a person acquires by living around someone, as opposed to what he is born with.                               |
 | **Tzaddik**                                       | Hebrew         | A righteous person; tradition calls Yosef _the_ tzaddik.                                                                            |
 | **Chassid**                                       | Hebrew         | A pious person who goes beyond what the law requires.                                                                               |
 | **Kedusha**                                       | Hebrew         | Holiness: being set apart for God.                                                                                                  |

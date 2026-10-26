@@ -33,7 +33,7 @@ He starts with this:
 
 > מעלות הרבה יש, וכולם זכו כבר גדולי הדורות ונטלום, וזכו לבניהם אחריהם.
 >
-> There are many מעלות, qualities or spiritual attainments, which great people in earlier generations acquired for themselves and for their descendants.
+> There are many {{< tooltip term="מעלות" key="maalah" >}}, qualities or spiritual attainments, which great people in earlier generations acquired for themselves and for their descendants.
 
 The examples are fairly familiar. Yaakov acquired the name {{< tooltip term="ישראל" key="yisrael" >}}. Yosef acquired the name {{< tooltip term="צדיק" key="tzaddik" >}}. David acquired the name {{< tooltip term="חסיד" key="chassid" >}}. Levi acquired {{< tooltip term="טהרה" key="tahara" >}}, and Aharon and his descendants acquired {{< tooltip term="קדושה" key="kedusha" >}}.
 
@@ -82,7 +82,7 @@ He would definitely be canceled.
 {{< admonition type="note" title="A few caveats" >}}
 I should say that I'm explaining Reb Tzadok here, and I don't find all of this easy to accept. I'm uncomfortable with essentialist arguments, especially when they connect virtue or spiritual qualities to ancestry. Also, this is just a synopsis of a few paragraphs of a much longer work. Rav Tzadok is a complex thinker, and I don't want to oversimplify him. In other places we make more nuanced arguments about virtue and nature and identity that don't fit neatly into the categories he uses here. This is a recap of what we studies in 2 sections of a work that consists of 264 sections. The getting cancelled thing is meant to be taken as a joke.
 
-Also, we learned something rather different just a few paragraphs earlier. In [אות נ״ד](https://he.wikisource.org/wiki/צדקת_הצדיק/נד), Reb Tzadok writes, “עיקר היהדות בקריאת שם ישראל.” He discusses a convert who doesn't even know that {{< tooltip term="Shabbos" key="shabbos" >}} and {{< tooltip term="עבודה זרה" key="avodah-zarah" >}} are prohibited, and asks what makes him a {{< tooltip term="גר" key="ger" >}}. His answer: “רק בקריאת שם ישראל די.” Bearing the name ישראל is enough.
+Also, we learned something rather different just a few paragraphs earlier. In [אות נ״ד](https://he.wikisource.org/wiki/צדקת_הצדיק/נד), Reb Tzadok writes, “עיקר היהדות בקריאת שם ישראל”: the essence of being Jewish is being called by the name ישראל. He discusses a convert who doesn't even know that {{< tooltip term="Shabbos" key="shabbos" >}} and {{< tooltip term="עבודה זרה" key="avodah-zarah" >}} are prohibited, and asks what makes him a {{< tooltip term="גר" key="ger" >}}. His answer: “רק בקריאת שם ישראל די.” Bearing the name ישראל is enough.
 
 Now, in אות ס״ב, that same name is described as a {{< tooltip term="כינוי" key="kinui" >}} for converts, distinguished from an inherited quality they don't possess. Maybe these are different questions: what makes somebody Jewish, and which particular מעלות he inherits. But I think the earlier passage needs to be part of this discussion too.
 
@@ -113,7 +113,7 @@ Moshe acquired Torah and {{< tooltip term="חכמה" key="chochma" >}}, but he d
 
 Your father can't do that part for you. Being the son of a {{< tooltip term="תלמיד חכם" key="talmid-chacham" >}} doesn't make you a תלמיד חכם. You have to learn the Torah yourself.
 
-That's also why Moshe can be an אב בתורה, a father in Torah, to people who aren't his biological children. His relationship to תלמידי חכמים isn't confined to his own descendants.
+That's also why Moshe can be an {{< tooltip term="אב בתורה" key="av-batorah" >}}, a father in Torah, to people who aren't his biological children. His relationship to תלמידי חכמים isn't confined to his own descendants.
 
 Okay. I understand the distinction. There are inherited spiritual qualities, but Torah scholarship isn't one of them.
 
@@ -191,7 +191,7 @@ I don't know why you'd think the mild child abuse had anything to do with it.
 
 The child abuse helps, but apparently it's not enough.
 
-I'm joking, obviously. But it does bring me back to the distinction he made himself: what comes from תולדה, and what comes from הרגל? What was passed on, and what did the child acquire from the life the parents built around him?
+I'm joking, obviously. But it does bring me back to the distinction he made himself: what comes from {{< tooltip term="תולדה" key="toldah" >}}, and what comes from {{< tooltip term="הרגל" key="hergel" >}}? What was passed on, and what did the child acquire from the life the parents built around him?
 
 Rav Tzadok is making a further claim here, that something can be hidden in the father and become visible in the child. I can understand what he's saying. I don't know that I understand how to distinguish that from all the other things we've just been talking about.
 

@@ -80,7 +80,7 @@ This is an essentialist argument. Virtue, or at least certain kinds of virtue, i
 He would definitely be canceled.
 
 {{< admonition type="note" title="A few caveats" >}}
-I should say that I'm explaining Reb Tzadok here, and I don't find all of this easy to accept. I'm uncomfortable with essentialist arguments, especially when they connect virtue or spiritual qualities to ancestry.
+I should say that I'm explaining Reb Tzadok here, and I don't find all of this easy to accept. I'm uncomfortable with essentialist arguments, especially when they connect virtue or spiritual qualities to ancestry. Also, this is just a synopsis of a few paragraphs of a much longer work. Rav Tzadok is a complex thinker, and I don't want to oversimplify him. In other places we make more nuanced arguments about virtue and nature and identity that don't fit neatly into the categories he uses here. This is a recap of what we studies in 2 sections of a work that consists of 264 sections. The getting cancelled thing is meant to be taken as a joke.
 
 Also, we learned something rather different just a few paragraphs earlier. In [אות נ״ד](https://he.wikisource.org/wiki/צדקת_הצדיק/נד), Reb Tzadok writes, “עיקר היהדות בקריאת שם ישראל.” He discusses a convert who doesn't even know that {{< tooltip term="Shabbos" key="shabbos" >}} and {{< tooltip term="עבודה זרה" key="avodah-zarah" >}} are prohibited, and asks what makes him a {{< tooltip term="גר" key="ger" >}}. His answer: “רק בקריאת שם ישראל די.” Bearing the name ישראל is enough.
 

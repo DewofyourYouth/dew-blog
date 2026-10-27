@@ -189,7 +189,7 @@ People grave-robbing is apparently an affront to Astarte.
 “You will not have any sustained offspring under the sun.”
 
 {{< admonition type="note" title="Reading notes" >}}
-**Clarification:** This is a curse: **“May you have no descendants among the living under the sun.”** **בחים** means “among the living.” My “sustained” comes from how I was understanding **יכן**, which needs a little more explanation below.
+**Clarification:** This is a curse: **“May you have no descendants among the living under the sun.”** **בחים** means “among the living.” I was obviously aware of this "among the living" clause. But I forgot to translate it because it's a little redundant. "Under the sun", is usually understood to be a metaphor for the earthly realm, those also "alive". My “sustained” comes from how I was understanding **יכן**, which needs a little more explanation below.
 {{< /admonition >}}
 
 “ומשכב את רפאם.”

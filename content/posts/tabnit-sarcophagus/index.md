@@ -28,31 +28,31 @@ seo:
 storyShare: true
 ---
 
-Recently, I started looking into how much my knowledge of Hebrew, my little bit of Arabic, and my extensive yeshiva background will allow me to understand other Semitic languages I haven’t studied. After [Moabite and the Mesha Stele](/post/mesha-stele/), I decided to move on to Phoenician.
+Recently, I started looking into how much my knowledge of Hebrew, my little bit of Arabic, and my extensive {{< tooltip term="yeshiva" key="yeshiva" >}} background will allow me to understand other {{< tooltip term="Semitic languages" key="semitic-languages" >}} I haven’t studied. After [Moabite and the Mesha Stele](/post/mesha-stele/), I decided to move on to {{< tooltip term="Phoenician" key="phoenician" >}}.
 
 ## Why Phoenician
 
 When I was looking into the Phoenicians, I discovered that some Lebanese Christians prefer to identify as Phoenician rather than Arab. I thought that was really cool. I’m all about that: people choosing to identify with their ancient people.
 
-I’m not saying there’s anything wrong with being Arab. But Lebanon has a rich Phoenician and Canaanite history, and I like the idea of people identifying with it. I feel like we Jews, or Israelites, and the Samaritans are among the remaining communities with that continuity from the ancient Canaanite world. So it’s cool to see people in Lebanon identifying with the Phoenicians too.
+I’m not saying there’s anything wrong with being Arab. But Lebanon has a rich Phoenician and {{< tooltip term="Canaanite" key="canaanite" >}} history, and I like the idea of people identifying with it. I feel like we Jews, or Israelites, and the {{< tooltip term="Samaritans" key="samaritans" >}} are among the remaining communities with that continuity from the ancient Canaanite world. So it’s cool to see people in Lebanon identifying with the Phoenicians too.
 
-The Phoenician alphabet is also behind a tremendous number of the alphabets we use today. Greek came from it, and Latin came through Greek and Etruscan. Aramaic developed from it too, and the square Hebrew letters we use today came through Aramaic. The older Hebrew alphabet was very close to Phoenician. They were very cool people, the Phoenicians. I guess maybe they still are.
+The Phoenician alphabet is also behind a tremendous number of the alphabets we use today. Greek came from it, and Latin came through Greek and {{< tooltip term="Etruscan" key="etruscan" >}}. {{< tooltip term="Aramaic" key="aramaic" >}} developed from it too, and the {{< tooltip term="square Hebrew letters" key="ktav-ashuri" >}} we use today came through Aramaic. The older Hebrew alphabet was very close to Phoenician. They were very cool people, the Phoenicians. I guess maybe they still are.
 
 Although the political reality means I’m not able to go to Lebanon, I have respect for the Lebanese who identify as Phoenicians. I don’t know what they would think of me, but I think it’s cool.
 
 ## The plan, and what I’m bringing to it
 
-In general, my plan is to go through a bunch of these languages: Nabataean, various forms of Aramaic like Syriac and Mandaic, Safaitic, Amharic, and obviously [Arabic](https://www.dewofyouryouth.com/post/bread-or-meat/).
+In general, my plan is to go through a bunch of these languages: {{< tooltip term="Nabataean" key="nabataean" >}}, various forms of Aramaic like {{< tooltip term="Syriac" key="syriac" >}} and {{< tooltip term="Mandaic" key="mandaic" >}}, {{< tooltip term="Safaitic" key="safaitic" >}}, {{< tooltip term="Amharic" key="amharic" >}}, and obviously [Arabic](https://www.dewofyouryouth.com/post/bread-or-meat/).
 
 {{< admonition type="note" title="A correction to my language list" >}}
-I initially thought the living Semitic languages were Hebrew, Arabic, “Ethiopian,” and Aramaic, with maybe a few hundred people speaking Aramaic. Turns out I was off. There are several Ethiopian Semitic languages, including Amharic and Tigrinya, and Aramaic still has hundreds of thousands of speakers across its modern varieties. (Tbh, I am skeptical of this claim, I think a lot of these people of who are counted as speakers are just members of a diaspora language community.) Maltese and the Modern South Arabian languages belong on the list too. My list was in order of preference, by the way. If it were by number of speakers, Arabic would obviously be first.
+I initially thought the living Semitic languages were Hebrew, Arabic, “Ethiopian,” and Aramaic, with maybe a few hundred people speaking Aramaic. Turns out I was off. There are several Ethiopian Semitic languages, including Amharic and {{< tooltip term="Tigrinya" key="tigrinya" >}}, and Aramaic still has hundreds of thousands of speakers across its modern varieties. (Tbh, I am skeptical of this claim, I think a lot of these people of who are counted as speakers are just members of a diaspora language community.) {{< tooltip term="Maltese" key="maltese" >}} and the {{< tooltip term="Modern South Arabian languages" key="modern-south-arabian" >}} belong on the list too. My list was in order of preference, by the way. If it were by number of speakers, Arabic would obviously be first.
 {{< /admonition >}}
 
 So, how much Phoenician can I read? I speak Hebrew fluently, read Aramaic from rabbinic literature, and am learning Arabic. I wouldn’t say I’m fluent in Arabic. This is just a fun experiment with the background I happen to have.
 
 ## The Tabnit sarcophagus
 
-We’re going to start with the Tabnit sarcophagus. It was found in Sidon, Lebanon, and it’s now in the Istanbul Archaeological Museums in Turkey.
+We’re going to start with the {{< tooltip term="Tabnit" key="tabnit" >}} {{< tooltip term="sarcophagus" key="sarcophagus" >}}. It was found in {{< tooltip term="Sidon" key="sidon" >}}, Lebanon, and it’s now in the Istanbul Archaeological Museums in Turkey.
 
 When you look at it, it’s an Egyptian sarcophagus that was repurposed. There’s Egyptian writing on the top, and underneath there is an inscription in Phoenician. This is actually really funny, and we’ll see why when we read the inscription.
 
@@ -87,7 +87,7 @@ Here’s the Phoenician text in three alphabets. These are the same Phoenician w
 ## Reading it line by line
 
 {{< admonition type="note" title="Reading this out loud" >}}
-I dictated this reading using Wispr Flow as I worked through the inscription. I’ve cleaned it up a bit, (mostly fixes to the non English words), but the guesses and the talking through things are how I was actually trying to make sense of it. The correction notes are things I checked afterward.
+I dictated this reading using {{< tooltip term="Wispr Flow" key="wispr-flow" >}} as I worked through the inscription. I’ve cleaned it up a bit, (mostly fixes to the non English words), but the guesses and the talking through things are how I was actually trying to make sense of it. The correction notes are things I checked afterward.
 {{< /admonition >}}
 
 ### “I am Tabnit”
@@ -96,11 +96,11 @@ We’re going to start with the first line:
 
 “אנך תבנת כהן עשתרת מלך צדנם.”
 
-That means, “I am Tabnit, a priest of Astarte, the king of the Sidonites.” Astarte is the name of a goddess.
+That means, “I am Tabnit, a priest of {{< tooltip term="Astarte" key="astarte" >}}, the king of the Sidonites.” Astarte is the name of a goddess.
 
 “בן אשמנעזר כהן עשתרת מלך צדנם.”
 
-“Son of Eshmunazar, the priest of Astarte, the king of the Sidonites.”
+“Son of {{< tooltip term="Eshmunazar" key="eshmunazar" >}}, the priest of Astarte, the king of the Sidonites.”
 
 “שכב בארן ז.”
 
@@ -114,12 +114,12 @@ Now the next one is a little bit more complicated from Hebrew:
 
 So, “Who are you, any person?” I’m going to guess “תפק” is to take out, like in Aramaic. Something about taking out this coffin.
 
-Now, the “zeh” is just a zayin, right, without a heh, because it’s an abjad. So hehs and alephs and yods are often optional. So I’m going to read that as a “zeh.”
+Now, the “{{< tooltip term="zeh" key="zeh" >}}” is just a {{< tooltip term="zayin" key="zayin" >}}, right, without a {{< tooltip term="heh" key="heh" >}}, because it’s an {{< tooltip term="abjad" key="abjad" >}}. So hehs and {{< tooltip term="alephs" key="aleph" >}} and {{< tooltip term="yods" key="yod" >}} are often optional. So I’m going to read that as a “zeh.”
 
 So I think it means “Whoever takes out this coffin,” or maybe, like, “Whoever finds this coffin.”
 
 {{< admonition type="note" title="Reading notes" >}}
-**Correction:** My second guess was right: “Whoever you are, any person who comes upon this coffin.” **תפק** here means “find” or “encounter.” **אש** corresponds to Hebrew **אשר**, and **אית** marks the direct object, like Hebrew **את**.
+**Correction:** My second guess was right: “Whoever you are, any person who comes upon this coffin.” **תפק** here means “find” or “encounter.” **אש** corresponds to Hebrew **{{< tooltip term="אשר" key="asher" >}}**, and **אית** marks the direct object, like Hebrew **{{< tooltip term="את" key="et" >}}**.
 
 **Clarification:** **ז** means “this,” but calling those letters “optional” is too loose. Phoenician generally writes fewer vowel letters than Hebrew. I’m reading it as Hebrew “zeh” to make sense of it; the spelling alone doesn’t tell us how the Phoenician word sounded.
 {{< /admonition >}}
@@ -130,7 +130,7 @@ So I think it means “Whoever takes out this coffin,” or maybe, like, “Whoe
 
 Okay, so “אל אל” is like “don’t.” It’s double; it’s repeated for emphasis, usually.
 
-“תפתח עלתי”—so, “don’t open.” Obviously, “תפתח” is “open.” “עלתי,” I don’t know what it means, but I’m going to guess it’s like “what is on top of me,” from the word “על.” So, “Don’t open my covering.”
+“תפתח עלתי”—so, “don’t open.” Obviously, “תפתח” is “open.” “עלתי,” I don’t know what it means, but I’m going to guess it’s like “what is on top of me,” from the word “{{< tooltip term="על" key="al" >}}.” So, “Don’t open my covering.”
 
 {{< admonition type="note" title="Reading notes" >}}
 **Clarification:** That guess was reasonable. **עלתי** has been understood as “what is above me,” hence “my covering”; other translations use “my chamber.”
@@ -151,7 +151,7 @@ So, “Because there is no silver, and there is no—” Okay, so “חרץ” i
 “וכל מנם משר”—anything that is, like, I don’t know what “משר” means. I’m guessing it’s like “anything of value.”
 
 {{< admonition type="note" title="Reading notes" >}}
-**Correction and clarification:** **חרץ** means “gold” here, like Hebrew **חרוץ** in “טוב פריי מחרוץ ומפז” (Proverbs 8:19). He’s saying there is no silver, gold, or other treasure deposited with him. My guess about “anything of value” gets the overall sense right.
+**Correction and clarification:** **חרץ** means “gold” here, like Hebrew **{{< tooltip term="חרוץ" key="charutz" >}}** in “{{< tooltip term="טוב פריי מחרוץ ומפז" def="“My fruit is better than gold, even fine gold” (Proverbs 8:19)." >}}” (Proverbs 8:19). He’s saying there is no silver, gold, or other treasure deposited with him. My guess about “anything of value” gets the overall sense right.
 
 **Word note:** **כל מנם משר** is generally translated along the lines of “any kind of riches.” That gives the sense of the phrase; I wouldn’t pretend I could have worked out every word from Hebrew.
 {{< /admonition >}}
@@ -199,14 +199,14 @@ So, something about lying in the spirit.
 So maybe, like, you will neither have offspring in this world nor in the spirit world.
 
 {{< admonition type="note" title="Reading notes" >}}
-**Correction:** The ending means **“nor a resting place with the Rephaim,”** the shades of the dead. **משכב** is a resting place, and **את** here means “with.” The curse denies him descendants among the living **and a resting place among the dead**, rather than offspring in both worlds.
+**Correction:** The ending means **“nor a resting place with the {{< tooltip term="Rephaim" key="rephaim" >}},”** the shades of the dead. **משכב** is a resting place, and **את** here means “with.” The curse denies him descendants among the living **and a resting place among the dead**, rather than offspring in both worlds.
 
-**Translation note:** I associated **יכן** with Hebrew **כון**, as in “מקדש ה׳ כוננו ידיך,” which led me to “established” or “sustained.” I didn’t immediately see how we got from that to “have.” The explanation is that Phoenician uses this verb for “to be,” so **יכן לך** works like Hebrew **יהיה לך**: “there shall be for you,” hence “you shall have.” It isn’t a meaning I would have known just from reading the letters.
+**Translation note:** I associated **יכן** with Hebrew **{{< tooltip term="כון" key="kun" >}}**, as in “{{< tooltip term="מקדש ה׳ כוננו ידיך" def="“The sanctuary, O Lord, which Your hands have established” (Exodus 15:17)." >}},” which led me to “established” or “sustained.” I didn’t immediately see how we got from that to “have.” The explanation is that Phoenician uses this verb for “to be,” so **יכן לך** works like Hebrew **יהיה לך**: “there shall be for you,” hence “you shall have.” It isn’t a meaning I would have known just from reading the letters.
 {{< /admonition >}}
 
 ## My verdict
 
-My verdict is that there are a lot of false friends and some different vocabulary choices, but they weren’t a tremendous impediment. Biblical Hebrew was mostly what I used. I don’t know how much Aramaic helped, but I could get a sense of what was being said, at least in something like this. That doesn’t mean I got every word right. You’ve seen the guesses.
+My verdict is that there are a lot of {{< tooltip term="false friends" key="false-friend" >}} and some different vocabulary choices, but they weren’t a tremendous impediment. {{< tooltip term="Biblical Hebrew" key="biblical-hebrew" >}} was mostly what I used. I don’t know how much Aramaic helped, but I could get a sense of what was being said, at least in something like this. That doesn’t mean I got every word right. You’ve seen the guesses.
 
 ### Whose coffin is it, anyway?
 

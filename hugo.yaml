@@ -131,6 +131,8 @@ params:
     showAuthor: true
     enableReadingTime: true
     showToc: true
+    # Open linked/captioned images in the theme's lightGallery lightbox instead of a bare image tab
+    lightgallery: true
     showShare: true
     # Show prev/next navigation within a series at the bottom of each series post
     seriesNavigation: true

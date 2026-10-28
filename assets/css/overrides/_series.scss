@@ -135,3 +135,22 @@ html.dark .series-card-num {
     min-height: 0;
   }
 }
+
+/* Photo credit for a bespoke series cover (`coverCredit:` in the series _index.md). */
+.series-cover-credit {
+  margin: 1.6rem 0 0;
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+  line-height: 1.5;
+  font-style: italic;
+  color: var(--home-muted, #6b7280);
+
+  a {
+    color: inherit;
+    text-decoration: underline;
+  }
+}
+
+html.dark .series-cover-credit {
+  color: rgba(226, 232, 240, 0.6);
+}

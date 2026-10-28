@@ -1,8 +1,7 @@
 ---
 title: "Reading Semitic Languages with Hebrew"
-description: "How far Hebrew, rabbinic Aramaic and a little Arabic get a reader through languages he never studied: Moabite on the Mesha Stele, Phoenician on Tabnit's sarcophagus, and the false friends along the way."
+description: "How far Hebrew, rabbinic Aramaic and a little Arabic get a reader through the rest of the Semitic family: so far Moabite and Phoenician inscriptions, with Nabataean, Syriac, Mandaic and Ge'ez–Amharic still ahead."
 intro: "An experiment in reading other Semitic languages with the background I happen to have: fluent Hebrew, yeshiva Aramaic, learner's Arabic. First-pass readings, guesses and mistakes left visible, then checked against the scholarship."
-# Bespoke social card: drop a 1200x630 cover.jpg in this folder and uncomment.
-# Until then this series uses its first post's image automatically.
-# featuredImage: cover.jpg
+featuredImage: cover.jpg
+coverCredit: "Cover photos, cropped, left to right: Mesha Stele by [Mbzt](https://commons.wikimedia.org/w/index.php?curid=22090379), [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/); Tabnit inscription by [oncenawhile](https://commons.wikimedia.org/wiki/File:Tabnit_phoenician.jpg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/); Nabataean inscription, Louvre AO 4988 ([public domain](https://commons.wikimedia.org/wiki/File:Inscription_Qasiu_Louvre_AO4988.jpg)); 11th-century Syriac liturgy ([public domain](https://commons.wikimedia.org/wiki/File:Syriac_manuscript_11_century_liturgy_-_2.jpg)); Mandaic incantation bowl, Royal Ontario Museum, by [Daderot](https://commons.wikimedia.org/wiki/File:Bowl_with_incantation_for_Buktuya_and_household,_Mandean_in_Mandaic_language_and_script,_Southern_Mesopotamia,_c._200-600_AD_-_Royal_Ontario_Museum_-_DSC09714.JPG), CC0; Beta Israel prayers in Ge'ez, c. 1850, BnF, by [Sailko](https://commons.wikimedia.org/wiki/File:Etiopia,_raccolta_di_testi_e_preghiere_di_beta_israel,_in_ge%27ez,_1850_ca._(bnf).jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)."
 ---

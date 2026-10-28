@@ -151,6 +151,9 @@
                         </li>
                     {{- end -}}
                 </ol>
+                {{- with .Params.coverCredit -}}
+                    <p class="series-cover-credit">{{ . | markdownify }}</p>
+                {{- end -}}
             {{- else -}}
                 {{- $pageGroups := .Paginator.PageGroups -}}
                 {{- if gt (len $pageGroups) 0 -}}

@@ -1,14 +1,11 @@
 {{- $type := cond .IsNamedParams (.Get "type") (.Get 0) | default "note" -}}
 {{- $title := cond .IsNamedParams (.Get "title") (.Get 1) | default (T $type) -}}
+{{- /* `with` skips a false value, so open=false used to be ignored; test presence instead,
+     and accept both open=false and open="false". */ -}}
 {{- $open := true -}}
-{{- if .IsNamedParams -}}
-    {{- with .Get "open" -}}
-        {{- $open = . -}}
-    {{- end -}}
-{{- else -}}
-    {{- with .Get 2 -}}
-        {{- $open = . -}}
-    {{- end -}}
+{{- $raw := cond .IsNamedParams (.Get "open") (.Get 2) -}}
+{{- if ne $raw nil -}}
+    {{- $open = ne (printf "%v" $raw) "false" -}}
 {{- end -}}
 {{- partial "plugin/admonitionPre.html" (dict "Type" $type "Title" $title "Open" $open) -}}
 {{- .Inner | .Page.RenderString -}}

@@ -18,6 +18,9 @@ tags:
   - "tabnit"
   - "sidon"
   - "astarte"
+series:
+  - semitic-languages
+series_order: 3
 summary: "A Hebrew speaker reads Tabnit’s Phoenician curse against grave robbers, carved on a recycled Egyptian coffin, with the guesses and corrections left visible."
 description: "How much Phoenician can a Hebrew speaker read? A first-pass reading of the Tabnit sarcophagus inscription from Sidon, checked against translations, showing where Hebrew helps and where it misleads."
 featuredImage: "tabnit-sarcophagus.jpg"

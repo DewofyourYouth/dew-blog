@@ -15,6 +15,9 @@ tags:
   - parents-and-children
   - learning-with-my-father
   - torah
+series:
+  - tzidkat-hatzaddik
+series_order: 1
 summary: "Rav Tzadok says great people acquired qualities for their descendants, but not Torah. Then, one paragraph later, sons become talmidei chachamim through their mothers."
 description: "Learning Tzidkat HaTzaddik 62–63 with my father: Rav Tzadok on inherited spiritual qualities, why the crown of Torah can't be inherited, sons resembling mothers, and what is hidden in a father's heart."
 featuredImage: "what-parents-pass-down.jpg"

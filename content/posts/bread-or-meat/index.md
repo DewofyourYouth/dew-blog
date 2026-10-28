@@ -18,6 +18,9 @@ tags:
   - ibn-ezra
   - lechem
   - daily-derja
+series:
+  - semitic-languages
+series_order: 1
 summary: "Hebrew לחם means bread. Arabic لحم means meat. Trying to understand how that happened sent me back to Daniel, the korbanos, and a disagreement between Ibn Ezra and the Ramban."
 description: "An Arabic learner's question about bread and meat leads to Rashi, Ibn Ezra and Ramban, with a detour through foot soldiers, sound changes, and misleadingly familiar words."
 featuredImage: "bread-or-meat.jpg"

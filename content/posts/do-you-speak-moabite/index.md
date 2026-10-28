@@ -17,6 +17,9 @@ tags:
   - epigraphy
   - tanach
   - arabic
+series:
+  - semitic-languages
+series_order: 2
 summary: "A Hebrew speaker reads the ninth-century BCE Mesha Stele without first studying Moabite, keeping the misreadings visible, to see how far Hebrew actually gets you."
 description: "How much Moabite can a Hebrew speaker read? A first-pass reading of the Mesha Stele (Moabite Stone), checked against translations and 2 Kings 3, showing where Hebrew helps and where it misleads."
 featuredImage: "mesha-stele.jpg"

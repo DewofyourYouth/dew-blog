@@ -5,6 +5,9 @@ date: "2026-10-28"
 draft: false
 categories: ["Faith & Practice"]
 tags: ["tzidkat-hatzadik", "rav-tzadok", "korach", "mesirat-nefesh", "tachanun", "oven-of-achnai", "ramchal", "avodat-hashem", "prayer", "learning-with-my-father", "torah"]
+series:
+  - tzidkat-hatzaddik
+series_order: 2
 summary: "Rav Tzadok says Hashem’s help doesn’t prove you’re right, then reads Rabbi Eliezer’s miracles and Korach’s 250 men through that idea."
 description: "Learning Tzidkat HaTzaddik 64–65 with my father: Rav Tzadok on why divine help isn’t proof, the oven of Achnai, Korach’s followers, mesirat nefesh and Tachanun."
 featuredImage: "rav-tzadok-success-is-not-proof.jpg"

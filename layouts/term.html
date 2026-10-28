@@ -57,6 +57,16 @@
     </div>
     {{- else -}}
     <div class="page archive">
+        {{- /* Series banner: the bespoke cover from the series _index.md, if any */ -}}
+        {{- if eq $taxonomy "series" -}}
+            {{- with .Params.featuredImage -}}
+                {{- with $.Resources.GetMatch . -}}
+                    <figure class="series-banner">
+                        <img src="{{ (.Resize "1200x webp q82").RelPermalink }}" width="1200" height="{{ (.Resize "1200x").Height }}" alt="{{ $.Params.featuredImageAlt | default $.Title }}" fetchpriority="high" />
+                    </figure>
+                {{- end -}}
+            {{- end -}}
+        {{- end -}}
         {{- /* Title */ -}}
         <h2 class="single-title">
             {{- if eq $taxonomy "category" -}}

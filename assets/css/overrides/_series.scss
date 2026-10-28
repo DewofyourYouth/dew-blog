@@ -154,3 +154,15 @@ html.dark .series-card-num {
 html.dark .series-cover-credit {
   color: rgba(226, 232, 240, 0.6);
 }
+
+/* Series banner: the series' own cover above the title (term.html). */
+.page.archive .series-banner {
+  margin: 0 0 1.2rem;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+  }
+}

@@ -1,0 +1,7 @@
+{{- /* A page's .Summary with each glossary tooltip (shortcodes/tooltip.html) collapsed back
+     to its term. Excerpts are plainified or shown without the tooltip script, where the
+     hidden definition would otherwise run into the word ("HashemLiterally “the Name”…").
+     Usage: partial "function/summary.html" $page */ -}}
+{{- $s := string .Summary -}}
+{{- $s = replaceRE `(?s)<span class="gloss"><button[^>]*><bdi>(.*?)</bdi></button><span class="gloss-def"[^>]*>.*?</span></span>` "$1" $s -}}
+{{- return $s -}}

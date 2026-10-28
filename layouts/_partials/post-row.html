@@ -36,7 +36,7 @@
     <h3 class="blog-row-title" dir="auto">
       <a href="{{ $postUrl }}"{{ if $isExternal }} target="_blank" rel="noopener noreferrer"{{ end }}>{{ .Title }}</a>
     </h3>
-    {{- with .Summary }}
+    {{- with partial "function/summary.html" . }}
     <p class="blog-row-summary" dir="auto">{{ . | plainify }}</p>
     {{- end }}
     <p class="blog-row-meta">

@@ -18,7 +18,7 @@
         "externalUrl" .Params.externalUrl
         "featured_image" $imageURL
         "permalink" .Permalink
-        "summary" .Summary
+        "summary" (partial "function/summary.html" .)
         "title" .Title
         "url" .Permalink
     -}}

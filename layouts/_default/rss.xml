@@ -18,7 +18,7 @@
 
     {{- range $items.ByDate.Reverse -}}
     {{- $title := .Title | htmlEscape -}}
-    {{- $summary := (.Summary | plainify) | htmlEscape -}}
+    {{- $summary := (partial "function/summary.html" . | plainify) | htmlEscape -}}
 
     {{- /* Resolve image (absolute URL + mime) */ -}}
     {{- $imgURL := "" -}}

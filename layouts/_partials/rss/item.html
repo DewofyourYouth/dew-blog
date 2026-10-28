@@ -84,7 +84,7 @@
         {{- if $params.rssFullText -}}
             {{- $content = dict "Content" .Page.Content "Ruby" $params.ruby "Fraction" $params.fraction "Fontawesome" $params.fontawesome | partial "function/content.html" -}}
         {{- else -}}
-            {{- with .Page.Summary -}}
+            {{- with partial "function/summary.html" .Page -}}
                 {{- $content = dict "Content" . "Ruby" $params.ruby "Fraction" $params.fraction "Fontawesome" $params.fontawesome | partial "function/content.html" -}}
             {{- end -}}
         {{- end -}}

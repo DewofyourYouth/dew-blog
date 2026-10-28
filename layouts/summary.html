@@ -84,7 +84,7 @@
 
     {{- /* Summary content */ -}}
     <div class="content">
-        {{- with .Summary -}}
+        {{- with partial "function/summary.html" . -}}
             {{- dict "Content" . "Ruby" $params.ruby "Fraction" $params.fraction "Fontawesome" $params.fontawesome | partial "function/content.html" | safeHTML -}}
         {{- else -}}
             {{- .Description | safeHTML -}}

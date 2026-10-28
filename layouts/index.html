@@ -124,7 +124,7 @@
                       >{{ .Title }}</a
                     >
                   </h3>
-                  {{ with .Summary }}
+                  {{ with partial "function/summary.html" . }}
                     <p class="home-post-summary" dir="auto">{{ . | plainify }}</p>
                   {{ end }}
                   <p class="home-post-meta">

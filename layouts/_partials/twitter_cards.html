@@ -1,6 +1,6 @@
 {{- $params := .Scratch.Get "params" -}}
 {{- $title := .Title | default .Site.Title -}}
-{{- $desc := .Description | default .Summary | default .Site.Params.description -}}
+{{- $desc := .Description | default (partial "function/summary.html" .) | default .Site.Params.description -}}
 {{- $desc = $desc | plainify | htmlUnescape | strings.TrimSpace | truncate 200 -}}
 
 {{- $images := $params.seo.images | default slice -}}

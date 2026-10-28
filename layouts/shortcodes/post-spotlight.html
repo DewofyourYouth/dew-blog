@@ -38,7 +38,7 @@
       {{ $imgUrl = . | relURL }}
     {{ end }}
   {{ end }}
-  {{ $summary := $page.Params.summary | default $page.Summary }}
+  {{ $summary := $page.Params.summary | default (partial "function/summary.html" $page) }}
   <section class="post-spotlight">
     <div class="post-spotlight-media" aria-hidden="true">
       {{ if $imgResource }}

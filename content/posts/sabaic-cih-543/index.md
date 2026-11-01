@@ -1,7 +1,7 @@
 ---
 title: "How Much Sabaic Can I Read with Hebrew? Less Than I’d Hoped."
 slug: "sabaic-cih-543"
-date: 2026-10-30
+date: 2026-10-30T11:02:58+02:00
 draft: false
 categories:
   - "Learning & Languages"

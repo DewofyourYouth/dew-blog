@@ -207,25 +207,29 @@ Essays here lean on classical rabbinic literature, comparative Semitic linguisti
 
 ## History, Genealogy and Tools
 
-| Term                    | Field                        | Definition                                                                                                                                  |
-| :---------------------- | :--------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Sidon**               | Lebanon                      | A Phoenician port city on the coast of Lebanon, south of Beirut.                                                                            |
-| **Tabnit**              | Sidon (late 6th century BCE) | King of Sidon, son of Eshmunazar I and father of Eshmunazar II, buried in a reused Egyptian sarcophagus.                                    |
-| **Eshmunazar I and II** | Sidon                        | Tabnit's father and his son, both kings of Sidon; Eshmunazar II's inscribed sarcophagus is in the Louvre.                                   |
-| **Pale of Settlement**  | Russian Empire (1791–1917)   | The western region of the Russian Empire where Jews were, with limited exceptions, allowed to live permanently.                             |
-| **Shtetl**              | Eastern Europe               | A small market town with a large Jewish population, before the Second World War.                                                            |
-| **Talne (Talnoye)**     | Ukraine                      | A town in central Ukraine, seat of the Talne Hasidic dynasty and the starting point of the Shore and Saranduk family research on this site. |
-| **Djerba**              | Tunisia                      | An island off southern Tunisia, home to one of the oldest continuous Jewish communities in North Africa.                                    |
-| **Yishuv**              | Land of Israel               | The Jewish community in the Land of Israel before the founding of the state in 1948.                                                        |
-| **Ellis Island**        | New York (1892–1954)         | The main U.S. immigration station for arrivals from Europe; its ship manifests are a core genealogy source.                                 |
-| **Naturalization**      | Genealogy                    | The legal process by which an immigrant becomes a citizen. Its paperwork often records birth dates and hometowns.                           |
-| **Provenance**          | Historical method            | The documented history of where a document, photograph or object came from and who has held it.                                             |
-| **PKM**                 | Notes and research           | Personal knowledge management: methods for capturing, linking and finding your own notes and research.                                      |
-| **Spaced repetition**   | Learning                     | Reviewing material at gradually increasing intervals, timed to come just before you would forget it. Anki is the best-known tool.           |
-| **Local-first**         | Software                     | Software that keeps your data on your own devices and works offline, with syncing to other devices as an extra rather than a requirement.   |
-| **Markdown**            | Software                     | A plain-text format that uses simple marks such as `#` and `*` for headings and emphasis. This site is written in it.                       |
-| **Obsidian**            | Software                     | A note-taking app that keeps notes as plain Markdown files on your own device.                                                              |
-| **Anki**                | Software                     | A free flashcard app that schedules reviews by spaced repetition.                                                                           |
-| **Cloze**               | Learning                     | A fill-in-the-blank exercise: a word is hidden from a sentence and you supply it.                                                           |
-| **Ugarit**              | Syria (Late Bronze Age)      | A trading kingdom on the Syrian coast near Latakia, at the site now called Ras Shamra; destroyed around 1185 BCE.                           |
-| **Hittites**            | Anatolia (Late Bronze Age)   | The empire centered in central Anatolia that dominated northern Syria, Ugarit included, until its collapse around 1180 BCE.                 |
+| Term                         | Field                        | Definition                                                                                                                                     |
+| :--------------------------- | :--------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sidon**                    | Lebanon                      | A Phoenician port city on the coast of Lebanon, south of Beirut.                                                                               |
+| **Tabnit**                   | Sidon (late 6th century BCE) | King of Sidon, son of Eshmunazar I and father of Eshmunazar II, buried in a reused Egyptian sarcophagus.                                       |
+| **Eshmunazar I and II**      | Sidon                        | Tabnit's father and his son, both kings of Sidon; Eshmunazar II's inscribed sarcophagus is in the Louvre.                                      |
+| **Pale of Settlement**       | Russian Empire (1791–1917)   | The western region of the Russian Empire where Jews were, with limited exceptions, allowed to live permanently.                                |
+| **Shtetl**                   | Eastern Europe               | A small market town with a large Jewish population, before the Second World War.                                                               |
+| **Talne (Talnoye)**          | Ukraine                      | A town in central Ukraine, seat of the Talne Hasidic dynasty and the starting point of the Shore and Saranduk family research on this site.    |
+| **Djerba**                   | Tunisia                      | An island off southern Tunisia, home to one of the oldest continuous Jewish communities in North Africa.                                       |
+| **Yishuv**                   | Land of Israel               | The Jewish community in the Land of Israel before the founding of the state in 1948.                                                           |
+| **Ellis Island**             | New York (1892–1954)         | The main U.S. immigration station for arrivals from Europe; its ship manifests are a core genealogy source.                                    |
+| **Naturalization**           | Genealogy                    | The legal process by which an immigrant becomes a citizen. Its paperwork often records birth dates and hometowns.                              |
+| **Provenance**               | Historical method            | The documented history of where a document, photograph or object came from and who has held it.                                                |
+| **PKM**                      | Notes and research           | Personal knowledge management: methods for capturing, linking and finding your own notes and research.                                         |
+| **Spaced repetition**        | Learning                     | Reviewing material at gradually increasing intervals, timed to come just before you would forget it. Anki is the best-known tool.              |
+| **Local-first**              | Software                     | Software that keeps your data on your own devices and works offline, with syncing to other devices as an extra rather than a requirement.      |
+| **Markdown**                 | Software                     | A plain-text format that uses simple marks such as `#` and `*` for headings and emphasis. This site is written in it.                          |
+| **Obsidian**                 | Software                     | A note-taking app that keeps notes as plain Markdown files on your own device.                                                                 |
+| **Anki**                     | Software                     | A free flashcard app that schedules reviews by spaced repetition.                                                                              |
+| **Cloze**                    | Learning                     | A fill-in-the-blank exercise: a word is hidden from a sentence and you supply it.                                                              |
+| **Ugarit**                   | Syria (Late Bronze Age)      | A trading kingdom on the Syrian coast near Latakia, at the site now called Ras Shamra; destroyed around 1185 BCE.                              |
+| **Hittites**                 | Anatolia (Late Bronze Age)   | The empire centered in central Anatolia that dominated northern Syria, Ugarit included, until its collapse around 1180 BCE.                    |
+| **Late Bronze Age**          | Near East (c. 1550–1200 BCE) | The age of Ugarit and the Hittite and Egyptian empires, ending in a widespread collapse of cities and kingdoms around 1200 BCE.                |
+| **House of the High Priest** | Ugarit                       | A large house on Ugarit's acropolis, between the temples of Baal and Dagan, where many literary tablets and inscribed bronze tools were found. |
+| **Tyre**                     | Lebanon                      | A Phoenician port city on the coast of southern Lebanon, one of the great trading cities of antiquity.                                         |
+| **Latakia**                  | Syria                        | Syria's main port. The ruins of Ugarit, at Ras Shamra, lie about ten kilometers to the north.                                                  |

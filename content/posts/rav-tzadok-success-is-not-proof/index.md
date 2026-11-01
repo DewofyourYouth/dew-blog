@@ -1,10 +1,22 @@
 ---
 title: "Success Is Not Proof: Tzidkat HaTzaddik 64–65"
 slug: "success-is-not-proof"
-date: "2026-10-28"
+date: 2026-10-28T19:27:01+02:00
 draft: false
-categories: ["Faith & Practice"]
-tags: ["tzidkat-hatzadik", "rav-tzadok", "korach", "mesirat-nefesh", "tachanun", "oven-of-achnai", "ramchal", "avodat-hashem", "prayer", "learning-with-my-father", "torah"]
+categories:
+  - "Faith & Practice"
+tags:
+  - "tzidkat-hatzadik"
+  - "rav-tzadok"
+  - "korach"
+  - "mesirat-nefesh"
+  - "tachanun"
+  - "oven-of-achnai"
+  - "ramchal"
+  - "avodat-hashem"
+  - "prayer"
+  - "learning-with-my-father"
+  - "torah"
 series:
   - tzidkat-hatzaddik
 series_order: 2

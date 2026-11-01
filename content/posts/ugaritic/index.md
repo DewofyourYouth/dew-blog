@@ -1,7 +1,7 @@
 ---
 title: "How Much Ugaritic Can I Read with Hebrew?"
 slug: "ugaritic"
-date: 2026-11-01
+date: 2026-11-01T16:18:51+02:00
 draft: false
 categories:
   - "Learning & Languages"
@@ -44,7 +44,7 @@ My background, for anyone coming into this series here, is Hebrew, the {{< toolt
 After Ugaritic I'm turning to Aramaic, in a longer series of its own looking at both ancient and modern forms of the language. This time I have a real head start from the Gemara. Whether it carries me as far as I expect is what I want to find out.
 {{< /admonition >}}
 
-{{< tooltip term="Ugarit" key="ugarit" >}} was a trading kingdom on the coast of what is now Syria, near Latakia. During the Late Bronze Age it was under {{< tooltip term="Hittite" key="hittite" >}} domination. Its archives contain letters, administrative records, and literary texts, including the {{< tooltip term="Baal Cycle" key="baal-cycle" >}}.[^ugarit]
+{{< tooltip term="Ugarit" key="ugarit" >}} was a trading kingdom on the coast of what is now {{< tooltip term="Syria" key="syria" >}}, near {{< tooltip term="Latakia" key="latakia" >}}. During the {{< tooltip term="Late Bronze Age" key="late-bronze-age" >}} it was under {{< tooltip term="Hittite" key="hittite" >}} domination. Its archives contain letters, administrative records, and literary texts, including the {{< tooltip term="Baal Cycle" key="baal-cycle" >}}.[^ugarit]
 
 Ugaritic is a {{< tooltip term="Northwest Semitic" key="northwest-semitic" >}} language, related to Hebrew and Aramaic. Unlike {{< tooltip term="Moabite" key="moabite" >}} and {{< tooltip term="Phoenician" key="phoenician" >}}, it isn't usually classified as a {{< tooltip term="Canaanite language" key="canaanite-languages" >}}. So I expected some familiarity, but not necessarily the experience of reading slightly unusual Hebrew.
 
@@ -52,7 +52,7 @@ One other thing: Ugaritic uses an alphabet written in {{< tooltip term="cuneifor
 
 ## The axe
 
-We started with a bronze axe found in the House of the High Priest, catalogued as {{< tooltip term="RS 1.051" key="rs-number" >}} / {{< tooltip term="KTU 6.6" key="ktu" >}}. It has two words on it:[^texts]
+We started with a bronze axe found in the {{< tooltip term="House of the High Priest" key="house-of-the-high-priest" >}}, catalogued as {{< tooltip term="RS 1.051" key="rs-number" >}} / {{< tooltip term="KTU 6.6" key="ktu" >}}. It has two words on it:[^texts]
 
 {{< image src="images/axe-rs-1-051.jpg" alt="Black-and-white photograph of a bronze axe head with a round socket at one end and a short line of wedge-shaped Ugaritic letters incised along the blade" caption="The inscribed axe, RS 1.051 / KTU 6.6. (Photo: Marguerite Yon, *La cité d’Ougarit sur le tell de Ras Shamra*, 1998, ill. 63, via [Mnamon, Scuola Normale Superiore](https://mnamon.sns.it/index.php?id=30&lang=en&page=Esempi).)" >}}
 
@@ -66,9 +66,9 @@ I wouldn't necessarily have known what to do with the axe, but I could read the 
 
 ## A letter to the king
 
-The next text, KTU 2.38, was a letter from the king of Tyre to the king of Ugarit. I didn't know what it said before attempting it.
+The next text, KTU 2.38, was a letter from the king of {{< tooltip term="Tyre" key="tyre" >}} to the king of Ugarit. I didn't know what it said before attempting it.
 
-I could identify a king, a brother, some sort of greeting, Egypt, and rain. So there were things to work with. Unfortunately, there were also quite a few things I didn't understand, and I did my best to fill those in. Sometimes rather creatively.
+I could identify a king, a brother, some sort of greeting, {{< tooltip term="Egypt" key="egypt" >}}, and rain. So there were things to work with. Unfortunately, there were also quite a few things I didn't understand, and I did my best to fill those in. Sometimes rather creatively.
 
 For example, I saw **{{< tooltip term="רגמ" key="rgm" >}}**, which reminded me of the Hebrew root for stoning. Maybe the king's name was Rock?
 

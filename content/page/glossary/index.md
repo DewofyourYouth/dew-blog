@@ -125,6 +125,8 @@ Essays here lean on classical rabbinic literature, comparative Semitic linguisti
 | **Satan**                                         | Hebrew              | The accuser or tempter; in Jewish thought he acts within God's will rather than as an independent power.                                           |
 | **Chutzpah**                                      | Hebrew, via Yiddish | Audacity, nerve.                                                                                                                                   |
 | **Schlep**                                        | Yiddish             | A tiresome trek or chore; to drag something along.                                                                                                 |
+| **Torah**                                         | Hebrew              | The Five Books of Moses; more broadly, the whole body of Jewish teaching, written and oral.                                                        |
+| **Adar**                                          | Hebrew calendar     | The month that falls around February–March, near the end of the rainy season in the Land of Israel.                                                |
 
 ## People of Tanach
 
@@ -196,6 +198,12 @@ Essays here lean on classical rabbinic literature, comparative Semitic linguisti
 | **Etruscan**                        | Ancient Italy           | The pre-Roman language of central Italy, written in an alphabet borrowed from Greek and passed on to Latin.                                                                                                                                                               |
 | **Astarte (Ashtoreth)**             | Phoenician religion     | The great Phoenician goddess, called "the goddess of the Sidonians" in 1 Kings 11:5.                                                                                                                                                                                      |
 | **Rephaim**                         | Phoenician and biblical | The shades of the dead (as in Isaiah 26:14); elsewhere in Tanach also a people of giants.                                                                                                                                                                                 |
+| **Northwest Semitic**               | Language branch         | The branch that includes the Canaanite languages (Hebrew, Phoenician, Moabite), Aramaic and Ugaritic.                                                                                                                                                                     |
+| **Sabaic**                          | South Semitic           | The ancient language of Saba (Sheba) and later Ḥimyar in Yemen, written in the South Arabian script.                                                                                                                                                                      |
+| **Cuneiform**                       | Writing systems         | Writing made of wedge-shaped marks pressed into clay. Mesopotamian cuneiform used hundreds of signs; Ugaritic used it for an alphabet of thirty letters.                                                                                                                  |
+| **Baal Cycle**                      | Ugaritic literature     | A sequence of Ugaritic poems (KTU 1.1–1.6) about the storm god Baal, his kingship and his battles with Yamm (Sea) and Mot (Death).                                                                                                                                        |
+| **KTU**                             | Ugaritic studies        | _Keilalphabetische Texte aus Ugarit_, the standard edition of Ugaritic texts. Its numbers group texts by genre: 1 for literary and religious texts, 2 for letters.                                                                                                        |
+| **RS number**                       | Ugaritic studies        | A Ras Shamra excavation number, identifying a find from Ugarit by dig season and object, as in RS 18.031.                                                                                                                                                                 |
 
 ## History, Genealogy and Tools
 
@@ -219,3 +227,5 @@ Essays here lean on classical rabbinic literature, comparative Semitic linguisti
 | **Obsidian**            | Software                     | A note-taking app that keeps notes as plain Markdown files on your own device.                                                              |
 | **Anki**                | Software                     | A free flashcard app that schedules reviews by spaced repetition.                                                                           |
 | **Cloze**               | Learning                     | A fill-in-the-blank exercise: a word is hidden from a sentence and you supply it.                                                           |
+| **Ugarit**              | Syria (Late Bronze Age)      | A trading kingdom on the Syrian coast near Latakia, at the site now called Ras Shamra; destroyed around 1185 BCE.                           |
+| **Hittites**            | Anatolia (Late Bronze Age)   | The empire centered in central Anatolia that dominated northern Syria, Ugarit included, until its collapse around 1180 BCE.                 |

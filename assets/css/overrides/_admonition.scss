@@ -83,6 +83,43 @@ html.dark .single .content .admonition.joke {
   }
 }
 
+// Custom "announcement" admonition type: news of an upcoming post or series.
+// Same specificity rules as reflection above.
+//
+// Palette: muted plum, distinct from the theme's blue note and purple example.
+
+$announcement-accent: #8a4f7d;
+$announcement-bg: rgba(138, 79, 125, 0.1);
+$announcement-bar: rgba(138, 79, 125, 0.25);
+
+.single .content .admonition.announcement {
+  border-left-color: $announcement-accent;
+  background-color: $announcement-bg;
+
+  span.icon > svg {
+    color: $announcement-accent;
+  }
+
+  .admonition-title {
+    border-bottom-color: $announcement-bg;
+    background-color: $announcement-bar;
+  }
+
+  &.open .admonition-title {
+    background-color: $announcement-bg;
+  }
+}
+
+html.dark .single .content .admonition.announcement {
+  $announcement-accent-dark: #c48bb8;
+
+  border-left-color: $announcement-accent-dark;
+
+  span.icon > svg {
+    color: $announcement-accent-dark;
+  }
+}
+
 // RTL posts (frontmatter postLang: he): the theme pins the colored bar and the
 // icons to the left; mirror them so they sit on the reading-start side.
 .single[dir="rtl"] .content .admonition {
@@ -111,5 +148,9 @@ html.dark .single .content .admonition.joke {
 
   &.joke {
     border-right-color: $joke-accent;
+  }
+
+  &.announcement {
+    border-right-color: $announcement-accent;
   }
 }

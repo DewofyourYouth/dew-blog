@@ -2,7 +2,7 @@
 title: "How Much Ugaritic Can I Read with Hebrew?"
 slug: "ugaritic"
 date: 2026-11-01
-draft: true
+draft: false
 categories:
   - "Learning & Languages"
 tags:

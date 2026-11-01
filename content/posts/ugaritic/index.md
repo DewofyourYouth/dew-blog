@@ -30,19 +30,13 @@ seo:
 storyShare: true
 ---
 
-I recently recorded another video in my ongoing experiment of trying to read ancient {{< tooltip term="Semitic languages" key="semitic-languages" >}} using the languages I already know. This time I tried {{< tooltip term="Ugaritic" key="ugaritic" >}}, with somewhat mixed results.
-
 I could read the two-word inscription on an axe. The letter was considerably harder. And the poetry was a case where I probably should have understood more than I did, but apparently I wasn't prepared for it to rain oil.
+
+That was my latest video, in an ongoing experiment of trying to read ancient {{< tooltip term="Semitic languages" key="semitic-languages" >}} using the languages I already know. This time I tried {{< tooltip term="Ugaritic" key="ugaritic" >}}.
 
 {{< youtube mD0hhGj7W6E >}}
 
-{{< join-channels >}}
-
 My background, for anyone coming into this series here, is Hebrew, the {{< tooltip term="Aramaic" key="aramaic" >}} you pick up from learning {{< tooltip term="Gemara" key="gemara" >}} and other Jewish texts, and some conversational Arabic. I can read {{< tooltip term="Biblical" key="biblical-hebrew" >}} and {{< tooltip term="Mishnaic Hebrew" key="mishnaic-hebrew" >}} comfortably. My Arabic is considerably less comfortable, but I can have a conversation with someone who is patient.
-
-{{< admonition type="announcement" title="Coming next: Aramaic" >}}
-After Ugaritic I'm turning to Aramaic, in a longer series of its own looking at both ancient and modern forms of the language. This time I have a real head start from the Gemara. Whether it carries me as far as I expect is what I want to find out.
-{{< /admonition >}}
 
 {{< tooltip term="Ugarit" key="ugarit" >}} was a trading kingdom on the coast of what is now {{< tooltip term="Syria" key="syria" >}}, near {{< tooltip term="Latakia" key="latakia" >}}. During the {{< tooltip term="Late Bronze Age" key="late-bronze-age" >}} it was under {{< tooltip term="Hittite" key="hittite" >}} domination. Its archives contain letters, administrative records, and literary texts, including the {{< tooltip term="Baal Cycle" key="baal-cycle" >}}.[^ugarit]
 
@@ -64,6 +58,8 @@ We started with a bronze axe found in the {{< tooltip term="House of the High Pr
 
 I wouldn't necessarily have known what to do with the axe, but I could read the inscription.
 
+{{< join-channels >}}
+
 ## A letter to the king
 
 The next text, KTU 2.38, was a letter from the king of {{< tooltip term="Tyre" key="tyre" >}} to the king of Ugarit. I didn't know what it said before attempting it.
@@ -80,12 +76,11 @@ It turns out **rgm** here means “say.” There was no King Rock. That was a co
 
 These are a few of the phrases from the letter, rather than a continuous passage:[^texts]
 
-| Ugaritic           | Hebrew letters | Arabic letters | Latin letters | Meaning                         |
-| ------------------ | -------------- | -------------- | ------------- | ------------------------------- |
-| 𐎍 𐎟 𐎎𐎍𐎋 𐎟 𐎜𐎂𐎗𐎚     | ל מלכ אגרת     | ل ملك أجرت     | l mlk ʾugrt   | To the king of Ugarit           |
-| 𐎀𐎃𐎊 𐎟 𐎗𐎂𐎎          | אח׳י רגמ       | أخي رجم        | ʾaḫy rgm      | My brother, say                 |
-| 𐎂𐎌𐎎 𐎟 𐎀𐎄𐎗          | גשמ אדר        | جشم أدر        | gšm ʾadr      | Mighty rain / a severe storm    |
-| 𐎁 𐎟 𐎍𐎁𐎅 𐎟 𐎀𐎍 𐎟 𐎊𐎌𐎚 | ב לבה אל ישת   | ب لبه أل يشت   | b lbh ʾal yšt | Let him not put it in his heart |
+| Ugaritic                   | Hebrew letters      | Arabic letters     | Latin letters        | Meaning                                 |
+| -------------------------- | ------------------- | ------------------ | -------------------- | --------------------------------------- |
+| 𐎍 𐎟 𐎎𐎍𐎋 𐎟 𐎜𐎂𐎗𐎚 𐎟 𐎀𐎃𐎊 𐎟 𐎗𐎂𐎎 | ל מלכ אגרת אח׳י רגמ | ل ملك أجرت أخي رجم | l mlk ʾugrt ʾaḫy rgm | To the king of Ugarit, my brother, say: |
+| 𐎂𐎌𐎎 𐎟 𐎀𐎄𐎗                  | גשמ אדר             | جشم أدر            | gšm ʾadr             | Mighty rain / a severe storm            |
+| 𐎁 𐎟 𐎍𐎁𐎅 𐎟 𐎀𐎍 𐎟 𐎊𐎌𐎚         | ב לבה אל ישת        | ب لبه أل يشت       | b lbh ʾal yšt        | Let him not put it in his heart         |
 
 **{{< tooltip term="גשמ אדר" key="gshm-adr" >}}** looked to me like rain in the month of {{< tooltip term="Adar" key="adar" >}}. Which seemed reasonable. It rains in Adar.
 
@@ -120,7 +115,7 @@ In this case, the sentence actually made the individual words harder for me to r
 
 I couldn't read Ugaritic straight through with anything like the ease of reading a passage from the {{< tooltip term="Torah" key="torah" >}}. Moabite and Phoenician had felt much closer to that. With Ugaritic, I kept recognizing words and then losing the sentence.
 
-But once I looked at the translations, a lot of it felt accessible. There were unfamiliar words, and there were words I probably could have figured out if I had given them more thought. Those aren't quite the same problem, even if the result on camera looks similar.
+But once I looked at the translations, a lot of it felt accessible. Some words were simply unfamiliar. I didn't know the word for honey, and staring at it longer wasn't going to help. Others I knew perfectly well. **שמנ** is *shemen*. I didn't miss it because it was foreign. I missed it because heavens raining oil didn't sound like something a sentence would say, so I went looking for a reading that made more sense. Those aren't the same problem, even if they look the same on camera.
 
 With Sabaic, I often felt that I simply didn't have enough to go on. Here I felt that knowing a few more words would have made a substantial difference. I wouldn't claim that I understood the letter, because I didn't. But I could see how I might get there.
 
@@ -130,9 +125,16 @@ And the Baal passage was closer than my first attempt suggested. Apparently I ne
 I could read the axe. The correspondence suffered. The weather forecast exceeded my expectations for olive oil.
 {{< /intelligibility >}}
 
+{{< admonition type="announcement" title="Coming next: Aramaic" >}}
+After Ugaritic I'm turning to Aramaic, in a longer series of its own looking at both ancient and modern forms of the language. This time I have a real head start from the Gemara. Whether it carries me as far as I expect is what I want to find out.
+{{< /admonition >}}
+
 *Featured image: detail of the Baal Cycle tablet KTU 1.6 (Louvre AO 16636), photo by Shonagon, cropped, [CC0](https://creativecommons.org/publicdomain/zero/1.0/), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Tablette_avec_po%C3%A8me_mythologique_du_cycle_de_Ba%27al_-_Mus%C3%A9e_du_Louvre_Antiquit%C3%A9s_orientales_AO_16636.jpg).*
 
 [^ugarit]: [The Metropolitan Museum of Art, “Ugarit”](https://www.metmuseum.org/essays/ugarit).
+
 [^script]: Scuola Normale Superiore, Mnamon: [Ugaritic language](https://mnamon.sns.it/index.php?id=8&lang=en&page=Lingua) and [writing system](https://mnamon.sns.it/index.php?id=30&lang=en&page=Scrittura). The added marks in the teaching transcription preserve consonant distinctions that ordinary Hebrew spelling would obscure.
+
 [^texts]: Scuola Normale Superiore, Mnamon, [Ugaritic writing examples](https://mnamon.sns.it/index.php?id=30&lang=en&page=Esempi), including RS 1.051 and RS 18.031. Some details of the letter's maritime vocabulary are disputed; the table gives selected phrases only. Its diplomatic use of “brother” need not mean a biological brother.
+
 [^poetry]: KTU 1.6 III 6–7; Clemens Steinberger, [Glossar der ugaritischen poetischen Formen](https://eupt.uni-goettingen.de/EUPT-Lab/1_Glossar-der-ugaritischen-poetischen-Formen.html), Göttingen EUPT. The Latin column gives consonants, rather than a fully reconstructed pronunciation.

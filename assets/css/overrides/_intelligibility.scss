@@ -1,0 +1,92 @@
+/* Semitic-series rating card (layouts/shortcodes/intelligibility.html).
+   A mock-official certificate: small-caps kicker, a row of unit icons with
+   the unearned ones faded, the score, and the verdict as a pull quote. */
+.single .content .intel-rating {
+  margin: 2rem 0;
+  padding: 1.1rem 1.25rem 1.2rem;
+  color: var(--doyy-ink);
+  background-color: color-mix(in srgb, var(--doyy-accent) 6%, transparent);
+  border: 1px solid var(--doyy-rule);
+  border-top: 3px solid var(--doyy-accent);
+  border-radius: 3px;
+}
+
+.single .content .intel-rating-kicker {
+  margin: 0 0 0.7rem;
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--doyy-accent);
+
+  span {
+    margin-left: 0.4rem;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 0;
+    text-transform: none;
+    color: var(--doyy-muted);
+
+    &::before {
+      content: "· ";
+    }
+  }
+}
+
+.single .content .intel-rating-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-bottom: 0.75rem;
+}
+
+.single .content .intel-rating-slot {
+  position: relative;
+  display: inline-block;
+  width: 2.3rem;
+  height: 2.3rem;
+  color: var(--doyy-rule);
+
+  svg {
+    display: block;
+    width: 2.3rem;
+    height: 2.3rem;
+    fill: currentColor;
+  }
+}
+
+html.dark .single .content .intel-rating-slot {
+  color: rgba(232, 226, 214, 0.18);
+}
+
+.single .content .intel-rating-fill {
+  position: absolute;
+  inset: 0 auto 0 0;
+  overflow: hidden;
+  color: var(--doyy-accent);
+}
+
+.single .content .intel-rating-score {
+  margin: 0 0 0.6rem;
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  line-height: 1.4;
+
+  strong {
+    color: var(--doyy-ink);
+  }
+}
+
+.single .content .intel-rating-verdict {
+  margin: 0;
+  padding: 0 0 0 0.9rem;
+  font-style: italic;
+  color: var(--doyy-muted);
+  background: none;
+  border-left: 2px solid var(--doyy-rule);
+
+  p {
+    margin: 0;
+  }
+}

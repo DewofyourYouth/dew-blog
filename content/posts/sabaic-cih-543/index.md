@@ -78,6 +78,10 @@ I do not know. The translation “his wife” is supported by the scholarly read
 
 For all the difficulty I had reading it, I like that this fragment gives us a man and his family, named individually, in an acknowledgment of divine help. I just wish I had realized sooner how much of it was the family introducing themselves.
 
+{{< intelligibility score="2" of="10" unit="frankincense burners" icon="incense-burner" extra="plus somebody’s mother" >}}
+I identified God and Israel, then spent the rest of the inscription trying to conjugate a family.
+{{< /intelligibility >}}
+
 *Featured image: detail of the hand copy of CIH 543 in the Corpus Inscriptionum Semiticarum, Pars IV, Tab. XXIII (Paris, 1920), cropped, public domain, via the [Internet Archive](https://archive.org/details/corpusinscriptio42acad).*
 
 [^dating]: George Hatke, [*Late Antique Arabia and the Rise of Islam (Part I)*](https://www.researchgate.net/publication/395879249_Late_Antique_Arabia_and_the_Rise_of_Islam_Part_I), presentation, section on CIH 543. Hatke gives the provenance as Ẓafār and an approximate date in the second half of the fifth century CE.

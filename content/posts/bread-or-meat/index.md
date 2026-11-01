@@ -244,6 +244,10 @@ I still do not know whether the ancestral word meant food, or exactly how bread 
 
 That seems like a worthwhile result from learning one Arabic word.
 
+{{< intelligibility score="3" of="5" unit="loaves of bread" icon="loaf" >}}
+One turned out to be meat, and the other is now a {{< tooltip term="machlokes" key="machlokes" >}} between Ibn Ezra and the Ramban.
+{{< /intelligibility >}}
+
 [^rgl]: Ahmad Al-Jallad, **An Outline of the Grammar of the Safaitic Inscriptions** (Leiden: Brill, 2015), p. 337, entry **RGL** ([DOI](https://doi.org/10.1163/9789004289826)). The entry glosses Safaitic **rgl** as "foot soldier" (C 2076; plural in KRS 1903) and proposes this as the earlier sense behind Arabic **rajul**. The military attestations support the Safaitic meaning; the direction of semantic development is Al-Jallad's historical interpretation. See also the [OCIANA commentary on RQ.A 10](https://ociana.osu.edu/inscriptions/17747), which discusses C 2076 and its contrast between infantry and horsemen. The consonantal spelling alone does not establish the ancient vowels.
 
 [^shift]: John Huehnergard, ["Canaanite Shift"](https://www.academia.edu/4632397/2013_Canaanite_Shift), in **Encyclopedia of Hebrew Language and Linguistics**, vol. 1 (Leiden: Brill, 2013), p. 395. The change concerns inherited long **ā**, not every modern Arabic /aː/ or every Hebrew /o/; **salām** / **šālōm** is a standard example.

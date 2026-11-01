@@ -254,6 +254,10 @@ That doesn't give me a precise ranking of mutual intelligibility. I'd need to di
 
 Once I got past the alphabet, I could read about his father ruling Moab, how many years he ruled, and Mesha ruling after him. I don't know all the words, and I'm guessing at some of the pronunciation. But I could understand quite a lot of a text written nearly three thousand years ago without having studied the language. I think that's pretty cool.
 
+{{< intelligibility score="4" of="5" unit="Kemoshes" icon="kemosh" extra="plus half a concubine" >}}
+Mostly comprehensible. Different national god, familiar complaints about the neighbors.
+{{< /intelligibility >}}
+
 ---
 
 ### Texts and Notes

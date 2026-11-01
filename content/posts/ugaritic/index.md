@@ -126,6 +126,10 @@ With Sabaic, I often felt that I simply didn't have enough to go on. Here I felt
 
 And the Baal passage was closer than my first attempt suggested. Apparently I needed to be a little more open-minded about what could fall out of the sky.
 
+{{< intelligibility score="3.5" of="10" unit="she-goats" icon="goat" extra="pending an investigation into King Rock" >}}
+I could read the axe. The correspondence suffered. The weather forecast exceeded my expectations for olive oil.
+{{< /intelligibility >}}
+
 *Featured image: detail of the Baal Cycle tablet KTU 1.6 (Louvre AO 16636), photo by Shonagon, cropped, [CC0](https://creativecommons.org/publicdomain/zero/1.0/), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Tablette_avec_po%C3%A8me_mythologique_du_cycle_de_Ba%27al_-_Mus%C3%A9e_du_Louvre_Antiquit%C3%A9s_orientales_AO_16636.jpg).*
 
 [^ugarit]: [The Metropolitan Museum of Art, “Ugarit”](https://www.metmuseum.org/essays/ugarit).

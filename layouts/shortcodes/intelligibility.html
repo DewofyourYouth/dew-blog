@@ -1,0 +1,29 @@
+{{- /* Semitic-series gag: the official, scientifically indefensible rating of how
+     much of an ancient language I could read with Hebrew.
+     {{< intelligibility score="3.5" of="10" unit="she-goats" icon="goat" extra="pending an investigation into King Rock" >}}
+     The verdict, in my voice.
+     {{< /intelligibility >}}
+     `icon` names an SVG in assets/icons/rating/. Halves render as half an icon;
+     denominators are deliberately inconsistent between posts. Styles in
+     overrides/_intelligibility.scss. */ -}}
+{{- $score := float (.Get "score") -}}
+{{- $of := int (.Get "of") -}}
+{{- $icon := resources.Get (printf "icons/rating/%s.svg" (.Get "icon")) -}}
+{{- if not $icon -}}
+  {{- errorf "intelligibility: no icon %q in assets/icons/rating/ (%s)" (.Get "icon") .Position -}}
+{{- end -}}
+{{- $svg := $icon.Content | replaceRE `<!--.*?-->` "" | replaceRE `<svg ` `<svg aria-hidden="true" focusable="false" ` -}}
+{{- $shown := replace (printf "%g" $score) ".5" "½" -}}
+<aside class="intel-rating">
+  <p class="intel-rating-kicker">Official intelligibility rating <span>scientifically indefensible</span></p>
+  <div class="intel-rating-icons" aria-hidden="true">
+    {{- range $i := seq $of -}}
+      {{- $fill := math.Max 0 (math.Min 1 (sub $score (float (sub $i 1)))) -}}
+      <span class="intel-rating-slot">{{ $svg | safeHTML }}<span class="intel-rating-fill" style="{{ printf "width: %g%%" (mul $fill 100) | safeCSS }}">{{ $svg | safeHTML }}</span></span>
+    {{- end -}}
+  </div>
+  <p class="intel-rating-score"><strong>{{ $shown }} out of {{ $of }} {{ .Get "unit" }}</strong>{{ with .Get "extra" }}, {{ . }}{{ end }}</p>
+  {{- with .Inner }}
+  <blockquote class="intel-rating-verdict">{{ . | $.Page.RenderString }}</blockquote>
+  {{- end }}
+</aside>

@@ -223,6 +223,10 @@ The coffin was originally made for an Egyptian general named Penptah. One schola
 
 Anyway, for a first attempt at Phoenician, I think that went pretty well. There were words I didn’t know and things I misunderstood, but I could follow what he was saying. He’s Tabnit, he’s lying in this coffin, there’s nothing valuable in here, and please leave him alone.
 
+{{< intelligibility score="4" of="5" unit="secondhand sarcophagi" icon="sarcophagus" >}}
+I understood the gentleman’s request to leave him alone. His commitment to respecting other people’s coffins remains questionable.
+{{< /intelligibility >}}
+
 {{< join-channels >}}
 
 ## Sources and credits

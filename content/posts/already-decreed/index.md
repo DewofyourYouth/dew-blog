@@ -161,16 +161,6 @@ We say {{< tooltip term="כי אתה טוב וסלח" key="ki-ata-tov" >}}: You 
 
 Hashem is not limited to my version of being forgiving.
 
-{{< admonition type="digression" title="Are you very rich?" >}}
-I spoke to Rav Kenig once, at Yeshiva University. I was about seventeen, and I asked him about becoming an artist.
-
-He asked me whether I was very rich. There are a lot of people in {{< tooltip term="Tzfat" key="tzfat" >}}, he said, who are very talented artists. They make wonderful things, and they have nothing from it.
-
-“That's grounded,” my father said. “At least he didn't read your palm.”
-
-It was good advice. I should have asked him something interesting, some burning question. But I was seventeen. What did I know?
-{{< /admonition >}}
-
 We also talked about how knowing that you should do something does not necessarily make you do it. I know that I should be more orderly and organized. It's not going to happen, but I know that I should. So I resent it.
 
 I mentioned an AI assistant offering to remind me about {{< tooltip term="Shacharit" key="shacharit" >}}.

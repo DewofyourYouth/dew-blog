@@ -149,7 +149,7 @@ I thought {{< tooltip term="Refa'einu" key="refaeinu" >}} probably covered it. W
 
 ## Imagining a small God
 
-From there, we got onto the tendency to imagine God as being as harsh toward us as we are toward ourselves. That makes approaching Him demoralizing before we have even started.
+From there, we got onto the tendency to imagine God as being as harsh toward us as we are toward ourselves. That makes approaching Him demoralizing before we have even started. It is part of our hang up with the idea of judgment. We imagine that God is as small as we are, and that He will be as harsh toward us as we are toward ourselves.
 
 I recalled a story about a woman who came to {{< tooltip term="Rabbi Elozar Kenig" key="rabbi-elazar-kenig" >}} with a question. Everyone kept saying that teshuva fixes everything. But she had done terrible things. How could someone that bad be forgiven?
 
@@ -160,20 +160,6 @@ He did not need to tell her that everything she had done was fine. The mistake w
 We say {{< tooltip term="כי אתה טוב וסלח" key="ki-ata-tov" >}}: You are good and forgiving. But what do we imagine that means? I might forgive the person who hits me with his {{< tooltip term="tallit" key="tallit" >}} while putting it on. Once. Twice. Maybe even four times.
 
 Hashem is not limited to my version of being forgiving.
-
-We also talked about how knowing that you should do something does not necessarily make you do it. I know that I should be more orderly and organized. It's not going to happen, but I know that I should. So I resent it.
-
-I mentioned an AI assistant offering to remind me about {{< tooltip term="Shacharit" key="shacharit" >}}.
-
-Dude. I never forget Shacharit. I would love to be able to say, “Oh, Shacharit! I forgot.” Forgetting is not the difficulty.
-
-My father's difficulty isn't forgetting either. He goes between extremes: periods of being really meticulous, and then the zeal wears off. What he doesn't want is to go to nothing.
-
-“I used to say, well, I can't climb a mountain,” he said. “Now I basically say, well, I can handle a pebble.”
-
-So he built a routine. No TV until he davens. Did you do your five minutes today? It may not be all of Shacharit, but it beats the days when the most religious thing he did was wear his {{< tooltip term="kippah" key="kippah" >}}.
-
-He worked it out with an AI, which is very good at encouraging you. “Because there's enough voices in your head that are doing the opposite.”
 
 {{< join-channels >}}
 

@@ -2,7 +2,7 @@
 title: "Praying for What Is Already Decreed: Tzidkat HaTzaddik 66–67"
 slug: "already-decreed"
 date: 2026-11-02T09:00:00+02:00
-draft: true
+draft: false
 categories:
   - Faith & Practice
 tags:

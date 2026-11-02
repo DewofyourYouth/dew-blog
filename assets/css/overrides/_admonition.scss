@@ -157,6 +157,44 @@ html.dark .single .content .admonition.digression {
   }
 }
 
+// Custom "mashal" admonition type: a parable told to make a point; the
+// nimshal and reactions stay outside the box. Same specificity rules as
+// reflection above.
+//
+// Palette: sienna, earthier than the joke mustard.
+
+$mashal-accent: #8b5e3c;
+$mashal-bg: rgba(139, 94, 60, 0.1);
+$mashal-bar: rgba(139, 94, 60, 0.25);
+
+.single .content .admonition.mashal {
+  border-left-color: $mashal-accent;
+  background-color: $mashal-bg;
+
+  span.icon > svg {
+    color: $mashal-accent;
+  }
+
+  .admonition-title {
+    border-bottom-color: $mashal-bg;
+    background-color: $mashal-bar;
+  }
+
+  &.open .admonition-title {
+    background-color: $mashal-bg;
+  }
+}
+
+html.dark .single .content .admonition.mashal {
+  $mashal-accent-dark: #c79a74;
+
+  border-left-color: $mashal-accent-dark;
+
+  span.icon > svg {
+    color: $mashal-accent-dark;
+  }
+}
+
 // RTL posts (frontmatter postLang: he): the theme pins the colored bar and the
 // icons to the left; mirror them so they sit on the reading-start side.
 .single[dir="rtl"] .content .admonition {
@@ -193,5 +231,9 @@ html.dark .single .content .admonition.digression {
 
   &.digression {
     border-right-color: $digression-accent;
+  }
+
+  &.mashal {
+    border-right-color: $mashal-accent;
   }
 }

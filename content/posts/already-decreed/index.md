@@ -201,8 +201,7 @@ This brought us to the familiar experience of reaching another Rosh Hashanah, lo
 
 I told a {{< tooltip term="mashal" key="mashal" >}}.
 
-## Zalman's assignment
-
+{{< admonition type="mashal" title="Zalman's assignment" >}}
 A man wants to know his purpose in life. He fasts, prays, does whatever one does to get a revelation, and finally gets an answer.
 
 We'll call him Zalman.
@@ -215,13 +214,14 @@ There is a particular rock in a particular park. His job is to go there and push
 
 Fine. The next morning he goes and pushes. He keeps pushing for months. Then the weather becomes unpleasant, his enthusiasm wears off, and he starts to wonder whether the whole thing was a good idea.
 
-I initially tried setting the park at the intersection of two Florida roads that, my father pointed out, run parallel. We eventually found somewhere for the rock.
-
 Zalman has had enough. He has been pushing this thing for five months, and it has not moved. He complains.
 
 God tells him to look in the mirror.
 
 He is completely jacked.
+{{< /admonition >}}
+
+I initially tried setting the park at the intersection of two Florida roads that, my father pointed out, run parallel. We eventually found somewhere for the rock.
 
 The point of the mashal is that the absence of the result you were measuring does not establish that nothing happened. It may be that the work is doing something you cannot see, or that you have misunderstood what the work was for.
 

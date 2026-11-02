@@ -56,7 +56,7 @@ Eventually he has some sort of medical emergency. The rabbi comes to visit, and 
 “But your heart,” says the rabbi. “Your heart is great.”
 {{< /admonition >}}
 
-I'm assuming this is a joke. I'd like to think there wasn't a rabbi who was actually that much of an asshole.
+I'm assuming this is a joke. I'd like to think there wasn't a rabbi who was actually that much of an jerk.
 
 My father told me not to assume.
 

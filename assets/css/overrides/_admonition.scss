@@ -120,6 +120,43 @@ html.dark .single .content .admonition.announcement {
   }
 }
 
+// Custom "digression" admonition type: a tangent the conversation took before
+// returning to the main thread. Same specificity rules as reflection above.
+//
+// Palette: slate, quieter than the theme's blue note.
+
+$digression-accent: #5f7380;
+$digression-bg: rgba(95, 115, 128, 0.1);
+$digression-bar: rgba(95, 115, 128, 0.25);
+
+.single .content .admonition.digression {
+  border-left-color: $digression-accent;
+  background-color: $digression-bg;
+
+  span.icon > svg {
+    color: $digression-accent;
+  }
+
+  .admonition-title {
+    border-bottom-color: $digression-bg;
+    background-color: $digression-bar;
+  }
+
+  &.open .admonition-title {
+    background-color: $digression-bg;
+  }
+}
+
+html.dark .single .content .admonition.digression {
+  $digression-accent-dark: #9fb3c0;
+
+  border-left-color: $digression-accent-dark;
+
+  span.icon > svg {
+    color: $digression-accent-dark;
+  }
+}
+
 // RTL posts (frontmatter postLang: he): the theme pins the colored bar and the
 // icons to the left; mirror them so they sit on the reading-start side.
 .single[dir="rtl"] .content .admonition {
@@ -152,5 +189,9 @@ html.dark .single .content .admonition.announcement {
 
   &.announcement {
     border-right-color: $announcement-accent;
+  }
+
+  &.digression {
+    border-right-color: $digression-accent;
   }
 }

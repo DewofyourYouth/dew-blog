@@ -48,7 +48,7 @@ Talmudic Aramaic is no longer a language with a community of native speakers. Bu
 
 So when I discovered that there are modern-day {{< tooltip term="Aramaic languages" key="neo-aramaic" >}}, I went in with maybe some misplaced optimism. Some of these languages are recently extinct; others have small communities of speakers. There are even Jewish communities with their own Aramaic languages, although it seems that those are going out of existence very quickly.
 
-At some point, maybe a few years ago, I first came across what I knew as {{< tooltip term="Syriac" key="syriac" >}}, or {{< tooltip term="Sureth" key="sureth" >}}, as I think the speakers call it. I associated it mostly with {{< tooltip term="Chaldeans" key="chaldeans" >}}. I knew it was a form of Aramaic, but I could not understand a word they were saying.
+At some point, over a decade ago, I first came across what I knew as {{< tooltip term="Syriac" key="syriac" >}}, or {{< tooltip term="Sureth" key="sureth" >}}, as I think the speakers call it. I associated it mostly with {{< tooltip term="Chaldeans" key="chaldeans" >}}. I knew it was a form of Aramaic, but I could not understand a word they were saying.
 
 I realized that the difference between reading Aramaic and understanding spoken Aramaic was vast—much greater than I had expected from my experience with Hebrew or even Arabic.
 

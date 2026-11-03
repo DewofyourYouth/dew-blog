@@ -2,7 +2,7 @@
 title: "I Read Aramaic for Years. Then I Heard It Spoken."
 slug: "hearing-aramaic"
 date: 2026-11-03T12:00:00+02:00
-draft: true
+draft: false
 categories:
   - "Learning & Languages"
 tags:

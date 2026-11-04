@@ -46,6 +46,7 @@ Essays here lean on classical rabbinic literature, comparative Semitic linguisti
 | **Rav Natan**                | _1780–1844 (Nemirov and Breslov)_                         | Rabbi Natan Sternhartz, Rabbi Nachman's student and scribe, author of _Likkutei Halakhot_.                                                                                                                    |
 | **Shadal**                   | _1800–1865 (Trieste, later Padua)_                        | Shmuel David Luzzatto, scholar, poet, grammarian and Bible commentator; critic of Kabbalah's antiquity.                                                                                                       |
 | **Rabbi Elazar Kenig**       | _Breslov, Tzfat_                                          | Rabbi Elazar Mordechai Kenig, leader of the Breslov community in Tzfat (Safed).                                                                                                                               |
+| **Rav Sheshet**              | _3rd–4th century CE (Babylonia)_                          | A blind sage of the Talmud, renowned for his command of the Mishnah and baraitot.                                                                                                                             |
 
 ## Texts, Interpretation and Jewish Life
 
@@ -170,17 +171,27 @@ Essays here lean on classical rabbinic literature, comparative Semitic linguisti
 | **Yerida letzorech aliya**                        | Hebrew              | "Descent for the sake of ascent": a fall that makes a greater rise possible.                                                                       |
 | **Mashal (pl. meshalim)**                         | Hebrew              | A parable told to illustrate a point.                                                                                                              |
 | **Baalei mussar**                                 | Hebrew              | Masters of _mussar_: teachers and practitioners of deliberate work on character.                                                                   |
+| **Ra'ash**                                        | Hebrew              | Noise, tumult; in 1 Kings 19, the earthquake.                                                                                                      |
+| **Semicha**                                       | Hebrew              | Rabbinic ordination.                                                                                                                               |
+| **Shas**                                          | Hebrew              | The Talmud as a whole; an acronym of _shisha sedarim_, the six orders of the Mishnah.                                                              |
+| **Bava Batra**                                    | Aramaic             | A tractate of the Talmud on property, inheritance and partnership.                                                                                 |
+| **Yetzer hara**                                   | Hebrew              | The evil inclination: the drive in each person toward sin; its counterpart is the _yetzer tov_, the good inclination.                              |
+| **Lashon hara**                                   | Hebrew              | Derogatory speech about another person, even when true.                                                                                            |
+| **Yiddishkeit**                                   | Yiddish             | Jewishness: Jewish religious life and practice, in the Yiddish-inflected sense of the word.                                                        |
 
 ## People of Tanach
 
-| Term        | Where                | Definition                                                                                   |
-| :---------- | :------------------- | :------------------------------------------------------------------------------------------- |
-| **Aharon**  | Exodus–Numbers       | Aaron, Moshe's brother and the first high priest; ancestor of the kohanim.                   |
-| **Korach**  | Numbers 16           | Moshe's cousin, who led a rebellion against Moshe and Aharon and was swallowed by the earth. |
-| **Bilam**   | Numbers 22–24        | Balaam, the non-Israelite prophet hired to curse Israel, who ended up blessing it.           |
-| **Achav**   | 1 Kings 16–22        | Ahab, king of the northern kingdom of Israel and Eliyahu's great adversary.                  |
-| **Eliyahu** | 1 Kings 17–2 Kings 2 | The prophet Elijah, who declared a drought on Achav's Israel and then hid from him.          |
-| **Yonah**   | Jonah                | The prophet Jonah, who fled from his mission to Nineveh.                                     |
+| Term               | Where                 | Definition                                                                                    |
+| :----------------- | :-------------------- | :-------------------------------------------------------------------------------------------- |
+| **Aharon**         | Exodus–Numbers        | Aaron, Moshe's brother and the first high priest; ancestor of the kohanim.                    |
+| **Korach**         | Numbers 16            | Moshe's cousin, who led a rebellion against Moshe and Aharon and was swallowed by the earth.  |
+| **Bilam**          | Numbers 22–24         | Balaam, the non-Israelite prophet hired to curse Israel, who ended up blessing it.            |
+| **Achav**          | 1 Kings 16–22         | Ahab, king of the northern kingdom of Israel and Eliyahu's great adversary.                   |
+| **Eliyahu**        | 1 Kings 17–2 Kings 2  | The prophet Elijah, who declared a drought on Achav's Israel and then hid from him.           |
+| **Yonah**          | Jonah                 | The prophet Jonah, who fled from his mission to Nineveh.                                      |
+| **Sichon**         | Numbers 21            | Sihon, the Amorite king whose capital was Cheshbon; Israel defeated him on the way to Canaan. |
+| **Moav**           | Numbers 21–25         | Moab, the kingdom east of the Dead Sea.                                                       |
+| **David HaMelech** | 1 Samuel 16–1 Kings 2 | King David, by tradition the author of most of Psalms.                                        |
 
 ## The Mishkan and the Temple
 

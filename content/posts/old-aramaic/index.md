@@ -20,7 +20,7 @@ tags:
 series:
   - semitic-languages
 series_order: 7
-summary: "A Hebrew and Gemara reader tries two Old Aramaic inscriptions: a Syrian king saved from a siege, and a treaty curse of seven nurses and one hungry baby."
+summary: "A Hebrew and Gemara reader tries two Old Aramaic inscriptions: a Syrian king saved from a siege, and a treaty curse of seven nurses and one unsatisfied baby."
 description: "How much Old Aramaic can a Hebrew speaker read? A first-pass reading of the Zakkur stele (KAI 202) and the Sefire treaty curses (KAI 222), checked against translations."
 featuredImage: "old-aramaic.jpg"
 featuredImageAlt: "Close-up of the basalt Zakkur stele in the Louvre: rows of Old Aramaic letters cut into two weathered stone blocks, against a pale museum wall"

@@ -64,7 +64,7 @@ The parah adumah, the red cow, purifies someone from the impurity of death. Rav 
 
 The calf brought the damage; the cow comes to clean it up. Rav Tzadok calls the calf the root of death, which is why the cow purifies from the impurity of death. The downfall was bovine, and the fix is also bovine.
 
-He also mentions {{< tooltip term="Yeravam" key="yeravam" >}} in passing. He made calves too, after the kingdom split. Having established a rival kingdom, he did not want his people’s religious life continually drawing them back to the Temple in Jerusalem and the house of David. So he established his own places of worship, complete with calves, just in case anyone had doubts about how badly this could go.
+He also mentions {{< tooltip term="Yeravam" key="yeravam" >}} in passing. He made calves too, after the kingdom split. Having established a rival kingdom, he did not want his people’s religious life continually drawing them back to the Temple in Jerusalem and the house of David. So he established his own places of worship, complete with calves (just in case anyone had doubts about how badly that could go).
 
 Rav Tzadok connects Yeravam with the root of {{< tooltip term="Mashiach ben Yosef" key="mashiach-ben-yosef" >}}, who is destined to be killed, and contrasts this with the life requested and received by {{< tooltip term="Mashiach ben David" key="mashiach-ben-david" >}}. It is a lot to fit into an aside. The calves, death, and the eventual redemption are being drawn into the same account.
 

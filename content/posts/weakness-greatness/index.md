@@ -52,7 +52,7 @@ Rav Tzadok then brings the teaching that {{< tooltip term="Mashiach" key="mashia
 
 He also brings the {{< tooltip term="Gemara" key="gemara" >}}’s question, מנין לתחיית המתים מן התורה: where in the Torah do we find that the dead come back to life? In a brief aside, he explains what it means for something to have a root in Torah. It means attachment to the source of life, which is the truth of {{< tooltip term="Hashem" key="hashem" >}}’s will.
 
-I tried to unpack that: even what we experience as death and destruction has its root in the source of life. We do not believe in two independent powers running the world, one producing the good things and another producing the bad ones. That is how I understood the connection to his opening claim. The weakness has not somehow escaped from God.
+The plain question is where the Torah says the dead will rise. Rav Tzadok reads it as asking how we know that even death is alive. I tried to unpack that: even what we experience as death and destruction has its root in the source of life. We do not believe in two independent powers running the world, one producing the good things and another producing the bad ones. That is how I understood the connection to his opening claim. The weakness has not somehow escaped from God.
 
 ## The downfall was bovine
 
@@ -62,13 +62,13 @@ The parah adumah, the red cow, purifies someone from the impurity of death. Rav 
 >
 > Let the mother come and clean up her child’s filth.
 
-The calf brought the damage; the cow comes to clean it up. The downfall was bovine, and the fix is also bovine.
+The calf brought the damage; the cow comes to clean it up. Rav Tzadok calls the calf the root of death, which is why the cow purifies from the impurity of death. The downfall was bovine, and the fix is also bovine.
 
 He also mentions {{< tooltip term="Yeravam" key="yeravam" >}} in passing. He made calves too, after the kingdom split. Having established a rival kingdom, he did not want his people’s religious life continually drawing them back to the Temple in Jerusalem and the house of David. So he established his own places of worship, complete with calves, just in case anyone had doubts about how badly this could go.
 
 Rav Tzadok connects Yeravam with the root of {{< tooltip term="Mashiach ben Yosef" key="mashiach-ben-yosef" >}}, who is destined to be killed, and contrasts this with the life requested and received by {{< tooltip term="Mashiach ben David" key="mashiach-ben-david" >}}. It is a lot to fit into an aside. The calves, death, and the eventual redemption are being drawn into the same account.
 
-Then he returns to the mother, identifying her with בינה שבלב, understanding in the heart. The understanding is that everything comes from Hashem:
+Then he comes back to the mother. The cow is the calf’s mother in the Midrash, and in {{< tooltip term="Kabbalah" key="kabbalah" >}} “mother” is also a name for בינה, understanding. Rav Tzadok places that understanding in the heart, and its content is that everything comes from Hashem:
 
 > שהכל מן הש״י ממנו יצא הכל.
 >
@@ -89,6 +89,8 @@ My father asked whether that was what he meant by deficiencies. I thought it inc
 Take someone with a temper. He can spend his life telling himself what a nothing he is because he gets angry. There may be a place for rebuke. But Rav Tzadok asks him to recognize that Hashem made him with this struggle. Perhaps he has to overcome it. Perhaps he will spend his whole life struggling with it. Either way, he serves Hashem as this person.
 
 I pushed the example to an extreme: someone who feels a sexual attraction to children and does not act on it. I chose him because it is hard to think of anyone we find more repugnant. Even criminals consider him beneath them, and rightly so. We do not think someone deserves a gold star for refraining from abusing a child. But if he faces a terrible desire and resists it, that resistance is his {{< tooltip term="avodah" key="avodah" >}}. The struggle is real even when the thing he must refrain from doing is something the rest of us find horrifying.
+
+There is a practical side to this too. The natural reaction to finding such urges in yourself is to decide you are a total degenerate, and that self-loathing makes harm more likely, not less. If he can tell himself instead, “If Hashem didn’t want me to have these urges, I wouldn’t have them, and today I am not acting on them,” he is more likely to keep not acting on them.
 
 There was also an obvious limit to how warmly we were going to receive the hypothetical announcement, “My great quality is that I want to do this terrible thing every day and don’t.” One can appreciate the restraint without following it with, “Come over for {{< tooltip term="Shabbos" key="shabbos" >}}.” If he fails to resist, we can be happy that he is rotting in prison and still recognize that he is _still_ serving Hashem in the way only he can.
 
@@ -154,9 +156,9 @@ We recalled the familiar prayer about accepting what you cannot change, changing
 
 ## Your Torah and somebody else’s Ketzot
 
-I connected this with things we had learned earlier in the {{< tooltip term="sefer" key="sefer" >}}: each person has his own Torah to learn. Someone else can draw fine distinctions in the {{< tooltip term="Ketzot HaChoshen" key="ketzot" >}}; you may have to break your teeth over {{< tooltip term="Chumash" key="chumash" >}} and Rashi. Your learning still belongs in the world. The other person’s accomplishment does not make yours dispensable.
+I connected this with things we had learned earlier in the {{< tooltip term="sefer" key="sefer" >}}: each person has his own Torah to learn. Someone else can draw fine distinctions in the {{< tooltip term="Ketzot HaChoshen" key="ketzot" >}}; you may have to break your teeth over {{< tooltip term="Chumash" key="chumash" >}} and Rashi. Without your learning, the Torah is not complete. The other person’s accomplishment does not make yours dispensable.
 
-That can be especially easy to see when someone comes to learning without the background that made it natural for somebody else. But I meant more than that. Even if you simply find learning hard, your understanding is something you have to contribute. You cannot replace yourself with the fellow who finds Ketzot easy.
+That can be especially easy to see when someone comes to learning without any background. Someone who grew up with none and taught himself Chumash and Rashi has done something more remarkable than someone raised for it who learns Ketzot. A kid from Harlem who becomes a millionaire is a bigger story than a Vanderbilt making another billion. But I meant more than that. Even if you simply find learning hard, your understanding is something you have to contribute. You cannot replace yourself with the fellow who finds Ketzot easy.
 
 My father brought up the teaching that the greater the person, the greater his yetzer hara. We recalled {{< tooltip term="Abaye" key="abaye" >}} following a man and woman who traveled together without doing anything wrong. Abaye was distressed because he thought he would not have restrained himself in the same situation. The elder’s response was כל הגדול מחבירו יצרו גדול הימנו.[^abaye]
 
@@ -170,7 +172,7 @@ I can watch a romantic comedy and relate to the characters. I might think their 
 
 I do not imagine the {{< tooltip term="Chafetz Chaim" key="chafetz-chaim" >}} watching *When Harry Met Sally* and laughing along. In the imaginary screening, I picture him being considerably more concerned about what these people are doing.
 
-I am not the Chafetz Chaim. We all know that. It would be ridiculous to get defensive about the discovery.
+I am not the Chafetz Chaim. We all know that. It would be ridiculous to get defensive about the discovery. And if I am honest, reading the Torah and Chazal, the man who cannot laugh along is probably closer to Torah values than the one who can.
 
 But suppose someone offered to change me overnight so that I had none of those sensibilities and was just like him. Would I take it? Probably not. Would I want to give him my sensibilities instead? No. He is the Chafetz Chaim.
 

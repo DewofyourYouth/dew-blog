@@ -160,7 +160,7 @@ I connected this with things we had learned earlier in the {{< tooltip term="sef
 
 That can be especially easy to see when someone comes to learning without any background. Someone who grew up with none and taught himself Chumash and Rashi has done something more remarkable than someone raised for it who learns Ketzot. A poor kid from flyover country who becomes a millionaire is a bigger story than a Vanderbilt making another billion. But I meant more than that. Even if you simply find learning hard, your understanding is something you have to contribute. You cannot replace yourself with the fellow who finds Ketzot easy.
 
-My father brought up the teaching that the greater the person, the greater his yetzer hara. We recalled {{< tooltip term="Abaye" key="abaye" >}} following a man and woman who traveled together without doing anything wrong. Abaye was distressed because he thought he would not have restrained himself in the same situation. The elder’s response was כל הגדול מחבירו יצרו גדול הימנו.[^abaye]
+My father brought up the teaching that the greater the person, the greater his yetzer hara. Rav Tzadok brings it earlier in the sefer, with {{< tooltip term="Abaye" key="abaye" >}} following a man and woman who traveled together without doing anything wrong. Abaye was distressed because he thought he would not have restrained himself in the same situation. The elder’s response was כל הגדול מחבירו יצרו גדול הימנו.[^abaye]
 
 The struggle is itself a mark of his greatness. Abaye thought his stronger yetzer hara exposed an inferiority; the elder told him it came from his greater stature. That is much closer to Rav Tzadok’s opening claim: the weakness itself is his greatness.
 
@@ -189,4 +189,4 @@ It is a paradox. That is where we left it.
 [^71]: Tzidkat HaTzaddik, [אות ע״א](https://ashoova.co.il/ask/צדקת-הצדיק-ע״א/). Its conclusion explicitly requires טובת עין even toward the people being cursed.
 [^bruriah]: Berakhot 10a; Psalms 104:35. The distinction between חטאים and חוטאים is Bruriah’s reading in the Gemara.
 [^elisha]: II Kings 2:19–24; Sotah 46b–47a. The Gemara lists illness for inciting the bears and illness for rejecting Gechazi as separate matters. The David discussion is in Tzidkat HaTzaddik 71, citing Psalms 109:22, Avodah Zarah 4b, Psalms 108:9, and Sanhedrin 104b.
-[^abaye]: Sukkah 52a. This was a comparison raised in our discussion, not a source cited in אות ע׳ itself.
+[^abaye]: Sukkah 52a, brought in Tzidkat HaTzaddik, [אות מ״ד](https://he.wikisource.org/wiki/צדקת_הצדיק/מד): someone with a strong desire for physical pleasure should not be saddened by it, since it makes him a vessel ready for an equally strong desire for truth.

@@ -13,4 +13,6 @@
 {{- end -}}
 {{- with .Get "heading" -}}{{- $copy = merge $copy (dict "heading" .) -}}{{- end -}}
 {{- with .Get "sub" -}}{{- $copy = merge $copy (dict "sub" .) -}}{{- end -}}
-{{- partial "subscribe-card.html" (dict "variant" "full" "location" $location "heading" $copy.heading "sub" $copy.sub) -}}
+{{- $category := "" -}}
+{{- with .Page.Params.categories -}}{{- $category = index . 0 -}}{{- end -}}
+{{- partial "subscribe-card.html" (dict "variant" "full" "location" $location "heading" $copy.heading "sub" $copy.sub "category" $category) -}}

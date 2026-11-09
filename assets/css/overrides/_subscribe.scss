@@ -50,6 +50,7 @@ html.dark .doyy-sub-seal--dark {
 
 .doyy-sub-form {
   display: flex;
+  flex-wrap: wrap;
   gap: 0.5rem;
   margin: 1rem 0 0;
   max-width: 30rem;
@@ -57,6 +58,39 @@ html.dark .doyy-sub-seal--dark {
 
 .doyy-sub-form[hidden] {
   display: none;
+}
+
+/* Topic checkboxes: a full-width row above the email field */
+.doyy-sub-topics {
+  flex: 1 0 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.35rem 1rem;
+  margin: 0 0 0.25rem;
+  padding: 0;
+  border: 0;
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  color: var(--doyy-ink);
+}
+
+.doyy-sub-topics legend {
+  float: left;
+  margin-right: 0.25rem;
+  padding: 0;
+  font-weight: 600;
+}
+
+.doyy-sub-topics label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  cursor: pointer;
+}
+
+.doyy-sub-topics input {
+  accent-color: var(--doyy-accent);
 }
 
 .doyy-sub-label {
@@ -194,6 +228,10 @@ html.dark .doyy-sub-form input[type="email"] {
 
   .doyy-sub-form {
     flex-direction: column;
+  }
+
+  .doyy-sub-topics {
+    flex-basis: auto;
   }
 
   .doyy-sub-form button {

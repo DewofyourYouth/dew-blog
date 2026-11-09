@@ -126,6 +126,7 @@
 
     var MSG_OK = "Almost there: check your inbox and click the link to confirm.";
     var MSG_ERR = "That didn’t go through. Check the address and try again.";
+    var MSG_TOPIC = "Pick at least one topic.";
 
     function track(name, params) {
       // The email address is never sent to GA. "submitted" means Brevo accepted the
@@ -138,13 +139,23 @@
     }
 
     forms.forEach(function (form) {
+      // Everything already includes each topic, so it and the topics exclude each other.
+      var boxes = form.querySelectorAll(".doyy-sub-topics input");
+      boxes.forEach(function (box) {
+        box.addEventListener("change", function () {
+          if (!box.checked) return;
+          boxes.forEach(function (other) {
+            if (other !== box && other.hasAttribute("data-everything") !== box.hasAttribute("data-everything")) other.checked = false;
+          });
+        });
+      });
+
       form.addEventListener("submit", function (e) {
         e.preventDefault();
         var card = form.closest(".doyy-sub");
         var status = card.querySelector(".doyy-sub-status");
         var location = card.dataset.signupLocation || "unknown";
         var button = form.querySelector("button");
-        button.disabled = true;
 
         function show(text, state) {
           status.textContent = text;
@@ -152,13 +163,22 @@
           status.hidden = false;
         }
 
+        var topics = Array.prototype.map.call(form.querySelectorAll(".doyy-sub-topics input:checked"), function (box) {
+          return box.parentNode.textContent.trim();
+        }).join(",");
+        if (boxes.length && !topics) {
+          show(MSG_TOPIC, "error");
+          return;
+        }
+        button.disabled = true;
+
         fetch(form.action + "?isAjax=1", { method: "POST", body: new FormData(form) })
           .then(function (r) { return r.json().catch(function () { return { success: r.ok }; }); })
           .then(function (data) {
             if (data && data.success) {
               form.hidden = true;
               show(MSG_OK, "ok");
-              track("newsletter_signup", { event_category: "newsletter", event_label: location, signup_location: location, signup_status: "submitted", value: 1 });
+              track("newsletter_signup", { event_category: "newsletter", event_label: location, signup_location: location, signup_status: "submitted", signup_topics: topics, value: 1 });
             } else {
               throw new Error("rejected");
             }

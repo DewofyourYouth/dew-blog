@@ -1,29 +1,50 @@
-# Copy for the in-post signup card (join-channels shortcode).
-# Lookup order: shortcode heading/sub params, then the post's series, then its
-# first category, then the card's built-in default. Everyone joins one list, so
-# the copy says the rest of the blog comes too.
+# Newsletter topics and the copy for the in-post signup card (join-channels).
+#
+# topics: one Brevo list per checkbox on the doyy-subscribe form (field lists_25[]).
+# Each topic list gets its own Brevo RSS integration fed by its category feed
+# (/categories/<slug>/index.xml); "Everything" is the original list fed by /index.xml.
+# A post's own category is ticked by default; posts in other categories tick Everything.
+#
+# Copy lookup order: shortcode heading/sub params, then the post's series, then its
+# first category, then the card's built-in default.
+
+field: "lists_25[]"
+
+topics:
+  - id: 11
+    label: "Torah"
+    category: "Faith & Practice"
+  - id: 12
+    label: "Languages"
+    category: "Learning & Languages"
+  - id: 13
+    label: "Family history"
+    category: "Heritage & Identity"
+  - id: 5
+    label: "Everything"
+    everything: true
 
 series:
   semitic-languages:
     heading: "Reading the Semitic languages, one at a time"
-    sub: "Get each new reading by email when it’s posted. The rest of the blog comes too: Torah, family history and the odd bit of code."
+    sub: "Get each new reading by email when it’s posted."
   tzidkat-hatzaddik:
     heading: "Learning Tzidkat HaTzaddik with my father"
-    sub: "Get new posts from our sessions by email. The rest of the blog comes too: Arabic and Hebrew, family history and the odd bit of code."
+    sub: "Get new posts from our sessions by email."
   shore-saranduk:
     heading: "Following the Saranduk family through the records"
-    sub: "Get new findings by email when they’re posted. The rest of the blog comes too: Torah, Arabic and Hebrew, and the odd bit of code."
+    sub: "Get new findings by email when they’re posted."
 
 categories:
   Faith & Practice:
     heading: "Get new Torah posts by email"
-    sub: "One short email per post. Language and family-history posts come too; skim past what isn’t for you."
+    sub: "One short email per post."
   Learning & Languages:
     heading: "Get new language posts by email"
-    sub: "Arabic, Hebrew, Aramaic and how I learn them, one short email per post. Torah and family-history posts come too."
+    sub: "Arabic, Hebrew, Aramaic and how I learn them, one short email per post."
   Heritage & Identity:
     heading: "Get new family-history posts by email"
-    sub: "One short email per post, with the records shown. Torah and language posts come too."
+    sub: "One short email per post, with the records shown."
   Tech & Tools:
     heading: "Get new posts by email"
-    sub: "Including the occasional script that almost worked. One short email per post; Torah, family history and languages come too."
+    sub: "One short email per post, including the occasional script that almost worked."

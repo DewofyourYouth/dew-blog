@@ -122,3 +122,5 @@ With Arabic, I have none of this. No tradition to defend, no inherited pronuncia
 The contrast is clarifying. With Hebrew, I carry the weight of inheritance — and that weight makes every question about pronunciation or usage into something larger than linguistics. With Arabic, I am free of that, and the freedom changes what I'm even looking for.
 
 Maybe that's what a living language does: it asks something of you. Hebrew asks me to figure out who I am in relation to my tradition. Arabic just invites me in. I'm grateful for both, and I'm not sure I'd trade either relationship for a simpler one.
+
+{{< featured-link url="https://dailyderja.com/blog/arabic-challenges/" title="Arabic in Israel is Hard" brand="Daily Derja" cat="نسمة فكرة" summary="A short note, in Arabic, on why learning Arabic in Israel feels harder than it should." image="derja-arabic-challenges.jpg" cta="Read the post →" >}}

@@ -40,7 +40,9 @@ My first thought was that the original word might have meant food, or a meal, an
 
 As often happens, what I thought would be a small language-learning observation became a rather longer investigation.
 
-I made a video about some of these connections. This post gives me room to follow the bread question a little further. There is also a shorter Arabic version on [The Daily Derja](https://dailyderja.com/blog/hebrew-arabic-semitic-cousins/).
+I made a video about some of these connections. This post gives me room to follow the bread question a little further. There is also a shorter Arabic version on The Daily Derja:
+
+{{< featured-link url="https://dailyderja.com/blog/hebrew-arabic-semitic-cousins/" title="Hebrew and Arabic: Semitic Cousins" brand="Daily Derja" cat="نسمة كلمة" summary="Why يوم is יום but لحم isn't לחם: shared Semitic roots, the Canaanite shift, and Hebrew–Arabic false friends like مكتب and מכתב. In Arabic." image="derja-semitic-cousins.jpg" cta="Read the post →" >}}
 
 {{< youtube Ur45-TIHQcg >}}
 

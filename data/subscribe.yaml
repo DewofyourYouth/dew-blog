@@ -1,0 +1,29 @@
+# Copy for the in-post signup card (join-channels shortcode).
+# Lookup order: shortcode heading/sub params, then the post's series, then its
+# first category, then the card's built-in default. Everyone joins one list, so
+# the copy says the rest of the blog comes too.
+
+series:
+  semitic-languages:
+    heading: "Reading the Semitic languages, one at a time"
+    sub: "Get each new reading by email when it’s posted. The rest of the blog comes too: Torah, family history and the odd bit of code."
+  tzidkat-hatzaddik:
+    heading: "Learning Tzidkat HaTzaddik with my father"
+    sub: "Get new posts from our sessions by email. The rest of the blog comes too: Arabic and Hebrew, family history and the odd bit of code."
+  shore-saranduk:
+    heading: "Following the Saranduk family through the records"
+    sub: "Get new findings by email when they’re posted. The rest of the blog comes too: Torah, Arabic and Hebrew, and the odd bit of code."
+
+categories:
+  Faith & Practice:
+    heading: "Get new Torah posts by email"
+    sub: "One short email per post. Language and family-history posts come too; skim past what isn’t for you."
+  Learning & Languages:
+    heading: "Get new language posts by email"
+    sub: "Arabic, Hebrew, Aramaic and how I learn them, one short email per post. Torah and family-history posts come too."
+  Heritage & Identity:
+    heading: "Get new family-history posts by email"
+    sub: "One short email per post, with the records shown. Torah and language posts come too."
+  Tech & Tools:
+    heading: "Get new posts by email"
+    sub: "Including the occasional script that almost worked. One short email per post; Torah, family history and languages come too."

@@ -1,3 +1,16 @@
 {{- /* In-post signup prompt: one per post, at a natural break (see CLAUDE.md).
-     Email first (Brevo), with WhatsApp/Telegram as a secondary line. */ -}}
-{{- partial "subscribe-card.html" (dict "variant" "full" "location" "post-inline" "heading" "Enjoying this post?" "sub" "Get one short email when there’s a new post: Torah, family history, Arabic and Hebrew, and the occasional script that almost worked.") -}}
+     Email first (Brevo), with WhatsApp/Telegram as a secondary line.
+     Copy comes from the heading/sub params, else data/subscribe.yaml by the
+     post's series, then its first category, else the generic default. */ -}}
+{{- $copy := dict "heading" "Enjoying this post?" "sub" "Get one short email when there’s a new post: Torah, family history, Arabic and Hebrew, and the occasional script that almost worked." -}}
+{{- $location := "post-inline" -}}
+{{- with .Page.Params.categories -}}
+  {{- with index site.Data.subscribe.categories (index . 0) -}}{{- $copy = merge $copy . -}}{{- end -}}
+{{- end -}}
+{{- with .Page.Params.series -}}
+  {{- $location = printf "post-inline:%s" (index . 0) -}}
+  {{- with index site.Data.subscribe.series (index . 0) -}}{{- $copy = merge $copy . -}}{{- end -}}
+{{- end -}}
+{{- with .Get "heading" -}}{{- $copy = merge $copy (dict "heading" .) -}}{{- end -}}
+{{- with .Get "sub" -}}{{- $copy = merge $copy (dict "sub" .) -}}{{- end -}}
+{{- partial "subscribe-card.html" (dict "variant" "full" "location" $location "heading" $copy.heading "sub" $copy.sub) -}}

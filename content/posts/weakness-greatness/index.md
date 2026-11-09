@@ -90,7 +90,7 @@ Take someone with a temper. He can spend his life telling himself what a nothing
 
 I pushed the example to an extreme: someone who feels a sexual attraction to children and does not act on it. I chose him because it is hard to think of anyone we find more repugnant. Even criminals consider him beneath them, and rightly so. We do not think someone deserves a gold star for refraining from abusing a child. But if he faces a terrible desire and resists it, that resistance is his {{< tooltip term="avodah" key="avodah" >}}. The struggle is real even when the thing he must refrain from doing is something the rest of us find horrifying.
 
-There was also an obvious limit to how warmly we were going to receive the hypothetical announcement, “My great quality is that I want to do this terrible thing every day and don’t.” One can appreciate the restraint without following it with, “Come over for {{< tooltip term="Shabbos" key="shabbos" >}}.” We can be happy that he is rotting in prison and still recognize that he is serving Hashem in the way only he can.
+There was also an obvious limit to how warmly we were going to receive the hypothetical announcement, “My great quality is that I want to do this terrible thing every day and don’t.” One can appreciate the restraint without following it with, “Come over for {{< tooltip term="Shabbos" key="shabbos" >}}.” If he fails to resist, we can be happy that he is rotting in prison and still recognize that he is _still_ serving Hashem in the way only he can.
 
 That example was ours. Rav Tzadok’s paragraph gives the figs, Mashiach, and the red cow. We were trying to work out how far his opening statement reaches.
 

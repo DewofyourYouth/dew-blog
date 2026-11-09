@@ -47,6 +47,11 @@ Essays here lean on classical rabbinic literature, comparative Semitic linguisti
 | **Shadal**                   | _1800–1865 (Trieste, later Padua)_                        | Shmuel David Luzzatto, scholar, poet, grammarian and Bible commentator; critic of Kabbalah's antiquity.                                                                                                       |
 | **Rabbi Elazar Kenig**       | _Breslov, Tzfat_                                          | Rabbi Elazar Mordechai Kenig, leader of the Breslov community in Tzfat (Safed).                                                                                                                               |
 | **Rav Sheshet**              | _3rd–4th century CE (Babylonia)_                          | A blind sage of the Talmud, renowned for his command of the Mishnah and baraitot.                                                                                                                             |
+| **Rabbi Meir**               | _2nd century CE (Land of Israel)_                         | A leading sage of the Mishnah, student of Rabbi Akiva.                                                                                                                                                        |
+| **Bruriah**                  | _2nd century CE (Land of Israel)_                         | A learned woman, wife of Rabbi Meir, quoted in the Talmud on matters of law and Scripture.                                                                                                                    |
+| **Abaye**                    | _4th century CE (Babylonia)_                              | A leading sage of the Talmud, head of the academy at Pumbedita.                                                                                                                                               |
+| **Maharatz Chayot**          | _1805–1855 (Galicia)_                                     | Rabbi Tzvi Hirsch Chajes, rabbi and scholar, author of glosses on the Talmud.                                                                                                                                 |
+| **Chafetz Chaim**            | _1838–1933 (Radin, Belarus)_                              | Rabbi Yisrael Meir Kagan, author of the _Chafetz Chaim_ on the laws of lashon hara and the _Mishnah Berurah_.                                                                                                 |
 
 ## Texts, Interpretation and Jewish Life
 
@@ -180,20 +185,30 @@ Essays here lean on classical rabbinic literature, comparative Semitic linguisti
 | **Yiddishkeit**                                   | Yiddish             | Jewishness: Jewish religious life and practice, in the Yiddish-inflected sense of the word.                                                        |
 | **Chozeh**                                        | Hebrew              | A seer or visionary; in older biblical usage, a prophet.                                                                                           |
 | **Immera (imra)**                                 | Aramaic             | A lamb.                                                                                                                                            |
+| **Kashering**                                     | Hebrew/English      | Making a utensil fit for kosher use by purging what it absorbed, usually with heat.                                                                |
+| **Mashiach**                                      | Hebrew              | The Messiah: the anointed king from the house of David who will bring the redemption.                                                              |
+| **Mashiach ben Yosef**                            | Hebrew              | Messiah son of Joseph: a messianic figure from the tribe of Joseph who is killed before the final redemption.                                      |
+| **Mashiach ben David**                            | Hebrew              | Messiah son of David: the messianic king of the final redemption.                                                                                  |
+| **Rodef**                                         | Hebrew              | A pursuer: someone actively threatening another's life, whom halacha permits stopping by force.                                                    |
+| **Olam Haba**                                     | Hebrew              | The World to Come.                                                                                                                                 |
+| **Ketzot HaChoshen**                              | Hebrew              | Rabbi Aryeh Leib Heller's commentary on the civil-law section of the Shulchan Aruch, famous for its intricate analysis.                            |
 
 ## People of Tanach
 
-| Term               | Where                 | Definition                                                                                    |
-| :----------------- | :-------------------- | :-------------------------------------------------------------------------------------------- |
-| **Aharon**         | Exodus–Numbers        | Aaron, Moshe's brother and the first high priest; ancestor of the kohanim.                    |
-| **Korach**         | Numbers 16            | Moshe's cousin, who led a rebellion against Moshe and Aharon and was swallowed by the earth.  |
-| **Bilam**          | Numbers 22–24         | Balaam, the non-Israelite prophet hired to curse Israel, who ended up blessing it.            |
-| **Achav**          | 1 Kings 16–22         | Ahab, king of the northern kingdom of Israel and Eliyahu's great adversary.                   |
-| **Eliyahu**        | 1 Kings 17–2 Kings 2  | The prophet Elijah, who declared a drought on Achav's Israel and then hid from him.           |
-| **Yonah**          | Jonah                 | The prophet Jonah, who fled from his mission to Nineveh.                                      |
-| **Sichon**         | Numbers 21            | Sihon, the Amorite king whose capital was Cheshbon; Israel defeated him on the way to Canaan. |
-| **Moav**           | Numbers 21–25         | Moab, the kingdom east of the Dead Sea.                                                       |
-| **David HaMelech** | 1 Samuel 16–1 Kings 2 | King David, by tradition the author of most of Psalms.                                        |
+| Term               | Where                 | Definition                                                                                          |
+| :----------------- | :-------------------- | :-------------------------------------------------------------------------------------------------- |
+| **Aharon**         | Exodus–Numbers        | Aaron, Moshe's brother and the first high priest; ancestor of the kohanim.                          |
+| **Korach**         | Numbers 16            | Moshe's cousin, who led a rebellion against Moshe and Aharon and was swallowed by the earth.        |
+| **Bilam**          | Numbers 22–24         | Balaam, the non-Israelite prophet hired to curse Israel, who ended up blessing it.                  |
+| **Achav**          | 1 Kings 16–22         | Ahab, king of the northern kingdom of Israel and Eliyahu's great adversary.                         |
+| **Eliyahu**        | 1 Kings 17–2 Kings 2  | The prophet Elijah, who declared a drought on Achav's Israel and then hid from him.                 |
+| **Yonah**          | Jonah                 | The prophet Jonah, who fled from his mission to Nineveh.                                            |
+| **Sichon**         | Numbers 21            | Sihon, the Amorite king whose capital was Cheshbon; Israel defeated him on the way to Canaan.       |
+| **Moav**           | Numbers 21–25         | Moab, the kingdom east of the Dead Sea.                                                             |
+| **David HaMelech** | 1 Samuel 16–1 Kings 2 | King David, by tradition the author of most of Psalms.                                              |
+| **Chava**          | Genesis 2–4           | Eve, the first woman.                                                                               |
+| **Yeravam**        | 1 Kings 11–14         | Jeroboam, first king of the northern kingdom of Israel, who set up golden calves at Bethel and Dan. |
+| **Elisha**         | 1 Kings 19–2 Kings 13 | The prophet Elisha, Eliyahu's disciple and successor.                                               |
 
 ## The Mishkan and the Temple
 

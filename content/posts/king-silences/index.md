@@ -30,7 +30,7 @@ seo:
 storyShare: true
 ---
 
-The main thing is the heart. That is where {{< tooltip term="Rav Tzadok" key="rav-tzadok" >}} begins {{< tooltip term="אות ס״ח" key="otiyot" def="Paragraph 68. Hebrew letters double as numerals: ס is 60, ח is 8." >}}:
+The main thing is the heart. That is where {{< tooltip term="Rav Tzadok" key="rav-tzadok" >}} begins {{< tooltip term="אות ס״ח" key="otiyot" def="Paragraph 68." >}}:
 
 > כל העבודות שבאברי־הגוף והמצוות שבם, הם רק להישיר הלב, והעיקר הוא הלב ששם מעון ה׳ יתברך.
 >

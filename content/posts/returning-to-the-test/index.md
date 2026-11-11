@@ -108,9 +108,9 @@ Then we went on to {{< tooltip term="ע״ג" key="otiyot" def="Paragraph 73." >}
 >
 > When a person repairs the sin he committed, {{< tooltip term="Hashem" key="hashem" >}} brings him to the same time and place, so that there will be {{< tooltip term="תשובת המשקל" key="teshuvat-hamishkal" >}}.[^73]
 
-I brought the {{< tooltip term="Rambam" key="rambam" >}}'s description of complete repentance. You have the same opportunity, with the same woman and the same desire, and you hold back. You don't do it. That is complete repentance.[^rambam]
+I brought the {{< tooltip term="Rambam" key="rambam" >}}'s description of complete repentance. You have the same opportunity, with the same woman and the same desire, and you hold back. You don't do it. That is complete {{< tooltip term="teshuva" key="teshuvah" >}}.[^rambam]
 
-Obviously, you are not allowed to seek this out yourself. If you did something wrong with a woman, you cannot decide that, in order to repent, you are going to put yourself back in the exact situation where you screwed up.
+Obviously, you are not allowed to seek this out yourself. If you did something wrong with a woman, you cannot decide that, in order to do teshuva, you are going to put yourself back in the exact situation where you screwed up.
 
 What could possibly go wrong?
 
@@ -122,13 +122,13 @@ You can if you want. I'm not telling you what to do.
 
 Anyway.
 
-Hashem will not bring you this test unless He knows you will not fail again. So if He brings you back into the situation where you failed, it is a sign that you have been repaired and your repentance was accepted.
+Hashem will not bring you this test unless He knows you will not fail again. So if He brings you back into the situation where you failed, it is a sign that you have been repaired and your teshuva was accepted.
 
 ## A lost object in Paris
 
 Rav Tzadok brings the Gemara in {{< tooltip term="Sanhedrin" key="sanhedrin-tractate" def="The tractate of the Talmud on courts, capital cases and punishments." >}} about a butcher caught selling nonkosher meat.
 
-Now he wants to repent. Of course he is not selling {{< tooltip term="treif" key="treif" >}} anymore. People already suspect him; the jig is up. That could just be self-preservation. So the Gemara says he has to go somewhere nobody knows him and prove himself there: return a valuable lost object, or throw out valuable treif meat of his own at a loss.[^butcher]
+Now he wants to do teshuva. Of course he is not selling {{< tooltip term="treif" key="treif" >}} anymore. People already suspect him; the jig is up. That could just be self-preservation. So the Gemara says he has to go somewhere nobody knows him and prove himself there: return a valuable lost object, or throw out valuable treif meat of his own at a loss.[^butcher]
 
 The second option will come to him in the ordinary course of things. He is a butcher; sooner or later an expensive animal of his will turn out to be treif, and he can declare it so and take the loss. Rav Tzadok's question is only about the first. You cannot decide where you will find a lost object. You find it where you find it.
 
@@ -136,11 +136,11 @@ The second option will come to him in the ordinary course of things. He is a but
 >
 > This is not in their hands. If they do not find a lost object, what are they supposed to do?
 
-What, now he can't repent?
+What, now he can't do teshuva?
 
 If you were just at home, fine, people find lost objects. But you have to go off to Paris and find one there? Who says you are going to find a lost object in Paris? Come on.
 
-Rav Tzadok says that if your repentance is complete, Hashem will arrange it. You will find the lost object in Paris. Don't worry about it.
+Rav Tzadok says that if your teshuva is complete, Hashem will arrange it. You will find the lost object in Paris. Don't worry about it.
 
 Don't pick it up, though. It could be a bomb.
 
@@ -176,23 +176,23 @@ So explicitly, Gechazi does not get the World to Come. In this hidden way, throu
 
 ## Take two
 
-My father thought this returned to what we had been learning: {{< tooltip term="teshuva" key="teshuvah" >}} on teshuva, descent before ascent, and the thing that made something nonkosher being the means by which you {{< tooltip term="kasher" key="kashering" >}} it.
+My father thought this returned to what we had been learning: teshuva on teshuva, descent before ascent, and the thing that made something nonkosher being the means by which you {{< tooltip term="kasher" key="kashering" >}} it.
 
 Yes. We said [last time](/post/weakness-is-greatness/) that your weakness is your greatness. Now he brings תשובת המשקל: where you failed is where you have your repair. You have to be in the situation of the failure to repair it. Once my father pointed that out, it seemed clear. He was right.
 
 And Rav Tzadok stretches the term to get there. תשובת המשקל usually means penance weighed against the sin: suffering in proportion to the pleasure you took, so the scales balance.[^mishkal] Rav Tzadok moves the weight. What balances the sin is not a matching amount of pain but the matching situation: the same woman, the same time, the same place, and this time you walk away.
 
-I wanted to add something I probably should have said earlier. Usually, when people read that Rambam, they do not take it to mean that this has to happen. If you have the same opportunity and refrain, that is complete repentance. You failed; take two, you did it right. But you do not necessarily read it as a promise that you will get take two.
+I wanted to add something I probably should have said earlier. Usually, when people read that Rambam, they do not take it to mean that this has to happen. If you have the same opportunity and refrain, that is complete teshuva. You failed; take two, you did it right. But you do not necessarily read it as a promise that you will get take two.
 
 There is also the Rambam's language about the One who knows what is hidden testifying that you will not return to the sin. Rav Tzadok says that when Hashem knows you will not fail, He gives you the opportunity to show it.[^rambam]
 
-I was not entirely sure whether he meant that it has to happen. But he is saying that when it does happen, it is a sign that your repentance is complete.
+I was not entirely sure whether he meant that it has to happen. But he is saying that when it does happen, it is a sign that your teshuva is complete.
 
 Why does Hashem need to do that? Maybe it is for you. After the sin, perhaps you need to realize that you are not the man you used to be. Or something like that.
 
 By the time the test comes, the change has already happened. Hashem knows you would not do it again. He says here that Hashem is not going to give you the test unless He knows you will not fail.
 
-You can go and seek out the test yourself. If you want to do it, you'll find a way. But if you are not looking for it, Hashem brings it to you to show you. That's how He shows you that you repented completely.
+You can go and seek out the test yourself. If you want to do it, you'll find a way. But if you are not looking for it, Hashem brings it to you to show you. That's how He shows you that you did complete teshuva.
 
 [^72]: [Tzidkat HaTzaddik 72](https://he.wikisource.org/wiki/צדקת_הצדיק/עב), citing Megillah 14a and 27a, and Shabbat 10a.
 [^carmel]: I Kings 18:20–39. Rav Tzadok's explanation of the fire through the permission for the במה is in paragraph 72.

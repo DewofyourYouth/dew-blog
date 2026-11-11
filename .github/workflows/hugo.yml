@@ -43,7 +43,13 @@ jobs:
           wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb
       - name: Install Dart Sass
-        run: sudo snap install dart-sass
+        # From the GitHub release rather than snap: the snap store has outages that block deploys.
+        env:
+          DART_SASS_VERSION: 1.83.4
+        run: |
+          wget -qO ${{ runner.temp }}/dart-sass.tar.gz https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz
+          tar -xzf ${{ runner.temp }}/dart-sass.tar.gz -C ${{ runner.temp }}
+          echo "${{ runner.temp }}/dart-sass" >> "$GITHUB_PATH"
       - name: Checkout
         uses: actions/checkout@v4
         with:

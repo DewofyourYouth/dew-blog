@@ -23,7 +23,7 @@ series_order: 6
 summary: "Rav Tzadok on Eliyahu's miracles through Torah and Elisha's through prayer, and why Hashem brings a penitent back to the scene of the sin."
 description: "Learning Tzidkat HaTzaddik 72–73 with my father: miracles through Torah versus prayer, complete repentance as facing the same test again, and Gechazi's slow repair."
 featuredImage: "returning-to-the-test.jpg"
-featuredImageAlt: "A closed burgundy-and-gold copy of Tzidkat HaTzaddik on a candlelit study table beside a worn leather coin purse; through the window, a column of fire falls onto a water-soaked stone altar on a hilltop"
+featuredImageAlt: "A closed burgundy-and-gold copy of Tzidkat HaTzaddik, its title in gold Hebrew, on a candlelit study table beside a worn leather coin purse; through the window, a column of fire falls onto a water-soaked stone altar on a hilltop"
 seo:
   images:
     - returning-to-the-test.jpg

@@ -38,7 +38,7 @@ My father and I learned {{< tooltip term="אותיות ע״ב–ע״ג" key="oti
 
 That was how {{< tooltip term="Moshe Rabbeinu" key="moshe-rabbeinu" >}} did his miracles. He opened a new gate in {{< tooltip term="דברי תורה" key="divrei-torah" def="Words of Torah: its teachings." >}}, and through the light of those דברי תורה there was an influx of light into the world to do whatever it was he was doing.
 
-You can also work miracles through {{< tooltip term="davening" key="davening" >}}.
+You can also work miracles through prayer.
 
 <!--more-->
 
@@ -70,7 +70,7 @@ So how was he able to do that? Rav Tzadok says he had a chiddush in Torah that a
 
 The altar needed a {{< tooltip term="heter" key="heter" >}} because the Beit HaMikdash was standing. Once the Temple was built, offering on a במה anywhere else was forbidden. The {{< tooltip term="Gemara" key="gemara" >}} treats Carmel as a הוראת שעה, a one-time ruling for the emergency, on the authority of a prophet.[^bamah] A lot of what Eliyahu did looks like that: strange things done {{< tooltip term="על פי נבואה" key="al-pi-nevuah" def="By the authority of prophecy." >}}. Rav Tzadok does not call it a prophetic suspension of the law, though. He calls it a חידוש תורה. The miracle came out of the Torah, not around it.
 
-Elisha's miracles were through {{< tooltip term="תפילה" key="tefillah" >}}. Obviously, Eliyahu also davened. But the miracles of Eliyahu came through a chiddush in Torah, opening a gate through which the light came. Elisha did it through prayer. Rav Tzadok brings the Gemara's phrase for him: ואלישע דעביד ברחמי, Elisha, who worked through supplication.
+Elisha's miracles were through prayer. Obviously, Eliyahu also prayed. But the miracles of Eliyahu came through a chiddush in Torah, opening a gate through which the light came. Rav Tzadok brings the Gemara's phrase for him: ואלישע דעביד ברחמי, Elisha, who worked through supplication.
 
 And Elisha was {{< tooltip term="זוכה" key="zocheh" >}} to פי שנים, twice as much as Eliyahu, even though he was Eliyahu's student:[^pi-shnayim]
 
@@ -78,7 +78,7 @@ And Elisha was {{< tooltip term="זוכה" key="zocheh" >}} to פי שנים, tw
 >
 > More can be accomplished through prayer. Nevertheless, what comes through Torah is greater.
 
-You can do more through davening, but Torah has a greater {{< tooltip term="מעלה" key="maalah" >}}.
+You can do more through prayer, but Torah has a greater {{< tooltip term="מעלה" key="maalah" >}}.
 
 He brings the Gemara in {{< tooltip term="Shabbos" key="shabbos-tractate" def="The tractate of the Talmud on the laws of the Sabbath." >}}:
 
@@ -86,7 +86,7 @@ He brings the Gemara in {{< tooltip term="Shabbos" key="shabbos-tractate" def="T
 >
 > They leave eternal life and occupy themselves with the life of the moment.
 
-I explained it as the complaint about spending too long davening when you could be learning.[^shabbat] Usually, when you pray, you are praying for things. Even the most lofty prayers are for the {{< tooltip term="גאולה" key="geulah" >}}, for {{< tooltip term="Mashiach" key="mashiach" >}} to come. Torah is eternal. So even though you can accomplish more through תפילה, Torah is greater.
+I explained it as the complaint about spending too long praying when you could be learning.[^shabbat] Usually, when you pray, you are praying for things. Even the most lofty prayers are for the {{< tooltip term="גאולה" key="geulah" >}}, for {{< tooltip term="Mashiach" key="mashiach" >}} to come. Torah is eternal. So even though you can accomplish more through prayer, Torah is greater.
 
 ## והמעמיק יבין
 

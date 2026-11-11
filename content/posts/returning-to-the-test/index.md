@@ -58,8 +58,6 @@ My father asked whether I meant prophecy in general.
 
 The Torah of Moshe is still around. We understand why we need it. Otherwise, how would we know what to do? It is the basis of all of Judaism. But these miracles happened, did whatever they needed to do, and are no longer happening. Why do we need all these accounts of them?
 
-I could come up with answers. The question did not seem like a very strong question to me. But fine, let's read what he says.
-
 ## Eliyahu and Elisha
 
 All of Eliyahu's miracles were through Torah. Rav Tzadok gives the example of the fire coming down on Mount Carmel: it came through a {{< tooltip term="חידוש תורה" key="chiddush" >}} permitting the {{< tooltip term="bamah" key="bamah" >}}, the altar outside the Temple.

@@ -1,5 +1,7 @@
 ---
 title: "Why Saranduk Became Shore"
+aliases:
+  - "/post/shore-/-saranduk-family-part-i/"
 url: "/post/-saranduk-family-part-i/"
 series:
   - shore-saranduk

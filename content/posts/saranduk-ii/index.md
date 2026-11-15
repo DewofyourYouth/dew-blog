@@ -1,5 +1,7 @@
 ---
 title: "From Torgovitsa to Talne: The Earliest Saranduks"
+aliases:
+  - "/post/shore-/-saranduk-family-part-ii/"
 url: "/post/-saranduk-family-part-ii/"
 date: 2023-11-08T10:00:38+02:00
 series:

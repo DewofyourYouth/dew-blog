@@ -1,5 +1,7 @@
 ---
 title: Eat / Feed / Teach / Learn
+aliases:
+  - "/post/eat-/-feed-/-teach-/-learn/"
 date: 2025-05-17T21:37:20+02:00
 tags:
   - arabic

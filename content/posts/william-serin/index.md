@@ -4,6 +4,7 @@ series:
   - shore-saranduk
 series_order: 11
 aliases:
+  - "/post/a-tale-of-a-wolf-named-saranduk/"
   - "/post/william-serin/"
 date: 2024-05-12T22:31:34+03:00
 draft: false

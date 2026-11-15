@@ -87,4 +87,4 @@ Yehi zichro baruch. May his memory be a blessing.
 For the full account of Shmariahu Shore’s life, see [The 80th Yahrtzeit of Shmariahu Shore](/post/the-80th-yahrtzeit-of-shmariahu-shore/).
 
 For broader context on the Saranduk / Shore family, see [The Saranduk / Shore Family: An
-Overview](/post/the-saranduk-/-shore-family-an-overview/).
+Overview](/post/the-saranduk-shore-family-an-overview/).

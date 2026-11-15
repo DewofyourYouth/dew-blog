@@ -1,5 +1,7 @@
 ---
 title: "The Saranduk / Shore Family: An Overview"
+aliases:
+  - "/post/the-saranduk-/-shore-family-an-overview/"
 series:
   - shore-saranduk
 series_order: 1

@@ -9,7 +9,7 @@ categories:
   - Faith & Practice
 series:
   - misplaced-loyalties
-series_order: 3
+series_order: 5
 tags:
   - ramban
   - ohr-hachaim
@@ -35,7 +35,7 @@ seo:
 Originally published on the old WordPress version of this blog on November 3, 2018. Restored from the Wayback Machine.
 {{< /admonition >}}
 
-Let’s examine some of the more salient points of the Ramban we mentioned in the last post here.
+Let’s examine some of the more salient points of the Ramban we mentioned in the [last post](/post/misplaced-loyalties-iii/).
 
 1.  The Ramban claims that the verse in Deuteronomy 17:11 about not straying from the words of the Sages, implies that the Torah was given with the understanding that however the Sages interpret the Torah *becomes* the proper interpretation. This was because G-d was aware that there would be differences of understanding and was aware that this would cause many disputes – and so he gave us a means of resolving them.
 2.  This includes relying on the Sages to do things you consider to be forbidden, even if you are a great scholar.

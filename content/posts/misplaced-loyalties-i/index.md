@@ -1,5 +1,5 @@
 ---
-title: "Misplaced Loyalties: Part I – Sources"
+title: "Misplaced Loyalties I: Sources"
 slug: "misplaced-loyalties-i"
 date: 2018-10-28T12:00:00+03:00
 draft: false

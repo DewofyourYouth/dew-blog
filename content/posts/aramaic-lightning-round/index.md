@@ -37,7 +37,7 @@ The translation was rather more religious than that.
 
 {{< youtube vwlEKIVnuHo >}}
 
-After the [Zakkur and Sefire inscriptions](/post/old-aramaic/), I wanted a faster tour through other forms of Aramaic before getting to the modern spoken languages. So this time I tried ten short readings: Imperial, Qumran, Nabataean, Palmyrene, Hatran, Jewish Palestinian, Samaritan, Christian Palestinian, Syriac, and Mandaic.
+After the [Zakkur and Sefire inscriptions](/post/old-aramaic/), I wanted a faster tour through other forms of Aramaic before getting to the modern spoken languages. So this time I tried ten short readings: Imperial, Qumran, Nabataean, Palmyrene, Hatran, the Jewish Aramaic of Israel, Samaritan, the Christian Aramaic of Israel, Syriac, and Mandaic.
 
 I had ChatGPT put the passages on a small quiz page, transcribed into Hebrew letters with the meanings hidden, and attempted each one before checking it. That let me concentrate on the language without first learning several new scripts. The background is the same as in the rest of this series: fluent Hebrew, years of Gemara and other Jewish Aramaic, and some learner’s Arabic. That gives me quite a lot to work with here. How much it gives me depends very much on which Aramaic we’re talking about.
 
@@ -97,7 +97,7 @@ The {{< tooltip term="Nabataean" key="nabataean" >}} passage came from a tomb in
 
 I recognized burial. I guessed that Dushara was a name. But כפרא looked like a village, and עיר looked like a city, which gave me rather a lot of geography for one short sentence.
 
-Then עיר מן suggested Arabic غير, *ghayr*: “other than.” That gave me the exception. As far as I understand, the Nabataeans spoke an early form of Arabic and wrote in Aramaic, so an Arabic word turning up here wasn’t so strange. I started thinking this was saying that only certain people were supposed to be buried here.
+Then עיר מן suggested Arabic غير, _ghayr_: “other than.” That gave me the exception. As far as I understand, the Nabataeans spoke an early form of Arabic and wrote in Aramaic, so an Arabic word turning up here wasn’t so strange. I started thinking this was saying that only certain people were supposed to be buried here.
 
 The reveal supplied the rest. {{< tooltip term="Dushara" key="dushara" >}} was the god being asked to curse unauthorized burials, and כפרא here meant a tomb. ולען was a curse; the Jewish Aramaic form that came more readily to my mind was לייט. I can’t say whether ולען made obvious sense or whether I was retrofitting it once I knew the answer.
 
@@ -141,9 +141,9 @@ The note on the reading said that the attachment of “whom” was uncertain. I 
 
 It isn’t often that the answer key congratulates you by also not quite knowing.
 
-## Jewish Palestinian Aramaic
+## Jewish Aramaic of Israel
 
-Then came the Yerushalmi, in {{< tooltip term="Jewish Palestinian Aramaic" key="jewish-palestinian-aramaic" >}}. I said that I was going to be embarrassed if this one went badly.
+Then came the Yerushalmi, in {{< tooltip term="Jewish Aramaic of Israel" key="jewish-aramaic-israel" >}}. I said that I was going to be embarrassed if this one went badly.
 
 | Aramaic in Hebrew letters            | Latin letters                        | Meaning                                                                                     |
 | ------------------------------------ | ------------------------------------ | ------------------------------------------------------------------------------------------- |
@@ -154,7 +154,7 @@ Then came the Yerushalmi, in {{< tooltip term="Jewish Palestinian Aramaic" key="
 
 This was comfortable. When the king is preparing to leave, people already say he is leaving. When he is coming in, they wait until he has actually come in.
 
-I also knew what to do with the abbreviation אע׳ג, *af al gav*, “even though.” Would I have worked that out in a completely unfamiliar text? Probably not. But this was the Talmud.
+I also knew what to do with the abbreviation אע׳ג, _af al gav_, “even though.” Would I have worked that out in a completely unfamiliar text? Probably not. But this was the Talmud.
 
 I may have read this passage before. If I did, I didn’t remember the point of the analogy, though the words themselves were comfortable enough. It comes from the discussion in {{< tooltip term="Berakhot" key="berakhot" >}} about the boundaries of day and night.
 
@@ -174,7 +174,7 @@ The {{< tooltip term="Samaritan" key="samaritan-aramaic" >}} reading was a {{< t
 
 {{< image src="images/samaritan-pentateuch.jpg" alt="Black-and-white photograph of a large, stained and patched parchment scroll unrolled to show several columns of small Samaritan script" caption="I couldn’t find a free image of the Samaritan Targum itself. This is the Samaritans’ oldest Torah scroll at Nablus, photographed around 1900–1920, in the same script. (American Colony Photo Department, public domain, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Samaritan_Pentateuch_(detail).jpg).)" >}}
 
-That went well. I said Abraham left Egypt with his wife, his possessions, and Lot, going south. The translation more precisely had him going *up* from Egypt.
+That went well. I said Abraham left Egypt with his wife, his possessions, and Lot, going south. The translation more precisely had him going _up_ from Egypt.
 
 But this wasn’t entirely fair. If you know the biblical passage, reading any translation of it is considerably easier. And the {{< tooltip term="Samaritans" key="samaritans" >}} only accept the Five Books of Moses, so whatever their targum gave me was always going to be something I knew well. I recognized the people and the event, and I already knew roughly what was supposed to happen.
 
@@ -182,9 +182,9 @@ The Aramaic itself felt easy too. Still, the familiarity of Genesis was contribu
 
 Which brought us to the next reading.
 
-## Christian Palestinian Aramaic
+## Christian Aramaic of Israel
 
-This was Mark 1:4, in {{< tooltip term="Christian Palestinian Aramaic" key="christian-palestinian-aramaic" >}}, and it went rather less smoothly.
+This was Mark 1:4, in {{< tooltip term="Christian Aramaic of Israel" key="christian-aramaic-israel" >}}, and it went rather less smoothly.
 
 | Aramaic in Hebrew letters | Latin letters          | Meaning                                   |
 | ------------------------- | ---------------------- | ----------------------------------------- |
@@ -192,7 +192,7 @@ This was Mark 1:4, in {{< tooltip term="Christian Palestinian Aramaic" key="chri
 | ומכרז מצבועי דתהו         | wmkrz mṣbwʿy dthw      | …and proclaiming a baptism of repentance… |
 | לשובוקין דסכלן            | lšwbwqyn dskln         | …for the forgiveness of sins.             |
 
-{{< image src="images/codex-climaci-rescriptus.jpg" alt="A parchment leaf in a display case: lines of dark Syriac script written over large, faded brown Greek capital letters running beneath" caption="A leaf of the Codex Climaci Rescriptus, the manuscript the passage comes from. It is a palimpsest: the Christian Palestinian Aramaic is in the scraped-off lower writing, along with Greek like the faded capitals here, under a later Syriac text. (Photo: Denysmonroe81, 2011, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Codex_Climaci_Rescriptus.jpg).)" >}}
+{{< image src="images/codex-climaci-rescriptus.jpg" alt="A parchment leaf in a display case: lines of dark Syriac script written over large, faded brown Greek capital letters running beneath" caption="A leaf of the Codex Climaci Rescriptus, the manuscript the passage comes from. It is a palimpsest: the Christian Aramaic is in the scraped-off lower writing, along with Greek like the faded capitals here, under a later Syriac text. (Photo: Denysmonroe81, 2011, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Codex_Climaci_Rescriptus.jpg).)" >}}
 
 I recognized John and the wilderness. מצבע suggested coloring. I knew that “John coloring in the desert” probably wasn’t right, but I didn’t have a better verb.
 
@@ -200,7 +200,7 @@ Then סכלן suggested fools, and I ended up somewhere around sending fools awa
 
 The translation had John baptizing in the wilderness and proclaiming repentance for the forgiveness of sins. That made more sense.
 
-“I barely know what baptizing is in English,” I said, which was perhaps not the strongest foundation for translating it out of Christian Palestinian Aramaic.
+“I barely know what baptizing is in English,” I said, which was perhaps not the strongest foundation for translating it out of the Christian Aramaic of Israel.
 
 תהו meaning repentance was news to me. So was סכלן meaning sins in this passage. I had recognized enough familiar-looking material to assemble a sentence, but several of the things I thought I recognized were leading me in the wrong direction.
 
@@ -220,17 +220,17 @@ In fact, it was the same verse, from the {{< tooltip term="Peshitta" key="peshit
 
 This felt much closer. תיבותא suggested returning, and so repentance, and חטהא looked like sins. I could follow more of the religious vocabulary.
 
-There was one substantial catch: I had just worked through the Christian Palestinian version of the same verse and checked its meaning. Side by side, the two versions make a useful comparison. As an independent test of comprehension, the Syriac passage had rather a large hint attached.
+There was one substantial catch: I had just worked through the Christian Aramaic version of the same verse and checked its meaning. Side by side, the two versions make a useful comparison. As an independent test of comprehension, the Syriac passage had rather a large hint attached.
 
 Here are some of the differences side by side:
 
-| Meaning         | Christian Palestinian | Classical Syriac |
-| --------------- | --------------------- | ---------------- |
-| John            | יוחניס                | יוחנן            |
-| Baptizing       | מצבע                  | מעמד             |
-| Repentance      | תהו                   | תיבותא           |
-| For forgiveness | לשובוקין              | לשובקנא          |
-| Of sins         | דסכלן                 | דחטהא            |
+| Meaning         | Christian Aramaic | Classical Syriac |
+| --------------- | ----------------- | ---------------- |
+| John            | יוחניס            | יוחנן            |
+| Baptizing       | מצבע              | מעמד             |
+| Repentance      | תהו               | תיבותא           |
+| For forgiveness | לשובוקין          | לשובקנא          |
+| Of sins         | דסכלן             | דחטהא            |
 
 I can say that the Syriac wording contained forms that felt more familiar to me. I can’t turn that into a clean comparison of how I would have done without already knowing the answer.
 
@@ -289,7 +289,7 @@ _Cover: detail of a Hatran inscription from the eleventh temple at Hatra, Iraq M
 - [CAL, Nabataean tomb inscription 1](https://cal.huc.edu/get_a_chapter.php?cset=T&file=42201&sub=001): Healey 1 / CIS II 199, lines 4–5, with the [lexical comment on the curse](https://cal.huc.edu/comment.php?coord=4220100104).
 - [CAL, Yerushalmi Berakhot](https://cal.huc.edu/get_a_chapter.php?cset=H&file=53300&sub=01): 1:1, CAL coordinates 01 02c:18–19.
 - [CAL, Samaritan Targum J](https://cal.huc.edu/get_a_chapter.php?cset=H&file=56000&sub=113): Genesis 13:1.
-- [CAL, Christian Palestinian Aramaic](https://cal.huc.edu/get_a_chapter.php?cset=C&file=55000&sub=54109a): Mark 1:4, Codex Climaci Rescriptus.
+- [CAL, Christian Aramaic of Israel](https://cal.huc.edu/get_a_chapter.php?cset=C&file=55000&sub=54109a): Mark 1:4, Codex Climaci Rescriptus.
 - [CAL, Syriac Peshitta](https://cal.huc.edu/get_a_chapter.php?cset=S&file=62041&sub=01): Mark 1:4.
-- [CAL, Mandaean Book of John](https://cal.huc.edu/get_a_chapter.php?cset=J&file=74402&sub=002): page 002, lines 7–10, excerpt. English checked against [Charles G. Häberl and James F. McGrath, *The Mandaean Book of John: Text and Translation*](https://digitalcommons.butler.edu/facsch_papers/1065/), chapter 1, printed page 3, lines 3–5.
+- [CAL, Mandaean Book of John](https://cal.huc.edu/get_a_chapter.php?cset=J&file=74402&sub=002): page 002, lines 7–10, excerpt. English checked against [Charles G. Häberl and James F. McGrath, _The Mandaean Book of John: Text and Translation_](https://digitalcommons.butler.edu/facsch_papers/1065/), chapter 1, printed page 3, lines 3–5.
 - [Unicode proposal for the Mandaic script](https://unicode.org/L2/L2008/08270-n3485-mandaic.pdf): letter correspondences used in the Hebrew transcription.

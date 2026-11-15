@@ -39,7 +39,7 @@ Let’s examine some of the more salient points of the Ramban we mentioned in th
 
 1.  The Ramban claims that the verse in Deuteronomy 17:11 about not straying from the words of the Sages, implies that the Torah was given with the understanding that however the Sages interpret the Torah *becomes* the proper interpretation. This was because G-d was aware that there would be differences of understanding and was aware that this would cause many disputes – and so he gave us a means of resolving them.
 2.  This includes relying on the Sages to do things you consider to be forbidden, even if you are a great scholar.
-3.  The case where one can err in listening to them is if one is a scholar, and listens to them before raising his objections. After the discuss the objection if he is unable to change the consensus of the Sages, he must accept their ruling even if he remains unconvinced and even to be lenient on something he believes to be forbidden.
+3.  The case where one can err in listening to them is if one is a scholar, and listens to them before raising his objections. After they discuss the objection, if he is unable to change the consensus of the Sages, he must accept their ruling even if he remains unconvinced and even to be lenient on something he believes to be forbidden.
 4.  G-d protects the Sages of Israel from error.
 
 One might wonder, given the conditional nature of the interpretation of the Torah, why a clause protecting them from error would be necessary. If whatever they say becomes the proper meaning, unless they change their minds, they sort of *can’t* be wrong.
@@ -50,7 +50,7 @@ While the Ohr HaChaim seems to imply that a scholar should abstain from things h
 
 ### Some Problems With The Ramban
 
-One problem with the Ramban, is his proof from Rosh HaShana 25a where Rebbe Yehoshua came before Rabban Gamliel with his walking stick and wallet what he believed to be Yom Kippur. The Mishna refers to a case where one court didn’t accept the testimony of a pair of witnesses, and Rabban Gamliel’s court did. Rebbe Yehoshua raised an objection – and then Rabban Gamliel decreed that he must come before him on the Yom Kippur that comes out according to his calculation “with his walking stick and wallet”. Eventually the Mishna says that Rebbe Akiva convinced him to go. This is how the talmud describes the conversation between Rabbi Akiva and Rebbe Yehoshua:
+One problem with the Ramban is his proof from Rosh HaShana 25a where Rebbe Yehoshua came before Rabban Gamliel with his walking stick and wallet on what he believed to be Yom Kippur. The Mishna refers to a case where one court didn’t accept the testimony of a pair of witnesses, and Rabban Gamliel’s court did. Rebbe Yehoshua raised an objection – and then Rabban Gamliel decreed that he must come before him on the Yom Kippur that comes out according to his calculation “with his walking stick and wallet”. Eventually the Mishna says that Rebbe Akiva convinced him to go. This is how the Talmud describes the conversation between Rabbi Akiva and Rebbe Yehoshua:
 
 > הלך ר”ע (ומצאו) מיצר כו’: איבעיא להו מי מיצר ר”ע מיצר או רבי יהושע מיצר ת”ש דתניא הלך ר”ע ומצאו לרבי יהושע כשהוא מיצר אמר לו \[רבי\] מפני מה אתה מיצר אמר לו (רבי) עקיבא ראוי לו שיפול למטה י”ב חדש ואל יגזור עליו גזירה זו א”ל רבי תרשיני לומר לפניך דבר אחד שלמדתני אמר לו אמור אמר לו הרי הוא אומר אתם אתם אתם ג’ פעמים אתם אפילו שוגגין אתם אפילו מזידין אתם אפילו מוטעין בלשון הזה אמר לו עקיבא נחמתני נחמתני
 >
@@ -64,13 +64,13 @@ One problem with the Ramban, is his proof from Rosh HaShana 25a where Rebbe Yeho
 >
 > [Rosh HaShana 25a (Translation Sefaria)](https://www.sefaria.org.il/Rosh_Hashanah.25a.4?lang=bi&with=Commentary&lang2=en)
 
-In order to establish that the court’s determination of the new moon is binding even if made in err – Rebbe Akiva brings a verse *specific* to the determination of the new moon. This problem is noted in the מהר”ץ חיות in Rosh HaShana.
+In order to establish that the court’s determination of the new moon is binding even if made in error, Rebbe Akiva brings a verse *specific* to the determination of the new moon. This problem is noted in the מהר”ץ חיות in Rosh HaShana.
 
-This would seemingly not just be a lack of proof, but a serious problem for the Ramban, because according to him Rebbe Akiva should’ve brought the the verse from Deuteronomy to prove it’s point.
+This would seemingly not just be a lack of proof, but a serious problem for the Ramban, because according to him Rebbe Akiva should’ve brought the verse from Deuteronomy to prove his point.
 
-Unfortunately, the Ramban does not comment on this passage in his commentary on the Talmud. I can not answer why the Ramban thought they should be interpreted globally, but it seems clear that once you do interpret it that way – the reasoning behind Rebbe Akiva citing that verse and not the verse in Deuteronomy is because the verse here, as explained by Rebbe Akiva, is much broader reaching than the one in Deuteronomy.
+Unfortunately, the Ramban does not comment on this passage in his commentary on the Talmud. I cannot answer why the Ramban thought they should be interpreted globally, but it seems clear that once you do interpret it that way – the reason Rebbe Akiva cites that verse and not the verse in Deuteronomy is that the verse here, as explained by Rebbe Akiva, is much broader reaching than the one in Deuteronomy.
 
-The verse in Deuteronomy is referring to an actual doubt in interpreting the law. The case here is about accepting witnesses testimony and is based on an understanding of astronomy. This is a question of whether witnesses are demonstrably lying by claiming something happened which is *physically impossible*. Rebbe Akiva’s verse even includes this and more:
+The verse in Deuteronomy is referring to an actual doubt in interpreting the law. The case here is about accepting witnesses’ testimony and is based on an understanding of astronomy. This is a question of whether witnesses are demonstrably lying by claiming something happened which is *physically impossible*. Rebbe Akiva’s verse even includes this and more:
 
 > This comes to teach: **You** \[***atem***\] are authorized to determine the date of the new month, **even** if you **unwittingly** establish the New Moon on the wrong day; **you, even** if you do so **intentionally; you, even** if you are **misled** by false witnesses.
 
@@ -86,24 +86,22 @@ Of course, all this refers to a Sage, or at least a scholar who is either learne
 
 I once posted about this topic [here](/post/sadducees-admit/) but didn’t have time to go into it. I simply raised some issues. Now we will go into more depth.
 
-Before going further we must clarify some things that will be obvious for some but unknown to others. The Tractate of Horayos deals with a specific sacrifice that the court brings because of an erroneous ruling. While the prerogative to heed the words of the Sages presumably applies in all cases, the sacrifice comes in place of a sin offering and thus is only brought in cases where the punishment for the sin done intentionally in *kares* and the if done unintentionally a sin offering is brought.
+Before going further we must clarify some things that will be obvious for some but unknown to others. The Tractate of Horayos deals with a specific sacrifice that the court brings because of an erroneous ruling. While the obligation to heed the words of the Sages presumably applies in all cases, the sacrifice comes in place of a sin offering and thus is only brought for sins punished with *kares* when done intentionally and requiring a sin offering when done unintentionally.
 
-Now, the Talmud asserts that in a case where court rules permissible something which “the Sadducees admit” that it is forbidden, they are not liable to bring a sin offering. The Talmud give the reason, that it is *obviously* wrong. The Sadducees interpret the Written Torah literally – so the Sages must me permitting something that is *explicitly and literally forbidden* in the Written Torah. Apparently, even someone with a basic primary school education should have realized the mistake. But ***who*** are we claiming should have realized the error in this case?
+Now, the Talmud asserts that in a case where court rules permissible something which “the Sadducees admit” that it is forbidden, they are not liable to bring a sin offering. The Talmud gives the reason, that it is *obviously* wrong. The Sadducees interpret the Written Torah literally – so the Sages must be permitting something that is *explicitly and literally forbidden* in the Written Torah. Apparently, even someone with a basic primary school education should have realized the mistake. But ***who*** are we claiming should have realized the error in this case?
 
 Rashi says:
 
 > **זיל קרי בי רב הוא** – דכיון דאפשר **לו** ללמוד ולידע לא הוי שוגג מעליא וקרוב למזיד הוי
 
- 
-
 > **Go learn in a children’s school** – since **he** could have learnt and know and did not, it is not a true mistake and is close to an intentional sin
 
 Rashi uses the singular pronoun (he) to describe who should have studied in a children’s school. In Rashi’s commentary, the guilt is placed on the individual for listening. Remember, we are not even talking about a scholar here, this refers to everyone. These people are not obligated to raise objections to the consensus of the Sages.
 
-(By contrast, Rabbeinu Hannanel places the imperative to “go learn in children’s school” squarely on the Sages in the court. He says that such judges are not fit to instruct others and they are “close to intention” in their error because they should have learnt and didn’t. In my opinion, Rabbeinu Hannanel’s approach is simpler and more straight forward.)
+(By contrast, Rabbeinu Hannanel places the imperative to “go learn in children’s school” squarely on the Sages in the court. He says that such judges are not fit to instruct others and they are “close to intention” in their error because they should have learnt and didn’t. In my opinion, Rabbeinu Hannanel’s approach is simpler and more straightforward.)
 
-This raises a question. According to Rashi, obviously there are some limitations to what you’re supposed to accept from the Sages. When do we say “even if they say you right is your left” and when do we say “go learn in children’s school”?
+This raises a question. According to Rashi, obviously there are some limitations to what you’re supposed to accept from the Sages. When do we say “even if they say your right is your left” and when do we say “go learn in children’s school”?
 
-Also, what if a scholar had raised an objection to this ruling (that it is explicit in the Torah otherwise), and was over-ruled? Like Nachmanides – is this a case where he still should not heed the Sages?
+Also, what if a scholar had raised an objection to this ruling (that it is explicit in the Torah otherwise), and was overruled? Like Nachmanides – is this a case where he still should not heed the Sages?
 
 [^1]: I have made a decision to avoid any aggadic literature on this subject, but for those interested the Kli Yakar has an interesting approach – see Kli Yakar Deuteronomy 17:11

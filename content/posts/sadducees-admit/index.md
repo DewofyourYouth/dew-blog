@@ -30,7 +30,7 @@ seo:
 Originally published on the old WordPress version of this blog on April 8, 2018. Restored from the Wayback Machine.
 {{< /admonition >}}
 
-So I have some opinions about this that I don’t have time to write about / fully flesh out, so I’ll just mention some questions and comments.
+I have some opinions about this that I don’t have time to flesh out, so I’ll just raise some questions and comments.
 
 The Talmud says:
 
@@ -38,8 +38,8 @@ The Talmud says:
 
 > Rav Yehuda said that Shmuel said – the court is not liable (to bring a korban) unless they instruct regarding something that the Sadducees don’t admit to, but on a matter which the Sadducees admit they are exempt – because “go study by a teacher”
 
-If you read Rashi, he seems to learn that the claim that he should have learnt better is not on the Beis Din but rather on the individual. This is rather problematic (I’m aware that some change the גירסא in Rashi to be plural – which implies the Beis Din).
+Rashi seems to understand that the charge of “he should have learnt better” is directed not at the Beis Din but at the individual. This is rather problematic (I’m aware that some change the גירסא in Rashi to be plural – which implies the Beis Din).
 
-The simple פשט is that the instruction is not a valid instruction because it is close to a מזיד on behalf of the בית דין.
+The simple פשט is that the instruction is not a valid instruction because it is close to a מזיד on the part of the בית דין.
 
-One interesting thing thing is that there are various places where we are מיקל against the simple פשט of the Torah because of a דרשה. The first few that come to mind are leaving our houses on the Sabbath, leaving fire burning from before the Sabbath and a זבה being טהורה without מים חיים (this is not a comprehensive list and I’m only listing things which are כרת). Should we not listen to the חכמים on these matters b/c the Sadducees disagree? What does this teach us about the relationship between the oral law and פשוטו של מקרא?
+One interesting thing is that there are various places where we are מיקל against the simple פשט of the Torah because of a דרשה. The first few that come to mind are leaving our houses on the Sabbath, leaving fire burning from before the Sabbath and a זבה being טהורה without מים חיים (this is not a comprehensive list and I’m only listing things which are כרת). Should we not listen to the חכמים on these matters because the Sadducees disagree? What does this teach us about the relationship between the oral law and פשוטו של מקרא?

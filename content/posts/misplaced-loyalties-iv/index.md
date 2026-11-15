@@ -42,7 +42,7 @@ Let’s examine some of the more salient points of the Ramban we mentioned in th
 3.  The case where one can err in listening to them is if one is a scholar, and listens to them before raising his objections. After the discuss the objection if he is unable to change the consensus of the Sages, he must accept their ruling even if he remains unconvinced and even to be lenient on something he believes to be forbidden.
 4.  G-d protects the Sages of Israel from error.
 
-One might wonder, given the conditional nature of the interpretation of the Torah, why a clause protecting them from error would be necessary. If whatever they say becomes the proper meaning, unless they change their minds, they sort of *can’t *be wrong.
+One might wonder, given the conditional nature of the interpretation of the Torah, why a clause protecting them from error would be necessary. If whatever they say becomes the proper meaning, unless they change their minds, they sort of *can’t* be wrong.
 
 By contrast, the Ohr HaChaim never claims that the Torah was given with any conditional meaning. He seemingly accepts that there was some sort of absolute meaning of the Torah as intended by G-d, but merely asks whether it is incumbent on the scholar to accept the interpretation of the Sages as being the correct one.
 
@@ -80,7 +80,7 @@ Of course, all this refers to a Sage, or at least a scholar who is either learne
 >
 > הוריות ד’ עמוד א’
 
-> **Rav Yehuda says** that **Shmuel says: A court is not liable** to bring an offering **unless it issues** an erroneous **ruling concerning a matter with which the Sadducees do not agree.** The Sadducees do not accept the Oral Torah, and they interpret the Written Torah literally. The court is liable only for a matter that is not explicitly written in the Torah or that does not clearly stem from that which is written in the Torah. **But with regard to** an erroneous ruling concerning **a matter with which the Sadducees agree,** the judges are **exempt. What is the reasoning** for this exemption? It **is** a topic that you could **go learn **in **a children’s school.** Since the matter the judges ruled upon is so obvious, their ruling simply exhibits ignorance, and is not deemed a ruling.
+> **Rav Yehuda says** that **Shmuel says: A court is not liable** to bring an offering **unless it issues** an erroneous **ruling concerning a matter with which the Sadducees do not agree.** The Sadducees do not accept the Oral Torah, and they interpret the Written Torah literally. The court is liable only for a matter that is not explicitly written in the Torah or that does not clearly stem from that which is written in the Torah. **But with regard to** an erroneous ruling concerning **a matter with which the Sadducees agree,** the judges are **exempt. What is the reasoning** for this exemption? It **is** a topic that you could **go learn** in **a children’s school.** Since the matter the judges ruled upon is so obvious, their ruling simply exhibits ignorance, and is not deemed a ruling.
 >
 > Horayos 4a (Translation: [Sefaria.org](https://www.sefaria.org.il/Horayot.4a.12?lang=bi))
 
@@ -88,7 +88,7 @@ I once posted about this topic [here](/post/sadducees-admit/) but didn’t have
 
 Before going further we must clarify some things that will be obvious for some but unknown to others. The Tractate of Horayos deals with a specific sacrifice that the court brings because of an erroneous ruling. While the prerogative to heed the words of the Sages presumably applies in all cases, the sacrifice comes in place of a sin offering and thus is only brought in cases where the punishment for the sin done intentionally in *kares* and the if done unintentionally a sin offering is brought.
 
-Now, the Talmud asserts that in a case where court rules permissible something which “the Sadducees admit” that it is forbidden, they are not liable to bring a sin offering. The Talmud give the reason, that it is *obviously *wrong. The Sadducees interpret the Written Torah literally – so the Sages must me permitting something that is *explicitly and literally forbidden* in the Written Torah. Apparently, even someone with a basic primary school education should have realized the mistake. But ***who*** are we claiming should have realized the error in this case?
+Now, the Talmud asserts that in a case where court rules permissible something which “the Sadducees admit” that it is forbidden, they are not liable to bring a sin offering. The Talmud give the reason, that it is *obviously* wrong. The Sadducees interpret the Written Torah literally – so the Sages must me permitting something that is *explicitly and literally forbidden* in the Written Torah. Apparently, even someone with a basic primary school education should have realized the mistake. But ***who*** are we claiming should have realized the error in this case?
 
 Rashi says:
 

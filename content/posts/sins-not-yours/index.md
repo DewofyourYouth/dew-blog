@@ -225,7 +225,7 @@ Exactly.
 
 “Wait,” my father asked. “What's his bottom line?”
 
-I think this is a counterweight to everything he says about what happens after you fail. After you fail, you need to appreciate that your failure was God's will. It is possible you had no ability to overcome it. Your real {{< tooltip term="test" key="nisayon" >}} is now that you've failed: how are you going to deal with it? Full teshuva is realizing that everything comes from Hashem, and he has a lot to say about that elsewhere.
+I think this is a counterweight to everything he says about what happens after you fail. After you fail, you need to appreciate that your failure was God's will. It is possible you had no ability to overcome it.[^43] Your real {{< tooltip term="test" key="nisayon" >}} is now that you've failed: how are you going to deal with it? Full teshuva is realizing that everything comes from Hashem, and he has a lot to say about that elsewhere.
 
 But that's all after. Here he's talking about the moment before, when you're about to fail. You have two options.
 
@@ -238,8 +238,6 @@ That's his point. And he illustrates it with these stories. The Flood was pretty
 My father's point is also true, and we said it [last time](/post/weakness-is-greatness/) too: whatever failings you have, they made you. They are what put you on the path. We don't understand the full extent of how, but even that is God's will.
 
 ## Meant to be digested
-
-My father said he likes reading these write-ups, because they help him remember the points. That is the main intention: for the two of us to read it as review.
 
 Rav Tzadok is not meant to be read and not digested. You read him and then think about what he means, because he says wild stuff. You can read the {{< tooltip term="Tanya" key="tanya" def="The foundational work of Chabad Hasidism, by Rabbi Shneur Zalman of Liadi (1745–1812)." >}} and he pretty much says what he means. The {{< tooltip term="Ramchal" key="ramchal" >}} is precise and systematic. Rav Tzadok is something else.
 
@@ -258,6 +256,7 @@ Everything and the kitchen sink.
 [^yevamot]: Yevamot 63a: אין פורענות באה לעולם אלא בשביל ישראל.
 [^galut]: Rav Tzadok refers to paragraph 256 for more on this.
 [^zuhama]: Shabbat 146a.
+[^43]: [Tzidkat HaTzaddik 43](https://he.wikisource.org/wiki/צדקת_הצדיק/מג): sometimes a person faces a test so great that he cannot help sinning, and then he counts as coerced and is exempt. But, Rav Tzadok adds, no one can testify about himself that this was his case, because maybe he still had the strength to resist.
 [^76]: [Tzidkat HaTzaddik 76](https://he.wikisource.org/wiki/צדקת_הצדיק/עו), citing Zohar Pinchas 216a, Chullin 139b, Nedarim 32a and Yerushalmi Berakhot 2:4.
 [^moshe]: Chullin 139b on Genesis 6:3. Rashi there points out that the same verse gives a lifespan of 120 years, which was Moshe's.
 [^gittin]: Gittin 56a.

@@ -237,8 +237,7 @@ That's his point. And he illustrates it with these stories. The Flood was pretty
 
 My father's point is also true, and we said it [last time](/post/weakness-is-greatness/) too: whatever failings you have, they made you. They are what put you on the path. We don't understand the full extent of how, but even that is God's will.
 
-## Meant to be digested
-
+{{< admonition type="reflection" title="Meant to be digested" >}}
 Rav Tzadok is not meant to be read and not digested. You read him and then think about what he means, because he says wild stuff. You can read the {{< tooltip term="Tanya" key="tanya" def="The foundational work of Chabad Hasidism, by Rabbi Shneur Zalman of Liadi (1745–1812)." >}} and he pretty much says what he means. The {{< tooltip term="Ramchal" key="ramchal" >}} is precise and systematic. Rav Tzadok is something else.
 
 My father put it well. There are two ways of communicating. There are people who are a little more pedantic, but probably better at explaining things. And there is the person with a lot going on in his head, whose thought comes out in a very distilled form. It's succinct, which in a sense makes it less clear. There are paradoxical elements, or things that only look that way.
@@ -246,6 +245,7 @@ My father put it well. There are two ways of communicating. There are people who
 Rav Tzadok is usually the second kind. And then, out of nowhere, he turns the pedantry up to eleven. You'll be reading about how this is the secret of such-and-such, and then: don't ask me from the {{< tooltip term="Tosafot" key="tosafot" >}} on such-and-such a page, because you should know that there is a variant reading in some manuscript somewhere.
 
 Everything and the kitchen sink.
+{{< /admonition >}}
 
 [^75]: Tzidkat HaTzaddik 75. It is missing from the printed editions; our edition restores it from the edition of Rabbi Avraham Eliyahu Kitov. The 1913 Lublin printing [on Sefaria](https://www.sefaria.org/Tzidkat_HaTzadik.75) marks both 74 and 75 as missing. The verses are Psalms 130:8 and Song of Songs 8:7.
 [^temurah]: Leviticus 27:10: לא יחליפנו ולא ימיר אתו טוב ברע או רע בטוב ... והיה הוא ותמורתו יהיה קדש.

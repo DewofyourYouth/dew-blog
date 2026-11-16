@@ -95,11 +95,11 @@ My father asked whether selling the birthright isn't more like signing over your
 
 ## Don't tell the antisemites
 
-Selling sins does work, he says: the other person becomes the substitute. That is why the Gemara says punishment comes to the world only because of Israel.[^yevamot] The nations' share in it is to suffer along with us; they are Israel's ransom. When we do something wrong, everyone pays. I explained this as a kindness to Israel: someone else is helping pay the debt. But the good that comes to Israel as hidden reward, the nations have no share in.
+Selling sins does work, he says: the other person becomes the substitute. He uses this to explain a line in the Gemara, that punishment comes to the world only because of Israel.[^yevamot] The nations' share in it is to suffer along with us; they are Israel's ransom. When we do something wrong, everyone pays. I explained this as a kindness to Israel: someone else is helping pay the debt. But the good that comes to Israel as hidden reward, the nations have no share in.
 
 “Don't tell the antisemites that,” my father said. They could say, “Even the Jews believe they're the cause of everything.”
 
-We do believe it. And if they came to us and said, “We demand that you do {{< tooltip term="teshuva" key="teshuvah" >}},” fine. They would have a point. But that is not usually what they do. Usually they try to kill us, and make it harder for us to do what's right, not easier. If they knew what was good for them, they would make sure we could sit and learn and do the mitzvot properly.
+It's a Gemara; we're not going to disown it. But antisemites have a long habit of pulling lines out of the Talmud, not to understand them but to use them as weapons. One sentence, read with no interest in what it means or where it sits in the tradition, tells you very little. And if they came to us and said, “We demand that you do {{< tooltip term="teshuva" key="teshuvah" >}},” fine. They would have a point. But that is not usually what they do. Usually they try to kill us, and make it harder for us to do what's right, not easier. If they knew what was good for them, they would make sure we could sit and learn and do the mitzvot properly.
 
 But we don't make the rules.
 
@@ -120,7 +120,7 @@ I'm explaining Rav Tzadok here, and I should say where I stand. I do believe the
 
 I also believe that all of humanity has strong pathways to God. Any person can reach moral greatness, closeness to God, and a place in the World to Come. That isn't a modern add-on. It is classical Jewish thought: the righteous of the nations have a share in the World to Come, and the Rambam writes that not only the tribe of Levi but any person in the world whose spirit moves him can set himself apart to stand before God and become holy of holies (Tosefta Sanhedrin 13:2; Rambam, Hilkhot Melakhim 8:11 and Hilkhot Shemitah VeYovel 13:13). I don't think every Kabbalist would put it that way. Rav Tzadok's paragraph comes from that world, and I'm learning it as his view, not the last word.
 
-And statements like “punishment comes to the world only because of Israel,” or any account of why a particular disaster happened, are beyond my understanding. I can explain what he says. I can't tell you why a flood or an earthquake happens to anyone.
+And I'm not disagreeing with Rav Tzadok or the Gemara when I say that “punishment comes to the world only because of Israel” is beyond my understanding. I just don't think you can build an account of why a flood or an earthquake happens out of a single line of Gemara. That isn't good reasoning for someone who believes in the Gemara, let alone for someone who doesn't. I can explain what he says. I can't tell you why a particular disaster happens to anyone.
 {{< /admonition >}}
 
 {{< join-channels >}}
@@ -252,7 +252,7 @@ Everything and the kitchen sink.
 [^substitute]: Isaiah 43:4; Leviticus 16:22. For the sins on Esav's head, Bereishit Rabbah 65:15 reads ונשא השעיר עליו את כל עונתם as עונות תם: the hairy one, Esav, carries the sins of Yaakov, the “plain man.” The notes in our edition add the Mekhilta on Mishpatim, where the nations are given as atonement in place of Israel.
 [^hai]: Responsa of the Maharam Alashkar 101. The Maharam Alashkar says he found nothing on the question except a responsum of Rav Hai Gaon, which he copies out. Rav Hai's answer also quotes אם יתן איש את כל הון ביתו באהבה, the same verse Rav Tzadok uses.
 [^hai-case]: The question put to Rav Hai Gaon: one man fasts every Monday and Thursday and then declares that the reward for the fast goes to someone else; another gives gold on condition that the merit of a man's Torah reading will be his. Rav Hai answers that these are empty words with nothing to rely on, and that someone who tries to buy another's reward makes himself an object of ridicule.
-[^yevamot]: Yevamot 63a: אין פורענות באה לעולם אלא בשביל ישראל.
+[^yevamot]: Yevamot 63a, in the name of Rabbi Elazar bar Avina: אין פורענות באה לעולם אלא בשביל ישראל.
 [^galut]: The notes in our edition point to paragraph 256 for more on this.
 [^zuhama]: Shabbat 146a.
 [^43]: [Tzidkat HaTzaddik 43](https://he.wikisource.org/wiki/צדקת_הצדיק/מג): sometimes a person faces a test so great that he cannot help sinning, and then he counts as coerced and is exempt. But, Rav Tzadok adds, no one can testify about himself that this was his case, because maybe he still had the strength to resist.

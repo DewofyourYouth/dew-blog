@@ -192,14 +192,14 @@ By the time the test comes, the change has already happened. Hashem knows you wo
 
 You can go and seek out the test yourself. If you want to do it, you'll find a way. But if you are not looking for it, Hashem brings it to you to show you. That's how He shows you that you did complete teshuva.
 
-[^72]: [Tzidkat HaTzaddik 72](https://he.wikisource.org/wiki/צדקת_הצדיק/עב), citing Megillah 14a and 27a, and Shabbat 10a.
+[^72]: [Tzidkat HaTzaddik 72](https://he.wikisource.org/wiki/צדקת_הצדיק/עב). Sources: Megillah 14a and 27a, and Shabbat 10a.
 [^carmel]: I Kings 18:20–39. Rav Tzadok's explanation of the fire through the permission for the במה is in paragraph 72.
 [^bamah]: Yevamot 90b, where Eliyahu on Carmel is the example of a prophet who may temporarily set aside a Torah law.
-[^pi-shnayim]: II Kings 2:9, ויהי נא פי שנים ברוחך אלי, Elisha's request for a double portion of Eliyahu's spirit. The Gemara Rav Tzadok cites for Elisha's prayer is Megillah 27a.
+[^pi-shnayim]: II Kings 2:9, ויהי נא פי שנים ברוחך אלי, Elisha's request for a double portion of Eliyahu's spirit. The Gemara on Elisha's prayer is Megillah 27a.
 [^maamik]: Paragraphs 182 and 212 put Torah and prayer side by side, but neither returns to the two kinds of miracles. Rav Eliezer Melamed quotes paragraph 72 in [*Peninei Halakha*](https://ph.yhb.org.il/20-21-09/) and reads "Torah is greater" to mean that miracles through Torah have a deeper and longer-lasting effect, because Torah is חיי עולם.
 [^shabbat]: Shabbat 10a: Rava saw Rav Hamnuna drawing out his prayer and said this about him.
 [^mishkal]: This is the sense in the Rokeach's laws of repentance, which list תשובת המשקל among the kinds of repentance, and in later works that follow him.
-[^73]: [Tzidkat HaTzaddik 73](https://he.wikisource.org/wiki/צדקת_הצדיק/עג), citing Sanhedrin 25a, 107b and 104b, and Middot 2:2.
+[^73]: [Tzidkat HaTzaddik 73](https://he.wikisource.org/wiki/צדקת_הצדיק/עג). Sources: Sanhedrin 25a, 107b and 104b, and Middot 2:2.
 [^rambam]: Rambam, Hilkhot Teshuva [2:1](https://www.sefaria.org/Mishneh_Torah%2C_Repentance.2.1) and [2:2](https://www.sefaria.org/Mishneh_Torah%2C_Repentance.2.2); Yoma 86b.
 [^butcher]: Sanhedrin 25a, the ruling of Rav Idi bar Avin.
 [^gechazi]: II Kings 4:27 and Berakhot 10b for the Shunammite woman; II Kings 7–8 for the camp of Aram and the restoration of her property. The account of Gechazi's repair follows paragraph 73; the lepers' fear of sin is II Kings 7:9. [Last time](/post/weakness-is-greatness/), Sotah 47a counted Elisha's pushing Gechazi away among the causes of his illness. Here, the one who pushed him away is the one who goes to bring him back.

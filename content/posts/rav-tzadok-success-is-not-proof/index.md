@@ -263,6 +263,6 @@ The hour gives us plenty to think about. Reading more isn't necessarily going to
 
 {{< join-channels >}}
 
-[^1]: [Tzidkat HaTzaddik, אות ס״ד](https://he.wikisource.org/wiki/צדקת_הצדיק/סד). Rav Tzadok cites Makkot 10b, Sanhedrin 113a, and Bava Metzia 59b, and applies the argument to the complaint in Numbers 17:6.
+[^1]: [Tzidkat HaTzaddik, אות ס״ד](https://he.wikisource.org/wiki/צדקת_הצדיק/סד). Sources: Makkot 10b, Sanhedrin 113a and Bava Metzia 59b; Rav Tzadok applies the argument to the complaint in Numbers 17:6.
 
 [^2]: [Tzidkat HaTzaddik, אות ס״ה](https://he.wikisource.org/wiki/צדקת_הצדיק/סה). The paragraph connects מסירת נפש, נפילת אפים, Korach's 250 men, and Moshe and Aharon. The explanation of the relationship between the two numbered passages, the prayer sequence, and the תכלת and מזוזה examples includes my own reading of the discussion.

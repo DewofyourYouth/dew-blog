@@ -253,9 +253,9 @@ Everything and the kitchen sink.
 [^hai]: Responsa of the Maharam Alashkar 101. The Maharam Alashkar says he found nothing on the question except a responsum of Rav Hai Gaon, which he copies out. Rav Hai's answer also quotes אם יתן איש את כל הון ביתו באהבה, the same verse Rav Tzadok uses.
 [^hai-case]: The question put to Rav Hai Gaon: one man fasts every Monday and Thursday and then declares that the reward for the fast goes to someone else; another gives gold on condition that the merit of a man's Torah reading will be his. Rav Hai answers that these are empty words with nothing to rely on, and that someone who tries to buy another's reward makes himself an object of ridicule.
 [^yevamot]: Yevamot 63a: אין פורענות באה לעולם אלא בשביל ישראל.
-[^galut]: Rav Tzadok refers to paragraph 256 for more on this.
+[^galut]: The notes in our edition point to paragraph 256 for more on this.
 [^zuhama]: Shabbat 146a.
 [^43]: [Tzidkat HaTzaddik 43](https://he.wikisource.org/wiki/צדקת_הצדיק/מג): sometimes a person faces a test so great that he cannot help sinning, and then he counts as coerced and is exempt. But, Rav Tzadok adds, no one can testify about himself that this was his case, because maybe he still had the strength to resist.
-[^76]: [Tzidkat HaTzaddik 76](https://he.wikisource.org/wiki/צדקת_הצדיק/עו), citing Zohar Pinchas 216a, Chullin 139b, Nedarim 32a and Yerushalmi Berakhot 2:4.
+[^76]: [Tzidkat HaTzaddik 76](https://he.wikisource.org/wiki/צדקת_הצדיק/עו). Rav Tzadok mentions the Zohar on Pinchas, the Sages on בשגם and the teaching about Mashiach's birth; the exact references (Zohar III 216a, Chullin 139b, Yerushalmi Berakhot 2:4) and Nedarim 32a on Torah sustaining the world come from the editors' notes.
 [^moshe]: Chullin 139b on Genesis 6:3. Rashi there points out that the same verse gives a lifespan of 120 years, which was Moshe's.
 [^gittin]: Gittin 56a.

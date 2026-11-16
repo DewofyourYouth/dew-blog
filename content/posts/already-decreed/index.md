@@ -251,7 +251,7 @@ My father described it as a more merciful conception of God. We finished there.
 
 [^3]: [Likkutei Halakhot, Orach Chaim, Hilkhot Rosh Chodesh 5:34](https://he.wikisource.org/wiki/ליקוטי_הלכות/חלק_אורח_חיים/הלכות_ראש_חודש). The coffee illustration is mine.
 
-[^4]: [Tzidkat HaTzaddik, אות ס״ז](https://he.wikisource.org/wiki/צדקת_הצדיק/סז). Rav Tzadok cites Psalms 51:5. The jump comparison, which my father brought from Rabbi Nachman, and the rock mashal belong to our discussion, rather than the paragraph itself.
+[^4]: [Tzidkat HaTzaddik, אות ס״ז](https://he.wikisource.org/wiki/צדקת_הצדיק/סז). Source: Psalms 51:5. The jump comparison, which my father brought from Rabbi Nachman, and the rock mashal belong to our discussion, rather than the paragraph itself.
 
 [^5]: [Tzidkat HaTzaddik, אות נ״ז](https://he.wikisource.org/wiki/צדקת_הצדיק/נז).
 

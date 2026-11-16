@@ -200,6 +200,6 @@ My father connected this with ירידה לצורך עליה, descent for the sa
 
 [^7]: [Berachot 5a](https://he.wikisource.org/wiki/ברכות_ה_א).
 
-[^8]: Psalms 109:22. The Yerushalmi ([Berachot 9:5](https://he.wikisource.org/wiki/ירושלמי_ברכות_ט_ה); Sotah 5:5) says David killed his yetzer hara “in his heart.” The version with fasting that Rav Tzadok cites is the one quoted in [Tanya, chapter 1](https://he.wikisource.org/wiki/תניא_חלק_א_א).
+[^8]: Psalms 109:22. The Yerushalmi ([Berachot 9:5](https://he.wikisource.org/wiki/ירושלמי_ברכות_ט_ה); Sotah 5:5) says David killed his yetzer hara “in his heart.” The version with fasting that Rav Tzadok quotes is the one quoted in [Tanya, chapter 1](https://he.wikisource.org/wiki/תניא_חלק_א_א).
 
-[^zohar]: Zohar II 82b, as Rav Tzadok cites it. Aramaic עיטין means counsels or pieces of advice.
+[^zohar]: Zohar II 82b. Aramaic עיטין means counsels or pieces of advice.

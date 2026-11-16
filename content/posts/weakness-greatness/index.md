@@ -184,9 +184,9 @@ I started to describe that as being more interesting or colorful, then stopped m
 
 It is a paradox. That is where we left it.
 
-[^70]: Tzidkat HaTzaddik, [אות ע׳](https://ashoova.co.il/ask/צדקת-הצדיק-ע׳/). Rav Tzadok cites Sanhedrin 70b on the fig leaves, Yerushalmi Berakhot 2:4 on Mashiach’s birth, Sanhedrin 91b on resurrection, and Bamidbar Rabbah, Chukat, on the red cow. The kashering comparison belongs to our discussion.
+[^70]: Tzidkat HaTzaddik, [אות ע׳](https://ashoova.co.il/ask/צדקת-הצדיק-ע׳/). Sources: Sanhedrin 70b on the fig leaves, Yerushalmi Berakhot 2:4 on Mashiach’s birth, Sanhedrin 91b on resurrection, and Bamidbar Rabbah, Chukat, on the red cow. The kashering comparison belongs to our discussion.
 [^40]: Compare Tzidkat HaTzaddik, אות מ׳, discussed in our earlier [session on 66–67](/post/already-decreed/). The before-and-after explanation here is how I developed the present paragraph in conversation; it is not an additional quotation from אות ע׳.
 [^71]: Tzidkat HaTzaddik, [אות ע״א](https://ashoova.co.il/ask/צדקת-הצדיק-ע״א/). Its conclusion explicitly requires טובת עין even toward the people being cursed.
 [^bruriah]: Berakhot 10a; Psalms 104:35. The distinction between חטאים and חוטאים is Bruriah’s reading in the Gemara.
-[^elisha]: II Kings 2:19–24; Sotah 46b–47a. The Gemara lists illness for inciting the bears and illness for rejecting Gechazi as separate matters. The David discussion is in Tzidkat HaTzaddik 71, citing Psalms 109:22, Avodah Zarah 4b, Psalms 108:9, and Sanhedrin 104b.
+[^elisha]: II Kings 2:19–24; Sotah 46b–47a. The Gemara lists illness for inciting the bears and illness for rejecting Gechazi as separate matters. The David discussion is in Tzidkat HaTzaddik 71; sources: Psalms 109:22, Avodah Zarah 4b, Psalms 108:9, and Sanhedrin 104b.
 [^abaye]: Sukkah 52a, brought in Tzidkat HaTzaddik, [אות מ״ד](https://he.wikisource.org/wiki/צדקת_הצדיק/מד): someone with a strong desire for physical pleasure should not be saddened by it, since it makes him a vessel ready for an equally strong desire for truth.

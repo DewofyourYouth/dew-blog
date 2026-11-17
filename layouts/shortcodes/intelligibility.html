@@ -13,7 +13,7 @@
   {{- errorf "intelligibility: no icon %q in assets/icons/rating/ (%s)" (.Get "icon") .Position -}}
 {{- end -}}
 {{- $svg := $icon.Content | replaceRE `<!--.*?-->` "" | replaceRE `<svg ` `<svg aria-hidden="true" focusable="false" ` -}}
-{{- $shown := replace (printf "%g" $score) ".5" "½" -}}
+{{- $shown := replace (printf "%g" $score) ".5" "½" | replaceRE `^0½` "½" -}}
 <aside class="intel-rating">
   <p class="intel-rating-kicker">Official intelligibility rating <span>scientifically indefensible</span></p>
   <div class="intel-rating-icons" aria-hidden="true">

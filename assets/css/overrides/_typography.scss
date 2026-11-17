@@ -148,3 +148,11 @@ html.dark .page.single .content > h6 {
     font-size: 1.3rem;
   }
 }
+
+/* Syriac script (layouts/shortcodes/syriac.html) */
+.syriac {
+  font-family: "Noto Sans Syriac Eastern", "Noto Sans Syriac", serif;
+  font-size: 1.15em;
+  line-height: 1.8;
+  unicode-bidi: isolate;
+}

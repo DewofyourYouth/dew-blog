@@ -1,0 +1,11 @@
+{{- /* Syriac-script text: {{< syriac >}}ܡܠܟܐ{{< /syriac >}}
+     Loads Noto Sans Syriac Eastern (the East Syriac script used for Urmi and
+     other Christian Neo-Aramaic) once per page, the first time it is used.
+     Styles in _typography.scss (.syriac). Output stays on one line so it can
+     sit inside a Markdown table cell. */ -}}
+{{- if not (.Page.Store.Get "syriac-font") -}}
+  {{- .Page.Store.Set "syriac-font" true -}}
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Syriac+Eastern:wght@400;500&display=swap" />
+{{- end -}}
+<span class="syriac" lang="syr" dir="rtl">{{ .Inner | strings.TrimSpace }}</span>
+{{- /* trailing newline trimmed */ -}}

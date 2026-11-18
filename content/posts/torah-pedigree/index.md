@@ -49,7 +49,7 @@ The proof is a story in the Gemara.[^yevamot] A man came to Rav and asked about 
 
 Rav wouldn't.
 
-Rav's grandson pushed him: so you don't really believe your own ruling? And Rav said, “Even if he were like Yehoshua bin Nun, I wouldn't give him my daughter.”
+Rav's grandson, Shimi bar Chiya, pushed him: so you don't really believe your own ruling? And Rav said, “Even if he were like Yehoshua bin Nun, I wouldn't give him my daughter.”
 
 Very frank. They didn't sugarcoat things the same way. Yehoshua bin Nun was a pretty big guy, and Rav is saying: even him, no.
 
@@ -242,7 +242,7 @@ Full circle. A son carrying forward what his father received from his rebbe, in 
 “The Lion King,” my father said.
 
 [^77]: [Tzidkat HaTzaddik 77](https://www.sefaria.org/Tzidkat_HaTzadik.77).
-[^yevamot]: Yevamot 45a. The grandson is Shimi bar Chiya.
+[^yevamot]: Yevamot 45a.
 [^horayot]: Horayot 13a: ממזר תלמיד חכם קודם לכהן גדול עם הארץ.
 [^shabbat]: Shabbat 101b: משה, שפיר קאמרת.
 [^shmuel]: II Samuel 23:3.

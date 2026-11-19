@@ -44,6 +44,8 @@ I also made a video of the reading, if you'd rather watch me work through it:
 
 {{< youtube id="oBhQEzOfnlE" title="Can a Hebrew Speaker Read Ancient Moabite? Trying the Mesha Stele" >}}
 
+{{< try-artifact >}}
+
 ## A Moabite King Introduces Himself
 
 The Mesha Stele, also called the Moabite Stone, is a ninth-century BCE inscription commissioned by Mesha, king of Moab. It was found at Dhiban, the biblical Dibon, in what is now Jordan, and is now in the Louvre. It has thirty-four lines describing his victories and building projects.[^stele]

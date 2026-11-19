@@ -44,6 +44,8 @@ Ugaritic is a {{< tooltip term="Northwest Semitic" key="northwest-semitic" >}} l
 
 One other thing: Ugaritic uses an alphabet written in {{< tooltip term="cuneiform" key="cuneiform" >}}, from left to right. I can make my way through some of the signs, but it doesn't come naturally to me, and that isn't really what I'm testing here. For this experiment I mostly read the Ugaritic transcribed into Hebrew letters. The Hebrew and Arabic columns below are transcriptions, not translations.[^script]
 
+{{< try-artifact >}}
+
 ## The axe
 
 We started with a bronze axe found in the {{< tooltip term="House of the High Priest" key="house-of-the-high-priest" >}}, catalogued as {{< tooltip term="RS 1.051" key="rs-number" >}} / {{< tooltip term="KTU 6.6" key="ktu" >}}. It has two words on it:[^texts]

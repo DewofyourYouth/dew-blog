@@ -45,6 +45,8 @@ The text I attempted was **CIH 543**, a fragmentary Jewish inscription from Ẓa
 {{< image src="images/cih-543-cis-plate.jpg" alt="A hand copy of the CIH 543 inscription: five lines of South Arabian letters on the right and four on the left, with the outline of the break in the stone drawn between them and damaged letters shaded" caption="CIH 543 as published in the *Corpus Inscriptionum Semiticarum*, Pars IV, Tab. XXIII (Paris, 1920). (Public domain, via the [Internet Archive](https://archive.org/details/corpusinscriptio42acad).)" >}}
 {{< / img-gallery >}}
 
+{{< try-artifact >}}
+
 Here is the text, with a rendering in Hebrew letters alongside the South Arabian script:
 
 | Line | South Arabian letters | Same consonants in Hebrew letters |

@@ -1,0 +1,54 @@
+{{- /* Invitation near the start of a Semitic-series post to try reading the
+     artifact in the gallery before the post does. Shows the first line in its
+     own script only (no Hebrew letters, no English: no spoilers).
+
+     {{< try-artifact >}}                      artifacts whose `post:` is this page
+     {{< try-artifact "mesha-stele" >}}        one artifact by slug
+     {{< try-artifact "zakkur-stele" "sefire-treaty" >}}   several, in this order
+*/ -}}
+{{- $page := .Page -}}
+{{- $list := slice -}}
+{{- if .Params -}}
+  {{- range .Params -}}
+    {{- with site.GetPage (printf "/artifacts/%s" .) }}{{ $list = $list | append . }}
+    {{- else }}{{ warnf "try-artifact: no artifact %q (in %s)" . $page.File.Path }}{{ end -}}
+  {{- end -}}
+{{- else -}}
+  {{- range (where site.RegularPages "Section" "artifacts").ByWeight -}}
+    {{- $a := . -}}
+    {{- with $a.Params.post }}{{ with site.GetPage . }}{{ if eq .Permalink $page.Permalink }}{{ $list = $list | append $a }}{{ end }}{{ end }}{{ end -}}
+  {{- end -}}
+{{- end -}}
+{{- with $list -}}
+  {{- $lead := index . 0 -}}
+  {{- $s := partial "artifact/script.html" $lead.Params.script -}}
+  {{- $first := index ($lead.Params.lines | default slice) 0 | default dict -}}
+  {{- $line := $first.original | default $first.hebrew -}}
+  {{- $rest := after 1 . -}}
+  {{- $name := $lead.Params.inProse | default (printf "the %s" $lead.Title) -}}
+  {{- partial "artifact/fonts.html" (slice $lead.Params.script) -}}
+  <aside class="try-artifact" aria-label="Try along">
+    {{- with $line }}
+    <a class="try-artifact-panel" href="{{ $lead.RelPermalink }}" tabindex="-1" aria-hidden="true">
+      <span class="try-artifact-line" dir="{{ $s.dir | default "rtl" }}"{{ with $s.lang }} lang="{{ . }}"{{ end }}{{ with $s.font }} style="font-family: '{{ . }}', var(--doyy-serif, serif)"{{ end }}>{{ . }}</span>
+    </a>
+    {{- end }}
+    <div class="try-artifact-label">
+      <p class="try-artifact-source">From the <a href="/artifacts/">artifact gallery</a></p>
+      <p class="try-artifact-title">Try along</p>
+      {{- if $rest }}
+      <p>That’s how {{ $name }} begins. If you want to try the texts in this post yourself before I do, they’re all in the gallery, with the Hebrew letters and the English covered until you reveal them.</p>
+      {{- else }}
+      <p>That’s how {{ $name }} begins. If you want to try it yourself before I do, it’s in the gallery, with the Hebrew letters and the English covered until you reveal them.</p>
+      {{- end }}
+      <p class="try-artifact-action"><a class="try-artifact-button" href="{{ $lead.RelPermalink }}">Try {{ $name }}</a></p>
+      {{- with $rest }}
+      <ul class="try-artifact-more">
+        {{- range . }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}
+      </ul>
+      {{- end }}
+    </div>
+  </aside>
+{{- else -}}
+  {{- warnf "try-artifact: no artifacts found for %s" $page.File.Path -}}
+{{- end -}}

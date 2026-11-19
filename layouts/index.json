@@ -1,5 +1,6 @@
 {{- $index := slice -}}
-{{- range .Site.RegularPages.ByDate.Reverse -}}
+{{- /* The artifact gallery is a companion, not blog content: keep it out of site search */ -}}
+{{- range where .Site.RegularPages.ByDate.Reverse "Section" "ne" "artifacts" -}}
     {{- $page := . -}}
     {{- $imageURL := "" -}}
     {{- with .Params.featuredimage -}}

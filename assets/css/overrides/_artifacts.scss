@@ -891,3 +891,118 @@ html.dark {
 .lightbox-next {
   right: 0.75rem;
 }
+
+/* ---------- try-artifact shortcode (in posts) ----------
+   An object lent from the gallery, not part of the post: a framed card in the
+   gallery's felt colour, the first line on a basalt tile, and a wall-label in
+   sans (the post itself is serif). Stacks on narrow screens. */
+.page.single .content .try-artifact {
+  display: grid;
+  grid-template-columns: minmax(0, 15rem) minmax(0, 1fr);
+  margin: 2.5rem 0 2.75rem;
+  border: 1px solid var(--doyy-rule);
+  border-radius: 6px;
+  background: var(--artifact-cover);
+  color: var(--artifact-cover-ink);
+  font-family: var(--font-sans);
+  overflow: hidden;
+}
+
+.page.single .content .try-artifact-panel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.25rem 1rem;
+  background: var(--artifact-vitrine);
+  color: var(--artifact-vitrine-ink);
+  border-bottom: 6px solid var(--artifact-plinth);
+  text-align: center;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+
+.page.single .content .try-artifact-line {
+  display: block;
+  font-size: 1.35rem;
+  line-height: 1.6;
+  letter-spacing: 0.04em;
+}
+
+.page.single .content .try-artifact-label {
+  padding: 1.1rem 1.35rem 1.25rem;
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+.page.single .content .try-artifact-label p {
+  margin: 0 0 0.55rem;
+}
+
+.page.single .content .try-artifact-source {
+  font-size: 0.8rem;
+}
+
+.page.single .content .try-artifact-source a {
+  color: inherit;
+}
+
+.page.single .content .try-artifact-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--doyy-ink);
+}
+
+.page.single .content .try-artifact-action {
+  margin-top: 0.9rem;
+}
+
+.page.single .content a.try-artifact-button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
+  background: var(--doyy-accent);
+  color: var(--doyy-on-accent);
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.15s ease;
+}
+
+.page.single .content a.try-artifact-button:hover {
+  background: var(--doyy-accent-hover);
+  color: var(--doyy-on-accent);
+}
+
+.page.single .content a.try-artifact-button:focus-visible {
+  outline: 2px solid var(--doyy-accent);
+  outline-offset: 3px;
+}
+
+.page.single .content .try-artifact-more {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem 1.1rem;
+  margin: 0.9rem 0 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.85rem;
+}
+
+.page.single .content .try-artifact-more li {
+  margin: 0;
+}
+
+.page.single .content .try-artifact-more li::before {
+  content: none;
+}
+
+@media (max-width: 640px) {
+  .page.single .content .try-artifact {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .page.single .content a.try-artifact-button {
+    transition: none;
+  }
+}

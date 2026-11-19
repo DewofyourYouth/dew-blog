@@ -45,6 +45,8 @@ The tables give the selected Aramaic in Hebrew letters, a Latin transcription, a
 
 This is a sampling of historical stages and textual traditions, rather than ten neatly equivalent dialects. It also isn’t a test of whether I can read their original scripts. In several cases, I very much cannot. The photographs show what each text actually looks like.
 
+{{< try-artifact >}}
+
 ## Imperial Aramaic
 
 The first text was a message on an {{< tooltip term="ostracon" key="ostracon" >}} from {{< tooltip term="Elephantine" key="elephantine" >}} in Egypt, dating to the late fifth century BCE. This is {{< tooltip term="Imperial Aramaic" key="imperial-aramaic" >}}, the language of the Persian administration. I had to establish what an “ostracon” was before getting to the Aramaic. (A piece of broken pottery. Cheaper than papyrus.)

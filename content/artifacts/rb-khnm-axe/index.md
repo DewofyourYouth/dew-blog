@@ -1,5 +1,6 @@
 ---
 title: "Inscribed Bronze Axe from Ugarit"
+inProse: "the inscribed bronze axe from Ugarit"
 language: "Ugaritic"
 script: "ugaritic"
 room: "ugarit"

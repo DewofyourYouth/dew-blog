@@ -1,5 +1,6 @@
 ---
 title: "CIH 543"
+inProse: "CIH 543"
 language: "Late Sabaic"
 script: "old-south-arabian"
 room: "south-arabian"

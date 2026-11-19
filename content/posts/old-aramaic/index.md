@@ -38,6 +38,8 @@ These are {{< tooltip term="Old Aramaic" key="old-aramaic" >}} texts. The Hebrew
 
 The passages are divided into readable clauses rather than reproducing the stone’s line breaks. The text follows the [Comprehensive Aramaic Lexicon’s editions](https://cal.huc.edu/newtextmenu.html), with word spacing and restorations for this presentation. In Zakkur, the damaged speaking verb is conventionally restored here as וידבר; the reading is not fully preserved on the stone.
 
+{{< try-artifact >}}
+
 ## Zakkur: a king under siege
 
 The Zakkur stele, **{{< tooltip term="KAI" key="kai" >}} 202**, records a king’s account of a siege and divine assistance. Here is the passage I attempted, from face A, lines 9–15.[^zakkur]

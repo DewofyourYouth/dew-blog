@@ -53,6 +53,8 @@ I initially thought the living Semitic languages were Hebrew, Arabic, “Ethiopi
 
 So, how much Phoenician can I read? I speak Hebrew fluently, read Aramaic from rabbinic literature, and am learning Arabic. I wouldn’t say I’m fluent in Arabic. This is just a fun experiment with the background I happen to have.
 
+{{< try-artifact >}}
+
 ## The Tabnit sarcophagus
 
 We’re going to start with the {{< tooltip term="Tabnit" key="tabnit" >}} {{< tooltip term="sarcophagus" key="sarcophagus" >}}. It was found in {{< tooltip term="Sidon" key="sidon" >}}, Lebanon, and it’s now in the Istanbul Archaeological Museums in Turkey.

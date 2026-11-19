@@ -1,7 +1,7 @@
 ---
 title: "Artifacts"
 description: "Inscriptions, tablets and manuscripts from the Reading Semitic Languages with Hebrew series, with photos and line-by-line readings in the original script, Hebrew letters and English."
-dek: "The inscriptions, tablets and manuscripts from [Reading Semitic Languages with Hebrew](/series/semitic-languages/), with their text line by line. Each line shows the original script; reveal the Hebrew letters and the English when you’re ready."
+dek: "In [Reading Semitic Languages with Hebrew](/series/semitic-languages/) I try to read old Semitic texts with nothing but Hebrew. This is where you can try it yourself. Each inscription, tablet and manuscript is here in full, line by line in its original script. Have a go, then reveal the Hebrew letters and the English when you’re ready."
 outputs: ["html"]
 # Rooms in the order they're hung. Each artifact names its room with `room:`.
 rooms:

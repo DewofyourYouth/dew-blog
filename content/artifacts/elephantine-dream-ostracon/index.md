@@ -1,5 +1,6 @@
 ---
 title: "Ostracon from Elephantine"
+inProse: "the ostracon from Elephantine"
 language: "Imperial Aramaic"
 script: "imperial-aramaic"
 room: "aramaic"

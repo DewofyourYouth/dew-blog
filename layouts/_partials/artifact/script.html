@@ -1,0 +1,19 @@
+{{- /* Script metadata for the artifact gallery, keyed by the artifact's `script:`.
+     Returns dict: name (shown on the wall label), font (Google Fonts family, or ""
+     for square Hebrew), dir, lang. "square" means the original is already in
+     Hebrew letters, so the reading has no separate original column. */ -}}
+{{- $scripts := dict
+  "phoenician" (dict "name" "Phoenician-type alphabet" "font" "Noto Sans Phoenician" "dir" "rtl" "lang" "phn")
+  "old-south-arabian" (dict "name" "South Arabian alphabet (musnad)" "font" "Noto Sans Old South Arabian" "dir" "rtl" "lang" "xsa")
+  "ugaritic" (dict "name" "Ugaritic alphabetic cuneiform" "font" "Noto Sans Ugaritic" "dir" "ltr" "lang" "uga")
+  "imperial-aramaic" (dict "name" "Imperial Aramaic script" "font" "Noto Sans Imperial Aramaic" "dir" "rtl" "lang" "arc")
+  "nabataean" (dict "name" "Nabataean script" "font" "Noto Sans Nabataean" "dir" "rtl" "lang" "arc")
+  "palmyrene" (dict "name" "Palmyrene script" "font" "Noto Sans Palmyrene" "dir" "rtl" "lang" "arc")
+  "hatran" (dict "name" "Hatran script" "font" "Noto Sans Hatran" "dir" "rtl" "lang" "arc")
+  "samaritan" (dict "name" "Samaritan script" "font" "Noto Sans Samaritan" "dir" "rtl" "lang" "sam")
+  "syriac" (dict "name" "Syriac script (Estrangela)" "font" "Noto Sans Syriac" "dir" "rtl" "lang" "syc")
+  "mandaic" (dict "name" "Mandaic script" "font" "Noto Sans Mandaic" "dir" "rtl" "lang" "myz")
+  "square" (dict "name" "Square Hebrew-Aramaic script" "font" "" "dir" "rtl" "lang" "arc")
+-}}
+{{- $found := index $scripts (. | default "square") | default (index $scripts "square") -}}
+{{- return $found -}}

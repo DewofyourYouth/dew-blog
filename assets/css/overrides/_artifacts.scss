@@ -1,0 +1,893 @@
+/* Artifact gallery (content/artifacts/, layouts/artifacts/).
+   A museum hall: objects stand on plinths at their own proportions, the
+   artifact page puts the photo in a lit vitrine and the text in a reading
+   whose translations are covered until revealed (for reading along and for
+   recording videos). Brand tokens come from _brand.scss. */
+
+:root {
+  /* The vitrine is basalt in both themes: the photo is always lit on dark */
+  --artifact-vitrine: #20262b;
+  --artifact-vitrine-ink: #e9e2d4;
+  --artifact-vitrine-muted: #a9a294;
+  --artifact-plinth: #c9bda5;
+  --artifact-cover: #e6dcc8;
+  --artifact-cover-hover: #ddd0b7;
+  --artifact-cover-ink: #6d655a;
+}
+
+html.dark {
+  --artifact-plinth: #4a525a;
+  --artifact-cover: #2d353c;
+  --artifact-cover-hover: #36404a;
+  --artifact-cover-ink: #b9b2a5;
+}
+
+/* The gallery runs wider than the 44rem reading column */
+.page.single.artifact-page,
+.page.single.artifact-hall {
+  width: 100% !important;
+  max-width: 70rem;
+}
+
+.artifact-page [hidden],
+.artifact-hall [hidden] {
+  display: none !important;
+}
+
+/* ---------- The notice (AI-compiled, unchecked) ---------- */
+.artifact-notice {
+  max-width: 44rem;
+  margin: 0 auto 3rem;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--doyy-rule);
+  border-left: 4px solid var(--doyy-accent);
+  border-radius: 2px;
+  background: var(--doyy-paper);
+  font-family: var(--font-sans);
+  font-size: 0.92rem;
+  line-height: 1.6;
+  color: var(--doyy-ink);
+}
+
+.artifact-notice p {
+  margin: 0;
+}
+
+.artifact-notice .artifact-notice-title {
+  margin-bottom: 0.35rem;
+  font-weight: 600;
+}
+
+.artifact-notice a {
+  color: var(--doyy-accent);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* ================= The hall ================= */
+/* Hero, notice and rooms share one left edge on the wide gallery column */
+.page.feature-page.artifact-hall .feature-hero {
+  max-width: none;
+  margin-bottom: 2rem;
+}
+
+.artifact-hall .artifact-notice {
+  margin-left: 0;
+}
+
+.artifact-hall .feature-dek a {
+  color: var(--doyy-accent);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.hall-room {
+  margin: 0 0 4.5rem;
+}
+
+.hall-room-head {
+  background: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.25rem 1.25rem;
+  margin-bottom: 1.75rem;
+}
+
+.hall-room-head h2 {
+  margin: 0;
+  font-family: var(--font-serif);
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: var(--doyy-ink);
+}
+
+.hall-room-head p {
+  margin: 0;
+  font-family: var(--font-text);
+  font-style: italic;
+  font-size: 1rem;
+  color: var(--doyy-muted);
+}
+
+/* A shelf: objects bottom-aligned, each at its own width */
+.hall-shelf {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 2.75rem 2.25rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.hall-object {
+  margin: 0;
+  max-width: 100%;
+}
+
+.hall-object-link {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Same height on the shelf; very wide objects (an axe, a drawing) are
+   capped in width and stand shorter instead of taking over the room */
+.hall-object-img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-height: clamp(9.5rem, 20vw, 13.5rem);
+  max-width: unquote("min(23rem, 100%)");
+}
+
+.hall-object-placard {
+  display: block;
+  height: clamp(9.5rem, 20vw, 13.5rem);
+  max-width: 100%;
+}
+
+/* No photo: the object's first line of text, lit like a vitrine */
+.hall-object-placard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 4 / 5;
+  padding: 1.25rem;
+  background: var(--artifact-vitrine);
+  color: var(--artifact-vitrine-ink);
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-align: center;
+  overflow: hidden;
+}
+
+/* The plinth each object stands on */
+.hall-object-img,
+.hall-object-placard {
+  border-bottom: 6px solid var(--artifact-plinth);
+}
+
+.hall-label {
+  display: flex;
+  flex-direction: column;
+  max-width: 15rem;
+  margin-top: 0.8rem;
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  line-height: 1.45;
+  color: var(--doyy-muted);
+}
+
+.hall-label .hall-label-title {
+  margin-bottom: 0.15rem;
+  font-family: var(--font-text);
+  font-size: 1.08rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--doyy-ink);
+}
+
+.hall-object-link:hover .hall-label-title,
+.hall-object-link:focus-visible .hall-label-title {
+  color: var(--doyy-accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.hall-object-link:focus-visible {
+  outline: 2px solid var(--doyy-accent);
+  outline-offset: 6px;
+}
+
+/* ================= The artifact page ================= */
+.artifact-crumb {
+  margin: 0.5rem 0 1.25rem;
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+}
+
+.artifact-crumb a {
+  color: var(--doyy-muted);
+  text-decoration: none;
+}
+
+.artifact-crumb a:hover {
+  color: var(--doyy-accent);
+}
+
+/* The vitrine: one spotlight from above, the only lit surface on the page */
+.artifact-vitrine {
+  margin: 0 0 2.5rem;
+  padding: clamp(1.25rem, 4vw, 3rem) clamp(1rem, 4vw, 3rem) 1rem;
+  background:
+    radial-gradient(ellipse 70% 60% at 50% 0%, rgba(255, 236, 200, 0.13), transparent 70%),
+    var(--artifact-vitrine);
+  border-radius: 2px;
+}
+
+.artifact-vitrine-link {
+  display: block;
+}
+
+.artifact-vitrine img {
+  display: block;
+  max-width: 100%;
+  max-height: 72vh;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  box-shadow: 0 1.5rem 2.5rem -1.5rem rgba(0, 0, 0, 0.7);
+}
+
+.artifact-vitrine figcaption {
+  max-width: 44rem;
+  margin: 1rem auto 0;
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+  line-height: 1.55;
+  color: var(--artifact-vitrine-muted);
+  text-align: center;
+}
+
+.artifact-vitrine figcaption a {
+  color: var(--artifact-vitrine-ink);
+}
+
+/* Wall label beside the background text */
+.artifact-head {
+  display: grid;
+  grid-template-columns: minmax(0, 20rem) minmax(0, 1fr);
+  gap: 2.5rem 3.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.artifact-page .wall-label {
+  background: none;
+}
+
+.artifact-page .artifact-notice {
+  margin-left: 0;
+}
+
+.wall-label-title {
+  margin: 0;
+  font-family: var(--font-serif);
+  font-size: clamp(2rem, 4vw, 2.6rem);
+  font-weight: 600;
+  line-height: 1.12;
+  color: var(--doyy-ink);
+}
+
+.wall-label-aka {
+  margin: 0.4rem 0 0;
+  font-family: var(--font-text);
+  font-style: italic;
+  font-size: 1.1rem;
+  color: var(--doyy-muted);
+}
+
+.wall-label-facts {
+  margin: 1.5rem 0 0;
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+
+.wall-label-facts div {
+  padding: 0.55rem 0;
+  border-top: 1px solid var(--doyy-rule);
+}
+
+.wall-label-facts dt {
+  font-weight: 600;
+  color: var(--doyy-muted);
+}
+
+.wall-label-facts dd {
+  margin: 0.1rem 0 0;
+  color: var(--doyy-ink);
+}
+
+.page.single .artifact-about.content {
+  max-width: 40rem;
+  margin: 0;
+  font-size: 1.12rem;
+}
+
+.artifact-about > p:first-child {
+  margin-top: 0;
+}
+
+.artifact-post-link {
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+}
+
+.page.single .artifact-about.content .artifact-post-link a {
+  color: var(--doyy-accent);
+  font-weight: 600;
+}
+
+/* ---------- The reading ---------- */
+.reading {
+  margin: 0 0 4rem;
+}
+
+.reading-head h2,
+.artifact-views h2 {
+  margin: 0;
+  font-family: var(--font-serif);
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: var(--doyy-ink);
+}
+
+.reading-passage {
+  margin-left: 0.75rem;
+  font-family: var(--font-text);
+  font-size: 1.05rem;
+  font-weight: 400;
+  font-style: italic;
+  color: var(--doyy-muted);
+}
+
+.reading-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0 0.5rem;
+}
+
+.reading-btn {
+  padding: 0.45rem 0.9rem;
+  border: 1px solid var(--doyy-accent);
+  border-radius: 2px;
+  background: transparent;
+  color: var(--doyy-accent);
+  font-family: var(--font-sans);
+  font-size: 0.88rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.reading-btn:hover {
+  background: var(--doyy-accent);
+  color: var(--doyy-on-accent);
+}
+
+.reading-btn.reading-btn-quiet {
+  border-color: var(--doyy-rule);
+  color: var(--doyy-muted);
+}
+
+.reading-btn.reading-btn-quiet:hover {
+  background: var(--doyy-rule);
+  color: var(--doyy-ink);
+}
+
+.reading-hint {
+  margin: 0 0 1.25rem;
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+  color: var(--doyy-muted);
+}
+
+.reading-hint kbd {
+  padding: 0 0.35rem;
+  border: 1px solid var(--doyy-rule);
+  border-radius: 3px;
+  font-family: inherit;
+  font-size: 0.78rem;
+}
+
+.reading-lines {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.reading-line {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr) minmax(0, 1.1fr);
+  gap: 1.5rem;
+  align-items: start;
+  padding: 1.1rem 0;
+  border-top: 1px solid var(--doyy-rule);
+}
+
+.has-refs .reading-line {
+  grid-template-columns: 3.5rem minmax(0, 1.15fr) minmax(0, 1fr) minmax(0, 1.1fr);
+}
+
+.no-original .reading-line {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+}
+
+.no-original.has-refs .reading-line {
+  grid-template-columns: 3.5rem minmax(0, 1fr) minmax(0, 1fr);
+}
+
+.reading-colheads {
+  padding: 0 0 0.5rem;
+  border-top: 0;
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--doyy-muted);
+}
+
+.reading-ref {
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+  font-variant-numeric: tabular-nums;
+  color: var(--doyy-muted);
+  padding-top: 0.45rem;
+}
+
+.reading-colheads .reading-ref {
+  padding-top: 0;
+}
+
+.reading-cell {
+  min-width: 0;
+}
+
+.script-text {
+  display: block;
+  font-size: 1.75rem;
+  line-height: 1.55;
+  color: var(--doyy-ink);
+  overflow-wrap: anywhere;
+}
+
+.script-ugaritic {
+  font-size: 1.55rem;
+  letter-spacing: 0.04em;
+}
+
+.hebrew-text {
+  display: block;
+  font-family: "Frank Ruhl Libre", var(--font-text);
+  font-size: 1.4rem;
+  line-height: 1.55;
+  color: var(--doyy-ink);
+}
+
+.no-original .hebrew-text {
+  font-size: 1.6rem;
+}
+
+.latin-text {
+  display: block;
+  margin-top: 0.2rem;
+  font-family: var(--font-text);
+  font-style: italic;
+  font-size: 0.95rem;
+  color: var(--doyy-muted);
+}
+
+.reading-english .reveal-body {
+  font-family: var(--font-text);
+  font-size: 1.08rem;
+  line-height: 1.55;
+  color: var(--doyy-ink);
+}
+
+.reading-english .reveal-body p {
+  margin: 0;
+}
+
+/* The cover: a felt flap over the label, lifted on click */
+.reveal-cover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 3.1rem;
+  border: 0;
+  border-radius: 2px;
+  background: var(--artifact-cover);
+  color: var(--artifact-cover-ink);
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.reveal-cover:hover {
+  background: var(--artifact-cover-hover);
+}
+
+.reveal-cover:focus-visible,
+.reading-btn:focus-visible {
+  outline: 2px solid var(--doyy-accent);
+  outline-offset: 2px;
+}
+
+.is-revealed .reveal-body {
+  animation: artifact-reveal 260ms ease-out;
+}
+
+@keyframes artifact-reveal {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .is-revealed .reveal-body {
+    animation: none;
+  }
+}
+
+/* ---------- More views ---------- */
+.artifact-views {
+  margin: 0 0 3.5rem;
+}
+
+.artifact-views-grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-top: 1.25rem;
+}
+
+.artifact-views figure {
+  margin: 0;
+  flex: 1 1 16rem;
+  max-width: 26rem;
+}
+
+.artifact-views img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  max-height: 22rem;
+  border-bottom: 6px solid var(--artifact-plinth);
+}
+
+.artifact-views figcaption {
+  margin-top: 0.6rem;
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+  line-height: 1.5;
+  color: var(--doyy-muted);
+}
+
+.artifact-views figcaption a,
+.wall-label a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+/* ---------- Walk the hall ---------- */
+.artifact-walk {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding: 1.5rem 0 3rem;
+  border-top: 1px solid var(--doyy-rule);
+}
+
+.artifact-walk a {
+  display: flex;
+  flex-direction: column;
+  max-width: 48%;
+  font-family: var(--font-text);
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--doyy-ink);
+  text-decoration: none;
+}
+
+.artifact-walk a span {
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: var(--doyy-muted);
+}
+
+.artifact-walk a:hover {
+  color: var(--doyy-accent);
+}
+
+.artifact-walk .artifact-walk-next {
+  margin-left: auto;
+  text-align: right;
+}
+
+/* ---------- Post footer strip: "In the gallery" ---------- */
+.artifact-strip {
+  margin: 2.5rem 0;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--doyy-rule);
+}
+
+.artifact-strip h2 {
+  margin: 0 0 1rem;
+  font-family: var(--font-serif);
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.artifact-strip ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 1.25rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.artifact-strip a {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  max-width: 10rem;
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  line-height: 1.35;
+  color: var(--doyy-ink);
+  text-decoration: none;
+}
+
+.artifact-strip a:hover {
+  color: var(--doyy-accent);
+}
+
+.artifact-strip img {
+  display: block;
+  height: 6.5rem;
+  width: auto;
+  max-width: 10rem;
+  object-fit: contain;
+  border-bottom: 4px solid var(--artifact-plinth);
+}
+
+/* ---------- Small screens ---------- */
+@media (max-width: 760px) {
+  .artifact-head {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.5rem;
+  }
+
+  .reading-colheads {
+    display: none !important;
+  }
+
+  .reading-line,
+  .has-refs .reading-line,
+  .no-original .reading-line,
+  .no-original.has-refs .reading-line {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.6rem;
+  }
+
+  .reading-ref {
+    padding-top: 0;
+  }
+
+  .reading-ref:not(:empty)::before {
+    content: "Line ";
+  }
+
+  .reading-cell::before {
+    content: attr(data-label);
+    display: block;
+    margin-bottom: 0.2rem;
+    font-family: var(--font-sans);
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--doyy-muted);
+  }
+
+  .hall-shelf {
+    gap: 2.25rem 1.5rem;
+  }
+}
+
+/* Hebrew letters and their transliteration stack on the right edge */
+.reading-hebrew .reveal-body {
+  text-align: right;
+}
+
+/* What the text says: covered until after the reading */
+.reading-after {
+  max-width: 44rem;
+  margin-top: 2.25rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--doyy-rule);
+}
+
+.reading-after h3 {
+  margin: 0 0 0.75rem;
+  font-family: var(--font-serif);
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--doyy-ink);
+}
+
+.reading-after .reveal-cover {
+  min-height: 4.5rem;
+}
+
+.reading-after .reveal-body {
+  font-family: var(--font-text);
+  font-size: 1.1rem;
+  line-height: 1.65;
+  color: var(--doyy-ink);
+}
+
+.reading-after .reveal-body p {
+  margin: 0 0 0.75rem;
+}
+
+/* Lines read on camera: a thin accent bar in the left gutter */
+.reading-line {
+  position: relative;
+}
+
+.reading-line.is-read::before {
+  content: "";
+  position: absolute;
+  top: 1.1rem;
+  bottom: 1.1rem;
+  left: -0.85rem;
+  width: 3px;
+  border-radius: 2px;
+  background: var(--doyy-accent);
+}
+
+.reading-legend {
+  display: inline-block;
+  padding-left: 0.6rem;
+  border-left: 3px solid var(--doyy-accent);
+}
+
+/* ---------- Lightbox ---------- */
+.lightbox-trigger {
+  display: block;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: zoom-in;
+}
+
+.artifact-vitrine .lightbox-trigger {
+  margin: 0 auto;
+}
+
+.lightbox-trigger:focus-visible {
+  outline: 2px solid var(--doyy-accent);
+  outline-offset: 4px;
+}
+
+.lightbox {
+  width: 100vw;
+  height: 100vh;
+  max-width: none;
+  max-height: none;
+  margin: 0;
+  padding: 3.5rem 1rem 1.5rem;
+  border: 0;
+  background: rgba(20, 24, 28, 0.96);
+  color: var(--artifact-vitrine-ink);
+}
+
+.lightbox::backdrop {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.lightbox[open] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lightbox-figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0;
+}
+
+.lightbox-img {
+  display: block;
+  max-width: 100%;
+  max-height: calc(100vh - 9rem);
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+.lightbox-caption {
+  max-width: 44rem;
+  margin-top: 0.9rem;
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  line-height: 1.55;
+  color: var(--artifact-vitrine-muted);
+  text-align: center;
+}
+
+.lightbox-caption a {
+  color: var(--artifact-vitrine-ink);
+}
+
+.lightbox-close,
+.lightbox-nav {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--artifact-vitrine-ink);
+  font-size: 1.6rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.lightbox-close:hover,
+.lightbox-nav:hover {
+  background: rgba(255, 255, 255, 0.18);
+}
+
+.lightbox-close:focus-visible,
+.lightbox-nav:focus-visible {
+  outline: 2px solid var(--doyy-accent);
+  outline-offset: 2px;
+}
+
+.lightbox-close {
+  top: 0.75rem;
+  right: 0.75rem;
+}
+
+.lightbox-nav {
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+}
+
+.lightbox-prev {
+  left: 0.75rem;
+}
+
+.lightbox-next {
+  right: 0.75rem;
+}

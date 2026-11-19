@@ -277,6 +277,9 @@
         </div>
         {{- end -}}
 
+        {{- /* Artifacts from this post in the gallery (content/artifacts/) */ -}}
+        {{- partial "artifact/strip.html" . -}}
+
         {{/* Related Content */}}
         {{- if $params.related.enable -}}
             {{- partial "related.html" . -}}

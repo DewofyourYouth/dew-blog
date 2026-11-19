@@ -1,0 +1,14 @@
+{{- /* The AI disclaimer, on the hall and on every artifact. Pass the page;
+     an artifact page also links its series post. */ -}}
+<aside class="artifact-notice" role="note">
+  <p class="artifact-notice-title">Compiled with AI. I haven’t checked it.</p>
+  <p>
+    The descriptions, the transcriptions, the original-script lines and the
+    translations in this gallery were put together with AI from my posts and
+    published sources. I haven’t verified them. Where a text survives only in
+    Hebrew-letter transcription, its original script was converted
+    letter for letter and won’t match the stone exactly.
+    {{- with .Params.post }}{{ with site.GetPage . }} For the reading I actually did and checked, see
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>.{{ end }}{{ end }}
+  </p>
+</aside>

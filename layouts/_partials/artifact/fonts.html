@@ -1,0 +1,11 @@
+{{- /* One Google Fonts <link> for the ancient-script faces a page needs.
+     Pass a slice of script keys. */ -}}
+{{- $families := slice -}}
+{{- range . | uniq -}}
+  {{- with (partial "artifact/script.html" .).font -}}
+    {{- $families = $families | append (printf "family=%s" (replace . " " "+")) -}}
+  {{- end -}}
+{{- end -}}
+{{- with $families | uniq -}}
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?{{ delimit . "&" | safeURL }}&display=swap" />
+{{- end -}}

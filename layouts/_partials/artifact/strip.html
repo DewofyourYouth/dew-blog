@@ -1,0 +1,32 @@
+{{- /* End-of-post strip linking to this post's artifacts in the gallery.
+     Automatic: any artifact whose `post:` resolves to this page. */ -}}
+{{- $page := . -}}
+{{- $mine := slice -}}
+{{- range (where site.RegularPages "Section" "artifacts").ByWeight -}}
+  {{- $a := . -}}
+  {{- with $a.Params.post -}}
+    {{- with site.GetPage . -}}
+      {{- if eq .Permalink $page.Permalink }}{{ $mine = $mine | append $a }}{{ end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- with $mine }}
+<section class="artifact-strip" aria-labelledby="artifact-strip-title">
+  <h2 id="artifact-strip-title">In the artifact gallery</h2>
+  <ul>
+    {{- range . }}
+      {{- $imgs := partial "artifact/images.html" . -}}
+      <li>
+        <a href="{{ .RelPermalink }}">
+          {{- if $imgs }}
+            {{- $i := index $imgs 0 -}}
+            {{- $t := $i.res.Process "resize x208 webp q75" -}}
+            <img src="{{ $t.RelPermalink }}" width="{{ $t.Width }}" height="{{ $t.Height }}" alt="" loading="lazy" decoding="async" />
+          {{- end }}
+          <span>{{ .Title }}</span>
+        </a>
+      </li>
+    {{- end }}
+  </ul>
+</section>
+{{- end -}}

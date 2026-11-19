@@ -1,0 +1,234 @@
+{{- define "title" }}{{ .Title }} - Artifacts - {{ .Site.Title }}{{ end -}}
+
+{{- define "content" -}}
+  {{- $imgs := partial "artifact/images.html" . -}}
+  {{- $s := partial "artifact/script.html" .Params.script -}}
+  {{- $hasOriginal := ne (.Params.script | default "square") "square" -}}
+  {{- $hasRefs := false -}}
+  {{- $hasRead := false -}}
+  {{- range .Params.lines }}{{ if .read }}{{ $hasRead = true }}{{ end }}{{ end -}}
+  {{- range .Params.lines }}{{ if .ref }}{{ $hasRefs = true }}{{ end }}{{ end -}}
+  {{- $post := cond (ne .Params.post nil) (site.GetPage (.Params.post | default "")) nil -}}
+  {{- $font := cond (ne $s.font "") (printf "font-family: '%s', var(--font-text);" $s.font) "" -}}
+  {{- partial "artifact/fonts.html" (slice .Params.script) -}}
+
+  <div class="page single feature-page artifact-page">
+    <nav class="artifact-crumb" aria-label="Breadcrumb">
+      <a href="{{ .CurrentSection.RelPermalink }}">All artifacts</a>
+    </nav>
+
+    {{- /* The vitrine: the main photo under a single spotlight */ -}}
+    {{- if $imgs }}
+      {{- $main := index $imgs 0 -}}
+      {{- /* Never upscale: small photos keep their own width */ -}}
+      {{- $big := $main.res.Process (printf "resize %dx webp q80" (int (math.Min 1600 $main.res.Width))) -}}
+      {{- $mid := $main.res.Process (printf "resize %dx webp q80" (int (math.Min 900 $main.res.Width))) -}}
+      {{- $full := $main.res.Process (printf "resize %dx webp q85" (int (math.Min 2400 $main.res.Width))) -}}
+      <figure class="artifact-vitrine">
+        <button type="button" class="lightbox-trigger artifact-vitrine-link" data-full="{{ $full.RelPermalink }}" data-caption="caption-0" aria-label="Enlarge image">
+          <img src="{{ $big.RelPermalink }}" srcset="{{ $mid.RelPermalink }} 900w, {{ $big.RelPermalink }} 1600w" sizes="(max-width: 60rem) 100vw, 60rem" width="{{ $big.Width }}" height="{{ $big.Height }}" alt="{{ $main.alt }}" fetchpriority="high" />
+        </button>
+        {{- with $main.caption }}<figcaption id="caption-0">{{ . | markdownify }}</figcaption>{{ end }}
+      </figure>
+    {{- end }}
+
+    <div class="artifact-head">
+      <header class="wall-label">
+        <h1 class="wall-label-title">{{ .Title }}</h1>
+        {{- with .Params.aka }}<p class="wall-label-aka">{{ . }}</p>{{ end }}
+        <dl class="wall-label-facts">
+          {{- with .Params.language }}<div><dt>Language</dt><dd>{{ . }}</dd></div>{{ end }}
+          <div><dt>Script</dt><dd>{{ .Params.scriptName | default $s.name }}</dd></div>
+          {{- with .Params.period }}<div><dt>Date</dt><dd>{{ . }}</dd></div>{{ end }}
+          {{- with .Params.found }}<div><dt>Found</dt><dd>{{ . }}</dd></div>{{ end }}
+          {{- with .Params.location }}<div><dt>Now in</dt><dd>{{ . }}</dd></div>{{ end }}
+          {{- with .Params.reference }}<div><dt>Reference</dt><dd>{{ . }}</dd></div>{{ end }}
+        </dl>
+      </header>
+
+      <div class="artifact-about content">
+        {{- .Content -}}
+        {{- with $post }}
+          <p class="artifact-post-link">Read in the series: <a href="{{ .RelPermalink }}">{{ .Title }}</a></p>
+        {{- end }}
+      </div>
+    </div>
+
+    {{- partial "artifact/notice.html" . -}}
+
+    {{- /* The reading. The original is always visible; Hebrew letters (when
+         they aren't the original) and English start covered. */ -}}
+    <section class="reading" aria-labelledby="reading-title" data-reading>
+      <div class="reading-head">
+        <h2 id="reading-title">The text{{ with .Params.passage }}<span class="reading-passage">{{ . }}</span>{{ end }}</h2>
+        <div class="reading-controls">
+          {{- if $hasOriginal }}
+          <button type="button" class="reading-btn" data-reveal-col="hebrew">Reveal all Hebrew letters</button>
+          {{- end }}
+          <button type="button" class="reading-btn" data-reveal-col="english">Reveal all English</button>
+          <button type="button" class="reading-btn reading-btn-quiet" data-hide-all>Hide all</button>
+        </div>
+        <p class="reading-hint">Click a covered cell to reveal it, or press <kbd>R</kbd> to reveal the next one in order. A summary of what the text says is covered at the end.{{ if $hasRead }} <span class="reading-legend">Marked lines are the ones read in the video.</span>{{ end }}</p>
+      </div>
+
+      <ol class="reading-lines{{ if $hasRefs }} has-refs{{ end }}{{ if not $hasOriginal }} no-original{{ end }}">
+        <li class="reading-line reading-colheads" aria-hidden="true">
+          {{- if $hasRefs }}<span class="reading-ref">Line</span>{{ end }}
+          {{- if $hasOriginal }}<span>Original</span>{{ end }}
+          <span>{{ if $hasOriginal }}Hebrew letters{{ else }}Original, in square script{{ end }}</span>
+          <span>English</span>
+        </li>
+        {{- range $i, $l := .Params.lines }}
+          {{- $n := add $i 1 -}}
+          <li class="reading-line{{ if $l.read }} is-read{{ end }}">
+            {{- if $hasRefs }}<span class="reading-ref">{{ $l.ref }}</span>{{ end }}
+
+            {{- if $hasOriginal }}
+            <div class="reading-cell reading-original" data-label="Original">
+              <span class="script-text script-{{ $.Params.script }}" lang="{{ $s.lang }}" dir="{{ $s.dir }}" style="{{ $font | safeCSS }}">{{ $l.original }}</span>
+            </div>
+            {{- end }}
+
+            <div class="reading-cell reading-hebrew" data-label="{{ if $hasOriginal }}Hebrew letters{{ else }}Original{{ end }}">
+              {{- if $hasOriginal }}
+              <button type="button" class="reveal-cover" data-col="hebrew" aria-expanded="false" aria-controls="heb-{{ $n }}" aria-label="Reveal Hebrew letters, line {{ $n }}">Reveal</button>
+              {{- end }}
+              <div class="reveal-body" id="heb-{{ $n }}"{{ if $hasOriginal }} hidden{{ end }}>
+                <span class="hebrew-text" lang="he" dir="rtl">{{ $l.hebrew }}</span>
+                {{- with $l.latin }}<span class="latin-text">{{ . }}</span>{{ end }}
+              </div>
+            </div>
+
+            <div class="reading-cell reading-english" data-label="English">
+              <button type="button" class="reveal-cover" data-col="english" aria-expanded="false" aria-controls="eng-{{ $n }}" aria-label="Reveal English, line {{ $n }}">Reveal</button>
+              <div class="reveal-body" id="eng-{{ $n }}" hidden>{{ $l.english | markdownify }}</div>
+            </div>
+          </li>
+        {{- end }}
+      </ol>
+
+      {{- /* What the text says: content, kept covered until after the reading */ -}}
+      {{- with .Params.after }}
+      <div class="reading-after">
+        <h3>What the text says</h3>
+        <button type="button" class="reveal-cover" data-col="after" aria-expanded="false" aria-controls="reading-after-body">Reveal</button>
+        <div class="reveal-body" id="reading-after-body" hidden>{{ . | $.Page.RenderString (dict "display" "block") }}</div>
+      </div>
+      {{- end }}
+    </section>
+
+    {{- /* Other views of the object */ -}}
+    {{- if gt (len $imgs) 1 }}
+      <section class="artifact-views" aria-labelledby="views-title">
+        <h2 id="views-title">More views</h2>
+        <div class="artifact-views-grid">
+          {{- range $i, $im := after 1 $imgs }}
+            {{- $t := $im.res.Process (printf "resize x%d webp q78" (int (math.Min 560 $im.res.Height))) -}}
+            {{- $full := $im.res.Process (printf "resize %dx webp q85" (int (math.Min 2400 $im.res.Width))) -}}
+            <figure>
+              <button type="button" class="lightbox-trigger" data-full="{{ $full.RelPermalink }}" data-caption="caption-{{ add $i 1 }}" aria-label="Enlarge image"><img src="{{ $t.RelPermalink }}" width="{{ $t.Width }}" height="{{ $t.Height }}" alt="{{ $im.alt }}" loading="lazy" decoding="async" /></button>
+              {{- with $im.caption }}<figcaption id="caption-{{ add $i 1 }}">{{ . | markdownify }}</figcaption>{{ end }}
+            </figure>
+          {{- end }}
+        </div>
+      </section>
+    {{- end }}
+
+    {{- /* Walk the hall in hanging order */ -}}
+    {{- $all := .CurrentSection.Pages.ByWeight -}}
+    {{- $prev := "" }}{{ $next := "" }}{{ $seen := false -}}
+    {{- range $all }}
+      {{- if eq .Permalink $.Permalink }}{{ $seen = true }}
+      {{- else if not $seen }}{{ $prev = . }}
+      {{- else if not $next }}{{ $next = . }}{{ end -}}
+    {{- end }}
+    <nav class="artifact-walk" aria-label="Other artifacts">
+      {{- with $prev }}<a class="artifact-walk-prev" href="{{ .RelPermalink }}"><span>Previous</span>{{ .Title }}</a>{{ end }}
+      {{- with $next }}<a class="artifact-walk-next" href="{{ .RelPermalink }}"><span>Next</span>{{ .Title }}</a>{{ end }}
+    </nav>
+  </div>
+
+  {{- /* Lightbox: images open over the page instead of navigating away */ -}}
+  {{- if $imgs }}
+  <dialog class="lightbox" aria-label="Image viewer" data-lightbox>
+    <button type="button" class="lightbox-close" data-lightbox-close aria-label="Close">×</button>
+    {{- if gt (len $imgs) 1 }}
+    <button type="button" class="lightbox-nav lightbox-prev" data-lightbox-step="-1" aria-label="Previous image">‹</button>
+    <button type="button" class="lightbox-nav lightbox-next" data-lightbox-step="1" aria-label="Next image">›</button>
+    {{- end }}
+    <figure class="lightbox-figure">
+      <img class="lightbox-img" alt="" />
+      <figcaption class="lightbox-caption"></figcaption>
+    </figure>
+  </dialog>
+  {{- end }}
+
+  <script>
+    (function () {
+      var box = document.querySelector("[data-lightbox]");
+      if (!box) return;
+      var triggers = Array.prototype.slice.call(document.querySelectorAll(".lightbox-trigger"));
+      var img = box.querySelector(".lightbox-img");
+      var cap = box.querySelector(".lightbox-caption");
+      var current = 0;
+      function show(i) {
+        current = (i + triggers.length) % triggers.length;
+        var t = triggers[current];
+        var src = t.querySelector("img");
+        img.src = t.getAttribute("data-full");
+        img.alt = src ? src.alt : "";
+        var c = document.getElementById(t.getAttribute("data-caption"));
+        cap.innerHTML = c ? c.innerHTML : "";
+      }
+      triggers.forEach(function (t, i) {
+        t.addEventListener("click", function () {
+          show(i);
+          if (typeof box.showModal === "function") box.showModal();
+          else window.open(t.getAttribute("data-full"), "_blank", "noopener");
+        });
+      });
+      box.addEventListener("click", function (ev) {
+        if (ev.target.closest("[data-lightbox-close]") || ev.target === box) { box.close(); return; }
+        var step = ev.target.closest("[data-lightbox-step]");
+        if (step) show(current + Number(step.getAttribute("data-lightbox-step")));
+      });
+      box.addEventListener("keydown", function (ev) {
+        if (triggers.length < 2) return;
+        if (ev.key === "ArrowRight") show(current + 1);
+        if (ev.key === "ArrowLeft") show(current - 1);
+      });
+    })();
+
+    (function () {
+      var root = document.querySelector("[data-reading]");
+      if (!root) return;
+      var covers = function (col) {
+        return Array.prototype.slice.call(root.querySelectorAll(".reveal-cover" + (col ? '[data-col="' + col + '"]' : "")));
+      };
+      function set(btn, open) {
+        var body = document.getElementById(btn.getAttribute("aria-controls"));
+        btn.setAttribute("aria-expanded", open ? "true" : "false");
+        btn.hidden = open;
+        body.hidden = !open;
+        var cell = btn.closest(".reading-cell, .reading-after");
+        if (cell) cell.classList.toggle("is-revealed", open);
+      }
+      root.addEventListener("click", function (ev) {
+        var c = ev.target.closest(".reveal-cover");
+        if (c) { set(c, true); return; }
+        var col = ev.target.closest("[data-reveal-col]");
+        if (col) { covers(col.getAttribute("data-reveal-col")).forEach(function (b) { set(b, true); }); return; }
+        if (ev.target.closest("[data-hide-all]")) covers().forEach(function (b) { set(b, false); });
+      });
+      // R reveals the next covered cell in reading order (line by line), for recording.
+      document.addEventListener("keydown", function (ev) {
+        if (ev.key !== "r" && ev.key !== "R") return;
+        if (ev.metaKey || ev.ctrlKey || ev.altKey) return;
+        if (/^(INPUT|TEXTAREA|SELECT)$/.test(document.activeElement.tagName) || document.activeElement.isContentEditable) return;
+        if (document.querySelector("dialog[open]")) return;
+        var nextBtn = covers().filter(function (b) { return !b.hidden; })[0];
+        if (nextBtn) { ev.preventDefault(); set(nextBtn, true); }
+      });
+    })();
+  </script>
+{{- end -}}

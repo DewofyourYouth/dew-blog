@@ -1,0 +1,16 @@
+{{- /* Resolve an artifact's `images:` list to image resources. Each src is looked
+     up in the artifact's own bundle first, then in the bundle of the post named
+     by `post:`, so photos don't need copying. Returns a slice of dicts:
+     res, alt, caption. */ -}}
+{{- $out := slice -}}
+{{- $post := cond (ne .Params.post nil) (site.GetPage (.Params.post | default "")) nil -}}
+{{- range .Params.images -}}
+  {{- $res := $.Resources.Get .src -}}
+  {{- if and (not $res) $post -}}{{- $res = $post.Resources.Get .src -}}{{- end -}}
+  {{- if $res -}}
+    {{- $out = $out | append (dict "res" $res "alt" .alt "caption" .caption) -}}
+  {{- else -}}
+    {{- warnf "artifact %s: image %q not found in its bundle or in %v" $.File.Dir .src $.Params.post -}}
+  {{- end -}}
+{{- end -}}
+{{- return $out -}}

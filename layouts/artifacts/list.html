@@ -1,0 +1,60 @@
+{{- define "title" }}{{ .Title }} - {{ .Site.Title }}{{ end -}}
+
+{{- define "content" -}}
+  {{- /* The hall: artifacts grouped into rooms (rooms: in _index.md), each
+       room a shelf of objects standing on a plinth line at their own
+       proportions. Objects without a photo show their first line of text. */ -}}
+  {{- $artifacts := .Pages.ByWeight -}}
+  {{- $scripts := slice -}}
+  {{- range $artifacts }}{{ if not .Params.images }}{{ $scripts = $scripts | append .Params.script }}{{ end }}{{ end -}}
+  {{- partial "artifact/fonts.html" $scripts -}}
+
+  <div class="page single feature-page artifact-hall">
+    <header class="feature-hero">
+      <h1 class="single-title">{{ .Title }}</h1>
+      {{- with .Params.dek }}<p class="feature-dek">{{ . | markdownify }}</p>{{ end }}
+    </header>
+
+    {{- partial "artifact/notice.html" . -}}
+
+    {{- range .Params.rooms }}
+      {{- $room := . -}}
+      {{- $here := where $artifacts "Params.room" $room.key -}}
+      {{- if $here }}
+        <section class="hall-room" aria-labelledby="room-{{ $room.key }}">
+          <header class="hall-room-head">
+            <h2 id="room-{{ $room.key }}">{{ $room.name }}</h2>
+            {{- with $room.note }}<p>{{ . }}</p>{{ end }}
+          </header>
+          <ul class="hall-shelf">
+            {{- range $here }}
+              {{- $a := . -}}
+              {{- $imgs := partial "artifact/images.html" . -}}
+              {{- $s := partial "artifact/script.html" .Params.script -}}
+              <li class="hall-object">
+                <a href="{{ .RelPermalink }}" class="hall-object-link">
+                  {{- if $imgs }}
+                    {{- $i := index $imgs 0 -}}
+                    {{- $t := $i.res.Process "resize x480 webp q78" -}}
+                    <img class="hall-object-img" src="{{ $t.RelPermalink }}" width="{{ $t.Width }}" height="{{ $t.Height }}" alt="{{ $i.alt }}" loading="lazy" decoding="async" />
+                  {{- else }}
+                    {{- with index .Params.lines 0 }}
+                      <span class="hall-object-placard{{ with $s.font }} has-script{{ end }}" aria-hidden="true">
+                        <span class="script-{{ $a.Params.script }}" dir="{{ $s.dir }}" lang="{{ $s.lang }}" style="{{ with $s.font }}font-family: '{{ . }}', var(--font-text);{{ end }}">{{ .original | default .hebrew }}</span>
+                      </span>
+                    {{- end }}
+                  {{- end }}
+                  <span class="hall-label">
+                    <span class="hall-label-title">{{ .Title }}</span>
+                    <span class="hall-label-line">{{ .Params.language }}</span>
+                    <span class="hall-label-line">{{ .Params.period }}</span>
+                  </span>
+                </a>
+              </li>
+            {{- end }}
+          </ul>
+        </section>
+      {{- end }}
+    {{- end }}
+  </div>
+{{- end -}}

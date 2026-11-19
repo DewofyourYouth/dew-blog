@@ -11,9 +11,15 @@ post: "/posts/aramaic-lightning-round"
 weight: 62
 description: "A Nabataean Aramaic tomb inscription from Hegra (Madāʾin Ṣāliḥ, Saudi Arabia), 4 or 5 CE, with the Hebrew letters and English covered until revealed."
 images:
-  - src: "images/hegra-tomb-39.jpg"
-    alt: "A tall tomb façade carved into a sandstone cliff, with stepped crenellations at the top, a small square inscription panel above a doorway, and a carved eagle over the door"
-    caption: "Tomb 39 at Hegra, built for a woman named Kamkam and her daughter. Not necessarily the tomb in the reading. (Photo: Following Hadrian, 2024, [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Qasr_al-Bint,_Tomb_39,_the_oldest_dated_tomb_in_Hegra_(Mada%27in_Salih),_the_kingdom%27s_second_Nabatean_capital_after_Petra,_Saudi_Arabia.jpg).)"
+  - src: "images/hegra-ign9-facade.jpg"
+    alt: "A tall tomb façade cut into a sandstone cliff, with two stepped half-crowsteps at the top, a double entablature, corner pilasters, and a small doorway under a triangular pediment"
+    caption: "The façade of Tomb IGN 9 at Hegra, the tomb this text comes from. (Photo: Hegra Conservation Project, ESTIA and the Royal Commission for AlUla, via [hegraconservation.com](https://hegraconservation.com/tombs/ign09/).)"
+  - src: "images/hegra-ign9-cliff.jpg"
+    alt: "The same tomb façade seen from further off, set into a long sandstone massif behind acacia trees"
+    caption: "Tomb IGN 9 in the cliff of Jabal al-Mahjar. (Photo: Hegra Conservation Project, ESTIA and the Royal Commission for AlUla, via [hegraconservation.com](https://hegraconservation.com/tombs/ign09/).)"
+  - src: "images/hegra-ign9-interior.jpg"
+    alt: "Inside a rock-cut tomb: rows of rectangular burial cells cut into the walls and floor of a dim sandstone chamber"
+    caption: "Burial cells inside the tomb, which holds nine niches, thirty-seven cells and twelve pit graves. (Photo: Hegra Conservation Project, ESTIA and the Royal Commission for AlUla, via [hegraconservation.com](https://hegraconservation.com/tombs/ign09/).)"
 lines:
   - ref: "1"
     original: "𐢅𐢕𐢆 𐢏𐢘𐢛𐢀 𐢈𐢃𐢖𐢍𐢖𐢀 𐢈𐢏𐢛𐢏𐢀 𐢅𐢌 𐢗𐢃𐢅 𐢊𐢈𐢝𐢃𐢈 𐢃𐢛"
@@ -70,4 +76,4 @@ lines:
 after: "The inscription is the deed of the tomb, cut in a panel on its façade. Hawshabu son of Nafiyu, a man from Tayma, records that he made the tomb, with its platform and enclosure, for himself, his children, his mother Habbu, his sisters Rufu and Aftiyu, and their children, and declares it inviolable forever by the custom of the Nabataeans and the Shalamians. Then come the terms. Dushara is called on to curse anyone who buries anyone else in it, or sells, buys, pledges, leases or gives it away. Whoever breaks the terms owes the god Dushara a fine of a thousand silver selaʿs, and the same again to King Aretas. It is dated to the month of Shevat in the thirteenth year of Aretas IV, about 4–5 CE. A second, shorter inscription inside the tomb, not shown here, marks two burial niches for Hawshabu’s children."
 ---
 
-The Nabataeans cut monumental tomb façades into the sandstone outcrops at Hegra (Madāʾin Ṣāliḥ, Saudi Arabia), their second city after Petra. Many carry a dated inscribed panel above the door. The photo shows Tomb 39, the oldest dated tomb at Hegra; it is not necessarily the tomb this text comes from.
+The Nabataeans cut monumental tomb façades into the sandstone outcrops at Hegra (Madāʾin Ṣāliḥ, Saudi Arabia), their second city after Petra. Many carry a dated inscribed panel above the door. This one belongs to the Jabal al-Mahjar group, cut high in a west-facing cliff, with its inscription in a recessed panel on the façade.

@@ -28,6 +28,7 @@ seo:
   images:
     - returning-to-the-test.jpg
 storyShare: true
+shareSummary: true
 ---
 
 My father and I learned paragraphs 72–73 of {{< tooltip term="Tzidkat HaTzaddik" key="tzidkat-hatzaddik" >}}. We started with miracles. {{< tooltip term="Rav Tzadok" key="rav-tzadok" >}} says:

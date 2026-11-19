@@ -26,6 +26,7 @@ seo:
   images:
     - what-parents-pass-down.jpg
 storyShare: true
+shareSummary: true
 ---
 
 My father and I were learning {{< tooltip term="אותיות ס״ב–ס״ג" key="otiyot" >}} in {{< tooltip term="Tzidkat HaTzaddik" key="tzidkat-hatzaddik" >}}, where {{< tooltip term="Rav Tzadok" key="rav-tzadok" >}} talks about the qualities people inherit from their parents. There are some interesting ideas here. There are also a few places where I had to stop and say, “Hang on. Didn't you just tell us the opposite?”

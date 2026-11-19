@@ -29,6 +29,7 @@ seo:
   images:
     - already-decreed.jpg
 storyShare: true
+shareSummary: true
 ---
 
 My father and I learned {{< tooltip term="אותיות ס״ו–ס״ז" key="otiyot" def="Paragraphs 66–67." >}} of {{< tooltip term="Tzidkat HaTzaddik" key="tzidkat-hatzaddik" >}}. The first concerns prayer, including prayer for something {{< tooltip term="Hashem" key="hashem" >}} has already decreed. The second concerns returning in {{< tooltip term="teshuva" key="teshuvah" >}} to earlier sins when you reach a higher {{< tooltip term="מדרגה" key="madrega" >}}.

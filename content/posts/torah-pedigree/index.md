@@ -29,6 +29,7 @@ seo:
   images:
     - torah-pedigree.jpg
 storyShare: true
+shareSummary: true
 ---
 
 My father and I learned paragraphs 77 and 78 of {{< tooltip term="Tzidkat HaTzaddik" key="tzidkat-hatzaddik" >}}. Both are about family. He's been on that theme for a while now.

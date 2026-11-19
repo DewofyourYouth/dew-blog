@@ -1,0 +1,50 @@
+{{- /* 1200x630 link-preview card (og:image / twitter:image) for posts with
+     `shareSummary: true`: the featured art on the left, and on a dark panel to
+     the right the title, the front-matter summary and the gold seal. Built at
+     render time so the featured image itself stays text-free (it also heads
+     the post and the homepage tile, beside the same blurb).
+     Returns the image resource, or nothing (callers fall back to the usual
+     og image). Call via partialCached with the page and .RelPermalink. */ -}}
+{{- $p := . -}}
+{{- $card := false -}}
+{{- $src := false -}}
+{{- with $p.Params.featuredImage }}{{ $src = $p.Resources.Get . }}{{ end -}}
+{{- $summary := $p.Params.summary | default "" | plainify | htmlUnescape | replaceRE "'" "’" -}}
+{{- $hebrew := `[\x{0590}-\x{05FF}\x{0600}-\x{06FF}]` -}}
+{{- if and $src $summary (not (findRE $hebrew $p.Title)) -}}
+  {{- $W := 1200 }}{{ $H := 630 }}{{ $artW := 560 }}{{ $pad := 48 -}}
+  {{- $field := "#1d1915" }}{{ $parchment := "#F4ECDC" }}{{ $muted := "#CBBEA6" }}{{ $gold := "#B48B27" -}}
+  {{- $font := resources.Get "fonts/EBGaramond.ttf" -}}
+  {{- $seal := (resources.Get "img/doyy_waxseal_gold_512.png").Resize "84x" -}}
+  {{- /* Trim the pipeline's footer band (domain + seal) before cropping */ -}}
+  {{- $trim := $src.Crop (printf "%dx%d Top" $src.Width (int (math.Floor (mul $src.Height 0.93)))) -}}
+  {{- $art := $trim.Fill (printf "%dx%d Center" $artW $H) -}}
+  {{- $x := add $artW $pad -}}
+  {{- $filters := slice (images.Padding 0 (sub $W $artW) 0 0 $field) -}}
+
+  {{- /* Title: 44px, ~25 chars a line; summary: 29px, ~38 chars a line */ -}}
+  {{- $tLines := partial "function/title-lines.html" (dict "text" $p.Title "chars" 25) -}}
+  {{- $tSize := cond (gt (len $tLines) 3) 38 44 -}}
+  {{- $tLead := add $tSize 10 -}}
+  {{- $y := 60 -}}
+  {{- range $tLines -}}
+    {{- $filters = $filters | append (images.Text . (dict "font" $font "color" $parchment "size" $tSize "x" $x "y" $y)) -}}
+    {{- $y = add $y $tLead -}}
+  {{- end -}}
+  {{- $y = add $y 22 -}}
+  {{- $filters = $filters | append (images.Text "—" (dict "font" $font "color" $gold "size" 29 "x" $x "y" $y)) -}}
+  {{- $y = add $y 46 -}}
+  {{- $sLines := partial "function/wrap-lines.html" (dict "text" $summary "chars" 38) -}}
+  {{- $room := int (math.Floor (div (sub 520 $y) 39.0)) -}}
+  {{- range $i, $l := $sLines -}}
+    {{- if lt $i $room -}}
+      {{- $t := cond (and (eq $i (sub $room 1)) (gt (len $sLines) $room)) (printf "%s…" $l) $l -}}
+      {{- $filters = $filters | append (images.Text $t (dict "font" $font "color" $muted "size" 29 "x" $x "y" $y)) -}}
+      {{- $y = add $y 39 -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $filters = $filters | append (images.Text "dewofyouryouth.com" (dict "font" $font "color" $gold "size" 24 "x" $x "y" 568)) -}}
+  {{- $filters = $filters | append (images.Overlay $seal (sub $W (add 84 $pad)) (sub $H (add 84 34))) -}}
+  {{- $card = ($art | images.Filter $filters).Process "jpg q85" -}}
+{{- end -}}
+{{- return $card -}}

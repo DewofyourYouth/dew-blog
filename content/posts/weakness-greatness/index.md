@@ -28,6 +28,7 @@ seo:
   images:
     - weakness-is-greatness.jpg
 storyShare: true
+shareSummary: true
 ---
 
 My father and I learned {{< tooltip term="אותיות ע׳–ע״א" key="otiyot" def="Paragraphs 70–71." >}} of {{< tooltip term="Tzidkat HaTzaddik" key="tzidkat-hatzaddik" >}}. The first begins with a claim that sounds familiar if you have been learning {{< tooltip term="Rav Tzadok" key="rav-tzadok" >}} for a while, though familiarity does not make it easy to understand:

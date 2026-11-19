@@ -28,6 +28,7 @@ seo:
   images:
     - king-arrives-quietly.jpg
 storyShare: true
+shareSummary: true
 ---
 
 The main thing is the heart. That is where {{< tooltip term="Rav Tzadok" key="rav-tzadok" >}} begins {{< tooltip term="אות ס״ח" key="otiyot" def="Paragraph 68." >}}:

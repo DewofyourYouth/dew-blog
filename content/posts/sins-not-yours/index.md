@@ -29,6 +29,7 @@ seo:
   images:
     - sins-not-yours.jpg
 storyShare: true
+shareSummary: true
 ---
 
 My father and I learned paragraphs 75 and 76 of {{< tooltip term="Tzidkat HaTzaddik" key="tzidkat-hatzaddik" >}}. Paragraph 74 is marked חסר, missing, so we did that one too. That's all there is to do.

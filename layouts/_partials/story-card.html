@@ -36,12 +36,18 @@
   {{- $font := resources.Get "fonts/EBGaramond.ttf" -}}
   {{- $seal := (resources.Get "img/doyy_waxseal_gold_512.png").Resize "150x" -}}
 
-  {{- $trim := $src.Crop (printf "%dx%d Top" $src.Width (int (math.Floor (mul $src.Height 0.93)))) -}}
-  {{- $art := $trim.Fill (printf "%dx%d Center" $w $w) -}}
+  {{- $summary := "" -}}
+  {{- if $p.Params.shareSummary }}{{ $summary = $p.Params.summary | default "" | plainify | htmlUnescape | replaceRE "'" "’" }}{{ end -}}
+  {{- if findRE `[\x{0590}-\x{05FF}\x{0600}-\x{06FF}]` $p.Title }}{{ $summary = "" }}{{ end -}}
+  {{- /* With a summary the art is a shorter band, leaving room for it under the title */ -}}
+  {{- $artH := cond (ne $summary "") 820 $w -}}
 
-  {{- $filters := slice (images.Padding $top 0 (sub 1920 (add $top $w)) 0 $field) -}}
+  {{- $trim := $src.Crop (printf "%dx%d Top" $src.Width (int (math.Floor (mul $src.Height 0.93)))) -}}
+  {{- $art := $trim.Fill (printf "%dx%d Center" $w $artH) -}}
+
+  {{- $filters := slice (images.Padding $top 0 (sub 1920 (add $top $artH)) 0 $field) -}}
   {{- $filters = $filters | append (images.Text "dewofyouryouth.com" (dict
-      "font" $font "color" $gold "size" 30 "x" 540 "y" 1312 "alignx" "center")) -}}
+      "font" $font "color" $gold "size" 30 "x" 540 "y" (add $top $artH 32) "alignx" "center")) -}}
   {{- $title := $p.Title -}}
   {{- $hebrew := `[\x{0590}-\x{05FF}\x{FB1D}-\x{FB4F}]` -}}
   {{- if findRE $hebrew $title -}}
@@ -64,7 +70,26 @@
     {{- $title = delimit $words " " -}}
   {{- end -}}
 
-  {{- if not (findRE `[\x{0600}-\x{06FF}]` $title) -}}
+  {{- if ne $summary "" -}}
+    {{- /* Title then summary, wrapped by hand so the summary knows where to start */ -}}
+    {{- $y := add $top $artH 100 -}}
+    {{- $tl := partial "function/title-lines.html" (dict "text" $title "chars" 24) -}}
+    {{- $ts := cond (gt (len $tl) 2) 62 70 -}}
+    {{- range $tl -}}
+      {{- $filters = $filters | append (images.Text . (dict "font" $font "color" $parchment "size" $ts "x" 540 "y" $y "alignx" "center")) -}}
+      {{- $y = add $y $ts 12 -}}
+    {{- end -}}
+    {{- $y = add $y 28 -}}
+    {{- $sl := partial "function/wrap-lines.html" (dict "text" $summary "chars" 40) -}}
+    {{- $room := int (math.Floor (div (sub 1650 $y) 54.0)) -}}
+    {{- range $i, $l := $sl -}}
+      {{- if lt $i $room -}}
+        {{- $t := cond (and (eq $i (sub $room 1)) (gt (len $sl) $room)) (printf "%s…" $l) $l -}}
+        {{- $filters = $filters | append (images.Text $t (dict "font" $font "color" "#CBBEA6" "size" 42 "x" 540 "y" $y "alignx" "center")) -}}
+        {{- $y = add $y 54 -}}
+      {{- end -}}
+    {{- end -}}
+  {{- else if not (findRE `[\x{0600}-\x{06FF}]` $title) -}}
     {{- $n := strings.RuneCount $title -}}
     {{- $size := cond (gt $n 60) 60 (cond (gt $n 40) 66 74) -}}
     {{- $filters = $filters | append (images.Text $title (dict

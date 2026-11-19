@@ -47,6 +47,9 @@
         {{- end -}}
     {{- end -}}
 {{- end -}}
+{{- if .Params.shareSummary -}}
+    {{- with partialCached "share-card.html" . .RelPermalink }}{{ $imageURL = .Permalink }}{{ end -}}
+{{- end -}}
 <meta name="twitter:card" content="{{ if $imageURL }}summary_large_image{{ else }}summary{{ end }}">
 <meta name="twitter:title" content="{{ $title }}">
 {{- with $desc -}}

@@ -28,6 +28,7 @@ seo:
   images:
     - rav-tzadok-success-is-not-proof.jpg
 storyShare: true
+shareSummary: true
 ---
 
 Things are going well. Your plans are working. Doors keep opening. You feel that {{< tooltip term="Hashem" key="hashem" >}} is helping you, and perhaps He really is.

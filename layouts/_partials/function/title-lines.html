@@ -1,0 +1,20 @@
+{{- /* Title lines for share images: break after a colon, curly apostrophes */ -}}
+{{- $t := replace .text "'" "’" -}}
+{{- $lines := slice -}}
+{{- range split $t ": " -}}
+  {{- $lines = $lines | append (partial "function/wrap-lines.html" (dict "text" . "chars" $.chars)) -}}
+{{- end -}}
+{{- /* re-attach the colon to the end of every part but the last */ -}}
+{{- $parts := split $t ": " -}}
+{{- if gt (len $parts) 1 -}}
+  {{- $out := slice -}}
+  {{- range $i, $part := $parts -}}
+    {{- $pl := partial "function/wrap-lines.html" (dict "text" $part "chars" $.chars) -}}
+    {{- range $j, $l := $pl -}}
+      {{- if and (eq $j (sub (len $pl) 1)) (lt $i (sub (len $parts) 1)) }}{{ $l = printf "%s:" $l }}{{ end -}}
+      {{- $out = $out | append $l -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $lines = $out -}}
+{{- end -}}
+{{- return $lines -}}

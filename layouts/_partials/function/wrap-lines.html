@@ -1,0 +1,32 @@
+{{- /* Greedy word-wrap for Hugo's images.Text, which has no max-width option.
+     Usage: partial "function/wrap-lines.html" (dict "text" $s "chars" 40)
+     Returns a slice of lines, each at most `chars` runes (a single longer word
+     gets its own line). Callers draw one images.Text per line, so they also
+     know how many lines they used. */ -}}
+{{- $max := .chars -}}
+{{- $lines := slice -}}
+{{- $cur := "" -}}
+{{- range split (strings.TrimSpace .text) " " -}}
+  {{- if eq . "" }}{{ continue }}{{ end -}}
+  {{- if eq $cur "" -}}
+    {{- $cur = . -}}
+  {{- else if le (add (strings.RuneCount $cur) 1 (strings.RuneCount .)) $max -}}
+    {{- $cur = printf "%s %s" $cur . -}}
+  {{- else -}}
+    {{- $lines = $lines | append $cur -}}
+    {{- $cur = . -}}
+  {{- end -}}
+{{- end -}}
+{{- with $cur }}{{ $lines = $lines | append . }}{{ end -}}
+{{- /* No widows: if the last line is one short word, pull a word down to it */ -}}
+{{- $n := len $lines -}}
+{{- if gt $n 1 -}}
+  {{- $last := index $lines (sub $n 1) -}}
+  {{- $prev := split (index $lines (sub $n 2)) " " -}}
+  {{- if and (not (in $last " ")) (gt (len $prev) 2) -}}
+    {{- $moved := index $prev (sub (len $prev) 1) -}}
+    {{- $keep := delimit (first (sub (len $prev) 1) $prev) " " -}}
+    {{- $lines = (first (sub $n 2) $lines) | append $keep | append (printf "%s %s" $moved $last) -}}
+  {{- end -}}
+{{- end -}}
+{{- return $lines -}}

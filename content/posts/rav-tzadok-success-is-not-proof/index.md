@@ -34,7 +34,6 @@ Things are going well. Your plans are working. Doors keep opening. You feel that
 
 Does that mean you're right?
 
-<!--more-->
 
 My father and I were learning {{< tooltip term="אותיות ס״ד–ס״ה" key="otiyot" >}} of {{< tooltip term="Tzidkat HaTzaddik" key="tzidkat-hatzaddik" >}}. {{< tooltip term="Rav Tzadok" key="rav-tzadok" >}} opens ס״ד by saying that it doesn't.[^1]
 

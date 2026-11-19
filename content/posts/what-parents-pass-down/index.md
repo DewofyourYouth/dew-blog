@@ -18,7 +18,7 @@ tags:
 series:
   - tzidkat-hatzaddik
 series_order: 1
-summary: "Rav Tzadok says great people acquired qualities for their descendants, but not Torah. Then, one paragraph later, sons become talmidei chachamim through their mothers."
+summary: "Rav Tzadok says great people acquired qualities for their descendants, but not Torah. Then, one paragraph later, sons become Torah scholars through their mothers."
 description: "Learning Tzidkat HaTzaddik 62–63 with my father: Rav Tzadok on inherited spiritual qualities, why the crown of Torah can't be inherited, sons resembling mothers, and what is hidden in a father's heart."
 featuredImage: "what-parents-pass-down.jpg"
 featuredImageAlt: "Candlelit open folio on a dark study table: a young man's hand rests on the left page and an old man's ink-stained hand on the right, with a thin ink root running from the old hand across the gutter into the young man's page"
@@ -30,7 +30,6 @@ storyShare: true
 
 My father and I were learning {{< tooltip term="אותיות ס״ב–ס״ג" key="otiyot" >}} in {{< tooltip term="Tzidkat HaTzaddik" key="tzidkat-hatzaddik" >}}, where {{< tooltip term="Rav Tzadok" key="rav-tzadok" >}} talks about the qualities people inherit from their parents. There are some interesting ideas here. There are also a few places where I had to stop and say, “Hang on. Didn't you just tell us the opposite?”
 
-<!--more-->
 
 He starts with this:
 

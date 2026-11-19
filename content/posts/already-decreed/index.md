@@ -21,7 +21,7 @@ tags:
 series:
   - tzidkat-hatzaddik
 series_order: 3
-summary: "Rav Tzadok says everything needs prayer, even what Hashem has already decreed, and that every new level means repenting again for sins already forgiven."
+summary: "Rav Tzadok says everything needs prayer, even what God has already decreed, and that every new level means repenting again for sins already forgiven."
 description: "Learning Tzidkat HaTzaddik 66–67 with my father: why pray for what is already decreed, the Rosh Hashanah judgment, prayer as a vessel, and teshuva for old sins at each new level."
 featuredImage: "already-decreed.jpg"
 featuredImageAlt: "Candlelit printed sefer lying open on a dark study table, an earthenware cup standing in its gutter as a thin line of water drops falls into it from above, with men in black hats studying in the dim background"
@@ -33,7 +33,6 @@ storyShare: true
 
 My father and I learned {{< tooltip term="אותיות ס״ו–ס״ז" key="otiyot" def="Paragraphs 66–67." >}} of {{< tooltip term="Tzidkat HaTzaddik" key="tzidkat-hatzaddik" >}}. The first concerns prayer, including prayer for something {{< tooltip term="Hashem" key="hashem" >}} has already decreed. The second concerns returning in {{< tooltip term="teshuva" key="teshuvah" >}} to earlier sins when you reach a higher {{< tooltip term="מדרגה" key="madrega" >}}.
 
-<!--more-->
 
 Before we got to either, we were talking about {{< tooltip term="Shadal" key="shadal" >}}.[^1]
 

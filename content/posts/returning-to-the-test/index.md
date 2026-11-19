@@ -40,7 +40,6 @@ That was how {{< tooltip term="Moshe" key="moshe-rabbeinu" >}} did his miracles.
 
 You can also work miracles through prayer.
 
-<!--more-->
 
 ## Why write down the miracles?
 

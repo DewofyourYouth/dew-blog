@@ -45,7 +45,6 @@ You make a {{< tooltip term="קנין" key="kinyan" def="An acquisition: the act
 
 That's exactly what he's saying. Blame other people for all your shortcomings.
 
-<!--more-->
 
 ## Gold bricks and oxen
 

@@ -41,7 +41,6 @@ My father and I learned paragraphs 77 and 78 of {{< tooltip term="Tzidkat HaTzad
 
 “Cleave to him” could mean becoming his follower, or it could mean marrying into his family. His proof suggests the second.
 
-<!--more-->
 
 ## Even if you were Yehoshua
 

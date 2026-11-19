@@ -91,7 +91,7 @@ Most of this I understood by ear. _Šap̂ərta_ is שפירתא, nice or beautif
 
 What I didn’t know was _baxca_, the garden itself. On the first listen all I said was that “the king has also a nice khabakh jaroba. Whatever that is.” I thought it might be an orchard, and with the text I read it as a field, by way of חקלא. It is the Persian word for a garden, which Turkish also has as _bahçe_.
 
-The other word I didn’t know was _xabuša_. I knew it had to be whatever grew on the tree. It turned out to be an apple. In Hebrew, חבוש is a quince, so it was closer to home than I realized.
+_Xabuša_ I did know: it’s Hebrew חבוש, a quince. In the moment I blanked on the English word, so on both attempts I just called it “some sort of fruit.” Here it turns out to be an apple.
 
 ## What the apple does
 

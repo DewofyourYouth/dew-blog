@@ -32,7 +32,7 @@ storyShare: true
 
 I recently made a YouTube video in which I tried to read **Sabaic**, an ancient Semitic language of southern Arabia, in what is now Yemen.
 
-Sabaic was significantly more challenging for me as a Hebrew speaker than Phoenician or Moabite. Those are Canaanite languages, closely related to Hebrew, so I guess that should not have surprised me. Still, there was enough familiar vocabulary to keep me guessing. Sometimes correctly.
+Sabaic was significantly more challenging for me as a Hebrew speaker than [Phoenician](/post/tabnit-sarcophagus/) or [Moabite](/post/mesha-stele/). Those are Canaanite languages, closely related to Hebrew, so I guess that should not have surprised me. Still, there was enough familiar vocabulary to keep me guessing. Sometimes correctly.
 
 The text I attempted was **CIH 543**, a fragmentary Jewish inscription from Ẓafār, the ancient capital of Ḥimyar. It is written in Late Sabaic and is not explicitly dated; one scholarly estimate places it in the second half of the fifth century CE.[^dating]
 

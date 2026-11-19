@@ -96,7 +96,7 @@ I think most of this is pretty straightforward. אנכ is like אנכי, the fir
 
 {{< admonition type="note" title="On “missing” letters" open=true >}}
 
-I keep saying that a letter is “missing,” but I should explain what I mean. Hebrew, Aramaic, Arabic, Phoenician and Moabite are all written in {{< tooltip term="abjads" key="abjad" >}}: the letters record consonants, and the reader largely supplies the vowels. Some letters, particularly ו and י, can also do double duty as vowel markers, the {{< tooltip term="*matres lectionis*" key="matres-lectionis" >}} or אמות הקריאה, but whether a scribe writes them is a matter of spelling convention.
+I keep saying that a letter is “missing,” but I should explain what I mean. Hebrew, [Aramaic](/post/hearing-aramaic/), Arabic, [Phoenician](/post/tabnit-sarcophagus/) and Moabite are all written in {{< tooltip term="abjads" key="abjad" >}}: the letters record consonants, and the reader largely supplies the vowels. Some letters, particularly ו and י, can also do double duty as vowel markers, the {{< tooltip term="*matres lectionis*" key="matres-lectionis" >}} or אמות הקריאה, but whether a scribe writes them is a matter of spelling convention.
 
 {{< tooltip term="Tanach" key="tanach" >}} itself spells some words both ways; David is usually דוד, but often דויד in Chronicles. Modern Hebrew without {{< tooltip term="*nikud*" key="nikud" >}} adds extra ו and י to help the reader, and Arabic writes long vowels while leaving short ones unmarked. Ninth-century inscriptions use these vowel letters sparingly. So מאב for מואב, or השעני for הושיעני, is mostly a difference in how the words are spelled, not evidence that Moabite lacked the sounds.
 

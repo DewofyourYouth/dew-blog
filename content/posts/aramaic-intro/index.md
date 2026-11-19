@@ -89,7 +89,7 @@ That familiarity clearly doesn't carry straight over into understanding Neo-Aram
 
 So I'm going to do an extended series on Aramaic.
 
-First, we'll do some of what we've been doing up until now with the ancient languages. I'll treat {{< tooltip term="Nabataean" key="nabataean" >}}, {{< tooltip term="Mandaic" key="mandaic" >}}, Old Syriac, and some of the others separately. They'll all come under Aramaic, but each will get its own experiment.
+First, we'll do some of what we've been doing up until now with the ancient languages. I'll treat [Nabataean](/post/aramaic-lightning-round/#nabataean-aramaic), [Mandaic](/post/aramaic-lightning-round/#classical-mandaic), Old Syriac, and some of the others separately. They'll all come under Aramaic, but each will get its own experiment.
 
 Throughout this series, I've been asking how much I can understand as a Hebrew speaker. With Aramaic, we have a better way to answer that question, because there are still people speaking it today. We don't have to stop at what I can figure out from a written passage. We can listen to actual speakers and see how much I understand.
 

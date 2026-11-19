@@ -40,7 +40,7 @@ My background, for anyone coming into this series here, is Hebrew, the {{< toolt
 
 {{< tooltip term="Ugarit" key="ugarit" >}} was a trading kingdom on the coast of what is now {{< tooltip term="Syria" key="syria" >}}, near {{< tooltip term="Latakia" key="latakia" >}}. During the {{< tooltip term="Late Bronze Age" key="late-bronze-age" >}} it was under {{< tooltip term="Hittite" key="hittite" >}} domination. Its archives contain letters, administrative records, and literary texts, including the {{< tooltip term="Baal Cycle" key="baal-cycle" >}}.[^ugarit]
 
-Ugaritic is a {{< tooltip term="Northwest Semitic" key="northwest-semitic" >}} language, related to Hebrew and Aramaic. Unlike {{< tooltip term="Moabite" key="moabite" >}} and {{< tooltip term="Phoenician" key="phoenician" >}}, it isn't usually classified as a {{< tooltip term="Canaanite language" key="canaanite-languages" >}}. So I expected some familiarity, but not necessarily the experience of reading slightly unusual Hebrew.
+Ugaritic is a {{< tooltip term="Northwest Semitic" key="northwest-semitic" >}} language, related to Hebrew and Aramaic. Unlike [Moabite](/post/mesha-stele/) and [Phoenician](/post/tabnit-sarcophagus/), it isn't usually classified as a {{< tooltip term="Canaanite language" key="canaanite-languages" >}}. So I expected some familiarity, but not necessarily the experience of reading slightly unusual Hebrew.
 
 One other thing: Ugaritic uses an alphabet written in {{< tooltip term="cuneiform" key="cuneiform" >}}, from left to right. I can make my way through some of the signs, but it doesn't come naturally to me, and that isn't really what I'm testing here. For this experiment I mostly read the Ugaritic transcribed into Hebrew letters. The Hebrew and Arabic columns below are transcriptions, not translations.[^script]
 
@@ -70,7 +70,7 @@ I could identify a king, a brother, some sort of greeting, {{< tooltip term="Egy
 
 For example, I saw **{{< tooltip term="רגמ" key="rgm" >}}**, which reminded me of the Hebrew root for stoning. Maybe the king's name was Rock?
 
-After my experience with {{< tooltip term="Sabaic" key="sabaic" >}}, where proper names had caused me trouble, I was apparently prepared to solve this problem by making more things proper names.
+After my experience with [Sabaic](/post/sabaic-cih-543/), where proper names had caused me trouble, I was apparently prepared to solve this problem by making more things proper names.
 
 It turns out **rgm** here means “say.” There was no King Rock. That was a contribution of my own.
 

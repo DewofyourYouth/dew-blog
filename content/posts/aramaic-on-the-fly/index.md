@@ -146,7 +146,43 @@ In the tables, the first column is the English and the second is what I said. Af
 
 ## How much Gemara came out
 
-So how much Gemara came out? Against the Bavli, ChatGPT gave the cold attempt 93 out of 100, and against Onkelos it gave it 85. That's from one pass each on the transcript I typed up from the cold take, so I wouldn't put too much weight on the exact numbers. Claude went through it word by word for me too, giving a word full credit if it was the dialect I was being graded on, three quarters if it was some other Aramaic, and nothing if it was Hebrew, and got about 97 against the Bavli and 89 against Onkelos. Same picture, more or less.
+So how much Gemara came out? Against the Bavli, ChatGPT gave the cold attempt 93 out of 100, and against Onkelos it gave it 85. That's from one pass each on the transcript I typed up from the cold take, so I wouldn't put too much weight on the exact numbers. I also gave Claude the same rubric afterwards, and it was a lot stricter about the forms, so it came out at 75. On the vocabulary alone it gave me 24 out of 25, which is about where ChatGPT had me. Here's what it said, in its own words:
+
+{{< admonition type="note" title="Claude’s score, with the same rubric" open="false" >}}
+This score is from Claude (Anthropic), grading the cold take, with the original last line, strictly by the rubric above, against the Bavli.
+
+**Total: 75/100.** Official rating, scientifically indefensible: **4 out of 5 cloaks removed** (75 ÷ 20 = 3.75, rounded to the nearest half).
+
+Six of the points lost depend on <span dir="rtl">רוחא</span> being feminine in the Bavli, as it is in Onkelos and Biblical Aramaic. I couldn't confirm that for the Bavli, and the rubric says not to deduct when unsure; without those deductions the total is 81, which is still 4 cloaks.
+
+| Category | Score | Deductions |
+| --- | --- | --- |
+| Meaning | 20/25 | −1 each for five small distortions: “stronger” with no comparison (line 2), the “when” of the traveler’s arrival (3), “the more… the more closely” (10–11), “warmly” turned into a warm sun (13), “stronger than both of them” (16) |
+| Lexicon | 24/25 | 49 content words: 47 Bavli (1.0), <span dir="rtl">קיימו</span> in the sense of making a pact (0.75), <span dir="rtl">זרח</span> (0). 47.75 ÷ 49 × 25 = 24.4 |
+| Morphology | 15/25 | −2 <span dir="rtl">מעטף</span> for the reflexive <span dir="rtl">מיעטף</span>; −1 twice for <span dir="rtl">גלימתיה</span> instead of <span dir="rtl">גלימיה</span>; −1 six times for the wind as masculine (<span dir="rtl">נשף</span> twice, <span dir="rtl">חיליה</span>, <span dir="rtl">שבקיה</span>, <span dir="rtl">אודי</span>, <span dir="rtl">כורחיה</span>) |
+| Syntax & idiom | 8/15 | −1 each for seven awkward-but-possible constructions: <span dir="rtl">איי מינייהו</span> without <span dir="rtl">טפי</span>, <span dir="rtl">קיימו בינייהו</span>, <span dir="rtl">וקא גרים</span> after the relative clause, the unfinished “the more…”, <span dir="rtl">הוה קא מוותר</span> after a finished action, <span dir="rtl">בתר דהכי</span>, <span dir="rtl">זרח שמשא חמימא</span> for “shone warmly” |
+| Register | 8/10 | −1 each for the Targumic <span dir="rtl">י־</span> prefix in <span dir="rtl">יתחשב</span> and <span dir="rtl">דיפשט</span> |
+| **Total** | **75/100** | |
+
+**Hebrew words in Aramaic cloaks: 1.** <span dir="rtl">זרח</span>; the Targum has <span dir="rtl">דנח</span>, and the Bavli version above uses <span dir="rtl">נפק</span>.
+
+**Imported from Onkelos: 4.** <span dir="rtl">ובכן</span> (the Bavli version simply drops it), <span dir="rtl">יתחשב</span> → <span dir="rtl">ליחשב</span>, <span dir="rtl">דיפשט</span> → <span dir="rtl">דליפשוט</span>, and <span dir="rtl">קיימו בינייהו</span> → <span dir="rtl">אתנו בהדדי</span>.
+
+Words I checked in the Bavli before scoring and gave full credit: <span dir="rtl">מצלח</span> (Horayot 12a), <span dir="rtl">מוותר</span> (Sanhedrin 81b), <span dir="rtl">נשף</span> (Berakhot 3b), <span dir="rtl">גלימיה</span> (Shabbat 10a), <span dir="rtl">אבל</span> (e.g. Shabbat 117b) and <span dir="rtl">פשט</span>.
+
+| Original | Corrected | Reason |
+| --- | --- | --- |
+| <span dir="rtl">איי מינייהו תקיף</span> | <span dir="rtl">הי מינייהו תקיף טפי</span> | comparative |
+| <span dir="rtl">קיימו בינייהו</span> | <span dir="rtl">אתנו בהדדי</span> | Bavli idiom for a stipulation |
+| <span dir="rtl">וקא גרים… דיפשט גלימתיה</span> | <span dir="rtl">דמצי למיגרם… דליפשוט גלימיה</span> | jussive with <span dir="rtl">ל־</span>; suffix |
+| <span dir="rtl">יתחשב</span> | <span dir="rtl">ליחשב</span> | Targumic <span dir="rtl">י־</span> prefix |
+| <span dir="rtl">נשף בכל חיליה</span> | <span dir="rtl">נשבה בכל חילה</span> | feminine wind; <span dir="rtl">נשב זיקא</span> is in Bava Metzia 86a |
+| <span dir="rtl">ההוא גברא הוה קא מעטף בגלימתיה טובא</span> | <span dir="rtl">ההוא גברא הוה קא מיעטף בגלימיה טפי</span> | reflexive stem; “more” |
+| <span dir="rtl">ובסוף שבקיה… והוה קא מוותר</span> | <span dir="rtl">ובסוף שבקה… ופסקה</span> | feminine; a finished action |
+| <span dir="rtl">בתר דהכי הוה זרח שמשא חמימא</span> | <span dir="rtl">בתר הכי נפק שמשא ואחים ליה</span> | Hebrew root; idiom |
+| <span dir="rtl">אודי… בעל כורחיה</span> | <span dir="rtl">אודיא… בעל כורחה</span> | feminine |
+| <span dir="rtl">דשמשא תקיף מן תרוייהו</span> | <span dir="rtl">דשמשא תקיף טפי מינה</span> | the sun was one of the two |
+{{< /admonition >}}
 
 Going through my column, I count <span dir="rtl">ההוא גברא</span> four times, plus <span dir="rtl">מינייהו</span>, <span dir="rtl">בתר הכי</span>, <span dir="rtl">טובא</span>, <span dir="rtl">לאלתר</span> and <span dir="rtl">גלימא</span>, which are all Bavli. Then <span dir="rtl">יתחשב תקיף מן חבריה</span> is straight Onkelos, it's word for word the same as the JLA version, and so are <span dir="rtl">ובכן</span> and <span dir="rtl">מצלח</span>. The one place where I couldn't come up with the Aramaic quickly enough was the sunrise, so I just used the Hebrew <span dir="rtl">זרח</span>, where Onkelos has <span dir="rtl">דנח</span>. So there's some hodgepodge in there, like the commenter said, but it's a hodgepodge that's mostly Gemara.
 

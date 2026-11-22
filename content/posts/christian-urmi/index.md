@@ -37,7 +37,9 @@ It’s been a journey. My years of studying the {{< tooltip term="Bavli" key="ta
 
 {{< youtube dn6f3cpc5PE >}}
 
-<!-- TODO: second video (listening along with the text) -->
+In the second video I go through it again, this time reading along with the text.
+
+{{< youtube odDGO3t4QuM >}}
 
 ## Christian Urmi
 

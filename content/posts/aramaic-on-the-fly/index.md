@@ -44,6 +44,69 @@ The video of the read-through is on its way. It will go up here once it’s live
 
 So I took {{< tooltip term="Aesop" key="aesop" >}}'s *North Wind and the Sun* and translated it out loud, a phrase at a time, without looking anything up. I didn't want to be the only judge of how it went, so before I started, I gave ChatGPT a rubric to grade the transcript with. Did I get the story across, did I have the right words, were they in the right forms, did it sound natural, and how much did the grammar sound like the Aramaic I was going for. The first time I had it grade against Onkelos, and then I gave it the same transcript again against the Bavli, to see what would change.
 
+{{< admonition type="note" title="The rubric prompt (Bavli version)" open="false" >}}
+You are grading a translation of Aesop's "The North Wind and the Sun"
+(IPA English version, below) into Jewish Babylonian Aramaic (JBA) — the
+Aramaic of the Babylonian Talmud (Bavli).
+
+Score STRICTLY by this rubric. Do not adjust weights or add categories.
+
+1. Meaning (25): -3 per dropped/added clause, -1 per minor distortion.
+
+2. Lexicon (25): list every content word and classify it:
+   Bavli Aramaic with this meaning = 1.0
+   (Hebrew loanwords that the Bavli actually uses inside Aramaic
+   passages count as Bavli)
+   Targumic / Jewish Literary Aramaic (Onkelos, Jonathan) = 0.75
+   Other Aramaic (Syriac, Galilean, Samaritan, etc.) = 0.5
+   Hebrew word with Aramaic morphology = 0
+   Unattested/invented = 0
+   Score = 25 × (sum of credits ÷ number of content words), rounded.
+
+3. Morphology (25): -2 per wrong verb form (stem, tense, person),
+   -1 per agreement, state, or suffix error. Floor 0.
+   A form that is correct in Onkelos but not the Bavli is NOT a
+   morphology error; it is scored under Register.
+
+4. Syntax &amp; idiom (15): -2 per construction no Bavli passage would
+   use, -1 per awkward-but-possible one. Floor 0.
+
+5. Register (10): grammatical forms only (not vocabulary):
+   -1 per Targumic form (e.g. י־ prefix for "he will" where the Bavli
+   uses נ־/ל־; דין/אלין for "this/these"; regular ית as the object
+   marker where the Bavli uses a suffix or ל; emphatic -ā/-ayyā plural
+   where the Bavli has -ē)
+   -2 per Hebrew form (e.g. ה־ article, אשר, Hebrew verb pattern)
+   Floor 0.
+
+Valid alternatives are full credit. If unsure whether a form is
+attested, mark "uncertain" and do not deduct.
+
+Report:
+- TOTAL: x/100
+- RATING: total ÷ 20, rounded to nearest ½, as
+  "Official rating, scientifically indefensible: X out of 5 cloaks removed"
+- HEBREW WORDS IN ARAMAIC CLOAKS: n — list each with the Bavli word
+- IMPORTED FROM ONKELOS: n — list each Targumic word or form with the
+  Bavli equivalent
+- Category scores, one-line justification each
+- Line-by-line table: original | corrected | reason
+
+SOURCE:
+The North Wind and the Sun were disputing which was the stronger, when
+a traveler came along wrapped in a warm cloak. They agreed that the one
+who first succeeded in making the traveler take his cloak off should be
+considered stronger than the other. Then the North Wind blew as hard as
+he could, but the more he blew the more closely did the traveler fold
+his cloak around him; and at last the North Wind gave up the attempt.
+Then the Sun shined out warmly, and immediately the traveler took off
+his cloak. And so the North Wind was obliged to confess that the Sun
+was the stronger of the two.
+
+TRANSLATION:
+[paste yours]
+{{< /admonition >}}
+
 The cold attempt took me about three minutes, which I know because I timed it. Apparently I didn't record it, though, so the video has me reading back what I came up with at about the same pace as the first attempt. My pronunciation goes back and forth between American {{< tooltip term="yeshiva" key="yeshiva" >}} pronunciation and Israeli Hebrew, and I'm aware of it. Practically all of my mental effort went into coming up with the Aramaic, so once I had a word I said it however it came out and went on.
 
 In the tables, the first column is the English and the second is what I said. After that there are two corrected versions that ChatGPT made, one in {{< tooltip term="Jewish Literary Aramaic" key="jla" >}} (JLA), which is the Aramaic of Onkelos, and one in the Aramaic of the Bavli, and then my notes. Then I had Claude check ChatGPT's work, and funnily enough the Onkelos version had some Bavli mixed into it too. It had <span dir="rtl">ההוא</span> before <span dir="rtl">גברא</span>, where Onkelos puts it after, and <span dir="rtl">פשט</span> for taking off the cloak, where Onkelos says <span dir="rtl">שלח</span>, so I fixed those in the table.

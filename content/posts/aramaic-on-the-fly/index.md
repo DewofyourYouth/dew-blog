@@ -46,7 +46,7 @@ So I took {{< tooltip term="Aesop" key="aesop" >}}'s *North Wind and the Sun* an
 
 The cold attempt took me less than three minutes, which I know because I timed it. Apparently I didn't record it, though, so the video has me reading back what I came up with at about the same pace as the first attempt. My pronunciation goes back and forth between American {{< tooltip term="yeshiva" key="yeshiva" >}} pronunciation and Israeli Hebrew, and I'm aware of it. Practically all of my mental effort went into coming up with the Aramaic, so once I had a word I said it however it came out and went on.
 
-In the tables, the first column is the English and the second is what I said. After that there are two corrected versions that ChatGPT made, one in {{< tooltip term="Jewish Literary Aramaic" key="jla" >}} (JLA), which is the Aramaic of Onkelos, and one in the Aramaic of the Bavli, and then my notes.
+In the tables, the first column is the English and the second is what I said. After that there are two corrected versions that ChatGPT made, one in {{< tooltip term="Jewish Literary Aramaic" key="jla" >}} (JLA), which is the Aramaic of Onkelos, and one in the Aramaic of the Bavli, and then my notes. Then I had Claude check ChatGPT's work, and funnily enough the Onkelos version had some Bavli mixed into it too. It had <span dir="rtl">ההוא</span> before <span dir="rtl">גברא</span>, where Onkelos puts it after, and <span dir="rtl">פשט</span> for taking off the cloak, where Onkelos says <span dir="rtl">שלח</span>, so I fixed those in the table.
 
 {{< join-channels >}}
 
@@ -83,7 +83,7 @@ In the tables, the first column is the English and the second is what I said. Af
 
 ## How much Gemara came out
 
-So how much Gemara came out? Against the Bavli, ChatGPT gave the cold attempt 93 out of 100, and against Onkelos it gave it 85. That's from one pass each on the transcript I typed up from the cold take, so I wouldn't put too much weight on the exact numbers.
+So how much Gemara came out? Against the Bavli, ChatGPT gave the cold attempt 93 out of 100, and against Onkelos it gave it 85. That's from one pass each on the transcript I typed up from the cold take, so I wouldn't put too much weight on the exact numbers. Claude went through it word by word for me too, giving a word full credit if it was the dialect I was being graded on, three quarters if it was some other Aramaic, and nothing if it was Hebrew, and got about 97 against the Bavli and 89 against Onkelos. Same picture, more or less.
 
 Going through my column, I count <span dir="rtl">ההוא גברא</span> four times, plus <span dir="rtl">מינייהו</span>, <span dir="rtl">בתר הכי</span>, <span dir="rtl">טובא</span>, <span dir="rtl">לאלתר</span> and <span dir="rtl">גלימא</span>, which are all Bavli. Then <span dir="rtl">יתחשב תקיף מן חבריה</span> is straight Onkelos, it's word for word the same as the JLA version, and so are <span dir="rtl">ובכן</span> and <span dir="rtl">מצלח</span>. The one place where I couldn't come up with the Aramaic quickly enough was the sunrise, so I just used the Hebrew <span dir="rtl">זרח</span>, where Onkelos has <span dir="rtl">דנח</span>. So there's some hodgepodge in there, like the commenter said, but it's a hodgepodge that's mostly Gemara.
 

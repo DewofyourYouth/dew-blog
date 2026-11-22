@@ -190,6 +190,6 @@ I think the thing that gave me away was *ka*, <span dir="rtl">קא</span>. It's 
 
 My favorite mistake was the last line. I was trying to hold on to “of the two,” so I said <span dir="rtl">דשמשא תקיף מן תרוייהו</span>, which can mean that the sun was stronger than both of them. That's an impressive thing for the sun to pull off, considering it was one of them. When I read it back for the video, I said <span dir="rtl">מינה</span> instead, that the sun was stronger than the wind.
 
-{{< intelligibility score="4.5" of="5" unit="cloaks removed" icon="cloak" >}}
+{{< intelligibility score="4" of="5" unit="cloaks removed" icon="cloak" >}}
 That's grading against the Bavli. I go through Onkelos every week, but when I had three minutes to come up with something, the Gemara is what came out.
 {{< /intelligibility >}}

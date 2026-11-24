@@ -36,9 +36,7 @@ I read Onkelos every week. There's a practice called *{{< tooltip term="shnayim 
 
 With the Gemara it's the opposite. It goes back and forth between Hebrew and Aramaic, and I put much more effort into figuring out what it's saying. My guess was that if I had to come up with sentences on the spot, it would sound more like the {{< tooltip term="Bavli" key="talmud-bavli" >}}, the Babylonian Talmud, since that's the Aramaic I've had to wrestle with.
 
-{{< admonition type="announcement" title="Video coming soon" >}}
-The video of the read-through is on its way. It will go up here once it’s live.
-{{< /admonition >}}
+{{< youtube VGFX8o3uqkU "Can I Speak Aramaic on the Fly?" >}}
 
 ## How I did it
 

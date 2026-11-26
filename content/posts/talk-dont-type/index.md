@@ -64,16 +64,18 @@ I don't want to publish all the mistakes, because there's no point. But I also d
 - Don't add ideas.
 
 {{< admonition type="reflection" title="Qere and ketiv" >}}
-The cleanup prompt has a short list of things Whisper keeps mishearing, and what they should be: البات should be البوت ("the bot"), بيدي should be بدي ("I want"). What's written, and what you read. That's *qere* and *ketiv*.
+The cleanup prompt has a short list of things Whisper keeps mishearing, and what they should be: البات should be البوت ("the bot"), بيدي should be بدي ("I want"). What's written, and what you read. That's *qere* and *ketiv*. It amuses me that I ended up rebuilding a Masoretic convention for a speech-to-text model.
 {{< /admonition >}}
 
 {{< join-channels >}}
 
 ## Picking the Series
 
-The bot also picks which series a post goes in. It counts how many posts each series already has and leans toward the ones with fewer, because otherwise everything ends up in the daily diary series.
+The bot also picks which series a post goes in. It counts how many posts each series already has and leans toward the ones with fewer, because otherwise everything ends up in the daily diary series, which is the junk drawer of any blog.
 
-The first post the bot ever made was about the bot, and it got filed under "Meta." The prompt now says Meta is almost never correct: if I'm talking about the tools, that's context, not content.
+The first post the bot ever made was about the bot, and it got filed under "Meta." Which, in fairness, it was. The prompt now says Meta is almost never correct: if I'm talking about the tools, that's context, not content.
+
+Then, because I was actually using it, it broke. The model picked a series I'd since retired, the save step went looking for a folder that didn't exist, and the whole thing crashed. Now anything that isn't a real series falls back to the diary. That never comes up in a demo.
 
 ## After the Bot
 
@@ -88,7 +90,7 @@ A few more pieces turn a draft into a post:
 
 **Tools, not an agent.** I don't generally run my own command-line tools. Sometimes I do, but usually I have Claude run the CLI for me. The idea is that I can see what Claude ran and know more or less what will happen, because I wrote the tool. I don't need any self-reported chain of thought about what it did. I didn't want to set up an agent, and I don't want to burn a ton of tokens on something that should just be done.
 
-**Elixir, because I wanted to use Elixir.** That's the short answer. It's a personal project, and I wanted to get some chops in Elixir. It's fun. It has a nice Ruby feel to it, but you don't have to build all these object-oriented constructs. I know its main idea is concurrency, and I don't think a bot with one user is that use case. That's fine. (I've written about Elixir [before](/post/pairing-elixir-with-cheese/), [twice](/post/pairing-elixir-with-cheese-ii/).)
+**Elixir, because I wanted to use Elixir.** That's the short answer. It's a personal project, and I wanted to get some chops in Elixir. It's fun. It has a nice Ruby feel to it, but you don't have to build all these object-oriented constructs. I know its main idea is concurrency, and I don't think a bot with one user is that use case. That's fine. (I've written about Elixir [before](/post/pairing-elixir-with-cheese/), [twice](/post/pairing-elixir-with-cheese-ii/), both times involving cheese.)
 
 **Write it locally first.** The bot runs in Docker on a small server and writes every post to disk *first*, then copies it to my laptop. If the copy fails, nothing's lost. I send `retry`.
 
